@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Collapse reforms the carbonyl and releases a leaving group</title><desc>Collapse reforms the carbonyl and releases a leaving group</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="480" y="180" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<text x="480" y="69" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">:O⁻</text>
+<line x1="475" y1="150" x2="475" y2="95" stroke="#153747" stroke-width="3"/>
+<line x1="460" y1="170" x2="385" y2="195" stroke="#153747" stroke-width="3"/>
+<text x="375" y="205" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="end" font-weight="normal">R</text>
+<line x1="500" y1="170" x2="575" y2="195" stroke="#153747" stroke-width="3"/>
+<text x="585" y="205" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="start" font-weight="normal">Y</text>
+<line x1="480" y1="190" x2="480" y2="250" stroke="#153747" stroke-width="3"/>
+<text x="480" y="290" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">Nu</text>
+<path d="M 459 70 Q 410 110 480 130" stroke="#176b91" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 542 186 Q 565 125 587 179" stroke="#176b91" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="480" y="380" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">O lone pair → C–O π bond; C–Y bond pair → Y</text>
+</svg>

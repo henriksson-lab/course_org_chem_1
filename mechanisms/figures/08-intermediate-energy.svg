@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>A multistep path contains an intermediate minimum</title><desc>A multistep path contains an intermediate minimum</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="100" y1="315" x2="870" y2="315" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="100" y1="315" x2="100" y2="60" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="200" y="45" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">Free energy</text>
+<text x="490" y="375" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">Reaction coordinate</text>
+<path d="M 125 270 C 200 270 230 85 315 85 C 370 85 380 205 455 205 C 515 205 530 135 600 135 C 700 135 715 280 845 280" stroke="#176b91" stroke-width="4" fill="none"/>
+<text x="315" y="70" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">TS₁</text>
+<text x="600" y="115" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">TS₂</text>
+<text x="455" y="245" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">intermediate</text>
+<text x="770" y="65" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">Schematic; not to scale</text>
+</svg>

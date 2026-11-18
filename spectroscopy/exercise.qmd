@@ -1,0 +1,107 @@
+---
+title: "A structure puzzle: one formula, several kinds of evidence"
+---
+
+Allow 60 minutes for structure work and 45 minutes for the R plot. All spectra
+and peak tables supplied here are **simulated teaching examples**, not measured
+spectra. Values are illustrative, and simple splitting uses a first-order model.
+
+## 1. Use the formula before looking at a spectrum
+
+Unknown U1 has formula C₄H₈O₂. For this ordinary closed-shell C/H/O molecule,
+the degree of unsaturation is `(2*C + 2 - H)/2`. Calculate it. Draw ethyl
+ethanoate and butanoic acid, showing that both satisfy the formula.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The degree is (8 + 2 − 8)/2 = 1. A carbonyl supplies one double bond in either
+candidate. The formula alone does not decide whether the oxygens are arranged
+as an ester or a carboxylic acid; it also does not rule out every other possible
+connectivity. These are two candidate structures to test.
+:::
+
+## 2. Read the supplied evidence
+
+U1 has strong IR absorption in the ester carbonyl region near 1740 cm⁻¹ and
+no evident broad acid/alcohol O–H band in the supplied complete trace. Its
+proton NMR peaks are:
+
+| Shift / ppm | Multiplicity | Integral |
+| --- | --- | --- |
+| 1.25 | triplet | 3H |
+| 2.05 | singlet | 3H |
+| 4.12 | quartet | 2H |
+
+The proton-decoupled carbon NMR shows four signals at approximately 14, 21,
+60 and 171 ppm. Assign every supplied observation to ethyl ethanoate. Explain
+the quartet/triplet relationship and the acetyl methyl singlet.
+
+::: {.callout-tip collapse="true" title="Hint"}
+First find an O–CH₂–CH₃ fragment. The CH₂ sees three equivalent neighbouring
+H; the CH₃ sees two. Then account for the remaining three protons.
+:::
+
+::: {.callout-note collapse="true" title="Worked assignment"}
+For CH₃COOCH₂CH₃: terminal ethyl CH₃ gives 1.25 ppm, triplet, 3H; O–CH₂ gives
+4.12 ppm, quartet, 2H; acetyl CH₃ gives 2.05 ppm, singlet, 3H because the
+adjacent carbonyl carbon has no H. The carbon signals correspond respectively
+to terminal ethyl CH₃ (14), acetyl CH₃ (21), O–CH₂ (60) and C=O (171). Strong
+carbonyl IR and no broad O–H agree with the ester. Peak heights in a schematic
+NMR drawing are not the integrals; use the supplied areas/integral values.
+:::
+
+## 3. Try to reject the alternative
+
+Explain two independent disagreements between butanoic acid and U1. What
+would make an argument from an absent IR feature less reliable? Why is the
+name of a supplied data file not evidence for chemical identity?
+
+::: {.callout-note collapse="true" title="Worked reasoning"}
+Butanoic acid would have an acid O–H region and no O–CH₂ quartet. It also
+would not give the isolated acetyl methyl singlet of the ester. Absence is less
+informative if the relevant region was not measured, the sample is too dilute,
+or the signal is obscured. A filename is a label supplied by a person and can
+be wrong; identity should be tested against the observations.
+:::
+
+## 4. R task: present an IR comparison
+
+Open the [student project](../reference/data.qmd). The supplied `data/ir.csv`
+contains `sample_id`, `wavenumber_cm1` and `transmittance_percent`. Plot the
+simulated ethyl ethanoate and ethanoic acid traces. Keep their sample labels
+so the plotted evidence can be traced back to the data.
+
+```r
+library(readr)
+library(dplyr)
+library(ggplot2)
+ir <- read_csv("data/ir.csv", show_col_types = FALSE)
+comparison <- ir |>
+  filter(sample_id %in% c("ethyl_ethanoate", "ethanoic_acid"))
+ggplot(comparison,
+       aes(wavenumber_cm1, transmittance_percent, colour = sample_id)) +
+  geom_line() +
+  scale_x_reverse() +
+  labs(x = "Wavenumber (cm−1)", y = "Transmittance (%)",
+       colour = "Simulated sample") +
+  theme_minimal()
+```
+
+Add a report caption explaining that these are simulated traces, that dips
+indicate absorption in a transmittance plot, and which region distinguishes
+the candidates. Use a descending wavenumber axis; it is conventional here and
+does not reverse the underlying physics. Check that transmittance values lie
+between 0 and 100. Do not fit a model or ask R to assign the unknown for you.
+
+::: {.callout-note collapse="true" title="Interpretation check"}
+The acid trace includes a very broad O–H region, while the ester trace lacks
+that broad feature. Both contain carbonyl absorption. The chemical comparison
+uses the functional groups expected from the candidate structures; the plot
+is a way to inspect and communicate the supplied observations. An exact
+carbonyl position is not a unique molecular fingerprint.
+:::
+
+## Leave with
+
+A fully annotated structure, a rejected alternative, and a knitted Rmd section
+with a labelled IR comparison. Read selected Solomons chapters 2 and 9 through
+the [reading guide](../reference/reading.qmd).

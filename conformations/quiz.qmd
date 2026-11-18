@@ -1,0 +1,41 @@
+---
+title: "Self-check: conformations"
+---
+
+Answer before opening each check. Give a reason or a drawing, not only a term.
+
+## 1. What atom information is unchanged by rotating a C–C single bond?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Connectivity: each atom retains its bonded neighbours. A different conformation is not a constitutional isomer.
+:::
+
+## 2. What does the circle represent in a Newman projection?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The rear carbon viewed along a specified bond. The front carbon is shown as the central dot.
+:::
+
+## 3. Is anti-butane staggered or eclipsed?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Staggered. Its terminal methyl groups have a 180° dihedral angle; gauche-butane is also staggered, with 60° between those groups.
+:::
+
+## 4. Does a chair flip turn an up substituent down?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Up stays up and down stays down; axial and equatorial exchange. Cis/trans configuration is preserved.
+:::
+
+## 5. At equilibrium, what does a positive ΔG for B relative to A predict?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+B has lower statistical weight than A at the same temperature. For the supplied two-state model, use exp(−ΔG/RT) then normalise.
+:::
+
+## 6. Do equilibrium populations determine how quickly a ring flips?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Interconversion rates depend on activation barriers, while the equilibrium ratio depends on the free-energy difference of the states.
+:::

@@ -1,0 +1,55 @@
+---
+title: "Self-check: Substitution"
+---
+
+Answer each question before opening its explanation. Draw the relevant structure or step when asked; recognition alone can hide a charge or geometry error.
+
+## 1. Which carbon is secondary?
+
+Classify the carbon bearing Br in CH₃CH(Br)CH₂CH₃.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+It is secondary because it is directly bonded to two carbon atoms. The molecule containing four carbons does not make the reacting centre tertiary.
+:::
+
+## 2. What does SN2 leave behind?
+
+For OH⁻ + CH₃Br, give products and net charge.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+CH₃OH + Br⁻; total charge is minus one. The C–Br pair goes to Br while hydroxide makes C–O.
+:::
+
+## 3. What happens when both concentrations double?
+
+Use the supplied simple SN2 rate law k[RX][Nu]. Keep temperature and solvent fixed.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The initial rate becomes fourfold because each concentration contributes a factor of two. This does not by itself predict a fourfold isolated yield.
+:::
+
+## 4. Does inversion always mean R becomes S?
+
+Explain why priorities must still be checked after an SN2 replacement.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The reacting geometry inverts, but replacing one substituent can change CIP priorities. Assign the new priorities before translating geometry into an R/S label.
+:::
+
+## 5. What follows water capture in SN1?
+
+Water adds to a carbocation. Is the immediate product an ordinary neutral alcohol?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Oxygen has three bonds and formal charge plus one, giving a protonated alcohol. A base such as another water must remove a proton to give the neutral alcohol.
+:::
+
+## 6. Is every SN1 product exactly racemic?
+
+A carbocation is planar. What does that suggest, and what qualification is needed?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Both faces can be accessible, giving both configurations when a stereocentre forms. Ion pairs and the molecular environment can bias attack, so exact 50:50 is not universal.
+:::
+
+If an answer was unexpected, return to the [worked practice](exercise.qmd), repair your own drawing and explain the change in a sentence.

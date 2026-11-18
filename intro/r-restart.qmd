@@ -1,0 +1,90 @@
+---
+title: "R and R Markdown: restart the familiar workflow"
+---
+
+Allow 30–60 minutes if you need a refresher. The goal is to reopen a project,
+read a table, calculate one result and Knit a report. You do not need to learn
+a new programming language or molecular modelling system for this course.
+
+## 1. Open an ordinary project folder
+
+Download the [student ZIP](../downloads/organic-chemistry-student.zip), locate
+it in your file manager and extract it. Open the extracted
+`organic-chemistry.Rproj` in RStudio. Work inside the extracted folder rather
+than opening files inside the ZIP.
+
+The project root contains `report.Rmd`, the project file and `data/`.
+The report refers to `data/amounts.csv`: that is a relative path starting from
+the report's folder. Keep the report there. Save derived files in `output/`
+and leave the original CSVs unchanged.
+
+## 2. Check the software once
+
+Use the R/RStudio environment supported by your programme. The course uses
+`readr`, `dplyr`, `ggplot2`, `knitr` and `rmarkdown`, the same report workflow
+as the introductory computing materials. If these packages are absent from
+your own installation, install them once from the R console:
+
+```r
+install.packages(c("readr", "dplyr", "ggplot2", "knitr", "rmarkdown"))
+```
+
+Installation needs network access. In a managed teaching environment follow
+the provided setup instructions instead of changing its installation. RStudio
+normally supplies the Pandoc program used when knitting HTML reports.
+
+## 3. Read and inspect before calculating
+
+Run the following in an R script or a code chunk, not the terminal:
+
+```r
+library(readr)
+library(dplyr)
+amounts <- read_csv("data/amounts.csv", show_col_types = FALSE)
+amounts
+names(amounts)
+```
+
+Expect two reactant rows. Check the units in the column names and the
+[data dictionary](../reference/data.qmd). A row is a reagent in a constructed
+reaction example, not an independent experiment.
+
+## 4. Check one calculation by hand
+
+Amount in mol = mass in g / molar mass in g/mol. For salicylic acid,
+1.3812 g / 138.12 g/mol = 0.0100 mol = 10.0 mmol.
+
+```r
+amounts <- amounts |>
+  mutate(amount_mol = mass_g / molar_mass_g_mol,
+         amount_mmol = 1000 * amount_mol)
+amounts
+```
+
+Explain why the result changes by a factor of 1000 when changing mol to mmol.
+A variable name is a reminder of units; R does not automatically enforce them.
+
+## 5. Knit from a fresh session
+
+Open `report.Rmd`. Replace the author name, save, then click **Knit** to create
+the HTML report. The starter already creates every object it uses. Restart R
+and Knit again to check that saved code and data are sufficient.
+
+In an Rmd, prose belongs outside code chunks. R belongs between the chunk's
+opening and closing triple backticks. Use the editor's Insert Chunk command
+if you lose track of those boundaries. The teaching website uses `.qmd` files;
+your student report remains `.Rmd`.
+
+## Recover from common errors
+
+| Symptom | Check |
+| --- | --- |
+| “Cannot open file” | Is the ZIP extracted? Is `report.Rmd` beside the `data/` folder? Is the filename exact, including its extension? |
+| “Object not found” | Is the object created in an earlier chunk in the report? Running a command in the console does not add it to the report |
+| “Could not find function” | Load the package in the report's setup chunk; check spelling |
+| A column contains text instead of numbers | Inspect the CSV, decimal marks and import messages; do not silently coerce errors away |
+| The output did not change | Save the Rmd and Knit again; confirm you opened the new HTML file |
+| A calculation is 1000 times too large | Check g/mg and mol/mmol conversions |
+
+Ask for setup help if you cannot open the project or Knit the supplied starter.
+Keep working on the paper chemistry questions while the software issue is resolved.

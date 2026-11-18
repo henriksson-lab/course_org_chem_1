@@ -1,0 +1,208 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+  - index.qmd
+  - course.qmd
+  - intro/*.qmd
+  - reference/*.qmd
+  - structures/*.qmd
+  - properties/*.qmd
+  - acids-bases/*.qmd
+  - conformations/*.qmd
+  - stereochemistry/*.qmd
+  - mechanisms/*.qmd
+  - substitution/*.qmd
+  - elimination-addition/*.qmd
+  - alcohols-redox/*.qmd
+  - carbonyl-addition/*.qmd
+  - acyl-chemistry/*.qmd
+  - amines-aromatics/*.qmd
+  - spectroscopy/*.qmd
+  - synthesis-evidence/*.qmd
+  - integration/*.qmd
+  resources:
+  - assets/
+  - data/
+  - downloads/
+  - templates/report.Rmd
+  - organic-chemistry.Rproj
+website:
+  title: Organic Chemistry 1
+  description: Structure, reactivity and evidence — with R as an everyday laboratory
+    tool.
+  navbar:
+    left:
+    - href: index.qmd
+      text: Home
+    - href: course.qmd
+      text: Course route
+    - href: reference/data.qmd
+      text: Downloads
+  sidebar:
+    style: docked
+    search: true
+    contents:
+    - text: Start here
+      href: index.qmd
+    - section: Course essentials
+      contents:
+      - text: Learning route
+        href: course.qmd
+      - text: R and R Markdown
+        href: intro/r-restart.qmd
+      - text: Reference toolkit
+        href: reference/toolkit.qmd
+      - text: Practical work and report
+        href: reference/practical.qmd
+      - text: Data and downloads
+        href: reference/data.qmd
+      - text: Reading and image credits
+        href: reference/reading.qmd
+    - section: Week 1
+      contents:
+      - section: 1. Reading organic structures
+        contents:
+        - text: Lecture slides
+          href: structures/lec.qmd
+        - text: Practice and worked examples
+          href: structures/exercise.qmd
+        - text: Self-check
+          href: structures/quiz.qmd
+      - section: 2. Properties and IR
+        contents:
+        - text: Lecture slides
+          href: properties/lec.qmd
+        - text: Practice and worked examples
+          href: properties/exercise.qmd
+        - text: Self-check
+          href: properties/quiz.qmd
+      - section: 3. Acids, bases and ionisation
+        contents:
+        - text: Lecture slides
+          href: acids-bases/lec.qmd
+        - text: Practice and worked examples
+          href: acids-bases/exercise.qmd
+        - text: Self-check
+          href: acids-bases/quiz.qmd
+    - section: Week 2
+      contents:
+      - section: 4. Conformations
+        contents:
+        - text: Lecture slides
+          href: conformations/lec.qmd
+        - text: Practice and worked examples
+          href: conformations/exercise.qmd
+        - text: Self-check
+          href: conformations/quiz.qmd
+      - section: 5. Stereochemistry
+        contents:
+        - text: Lecture slides
+          href: stereochemistry/lec.qmd
+        - text: Practice and worked examples
+          href: stereochemistry/exercise.qmd
+        - text: Self-check
+          href: stereochemistry/quiz.qmd
+      - section: 6. Electron flow and mechanisms
+        contents:
+        - text: Lecture slides
+          href: mechanisms/lec.qmd
+        - text: Practice and worked examples
+          href: mechanisms/exercise.qmd
+        - text: Self-check
+          href: mechanisms/quiz.qmd
+    - section: Week 3
+      contents:
+      - section: 7. Substitution
+        contents:
+        - text: Lecture slides
+          href: substitution/lec.qmd
+        - text: Practice and worked examples
+          href: substitution/exercise.qmd
+        - text: Self-check
+          href: substitution/quiz.qmd
+      - section: 8. Elimination and addition
+        contents:
+        - text: Lecture slides
+          href: elimination-addition/lec.qmd
+        - text: Practice and worked examples
+          href: elimination-addition/exercise.qmd
+        - text: Self-check
+          href: elimination-addition/quiz.qmd
+      - section: 9. Alcohols and redox
+        contents:
+        - text: Lecture slides
+          href: alcohols-redox/lec.qmd
+        - text: Practice and worked examples
+          href: alcohols-redox/exercise.qmd
+        - text: Self-check
+          href: alcohols-redox/quiz.qmd
+    - section: Week 4
+      contents:
+      - section: 10. Carbonyl addition
+        contents:
+        - text: Lecture slides
+          href: carbonyl-addition/lec.qmd
+        - text: Practice and worked examples
+          href: carbonyl-addition/exercise.qmd
+        - text: Self-check
+          href: carbonyl-addition/quiz.qmd
+      - section: 11. Acyl chemistry
+        contents:
+        - text: Lecture slides
+          href: acyl-chemistry/lec.qmd
+        - text: Practice and worked examples
+          href: acyl-chemistry/exercise.qmd
+        - text: Self-check
+          href: acyl-chemistry/quiz.qmd
+      - section: 12. Amines and aromatics
+        contents:
+        - text: Lecture slides
+          href: amines-aromatics/lec.qmd
+        - text: Practice and worked examples
+          href: amines-aromatics/exercise.qmd
+        - text: Self-check
+          href: amines-aromatics/quiz.qmd
+    - section: Week 5
+      contents:
+      - section: 13. Structure from spectra
+        contents:
+        - text: Lecture slides
+          href: spectroscopy/lec.qmd
+        - text: Practice and worked examples
+          href: spectroscopy/exercise.qmd
+        - text: Self-check
+          href: spectroscopy/quiz.qmd
+      - section: 14. Synthesis and evidence
+        contents:
+        - text: Lecture slides
+          href: synthesis-evidence/lec.qmd
+        - text: Practice and worked examples
+          href: synthesis-evidence/exercise.qmd
+        - text: Self-check
+          href: synthesis-evidence/quiz.qmd
+      - section: 15. Putting the chemistry together
+        contents:
+        - text: Lecture slides
+          href: integration/lec.qmd
+        - text: Practice and worked examples
+          href: integration/exercise.qmd
+        - text: Self-check
+          href: integration/quiz.qmd
+  page-footer:
+    left: Organic Chemistry 1 · 7.5 credits · Teaching draft
+    right: Structures · Mechanisms · Evidence
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    css: styles.css
+execute:
+  eval: false
+  echo: true
+controls: true
+controls-layout: edges
+controls-back-arrows: visible

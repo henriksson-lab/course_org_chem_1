@@ -1,0 +1,125 @@
+---
+title: "Practice: account for carbonyl addition one step at a time"
+---
+
+Allow 90 minutes. Colour or label the oxygen atoms so their identities remain
+visible through each mechanism. Use explicit proton donors and acceptors.
+The point is to understand the recurring pattern, not memorise every carbonyl
+reagent. Review the [alcohol reduction](../alcohols-redox/exercise.qmd) for the
+same addition → proton-transfer pattern with a different nucleophile.
+
+## 1. Partial charge is not formal charge
+
+Draw ethanal, CH₃CHO, with its carbonyl oxygen lone pairs. Mark the direction
+of bond polarity and describe the geometry at carbon. Does δ+ at carbon mean
+it is already a carbon atom with formal charge +1? Why can a nucleophile
+attack carbon rather than the electron-rich oxygen in the selected addition?
+
+::: {.callout-note collapse="true" title="Worked check"}
+The oxygen attracts electron density, leaving carbon partially electron-poor.
+Carbonyl carbon is approximately trigonal planar, with three bond directions.
+Both atoms have formal charge zero in the ordinary neutral Lewis structure;
+partial charge describes uneven electron density. The nucleophile donates a
+pair to the electron-poor carbon while the C=O π pair moves to oxygen,
+making a chemically valid four-single-bond carbon centre.
+:::
+
+## 2. Base-catalysed hydration with an atom label
+
+Label ethanal's oxygen A. Label the oxygen of attacking OH⁻ as B. Draw hydroxide
+addition and then proton transfer from water. In the hydrate, which O came
+from carbonyl and which from hydroxide? Why is hydroxide a catalyst in the
+net transformation even though a hydroxide ion appears in the first step?
+
+::: {.callout-tip collapse="true" title="Hint"}
+After the first step, A is O⁻ and B is OH. Which species can supply H to A,
+and which species remains after that donor has lost H⁺?
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The first product is CH₃CH(OH-B)(O-A⁻). The B lone pair forms C–O-B while
+the C=O-A π pair moves onto A. Water then donates H⁺ to A and becomes OH⁻.
+Both A and B are OH in the hydrate CH₃CH(OH)₂, but their tracked identities
+remain distinct in this drawing. Hydroxide is used and regenerated overall;
+net hydration is ethanal + water ⇌ hydrate. The mechanism does not by itself
+prove that the hydrate dominates the equilibrium mixture.
+:::
+
+## 3. Acid-catalysed hemiacetal formation
+
+Start with ethanal and methanol. Label the carbonyl oxygen A and methanol
+oxygen B. Draw three elementary stages: protonation of A using hydronium;
+attack by methanol at carbon with the C=O π pair moving to A; removal of the
+extra proton from B by water. Give formal charges after each stage.
+
+::: {.callout-note collapse="true" title="Worked check"}
+Protonating A gives CH₃CH=O-AH⁺ plus water. Methanol O-B attacks carbon,
+giving CH₃CH(OH-A)(O-B⁺HCH₃); A now has two single bonds and is neutral,
+while B has three single bonds and charge +1. Water removes the B proton,
+giving CH₃CH(OH-A)(O-BCH₃) and hydronium. The final product is a hemiacetal:
+OH and OCH₃ are on the same carbon. The acid catalyst is regenerated.
+:::
+
+## 4. Distinguish the product classes
+
+For each structure, circle the carbon of interest and classify it as an
+aldehyde, hydrate, hemiacetal or acetal:
+
+- CH₃CHO
+- CH₃CH(OH)₂
+- CH₃CH(OH)OCH₃
+- CH₃CH(OCH₃)₂
+
+Which difference would make it incorrect to call a hemiacetal an acetal?
+For the net acid-catalysed equilibrium CH₃CHO + 2 CH₃OH ⇌ CH₃CH(OCH₃)₂ + H₂O,
+predict the direction favoured by adding excess water. Explain the role
+of acid separately from the effect of changing water concentration.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The listed classes are aldehyde, hydrate, hemiacetal and acetal, respectively.
+A hemiacetal has one OH and one OR; an acetal has two OR groups on the same
+carbon. Excess water can favour hydrolysis toward aldehyde and methanol.
+Acid catalyses the interconversion and is regenerated; it does not change
+the equilibrium constant for the same net reaction under the same conditions.
+Converting a hemiacetal to an acetal requires additional activation, loss of
+water, alcohol addition and proton transfer, not a single unexplained swap.
+:::
+
+## 5. Build a ring without losing an atom
+
+Draw the chain HOCH₂CH₂CH₂CH₂CHO (5-hydroxypentanal). Show how its terminal
+alcohol oxygen can attack the aldehyde carbon through the same chemical
+pattern. Draw the neutral cyclic hemiacetal after proton transfers. Count
+the ring atoms and compare molecular formula before and after. Is water
+lost in the net chain → cyclic hemiacetal transformation?
+
+::: {.callout-note collapse="true" title="Worked check"}
+The ring contains the attacking terminal oxygen, four methylene carbons and
+the original aldehyde carbon: six ring atoms. The original carbonyl oxygen
+becomes OH on that carbon. The molecular formula C₅H₁₀O₂ is unchanged; no
+water molecule is lost in net hemiacetal cyclisation. The oxygen that forms
+the ring is the original terminal alcohol oxygen. This is an organic
+structure argument that also helps explain why some sugars can form rings.
+:::
+
+## 6. Prepare for acyl chemistry
+
+Compare CH₃CHO and CH₃C(=O)OCH₃. Both have an electrophilic carbonyl carbon.
+What group is bonded to that carbon in the ester that could participate in
+an appropriate addition–elimination pathway? Why would treating H⁻ as an
+ordinary leaving group from an aldehyde be a poor explanation of addition?
+
+::: {.callout-note collapse="true" title="Worked check"}
+The ester has OCH₃ attached to the acyl carbon; under appropriate conditions,
+an oxygen-based group can depart after addition and suitable proton transfers.
+The aldehyde has H in that position. Hydride is not a normal leaving group
+in these simple aqueous carbonyl reactions, so aldehyde nucleophilic addition
+normally retains its H/carbon substituents. The next unit explains when and
+how acyl derivatives undergo substitution rather than just addition.
+:::
+
+## Leave with
+
+Two labelled mechanisms, four product-class assignments and an atom-conserving
+ring drawing. Optional reading: selected Solomons chapter 16 sections; consult
+the [reading guide](../reference/reading.qmd).

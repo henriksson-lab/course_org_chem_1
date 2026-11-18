@@ -1,0 +1,4 @@
+sample_id,shift_ppm,integration,multiplicity,assignment
+unknown_U1,1.25,3,triplet,ethyl_terminal_CH3
+unknown_U1,2.05,3,singlet,acetyl_CH3
+unknown_U1,4.12,2,quartet,O_CH2

@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+
+// Adapted from the quantitative-biology scaffold for 1280 x 720 lecture slides.
+$presentation-font-size-root: 30px;
+$presentation-h2-font-size: 1.45em;
+$presentation-h3-font-size: 1.15em;
+$code-block-font-size: 0.65em;
+$presentation-line-height: 1.25;
+$body-color: #153747;
+$link-color: #176b91;
+
+/*-- scss:rules --*/
+.reveal .slides section > p { margin: 0.5em 0; }
+.reveal .slides section img { max-height: 420px; }
+.reveal .slides section .quarto-figure { margin: 0.35em 0; }
+.reveal .slides section .quarto-figure figcaption { display: none; }
+.reveal .slide-number { font-size: 16px; }
+.reveal .slides section pre { font-size: 0.62em; }

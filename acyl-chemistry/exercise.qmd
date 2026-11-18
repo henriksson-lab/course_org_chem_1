@@ -1,0 +1,96 @@
+---
+title: "Acyl chemistry: follow the intermediate"
+---
+
+Allow 75–90 minutes. You need carbonyl addition, acid–base arrows and formal
+charges. Work on paper first; use the figures to check your bond bookkeeping.
+
+## 1. Find the acyl carbon
+
+Draw CH₃COOH, CH₃COOCH₂CH₃, CH₃CONH₂ and CH₃CH₂OCH₂CH₃. Circle any carbonyl
+carbon. Identify the acid, ester, amide and ether. Explain why an ester oxygen
+is part of a different reactive motif from an ether oxygen.
+
+::: {.callout-tip collapse="true" title="Hint"}
+In the condensed formula CH₃COOCH₂CH₃, the second carbon is C(=O), not a carbon
+with two unrelated single-bonded oxygens. Redraw the bonds explicitly.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The first three structures contain CH₃–C(=O)–Y with Y = OH, OCH₂CH₃ or NH₂.
+They are acid, ester and amide. The ether contains no carbonyl and no acyl
+carbon. The ester can undergo attack at carbonyl carbon followed by leaving-group
+loss; the same carbonyl addition step is unavailable to the ether.
+:::
+
+## 2. Draw hydroxide addition to an ester
+
+Use ethyl ethanoate, CH₃C(=O)OCH₂CH₃. Draw a lone pair from hydroxide oxygen to
+the acyl carbon and move the carbonyl pi pair to oxygen. Draw the resulting
+tetrahedral intermediate with **every relevant hydrogen and charge**. Label
+the original carbonyl oxygen, incoming oxygen and original ester oxygen.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The intermediate is CH₃C(O⁻)(OH)(OCH₂CH₃). The original carbonyl O is O⁻;
+the incoming hydroxide oxygen now has C–O and O–H bonds and is neutral. The
+ethoxy oxygen remains neutral with two bonds. Carbon has four single bonds,
+and the net charge remains −1. An intermediate retaining C=O as well as both
+new and old substituents would give five bonds at carbon and is invalid.
+:::
+
+## 3. Finish the hydrolysis and account for the proton
+
+Collapse that intermediate by reforming C=O and breaking the acyl C–OEt bond.
+Then show the acid–base step between the initially formed carboxylic acid and
+ethoxide. What species predominates in the basic reaction mixture? What does
+acid work-up change?
+
+::: {.callout-tip collapse="true" title="Hint"}
+An ordinary carboxylic acid is much more acidic than ethanol. Do not stop at
+an acid and a strongly basic alkoxide coexisting as the final pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The O⁻ pair forms a C=O pi bond while the C–OEt pair moves onto ethoxy oxygen.
+This gives CH₃COOH and CH₃CH₂O⁻ in the simple stepwise model. Ethoxide removes
+the acid proton to give CH₃COO⁻ and ethanol. Overall, ester plus hydroxide gives
+carboxylate plus alcohol. Acid work-up protonates carboxylate to the neutral
+acid; it does not reverse the atom identities in the product. These are
+mechanistic reasoning drawings, not instructions to conduct a reaction.
+:::
+
+## 4. Compare aldehyde addition with ester substitution
+
+Draw hydroxide addition to ethanal as a reversible elementary step. Compare
+its tetrahedral species with the ester intermediate above. Why is expelling
+H⁻ from the ethanal intermediate not a reasonable analogy to loss of ethoxide?
+
+::: {.callout-note collapse="true" title="Worked check"}
+The aldehyde has H where an ester has OR. Hydride would be an extremely poor
+leaving group in this setting. An aldehyde can return to its starting carbonyl
+by reversing addition or proceed through appropriate addition chemistry; it
+does not ordinarily substitute away its carbon-bound H by this analogy.
+Product prediction must consider leaving-group viability, not just valence.
+:::
+
+## 5. Explain an amide using resonance
+
+Draw neutral ethanamide and its charge-separated contributor with a C=N bond.
+Assign O and N charges and count the total charge. Explain why the C–N bond
+rotates less freely than a simple amine C–N bond. Then predict the initial
+outcome of mixing ethanoic acid with methylamine in water.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The second contributor is CH₃C(O⁻)=NH₂⁺. Net charge stays zero, and the actual
+amide has partial C–N double-bond character. Its nitrogen pair is less
+available for ordinary protonation than a simple amine pair. Acid plus
+methylamine initially gives ethanoate and methylammonium; amide formation
+requires appropriate activation or conditions. This is also why peptide
+formation in water needs more than simply bringing amino acids together.
+:::
+
+## Leave with
+
+A complete ester-hydrolysis mechanism, a comparison with carbonyl addition,
+and an explanation of amide properties. Optional reading is selected Solomons
+chapter 17; consult the [reading guide](../reference/reading.qmd).

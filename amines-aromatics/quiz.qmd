@@ -1,0 +1,57 @@
+---
+title: "Self-check: nitrogen and aromaticity"
+---
+
+Answer before opening each explanation. Draw where appropriate; a correct label
+without a chemical explanation is only a starting point. These are formative checks.
+
+## 1. Is a tertiary amine charged?
+
+Trimethylamine has three methyl groups on N. State its charge before and after accepting one proton.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Neutral (CH₃)₃N has three N–C bonds and one lone pair. Its conjugate acid (CH₃)₃NH⁺ has four bonds and charge +1.
+:::
+
+## 2. Which pKa belongs in a basicity comparison?
+
+Conjugate-acid pKa values are 10.7 for ethylammonium and 4.6 for anilinium. Which neutral base is stronger in comparable aqueous conditions?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Ethylamine. Its conjugate acid is the weaker acid with larger pKa. Basicity is an equilibrium property and is not a universal nucleophilic-rate ranking.
+:::
+
+## 3. Is cyclohexane aromatic?
+
+It is a six-membered ring. Explain why this is insufficient.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+It has no continuous cyclic p-orbital network. It is nonaromatic; being cyclic does not imply aromaticity or antiaromaticity.
+:::
+
+## 4. Which nitrogen pair is in the sextet?
+
+Compare pyridine and pyrrole nitrogen lone pairs.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The pyridine lone pair lies outside its aromatic pi system. The pyrrole pair supplies two of the six aromatic pi electrons, making ordinary N protonation much less favourable.
+:::
+
+## 5. Does net zero mean no charge?
+
+Draw glycine in its predominant form near pH 6 with supplied pKa values 2.3 and 9.6.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+H₃N⁺–CH₂–COO⁻ has N charge +1 and carboxylate charge −1, giving net zero. It is a zwitterion, not an entirely uncharged molecule.
+:::
+
+## 6. Is peptide nitrogen a simple amine?
+
+Identify the neighbouring structural feature that changes its electron availability.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Peptide nitrogen is directly attached to a carbonyl as part of an amide. Its pair delocalises into C=O, unlike the pair in a simple alkylamine.
+:::
+
+Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+could not reconstruct. Explain one corrected mistake in your own words.

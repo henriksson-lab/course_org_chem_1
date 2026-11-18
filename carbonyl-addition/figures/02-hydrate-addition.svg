@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Hydroxide adds through a lone pair; the pi pair moves to oxygen</title><desc>Hydroxide adds through a lone pair; the pi pair moves to oxygen</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="345" y="214" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="338" y1="185" x2="338" y2="127" stroke="#153747" stroke-width="3"/>
+<line x1="352" y1="185" x2="352" y2="127" stroke="#153747" stroke-width="3"/>
+<text x="345" y="110" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#af3b45" text-anchor="middle" font-weight="normal">O</text>
+<line x1="323" y1="205" x2="250" y2="232" stroke="#153747" stroke-width="3"/>
+<text x="210" y="247" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="367" y1="205" x2="457" y2="232" stroke="#153747" stroke-width="3"/>
+<text x="480" y="247" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<text x="85" y="220" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#176b91" text-anchor="middle" font-weight="normal">:OH⁻</text>
+<path d="M 55 185 Q 195 85 320 182" stroke="#176b91" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 353 150 Q 415 85 375 87" stroke="#176b91" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="745" y="199" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="745.0" y1="177.0" x2="745" y2="125" stroke="#153747" stroke-width="3"/>
+<line x1="724.0" y1="194.0" x2="640" y2="210" stroke="#153747" stroke-width="3"/>
+<line x1="769.0" y1="194.0" x2="865" y2="210" stroke="#153747" stroke-width="3"/>
+<line x1="745.0" y1="207.0" x2="745" y2="275" stroke="#153747" stroke-width="3"/>
+<text x="745" y="105" font-family="DejaVu Sans, sans-serif" font-size="29" fill="#af3b45" text-anchor="middle" font-weight="normal">O⁻</text>
+<text x="605" y="225" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="885" y="225" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<text x="745" y="305" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#176b91" text-anchor="middle" font-weight="normal">OH</text>
+<text x="480" y="375" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">Ethanal + OH⁻ ⇌ CH₃CH(OH)O⁻</text>
+</svg>

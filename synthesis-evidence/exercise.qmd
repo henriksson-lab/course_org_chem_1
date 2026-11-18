@@ -1,0 +1,124 @@
+---
+title: "Synthesis evidence: calculate, compare, explain"
+---
+
+Allow 75 minutes for the chemistry questions, plus about 50 minutes for your
+Rmd results section. This uses **simulated teaching data**, not an approved
+experimental procedure. See [practical work and reporting](../reference/practical.qmd)
+for the record and report workflow.
+
+## 1. A short route, with a reason for each step
+
+Propose a route from ethanol to ethyl ethanoate using ethanoic acid as an
+intermediate. State the functional-group change at each step and where an
+additional ethanol portion is required. Why would a procedure designed to
+isolate ethanal not automatically be suitable for the acid target?
+
+::: {.callout-note collapse="true" title="Worked route"}
+Oxidise an ethanol portion to ethanoic acid under appropriate oxidation
+conditions, then combine the acid with a separate ethanol portion in an
+acid-catalysed esterification equilibrium. The first transformation is alcohol
+oxidation; the second is acyl substitution. Conditions that stop at or isolate
+ethanal serve a different target from conditions permitting further oxidation
+to the acid. Reagent identity and work-up would need an approved protocol
+before carrying this out experimentally.
+:::
+
+## 2. A balanced aspirin amount table
+
+The teaching reaction is salicylic acid + acetic anhydride → aspirin +
+ethanoic acid, with 1:1:1:1 stoichiometry. Supplied masses and molar masses:
+
+| Reagent | Mass / g | Molar mass / (g mol⁻¹) |
+| --- | --- | --- |
+| Salicylic acid | 1.3812 | 138.12 |
+| Acetic anhydride | 1.53135 | 102.09 |
+
+Calculate amount as mass/molar mass. Compare amount divided by stoichiometric
+coefficient to identify the limiting reagent. Aspirin molar mass is 180.16
+g/mol. Predict the theoretical product mass before using the isolated mass.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Dividing g by g/mol gives mol. One mmol is 0.001 mol. A larger mass does not
+necessarily indicate an excess reagent; use the balanced reaction.
+:::
+
+::: {.callout-note collapse="true" title="Worked calculation"}
+Salicylic acid: 0.01000 mol = 10.00 mmol. Acetic anhydride: 0.01500 mol =
+15.00 mmol. With coefficients of one, salicylic acid limits product to
+0.01000 mol. The theoretical mass is 0.01000 × 180.16 = 1.8016 g. This is a
+stoichiometric upper bound under the assumed desired reaction, not evidence
+that all of the starting material actually reacted.
+:::
+
+## 3. Isolated yield is not purity
+
+The isolated material weighs 1.20 g. Calculate apparent isolated yield as
+`100 * isolated_mass_g / theoretical_mass_g`. Name two ways this mass could
+overstate the true mass of product. Would a yield below 100% establish purity?
+
+::: {.callout-note collapse="true" title="Worked check"}
+Yield is about 66.6%. Residual solvent, water, starting material or other
+impurities could add to the measured mass. A value below 100% does not prove
+purity: impure material can still weigh less than the theoretical product.
+Conversion measures starting-material consumption; selectivity measures how
+much of reacted material follows the desired route. Neither is established
+solely by this isolated mass.
+:::
+
+## 4. A TLC observation with limits
+
+The solvent front travels 5.0 cm. Starting-material reference and product
+reference travel 1.2 and 3.2 cm respectively. The crude sample has two spots
+at those same distances under the same conditions. Calculate both Rf values
+and give a restrained interpretation. Explain why one spot from the isolate
+would still not uniquely identify it or prove purity.
+
+::: {.callout-note collapse="true" title="Worked check"}
+Rf values are 0.24 and 0.64. The crude contains at least two detected
+components under these conditions, with spots consistent with the references.
+Different compounds can co-migrate, and some components can be invisible to
+the detection method. Compare spectra and use other suitable evidence rather
+than treating Rf as a unique identity code.
+:::
+
+## 5. Rmd task: results that update when a mass changes
+
+In the student project, save a results section containing the amount table,
+limiting-reagent reasoning, theoretical mass and isolated yield. Reuse code
+from the [report guide](../reference/practical.qmd) or adapt this transparent
+calculation:
+
+```r
+library(readr)
+library(dplyr)
+amounts <- read_csv("data/amounts.csv", show_col_types = FALSE) |>
+  mutate(amount_mol = mass_g / molar_mass_g_mol,
+         extent_mol = amount_mol / stoich)
+theoretical_product_mol <- min(amounts$extent_mol)
+theoretical_mass_g <- theoretical_product_mol * 180.16
+isolated_mass_g <- 1.20
+isolated_yield_percent <- 100 * isolated_mass_g / theoretical_mass_g
+knitr::kable(amounts)
+isolated_yield_percent
+```
+
+The `amounts.csv` table contains the two starting reagents. If adding product
+or solvent rows later, select the relevant starting reagents before `min()`.
+Inspect the table and check the units. Write the numerical yield using inline
+R in the report, not by typing a second independent copy of the number. Add
+your TLC table and an interpretation distinguishing evidence for reaction,
+identity and purity. Change the isolated mass to 1.10 g, predict the direction
+of change, and Knit again before restoring the original teaching value.
+
+::: {.callout-note collapse="true" title="Reproducibility check"}
+At 1.10 g the apparent isolated yield becomes about 61.1%. Every dependent
+result should change when knitted. If a copied number remains 66.6%, it is
+no longer linked to the saved calculation. Correctness also requires the
+right stoichiometry and trustworthy primary observations; automatic updating
+alone cannot supply either.
+:::
+
+Finish with two sentences stating what the observations support and what
+remains uncertain. Optional reading: selected Solomons chapters 8, 12 and 17;
+see the [reading guide](../reference/reading.qmd).

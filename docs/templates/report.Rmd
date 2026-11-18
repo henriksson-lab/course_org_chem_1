@@ -1,0 +1,132 @@
+---
+title: "Organic Chemistry 1: chemical evidence and calculations"
+author: "Replace with your name"
+output:
+  html_document:
+    toc: true
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width = 7, fig.height = 4)
+library(readr)
+library(dplyr)
+library(ggplot2)
+```
+
+# Chemical question
+
+How much product is theoretically possible, and what evidence would support its
+identity? This starter uses **simulated teaching data**, not a performed synthesis.
+Replace or extend the question and interpretation as you complete the exercises.
+
+# Reaction and primary records
+
+The teaching equation is salicylic acid + acetic anhydride → aspirin + ethanoic
+acid, with coefficients 1:1:1:1. Insert your own checked chemical drawing here.
+For actual laboratory work retain dated original observations in your journal
+and refer to the approved protocol; do not infer operating instructions from
+this calculation template.
+
+# Amounts and limiting reagent
+
+Mass is in grams, molar mass in g/mol and amount in mol. Reaction extent is
+amount divided by the balanced-equation coefficient. Compare both reactants.
+
+```{r amounts}
+amounts <- read_csv("data/amounts.csv", show_col_types = FALSE) |>
+  mutate(amount_mol = mass_g / molar_mass_g_mol,
+         extent_mol = amount_mol / stoich)
+stopifnot(all(amounts$mass_g > 0), all(amounts$stoich > 0))
+knitr::kable(amounts, digits = 5, caption = "Simulated reactant amounts.")
+limiting_extent_mol <- min(amounts$extent_mol)
+limiting_reagent <- amounts$reagent[which.min(amounts$extent_mol)]
+```
+
+The limiting reagent is **`r limiting_reagent`**, supporting a reaction extent
+of `r signif(limiting_extent_mol, 3)` mol. Explain why comparing grams alone
+would not identify the limiting reagent.
+
+# Isolation and yield
+
+```{r yield}
+isolation <- read_csv("data/isolation.csv", show_col_types = FALSE) |>
+  mutate(theoretical_mass_g = limiting_extent_mol * product_stoich *
+           product_molar_mass_g_mol,
+         isolated_yield_percent = 100 * isolated_mass_g / theoretical_mass_g)
+knitr::kable(isolation, digits = 3,
+             caption = "Simulated isolation; product purity has not been established.")
+```
+
+The theoretical mass is `r round(isolation$theoretical_mass_g, 4)` g and the
+isolated yield is `r round(isolation$isolated_yield_percent, 1)`%.
+This mass ratio does not establish conversion, identity or purity.
+
+# Ionisation model
+
+Predict the ionised fraction of a monoprotic acid at pH = pKa before running
+the calculation. The model uses a supplied pKa of 4.8 and a dilute aqueous
+approximation; the curve is not a measured titration.
+
+```{r ionisation, fig.cap="Calculated ionised fraction for a monoprotic acid with supplied pKa 4.8 in the dilute aqueous approximation."}
+ionisation <- data.frame(pH = seq(1, 9, by = 0.1)) |>
+  mutate(fraction_A_minus = 1 / (1 + 10^(4.8 - pH)))
+ggplot(ionisation, aes(pH, fraction_A_minus)) +
+  geom_line(colour = "#176b91", linewidth = 1) +
+  labs(x = "pH", y = "Fraction present as A−") +
+  theme_minimal()
+```
+
+Explain the midpoint and the effect of raising pH. Distinguish a concentration
+ratio from a fraction. What additional information would extraction require?
+
+# TLC evidence
+
+```{r tlc}
+tlc <- read_csv("data/tlc.csv", show_col_types = FALSE) |>
+  mutate(Rf = spot_distance_cm / front_distance_cm)
+knitr::kable(tlc, digits = 2,
+             caption = "Simulated spots measured from a common origin.")
+```
+
+Crude contains two rows because two spots were observed in one lane. Explain
+why a matching Rf does not prove identity, and why rows are not independent
+synthesis replicates. Do not average the crude's two Rf values.
+
+# Spectral evidence
+
+The following compares two **simulated reference teaching traces**. They are
+not spectra of the aspirin sample P1; do not use them as proof of that product.
+For your laboratory report substitute correctly identified sample data.
+
+```{r ir, fig.cap="Synthetic schematic teaching IR traces of ethanol and ethyl ethanoate. Selected Gaussian bands illustrate functional-group contrasts; these are not measured spectra."}
+ir <- read_csv("data/ir.csv", show_col_types = FALSE) |>
+  filter(sample_id %in% c("ethanol", "ethyl_ethanoate"))
+ggplot(ir, aes(wavenumber_cm1, transmittance_percent)) +
+  geom_line(colour = "#176b91") +
+  facet_wrap(~ sample_id, ncol = 1) +
+  scale_x_reverse() +
+  labs(x = expression("Wavenumber (" * cm^{-1} * ")"),
+       y = "Transmittance (%)") +
+  theme_minimal()
+```
+
+Describe two observations, identify the functional groups they support, and
+state an alternative that they cannot exclude. Preserve sample identity.
+
+# Interpretation and limitations
+
+Write your own conclusion linking each claim to a calculation or observation.
+Separate theoretical mass, isolated yield, conversion, identity and purity.
+Do not claim an experiment was performed when working with teaching data.
+
+# Reproducibility
+
+Save this file as `report.Rmd` in the project root, beside
+`organic-chemistry.Rproj` and `data/`. Restart R and Knit. Keep the source,
+data, and resulting HTML together. For extra unit exercises add a section
+before this one, creating all required objects in its code chunks.
+
+```{r session, echo=FALSE}
+sessionInfo()
+```

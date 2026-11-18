@@ -1,0 +1,57 @@
+---
+title: "Self-check: acyl addition and elimination"
+---
+
+Answer before opening each explanation. Draw where appropriate; a correct label
+without a chemical explanation is only a starting point. These are formative checks.
+
+## 1. What is the attacked atom?
+
+In ethyl ethanoate reacting with hydroxide, identify the initial attacked atom and the electron pair that moves at the same time.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The nucleophile attacks acyl carbon. The C=O pi pair moves onto carbonyl oxygen. Directly attaching OH while retaining every carbonyl bond would give five bonds at carbon.
+:::
+
+## 2. What is the intermediate charge?
+
+Write the intermediate from OH⁻ addition to CH₃COOCH₂CH₃ and locate its negative charge.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+CH₃C(O⁻)(OH)(OCH₂CH₃), net −1. Incoming hydroxide becomes a neutral OH substituent; original carbonyl O now carries the charge.
+:::
+
+## 3. What is the final acid/base pair?
+
+After collapse in basic ester hydrolysis, can carboxylic acid and ethoxide be treated as the final predominant products?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Ethoxide deprotonates the much stronger acid to give carboxylate and ethanol. Acid work-up can later protonate the carboxylate.
+:::
+
+## 4. Does acid plus amine directly give amide?
+
+Predict the initial predominant reaction between ethanoic acid and methylamine in water.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Proton transfer gives ethanoate and methylammonium. Suitable activation or conditions are needed to form an amide; simply losing OH⁻ from the unactivated acid is not an adequate mechanism.
+:::
+
+## 5. Why is the amide C–N bond less freely rotating?
+
+Connect amide resonance to its geometry without treating resonance contributors as separate molecules.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Nitrogen pair donation into the carbonyl gives partial C–N double-bond character. The charge-separated contributor has O− and N+; both contributors describe one delocalised amide.
+:::
+
+## 6. Can an aldehyde follow exactly the same substitution?
+
+Why is a tetrahedral aldehyde intermediate not normally converted to an acyl-substitution product by ejecting its carbon-bound hydrogen?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+That would require loss of hydride, a very poor leaving group in this setting. Aldehydes normally undergo carbonyl addition rather than this acyl-substitution analogy.
+:::
+
+Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+could not reconstruct. Explain one corrected mistake in your own words.

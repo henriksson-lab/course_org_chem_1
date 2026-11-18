@@ -1,0 +1,57 @@
+---
+title: "Self-check: structure from spectra"
+---
+
+Answer before opening each explanation. Draw where appropriate; a correct label
+without a chemical explanation is only a starting point. These are formative checks.
+
+## 1. What does C₄H₈O₂ imply?
+
+Calculate degree of unsaturation for an ordinary closed-shell C/H/O molecule and state one limitation.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+(2×4+2−8)/2 = 1. A carbonyl, another double bond or a ring could account for it; formula alone does not establish an ester.
+:::
+
+## 2. Which IR direction means absorption?
+
+In a transmittance plot, do stronger absorptions point up or down?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+They are dips to lower transmittance. An absorbance plot uses a different ordinate. Always inspect the axis label.
+:::
+
+## 3. Which part of an ethyl group is a quartet?
+
+For O–CH₂–CH₃ in the simple first-order model, give the two multiplicities and integrations.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+CH₂ is a quartet integrating to 2H because it sees three adjacent equivalent H. CH₃ is a triplet integrating to 3H because it sees two adjacent H.
+:::
+
+## 4. Why is acetyl methyl a singlet?
+
+In CH₃C(=O)OCH₂CH₃, explain the 3H signal near 2 ppm using neighbouring atoms.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The carbonyl carbon directly adjacent to that methyl has no H. The distant O–CH₂ hydrogens are not vicinal neighbours of the acetyl methyl in this introductory splitting model.
+:::
+
+## 5. Can NMR height replace integral?
+
+A schematic triplet is taller than a singlet. Can you conclude that the triplet represents more H?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Integral is area over the whole signal, not the tallest line. Use supplied integration or measured integrated area; schematic heights are not quantitative proton counts.
+:::
+
+## 6. What rejects the acid candidate?
+
+State two observations in U1 supporting ethyl ethanoate over butanoic acid.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No evident broad acid O–H in a suitable complete IR trace, and a 2H O–CH₂ quartet with matching terminal CH₃ triplet. The acetyl CH₃ singlet supplies additional support.
+:::
+
+Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+could not reconstruct. Explain one corrected mistake in your own words.

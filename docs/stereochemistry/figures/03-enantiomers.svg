@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Mirror images need not be superimposable</title><desc>Mirror images need not be superimposable</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="175" y1="175" x2="315" y2="175" stroke="#153747" stroke-width="3"/>
+<line x1="245" y1="110" x2="245" y2="240" stroke="#153747" stroke-width="3"/>
+<text x="140" y="183" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">OH</text>
+<text x="350" y="183" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<text x="245" y="90" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="245" y="280" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="245" y="330" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">one lactic-acid configuration</text>
+<line x1="645" y1="175" x2="785" y2="175" stroke="#153747" stroke-width="3"/>
+<line x1="715" y1="110" x2="715" y2="240" stroke="#153747" stroke-width="3"/>
+<text x="610" y="183" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<text x="820" y="183" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">OH</text>
+<text x="715" y="90" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="715" y="280" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="715" y="330" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">its mirror image</text>
+<line x1="480" y1="55" x2="480" y2="330" stroke="#176b91" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="480" y="370" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">A mirror swaps left/right; it does not change connectivity.</text>
+</svg>

@@ -1,0 +1,55 @@
+---
+title: "Self-check: Carbonyl addition"
+---
+
+Answer each question before opening its explanation. Draw the relevant structure or step when asked; recognition alone can hide a charge or geometry error.
+
+## 1. Is delta-plus the same as formal plus one?
+
+Explain the labelled carbon in a neutral aldehyde.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Partial positive charge describes unequal electron density in the polar bond. The ordinary neutral Lewis structure assigns formal charge zero to the carbonyl carbon.
+:::
+
+## 2. Which oxygen becomes O minus on initial hydroxide addition?
+
+Label carbonyl oxygen A and hydroxide oxygen B.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+A becomes alkoxide after receiving the carbonyl pi pair. B becomes the newly bonded OH group. The intermediate is tetrahedral and has net charge minus one.
+:::
+
+## 3. Why add to protonated carbonyl under acid conditions?
+
+Name the nucleophile in the methanol example and the purpose of O protonation.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Neutral methanol is the nucleophile. Protonating carbonyl oxygen increases carbonyl carbon electrophilicity. Drawing a strongly basic nucleophile freely present in excess strong acid would require reconsidering acid–base reactions.
+:::
+
+## 4. Which is the hemiacetal?
+
+Choose CH₃CH(OH)₂, CH₃CH(OH)OCH₃ or CH₃CH(OCH₃)₂.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+CH₃CH(OH)OCH₃: one OH and one OR group at the same carbon. The first is a hydrate and the third an acetal.
+:::
+
+## 5. Does a cyclic hemiacetal lose water?
+
+Consider 5-hydroxypentanal closing by internal OH attack and proton transfers.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No net water is lost. The molecular formula is unchanged. Its six-membered ring contains the terminal alcohol oxygen and five carbon atoms; the original carbonyl oxygen becomes OH.
+:::
+
+## 6. How does water affect acetal equilibrium?
+
+For aldehyde + two alcohols ⇌ acetal + water under acid catalysis, predict the direction favoured by excess water.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Excess water can favour hydrolysis toward aldehyde and alcohol. Acid catalyses the pathway in both directions and does not itself change the equilibrium constant.
+:::
+
+If an answer was unexpected, return to the [worked practice](exercise.qmd), repair your own drawing and explain the change in a sentence.

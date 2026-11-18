@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "structures",
+    "title": "Reading organic structures",
+    "week": 1,
+    "number": 1
+  },
+  {
+    "slug": "properties",
+    "title": "Properties and IR",
+    "week": 1,
+    "number": 2
+  },
+  {
+    "slug": "acids-bases",
+    "title": "Acids, bases and ionisation",
+    "week": 1,
+    "number": 3
+  },
+  {
+    "slug": "conformations",
+    "title": "Conformations",
+    "week": 2,
+    "number": 4
+  },
+  {
+    "slug": "stereochemistry",
+    "title": "Stereochemistry",
+    "week": 2,
+    "number": 5
+  },
+  {
+    "slug": "mechanisms",
+    "title": "Electron flow and mechanisms",
+    "week": 2,
+    "number": 6
+  },
+  {
+    "slug": "substitution",
+    "title": "Substitution",
+    "week": 3,
+    "number": 7
+  },
+  {
+    "slug": "elimination-addition",
+    "title": "Elimination and addition",
+    "week": 3,
+    "number": 8
+  },
+  {
+    "slug": "alcohols-redox",
+    "title": "Alcohols and redox",
+    "week": 3,
+    "number": 9
+  },
+  {
+    "slug": "carbonyl-addition",
+    "title": "Carbonyl addition",
+    "week": 4,
+    "number": 10
+  },
+  {
+    "slug": "acyl-chemistry",
+    "title": "Acyl chemistry",
+    "week": 4,
+    "number": 11
+  },
+  {
+    "slug": "amines-aromatics",
+    "title": "Amines and aromatics",
+    "week": 4,
+    "number": 12
+  },
+  {
+    "slug": "spectroscopy",
+    "title": "Structure from spectra",
+    "week": 5,
+    "number": 13
+  },
+  {
+    "slug": "synthesis-evidence",
+    "title": "Synthesis and evidence",
+    "week": 5,
+    "number": 14
+  },
+  {
+    "slug": "integration",
+    "title": "Putting the chemistry together",
+    "week": 5,
+    "number": 15
+  }
+]

@@ -1,0 +1,41 @@
+---
+title: "Self-check: reading organic structures"
+---
+
+Answer before opening each check. Give a reason or a drawing, not only a term.
+
+## 1. How many carbons are in a zigzag with four line segments and no branches?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Five: one at each of the two endpoints and three internal vertices. Saturated acyclic neutral pentane is C₅H₁₂.
+:::
+
+## 2. Does C₂H₆O establish that a sample is ethanol?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Dimethyl ether shares that molecular formula. Connectivity or suitable experimental evidence is needed.
+:::
+
+## 3. How many oxygen atoms are in CH₃C(=O)OH?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Two. One is double-bonded to carbon; the other is single-bonded to carbon and H.
+:::
+
+## 4. What charge has oxygen with one single bond and three lone pairs?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Formal charge −1: 6 − 6 − 1 = −1. Hydroxide is an example.
+:::
+
+## 5. Does a wedge add a fifth bond to carbon?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. It describes one bond pointing toward the viewer. Carbon still obeys its valence requirements.
+:::
+
+## 6. Convert 1.3812 g using molar mass 138.12 g/mol.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The amount is 0.01000 mol = 10.00 mmol. Dividing grams by grams per mole gives moles.
+:::

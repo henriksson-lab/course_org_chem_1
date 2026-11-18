@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>The product depends on the substituent already at the carbonyl carbon</title><desc>The product depends on the substituent already at the carbonyl carbon</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="240" y="199" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="233" y1="170" x2="233" y2="112" stroke="#153747" stroke-width="3"/>
+<line x1="247" y1="170" x2="247" y2="112" stroke="#153747" stroke-width="3"/>
+<text x="240" y="95" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#af3b45" text-anchor="middle" font-weight="normal">O</text>
+<line x1="218" y1="190" x2="145" y2="217" stroke="#153747" stroke-width="3"/>
+<text x="105" y="232" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="262" y1="190" x2="352" y2="217" stroke="#153747" stroke-width="3"/>
+<text x="375" y="232" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<text x="720" y="199" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="713" y1="170" x2="713" y2="112" stroke="#153747" stroke-width="3"/>
+<line x1="727" y1="170" x2="727" y2="112" stroke="#153747" stroke-width="3"/>
+<text x="720" y="95" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#af3b45" text-anchor="middle" font-weight="normal">O</text>
+<line x1="698" y1="190" x2="625" y2="217" stroke="#153747" stroke-width="3"/>
+<text x="585" y="232" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="742" y1="190" x2="832" y2="217" stroke="#153747" stroke-width="3"/>
+<text x="855" y="232" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">OR</text>
+<text x="240" y="315" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="middle" font-weight="normal">aldehyde: addition</text>
+<text x="720" y="315" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">ester: possible addition–elimination</text>
+<text x="480" y="375" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="normal">A tetrahedral intermediate can expel OR only through a suitable pathway.</text>
+</svg>

@@ -1,0 +1,47 @@
+---
+title: "Self-check: stereochemistry"
+---
+
+Answer before opening each check. Give a reason or a drawing, not only a term.
+
+## 1. Is carbon attached to H, OH, CH₃ and CH₃ a stereocentre?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No: the two methyl substituents are identical. A simple tetrahedral stereocentre requires four different substituents.
+:::
+
+## 2. Give lactic-acid CIP priorities for OH, COOH, CH₃ and H.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+OH > COOH > CH₃ > H. Oxygen outranks carbon. For the carbon tie, the COOH carbon has O,O,O in the comparison, whereas CH₃ has H,H,H.
+:::
+
+## 3. Assign the lactic-acid Fischer with COOH top, CH₃ bottom, OH left and H right.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+S. The 1→2→3 trace appears clockwise, but the lowest-priority H is horizontal and points toward the viewer, so invert.
+:::
+
+## 4. Can propene have E and Z forms?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Its terminal alkene carbon bears two identical H substituents. Each alkene carbon needs two different substituents.
+:::
+
+## 5. Must a molecule with two stereocentres be chiral?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. A meso compound has stereocentres but is achiral because of its overall symmetry. Meso-tartaric acid is an example.
+:::
+
+## 6. What is the ee of 70% R and 30% S?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+40% ee in favour of R. The major enantiomer makes up 70%, not 40%, of the two-enantiomer mixture.
+:::
+
+## 7. Does S establish negative optical rotation?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. R/S specifies configuration and (+)/(−) is a measured rotation sign; there is no universal mapping.
+:::

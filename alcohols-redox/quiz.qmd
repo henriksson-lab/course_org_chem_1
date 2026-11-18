@@ -1,0 +1,55 @@
+---
+title: "Self-check: Alcohols and redox"
+---
+
+Answer each question before opening its explanation. Draw the relevant structure or step when asked; recognition alone can hide a charge or geometry error.
+
+## 1. What does propan-2-ol give on selected oxidation?
+
+Retain the carbon skeleton.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Propanone. The carbon bearing OH becomes a carbonyl carbon, while its two carbon substituents remain attached.
+:::
+
+## 2. Why is a tertiary alcohol a boundary case?
+
+Explain the missing bond at the carbon bearing OH.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+It has no C–H bond at that carbon. Simple conversion to C=O while retaining all three C–C bonds would overbond carbon. Harsh oxidation can involve C–C cleavage, outside this selected pattern.
+:::
+
+## 3. What comes immediately after hydride-equivalent addition?
+
+A ketone receives H at carbon while its pi pair moves to oxygen. Name the species type before work-up.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+An alkoxide. A subsequent proton transfer from an explicit donor produces the alcohol. Free hydride in water is not what the simplified H: minus drawing represents.
+:::
+
+## 4. Does an OH band prove which alcohol is present?
+
+State a limitation of functional-group IR evidence.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Many compounds share that functional group, bands can overlap, and samples can contain water or mixtures. Combine multiple observations with structural and purity evidence.
+:::
+
+## 5. Which amount limits a one-to-one reaction?
+
+Reactants are available as 10.0 and 15.0 mmol. Product coefficient is one.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The 10.0 mmol reactant limits product to 10.0 mmol. Compare amount divided by stoichiometric coefficient, rather than raw masses.
+:::
+
+## 6. Does 66.6% isolated yield mean 66.6% conversion?
+
+Explain one possible reason they differ.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Starting material may react but product may be lost during isolation; side products or impurities can also affect the relationship. Conversion, isolated yield and purity answer different questions.
+:::
+
+If an answer was unexpected, return to the [worked practice](exercise.qmd), repair your own drawing and explain the change in a sentence.

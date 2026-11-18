@@ -1,0 +1,107 @@
+---
+title: "Integrated chemistry workshop"
+---
+
+Allow 90–120 minutes. Work independently, compare explanations in pairs and
+then inspect the checks. Use drawings, words and quantitative evidence together.
+
+## Case 1. One molecule, several transformations
+
+Lactic acid is CH₃CH(OH)COOH. It is encountered in biological contexts, but this
+case requires only its drawn functional groups.
+
+1. Identify its alcohol type, acid group and stereocentre.
+2. Draw hydroxide deprotonation of its carboxyl group with two arrows.
+3. Draw the product of oxidising the secondary alcohol to a ketone.
+4. Draw the target ester made from its acid group and ethanol.
+5. For each change, state whether it changes bonding at the original
+   stereocentre and whether that centre still qualifies for R/S assignment.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Draw every relevant oxygen and hydrogen. Ask whether the central carbon has
+four different substituents and remains tetrahedral after the transformation.
+:::
+
+::: {.callout-note collapse="true" title="Worked comparison"}
+The alcohol is secondary and the CH(OH) carbon is the stereocentre. Hydroxide
+gives CH₃CH(OH)COO⁻ and water without changing the centre's bonds. Oxidation
+gives CH₃C(=O)COOH, pyruvic acid; the former centre is now planar and is not
+R/S. Esterification at the acid gives CH₃CH(OH)COOCH₂CH₃ plus water as a net
+equilibrium transformation; the alcohol-bearing centre remains tetrahedral.
+These drawings specify target changes, not a promise of perfect selectivity
+under all conditions. Ordinary proton transfer at the carboxyl OH alone does
+not invert the stereocentre.
+:::
+
+## Case 2. Configuration is not a drawing direction
+
+Draw both configurations of lactic acid with one wedged and one dashed bond.
+Assign priorities OH > COOH > CH₃ > H, explain the COOH/CH₃ tie-break and
+assign R or S for your own drawings. Redraw one molecule after rotating the
+whole drawing; verify that the configuration stays the same. Can you infer
+the sign of optical rotation from that R/S label?
+
+::: {.callout-note collapse="true" title="Worked reasoning"}
+O outranks C, and H is lowest. For the two carbon substituents compare their
+next attached atoms: the acid carbon is treated as attached to O,O,O in CIP
+multiple-bond bookkeeping, while methyl carbon is attached to H,H,H. Orient
+the lowest-priority group away; 1→2→3 clockwise is R and anticlockwise is S.
+If the lowest-priority group points toward you, reverse the apparent result.
+Rigid rotation preserves configuration. R/S does not determine the sign or
+size of measured optical rotation.
+:::
+
+## Case 3. Resolve an unknown with several observations
+
+An unknown has C₄H₈O₂; its complete simulated IR has C=O but no broad O–H.
+Its simulated proton NMR has 1.25 ppm triplet (3H), 2.05 ppm singlet (3H)
+and 4.12 ppm quartet (2H). Compare ethyl ethanoate, butanoic acid and a
+hydroxyketone. For each candidate make at least one testable prediction;
+then explain which candidate best fits the supplied set.
+
+::: {.callout-note collapse="true" title="Worked interpretation"}
+Ethyl ethanoate fits an ester carbonyl, O–CH₂ quartet/CH₃ triplet and acetyl
+CH₃ singlet. Butanoic acid predicts a broad acid O–H feature and lacks O–CH₂;
+a hydroxyketone predicts OH and needs a different proton arrangement. These
+comparisons support the ester candidate among this set. Explicit assignments
+are stronger than stating that the spectrum “looks like an ester”.
+:::
+
+## Case 4. Critique a tempting success claim
+
+For the aspirin teaching reaction, theoretical mass is 1.8016 g. A student
+reports 1.70 g isolate, a single TLC spot and concludes “pure product, 94%
+yield”. Their IR has an unexpected feature and NMR has an extra major set of
+signals. Which numerical statement follows from the mass? Which chemical
+claim is unsupported? Suggest two possible explanations and a useful next
+check. Do not diagnose a unique impurity from these limited facts.
+
+::: {.callout-note collapse="true" title="Worked critique"}
+The apparent mass-based isolated yield is 100 × 1.70/1.8016 ≈ 94.4%, assuming
+the isolated mass is product. Purity is unsupported. Residual solvent or a
+co-migrating organic impurity are possible explanations; incomplete reaction
+or mistaken assignment is also possible. Compare the full NMR integration
+and signals against the expected product and appropriate references, or
+repeat TLC under a suitable different separation condition. The best next
+check depends on which contradictory feature can be tested most directly.
+:::
+
+## Case 5. A report someone else can inspect
+
+Use your own Rmd project to write a short conclusion for a teaching dataset.
+Include the chemical claim, two observations, the reasoning linking them,
+one limitation and a proposed next observation. Reopen the project in a fresh
+R session and Knit from the saved inputs. Ask a partner to find the raw values,
+the calculation and the evidence supporting each sentence.
+
+::: {.callout-note collapse="true" title="Review checklist"}
+The report should reconstruct its own objects, use relative paths and identify
+the data as simulated when appropriate. The conclusion must distinguish
+isolated yield, identity and purity and avoid treating a candidate's filename
+as evidence. Reproducibility and chemical validity are separate requirements:
+both must be checked. See [practical reporting](../reference/practical.qmd).
+:::
+
+Optional further reading is selected biological examples from Solomons
+chapters 22–24, through the [reading guide](../reference/reading.qmd). Detailed
+metabolic pathways and advanced synthesis are outside this workshop.

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Geometry around carbon depends on its bonding</title><desc>Geometry around carbon depends on its bonding</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="200" y="60" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">tetrahedral</text>
+<text x="200" y="200" font-family="DejaVu Sans, sans-serif" font-size="29" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="183" y1="185" x2="125" y2="115" stroke="#153747" stroke-width="3"/>
+<line x1="217" y1="185" x2="275" y2="115" stroke="#153747" stroke-width="3"/>
+<polygon points="200,205 130.62957428668363,272.5036594293469 149.37042571331637,287.4963405706531" fill="#153747"/>
+<line x1="223.87408514266326" y1="218.50073188586938" x2="220.12591485733674" y2="221.49926811413062" stroke="#153747" stroke-width="2"/>
+<line x1="234.27964899966074" y1="228.62628080027142" x2="227.72035100033926" y2="233.87371919972858" stroke="#153747" stroke-width="2"/>
+<line x1="244.68521285665818" y1="238.75182971467345" x2="235.31478714334182" y2="246.24817028532655" stroke="#153747" stroke-width="2"/>
+<line x1="255.09077671365563" y1="248.87737862907548" x2="242.90922328634437" y2="258.6226213709245" stroke="#153747" stroke-width="2"/>
+<line x1="265.4963405706531" y1="259.00292754347754" x2="250.5036594293469" y2="270.99707245652246" stroke="#153747" stroke-width="2"/>
+<line x1="275.90190442765055" y1="269.1284764578796" x2="258.09809557234945" y2="283.3715235421204" stroke="#153747" stroke-width="2"/>
+<text x="200" y="350" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">≈109.5°</text>
+<text x="490" y="60" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">trigonal planar</text>
+<text x="490" y="200" font-family="DejaVu Sans, sans-serif" font-size="29" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="490.0" y1="172.0" x2="490.0" y2="90.0" stroke="#153747" stroke-width="3"/>
+<line x1="505.5884572681199" y1="199.0" x2="576.6025403784439" y2="240.0" stroke="#153747" stroke-width="3"/>
+<line x1="474.4115427318801" y1="199.0" x2="403.3974596215561" y2="240.0" stroke="#153747" stroke-width="3"/>
+<text x="490" y="350" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">≈120°</text>
+<text x="780" y="60" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">linear</text>
+<text x="780" y="200" font-family="DejaVu Sans, sans-serif" font-size="29" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="670" y1="190" x2="760" y2="190" stroke="#153747" stroke-width="3"/>
+<line x1="800" y1="190" x2="890" y2="190" stroke="#153747" stroke-width="3"/>
+<text x="780" y="350" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">180°</text>
+</svg>

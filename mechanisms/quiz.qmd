@@ -1,0 +1,55 @@
+---
+title: "Self-check: Electron flow and mechanisms"
+---
+
+Answer each question before opening its explanation. Draw the relevant structure or step when asked; recognition alone can hide a charge or geometry error.
+
+## 1. Where may a full-headed curved arrow start?
+
+Choose a lone pair, an ordinary atom label without a specified electron pair, or a positive charge. Explain the electron accounting.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Start at a lone pair or a bond containing the pair being moved. A positive charge is an acceptor cue, not an electron-pair source.
+:::
+
+## 2. One arrow or two for carbonyl addition?
+
+OH⁻ forms a new bond to carbonyl carbon. What must happen to the C=O π pair?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+It moves to oxygen in the same addition step. Otherwise the carbon would have total bond order five. The original carbonyl oxygen becomes an alkoxide.
+:::
+
+## 3. Are two arrows two steps?
+
+The methyl SN2 drawing has two curved arrows. Does it have two elementary steps?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Both pair movements occur in one concerted elementary step. Step counting depends on the mechanistic intermediates and barriers, not the number of arrows.
+:::
+
+## 4. What distinguishes an intermediate?
+
+On a schematic free-energy profile, is an intermediate a maximum or a minimum? How does it differ from a transition state?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+An intermediate is a minimum between elementary steps and has a finite lifetime. A transition state lies at a barrier maximum and is not an isolable species.
+:::
+
+## 5. What must a proton donor leave behind?
+
+An alkoxide takes a proton from water. Give both products and check charge.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The products are an alcohol and OH⁻. Net charge starts and ends at minus one. Writing only alcohol would omit the donor-derived conjugate base.
+:::
+
+## 6. Does a catalyst favour products at equilibrium?
+
+A catalyst lowers a kinetically relevant barrier. Does that change the equilibrium constant for the same reaction and conditions?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. It changes the pathway and can speed approach to equilibrium in both directions. The same reactant/product endpoint free-energy difference determines the same equilibrium constant.
+:::
+
+If an answer was unexpected, return to the [worked practice](exercise.qmd), repair your own drawing and explain the change in a sentence.

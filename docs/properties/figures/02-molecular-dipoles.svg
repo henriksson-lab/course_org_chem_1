@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Bond dipoles combine as vectors</title><desc>Bond dipoles combine as vectors</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="240" y="175" font-family="DejaVu Sans, sans-serif" font-size="40" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<text x="90" y="175" font-family="DejaVu Sans, sans-serif" font-size="38" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<text x="390" y="175" font-family="DejaVu Sans, sans-serif" font-size="40" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="120.0" y1="165.0" x2="205.0" y2="165.0" stroke="#153747" stroke-width="3"/>
+<line x1="120.0" y1="155.0" x2="205.0" y2="155.0" stroke="#153747" stroke-width="3"/>
+<line x1="275.0" y1="165.0" x2="355.0" y2="165.0" stroke="#153747" stroke-width="3"/>
+<line x1="275.0" y1="155.0" x2="355.0" y2="155.0" stroke="#153747" stroke-width="3"/>
+<line x1="190" y1="100" x2="125" y2="100" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="290" y1="100" x2="355" y2="100" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="240" y="290" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">CO₂: opposite dipoles cancel</text>
+<text x="725" y="110" font-family="DejaVu Sans, sans-serif" font-size="40" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<text x="625" y="220" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<text x="825" y="220" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="700" y1="130" x2="650" y2="185" stroke="#153747" stroke-width="3"/>
+<line x1="750" y1="130" x2="800" y2="185" stroke="#153747" stroke-width="3"/>
+<line x1="655" y1="160" x2="697" y2="115" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="795" y1="160" x2="753" y2="115" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="725" y="290" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H₂O: bent; dipoles add</text>
+</svg>

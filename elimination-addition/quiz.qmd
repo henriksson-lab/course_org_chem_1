@@ -1,0 +1,55 @@
+---
+title: "Self-check: Elimination and addition"
+---
+
+Answer each question before opening its explanation. Draw the relevant structure or step when asked; recognition alone can hide a charge or geometry error.
+
+## 1. Can CH₃Br give an ordinary beta-elimination?
+
+Draw the carbon skeleton before answering.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. There is no beta carbon, and therefore no beta-H that could be removed to form an adjacent C=C bond.
+:::
+
+## 2. How many pair arrows describe E2?
+
+Identify the source and destination of each.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Three: base lone pair to beta-H; C–H bond pair into the C–C pi bond; C–leaving-group pair onto the leaving group. These describe one concerted elementary step.
+:::
+
+## 3. What is anti-periplanar?
+
+State the H–C–C–Br dihedral angle in the preferred simple anti arrangement.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+180 degrees. The reacting C–H and C–Br bonds lie in one plane on opposite sides of the viewed C–C bond. A Newman drawing must specify front and rear bonds.
+:::
+
+## 4. Which alkenes follow formal elimination from 2-bromobutane?
+
+List constitutional possibilities and note the E/Z case.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+But-1-ene and but-2-ene. The latter can be E or Z; but-1-ene has two H atoms at its terminal alkene carbon and cannot have E/Z configurations.
+:::
+
+## 5. Why does ionic HBr addition favour 2-bromopropane from propene?
+
+Assume no peroxides and use the supplied carbocation model.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Protonation giving a secondary carbocation is favoured over the alternative primary carbocation. Bromide then captures that intermediate, giving the observed connectivity in this model.
+:::
+
+## 6. Why is the Br₂ route a different drawing?
+
+Name the key bridged intermediate and the relative opening geometry.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+A bromonium intermediate can be opened by opposite-side bromide attack, giving anti addition. A free-carbocation HBr mechanism should not be copied unchanged for this process.
+:::
+
+If an answer was unexpected, return to the [worked practice](exercise.qmd), repair your own drawing and explain the change in a sentence.

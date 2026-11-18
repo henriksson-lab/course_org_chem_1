@@ -1,0 +1,57 @@
+---
+title: "Self-check: synthesis and evidence"
+---
+
+Answer before opening each explanation. Draw where appropriate; a correct label
+without a chemical explanation is only a starting point. These are formative checks.
+
+## 1. Which reagent limits?
+
+A 1:1 reaction uses 10.0 mmol A and 15.0 mmol B. How much product can form stoichiometrically?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+At most 10.0 mmol of the stated 1:1 product under the assumed desired transformation. A limits; leftover B does not increase that maximum.
+:::
+
+## 2. What if coefficients differ?
+
+For 2A + B → P, with 10 mmol A and 8 mmol B, identify the limiting reagent and maximum P amount.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Compare 10/2 = 5 mmol with 8/1 = 8 mmol. A limits and at most 5 mmol P forms. Comparing amounts without coefficients would be misleading.
+:::
+
+## 3. What does 1.20 g mean?
+
+Theoretical mass is 1.8016 g. Calculate apparent isolated yield and state its purity assumption.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+100×1.20/1.8016 ≈ 66.6%. The calculation treats isolated mass as product mass; impurities or solvent can bias that assumption.
+:::
+
+## 4. What is Rf?
+
+A spot travels 3.2 cm and solvent front 5.0 cm from the origin. Calculate Rf and give units.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Rf = 0.64, dimensionless. Both distances must be measured from the same origin; the ratio depends on separation conditions.
+:::
+
+## 5. Does one spot establish purity?
+
+Give two reasons a mixture might show only one TLC spot.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Distinct compounds can co-migrate, and a component may not be detected by the chosen visualisation. One spot under one condition does not uniquely identify or prove purity.
+:::
+
+## 6. What should change after Knit?
+
+You change isolated mass from 1.20 to 1.10 g. Predict the effect and the approximate new yield.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The yield decreases to about 61.1%. Tables and inline computed values should update from saved inputs; manually copied numbers may not.
+:::
+
+Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+could not reconstruct. Explain one corrected mistake in your own words.

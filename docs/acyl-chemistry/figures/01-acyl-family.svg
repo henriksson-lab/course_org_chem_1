@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Carboxylic acid derivatives share an acyl carbon</title><desc>Carboxylic acid derivatives share an acyl carbon</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="175" y="195" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<text x="175" y="84" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="170" y1="165" x2="170" y2="110" stroke="#153747" stroke-width="3"/>
+<line x1="180" y1="165" x2="180" y2="110" stroke="#153747" stroke-width="3"/>
+<line x1="155" y1="185" x2="80" y2="210" stroke="#153747" stroke-width="3"/>
+<text x="70" y="220" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="end" font-weight="normal">R</text>
+<line x1="195" y1="185" x2="270" y2="210" stroke="#153747" stroke-width="3"/>
+<text x="280" y="220" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="start" font-weight="normal">OH</text>
+<text x="175" y="340" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">acid</text>
+<text x="480" y="195" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<text x="480" y="84" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="475" y1="165" x2="475" y2="110" stroke="#153747" stroke-width="3"/>
+<line x1="485" y1="165" x2="485" y2="110" stroke="#153747" stroke-width="3"/>
+<line x1="460" y1="185" x2="385" y2="210" stroke="#153747" stroke-width="3"/>
+<text x="375" y="220" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="end" font-weight="normal">R</text>
+<line x1="500" y1="185" x2="575" y2="210" stroke="#153747" stroke-width="3"/>
+<text x="585" y="220" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="start" font-weight="normal">OR′</text>
+<text x="480" y="340" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">ester</text>
+<text x="785" y="195" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<text x="785" y="84" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="780" y1="165" x2="780" y2="110" stroke="#153747" stroke-width="3"/>
+<line x1="790" y1="165" x2="790" y2="110" stroke="#153747" stroke-width="3"/>
+<line x1="765" y1="185" x2="690" y2="210" stroke="#153747" stroke-width="3"/>
+<text x="680" y="220" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="end" font-weight="normal">R</text>
+<line x1="805" y1="185" x2="880" y2="210" stroke="#153747" stroke-width="3"/>
+<text x="890" y="220" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="start" font-weight="normal">NH₂</text>
+<text x="785" y="340" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">amide</text>
+</svg>

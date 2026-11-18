@@ -1,0 +1,84 @@
+---
+title: "Practical work: prepare, record, evaluate"
+---
+
+These materials support preparation and interpretation. Perform laboratory
+work only with your department's approved protocol, supervision and local
+safety instructions. Your instructor will supply the actual experimental
+arrangements. The provided CSVs are constructed teaching data.
+
+## Keep primary records
+
+Record date, sample identifiers, reagent amounts, relevant conditions,
+observations and deviations in your laboratory journal as the work happens.
+Retain instrument files and photographs with their sample labels. An Rmd report
+draws on those records; it does not replace the original observations.
+
+## Before a reaction: calculate the amount table
+
+For the teaching equation salicylic acid + acetic anhydride → aspirin + ethanoic
+acid, all coefficients are one. With 1.3812 g salicylic acid (138.12 g/mol)
+and 1.53135 g acetic anhydride (102.09 g/mol), the amounts are 10.0 and 15.0 mmol.
+The acid limits the theoretical aspirin amount to 10.0 mmol. The reaction
+scheme is a calculation context, not an operating protocol.
+
+```r
+library(readr)
+library(dplyr)
+amounts <- read_csv("data/amounts.csv", show_col_types = FALSE) |>
+  mutate(amount_mol = mass_g / molar_mass_g_mol,
+         extent_mol = amount_mol / stoich)
+limiting_extent_mol <- min(amounts$extent_mol)
+amounts
+```
+
+Compare amount divided by coefficient rather than mass alone. In a different
+balanced reaction, a coefficient of two would change that comparison.
+
+## TLC: retain every spot
+
+For the supplied normal-phase teaching plate, the solvent front travels 5.0 cm
+from the origin. A starting-material spot travels 1.2 cm and a product spot
+3.2 cm. Their Rf values are 0.24 and 0.64. The crude lane contains both spots.
+
+```r
+tlc <- read_csv("data/tlc.csv", show_col_types = FALSE) |>
+  mutate(Rf = spot_distance_cm / front_distance_cm)
+tlc
+```
+
+Explain why the crude has two rows. Do not average two different spots into
+one fictitious compound. Compare Rf only under matched conditions. Co-migration
+does not prove identity, and a single visible spot does not prove purity.
+
+## After isolation: distinguish the claims
+
+With product molar mass 180.16 g/mol, theoretical mass is 1.8016 g. An isolated
+mass of 1.20 g corresponds to 66.6% isolated yield.
+
+```r
+theoretical_mass_g <- limiting_extent_mol * 180.16
+isolated_mass_g <- 1.20
+isolated_yield_percent <- 100 * isolated_mass_g / theoretical_mass_g
+```
+
+Yield is not conversion. Loss during work-up can lower isolated yield even
+after substantial reaction. Residual solvent or impurities can inflate mass.
+Assess identity and purity using appropriate evidence and uncertainty.
+
+## A compact report structure
+
+Use the [starter Rmd](../templates/report.Rmd), preferably through the complete
+[project download](../downloads/organic-chemistry-student.zip).
+
+1. State the chemical question and include a checked reaction drawing.
+2. Identify the protocol and primary records; distinguish performed work from teaching data.
+3. Show the amount table with units and limiting-reagent reasoning.
+4. Present observations, spectra and TLC with sample labels and captions.
+5. Calculate yield from saved data and connect conclusions to evidence.
+6. Discuss limitations and alternative explanations.
+7. Restart R and Knit from the saved project before submitting source, data and output as instructed.
+
+The example IR traces in the starter compare ethanol and ethyl ethanoate.
+They are **not measurements of the aspirin isolation**. Keep that distinction
+in your report rather than combining unrelated samples into one claim.

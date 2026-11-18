@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>A ring flip exchanges axial and equatorial, preserving up/down</title><desc>A ring flip exchanges axial and equatorial, preserving up/down</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="350.2" y1="201.26449872568125" x2="292.6" y2="278.6419518807057" stroke="#153747" stroke-width="3"/>
+<line x1="292.6" y1="278.6419518807057" x2="177.40000000000003" y2="241.17094933206818" stroke="#153747" stroke-width="3"/>
+<line x1="177.40000000000003" y1="241.17094933206818" x2="119.80000000000001" y2="238.73550127431878" stroke="#153747" stroke-width="3"/>
+<line x1="119.80000000000001" y1="238.73550127431878" x2="177.39999999999995" y2="161.35804811929432" stroke="#153747" stroke-width="3"/>
+<line x1="177.39999999999995" y1="161.35804811929432" x2="292.6" y2="198.82905066793182" stroke="#153747" stroke-width="3"/>
+<line x1="292.6" y1="198.82905066793182" x2="350.2" y2="201.26449872568125" stroke="#153747" stroke-width="3"/>
+<line x1="815.2" y1="238.73550127431875" x2="757.6" y2="241.17094933206818" stroke="#153747" stroke-width="3"/>
+<line x1="757.6" y1="241.17094933206818" x2="642.4000000000001" y2="278.6419518807057" stroke="#153747" stroke-width="3"/>
+<line x1="642.4000000000001" y1="278.6419518807057" x2="584.8" y2="201.26449872568125" stroke="#153747" stroke-width="3"/>
+<line x1="584.8" y1="201.26449872568125" x2="642.4" y2="198.82905066793185" stroke="#153747" stroke-width="3"/>
+<line x1="642.4" y1="198.82905066793185" x2="757.6" y2="161.3580481192943" stroke="#153747" stroke-width="3"/>
+<line x1="757.6" y1="161.3580481192943" x2="815.2" y2="238.73550127431875" stroke="#153747" stroke-width="3"/>
+<line x1="350.2" y1="201.26449872568125" x2="350.2" y2="116.26449872568125" stroke="#176b91" stroke-width="3"/>
+<text x="350.2" y="96.26449872568125" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">CH₃ (up)</text>
+<line x1="815.2" y1="238.73550127431875" x2="880.2" y2="213.73550127431875" stroke="#176b91" stroke-width="3"/>
+<text x="875.2" y="188.73550127431875" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">CH₃ (up)</text>
+<text x="235" y="325" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">axial-up methyl</text>
+<text x="700" y="325" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">equatorial-up methyl</text>
+<line x1="415" y1="200" x2="505" y2="200" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="505" y1="225" x2="415" y2="225" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="480" y="375" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">Both ring geometry and local bond direction change; up/down is retained.</text>
+</svg>

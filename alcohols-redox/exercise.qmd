@@ -1,0 +1,121 @@
+---
+title: "Practice: alcohol transformations and an amount table"
+---
+
+Allow 60–75 minutes for chemistry problems and 45 minutes for the R calculation.
+The R task uses the course's synthesis teaching data as preparation for later
+reporting. That dataset describes aspirin formation, not an alcohol oxidation.
+
+## 1. Keep track of the changing carbon
+
+Draw ethanol, ethanal and ethanoic acid. Mark the carbon that changes during
+oxidation and count its C–O bond orders and C–H bonds in each structure.
+Assign +1 per C–O bond order, −1 per C–H bond and zero per C–C bond.
+Explain why the sequence is oxidation even when no oxygen atom is added in
+the first net alcohol → aldehyde transformation.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The ethanol CH₂OH carbon has one C–O and two C–H bonds, giving −1. In ethanal,
+the carbonyl carbon has C=O and C–H, giving +1. In ethanoic acid it has C=O
+and C–O, giving +3. Raising the carbon oxidation state is oxidation. Removing
+hydrogen can accomplish that without increasing the number of oxygen atoms;
+the local bond inventory, rather than simply counting O atoms in the entire
+formula, gives the useful check.
+:::
+
+## 2. Predict two oxidation products and one boundary
+
+Draw the selected oxidation product of propan-2-ol. Why does the comparable
+simple oxidation pattern not apply to 2-methylpropan-2-ol without breaking
+the carbon skeleton? If the target is ethanal from ethanol, why must you
+consider the possibility of ethanoic acid formation when selecting conditions?
+
+::: {.callout-note collapse="true" title="Worked check"}
+Propan-2-ol gives propanone. Its OH-bearing carbon has a C–H bond available
+for the net carbonyl-forming change. The tertiary alcohol has three C–C bonds
+at that carbon and no C–H; forming C=O while keeping all three carbon groups
+would overbond carbon. This does not mean a tertiary alcohol is immune to
+every oxidant, because harsh conditions can cleave C–C bonds. Ethanal can
+undergo further oxidation, so an aldehyde target requires appropriate
+controlled conditions rather than an unspecified oxidation arrow.
+:::
+
+## 3. Draw reduction in two stages
+
+Use propanone and a hydride equivalent delivered from a reagent such as NaBH₄.
+Draw addition to carbonyl carbon with the π pair moving to oxygen. Give the
+alkoxide formula and charge. Then show an explicit proton transfer from water.
+Name the resulting alcohol. Explain the limit of using H:⁻ in this drawing.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The H-delivering pair forms a C–H bond and the C=O pair returns to O.
+The resulting `(CH₃)₂CHO⁻` is an alkoxide. Its oxygen lone pair takes H
+from water while the water O–H pair returns to water oxygen, giving
+propan-2-ol and OH⁻. H:⁻ is shorthand for hydride-equivalent delivery from
+the reagent, not free hydride coexisting in water. Detailed boron-containing
+intermediates are outside this simplified introductory scheme.
+:::
+
+## 4. What would count as evidence?
+
+Inspect the [simulated IR comparison](figures/08-ir-redox.svg). Identify the
+changes consistent with converting an alcohol to a carbonyl compound.
+What other observations would you request before identifying a pure isolated
+product? Could a 95% isolated yield alone establish identity or purity?
+
+::: {.callout-note collapse="true" title="Worked check"}
+Loss of a broad alcohol O–H absorption and appearance of a carbonyl band
+support the proposed functional-group change. A full spectrum, NMR or other
+appropriate identification evidence and a check of sample purity would be
+useful. Isolated mass can include solvent or impurities, so a large yield
+does not alone identify the compound or establish purity. The supplied
+traces are schematic teaching data, not observations from an actual oxidation.
+:::
+
+## 5. R task: prepare a reaction amount table
+
+The balanced teaching equation is salicylic acid + acetic anhydride → aspirin
++ ethanoic acid, with all coefficients one. The [shared CSV](../data/amounts.csv)
+supplies reagent masses and molar masses. This is a calculation context, not
+a synthesis protocol. Keep the raw data unchanged.
+
+The amount in mol is mass in g divided by molar mass in g/mol. Divide each
+reactant amount by its stoichiometric coefficient. The smallest available
+reaction extent limits the maximum product amount. Here aspirin's coefficient
+is one and its supplied molar mass is 180.16 g/mol.
+
+Predict which of 10.0 and 15.0 mmol will limit a 1:1 reaction, then add this
+code to your report:
+
+```r
+library(readr)
+library(dplyr)
+amounts <- read_csv("data/amounts.csv", show_col_types = FALSE) |>
+  mutate(amount_mol = mass_g / molar_mass_g_mol,
+         amount_mmol = amount_mol * 1000,
+         extent_mol = amount_mol / stoich)
+knitr::kable(amounts, digits = 4)
+limiting_extent_mol <- min(amounts$extent_mol)
+theoretical_product_mass_g <- limiting_extent_mol * 180.16
+theoretical_product_mass_g
+```
+
+Knit the report. Give the limiting reagent, theoretical product amount in mmol
+and mass in g. Change a copy of the acetic anhydride input to 0.51045 g and
+predict the new limiting reagent before recalculating. Do not overwrite the
+original CSV to make this alternative scenario.
+
+::: {.callout-note collapse="true" title="Numerical and chemical check"}
+The supplied amounts are 0.0100 mol acid and 0.0150 mol anhydride. Salicylic
+acid limits the product to 10.0 mmol, corresponding to 1.8016 g aspirin.
+With 0.51045 g anhydride at 102.09 g/mol, anhydride is 5.00 mmol and limits
+product to 5.00 mmol, or 0.9008 g. Comparing masses alone would be wrong
+because the reagents have different molar masses. In a different balanced
+reaction, coefficients other than one must also be included.
+:::
+
+## Leave with
+
+A redox transformation map, a two-stage reduction mechanism and a knitted
+amount table. Continue with the [practical report guide](../reference/practical.qmd)
+to distinguish theoretical yield, isolated yield, conversion and purity.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>A secondary alcohol gives a ketone</title><desc>A secondary alcohol gives a ketone</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="240" y="170" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#153747" text-anchor="middle" font-weight="normal">CH₃CH(OH)CH₃</text>
+<text x="730" y="170" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#153747" text-anchor="middle" font-weight="normal">CH₃C(=O)CH₃</text>
+<line x1="425" y1="160" x2="555" y2="160" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="480" y="110" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">oxidation</text>
+<text x="240" y="280" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="middle" font-weight="normal">propan-2-ol</text>
+<text x="730" y="280" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="middle" font-weight="normal">propanone</text>
+<text x="480" y="350" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">The carbon skeleton is retained in this selected transformation.</text>
+</svg>

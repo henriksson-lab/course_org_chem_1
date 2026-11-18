@@ -1,0 +1,41 @@
+---
+title: "Self-check: properties and IR"
+---
+
+Answer before opening each check. Give a reason or a drawing, not only a term.
+
+## 1. Can polar bonds give a molecule with zero net permanent dipole?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Yes. Molecular symmetry can make bond dipoles cancel, as in linear CO₂. Geometry matters.
+:::
+
+## 2. Can dimethyl ether donate an O–H hydrogen bond?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No: it has no O–H bond. Its oxygen can accept a hydrogen bond from a suitable donor.
+:::
+
+## 3. Does boiling ethanol normally break its C–O bonds?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Boiling separates molecules by overcoming intermolecular attractions. Molecular connectivity is retained.
+:::
+
+## 4. Should every oxygen-containing compound dissolve readily in water?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Hydrogen-bonding sites, nonpolar size, charge, temperature and condensed-phase effects all matter.
+:::
+
+## 5. What does a downward feature mean on an IR transmission plot?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Less transmitted IR at that wavenumber, meaning absorption. Check the y-axis; an absorbance plot points the other way.
+:::
+
+## 6. Can a strong carbonyl band alone prove a sample is a particular ketone?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Many carbonyl compounds absorb strongly in that broad region. Combine further IR features with other evidence and candidate structures.
+:::

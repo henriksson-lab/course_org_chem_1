@@ -1,0 +1,47 @@
+---
+title: "Reading and visual sources"
+---
+
+## A textbook route
+
+The provisional reference is Solomons, Fryhle and Snyder, *Solomons' Organic
+Chemistry*, 12th Global edition (2016), ISBN 9781119248972. Umeå lists this
+edition for the separate [Organic Chemistry for Engineers course](https://www.umu.se/utbildning/kurs-och-utbildningsplan/5ke202/).
+**Use your instructor's confirmed reading list before purchasing a book.**
+
+Selected chapter references in these lessons are study pointers, not a claim
+that complete chapters are assigned or that this book is confirmed for 5KE231.
+Check your edition's contents because editions and regional versions differ.
+
+| Course focus | Provisional Solomons route |
+| --- | --- |
+| Structures, properties, IR, acids/bases | Selected chapters 1–3 |
+| Conformations and stereochemistry | Selected chapters 4–5 |
+| Substitution, elimination and addition | Selected chapters 6–8 |
+| Spectral structure determination | Selected chapter 9, with IR from chapter 2 |
+| Alcohols and redox | Selected chapters 11–12 |
+| Carbonyl addition and acyl chemistry | Selected chapters 16–17 |
+| Aromaticity and amines | Selected chapters 14 and 20 |
+| Biological applications | Instructor-selected examples rather than whole biomolecule chapters |
+
+Wiley provides a [Global edition contents listing](https://www.wiley.com/en-ie/shop/general-chemistry/solomons%27-organic-chemistry-global-edition-12th-edition-p-9781119248927).
+
+## Open supplementary reading
+
+John McMurry's [*Organic Chemistry*, OpenStax](https://openstax.org/details/books/organic-chemistry)
+is an openly available alternative for extra explanations. Its numbering
+differs from Solomons. For example, its
+[resonance rules](https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms)
+and [acyl substitution discussion](https://openstax.org/books/organic-chemistry/pages/21-2-nucleophilic-acyl-substitution-reactions)
+can support the corresponding course units.
+
+## Figures and data in this site
+
+The course's structure drawings, reaction diagrams, spatial illustrations and
+schematic plots are original vector artwork made for these lessons. None of
+the textbook illustrations has been copied into this site. Simulated spectra
+and calculated curves are labelled in their lessons; they are not measurements.
+
+The [visual asset register](../assets/credits.csv) records each illustration's
+source and use. Reuse terms for original course material have not yet been
+specified by the course owner. External readings retain their own licences.

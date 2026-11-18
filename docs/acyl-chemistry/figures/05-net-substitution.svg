@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Acyl substitution replaces Y while retaining a carbonyl</title><desc>Acyl substitution replaces Y while retaining a carbonyl</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="250" y="155" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">R–C(=O)–Y + Nu⁻</text>
+<text x="715" y="245" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">R–C(=O)–Nu + Y⁻</text>
+<line x1="370" y1="195" x2="575" y2="195" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="480" y="340" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">Addition followed by elimination; no free acyl carbocation.</text>
+</svg>

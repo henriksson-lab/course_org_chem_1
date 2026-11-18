@@ -1,0 +1,57 @@
+---
+title: "Self-check: transfer the reasoning"
+---
+
+Answer before opening each explanation. Draw where appropriate; a correct label
+without a chemical explanation is only a starting point. These are formative checks.
+
+## 1. What is the stereocentre?
+
+Locate it in CH₃CH(OH)COOH and list its four substituents.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The CH(OH) carbon bears OH, H, CH₃ and COOH. They are different, so it is a tetrahedral stereocentre.
+:::
+
+## 2. Does proton loss invert it?
+
+For hydroxide removing the carboxyl OH proton of lactic acid, does that step invert the alcohol-bearing centre?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. The drawn proton transfer does not change the bonds or spatial arrangement at that centre. It produces lactate and water.
+:::
+
+## 3. What does oxidation change?
+
+Oxidise lactic acid’s secondary alcohol to a ketone. Is the original centre still R/S?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The product is CH₃C(=O)COOH, pyruvic acid. The former centre is trigonal planar, so it is not assigned R/S.
+:::
+
+## 4. Which mechanism returns C=O?
+
+Compare an aldehyde addition product with an acyl substitution product.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Addition opens the carbonyl pi bond and produces a tetrahedral product after appropriate protonation. Acyl substitution first adds, then eliminates a viable leaving group to reform C=O.
+:::
+
+## 5. What does a large mass prove?
+
+A plausible high isolated yield conflicts with major unexpected NMR signals. Which observation should be ignored?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+Neither. The apparent yield depends on the identity/purity assumption, while unexpected NMR signals call that assumption into question. Investigate the discrepancy before claiming pure product.
+:::
+
+## 6. What makes a conclusion inspectable?
+
+Give the ingredients of an evidence-based conclusion and a reproducible report.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+State a chemical claim, observations, a reason connecting them, a limitation and a next test. Save raw inputs and code so a fresh R session can recreate tables and plots; separately check chemical validity.
+:::
+
+Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+could not reconstruct. Explain one corrected mistake in your own words.

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Steric crowding makes backside access harder</title><desc>Steric crowding makes backside access harder</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<circle cx="220" cy="200" r="22" stroke="#153747" fill="white" stroke-width="3"/>
+<text x="220" y="209" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="245" y1="200" x2="320" y2="200" stroke="#153747" stroke-width="3"/>
+<text x="350" y="209" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">Br</text>
+<line x1="202.3223304703363" y1="217.6776695296637" x2="163.4314575050762" y2="256.5685424949238" stroke="#153747" stroke-width="3"/>
+<circle cx="163.4314575050762" cy="256.5685424949238" r="38" stroke="#153747" fill="#dbe8ed" stroke-width="3"/>
+<text x="163.4314575050762" y="264.5685424949238" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="220" y="340" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">less crowded</text>
+<circle cx="710" cy="200" r="22" stroke="#153747" fill="white" stroke-width="3"/>
+<text x="710" y="209" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<line x1="735" y1="200" x2="810" y2="200" stroke="#153747" stroke-width="3"/>
+<text x="840" y="209" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">Br</text>
+<line x1="705.6587955583267" y1="224.6201938253052" x2="696.1081457866455" y2="278.78462024097666" stroke="#153747" stroke-width="3"/>
+<circle cx="696.1081457866455" cy="278.78462024097666" r="38" stroke="#153747" fill="#dbe8ed" stroke-width="3"/>
+<text x="696.1081457866455" y="286.78462024097666" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="685.0" y1="200.0" x2="630.0" y2="200.0" stroke="#153747" stroke-width="3"/>
+<circle cx="630.0" cy="200.0" r="38" stroke="#153747" fill="#dbe8ed" stroke-width="3"/>
+<text x="630.0" y="208.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="705.6587955583267" y1="175.3798061746948" x2="696.1081457866455" y2="121.21537975902336" stroke="#153747" stroke-width="3"/>
+<circle cx="696.1081457866455" cy="121.21537975902336" r="38" stroke="#153747" fill="#dbe8ed" stroke-width="3"/>
+<text x="696.1081457866455" y="129.21537975902336" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="710" y="340" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">more crowded</text>
+<line x1="50" y1="200" x2="155" y2="200" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="470" y1="200" x2="595" y2="200" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+</svg>

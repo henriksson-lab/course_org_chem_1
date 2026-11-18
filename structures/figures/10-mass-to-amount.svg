@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>From measured mass to chemical amount</title><desc>From measured mass to chemical amount</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<rect x="70" y="125" width="245" height="110" rx="8" fill="#e4f0f4" stroke="none"/>
+<rect x="360" y="125" width="245" height="110" rx="8" fill="#e4f0f4" stroke="none"/>
+<rect x="650" y="125" width="245" height="110" rx="8" fill="#e4f0f4" stroke="none"/>
+<text x="192" y="175" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">1.3812 g</text>
+<text x="192" y="210" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">salicylic acid</text>
+<text x="482" y="175" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">÷ 138.12 g/mol</text>
+<text x="482" y="210" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">molar mass</text>
+<text x="772" y="175" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">0.01000 mol</text>
+<text x="772" y="210" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">10.00 mmol</text>
+<line x1="315" y1="180" x2="355" y2="180" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="605" y1="180" x2="645" y2="180" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="480" y="330" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">g ÷ (g/mol) = mol; the formula supplies the conversion factor.</text>
+</svg>

@@ -1,0 +1,97 @@
+---
+title: "Amines and aromaticity: where is the lone pair?"
+---
+
+Allow 60–75 minutes. Draw structures rather than relying on a nitrogen label.
+You need formal charges, pKa comparisons and resonance. No metabolic knowledge
+is assumed.
+
+## 1. Classify and protonate
+
+Draw methylamine, dimethylamine and trimethylamine with their nitrogen lone
+pairs. Classify each as primary, secondary or tertiary. Protonate each once,
+showing an explicit acid H–A as donor and the corresponding A⁻ product. Count
+bonds and formal charge on every nitrogen before and after the change.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A neutral nitrogen with three ordinary single bonds has one lone pair. After
+using that pair to bind H, it has four bonds and a positive charge.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+CH₃NH₂, (CH₃)₂NH and (CH₃)₃N have one, two and three carbon substituents on N,
+respectively. Their conjugate acids are CH₃NH₃⁺, (CH₃)₂NH₂⁺ and (CH₃)₃NH⁺.
+Draw N pair → H and H–A bond → A in the same proton transfer. A tertiary amine
+is neutral before protonation; it is not the same as a quaternary ammonium
+ion bearing four carbon substituents.
+:::
+
+## 2. Compare base strength using supplied data
+
+Use approximate aqueous conjugate-acid pKa values: ethylammonium 10.7 and
+anilinium 4.6. Which corresponding neutral amine is the stronger base? Estimate
+the equilibrium constant for anilinium + ethylamine ⇌ aniline + ethylammonium.
+Explain the structural difference without asserting that basicity determines
+all nucleophilic reaction rates.
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethylamine is the stronger base because its conjugate acid is weaker (larger
+pKa). The estimated constant is 10^(10.7 − 4.6), about 1.26 × 10⁶ toward
+aniline and ethylammonium. Aniline can delocalise its N pair into the aromatic
+ring. Basicity concerns an equilibrium; nucleophilicity concerns a reaction
+rate and also depends on substrate, solvent and other factors.
+:::
+
+## 3. Count the aromatic electrons carefully
+
+Draw benzene, cyclohexane, pyridine and pyrrole. For each state whether a
+continuous cyclic pi system exists. In pyridine and pyrrole identify whether
+the nitrogen lone pair contributes to the aromatic sextet. Predict which
+nitrogen is more readily protonated under comparable ordinary conditions.
+
+::: {.callout-note collapse="true" title="Worked check"}
+Benzene has six pi electrons and is aromatic. Cyclohexane lacks continuous
+conjugation and is nonaromatic. Pyridine N contributes one electron to its
+pi system; its separate lone pair is available to bind a proton while retaining
+aromaticity. Pyrrole uses its pair in the six-electron aromatic system, making
+ordinary N protonation much less favourable. Pyridine is therefore the more
+basic nitrogen in this comparison. “Both contain a ring N” misses the orbital
+difference.
+:::
+
+## 4. Draw glycine across pH
+
+Use supplied approximate pKa values 2.3 for the carboxyl group and 9.6 for
+the ammonium group. Draw the dominant form at pH 1, 6 and 12; label every
+formal charge and calculate the net charge. Explain what changes around each
+pKa, rather than implying an abrupt switch between pure forms.
+
+::: {.callout-tip collapse="true" title="Hint"}
+At pH well below a site's pKa, its protonated form predominates. At pH well
+above it, its deprotonated form predominates. Apply this separately to the two
+sites.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+At pH 1: H₃N⁺–CH₂–COOH, net +1. At pH 6: H₃N⁺–CH₂–COO⁻, net zero. At pH
+12: H₂N–CH₂–COO⁻, net −1. The middle form is a zwitterion because it contains
+both positive and negative formal charges. Around each pKa adjacent forms
+coexist; these drawings describe dominant forms sufficiently away from the
+transition, not an all-or-nothing population rule.
+:::
+
+## 5. Amine versus peptide nitrogen
+
+Place CH₃CH₂NH₂ and CH₃CONH₂ side by side. Draw the amide resonance
+contributors and explain why assigning “amine-like basicity” to every
+nitrogen in a protein would fail. Give one structural feature you would
+inspect before predicting the nitrogen's behaviour.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The amide N pair is delocalised into a neighbouring carbonyl; the simple amine
+pair is not. Peptide nitrogens are amide nitrogens. Inspect direct attachment
+to C=O, aromaticity and conjugation before applying a simple alkylamine model.
+:::
+
+See the [reading guide](../reference/reading.qmd) for selected Solomons chapters
+14 and 20 and an open textbook reference.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>A ring alone does not make a compound aromatic</title><desc>A ring alone does not make a compound aromatic</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="270.0" y1="110.0" x2="347.9422863405995" y2="155.0" stroke="#153747" stroke-width="3"/>
+<line x1="347.9422863405995" y1="155.0" x2="347.9422863405995" y2="245.0" stroke="#153747" stroke-width="3"/>
+<line x1="347.9422863405995" y1="245.0" x2="270.0" y2="290.0" stroke="#153747" stroke-width="3"/>
+<line x1="270.0" y1="290.0" x2="192.05771365940052" y2="245.00000000000003" stroke="#153747" stroke-width="3"/>
+<line x1="192.05771365940052" y1="245.00000000000003" x2="192.05771365940052" y2="155.0" stroke="#153747" stroke-width="3"/>
+<line x1="192.05771365940052" y1="155.0" x2="270.0" y2="110.0" stroke="#153747" stroke-width="3"/>
+<circle cx="270" cy="200" r="46.800000000000004" stroke="#176b91" fill="none" stroke-width="2"/>
+<line x1="700.0" y1="110.0" x2="777.9422863405995" y2="155.0" stroke="#153747" stroke-width="3"/>
+<line x1="777.9422863405995" y1="155.0" x2="777.9422863405995" y2="245.0" stroke="#153747" stroke-width="3"/>
+<line x1="777.9422863405995" y1="245.0" x2="700.0" y2="290.0" stroke="#153747" stroke-width="3"/>
+<line x1="700.0" y1="290.0" x2="622.0577136594005" y2="245.00000000000003" stroke="#153747" stroke-width="3"/>
+<line x1="622.0577136594005" y1="245.00000000000003" x2="622.0577136594005" y2="155.0" stroke="#153747" stroke-width="3"/>
+<line x1="622.0577136594005" y1="155.0" x2="700.0" y2="110.0" stroke="#153747" stroke-width="3"/>
+<text x="270" y="335" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">Benzene: continuous p-orbital ring</text>
+<text x="700" y="335" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">Cyclohexane: no π network</text>
+</svg>

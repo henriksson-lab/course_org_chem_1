@@ -1,0 +1,54 @@
+---
+title: "Learning route and outcomes"
+---
+
+This is a complete first teaching draft for a new 7.5-credit Organic Chemistry 1.
+The sequence below organises five weeks of study; your course's official
+timetable and assessment instructions take precedence.
+
+## What you should learn
+
+1. Read molecular representations and identify functional groups and charges.
+2. Explain properties and reactivity using polarity, resonance and acid–base reasoning.
+3. Distinguish conformations and configurations and interpret simple stereochemistry.
+4. Draw valid elementary mechanisms that conserve atoms and charge.
+5. Predict selected substitution, elimination, addition, redox and carbonyl reactions.
+6. Propose a short synthesis and justify conditions and experimental checks.
+7. Use simple IR and one-dimensional NMR evidence to distinguish structures.
+8. Record, calculate and communicate laboratory results in a reproducible report.
+
+These are the teaching outcomes used to organise these materials. The formal
+course syllabus specifies the approved outcomes and examination rules.
+
+## Weekly rhythm
+
+| Week | Units | Main work to keep |
+| --- | --- | --- |
+| 1 | Structures; properties/IR; acids and bases | Annotated structures, a property explanation, proton-transfer mechanism and ionisation plot |
+| 2 | Conformations; stereochemistry; mechanisms | Newman/chair drawings, stereochemical comparisons, electron-flow diagrams and short conformer/ee calculations |
+| 3 | Substitution; elimination/addition; alcohols/redox | Explained reaction predictions, competing pathways and checked reactant amounts |
+| 4 | Carbonyl addition; acyl chemistry; amines/aromatics | Stepwise mechanisms, ester/amide comparisons and a TLC evidence table |
+| 5 | Spectroscopy; synthesis/evidence; integration | Structure puzzles, a short synthetic route and a report linking claims to evidence |
+
+Plan substantial time for drawing and independent problem solving. Three short
+lecture units per week leave room for tutorials, practical work and revision.
+The eight R activities occupy about five hours plus time to assemble reports
+and recover from mistakes; they form a small part of the overall chemistry work.
+
+## Check your understanding
+
+Before consulting an answer, record your prediction and reason. If you make a
+mistake, draw the corrected structure or mechanism and explain what changed.
+Being able to recognise an answer is a useful start; being able to construct
+and defend it is the goal.
+
+The self-checks and worked practice are formative. They do not establish
+examination weightings, compulsory attendance rules or grade boundaries.
+
+## What comes next?
+
+This course provides a foundation for biochemistry even if you do not take
+more organic chemistry. Organic Chemistry II appears as a recommended
+7.5-credit chemistry elective in the locally researched 2027 programme plan.
+It is a possible route to deeper synthesis and reactivity; its detailed
+syllabus and final course code remain to be confirmed.

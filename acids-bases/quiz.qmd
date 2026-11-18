@@ -1,0 +1,51 @@
+---
+title: "Self-check: acids, bases and ionisation"
+---
+
+Answer before opening each explanation. Repair your drawing or explanation
+after checking it. These are formative questions, not a formal examination.
+
+## 1. Where does the first arrow start?
+
+In hydroxide deprotonation of an alcohol, should an electron-flow arrow begin
+at hydroxide oxygen's lone pair, at the acidic hydrogen, or at the product?
+
+::: {.callout-note collapse="true" title="Check your answer"}
+At the hydroxide lone pair. The arrow ends at the acidic H. A second arrow
+moves the original O–H bonding pair onto the alcohol oxygen.
+:::
+
+## 2. Which charge follows proton loss?
+
+CH₃NH₃⁺ loses H⁺. Give the formula and charge of its conjugate base.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+CH₃NH₂, neutral. Losing a positive proton reduces the net charge by one.
+:::
+
+## 3. Does the ion switch between resonance forms?
+
+Explain the relationship between the two equivalent ethanoate contributors.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+They are representations of one delocalised ion, not two equilibrating ions.
+Electron placement differs; nuclear positions and connectivity do not.
+:::
+
+## 4. At pH one unit below pKa, what is ionised?
+
+Choose 9.1%, 10%, 50% or 90.9%, and show your ratio-to-fraction conversion.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+The ratio A⁻/HA is 0.1, so the fraction is 0.1/1.1, about 9.1%.
+:::
+
+## 5. Can an ionisation curve predict the isolated mass after extraction?
+
+State at least two additional quantities you would need.
+
+::: {.callout-note collapse="true" title="Check your answer"}
+No. Partition information and phase volumes are needed, with initial amount
+and any losses relevant to a mass prediction. Aqueous ionisation is only one
+part of the model.
+:::

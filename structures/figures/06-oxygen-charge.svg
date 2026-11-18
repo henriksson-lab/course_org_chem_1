@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>An oxygen charge audit counts bonds and lone pairs</title><desc>An oxygen charge audit counts bonds and lone pairs</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="190" y="75" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">water</text>
+<text x="190" y="180" font-family="DejaVu Sans, sans-serif" font-size="38" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="208.126155740733" y1="174.45236523481398" x2="255.2541606666388" y2="196.42851484533037" stroke="#153747" stroke-width="3"/>
+<text x="274.28662419440843" y="213.30349834188505" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="175.85786437626905" y1="180.14213562373095" x2="139.08831175456856" y2="216.91168824543144" stroke="#153747" stroke-width="3"/>
+<text x="124.23906934965109" y="239.76093065034894" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<circle cx="162.42283553372465" cy="144.07968978321702" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="168.07968978321702" cy="138.42283553372465" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="211.92031021678298" cy="138.42283553372465" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="217.57716446627535" cy="144.07968978321702" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="190" y="275" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">2 bonds; 2 lone pairs</text>
+<text x="190" y="330" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">formal charge 0</text>
+<text x="480" y="75" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">hydroxide</text>
+<text x="480" y="180" font-family="DejaVu Sans, sans-serif" font-size="38" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="498.126155740733" y1="174.45236523481398" x2="545.2541606666388" y2="196.42851484533037" stroke="#153747" stroke-width="3"/>
+<text x="564.2866241944084" y="213.30349834188505" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<circle cx="468.8335919872221" cy="199.41124559324555" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="461.5831296909289" cy="196.03029949931994" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="446.58875440675445" cy="154.83359198722212" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="449.96970050068" cy="147.5831296909289" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="491.1664080127779" cy="132.58875440675445" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="498.4168703090711" cy="135.96970050068006" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="535" y="160" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#af3b45" text-anchor="middle" font-weight="normal">−</text>
+<text x="480" y="275" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">1 bonds; 3 lone pairs</text>
+<text x="480" y="330" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">formal charge −1</text>
+<text x="770" y="75" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">hydronium</text>
+<text x="770" y="180" font-family="DejaVu Sans, sans-serif" font-size="38" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="788.126155740733" y1="174.45236523481398" x2="835.2541606666388" y2="196.42851484533037" stroke="#153747" stroke-width="3"/>
+<text x="854.2866241944084" y="213.30349834188505" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="755.857864376269" y1="180.14213562373095" x2="719.0883117545686" y2="216.91168824543144" stroke="#153747" stroke-width="3"/>
+<text x="704.2390693496511" y="239.76093065034894" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="761.547634765186" y1="147.873844259267" x2="739.5714851546696" y2="100.7458393333612" stroke="#153747" stroke-width="3"/>
+<text x="730.6965016581149" y="89.71337580559154" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<circle cx="791.9203102167829" cy="138.42283553372465" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="797.5771644662753" cy="144.07968978321702" r="2.5" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="825" y="160" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#af3b45" text-anchor="middle" font-weight="normal">+</text>
+<text x="770" y="275" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">3 bonds; 1 lone pairs</text>
+<text x="770" y="330" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">formal charge +1</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>A carbonyl interrupts simple vicinal proton coupling</title><desc>A carbonyl interrupts simple vicinal proton coupling</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="480" y="155" font-family="DejaVu Sans, sans-serif" font-size="40" fill="#153747" text-anchor="middle" font-weight="normal">CH₃—C(=O)—O—CH₂—CH₃</text>
+<line x1="175" y1="195" x2="290" y2="195" stroke="#af3b45" stroke-width="5"/>
+<text x="240" y="260" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#af3b45" text-anchor="middle" font-weight="normal">3H singlet</text>
+<text x="480" y="345" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">No adjacent carbon-bound H across C=O for the acetyl methyl.</text>
+</svg>

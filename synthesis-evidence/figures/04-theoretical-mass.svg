@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Theoretical mass is a stoichiometric prediction</title><desc>Theoretical mass is a stoichiometric prediction</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="190" y="160" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">0.0100 mol</text>
+<line x1="300" y1="155" x2="395" y2="155" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="490" y="160" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">× 180.16 g/mol</text>
+<line x1="620" y1="155" x2="700" y2="155" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="805" y="160" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">1.8016 g</text>
+<text x="480" y="275" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">Theoretical aspirin mass</text>
+<text x="480" y="345" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">Use consistent units; retain precision until final reporting.</text>
+</svg>

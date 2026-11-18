@@ -1,0 +1,100 @@
+---
+title: "Acids and bases: from a drawing to an ionisation curve"
+---
+
+Allow about 60 minutes for paper problems and 40 minutes for the R task.
+You need lone pairs, formal charges, `ggplot2`, and a working R Markdown report.
+Use the [restart guide](../intro/r-restart.qmd) if needed.
+
+## 1. Follow the electron pair
+
+Draw ethanoic acid and hydroxide with the relevant lone pairs. Draw two curved
+arrows to produce ethanoate and water. Label both conjugate pairs and check
+the total charge on each side. Then reverse the drawing: which species would
+have to act as the acid and base in the reverse reaction?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Begin one arrow on a hydroxide lone pair and end it at the acidic hydrogen.
+The other arrow starts at the acid's O–H bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The acid is CH₃COOH and the base is OH⁻. Products are CH₃COO⁻ and H₂O.
+The conjugate pairs are acid/ethanoate and water/hydroxide. Total charge is −1
+on both sides. In the reverse direction water would donate H⁺ to ethanoate.
+This reverse event is possible, but equilibrium strongly favours the forward
+direction under the compatible aqueous pKa approximation.
+:::
+
+## 2. Explain acidity using structure
+
+Draw ethoxide and both equivalent ethanoate resonance contributors. Which
+conjugate base delocalises its negative charge over equivalent oxygen atoms?
+Explain why moving a hydrogen atom would no longer be resonance. Use supplied
+approximate aqueous pKa values: ethanol 16 and ethanoic acid 4.8.
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethanoate delocalises the charge over its two oxygens; its two C–O bonds are
+equivalent in the actual ion. The contributors have the same nuclei in the
+same positions and differ in electron placement. A hydrogen shift changes
+connectivity and describes a chemical transformation. Ethanoic acid is the
+stronger acid; pKa compares equilibria, while conjugate-base stabilisation
+provides the structural explanation.
+:::
+
+## 3. Predict a proton transfer
+
+For CH₃COOH + CH₃NH₂ ⇌ CH₃COO⁻ + CH₃NH₃⁺ use pKa 4.8 for the reactant acid
+and 10.6 for methylammonium. Predict the favoured side and estimate the
+equilibrium constant as `10^(product_acid_pKa - reactant_acid_pKa)`.
+
+::: {.callout-note collapse="true" title="Worked check"}
+The products contain the weaker acid, with larger pKa. The estimated constant
+is `10^5.8`, about 630,957. This estimate requires compatible solvent and
+standard-state conventions. It predicts a strongly product-favoured equilibrium,
+not an irreversible reaction or an experimental reaction rate.
+:::
+
+## 4. R task: how much of the acid is ionised?
+
+**Question:** for a monoprotic acid with supplied pKa 4.8, how does its aqueous
+ionised fraction change between pH 1 and 9? This is a calculated teaching model,
+not measured acid dissociation data. Use the dilute-solution approximation.
+
+The ratio is $r=[A^-]/[HA]=10^{pH-pK_a}$, so the fraction is
+$r/(1+r)=1/(1+10^{pK_a-pH})$. pH, pKa and the fraction are dimensionless.
+At pH = pKa predict 0.5. At one pH unit above pKa predict 10/11.
+
+Add the following to your report, below a sentence stating your prediction:
+
+```r
+library(dplyr)
+library(ggplot2)
+ionisation <- data.frame(pH = seq(1, 9, by = 0.1)) |>
+  mutate(fraction_A_minus = 1 / (1 + 10^(4.8 - pH)))
+ggplot(ionisation, aes(pH, fraction_A_minus)) +
+  geom_line(colour = "#176b91", linewidth = 1) +
+  geom_vline(xintercept = 4.8, linetype = "dashed") +
+  labs(x = "pH", y = "Fraction present as A−") +
+  theme_minimal()
+1 / (1 + 10^(4.8 - c(3.8, 4.8, 5.8)))
+```
+
+Knit the report. Explain why the curve rises, why its midpoint is 4.8, and why
+a fraction of 0.909 does not mean each molecule is 90.9% deprotonated. Change
+pKa to 6.0, predict the shift and then compare the curves. State why the plot
+alone cannot predict extraction recovery into an organic solvent.
+
+::: {.callout-note collapse="true" title="Numerical and chemical check"}
+At pH 3.8, 4.8 and 5.8 the fractions are approximately 0.0909, 0.5 and 0.9091.
+A larger pKa shifts the midpoint to higher pH; this weaker acid needs higher pH
+to achieve the same fraction. Fractions describe a population of molecular
+species. Extraction needs partition coefficients and phase volumes as well
+as aqueous ionisation. The supplied curve is not a titration curve: pH is the
+input, not the calculated consequence of adding a specified titrant volume.
+:::
+
+## Leave with
+
+A checked proton-transfer mechanism, a conjugate-base comparison, and a knitted
+report containing a labelled plot and your own chemical interpretation.

@@ -1,0 +1,72 @@
+---
+title: "A small chemistry toolkit"
+---
+
+Use these prompts while drawing. Return to the unit for the worked explanation.
+
+## Read a structure
+
+In a skeletal structure, an unlabelled line end or corner normally represents
+carbon. Add hydrogens to give the appropriate valence; label heteroatoms and
+their hydrogens explicitly. Count bond orders, charges and implicit hydrogens
+before comparing two drawings. A changed viewing angle does not create a new molecule.
+
+| Group | Condensed pattern | First question |
+| --- | --- | --- |
+| Alcohol | R–OH | What can hydrogen-bond or be protonated? |
+| Ether | R–O–R′ | Where are the oxygen lone pairs? |
+| Aldehyde | R–C(=O)H | Where is the electrophilic carbonyl carbon? |
+| Ketone | R–C(=O)–R′ | How can a nucleophile add? |
+| Carboxylic acid | R–C(=O)OH | What stabilises the conjugate base? |
+| Ester | R–C(=O)OR′ | What could leave after addition to the acyl carbon? |
+| Amide | R–C(=O)NR′R″ | How does nitrogen donation change the bonds and basicity? |
+| Amine | RNH₂, R₂NH or R₃N | Is the lone pair available, or delocalised? |
+
+R symbols mean carbon-containing groups and do not necessarily mean the same
+group when marked with different primes. They are not the stereochemical R descriptor.
+
+## Draw an electron-pair mechanism
+
+1. Locate the electron source: a lone pair, negative charge or pi bond.
+2. Locate the electron-poor atom or a bond that can accept the pair.
+3. Draw each curved arrow from the electron pair to its destination.
+4. Redraw bonds, lone pairs and charges after the step.
+5. Check atom conservation, charge conservation and valence.
+
+A reaction arrow connects reactants and products. An equilibrium arrow shows
+opposing reaction directions. A resonance arrow connects contributors of one
+species. A curved arrow shows electron movement. These symbols have different jobs.
+
+## Choose among a few reaction patterns
+
+| Pattern | What changes | What to inspect |
+| --- | --- | --- |
+| Acid–base | A proton changes its bonded partner | Conjugate-base stabilisation and compatible pKa values |
+| Substitution | One group replaces another | Substrate, nucleophile, leaving group, solvent and mechanism |
+| Elimination | Two groups are lost as a pi bond forms | Base, accessible geometry, substrate and competition |
+| Addition | A pi bond becomes two new sigma bonds | Electrophile/nucleophile roles and stereochemistry |
+| Carbonyl addition | A nucleophile adds and C=O becomes tetrahedral | The oxygen's electrons and proton transfer |
+| Acyl substitution | Addition then loss reforms C=O | Leaving group and reaction conditions |
+| Alcohol redox | The carbon's bonds to H/O change | Oxidation level, reagent selectivity and conditions |
+
+## Calculate with units
+
+| Quantity | Relationship | Units/check |
+| --- | --- | --- |
+| Chemical amount | $n=m/M$ | g ÷ (g/mol) = mol |
+| Reaction extent capacity | $n_i/\nu_i$ | Compare balanced-equation coefficients; smallest reactant value limits |
+| Theoretical product amount | $n_P=\nu_P\min(n_i/\nu_i)$ | mol |
+| Theoretical product mass | $m_P=n_PM_P$ | mol × g/mol = g |
+| Isolated yield | $100m_{isolated}/m_{theoretical}$ | Percent; mass ratio does not establish purity |
+| TLC retention factor | $R_f=d_{spot}/d_{front}$ | Dimensionless, from the same origin |
+| Enantiomeric excess | $ee=|\%R-\%S|$ | Percentage points expressed as % ee; specify major enantiomer |
+
+For a mixture containing only two enantiomers, 70% R and 30% S is 40% ee in
+favour of R. The major-enantiomer percentage is 70%, not 40%.
+
+## Ask what the evidence establishes
+
+IR supports functional-group assignments. NMR reports chemical environments,
+integrations and coupling patterns. TLC compares behaviour under specified
+conditions. None is a universal identity or purity certificate on its own.
+Use several observations and explain the alternatives they rule out.

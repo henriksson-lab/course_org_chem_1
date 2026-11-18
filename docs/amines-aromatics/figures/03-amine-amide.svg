@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Amine and amide nitrogen have different electron availability</title><desc>Amine and amide nitrogen have different electron availability</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="240" y="160" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#153747" text-anchor="middle" font-weight="normal">CH₃CH₂–NH₂:</text>
+<text x="700" y="190" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">C</text>
+<text x="700" y="79" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">O</text>
+<line x1="695" y1="160" x2="695" y2="105" stroke="#153747" stroke-width="3"/>
+<line x1="705" y1="160" x2="705" y2="105" stroke="#153747" stroke-width="3"/>
+<line x1="680" y1="180" x2="605" y2="205" stroke="#153747" stroke-width="3"/>
+<text x="595" y="215" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="end" font-weight="normal">CH₃</text>
+<line x1="720" y1="180" x2="795" y2="205" stroke="#153747" stroke-width="3"/>
+<text x="805" y="215" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="start" font-weight="normal">NH₂</text>
+<text x="240" y="285" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">Localised lone pair</text>
+<text x="700" y="335" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">Lone pair delocalised into C=O</text>
+</svg>
