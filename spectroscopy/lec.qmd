@@ -75,14 +75,7 @@ This is the map for the rest of the lecture. IR was introduced on Day 2 with boi
 - The y-axis is **transmittance**: a **dip** means light was absorbed.
 - Wavenumber runs **high to low**, left to right, by convention.
 - Strong, sharp dip near **1740 cm⁻¹**: C=O. Nothing broad at 2500–3600: **no O–H**.
-
-::: {.try}
-**Try it:** on an **absorbance** plot, would the C=O band point up or down?
-
-::: {.fragment}
-**Up.** Absorbance is large where transmittance is small, so always read the y-axis label first.
-:::
-:::
+- On an **absorbance** plot the same band would point **up**, so read the y-axis label first.
 
 ::: notes
 Many students have only seen absorbance spectra from UV-vis in general chemistry, where peaks go up. IR is traditionally plotted as transmittance, so everything is upside down. Read the axes aloud: "per cent of light getting through" on the y-axis, wavenumber decreasing to the right. The two zones to look at first are 1650 to 1800 for C=O and 2500 to 3600 for O–H and N–H. The region below 1500 is the fingerprint region; we won't assign it, but the 1240 band here is typical of the ester C–O.
