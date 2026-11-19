@@ -13,6 +13,7 @@ figures:
 	python3 tools/make_pacing_foundation_figures.py
 	python3 tools/make_pacing_reactivity_figures.py
 	python3 tools/make_pacing_application_figures.py
+	python3 tools/make_structure_figures.py
 	Rscript tools/make-r-figures.R
 	python3 tools/asset_register.py
 

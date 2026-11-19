@@ -19,8 +19,9 @@ short R tasks, 25 interactive chemistry demos embedded in daily Exercises with d
 constructed datasets and dictionaries, a working Rmd report and
 a packaged student project. Every paper problem supplies its inputs, hint and
 worked explanation; the local course can be used without the textbook.
-Slide counts follow teaching needs; approximately 40 seconds per slide is
-pacing guidance rather than a target. Outcomes, teaching hours
+Lecture decks follow the quantbio pattern: an "About this lecture" opening,
+about 15–19 content slides sized by topic, in-slide "Try it" questions and a
+closing Summary. Outcomes, teaching hours
 and assessment suggestions remain design choices, not an approved syllabus.
 Actual laboratory protocols and local arrangements must be supplied by the
 department. The provided practical work covers preparation and interpretation.
@@ -34,6 +35,9 @@ in Chrome and confirms that browser Back returns from a lecture to the course
 home. `make demo-check` checks all embedded daily demos and pure chemical models;
 optional `make demo-browser` exercises controls and resets offline in Chrome
 at desktop/mobile widths. The demos need no build step or external libraries.
+Skeletal structures are drawn from SMILES with RDKit (`pip install rdkit`)
+through `tools/molfig.py`; `tools/slide_screenshots.py` captures every slide
+of a rendered deck and reports overflow.
 R, Quarto, Python and Node.js (for checks) are required; see
 the instructor guide for package details. No build target stages or commits.
 

@@ -37,12 +37,9 @@ Open with the two bottles. Ethanol and dimethyl ether really do share the formul
 
 ## One formula, two molecules
 
-![Ethanol and dimethyl ether are constitutional isomers](figures/04-constitutional-isomers.svg){width=78% fig-alt="Ethanol, CH3CH2OH, and dimethyl ether, CH3OCH3, both C2H6O"}
+![Ethanol and dimethyl ether are constitutional isomers](figures/sk-isomers.svg){width=88% fig-alt="Skeletal structures of ethanol and dimethyl ether, both C2H6O, with their boiling points"}
 
-| | ethanol | dimethyl ether |
-|---|---|---|
-| oxygen is bonded to | C and **H** | C and C |
-| boiling point | 78 °C | −24 °C |
+Molecules with the same formula but different connectivity are **constitutional isomers**.
 
 ::: notes
 Point at the oxygen in each. In ethanol, oxygen carries a hydrogen; in dimethyl ether, it sits between two carbons. That single difference in who is bonded to whom gives a liquid versus a gas at room temperature. Molecules with the same formula but different connectivity are constitutional isomers. The word "connectivity" is the key word of the whole lecture: a structure is a statement about which atoms are bonded to which. Everything else (left/right on the page, the angle you draw it at) is presentation.
@@ -50,7 +47,7 @@ Point at the oxygen in each. In ethanol, oxygen carries a hydrogen; in dimethyl 
 
 ## Three ways to write the same molecule
 
-![Ethanol as molecular formula, condensed structure and skeletal structure](figures/01-representations.svg){width=78% fig-alt="Ethanol as C2H6O, CH3CH2OH and a skeletal drawing"}
+![Ethanol as molecular formula, condensed structure and skeletal structure](figures/sk-representations.svg){width=80% fig-alt="Ethanol as C2H6O, CH3CH2OH and a skeletal drawing"}
 
 - **Molecular formula** C₂H₆O tells you *what* is there. It's good for mass and amount, but useless for identity.
 - **Condensed** CH₃CH₂OH tells you the connectivity in a single line of text.
@@ -62,7 +59,7 @@ Each representation answers a different question. The molecular formula is what 
 
 ## Skeletal structures hide most of the atoms
 
-![Pentane as a zigzag with CH3 and CH2 labels revealed](figures/02-implicit-atoms.svg){width=72% fig-alt="Pentane zigzag with each vertex labelled CH3 or CH2, giving C5H12"}
+![Pentane as a skeletal zigzag and with every atom drawn](figures/sk-pentane.svg){width=78% fig-alt="Pentane drawn as a numbered five-carbon zigzag and again with all twelve hydrogens shown"}
 
 **Rules:** every **end and corner is a carbon**. Hydrogens on carbon are **not drawn**: add enough to give each carbon four bonds. Heteroatoms (O, N, …) and the H on them *are* drawn.
 
@@ -80,20 +77,9 @@ This is the single most important reading skill of the course. Walk along the pe
 
 ## Branches and rings: same counting rule
 
-:::: {.columns}
-::: {.column width="50%"}
-| drawing | carbons | formula |
-|---|---|---|
-| butane (straight) | 4 | C₄H₁₀ |
-| 2-methylpropane (branched) | 4 | C₄H₁₀ |
-| cyclobutane (ring) | 4 | C₄H₈ |
-:::
-::: {.column width="50%"}
-- A **branch point** is a carbon with three or four carbon neighbours, so it carries fewer H.
-- Butane and 2-methylpropane are **isomers again**: same formula, different connectivity.
-- Closing a **ring** uses one more C–C bond, so it costs **two H**.
-:::
-::::
+![Butane, 2-methylpropane and cyclobutane](figures/sk-branches.svg){width=72% fig-alt="Skeletal structures of butane, 2-methylpropane with its branch carbon shaded, and cyclobutane"}
+
+A **branch point** has three carbon neighbours, so it carries one H. A **ring** uses one more C–C bond and costs **two H**.
 
 ::: {.try}
 **Try it:** in 2-methylpropane, how many H are on the central carbon?
@@ -109,7 +95,7 @@ Extend the counting rule from chains to branches and rings. Draw butane and 2-me
 
 ## Double and triple bonds change the hydrogen count
 
-![Ethane, ethene and ethyne with their formulas](figures/03-bond-order.svg){width=80% fig-alt="Ethane C2H6, ethene C2H4 and ethyne C2H2"}
+![Ethane, ethene and ethyne with every hydrogen drawn](figures/sk-bond-order.svg){width=75% fig-alt="Ethane, ethene and ethyne with all hydrogens drawn: C2H6, C2H4, C2H2"}
 
 A neutral carbon has a **bond-order sum of four**, not four neighbours. Each extra bond between two carbons removes one H from each.
 
@@ -141,14 +127,7 @@ This is why skeletal drawings use zigzags: they approximate the real 109.5° and
 
 ## Functional groups: the parts that react
 
-| family | pattern | you have met it as |
-|---|---|---|
-| alcohol | R–OH | ethanol, cholesterol |
-| amine | R–NH₂ | the fishy smell of trimethylamine |
-| ether | R–O–R′ | the anaesthetic diethyl ether |
-| aldehyde | R–C(=O)H | vanillin, the smell of vanilla |
-| carboxylic acid | R–C(=O)OH | acetic acid in vinegar |
-| ester | R–C(=O)OR′ | isoamyl acetate, the smell of bananas |
+![Six functional groups in real molecules](figures/sk-functional-groups.svg){width=78% fig-alt="Ethanol, ethylamine, diethyl ether, ethanal, acetic acid and ethyl acetate with each functional group shaded"}
 
 A functional group is identified by its **local connectivity**, not just by which elements are present.
 
@@ -158,9 +137,9 @@ Most of a molecule is an inert carbon-hydrogen scaffold. The functional groups a
 
 ## Reading around a carbonyl
 
-![Acetic acid with its carbonyl and hydroxyl oxygen marked](figures/09-carbonyl-reading.svg){width=68% fig-alt="Acetic acid CH3C(=O)OH: the carbonyl carbon has three neighbours and bond-order sum four"}
+![The neighbour of C=O decides the family](figures/sk-carbonyl-family.svg){width=80% fig-alt="Aldehyde, ketone, acid, ester and amide drawn side by side with the carbonyl and its neighbour shaded"}
 
-Look at the **neighbour of C=O**: if it's **H** you have an aldehyde, **C** a ketone, **OH** an acid, **OR** an ester, and **N** an amide. An OH or OR with no C=O next to it is an alcohol or ether.
+Find the C=O, then look at its **other neighbour**. An OH or OR with no C=O next to it is just an alcohol or ether.
 
 ::: {.try}
 **Try it:** is CH₃C(=O)NH₂ an amine or an amide?
@@ -230,16 +209,11 @@ This is the habit that saves the most marks on the exam. Students under time pre
 
 ## Naming: just enough to communicate
 
-:::: {.columns}
-::: {.column width="45%"}
-![Butan-1-ol numbered from the OH end](figures/08-simple-naming.svg){width=100% fig-alt="Four-carbon chain numbered from the OH end, butan-1-ol"}
-:::
-::: {.column width="55%"}
+![Butan-1-ol numbered from the OH end](figures/sk-naming.svg){width=62% fig-alt="Butan-1-ol and propan-2-ol with their carbons numbered from the OH end"}
+
 1. Find the **longest chain** containing the group: meth-, eth-, prop-, but-, pent-, …
 2. **Number from the end** nearest the group.
 3. Add the ending: **-ol**, **-al**, **-one**, **-oic acid**, …
-:::
-::::
 
 ::: {.try}
 **Try it:** name CH₃CH₂CH(OH)CH₃.
@@ -255,20 +229,7 @@ We teach naming only as far as needed to talk about molecules unambiguously; nob
 
 ## Putting it together: two molecules from biology
 
-:::: {.columns}
-::: {.column width="50%"}
-**Glycine** H₂N–CH₂–COOH
-
-- amine + carboxylic acid
-- the simplest amino acid
-:::
-::: {.column width="50%"}
-**Lactic acid** CH₃–CH(OH)–COOH
-
-- alcohol + carboxylic acid
-- made by muscle and by yoghurt bacteria
-:::
-::::
+![Glycine and lactic acid](figures/sk-biomolecules.svg){width=62% fig-alt="Skeletal structures of glycine and lactic acid with their functional groups shaded"}
 
 Read every atom, group by group: count each **C–H, N–H and O–H** separately, and don't add an H to the carbonyl carbon.
 
