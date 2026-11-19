@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>SN1 energy profile: three steps, two intermediates</title><desc>Energy profile for tert-butyl bromide in water. The first barrier, ionisation, is highest. Two dips are the carbocation and the protonated alcohol, both intermediates.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="90" y1="340" x2="90" y2="40" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="90" y1="340" x2="640" y2="340" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="68" y="190.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" transform="rotate(-90 68 190.0)">energy</text>
+<text x="365.0" y="372" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">reaction progress</text>
+<path d="M 105 240 C 150 240 170 70 215 70 C 260 70 270 190 305 190 C 335 190 345 150 370 150 C 395 150 405 215 440 215 C 470 215 480 180 500 180 C 525 180 540 270 625 270" stroke="#176b91" stroke-width="4" fill="none"/>
+<text x="105" y="270" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="start" font-weight="normal">R–Br</text>
+<text x="215" y="55" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="middle" font-weight="bold">ionisation (slow)</text>
+<text x="305" y="222" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="bold">R⁺</text>
+<text x="440" y="248" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="bold">R–OH₂⁺</text>
+<text x="625" y="302" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="end" font-weight="normal">R–OH</text>
+<circle cx="305" cy="190" r="6" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="440" cy="215" r="6" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="800" y="90" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#af3b45" text-anchor="middle" font-weight="bold">rate = k[R–Br]</text>
+<text x="800" y="135" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="normal">only the slow first step</text>
+<text x="800" y="163" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="normal">sets the rate</text>
+<text x="800" y="215" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">dips = intermediates</text>
+<text x="800" y="243" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">(real, short-lived species)</text>
+<text x="800" y="295" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">peaks = transition states</text>
+<text x="800" y="323" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">(never isolable)</text>
+</svg>
