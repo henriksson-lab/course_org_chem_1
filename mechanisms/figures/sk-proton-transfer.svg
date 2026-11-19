@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Proton transfer from methanol to hydroxide</title><desc>Hydroxide oxygen B uses a lone pair to take the methanol H; the O–H bond pair stays on methanol oxygen A.</desc>
+<defs><marker id="headaf3b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#af3b45"/></marker></defs>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<svg x="5.5" y="108.5" width="179.0" height="123.0" viewBox="0 0 179.0 123.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 52.6,61.3 L 83.4,61.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 83.4,61.3 L 114.2,61.3' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 34.3 51.4
+L 37.0 51.4
+L 37.0 59.9
+L 47.1 59.9
+L 47.1 51.4
+L 49.8 51.4
+L 49.8 71.3
+L 47.1 71.3
+L 47.1 62.1
+L 37.0 62.1
+L 37.0 71.3
+L 34.3 71.3
+L 34.3 51.4
+' fill='#153747'/>
+<path class='atom-1' d='M 116.9 61.4
+Q 116.9 56.6, 119.3 54.0
+Q 121.6 51.3, 126.0 51.3
+Q 130.4 51.3, 132.8 54.0
+Q 135.1 56.6, 135.1 61.4
+Q 135.1 66.2, 132.7 69.0
+Q 130.4 71.7, 126.0 71.7
+Q 121.7 71.7, 119.3 69.0
+Q 116.9 66.2, 116.9 61.4
+M 126.0 69.4
+Q 129.0 69.4, 130.7 67.4
+Q 132.3 65.4, 132.3 61.4
+Q 132.3 57.5, 130.7 55.6
+Q 129.0 53.6, 126.0 53.6
+Q 123.0 53.6, 121.3 55.5
+Q 119.7 57.5, 119.7 61.4
+Q 119.7 65.4, 121.3 67.4
+Q 123.0 69.4, 126.0 69.4
+' fill='#AF3B45'/>
+<path class='atom-1' d='M 137.9 54.6
+L 144.7 54.6
+L 144.7 56.0
+L 137.9 56.0
+L 137.9 54.6
+' fill='#AF3B45'/>
+</svg>
+<circle cx="122.43342497093265" cy="147.07885481604166" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="132.28150250105472" cy="145.34237303937238" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="132.28150250105472" cy="194.34962696062763" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="122.43342497093265" cy="192.61314518395835" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="161.9374934787009" cy="170.13140656494687" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="160.20101170203162" cy="179.97948409506893" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="131.52502" y="225.546" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#23765d" text-anchor="middle" font-weight="bold">B</text>
+<svg x="235.0" y="94.5" width="220.0" height="151.0" viewBox="0 0 220.0 151.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 186.6,96.6 L 156.2,79.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 156.2,79.0 L 125.8,61.4' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 102.0,61.4 L 76.8,75.9' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 76.8,75.9 L 51.7,90.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-1' d='M 104.8 54.6
+Q 104.8 49.9, 107.1 47.2
+Q 109.5 44.5, 113.9 44.5
+Q 118.3 44.5, 120.6 47.2
+Q 123.0 49.9, 123.0 54.6
+Q 123.0 59.4, 120.6 62.2
+Q 118.2 64.9, 113.9 64.9
+Q 109.5 64.9, 107.1 62.2
+Q 104.8 59.5, 104.8 54.6
+M 113.9 62.6
+Q 116.9 62.6, 118.5 60.6
+Q 120.2 58.6, 120.2 54.6
+Q 120.2 50.7, 118.5 48.8
+Q 116.9 46.8, 113.9 46.8
+Q 110.9 46.8, 109.2 48.7
+Q 107.6 50.7, 107.6 54.6
+Q 107.6 58.6, 109.2 60.6
+Q 110.9 62.6, 113.9 62.6
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 33.4 86.6
+L 36.1 86.6
+L 36.1 95.1
+L 46.2 95.1
+L 46.2 86.6
+L 48.9 86.6
+L 48.9 106.5
+L 46.2 106.5
+L 46.2 97.3
+L 36.1 97.3
+L 36.1 106.5
+L 33.4 106.5
+L 33.4 86.6
+' fill='#153747'/>
+</svg>
+<circle cx="360.474680416882" cy="127.45699531671183" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="368.1351248480718" cy="133.88487141357723" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="329.62087515192815" cy="133.88487141357723" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="337.281319583118" cy="127.45699531671183" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="348.878" y="108.75599999999999" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#23765d" text-anchor="middle" font-weight="bold">A</text>
+<text x="200" y="212" font-family="DejaVu Sans, sans-serif" font-size="36" fill="#153747" text-anchor="middle" font-weight="normal">+</text>
+<path d="M 167.0 175.9 Q 220.8 131.1 260.3 188.9" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<path d="M 314.5 170.2 Q 332.9 207.7 355.1 172.2" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<line x1="470.0" y1="165" x2="560.0" y2="165" stroke="#153747" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="560.0" y1="175" x2="470.0" y2="175" stroke="#153747" stroke-width="2.5" marker-end="url(#arrow)"/>
+<svg x="555.0" y="79.5" width="220.0" height="151.0" viewBox="0 0 220.0 151.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 172.2,60.4 L 147.0,74.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 147.0,74.9 L 121.9,89.4' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 98.1,89.4 L 73.0,74.9' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 73.0,74.9 L 47.8,60.4' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 175.0 44.4
+L 177.7 44.4
+L 177.7 52.8
+L 187.8 52.8
+L 187.8 44.4
+L 190.5 44.4
+L 190.5 64.2
+L 187.8 64.2
+L 187.8 55.0
+L 177.7 55.0
+L 177.7 64.2
+L 175.0 64.2
+L 175.0 44.4
+' fill='#153747'/>
+<path class='atom-1' d='M 100.9 96.3
+Q 100.9 91.6, 103.3 88.9
+Q 105.6 86.3, 110.0 86.3
+Q 114.4 86.3, 116.7 88.9
+Q 119.1 91.6, 119.1 96.3
+Q 119.1 101.2, 116.7 103.9
+Q 114.3 106.6, 110.0 106.6
+Q 105.6 106.6, 103.3 103.9
+Q 100.9 101.2, 100.9 96.3
+M 110.0 104.4
+Q 113.0 104.4, 114.6 102.4
+Q 116.3 100.3, 116.3 96.3
+Q 116.3 92.5, 114.6 90.5
+Q 113.0 88.5, 110.0 88.5
+Q 107.0 88.5, 105.3 90.5
+Q 103.7 92.4, 103.7 96.3
+Q 103.7 100.4, 105.3 102.4
+Q 107.0 104.4, 110.0 104.4
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 29.5 44.4
+L 32.2 44.4
+L 32.2 52.8
+L 42.3 52.8
+L 42.3 44.4
+L 45.0 44.4
+L 45.0 64.2
+L 42.3 64.2
+L 42.3 55.0
+L 32.2 55.0
+L 32.2 64.2
+L 29.5 64.2
+L 29.5 44.4
+' fill='#153747'/>
+</svg>
+<circle cx="684.2571248480718" cy="190.96112858642277" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="676.5966804168821" cy="197.3890046832882" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="653.4033195831179" cy="197.3890046832882" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="645.7428751519282" cy="190.96112858642277" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="713.0" y="183.49" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#23765d" text-anchor="middle" font-weight="bold">B</text>
+<text x="775" y="182" font-family="DejaVu Sans, sans-serif" font-size="36" fill="#153747" text-anchor="middle" font-weight="normal">+</text>
+<svg x="775.5" y="108.5" width="179.0" height="123.0" viewBox="0 0 179.0 123.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 38.1,61.3 L 74.2,61.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 74.2,61.3 L 110.3,61.3' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-1' d='M 113.0 61.4
+Q 113.0 56.6, 115.4 54.0
+Q 117.8 51.3, 122.1 51.3
+Q 126.5 51.3, 128.9 54.0
+Q 131.2 56.6, 131.2 61.4
+Q 131.2 66.2, 128.9 69.0
+Q 126.5 71.7, 122.1 71.7
+Q 117.8 71.7, 115.4 69.0
+Q 113.0 66.2, 113.0 61.4
+M 122.1 69.4
+Q 125.2 69.4, 126.8 67.4
+Q 128.4 65.4, 128.4 61.4
+Q 128.4 57.5, 126.8 55.6
+Q 125.2 53.6, 122.1 53.6
+Q 119.1 53.6, 117.5 55.5
+Q 115.8 57.5, 115.8 61.4
+Q 115.8 65.4, 117.5 67.4
+Q 119.1 69.4, 122.1 69.4
+' fill='#AF3B45'/>
+<path class='atom-1' d='M 134.1 54.6
+L 140.9 54.6
+L 140.9 56.0
+L 134.1 56.0
+L 134.1 54.6
+' fill='#AF3B45'/>
+</svg>
+<circle cx="888.5554249709327" cy="147.07885481604166" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="898.4035025010547" cy="145.34237303937238" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="898.4035025010547" cy="194.34962696062763" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="888.5554249709327" cy="192.61314518395835" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="928.0594934787009" cy="170.13140656494687" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="926.3230117020316" cy="179.97948409506893" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="897.64702" y="225.546" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#23765d" text-anchor="middle" font-weight="bold">A</text>
+<text x="110" y="290" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="middle" font-weight="normal">tail on a lone pair</text>
+<text x="345" y="290" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="middle" font-weight="normal">tail on a bond</text>
+<text x="480" y="350" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">Oxygen A stays with carbon; oxygen B becomes water. Total charge −1 on both sides.</text>
+</svg>

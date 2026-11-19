@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>One-step reaction profile with forward and reverse barriers</title><desc>Reactants at 0, transition state at +45 and products at −20 kJ/mol. Forward barrier 45, reverse barrier 65, overall ΔG −20 kJ/mol.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<line x1="70" y1="370" x2="70" y2="30" stroke="#153747" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="70" y1="370" x2="920" y2="370" stroke="#153747" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text transform="rotate(-90 54 200.0)" x="54" y="200.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">free energy G</text>
+<text x="495.0" y="400" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">reaction progress</text>
+<polyline points="110.0,250.0 113.5,250.0 117.0,250.0 120.5,250.0 124.0,250.0 127.5,250.0 131.0,250.0 134.5,250.0 138.0,250.0 141.5,250.0 145.0,250.0 148.5,250.0 152.0,250.0 155.5,250.0 159.0,250.0 162.5,250.0 166.0,250.0 169.5,250.0 173.0,250.0 176.5,250.0 180.0,250.0 183.5,250.0 187.0,250.0 190.5,250.0 194.0,250.0 197.5,250.0 201.0,250.0 204.5,250.0 208.0,250.0 211.5,250.0 215.0,250.0 218.5,250.0 222.0,250.0 225.5,250.0 229.0,250.0 232.5,250.0 236.0,250.0 239.5,250.0 243.0,250.0 246.5,250.0 250.0,250.0 255.0,249.8 260.0,249.0 265.0,247.8 270.0,246.0 275.0,243.8 280.0,241.2 285.0,238.1 290.0,234.5 295.0,230.6 300.0,226.3 305.0,221.6 310.0,216.6 315.0,211.3 320.0,205.8 325.0,200.0 330.0,194.0 335.0,187.9 340.0,181.7 345.0,175.4 350.0,169.0 355.0,162.6 360.0,156.3 365.0,150.1 370.0,144.0 375.0,138.0 380.0,132.2 385.0,126.7 390.0,121.4 395.0,116.4 400.0,111.7 405.0,107.4 410.0,103.5 415.0,99.9 420.0,96.8 425.0,94.2 430.0,92.0 435.0,90.2 440.0,89.0 445.0,88.2 450.0,88.0 455.0,88.4 460.0,89.4 465.0,91.2 470.0,93.7 475.0,96.9 480.0,100.8 485.0,105.2 490.0,110.3 495.0,116.0 500.0,122.3 505.0,129.0 510.0,136.2 515.0,143.9 520.0,151.9 525.0,160.2 530.0,168.8 535.0,177.7 540.0,186.7 545.0,195.8 550.0,205.0 555.0,214.2 560.0,223.3 565.0,232.3 570.0,241.2 575.0,249.8 580.0,258.1 585.0,266.1 590.0,273.8 595.0,281.0 600.0,287.7 605.0,294.0 610.0,299.7 615.0,304.8 620.0,309.2 625.0,313.1 630.0,316.3 635.0,318.8 640.0,320.6 645.0,321.6 650.0,322.0 654.2,322.0 658.5,322.0 662.8,322.0 667.0,322.0 671.2,322.0 675.5,322.0 679.8,322.0 684.0,322.0 688.2,322.0 692.5,322.0 696.8,322.0 701.0,322.0 705.2,322.0 709.5,322.0 713.8,322.0 718.0,322.0 722.2,322.0 726.5,322.0 730.8,322.0 735.0,322.0 739.2,322.0 743.5,322.0 747.8,322.0 752.0,322.0 756.2,322.0 760.5,322.0 764.8,322.0 769.0,322.0 773.2,322.0 777.5,322.0 781.8,322.0 786.0,322.0 790.2,322.0 794.5,322.0 798.8,322.0 803.0,322.0 807.2,322.0 811.5,322.0 815.8,322.0 820.0,322.0" fill="none" stroke="#176b91" stroke-width="4"/>
+<line x1="250" y1="250.0" x2="560" y2="250.0" stroke="#9fb3bd" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="450" y1="88.0" x2="860" y2="88.0" stroke="#9fb3bd" stroke-width="1.5" stroke-dasharray="6 5"/>
+<line x1="650" y1="322.0" x2="860" y2="322.0" stroke="#9fb3bd" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="170" y="236.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">reactants 0</text>
+<text x="740" y="352.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">products −20</text>
+<text x="450" y="72.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="bold">transition state ‡  +45</text>
+<line x1="540" y1="250.0" x2="540" y2="88.0" stroke="#af3b45" stroke-width="2.5"/>
+<line x1="533" y1="250.0" x2="547" y2="250.0" stroke="#af3b45" stroke-width="2.5"/>
+<line x1="533" y1="88.0" x2="547" y2="88.0" stroke="#af3b45" stroke-width="2.5"/>
+<text x="550" y="176.0" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="start" font-weight="bold">forward ΔG‡ = 45</text>
+<line x1="840" y1="322.0" x2="840" y2="88.0" stroke="#23765d" stroke-width="2.5"/>
+<line x1="833" y1="322.0" x2="847" y2="322.0" stroke="#23765d" stroke-width="2.5"/>
+<line x1="833" y1="88.0" x2="847" y2="88.0" stroke="#23765d" stroke-width="2.5"/>
+<text x="830" y="212.0" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="end" font-weight="bold">reverse 65</text>
+<line x1="200" y1="250.0" x2="200" y2="322.0" stroke="#176b91" stroke-width="2.5"/>
+<line x1="193" y1="250.0" x2="207" y2="250.0" stroke="#176b91" stroke-width="2.5"/>
+<line x1="193" y1="322.0" x2="207" y2="322.0" stroke="#176b91" stroke-width="2.5"/>
+<text x="210" y="293.0" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="start" font-weight="bold">ΔG = −20</text>
+<line x1="110" y1="322.0" x2="650" y2="322.0" stroke="#9fb3bd" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="900" y="400" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#176b91" text-anchor="end" font-weight="normal">kJ/mol, schematic</text>
+</svg>

@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img"><title>Acetate resonance contributors compared with acid dissociation</title><desc>Top: two acetate contributors linked by a double-headed resonance arrow; only electrons are redrawn. Bottom: acetic acid giving acetate and hydronium, where a proton moves to another molecule.</desc>
+<defs><marker id="headaf3b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#af3b45"/></marker></defs>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="470" rx="12" fill="#f7fafc"/>
+<svg x="111.5" y="29.0" width="237.0" height="222.0" viewBox="0 0 237.0 222.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 23.4,185.1 L 109.1,135.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 116.6,139.9 L 116.6,95.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 116.6,95.0 L 116.6,50.2' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 101.7,139.9 L 101.7,95.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 101.7,95.0 L 101.7,50.2' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 109.1,135.6 L 145.8,156.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 145.8,156.8 L 182.5,178.0' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 104.9,138.1 L 109.1,135.6 L 111.0,136.7' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 100.0 36.7
+Q 100.0 31.9, 102.4 29.2
+Q 104.8 26.6, 109.1 26.6
+Q 113.5 26.6, 115.9 29.2
+Q 118.2 31.9, 118.2 36.7
+Q 118.2 41.5, 115.9 44.2
+Q 113.5 46.9, 109.1 46.9
+Q 104.8 46.9, 102.4 44.2
+Q 100.0 41.5, 100.0 36.7
+M 109.1 44.7
+Q 112.2 44.7, 113.8 42.7
+Q 115.4 40.6, 115.4 36.7
+Q 115.4 32.8, 113.8 30.8
+Q 112.2 28.8, 109.1 28.8
+Q 106.1 28.8, 104.5 30.8
+Q 102.8 32.7, 102.8 36.7
+Q 102.8 40.7, 104.5 42.7
+Q 106.1 44.7, 109.1 44.7
+' fill='#AF3B45'/>
+<path class='atom-3' d='M 185.8 185.2
+Q 185.8 180.4, 188.1 177.7
+Q 190.5 175.1, 194.9 175.1
+Q 199.3 175.1, 201.6 177.7
+Q 204.0 180.4, 204.0 185.2
+Q 204.0 190.0, 201.6 192.7
+Q 199.2 195.4, 194.9 195.4
+Q 190.5 195.4, 188.1 192.7
+Q 185.8 190.0, 185.8 185.2
+M 194.9 193.2
+Q 197.9 193.2, 199.5 191.2
+Q 201.2 189.1, 201.2 185.2
+Q 201.2 181.3, 199.5 179.3
+Q 197.9 177.3, 194.9 177.3
+Q 191.9 177.3, 190.2 179.3
+Q 188.6 181.2, 188.6 185.2
+Q 188.6 189.2, 190.2 191.2
+Q 191.9 193.2, 194.9 193.2
+' fill='#AF3B45'/>
+<path class='atom-3' d='M 206.8 178.3
+L 213.6 178.3
+L 213.6 179.8
+L 206.8 179.8
+L 206.8 178.3
+' fill='#AF3B45'/>
+</svg>
+<circle cx="239.07709096975856" cy="46.587252433427835" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="244.812855333269" cy="54.778772876317745" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="196.481184666731" cy="54.77877287631776" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="202.21694903024144" cy="46.587252433427835" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="297.71366199358164" cy="239.11266049839546" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="289.0534079557372" cy="234.11266049839546" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="331.40019547305485" cy="222.76587298107788" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="326.40019547305485" cy="231.42612701892224" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="315.0534079557372" cy="189.07933950160464" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="323.71366199358164" cy="194.07933950160464" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<path d="M 315.4 191.4 Q 288.7 235.3 265.5 189.4" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<path d="M 221.9 113.5 Q 274.7 125.1 252.2 76.0" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<line x1="425" y1="140" x2="535" y2="140" stroke="#153747" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<svg x="611.5" y="29.0" width="237.0" height="222.0" viewBox="0 0 237.0 222.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 28.1,185.1 L 113.9,135.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 113.9,135.6 L 113.9,92.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 113.9,92.9 L 113.9,50.2' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 106.5,139.9 L 145.1,162.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 145.1,162.1 L 183.7,184.4' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 113.9,127.0 L 152.5,149.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 152.5,149.3 L 191.1,171.5' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 109.7,138.1 L 113.9,135.6 L 113.9,133.5' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 104.8 36.7
+Q 104.8 31.9, 107.2 29.2
+Q 109.6 26.6, 113.9 26.6
+Q 118.3 26.6, 120.7 29.2
+Q 123.0 31.9, 123.0 36.7
+Q 123.0 41.5, 120.7 44.2
+Q 118.3 46.9, 113.9 46.9
+Q 109.6 46.9, 107.2 44.2
+Q 104.8 41.5, 104.8 36.7
+M 113.9 44.7
+Q 117.0 44.7, 118.6 42.7
+Q 120.2 40.6, 120.2 36.7
+Q 120.2 32.8, 118.6 30.8
+Q 117.0 28.8, 113.9 28.8
+Q 110.9 28.8, 109.3 30.8
+Q 107.6 32.7, 107.6 36.7
+Q 107.6 40.7, 109.3 42.7
+Q 110.9 44.7, 113.9 44.7
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 125.9 29.8
+L 132.7 29.8
+L 132.7 31.3
+L 125.9 31.3
+L 125.9 29.8
+' fill='#AF3B45'/>
+<path class='atom-3' d='M 190.7 185.2
+Q 190.7 180.4, 193.0 177.7
+Q 195.4 175.1, 199.8 175.1
+Q 204.1 175.1, 206.5 177.7
+Q 208.8 180.4, 208.8 185.2
+Q 208.8 190.0, 206.5 192.7
+Q 204.1 195.4, 199.8 195.4
+Q 195.4 195.4, 193.0 192.7
+Q 190.7 190.0, 190.7 185.2
+M 199.8 193.2
+Q 202.8 193.2, 204.4 191.2
+Q 206.1 189.1, 206.1 185.2
+Q 206.1 181.3, 204.4 179.3
+Q 202.8 177.3, 199.8 177.3
+Q 196.7 177.3, 195.1 179.3
+Q 193.4 181.2, 193.4 185.2
+Q 193.4 189.2, 195.1 191.2
+Q 196.7 193.2, 199.8 193.2
+' fill='#AF3B45'/>
+</svg>
+<circle cx="751.45" cy="60.596000000000004" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="751.45" cy="70.596" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="720.45" cy="39.596000000000004" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="730.45" cy="39.596000000000004" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="699.45" cy="70.596" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="699.45" cy="60.596000000000004" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="816.2583315332557" cy="240.0943963977203" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="806.2583320467078" cy="240.0976009323287" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="831.2611059714558" cy="196.75945946276573" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="836.2638809231079" cy="205.41811078864333" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="480" y="115" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="normal">resonance</text>
+<text x="480" y="270" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">Same nuclei, electrons redrawn: one real ion, both C–O bonds equal.</text>
+<line x1="40" y1="305" x2="920" y2="305" stroke="#c9d6dd" stroke-width="2"/>
+<text x="480" y="375" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">CH₃COOH + H₂O  ⇌  CH₃COO⁻ + H₃O⁺</text>
+<text x="480" y="430" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="middle" font-weight="normal">A reaction: a proton moves to a different molecule.</text>
+</svg>
