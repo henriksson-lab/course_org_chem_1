@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img"><title>Every observation assigned to ethyl ethanoate</title><desc>Ethyl ethanoate with callouts: acetyl CH3 2.05 s 3H and 21 ppm; C=O IR 1740 and 171 ppm; O-CH2 4.12 q 2H and 60 ppm; CH3 1.25 t 3H and 14 ppm</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="440" rx="12" fill="#f7fafc"/>
+<svg x="272.5" y="55.5" width="415.0" height="269.0" viewBox="0 0 415.0 269.0" overflow="visible">
+<path class='bond-1 atom-1 atom-2' d='M 72.4,94.7 L 119.9,101.5 L 102.9,220.3 L 55.4,213.5 Z' style='fill:#CFE3EC;fill-rule:evenodd;fill-opacity:1;stroke:#CFE3EC;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<ellipse cx='96.1' cy='98.1' rx='28.0' ry='28.0' class='atom-1'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='79.1' cy='217.0' rx='28.0' ry='28.0' class='atom-2'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 1.8,24.0 L 96.1,98.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 87.9,91.7 L 72.4,200.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 105.8,94.2 L 90.2,202.7' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 96.1,98.1 L 144.6,78.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 144.6,78.6 L 193.1,59.2' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 221.9,64.7 L 261.9,96.1' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 261.9,96.1 L 301.9,127.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 301.9,127.5 L 413.2,82.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 91.4,94.4 L 96.1,98.1 L 98.5,97.1' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 299.9,126.0 L 301.9,127.5 L 307.4,125.3' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 68.7 216.9
+Q 68.7 211.5, 71.4 208.5
+Q 74.1 205.4, 79.1 205.4
+Q 84.1 205.4, 86.8 208.5
+Q 89.5 211.5, 89.5 216.9
+Q 89.5 222.4, 86.8 225.6
+Q 84.1 228.7, 79.1 228.7
+Q 74.1 228.7, 71.4 225.6
+Q 68.7 222.5, 68.7 216.9
+M 79.1 226.1
+Q 82.6 226.1, 84.4 223.8
+Q 86.3 221.5, 86.3 216.9
+Q 86.3 212.5, 84.4 210.2
+Q 82.6 208.0, 79.1 208.0
+Q 75.7 208.0, 73.8 210.2
+Q 71.9 212.5, 71.9 216.9
+Q 71.9 221.5, 73.8 223.8
+Q 75.7 226.1, 79.1 226.1
+' fill='#af3b45'/>
+<path class='atom-3' d='M 197.1 53.5
+Q 197.1 48.0, 199.8 45.0
+Q 202.5 42.0, 207.5 42.0
+Q 212.5 42.0, 215.2 45.0
+Q 217.9 48.0, 217.9 53.5
+Q 217.9 59.0, 215.2 62.1
+Q 212.5 65.2, 207.5 65.2
+Q 202.5 65.2, 199.8 62.1
+Q 197.1 59.0, 197.1 53.5
+M 207.5 62.7
+Q 211.0 62.7, 212.8 60.4
+Q 214.7 58.0, 214.7 53.5
+Q 214.7 49.0, 212.8 46.8
+Q 211.0 44.5, 207.5 44.5
+Q 204.0 44.5, 202.2 46.8
+Q 200.3 49.0, 200.3 53.5
+Q 200.3 58.1, 202.2 60.4
+Q 204.0 62.7, 207.5 62.7
+' fill='#AF3B45'/>
+</svg>
+<line x1="274.2531320953317" y1="79.45457261250792" x2="200" y2="85" stroke="#23765d" stroke-width="2" stroke-dasharray="5"/>
+<text x="135" y="60" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="middle" font-weight="bold">¹H 2.05 · s · 3H</text>
+<text x="135" y="88" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="middle" font-weight="bold">¹³C 21</text>
+<line x1="351.6085378996242" y1="272.3694273874921" x2="330" y2="330" stroke="#af3b45" stroke-width="2" stroke-dasharray="5"/>
+<text x="250" y="380" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="middle" font-weight="bold">IR 1740 cm⁻¹ (C=O)</text>
+<text x="250" y="408" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="middle" font-weight="bold">¹³C 171</text>
+<line x1="574.3674245696535" y1="183.04709865873008" x2="600" y2="290" stroke="#176b91" stroke-width="2" stroke-dasharray="5"/>
+<text x="640" y="330" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="bold">¹H 4.12 · q · 2H</text>
+<text x="640" y="358" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="bold">¹³C 60</text>
+<line x1="685.7468679046683" y1="138.38593429434906" x2="790" y2="95" stroke="#153747" stroke-width="2" stroke-dasharray="5"/>
+<text x="850" y="70" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="bold">¹H 1.25 · t · 3H</text>
+<text x="850" y="98" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="bold">¹³C 14</text>
+<text x="850" y="400" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">IR: no broad O–H</text>
+</svg>
