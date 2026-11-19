@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Reading organic structures</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,18 +144,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Reading organic structures</h1>
-  <p class="subtitle">Week 1 · Representations, valence and chemical amount</p>
+  <p class="subtitle">Week 1 · Day 1 — how a drawing encodes a molecule</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-should-you-be-able-to-explain" class="slide level2">
-<h2>What should you be able to explain?</h2>
-<p>Recover implicit atoms; distinguish connectivity; audit charges; convert a supplied mass to amount.</p>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>Two bottles are both labelled <strong>C₂H₆O</strong>. One is the alcohol in beer and boils at 78 °C. The other is a spray-can propellant that boils at −24 °C. <strong>Same atoms, different molecules.</strong> Only the <strong>structure</strong> tells them apart.</p>
+<p>Today we learn to read structures fluently:</p>
+<ul>
+<li><strong>Drawings:</strong> formula, condensed and skeletal, and what each one hides</li>
+<li><strong>Hidden atoms:</strong> every corner is a carbon; valence implies the H</li>
+<li><strong>Functional groups:</strong> the local patterns that decide behaviour</li>
+<li><strong>Formal charge:</strong> an electron count that keeps a drawing honest</li>
+<li><strong>Names and amounts:</strong> basic naming, and grams to moles</li>
+</ul>
+<p>The rest of the course assumes you can read a structure at a glance.</p>
 <aside class="notes">
-<p>45-minute budget: representations and a short identity check4 min; skeletal/branch/multiple-bond counting8 min including a90-second drawing; functional groups6 min; formal charge and valence7 min including a60-second repair; naming6 min; multi-functional structures5 min; amount calculation6 min including a60-second manual check; integrated explanation/exit3 min. These blocks sum to45 min; pauses are inside them,not additional time.</p>
-<p>Use the slide pace flexibly: concrete worked operations deserve more time than brief resolved checks. The intended outcome is an explainable chemical argument,not a slide count.</p>
+<p>Open with the two bottles. Ethanol and dimethyl ether really do share the formula C2H6O, yet one is a liquid you can drink (in moderation) and the other is a gas used in spray cans and as a diesel substitute. The 100-degree gap in boiling point is something we’ll explain tomorrow with hydrogen bonding; today the point is simply that the arrangement of atoms, not the list of atoms, is the molecule. Frame the lecture as learning a language: by the end, a skeletal drawing should read as fast as a sentence. Mention that most of this is review-plus-sharpening of general chemistry, but organic chemists use a shorthand that hides most atoms, and that shorthand is what trips people up.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -151,11 +181,32 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="bring-these-tools-into-the-room" class="slide level2">
-<h2>Bring these tools into the room</h2>
-<p>Four bond orders at ordinary neutral C; two O bonds/two lone pairs at neutral O; count all labelled heteroatoms.</p>
+<section id="one-formula-two-molecules" class="slide level2">
+<h2>One formula, two molecules</h2>
+
+<img data-src="figures/04-constitutional-isomers.svg" style="width:78.0%" alt="Ethanol, CH3CH2OH, and dimethyl ether, CH3OCH3, both C2H6O" class="r-stretch quarto-figure-center"><p class="caption">Ethanol and dimethyl ether are constitutional isomers</p><table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th>ethanol</th>
+<th>dimethyl ether</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>oxygen is bonded to</td>
+<td>C and <strong>H</strong></td>
+<td>C and C</td>
+</tr>
+<tr class="even">
+<td>boiling point</td>
+<td>78 °C</td>
+<td>−24 °C</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Use a quick spoken diagnostic; do not spend an additional unscheduled revision block. Revisit a missing convention at its worked example.</p>
+<p>Point at the oxygen in each. In ethanol, oxygen carries a hydrogen; in dimethyl ether, it sits between two carbons. That single difference in who is bonded to whom gives a liquid versus a gas at room temperature. Molecules with the same formula but different connectivity are constitutional isomers. The word “connectivity” is the key word of the whole lecture: a structure is a statement about which atoms are bonded to which. Everything else (left/right on the page, the angle you draw it at) is presentation.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -168,12 +219,16 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="which-view-tells-you-who-is-bonded" class="slide level2">
-<h2>Which view tells you who is bonded?</h2>
+<section id="three-ways-to-write-the-same-molecule" class="slide level2">
+<h2>Three ways to write the same molecule</h2>
 
-<img data-src="figures/01-representations.svg" style="width:82.0%" alt="Which view tells you who is bonded?" class="r-stretch quarto-figure-center"><p class="caption">Which view tells you who is bonded?</p><p>Compare the three representations. Which distinguishes ethanol from its ether isomer?</p>
+<img data-src="figures/01-representations.svg" style="width:78.0%" alt="Ethanol as C2H6O, CH3CH2OH and a skeletal drawing" class="r-stretch quarto-figure-center"><p class="caption">Ethanol as molecular formula, condensed structure and skeletal structure</p><ul>
+<li><strong>Molecular formula</strong> C₂H₆O tells you <em>what</em> is there. It’s good for mass and amount, but useless for identity.</li>
+<li><strong>Condensed</strong> CH₃CH₂OH tells you the connectivity in a single line of text.</li>
+<li><strong>Skeletal</strong> is the drawing chemists actually use. It’s fast, and it puts the functional groups up front.</li>
+</ul>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Each representation answers a different question. The molecular formula is what a mass spectrometer or an elemental analysis gives you; the condensed formula is convenient in text and in R code (you’ll type these into data frames); the skeletal structure is the working language of every paper and textbook. Stress that the condensed and skeletal forms contain identical information. Also stress that HOCH2CH3 and CH3CH2OH are the same molecule written in opposite directions. Writing a formula backwards does not create an isomer.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -186,21 +241,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="expand-the-oh-connection" class="slide level2">
-<h2>Expand the O–H connection</h2>
+<section id="skeletal-structures-hide-most-of-the-atoms" class="slide level2">
+<h2>Skeletal structures hide most of the atoms</h2>
 
-<img data-src="figures/11-pace.svg" style="width:82.0%" alt="Expand the O–H connection" class="r-stretch quarto-figure-center"><p class="caption">Expand the O–H connection</p><p>Methanol has one carbon and one oxygen. Four H atoms appear in its complete formula.</p>
-</section>
-<section id="test-identity-after-redrawing" class="slide level2">
-<h2>Test identity after redrawing</h2>
-
-<img data-src="figures/12-pace.svg" style="width:82.0%" alt="Test identity after redrawing" class="r-stretch quarto-figure-center"><p class="caption">Test identity after redrawing</p><p>HOCH₂CH₃ and CH₃CH₂OH have the same oxygen neighbours. Left/right page position is irrelevant.</p>
-</section>
-<section id="predict-formula-or-structure" class="slide level2">
-<h2>Predict: formula or structure?</h2>
-<p>A label says C₂H₆O. Must the sample be an alcohol? Give one alternative before the next slide.</p>
+<img data-src="figures/02-implicit-atoms.svg" style="width:72.0%" alt="Pentane zigzag with each vertex labelled CH3 or CH2, giving C5H12" class="r-stretch quarto-figure-center"><p class="caption">Pentane as a zigzag with CH3 and CH2 labels revealed</p><p><strong>Rules:</strong> every <strong>end and corner is a carbon</strong>. Hydrogens on carbon are <strong>not drawn</strong>: add enough to give each carbon four bonds. Heteroatoms (O, N, …) and the H on them <em>are</em> drawn.</p>
+<div class="try">
+<p><strong>Try it:</strong> how many carbons are in an unbranched zigzag with <strong>four</strong> line segments?</p>
+<div class="fragment">
+<p><strong>Five.</strong> Segments are bonds, not atoms. The molecule is pentane, C₅H₁₂.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>This is the single most important reading skill of the course. Walk along the pentane line: end, corner, corner, corner, end, five carbons. Then fill hydrogens: the ends have one carbon neighbour, so three H each; the inner carbons have two, so two H each. 3+2+2+2+3 = 12. Give students 20 seconds for the try-it before revealing. The classic error is counting the line segments (four) instead of the vertices (five). Heteroatoms are always written out, and so is any H attached to them. That’s why the skeletal ethanol on the previous slide shows “OH”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -213,11 +265,51 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-the-formula-leaves-a-choice" class="slide level2">
-<h2>Resolve: the formula leaves a choice</h2>
-<p>Dimethyl ether, CH₃OCH₃, also has C₂H₆O. Connectivity information is required to distinguish it.</p>
+<section id="branches-and-rings-same-counting-rule" class="slide level2">
+<h2>Branches and rings: same counting rule</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>drawing</th>
+<th>carbons</th>
+<th>formula</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>butane (straight)</td>
+<td>4</td>
+<td>C₄H₁₀</td>
+</tr>
+<tr class="even">
+<td>2-methylpropane (branched)</td>
+<td>4</td>
+<td>C₄H₁₀</td>
+</tr>
+<tr class="odd">
+<td>cyclobutane (ring)</td>
+<td>4</td>
+<td>C₄H₈</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>A <strong>branch point</strong> is a carbon with three or four carbon neighbours, so it carries fewer H.</li>
+<li>Butane and 2-methylpropane are <strong>isomers again</strong>: same formula, different connectivity.</li>
+<li>Closing a <strong>ring</strong> uses one more C–C bond, so it costs <strong>two H</strong>.</li>
+</ul>
+</div></div>
+<div class="try">
+<p><strong>Try it:</strong> in 2-methylpropane, how many H are on the central carbon?</p>
+<div class="fragment">
+<p><strong>One.</strong> It has three carbon neighbours, so 4 − 3 = 1 H. The three CH₃ ends supply the other nine.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Extend the counting rule from chains to branches and rings. Draw butane and 2-methylpropane on the board side by side: both C4H10, but the branched one boils lower (about −12 °C versus about 0 °C). Shape matters even among hydrocarbons, which we’ll revisit tomorrow. The ring point is a preview: each ring, like each double bond, removes two hydrogens from the saturated formula. Students who internalise “H = 4 minus bonds to carbon” never need to memorise formulas.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -230,12 +322,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="locate-all-five-carbons" class="slide level2">
-<h2>Locate all five carbons</h2>
+<section id="double-and-triple-bonds-change-the-hydrogen-count" class="slide level2">
+<h2>Double and triple bonds change the hydrogen count</h2>
 
-<img data-src="figures/02-implicit-atoms.svg" style="width:82.0%" alt="Locate all five carbons" class="r-stretch quarto-figure-center"><p class="caption">Locate all five carbons</p><p>Trace the pentane line from one end to the other. Count corners as well as endpoints.</p>
+<img data-src="figures/03-bond-order.svg" style="width:80.0%" alt="Ethane C2H6, ethene C2H4 and ethyne C2H2" class="r-stretch quarto-figure-center"><p class="caption">Ethane, ethene and ethyne with their formulas</p><p>A neutral carbon has a <strong>bond-order sum of four</strong>, not four neighbours. Each extra bond between two carbons removes one H from each.</p>
+<div class="try">
+<p><strong>Try it:</strong> start from butane, C₄H₁₀, and put in one C=C. What’s the formula?</p>
+<div class="fragment">
+<p><strong>C₄H₈.</strong> Each end of the new double bond loses one H.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Count bonds, not neighbours. An ethene carbon has three neighbours (one C and two H) but its bond-order sum is 2 + 1 + 1 = 4. Point out the pattern C2H6 → C2H4 → C2H2: every extra bond costs two hydrogens. This is the “degree of unsaturation” idea that will become a tool in spectroscopy week: from a formula alone you can count rings plus pi bonds. Notice that C4H8 is also the formula of cyclobutane from the previous slide, another case where a formula leaves a choice.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -248,21 +346,41 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="audit-a-three-carbon-chain" class="slide level2">
-<h2>Audit a three-carbon chain</h2>
+<section id="bonding-sets-the-shape" class="slide level2">
+<h2>Bonding sets the shape</h2>
 
-<img data-src="figures/13-pace.svg" style="width:82.0%" alt="Audit a three-carbon chain" class="r-stretch quarto-figure-center"><p class="caption">Audit a three-carbon chain</p><p>The terminal carbons each carry three H; the middle carbon carries two. Propane is C₃H₈.</p>
-</section>
-<section id="a-branch-is-another-carbon-position" class="slide level2">
-<h2>A branch is another carbon position</h2>
-
-<img data-src="figures/14-pace.svg" style="width:82.0%" alt="A branch is another carbon position" class="r-stretch quarto-figure-center"><p class="caption">A branch is another carbon position</p><p>Count the three terminal methyl groups and the central CH in 2-methylpropane. The formula is C₄H₁₀.</p>
-</section>
-<section id="predict-a-four-segment-unbranched-line" class="slide level2">
-<h2>Predict: a four-segment unbranched line</h2>
-<p>How many carbons and hydrogens does a saturated, unbranched four-segment zigzag represent?</p>
+<img data-src="figures/07-geometry.svg" style="width:78.0%" alt="Tetrahedral 109.5 degrees, trigonal planar 120 degrees and linear 180 degrees" class="r-stretch quarto-figure-center"><p class="caption">Tetrahedral, trigonal planar and linear carbon</p><table class="caption-top">
+<thead>
+<tr class="header">
+<th>carbon type</th>
+<th>example</th>
+<th>shape</th>
+<th>angle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>four single bonds</td>
+<td>ethane, CH₃ groups</td>
+<td>tetrahedral</td>
+<td>109.5°</td>
+</tr>
+<tr class="even">
+<td>one double bond</td>
+<td>ethene, C=O carbon</td>
+<td>trigonal planar</td>
+<td>120°</td>
+</tr>
+<tr class="odd">
+<td>one triple bond</td>
+<td>ethyne</td>
+<td>linear</td>
+<td>180°</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>This is why skeletal drawings use zigzags: they approximate the real 109.5° and 120° angles, and a triple bond is drawn as a straight line through the carbons. Shape matters for everything that follows: polarity and boiling point (Day 2), and stereochemistry and enzyme binding (Week 2). Keep it practical: students should be able to look at any carbon and say “tetrahedral”, “planar” or “linear” from its bonds. Hybridisation labels (sp3, sp2, sp) can be mentioned as names for these three cases without going into orbital theory today.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -275,11 +393,52 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-segments-are-bonds" class="slide level2">
-<h2>Resolve: segments are bonds</h2>
-<p>Four segments connect five carbons. The saturated acyclic molecule is pentane, C₅H₁₂, not a four-carbon molecule.</p>
+<section id="functional-groups-the-parts-that-react" class="slide level2">
+<h2>Functional groups: the parts that react</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>family</th>
+<th>pattern</th>
+<th>you have met it as</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>alcohol</td>
+<td>R–OH</td>
+<td>ethanol, cholesterol</td>
+</tr>
+<tr class="even">
+<td>amine</td>
+<td>R–NH₂</td>
+<td>the fishy smell of trimethylamine</td>
+</tr>
+<tr class="odd">
+<td>ether</td>
+<td>R–O–R′</td>
+<td>the anaesthetic diethyl ether</td>
+</tr>
+<tr class="even">
+<td>aldehyde</td>
+<td>R–C(=O)H</td>
+<td>vanillin, the smell of vanilla</td>
+</tr>
+<tr class="odd">
+<td>carboxylic acid</td>
+<td>R–C(=O)OH</td>
+<td>acetic acid in vinegar</td>
+</tr>
+<tr class="even">
+<td>ester</td>
+<td>R–C(=O)OR′</td>
+<td>isoamyl acetate, the smell of bananas</td>
+</tr>
+</tbody>
+</table>
+<p>A functional group is identified by its <strong>local connectivity</strong>, not just by which elements are present.</p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Most of a molecule is an inert carbon-hydrogen scaffold. The functional groups are where the chemistry happens, and each family has characteristic reactivity that the rest of the course is organised around. Ground each family in something students have smelled or used. The take-home message is in the last line: an ether, an acid and an ester all contain oxygen, but they’re recognised by what the oxygen is attached to. Teach students to look at the neighbours of each heteroatom.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -292,12 +451,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="compare-the-same-two-carbons" class="slide level2">
-<h2>Compare the same two carbons</h2>
+<section id="reading-around-a-carbonyl" class="slide level2">
+<h2>Reading around a carbonyl</h2>
 
-<img data-src="figures/03-bond-order.svg" style="width:82.0%" alt="Compare the same two carbons" class="r-stretch quarto-figure-center"><p class="caption">Compare the same two carbons</p><p>Why does changing C–C to C=C or C≡C change the permitted hydrogen count?</p>
+<img data-src="figures/09-carbonyl-reading.svg" style="width:68.0%" alt="Acetic acid CH3C(=O)OH: the carbonyl carbon has three neighbours and bond-order sum four" class="r-stretch quarto-figure-center"><p class="caption">Acetic acid with its carbonyl and hydroxyl oxygen marked</p><p>Look at the <strong>neighbour of C=O</strong>: if it’s <strong>H</strong> you have an aldehyde, <strong>C</strong> a ketone, <strong>OH</strong> an acid, <strong>OR</strong> an ester, and <strong>N</strong> an amide. An OH or OR with no C=O next to it is an alcohol or ether.</p>
+<div class="try">
+<p><strong>Try it:</strong> is CH₃C(=O)NH₂ an amine or an amide?</p>
+<div class="fragment">
+<p><strong>Amide.</strong> The N sits directly on the carbonyl carbon, which makes it much less basic than an amine. That difference comes back in Week 4.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>The carbonyl, C=O, is the most important functional group in biochemistry and the course. Read the condensed notation carefully: in CH3C(=O)OH the parentheses mean the oxygen hangs off the carbon with a double bond, so there are two different oxygens. A frequent mistake is calling HOCH2CH2OH (ethylene glycol, two OH groups) an acid because it has two oxygens. It’s a diol, because neither OH is on a carbonyl. Peptide bonds in proteins are amides, which is a good reason to care about the amine/amide distinction.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -310,26 +475,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="audit-each-alkene-carbon" class="slide level2">
-<h2>Audit each alkene carbon</h2>
+<section id="formal-charge-count-the-electrons-each-atom-owns" class="slide level2">
+<h2>Formal charge: count the electrons each atom owns</h2>
 
-<img data-src="figures/15-pace.svg" style="width:82.0%" alt="Audit each alkene carbon" class="r-stretch quarto-figure-center"><p class="caption">Audit each alkene carbon</p><p>In CH₃CH=CHCH₃, each central carbon has one double bond, one single bond and one H.</p>
-</section>
-<section id="use-bond-order-sum-not-neighbour-count" class="slide level2">
-<h2>Use bond-order sum, not neighbour count</h2>
-
-<img data-src="figures/03-bond-order.svg" style="width:82.0%" alt="Use bond-order sum, not neighbour count" class="r-stretch quarto-figure-center"><p class="caption">Use bond-order sum, not neighbour count</p><p>Ethene carbon has three atom neighbours but a bond-order sum of four. A double bond is not one valence.</p>
-</section>
-<section id="read-a-terminal-alkyne" class="slide level2">
-<h2>Read a terminal alkyne</h2>
-
-<img data-src="figures/16-pace.svg" style="width:82.0%" alt="Read a terminal alkyne" class="r-stretch quarto-figure-center"><p class="caption">Read a terminal alkyne</p><p>CH₃C≡CH has three carbons. Its middle carbon has no H; its terminal alkyne carbon has one.</p>
-</section>
-<section id="predict-one-added-double-bond" class="slide level2">
-<h2>Predict: one added double bond</h2>
-<p>Start from C₄H₁₀. Keep the four-carbon acyclic framework and introduce one C=C. What hydrogen formula results?</p>
+<img data-src="figures/06-oxygen-charge.svg" style="width:78.0%" alt="Water neutral, hydroxide minus one, hydronium plus one" class="r-stretch quarto-figure-center"><p class="caption">Water, hydroxide and hydronium with bonds, lone pairs and charges</p><p><span class="math display">\text{formal charge} = \text{valence electrons} - \text{lone-pair electrons} - \text{bonds}</span></p>
+<p>Hydroxide O: 6 − 6 − 1 = <strong>−1</strong>. Hydronium O: 6 − 2 − 3 = <strong>+1</strong>.</p>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>The formula is the usual V minus N minus B/2, written in a form students can apply by eye: count lone-pair electrons, count bonds. Emphasise that charges are part of the structure. Omitting a charge is a drawing error, not a simplification. Tomorrow’s acid-base unit lives entirely on this: when O–H loses a proton, the bonding pair stays on oxygen, so oxygen gains a lone pair and a negative charge.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -342,11 +494,53 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-remove-two-h-in-the-formula-comparison" class="slide level2">
-<h2>Resolve: remove two H in the formula comparison</h2>
-<p>The alkene formula is C₄H₈. Each end of the new double bond uses one more valence than before.</p>
+<section id="the-normal-states-so-charges-jump-out" class="slide level2">
+<h2>The normal states, so charges jump out</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>atom</th>
+<th>neutral, “normal”</th>
+<th>positive</th>
+<th>negative</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>C</strong></td>
+<td>4 bonds, 0 lone pairs</td>
+<td>3 bonds, 0 LP (carbocation)</td>
+<td>3 bonds, 1 LP (carbanion)</td>
+</tr>
+<tr class="even">
+<td><strong>N</strong></td>
+<td>3 bonds, 1 LP (amine)</td>
+<td>4 bonds, 0 LP (ammonium)</td>
+<td>2 bonds, 2 LP</td>
+</tr>
+<tr class="odd">
+<td><strong>O</strong></td>
+<td>2 bonds, 2 LP (alcohol)</td>
+<td>3 bonds, 1 LP (oxonium)</td>
+<td>1 bond, 3 LP (alkoxide)</td>
+</tr>
+</tbody>
+</table>
+<p>Learn the neutral column. Any atom that doesn’t match it carries a charge.</p>
+<div class="try">
+<p><strong>Try it:</strong> amino acids in your cells exist as H₃N⁺–CH₂–COO⁻ (glycine). Which atoms carry the charges, and why?</p>
+<div class="fragment">
+<p><strong>N</strong> has four bonds, so it’s +1. <strong>One O</strong> has one bond and three lone pairs, so it’s −1. The molecule is neutral overall: a <em>zwitterion</em>.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Experienced chemists don’t calculate formal charges. They recognise deviations from the neutral pattern instantly, and this table is the shortcut. Carbocations and carbanions are previews of the mechanism unit. The glycine zwitterion connects to biochemistry and to acids and bases on Day 3: at physiological pH, amino acids are charged at both ends. Ask students to point at the exact atom, not just say “the molecule is charged”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -359,12 +553,22 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="name-the-neighbours-that-differ" class="slide level2">
-<h2>Name the neighbours that differ</h2>
-
-<img data-src="figures/04-constitutional-isomers.svg" style="width:82.0%" alt="Name the neighbours that differ" class="r-stretch quarto-figure-center"><p class="caption">Name the neighbours that differ</p><p>For ethanol and dimethyl ether, list the atoms directly connected to oxygen.</p>
+<section id="a-valence-audit-catches-impossible-structures" class="slide level2">
+<h2>A valence audit catches impossible structures</h2>
+<p>Before you trust any drawing, including your own, check every atom:</p>
+<ol type="1">
+<li><strong>Carbon:</strong> bond-order sum exactly 4 (unless a charge is shown).</li>
+<li><strong>N, O:</strong> compare with the neutral pattern, and write the charge if they differ.</li>
+<li><strong>Hydrogen:</strong> exactly one bond.</li>
+</ol>
+<div class="try">
+<p><strong>Try it:</strong> a proposed reaction intermediate keeps C=O <em>and</em> adds three single bonds at the same carbon. Is that possible?</p>
+<div class="fragment">
+<p><strong>No.</strong> 2 + 3 = 5 bonds to carbon. For a new group to attach, the C=O π bond must open first. That’s the key step of every carbonyl addition in Week 3.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>This is the habit that saves the most marks on the exam. Students under time pressure draw five-bonded carbons, especially when adding a nucleophile to a carbonyl. Make the audit a reflex: after drawing anything, run a finger over each atom and count. The try-it deliberately previews mechanism: the reason a carbonyl’s pi bond breaks when a nucleophile adds is exactly this valence limit.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -377,22 +581,31 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="rotate-a-drawing-without-changing-chemistry" class="slide level2">
-<h2>Rotate a drawing without changing chemistry</h2>
-
-<img data-src="figures/12-pace.svg" style="width:82.0%" alt="Rotate a drawing without changing chemistry" class="r-stretch quarto-figure-center"><p class="caption">Rotate a drawing without changing chemistry</p><p>Redrawing ethanol with OH on the left preserves every bonded neighbour.</p>
-</section>
-<section id="a-missing-vertex-is-a-missing-carbon" class="slide level2">
-<h2>A missing vertex is a missing carbon</h2>
-
-<img data-src="figures/29-pace.svg" style="width:82.0%" alt="A missing vertex is a missing carbon" class="r-stretch quarto-figure-center"><p class="caption">A missing vertex is a missing carbon</p><p>Propan-1-ol and ethanol differ by CH₂. A shortened drawing cannot be rescued by calling it another viewing angle.</p>
-</section>
-<section id="find-patterns-rather-than-counting-oxygen" class="slide level2">
-<h2>Find patterns rather than counting oxygen</h2>
-
-<img data-src="figures/05-functional-groups.svg" style="width:82.0%" alt="Find patterns rather than counting oxygen" class="r-stretch quarto-figure-center"><p class="caption">Find patterns rather than counting oxygen</p><p>An ether, acid and ester can all contain oxygen. Which local connectivity identifies each family?</p>
+<section id="naming-just-enough-to-communicate" class="slide level2">
+<h2>Naming: just enough to communicate</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="figures/08-simple-naming.svg" style="width:100.0%" alt="Four-carbon chain numbered from the OH end, butan-1-ol"></p>
+<figcaption>Butan-1-ol numbered from the OH end</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:55%;">
+<ol type="1">
+<li>Find the <strong>longest chain</strong> containing the group: meth-, eth-, prop-, but-, pent-, …</li>
+<li><strong>Number from the end</strong> nearest the group.</li>
+<li>Add the ending: <strong>-ol</strong>, <strong>-al</strong>, <strong>-one</strong>, <strong>-oic acid</strong>, …</li>
+</ol>
+</div></div>
+<div class="try">
+<p><strong>Try it:</strong> name CH₃CH₂CH(OH)CH₃.</p>
+<div class="fragment">
+<p><strong>Butan-2-ol.</strong> Numbering from the right puts OH on C2. “Butan-3-ol” is the same molecule, numbered the wrong way.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>We teach naming only as far as needed to talk about molecules unambiguously; nobody will be asked to name a complex natural product. Propan-1-ol versus propan-2-ol is the essential contrast: the number says where the group sits, and moving it creates an isomer with a different name. Common names (acetic acid, acetone) will appear alongside systematic ones; the reading guide lists the ones we use.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -405,21 +618,31 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="distinguish-ether-from-ester" class="slide level2">
-<h2>Distinguish ether from ester</h2>
-
-<img data-src="figures/19-pace.svg" style="width:82.0%" alt="Distinguish ether from ester" class="r-stretch quarto-figure-center"><p class="caption">Distinguish ether from ester</p><p>An ester has O attached to a carbonyl carbon. A simple ether has no adjacent carbonyl.</p>
-</section>
-<section id="two-oh-groups-are-not-a-carboxylic-acid" class="slide level2">
-<h2>Two OH groups are not a carboxylic acid</h2>
-
-<img data-src="figures/20-pace.svg" style="width:82.0%" alt="Two OH groups are not a carboxylic acid" class="r-stretch quarto-figure-center"><p class="caption">Two OH groups are not a carboxylic acid</p><p>HOCH₂CH₂OH is a diol. CH₃C(=O)OH is an acid. Both have two O atoms but different bonding.</p>
-</section>
-<section id="predict-classify-ch₃conh₂" class="slide level2">
-<h2>Predict: classify CH₃C(=O)NH₂</h2>
-<p>Identify the carbonyl and its directly attached nitrogen. Is this an amine or an amide?</p>
+<section id="putting-it-together-two-molecules-from-biology" class="slide level2">
+<h2>Putting it together: two molecules from biology</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Glycine</strong> H₂N–CH₂–COOH</p>
+<ul>
+<li>amine + carboxylic acid</li>
+<li>the simplest amino acid</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Lactic acid</strong> CH₃–CH(OH)–COOH</p>
+<ul>
+<li>alcohol + carboxylic acid</li>
+<li>made by muscle and by yoghurt bacteria</li>
+</ul>
+</div></div>
+<p>Read every atom, group by group: count each <strong>C–H, N–H and O–H</strong> separately, and don’t add an H to the carbonyl carbon.</p>
+<div class="try">
+<p><strong>Try it:</strong> write the molecular formulas of glycine and lactic acid.</p>
+<div class="fragment">
+<p>Glycine <strong>C₂H₅NO₂</strong> (2 N–H + 2 C–H + 1 O–H). Lactic acid <strong>C₃H₆O₃</strong> (3 + 1 C–H on carbon, 1 + 1 O–H). Note the central carbon of lactic acid has only <strong>one</strong> H.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>This slide combines everything: identify groups, count hidden hydrogens, respect the carbonyl carbon’s valence. The common error in lactic acid is giving the central carbon two hydrogens, forgetting that OH takes one of its four bonds. Lactic acid also has a carbon with four different groups, which is a teaser for stereochemistry in Week 2: there are two mirror-image lactic acids, and your muscles make only one of them.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -432,29 +655,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-an-amide-has-carbonyl-next-to-n" class="slide level2">
-<h2>Resolve: an amide has carbonyl next to N</h2>
-<p>CH₃CONH₂ is ethanamide. A simple amine such as CH₃CH₂NH₂ lacks that adjacent carbonyl.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="count-oxygen-electrons-not-only-bonds" class="slide level2">
-<h2>Count oxygen electrons, not only bonds</h2>
+<section id="from-a-structure-to-an-amount" class="slide level2">
+<h2>From a structure to an amount</h2>
 
-<img data-src="figures/06-oxygen-charge.svg" style="width:82.0%" alt="Count oxygen electrons, not only bonds" class="r-stretch quarto-figure-center"><p class="caption">Count oxygen electrons, not only bonds</p><p>Compare water, hydroxide and hydronium. Which lone-pair count accompanies each bond count?</p>
+<img data-src="figures/10-mass-to-amount.svg" style="width:72.0%" alt="Mass divided by molar mass gives amount in moles" class="r-stretch quarto-figure-center"><p class="caption">1.3812 g of salicylic acid divided by 138.12 g/mol gives 0.01000 mol</p><p><span class="math display">n = \frac{m}{M} \qquad \text{grams} \div \frac{\text{g}}{\text{mol}} = \text{mol}</span></p>
+<p>The <strong>structure gives the formula</strong>, the formula gives <strong>M</strong>, and the balance gives <strong>m</strong>. In R: <code>1.3812 / 138.12</code> → <code>0.01</code>.</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>The lab connection: every synthesis and titration in the practical starts from a weighed mass, and reactions happen in moles, not grams. The chain is structure → formula → molar mass → amount. Keep units visible so the grams cancel. Salicylic acid is the starting material for aspirin, which students will meet again. The R line is a deliberate nudge: today’s exercise has a short R task doing exactly this with a small data table, and the habit of keeping units in comments starts here.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -467,26 +674,52 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="check-nitrogen-after-proton-gain" class="slide level2">
-<h2>Check nitrogen after proton gain</h2>
-
-<img data-src="figures/17-pace.svg" style="width:82.0%" alt="Check nitrogen after proton gain" class="r-stretch quarto-figure-center"><p class="caption">Check nitrogen after proton gain</p><p>Three N bonds plus one lone pair gives a neutral ordinary amine. Four bonds gives ammonium, with +1 charge.</p>
-</section>
-<section id="calculate-one-oxygen-charge-explicitly" class="slide level2">
-<h2>Calculate one oxygen charge explicitly</h2>
-
-<img data-src="figures/06-oxygen-charge.svg" style="width:82.0%" alt="Calculate one oxygen charge explicitly" class="r-stretch quarto-figure-center"><p class="caption">Calculate one oxygen charge explicitly</p><p>Hydroxide O: 6 valence electrons − 6 nonbonding electrons − 1 assigned bonding electron = −1.</p>
-</section>
-<section id="track-what-proton-loss-changes" class="slide level2">
-<h2>Track what proton loss changes</h2>
-
-<img data-src="figures/18-pace.svg" style="width:82.0%" alt="Track what proton loss changes" class="r-stretch quarto-figure-center"><p class="caption">Track what proton loss changes</p><p>Ethoxide has one O bond and three lone pairs. Removing H⁺ leaves the original O–H bonding pair on oxygen.</p>
-</section>
-<section id="predict-three-bonds-and-one-lone-pair-on-o" class="slide level2">
-<h2>Predict: three bonds and one lone pair on O</h2>
-<p>Use 6 − nonbonding electrons − half the bonding electrons. What formal charge results?</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>counting line segments as carbons</td>
+<td>count <strong>ends and corners</strong></td>
+</tr>
+<tr class="even">
+<td>“C₂H₆O, so it’s ethanol”</td>
+<td>a formula allows <strong>several</strong> isomers</td>
+</tr>
+<tr class="odd">
+<td>an H added to a carbonyl carbon that already has 4 bonds</td>
+<td><strong>bond-order sum = 4</strong></td>
+</tr>
+<tr class="even">
+<td>calling a diol an acid because it has two O</td>
+<td>look for <strong>C=O next to the OH</strong></td>
+</tr>
+<tr class="odd">
+<td>an amide called an amine</td>
+<td>is the N <strong>on the carbonyl carbon</strong>?</td>
+</tr>
+<tr class="even">
+<td>an O with three bonds drawn without “+”</td>
+<td>charges are <strong>part of the structure</strong></td>
+</tr>
+<tr class="odd">
+<td>a reversed condensed formula called an isomer</td>
+<td>the same neighbours mean the <strong>same molecule</strong></td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Use this as a quick oral check: read out each mistake and ask the room why it’s wrong before showing the fix. Every row maps onto one or more exercises, so a student who still makes one of these knows exactly which exercise to redo.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -499,298 +732,53 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-oxygen-is-positively-charged" class="slide level2">
-<h2>Resolve: oxygen is positively charged</h2>
-<p>Three bonds and one lone pair gives 6 − 2 − 3 = +1. Draw the superscript charge; do not silently omit it.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>structure vs formula</td>
+<td>the structure adds <strong>connectivity</strong></td>
+</tr>
+<tr class="even">
+<td>isomers</td>
+<td>same formula, different connectivity</td>
+</tr>
+<tr class="odd">
+<td>skeletal drawing</td>
+<td>corners are C; H fills each C to <strong>four bonds</strong></td>
+</tr>
+<tr class="even">
+<td>double bond or ring</td>
+<td>removes <strong>two H</strong></td>
+</tr>
+<tr class="odd">
+<td>geometry</td>
+<td>tetrahedral · planar · linear</td>
+</tr>
+<tr class="even">
+<td>functional groups</td>
+<td>read the <strong>neighbours</strong> of O, N and C=O</td>
+</tr>
+<tr class="odd">
+<td>formal charge</td>
+<td>valence − lone-pair electrons − bonds</td>
+</tr>
+<tr class="even">
+<td>amount</td>
+<td>n = m / M</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> why ethanol boils 100 °C above dimethyl ether (Day 2). <strong>Practice:</strong> <a href="../structures/exercise.html">exercises</a> · <a href="../structures/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="distinguish-geometry-from-page-layout" class="slide level2">
-<h2>Distinguish geometry from page layout</h2>
-
-<img data-src="figures/07-geometry.svg" style="width:82.0%" alt="Distinguish geometry from page layout" class="r-stretch quarto-figure-center"><p class="caption">Distinguish geometry from page layout</p><p>Which local geometry corresponds to saturated, alkene/carbonyl and alkyne carbon?</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-a-carbonyl-h-count" class="slide level2">
-<h2>Read a carbonyl H count</h2>
-
-<img data-src="figures/21-pace.svg" style="width:82.0%" alt="Read a carbonyl H count" class="r-stretch quarto-figure-center"><p class="caption">Read a carbonyl H count</p><p>Ethanal carbonyl carbon bonds to CH₃, O twice and H once. Propanone instead has two carbon substituents.</p>
-</section>
-<section id="compare-acid-and-ester-carbonyl-neighbours" class="slide level2">
-<h2>Compare acid and ester carbonyl neighbours</h2>
-
-<img data-src="figures/22-pace.svg" style="width:82.0%" alt="Compare acid and ester carbonyl neighbours" class="r-stretch quarto-figure-center"><p class="caption">Compare acid and ester carbonyl neighbours</p><p>Both carbonyl carbons have approximately planar local geometry; OH versus OR changes the functional group.</p>
-</section>
-<section id="predict-can-neutral-carbon-keep-five-bond-orders" class="slide level2">
-<h2>Predict: can neutral carbon keep five bond orders?</h2>
-<p>A proposed intermediate keeps C=O and adds three single bonds at that carbon. Is the representation valid?</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-second-row-carbon-fails-the-audit" class="slide level2">
-<h2>Resolve: second-row carbon fails the audit</h2>
-<p>Two plus three is five bond orders. A valid ordinary tetrahedral intermediate needs the pi bond to open first.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="find-the-principal-group-before-numbering" class="slide level2">
-<h2>Find the principal group before numbering</h2>
-
-<img data-src="figures/08-simple-naming.svg" style="width:82.0%" alt="Find the principal group before numbering" class="r-stretch quarto-figure-center"><p class="caption">Find the principal group before numbering</p><p>Trace the longest suitable chain containing the OH-bearing carbon. Then choose numbering consistent with the group.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="redraw-propan-1-ol-from-the-opposite-end" class="slide level2">
-<h2>Redraw propan-1-ol from the opposite end</h2>
-
-<img data-src="figures/24-pace.svg" style="width:82.0%" alt="Redraw propan-1-ol from the opposite end" class="r-stretch quarto-figure-center"><p class="caption">Redraw propan-1-ol from the opposite end</p><p>CH₃CH₂CH₂OH and HOCH₂CH₂CH₃ retain the same name and connectivity.</p>
-</section>
-<section id="move-the-group-change-the-locant" class="slide level2">
-<h2>Move the group; change the locant</h2>
-
-<img data-src="figures/25-pace.svg" style="width:82.0%" alt="Move the group; change the locant" class="r-stretch quarto-figure-center"><p class="caption">Move the group; change the locant</p><p>CH₃CH(OH)CH₃ is propan-2-ol. The OH is attached to the middle carbon.</p>
-</section>
-<section id="predict-name-ch₃ch₂chohch₃" class="slide level2">
-<h2>Predict: name CH₃CH₂CH(OH)CH₃</h2>
-<p>Number the four-carbon parent chain to give the alcohol its appropriate low locant.</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-butan-2-ol" class="slide level2">
-<h2>Resolve: butan-2-ol</h2>
-<p>Counting from the closer end puts OH at C2. Butan-3-ol describes the same connectivity with unsuitable numbering.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="count-the-acid-oxygens-separately" class="slide level2">
-<h2>Count the acid oxygens separately</h2>
-
-<img data-src="figures/09-carbonyl-reading.svg" style="width:82.0%" alt="Count the acid oxygens separately" class="r-stretch quarto-figure-center"><p class="caption">Count the acid oxygens separately</p><p>The carbonyl oxygen and hydroxyl oxygen occupy different bonds in CH₃C(=O)OH.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="expand-lactic-acid-carefully" class="slide level2">
-<h2>Expand lactic acid carefully</h2>
-
-<img data-src="figures/23-pace.svg" style="width:82.0%" alt="Expand lactic acid carefully" class="r-stretch quarto-figure-center"><p class="caption">Expand lactic acid carefully</p><p>CH₃CH(OH)COOH contains three C, six H and three O. The central carbon has one H, not two.</p>
-</section>
-<section id="a-biological-looking-molecule-uses-familiar-groups" class="slide level2">
-<h2>A biological-looking molecule uses familiar groups</h2>
-
-<img data-src="figures/26-pace.svg" style="width:82.0%" alt="A biological-looking molecule uses familiar groups" class="r-stretch quarto-figure-center"><p class="caption">A biological-looking molecule uses familiar groups</p><p>Glycine contains an amine and carboxylic acid; lactic acid contains an alcohol and carboxylic acid.</p>
-</section>
-<section id="predict-count-h-in-h₂nch₂cooh" class="slide level2">
-<h2>Predict: count H in H₂NCH₂COOH</h2>
-<p>Count N–H, C–H and O–H separately. Do not add an H to the acid carbonyl carbon.</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-five-hydrogens" class="slide level2">
-<h2>Resolve: five hydrogens</h2>
-<p>Two N–H + two C–H + one O–H gives C₂H₅NO₂ for the neutral drawn glycine form.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="connect-a-measured-mass-to-the-mole" class="slide level2">
-<h2>Connect a measured mass to the mole</h2>
-
-<img data-src="figures/10-mass-to-amount.svg" style="width:82.0%" alt="Connect a measured mass to the mole" class="r-stretch quarto-figure-center"><p class="caption">Connect a measured mass to the mole</p><p>Which quantity belongs in the denominator when converting grams into moles?</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="cancel-the-units-explicitly" class="slide level2">
-<h2>Cancel the units explicitly</h2>
-
-<img data-src="figures/27-pace.svg" style="width:82.0%" alt="Cancel the units explicitly" class="r-stretch quarto-figure-center"><p class="caption">Cancel the units explicitly</p><p>1.3812 g ÷ 138.12 g/mol = 0.01000 mol. The grams cancel, leaving mol.</p>
-</section>
-<section id="reverse-the-calculation" class="slide level2">
-<h2>Reverse the calculation</h2>
-
-<img data-src="figures/28-pace.svg" style="width:82.0%" alt="Reverse the calculation" class="r-stretch quarto-figure-center"><p class="caption">Reverse the calculation</p><p>0.00500 mol × 180.16 g/mol = 0.9008 g. The mole units now cancel.</p>
-</section>
-<section id="predict-double-the-measured-mass" class="slide level2">
-<h2>Predict: double the measured mass</h2>
-<p>At the same molar mass, does doubling mass double or halve chemical amount? State the formula first.</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-amount-scales-directly-with-mass" class="slide level2">
-<h2>Resolve: amount scales directly with mass</h2>
-<p>n = m/M. With M fixed, doubling m doubles n.&nbsp;No new chemical assumption is needed.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="combine-the-tools-in-one-explanation" class="slide level2">
-<h2>Combine the tools in one explanation</h2>
-<p>Use the same connected molecule in two views, then compare a genuine constitutional isomer.</p>
-<aside class="notes">
-<p>Take a 30-second sketch or explanation, then ask for one observation and the reason linking it to the conclusion. This is included in the 45-minute session.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="your-next-independent-work" class="slide level2">
-<h2>Your next independent work</h2>
-<p>Use the <a href="../structures/exercise.html">exercises</a>, then the <a href="../structures/quiz.html">self-check</a>. Required core problems and optional transfer work are labelled separately.</p>
-</section>
-<section id="one-sentence-exit-explanation" class="slide level2">
-<h2>One-sentence exit explanation</h2>
-<p>Write one chemical claim, the feature that supports it and one limit of the inference.</p>
-<p>The <a href="../reference/reading.html">reading guide</a> provides optional textbook support; no textbook is needed to attempt the local practice.</p>
-<aside class="notes">
-<p>Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.</p>
+<p>The summary is the revision sheet; recite the reading procedure once: find the vertices, fill hydrogens to four bonds, name the functional groups by their neighbours, check charges against the neutral patterns. Close the loop with the opening hook. Tomorrow answers the boiling-point question from the first slide, and the answer is hydrogen bonding, which only ethanol can do because only ethanol has O–H. Point students to the exercises: the core problems are required, and the transfer ones are optional.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

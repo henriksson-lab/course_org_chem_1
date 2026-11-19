@@ -76,7 +76,7 @@ for x,y,s,name in [(180,120,'R—OH','alcohol'),(480,120,'R—NH₂','amine'),(7
 save(u,5,'functional-groups',f)
 f=Figure('An oxygen charge audit counts bonds and lone pairs')
 for x,name,bonds,pairs,charge in [(190,'water',2,2,'0'),(480,'hydroxide',1,3,'−1'),(770,'hydronium',3,1,'+1')]:
- f.text(x,75,name,26).text(x,180,'O',38)
+ f.text(x,42,name,26).text(x,180,'O',38)
  for j in range(bonds):
   a=math.radians(25+j*110);f.line(x+20*math.cos(a),166+20*math.sin(a),x+72*math.cos(a),166+72*math.sin(a));f.text(x+93*math.cos(a),174+93*math.sin(a),'H',25)
  for angle in {2:[225,315],1:[115,205,295],3:[315]}[bonds]:
@@ -85,7 +85,7 @@ for x,name,bonds,pairs,charge in [(190,'water',2,2,'0'),(480,'hydroxide',1,3,'�
   for side in [-1,1]:
    f.circle(px-side*4*math.sin(a),py+side*4*math.cos(a),2.5,color=BLUE,fill=BLUE,width=1)
  if charge!='0': f.text(x+55,160,'−' if charge=='−1' else '+',26,color=RED)
- f.text(x,275,f'{bonds} bonds; {pairs} lone pairs',22).text(x,330,f'formal charge {charge}',24)
+ f.text(x,275,f'{bonds} bond{"s"*(bonds!=1)}; {pairs} lone pair{"s"*(pairs!=1)}',22).text(x,330,f'formal charge {charge}',24)
 save(u,6,'oxygen-charge',f)
 f=Figure('Geometry around carbon depends on its bonding')
 for cx,geom,angle in [(200,'tetrahedral','≈109.5°'),(490,'trigonal planar','≈120°'),(780,'linear','180°')]:

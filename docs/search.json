@@ -18655,5 +18655,226 @@
       "Course essentials",
       "Interactive demos"
     ]
+  },
+  {
+    "objectID": "structures/lec.html#about-this-lecture",
+    "href": "structures/lec.html#about-this-lecture",
+    "title": "Reading organic structures",
+    "section": "About this lecture",
+    "text": "About this lecture\nTwo bottles are both labelled C₂H₆O. One is the alcohol in beer and boils at 78 °C. The other is a spray-can propellant that boils at −24 °C. Same atoms, different molecules. Only the structure tells them apart.\nToday we learn to read structures fluently:\n\nDrawings: formula, condensed and skeletal, and what each one hides\nHidden atoms: every corner is a carbon; valence implies the H\nFunctional groups: the local patterns that decide behaviour\nFormal charge: an electron count that keeps a drawing honest\nNames and amounts: basic naming, and grams to moles\n\nThe rest of the course assumes you can read a structure at a glance.\n\nOpen with the two bottles. Ethanol and dimethyl ether really do share the formula C2H6O, yet one is a liquid you can drink (in moderation) and the other is a gas used in spray cans and as a diesel substitute. The 100-degree gap in boiling point is something we’ll explain tomorrow with hydrogen bonding; today the point is simply that the arrangement of atoms, not the list of atoms, is the molecule. Frame the lecture as learning a language: by the end, a skeletal drawing should read as fast as a sentence. Mention that most of this is review-plus-sharpening of general chemistry, but organic chemists use a shorthand that hides most atoms, and that shorthand is what trips people up.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#one-formula-two-molecules",
+    "href": "structures/lec.html#one-formula-two-molecules",
+    "title": "Reading organic structures",
+    "section": "One formula, two molecules",
+    "text": "One formula, two molecules\n\nEthanol and dimethyl ether are constitutional isomers\n\n\n\nethanol\ndimethyl ether\n\n\n\n\noxygen is bonded to\nC and H\nC and C\n\n\nboiling point\n78 °C\n−24 °C\n\n\n\n\nPoint at the oxygen in each. In ethanol, oxygen carries a hydrogen; in dimethyl ether, it sits between two carbons. That single difference in who is bonded to whom gives a liquid versus a gas at room temperature. Molecules with the same formula but different connectivity are constitutional isomers. The word “connectivity” is the key word of the whole lecture: a structure is a statement about which atoms are bonded to which. Everything else (left/right on the page, the angle you draw it at) is presentation.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#three-ways-to-write-the-same-molecule",
+    "href": "structures/lec.html#three-ways-to-write-the-same-molecule",
+    "title": "Reading organic structures",
+    "section": "Three ways to write the same molecule",
+    "text": "Three ways to write the same molecule\n\nEthanol as molecular formula, condensed structure and skeletal structure\nMolecular formula C₂H₆O tells you what is there. It’s good for mass and amount, but useless for identity.\nCondensed CH₃CH₂OH tells you the connectivity in a single line of text.\nSkeletal is the drawing chemists actually use. It’s fast, and it puts the functional groups up front.\n\n\nEach representation answers a different question. The molecular formula is what a mass spectrometer or an elemental analysis gives you; the condensed formula is convenient in text and in R code (you’ll type these into data frames); the skeletal structure is the working language of every paper and textbook. Stress that the condensed and skeletal forms contain identical information. Also stress that HOCH2CH3 and CH3CH2OH are the same molecule written in opposite directions. Writing a formula backwards does not create an isomer.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#skeletal-structures-hide-most-of-the-atoms",
+    "href": "structures/lec.html#skeletal-structures-hide-most-of-the-atoms",
+    "title": "Reading organic structures",
+    "section": "Skeletal structures hide most of the atoms",
+    "text": "Skeletal structures hide most of the atoms\n\nPentane as a zigzag with CH3 and CH2 labels revealedRules: every end and corner is a carbon. Hydrogens on carbon are not drawn: add enough to give each carbon four bonds. Heteroatoms (O, N, …) and the H on them are drawn.\n\nTry it: how many carbons are in an unbranched zigzag with four line segments?\n\nFive. Segments are bonds, not atoms. The molecule is pentane, C₅H₁₂.\n\n\n\nThis is the single most important reading skill of the course. Walk along the pentane line: end, corner, corner, corner, end, five carbons. Then fill hydrogens: the ends have one carbon neighbour, so three H each; the inner carbons have two, so two H each. 3+2+2+2+3 = 12. Give students 20 seconds for the try-it before revealing. The classic error is counting the line segments (four) instead of the vertices (five). Heteroatoms are always written out, and so is any H attached to them. That’s why the skeletal ethanol on the previous slide shows “OH”.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#branches-and-rings-same-counting-rule",
+    "href": "structures/lec.html#branches-and-rings-same-counting-rule",
+    "title": "Reading organic structures",
+    "section": "Branches and rings: same counting rule",
+    "text": "Branches and rings: same counting rule\n\n\n\n\n\ndrawing\ncarbons\nformula\n\n\n\n\nbutane (straight)\n4\nC₄H₁₀\n\n\n2-methylpropane (branched)\n4\nC₄H₁₀\n\n\ncyclobutane (ring)\n4\nC₄H₈\n\n\n\n\n\nA branch point is a carbon with three or four carbon neighbours, so it carries fewer H.\nButane and 2-methylpropane are isomers again: same formula, different connectivity.\nClosing a ring uses one more C–C bond, so it costs two H.\n\n\n\nTry it: in 2-methylpropane, how many H are on the central carbon?\n\nOne. It has three carbon neighbours, so 4 − 3 = 1 H. The three CH₃ ends supply the other nine.\n\n\n\nExtend the counting rule from chains to branches and rings. Draw butane and 2-methylpropane on the board side by side: both C4H10, but the branched one boils lower (about −12 °C versus about 0 °C). Shape matters even among hydrocarbons, which we’ll revisit tomorrow. The ring point is a preview: each ring, like each double bond, removes two hydrogens from the saturated formula. Students who internalise “H = 4 minus bonds to carbon” never need to memorise formulas.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#double-and-triple-bonds-change-the-hydrogen-count",
+    "href": "structures/lec.html#double-and-triple-bonds-change-the-hydrogen-count",
+    "title": "Reading organic structures",
+    "section": "Double and triple bonds change the hydrogen count",
+    "text": "Double and triple bonds change the hydrogen count\n\nEthane, ethene and ethyne with their formulasA neutral carbon has a bond-order sum of four, not four neighbours. Each extra bond between two carbons removes one H from each.\n\nTry it: start from butane, C₄H₁₀, and put in one C=C. What’s the formula?\n\nC₄H₈. Each end of the new double bond loses one H.\n\n\n\nCount bonds, not neighbours. An ethene carbon has three neighbours (one C and two H) but its bond-order sum is 2 + 1 + 1 = 4. Point out the pattern C2H6 → C2H4 → C2H2: every extra bond costs two hydrogens. This is the “degree of unsaturation” idea that will become a tool in spectroscopy week: from a formula alone you can count rings plus pi bonds. Notice that C4H8 is also the formula of cyclobutane from the previous slide, another case where a formula leaves a choice.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#bonding-sets-the-shape",
+    "href": "structures/lec.html#bonding-sets-the-shape",
+    "title": "Reading organic structures",
+    "section": "Bonding sets the shape",
+    "text": "Bonding sets the shape\n\nTetrahedral, trigonal planar and linear carbon\n\n\ncarbon type\nexample\nshape\nangle\n\n\n\n\nfour single bonds\nethane, CH₃ groups\ntetrahedral\n109.5°\n\n\none double bond\nethene, C=O carbon\ntrigonal planar\n120°\n\n\none triple bond\nethyne\nlinear\n180°\n\n\n\n\nThis is why skeletal drawings use zigzags: they approximate the real 109.5° and 120° angles, and a triple bond is drawn as a straight line through the carbons. Shape matters for everything that follows: polarity and boiling point (Day 2), and stereochemistry and enzyme binding (Week 2). Keep it practical: students should be able to look at any carbon and say “tetrahedral”, “planar” or “linear” from its bonds. Hybridisation labels (sp3, sp2, sp) can be mentioned as names for these three cases without going into orbital theory today.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#functional-groups-the-parts-that-react",
+    "href": "structures/lec.html#functional-groups-the-parts-that-react",
+    "title": "Reading organic structures",
+    "section": "Functional groups: the parts that react",
+    "text": "Functional groups: the parts that react\n\n\n\nfamily\npattern\nyou have met it as\n\n\n\n\nalcohol\nR–OH\nethanol, cholesterol\n\n\namine\nR–NH₂\nthe fishy smell of trimethylamine\n\n\nether\nR–O–R′\nthe anaesthetic diethyl ether\n\n\naldehyde\nR–C(=O)H\nvanillin, the smell of vanilla\n\n\ncarboxylic acid\nR–C(=O)OH\nacetic acid in vinegar\n\n\nester\nR–C(=O)OR′\nisoamyl acetate, the smell of bananas\n\n\n\nA functional group is identified by its local connectivity, not just by which elements are present.\n\nMost of a molecule is an inert carbon-hydrogen scaffold. The functional groups are where the chemistry happens, and each family has characteristic reactivity that the rest of the course is organised around. Ground each family in something students have smelled or used. The take-home message is in the last line: an ether, an acid and an ester all contain oxygen, but they’re recognised by what the oxygen is attached to. Teach students to look at the neighbours of each heteroatom.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#reading-around-a-carbonyl",
+    "href": "structures/lec.html#reading-around-a-carbonyl",
+    "title": "Reading organic structures",
+    "section": "Reading around a carbonyl",
+    "text": "Reading around a carbonyl\n\nAcetic acid with its carbonyl and hydroxyl oxygen markedLook at the neighbour of C=O: if it’s H you have an aldehyde, C a ketone, OH an acid, OR an ester, and N an amide. An OH or OR with no C=O next to it is an alcohol or ether.\n\nTry it: is CH₃C(=O)NH₂ an amine or an amide?\n\nAmide. The N sits directly on the carbonyl carbon, which makes it much less basic than an amine. That difference comes back in Week 4.\n\n\n\nThe carbonyl, C=O, is the most important functional group in biochemistry and the course. Read the condensed notation carefully: in CH3C(=O)OH the parentheses mean the oxygen hangs off the carbon with a double bond, so there are two different oxygens. A frequent mistake is calling HOCH2CH2OH (ethylene glycol, two OH groups) an acid because it has two oxygens. It’s a diol, because neither OH is on a carbonyl. Peptide bonds in proteins are amides, which is a good reason to care about the amine/amide distinction.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#formal-charge-count-the-electrons-each-atom-owns",
+    "href": "structures/lec.html#formal-charge-count-the-electrons-each-atom-owns",
+    "title": "Reading organic structures",
+    "section": "Formal charge: count the electrons each atom owns",
+    "text": "Formal charge: count the electrons each atom owns\n\nWater, hydroxide and hydronium with bonds, lone pairs and charges\\text{formal charge} = \\text{valence electrons} - \\text{lone-pair electrons} - \\text{bonds}\nHydroxide O: 6 − 6 − 1 = −1. Hydronium O: 6 − 2 − 3 = +1.\n\nThe formula is the usual V minus N minus B/2, written in a form students can apply by eye: count lone-pair electrons, count bonds. Emphasise that charges are part of the structure. Omitting a charge is a drawing error, not a simplification. Tomorrow’s acid-base unit lives entirely on this: when O–H loses a proton, the bonding pair stays on oxygen, so oxygen gains a lone pair and a negative charge.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#the-normal-states-so-charges-jump-out",
+    "href": "structures/lec.html#the-normal-states-so-charges-jump-out",
+    "title": "Reading organic structures",
+    "section": "The normal states, so charges jump out",
+    "text": "The normal states, so charges jump out\n\n\n\n\n\n\n\n\n\natom\nneutral, “normal”\npositive\nnegative\n\n\n\n\nC\n4 bonds, 0 lone pairs\n3 bonds, 0 LP (carbocation)\n3 bonds, 1 LP (carbanion)\n\n\nN\n3 bonds, 1 LP (amine)\n4 bonds, 0 LP (ammonium)\n2 bonds, 2 LP\n\n\nO\n2 bonds, 2 LP (alcohol)\n3 bonds, 1 LP (oxonium)\n1 bond, 3 LP (alkoxide)\n\n\n\nLearn the neutral column. Any atom that doesn’t match it carries a charge.\n\nTry it: amino acids in your cells exist as H₃N⁺–CH₂–COO⁻ (glycine). Which atoms carry the charges, and why?\n\nN has four bonds, so it’s +1. One O has one bond and three lone pairs, so it’s −1. The molecule is neutral overall: a zwitterion.\n\n\n\nExperienced chemists don’t calculate formal charges. They recognise deviations from the neutral pattern instantly, and this table is the shortcut. Carbocations and carbanions are previews of the mechanism unit. The glycine zwitterion connects to biochemistry and to acids and bases on Day 3: at physiological pH, amino acids are charged at both ends. Ask students to point at the exact atom, not just say “the molecule is charged”.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#a-valence-audit-catches-impossible-structures",
+    "href": "structures/lec.html#a-valence-audit-catches-impossible-structures",
+    "title": "Reading organic structures",
+    "section": "A valence audit catches impossible structures",
+    "text": "A valence audit catches impossible structures\nBefore you trust any drawing, including your own, check every atom:\n\nCarbon: bond-order sum exactly 4 (unless a charge is shown).\nN, O: compare with the neutral pattern, and write the charge if they differ.\nHydrogen: exactly one bond.\n\n\nTry it: a proposed reaction intermediate keeps C=O and adds three single bonds at the same carbon. Is that possible?\n\nNo. 2 + 3 = 5 bonds to carbon. For a new group to attach, the C=O π bond must open first. That’s the key step of every carbonyl addition in Week 3.\n\n\n\nThis is the habit that saves the most marks on the exam. Students under time pressure draw five-bonded carbons, especially when adding a nucleophile to a carbonyl. Make the audit a reflex: after drawing anything, run a finger over each atom and count. The try-it deliberately previews mechanism: the reason a carbonyl’s pi bond breaks when a nucleophile adds is exactly this valence limit.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#naming-just-enough-to-communicate",
+    "href": "structures/lec.html#naming-just-enough-to-communicate",
+    "title": "Reading organic structures",
+    "section": "Naming: just enough to communicate",
+    "text": "Naming: just enough to communicate\n\n\n\n\n\nButan-1-ol numbered from the OH end\n\n\n\n\nFind the longest chain containing the group: meth-, eth-, prop-, but-, pent-, …\nNumber from the end nearest the group.\nAdd the ending: -ol, -al, -one, -oic acid, …\n\n\n\nTry it: name CH₃CH₂CH(OH)CH₃.\n\nButan-2-ol. Numbering from the right puts OH on C2. “Butan-3-ol” is the same molecule, numbered the wrong way.\n\n\n\nWe teach naming only as far as needed to talk about molecules unambiguously; nobody will be asked to name a complex natural product. Propan-1-ol versus propan-2-ol is the essential contrast: the number says where the group sits, and moving it creates an isomer with a different name. Common names (acetic acid, acetone) will appear alongside systematic ones; the reading guide lists the ones we use.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#putting-it-together-two-molecules-from-biology",
+    "href": "structures/lec.html#putting-it-together-two-molecules-from-biology",
+    "title": "Reading organic structures",
+    "section": "Putting it together: two molecules from biology",
+    "text": "Putting it together: two molecules from biology\n\n\nGlycine H₂N–CH₂–COOH\n\namine + carboxylic acid\nthe simplest amino acid\n\n\nLactic acid CH₃–CH(OH)–COOH\n\nalcohol + carboxylic acid\nmade by muscle and by yoghurt bacteria\n\n\nRead every atom, group by group: count each C–H, N–H and O–H separately, and don’t add an H to the carbonyl carbon.\n\nTry it: write the molecular formulas of glycine and lactic acid.\n\nGlycine C₂H₅NO₂ (2 N–H + 2 C–H + 1 O–H). Lactic acid C₃H₆O₃ (3 + 1 C–H on carbon, 1 + 1 O–H). Note the central carbon of lactic acid has only one H.\n\n\n\nThis slide combines everything: identify groups, count hidden hydrogens, respect the carbonyl carbon’s valence. The common error in lactic acid is giving the central carbon two hydrogens, forgetting that OH takes one of its four bonds. Lactic acid also has a carbon with four different groups, which is a teaser for stereochemistry in Week 2: there are two mirror-image lactic acids, and your muscles make only one of them.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#from-a-structure-to-an-amount",
+    "href": "structures/lec.html#from-a-structure-to-an-amount",
+    "title": "Reading organic structures",
+    "section": "From a structure to an amount",
+    "text": "From a structure to an amount\n\n1.3812 g of salicylic acid divided by 138.12 g/mol gives 0.01000 moln = \\frac{m}{M} \\qquad \\text{grams} \\div \\frac{\\text{g}}{\\text{mol}} = \\text{mol}\nThe structure gives the formula, the formula gives M, and the balance gives m. In R: 1.3812 / 138.12 → 0.01.\n\nThe lab connection: every synthesis and titration in the practical starts from a weighed mass, and reactions happen in moles, not grams. The chain is structure → formula → molar mass → amount. Keep units visible so the grams cancel. Salicylic acid is the starting material for aspirin, which students will meet again. The R line is a deliberate nudge: today’s exercise has a short R task doing exactly this with a small data table, and the habit of keeping units in comments starts here.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#mistakes-we-see-every-year",
+    "href": "structures/lec.html#mistakes-we-see-every-year",
+    "title": "Reading organic structures",
+    "section": "Mistakes we see every year",
+    "text": "Mistakes we see every year\n\n\n\n\n\n\n\nmistake\nfix\n\n\n\n\ncounting line segments as carbons\ncount ends and corners\n\n\n“C₂H₆O, so it’s ethanol”\na formula allows several isomers\n\n\nan H added to a carbonyl carbon that already has 4 bonds\nbond-order sum = 4\n\n\ncalling a diol an acid because it has two O\nlook for C=O next to the OH\n\n\nan amide called an amine\nis the N on the carbonyl carbon?\n\n\nan O with three bonds drawn without “+”\ncharges are part of the structure\n\n\na reversed condensed formula called an isomer\nthe same neighbours mean the same molecule\n\n\n\n\nUse this as a quick oral check: read out each mistake and ask the room why it’s wrong before showing the fix. Every row maps onto one or more exercises, so a student who still makes one of these knows exactly which exercise to redo.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
+  },
+  {
+    "objectID": "structures/lec.html#summary",
+    "href": "structures/lec.html#summary",
+    "title": "Reading organic structures",
+    "section": "Summary",
+    "text": "Summary\n\n\n\nconcept\nkey fact\n\n\n\n\nstructure vs formula\nthe structure adds connectivity\n\n\nisomers\nsame formula, different connectivity\n\n\nskeletal drawing\ncorners are C; H fills each C to four bonds\n\n\ndouble bond or ring\nremoves two H\n\n\ngeometry\ntetrahedral · planar · linear\n\n\nfunctional groups\nread the neighbours of O, N and C=O\n\n\nformal charge\nvalence − lone-pair electrons − bonds\n\n\namount\nn = m / M\n\n\n\nNext: why ethanol boils 100 °C above dimethyl ether (Day 2). Practice: exercises · self-check\n\nThe summary is the revision sheet; recite the reading procedure once: find the vertices, fill hydrogens to four bonds, name the functional groups by their neighbours, check charges against the neutral patterns. Close the loop with the opening hook. Tomorrow answers the boiling-point question from the first slide, and the answer is hydrogen bonding, which only ethanol can do because only ethanol has O–H. Point students to the exercises: the core problems are required, and the transfer ones are optional.",
+    "crumbs": [
+      "Home",
+      "Week 1",
+      "Day 1: Reading organic structures",
+      "Lecture"
+    ]
   }
 ]

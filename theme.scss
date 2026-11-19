@@ -16,3 +16,20 @@ $link-color: #176b91;
 .reveal .slides section .quarto-figure figcaption { display: none; }
 .reveal .slide-number { font-size: 16px; }
 .reveal .slides section pre { font-size: 0.62em; }
+
+// "Try it" box: a short in-slide question whose answer is revealed as a fragment.
+.reveal .try {
+  margin-top: 0.5em;
+  padding: 0.35em 0.75em;
+  border-left: 6px solid $link-color;
+  background: #eef6fa;
+  border-radius: 6px;
+  font-size: 0.85em;
+}
+.reveal .try p { margin: 0.25em 0; }
+.reveal .try .fragment { color: #23765d; }
+.reveal .smaller .try { font-size: 0.95em; }
+// Figure captions duplicate the slide title; the alt text keeps them accessible.
+.reveal p.caption { display: none; }
+.reveal table { font-size: 0.85em; }
+.reveal .smaller table { font-size: 0.9em; }
