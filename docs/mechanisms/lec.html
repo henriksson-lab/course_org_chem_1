@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Electron flow and mechanisms</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,22 +128,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Electron flow and mechanisms</h1>
-  <p class="subtitle">Week 2 · Account for bonds, atoms and charge</p>
+  <p class="subtitle">Week 2 · Day 8 — follow the electrons, not the atoms</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-will-you-be-able-to-explain" class="slide level2">
-<h2>What will you be able to explain?</h2>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>Every breath out carries CO₂ that your red blood cells first turned into bicarbonate. The enzyme that does it, <strong>carbonic anhydrase</strong>, holds a hydroxide on a zinc ion. That hydroxide pushes a lone pair onto the carbon of CO₂, and a C=O π pair moves onto oxygen. The enzyme makes this happen about <strong>ten million times faster</strong>, without changing where the equilibrium lies.</p>
+<p>Today we learn the language that describes that event:</p>
 <ul>
-<li>Identify an electron-pair source and acceptor.</li>
-<li>Draw valid arrows for an elementary step.</li>
-<li>Distinguish intermediates, transition states and catalysts.</li>
+<li><strong>Curved arrows:</strong> each one moves a pair of electrons from a source to a sink</li>
+<li><strong>Bookkeeping:</strong> atoms, charges and four bonds to carbon after every step</li>
+<li><strong>Three core steps:</strong> proton transfer, one-step substitution, addition to C=O</li>
+<li><strong>Energy profiles:</strong> transition states, intermediates and barriers</li>
+<li><strong>Catalysts:</strong> a faster path between the same start and end</li>
 </ul>
+<p>Yesterday’s stereochemistry comes back today: the SN2 step flips a carbon inside out.</p>
 <aside class="notes">
-<p><strong>45-minute block budget (all pauses included):</strong> 0–4 min: recall lone pairs/valence; 4–12 min: proton transfer and concerted substitution; 12–21 min: carbonyl addition and charge repair; 21–29 min: neutral-nitrogen donors and proton accounting; 29–37 min: energy profiles, catalysis and reverse barriers; 37–42 min: labelled-atom drawing/application; 42–45 min: retrieval and recap. The brief predictions, individual drawing and board discussion occur inside these blocks, not in extra time. The 40-second metadata is a rough planning reference; spend longer on the identified drawings and merge explanations already understood.</p>
-<p>Begin with the previous unit’s electron-pair and charge audit. Ask students to predict a product or bond change before displaying the worked drawing. These slides support discussion and paper drawing; the practice page supplies further explanations.</p>
+<p>Open with the carbonic anhydrase story because it contains the whole lecture in one reaction: a lone pair attacks an electron-poor carbon, a pi pair moves to oxygen, a proton gets shuffled around, and a catalyst speeds things up without moving the equilibrium. Don’t draw the mechanism yet; promise that by the end of the hour everyone can. Frame curved arrows as bookkeeping, not magic: they are the way chemists keep track of which electrons ended up where. Mention that mechanisms are the backbone of Weeks 3 and 4, so time spent getting the arrows right today pays back every single day after.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -155,29 +165,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Given CH₃OH and OH⁻, draw the pair that forms a new O–H bond. What second pair must move? Do not decide equilibrium position from arrows alone.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="arrows-follow-electron-pairs" class="slide level2">
-<h2>Arrows follow electron pairs</h2>
+<section id="curved-arrows-move-pairs-of-electrons" class="slide level2">
+<h2>Curved arrows move pairs of electrons</h2>
 
-<img data-src="figures/01-pair-flow.svg" style="width:85.0%" alt="A lone pair forms the new O–H bond while the original O–H bonding pair returns to oxygen." class="r-stretch quarto-figure-center"><p class="caption">A lone pair forms the new O–H bond while the original O–H bonding pair returns to oxygen.</p><p>Every full-headed curved arrow starts at a lone pair or bond. Two arrows are needed for this proton transfer.</p>
+<img data-src="figures/sk-proton-transfer.svg" style="width:88.0%" alt="Hydroxide oxygen B uses a lone pair to take the H of methanol while the O–H bond pair stays on methanol oxygen A, giving water and methoxide" class="r-stretch quarto-figure-center"><p class="caption">Methanol gives its O–H proton to hydroxide</p><p>The <strong>tail</strong> sits on a lone pair or a bond. The <strong>head</strong> points to where that pair ends up: a new bond or a new lone pair.</p>
+<div class="try">
+<p><strong>Try it:</strong> in the products, which oxygen is in water and which is in methoxide?</p>
+<div class="fragment">
+<p><strong>B is in water, A stays in methoxide.</strong> Only the proton moves; oxygen atoms never hop between molecules in a proton transfer.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Point to each arrow tail and ask what pair was there before the step. Do not accept an arrow starting at a positive charge or at a bare hydrogen.</p>
+<p>Walk through the two arrows slowly. Arrow one: a lone pair on hydroxide oxygen B becomes the new O–H bond. Arrow two: the old O–H bond pair in methanol collapses onto oxygen A, which now has three lone pairs and a negative charge. Stress that an arrow never shows an atom moving; it shows a pair of electrons moving, and the atoms follow. The labels A and B are the point of the try-it. Many students instinctively put oxygen A in the water because “the H went over there”. Count charges together: −1 on the left, −1 on the right. Mention that the double arrow just says this is an equilibrium; which side wins is an acid-strength question from Day 3, and arrows alone don’t answer it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -190,12 +189,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="a-neutral-base-can-become-a-cation" class="slide level2">
-<h2>A neutral base can become a cation</h2>
+<section id="a-neutral-base-becomes-a-cation" class="slide level2">
+<h2>A neutral base becomes a cation</h2>
 
-<img data-src="figures/11-ammonia-protonation.svg" style="width:85.0%" alt="A neutral base can become a cation" class="r-stretch quarto-figure-center"><p class="caption">A neutral base can become a cation</p><p>Read the new N–H bond in ammonia protonation. Identify both original electron pairs before writing products.</p>
+<img data-src="figures/sk-ammonia.svg" style="width:88.0%" alt="The nitrogen lone pair of ammonia forms a bond to the H of HCl while the H–Cl bond pair moves onto chlorine, giving ammonium and chloride" class="r-stretch quarto-figure-center"><p class="caption">Ammonia takes a proton from HCl</p><p>Nitrogen’s lone pair becomes the new N–H bond. Nitrogen now has four bonds and no lone pair, so it carries <strong>+1</strong>. Chloride keeps the old bonding pair, so it carries <strong>−1</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> a student draws an arrow from the H of H₃O⁺ to ammonia. What’s wrong?</p>
+<div class="fragment">
+<p><strong>The arrow runs backwards.</strong> A proton has no electrons to give, so the tail must start on nitrogen’s lone pair and point at H, with a second arrow from the O–H bond to O.</p>
+</div>
+</div>
 <aside class="notes">
-<p>NH₃ donates its lone pair; H–Cl gives its pair to Cl. NH₄⁺ and Cl⁻ conserve net zero charge.</p>
+<p>This is the same pattern as the last slide with a neutral base. Make the point that a neutral molecule can be the electron source. The most common arrow error of the whole course is drawing the arrow in the direction the proton travels. Say it plainly: arrows follow electrons, protons go the other way. Check the charge balance: 0 on the left, +1 and −1 on the right, so still 0 overall. Ammonium and chloride are the ions in ammonium chloride, the white smoke you see when bottles of ammonia and concentrated HCl are opened near each other.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -208,12 +213,77 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="audit-the-nitrogen-after-proton-transfer" class="slide level2">
-<h2>Audit the nitrogen after proton transfer</h2>
+<section id="charges-follow-the-electron-count" class="slide level2">
+<h2>Charges follow the electron count</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>atom</th>
+<th>before the step</th>
+<th>after the step</th>
+<th>formal charge</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>N of NH₃ → NH₄⁺</td>
+<td>3 bonds, 1 lone pair</td>
+<td>4 bonds, 0 lone pairs</td>
+<td>0 → <strong>+1</strong></td>
+</tr>
+<tr class="even">
+<td>O of HO⁻ → H₂O</td>
+<td>1 bond, 3 lone pairs</td>
+<td>2 bonds, 2 lone pairs</td>
+<td>−1 → <strong>0</strong></td>
+</tr>
+<tr class="odd">
+<td>O of CH₃OH → CH₃O⁻</td>
+<td>2 bonds, 2 lone pairs</td>
+<td>1 bond, 3 lone pairs</td>
+<td>0 → <strong>−1</strong></td>
+</tr>
+<tr class="even">
+<td>Cl of HCl → Cl⁻</td>
+<td>1 bond, 3 lone pairs</td>
+<td>0 bonds, 4 lone pairs</td>
+<td>0 → <strong>−1</strong></td>
+</tr>
+</tbody>
+</table>
+<p>An atom whose <strong>lone pair becomes a bond</strong> goes up by one. An atom that <strong>receives a bond pair</strong> goes down by one. The total charge never changes.</p>
+<aside class="notes">
+<p>This is Day 1’s formal-charge rule applied to a moving picture. Ask students to read across each row and predict the charge before you reveal it. The rule of thumb in the last line makes most mechanisms self-checking: the atom at the tail of a lone-pair arrow becomes more positive, the atom at the head of a bond-breaking arrow becomes more negative. Warn against “fixing” a charge by moving it somewhere else at the end. If the totals don’t match, an arrow is wrong or missing.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sources-and-sinks" class="slide level2">
+<h2>Sources and sinks</h2>
 
-<img data-src="figures/11-ammonia-protonation.svg" style="width:85.0%" alt="A neutral base can become a cation" class="r-stretch quarto-figure-center"><p class="caption">A neutral base can become a cation</p><p>Draw NH₄⁺ with four N–H bonds. Explain why four bonds and no lone pair require +1, then locate the opposite charge.</p>
+<img data-src="figures/sk-source-sink.svg" style="width:66.0%" alt="Top row: hydroxide, ammonia and water with lone pairs shaded as electron sources. Bottom row: the carbonyl carbon of acetaldehyde, the carbon of bromomethane and the H of HCl shaded as electron-poor acceptors with partial charges" class="r-stretch quarto-figure-center"><p class="caption">Electron-pair sources and acceptors</p><p>A <strong>nucleophile</strong> gives a pair to an atom; an <strong>electrophile</strong> accepts it. Polar bonds tell you where the sink is.</p>
+<div class="try">
+<p><strong>Try it:</strong> the carbonyl C is δ+. Is acetaldehyde a carbocation?</p>
+<div class="fragment">
+<p><strong>No.</strong> δ+ is a partial charge from unequal sharing; every atom in CH₃CHO has formal charge 0.</p>
+</div>
+</div>
 <aside class="notes">
-<p>NH₃ donates its lone pair; H–Cl gives its pair to Cl. NH₄⁺ and Cl⁻ conserve net zero charge.</p>
+<p>Teach students to look for these two things before drawing anything: where is a lone pair (or later in the course, a pi bond) that could be given away, and where is an atom attached to something more electronegative. The electronegative partner, O or Br or Cl, pulls the shared pair and leaves its neighbour electron-poor. Point out water in the top row: neutral molecules are perfectly good sources. The try-it targets a very common confusion between δ+ and a formal +1; a carbocation has only three bonds, while the carbonyl carbon has four.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -226,29 +296,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-1" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Break the C–Br bond in CH₃Br formally by giving both electrons to Br. Which two charges must appear? Is a balanced drawing sufficient evidence of a fast reaction?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="both-bonding-electrons-can-stay-together" class="slide level2">
-<h2>Both bonding electrons can stay together</h2>
+<section id="same-reagent-different-role" class="slide level2">
+<h2>Same reagent, different role</h2>
 
-<img data-src="figures/02-heterolysis.svg" style="width:85.0%" alt="The C–Br bonding pair moves to bromine, giving formally separated positive and negative ions." class="r-stretch quarto-figure-center"><p class="caption">The C–Br bonding pair moves to bromine, giving formally separated positive and negative ions.</p><p>Heterolysis gives the two bonding electrons to one atom. Charge separation must appear in the products.</p>
+<img data-src="figures/sk-base-vs-nucleophile.svg" style="width:74.0%" alt="Top: hydroxide gives its lone pair to the carbon of bromomethane, acting as a nucleophile. Bottom: hydroxide takes an H from hydronium, acting as a base" class="r-stretch quarto-figure-center"><p class="caption">Hydroxide as a nucleophile and as a base</p><p><strong>Base</strong> and <strong>nucleophile</strong> aren’t fixed labels. They name what this pair is doing in this step: attacking <strong>H</strong> makes it a base, attacking another atom (usually C) makes it a nucleophile.</p>
 <aside class="notes">
-<p>This is bookkeeping, not a prediction that a methyl carbocation forms readily. Methyl substrates instead favour concerted substitution in the examples used here.</p>
+<p>Students like to sort reagents into boxes: “hydroxide is a base”. Break that habit now. Both rows use the same lone pair; the difference is the atom it lands on. In Week 3 you’ll see the competition between these two roles directly: hydroxide meeting an alkyl halide can either substitute at carbon (SN2) or pull off a proton next door (E2). Which one wins depends on the substrate and conditions, and that’s exactly the question of Day 12. For today, just make students name the attacked atom before naming the role.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -261,12 +314,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="count-before-using-a-charge-label" class="slide level2">
-<h2>Count before using a charge label</h2>
+<section id="sn2-two-arrows-one-step" class="slide level2">
+<h2>SN2: two arrows, one step</h2>
 
-<img data-src="figures/12-nitrogen-charge.svg" style="width:85.0%" alt="Count before using a charge label" class="r-stretch quarto-figure-center"><p class="caption">Count before using a charge label</p><p>Compare three-bond NH₃ with four-bond NH₄⁺. Which available lone pair has become a bond?</p>
+<img data-src="figures/sk-sn2.svg" style="width:88.0%" alt="The hydroxide lone pair attacks the carbon of bromomethane from the side opposite bromine while the C–Br bond pair leaves with bromide; in methanol the three H have folded the other way" class="r-stretch quarto-figure-center"><p class="caption">Hydroxide substitutes bromide on bromomethane</p><p>The new C–O bond forms <strong>as</strong> the C–Br bond breaks. Carbon never has five bonds and there’s no intermediate. Hydroxide attacks from the back, so the CH₃ umbrella flips.</p>
+<div class="try">
+<p><strong>Try it:</strong> the drawing has two arrows. Is it two steps?</p>
+<div class="fragment">
+<p><strong>No.</strong> The number of steps is the number of barriers, not arrows. Both pairs move in one concerted event.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Nitrogen has five valence electrons. Three bonds plus one pair is neutral; four bonds and no pair gives formal +1.</p>
+<p>Name it: substitution, nucleophilic, bimolecular, SN2. Point out where the nucleophile comes from: directly opposite bromine, where the C–Br antibonding orbital sticks out, which is why the three hydrogens fold over like an umbrella in a gust of wind. On a methyl group the flip is invisible, but yesterday’s stereochemistry tells you what it means on a stereocentre: R becomes S (if priorities stay in the same order). That’s the headline of Day 11. Check the bookkeeping out loud: oxygen goes from −1 to 0, bromine from 0 to −1, total −1 both sides. If someone asks “why doesn’t the reverse happen?”, that’s the next slide but one.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -279,12 +338,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="transfer-the-counting-rule-to-an-attacking-amine" class="slide level2">
-<h2>Transfer the counting rule to an attacking amine</h2>
+<section id="a-neutral-nucleophile-needs-a-second-step" class="slide level2">
+<h2>A neutral nucleophile needs a second step</h2>
 
-<img data-src="figures/12-nitrogen-charge.svg" style="width:85.0%" alt="Count before using a charge label" class="r-stretch quarto-figure-center"><p class="caption">Count before using a charge label</p><p>If NH₃ adds a bond to CH₃ instead of H, predict CH₃NH₃⁺ before any later proton transfer.</p>
+<img data-src="figures/sk-amine-two-steps.svg" style="width:78.0%" alt="Step 1: ammonia attacks bromomethane giving methylammonium with N+ and bromide. Step 2: a second ammonia removes an N–H proton giving methylamine and ammonium" class="r-stretch quarto-figure-center"><p class="caption">Ammonia substitutes bromide, then a second ammonia removes a proton</p><p>The first product is <strong>CH₃NH₃⁺</strong>: nitrogen has four bonds. Neutral methylamine only appears when <strong>another base</strong> takes a proton.</p>
+<div class="try">
+<p><strong>Try it:</strong> why is CH₃NH₃⁺ not drawn as neutral CH₃NH₂ straight away?</p>
+<div class="fragment">
+<p><strong>Nitrogen used its lone pair for the C–N bond</strong> and kept all three H. Losing an H⁺ needs a real proton acceptor, here a second NH₃.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Nitrogen has five valence electrons. Three bonds plus one pair is neutral; four bonds and no pair gives formal +1.</p>
+<p>This mirrors ammonia protonation from earlier, but now the lone pair lands on carbon instead of hydrogen. Students often draw methylamine as the direct product and then can’t balance the H count. Make them count: three N–H bonds before, three after step 1, two after step 2. The second ammonia is why chemists use a large excess of ammonia when making amines this way. Also note that each step is a pattern we already know: an SN2, then a proton transfer. Most mechanisms in this course are just a few of these patterns in a row.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -297,12 +362,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="name-the-donor-and-acceptor" class="slide level2">
-<h2>Name the donor and acceptor</h2>
+<section id="balanced-on-paper-isnt-the-same-as-real" class="slide level2">
+<h2>Balanced on paper isn’t the same as real</h2>
 
-<img data-src="figures/03-source-sink.svg" style="width:85.0%" alt="A hydroxide lone pair is the source and the polar carbonyl carbon is an electron-pair acceptor." class="r-stretch quarto-figure-center"><p class="caption">A hydroxide lone pair is the source and the polar carbonyl carbon is an electron-pair acceptor.</p><p>A <strong>nucleophile</strong> donates a pair to form a bond; an <strong>electrophile</strong> accepts it. A neutral molecule may be either.</p>
+<img data-src="figures/sk-heterolysis.svg" style="width:78.0%" alt="Top: the C–Br bond pair of bromomethane moves onto bromine to give a methyl cation, which never forms. Bottom: the same arrow for tert-butyl bromide gives a tert-butyl cation, which does form in polar solvents" class="r-stretch quarto-figure-center"><p class="caption">Heterolysis of bromomethane and of tert-butyl bromide</p><p>Giving both bond electrons to Br is valid <strong>bookkeeping</strong> for both. Only the tert-butyl cation is stable enough to exist. Arrows check electrons; energies decide what happens.</p>
+<div class="try">
+<p><strong>Try it:</strong> Br⁻ attacking CH₃OH to kick out OH⁻ balances perfectly. Why doesn’t it happen?</p>
+<div class="fragment">
+<p><strong>OH⁻ is a poor leaving group.</strong> It’s a much stronger base than Br⁻, so the reverse SN2 is uphill; you’d need acid to turn OH into water first (Week 3).</p>
+</div>
+</div>
 <aside class="notes">
-<p>This picture locates the source and acceptor. It is not a complete mechanism: the carbonyl pi pair must move too when the new bond forms.</p>
+<p>This slide is about the limits of arrow-pushing. A charge-balanced drawing is necessary but not sufficient. The methyl cation is so unstable that bromomethane never ionises; it reacts by SN2 instead. Three methyl groups donate electron density to the cationic carbon, which is why tert-butyl bromide does ionise in water or alcohols. That’s the SN1 pathway of Day 11. The try-it comes from the exercises: same arrow logic, wrong direction energetically. Leaving-group ability tracks the weakness of the leaving base, which links straight back to pKa values from Day 3 (HBr is a far stronger acid than water).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -315,12 +386,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="a-new-bond-need-not-give-a-neutral-product" class="slide level2">
-<h2>A new bond need not give a neutral product</h2>
+<section id="addition-to-co-carbon-keeps-four-bonds" class="slide level2">
+<h2>Addition to C=O: carbon keeps four bonds</h2>
 
-<img data-src="figures/13-neutral-nucleophile.svg" style="width:85.0%" alt="A new bond need not give a neutral product" class="r-stretch quarto-figure-center"><p class="caption">A new bond need not give a neutral product</p><p>Read the methyl–nitrogen bond formation. Explain why the immediate product retains three N–H bonds.</p>
+<img data-src="figures/sk-carbonyl-addition.svg" style="width:82.0%" alt="The hydroxide lone pair forms a bond to the carbonyl carbon of acetaldehyde while the C=O pi pair moves onto oxygen, giving a tetrahedral alkoxide with charge −1" class="r-stretch quarto-figure-center"><p class="caption">Hydroxide adds to acetaldehyde</p><p>When a nucleophile bonds to the carbonyl carbon, the <strong>π pair must move to O</strong>. The product is a tetrahedral <strong>alkoxide</strong>, CH₃CH(OH)O⁻.</p>
+<div class="try">
+<p><strong>Try it:</strong> a student keeps C=O and adds the OH. What’s wrong, and what’s the product’s charge?</p>
+<div class="fragment">
+<p><strong>Carbon would have five bonds.</strong> Moving the π pair gives O⁻ with three lone pairs, so the product is CH₃CH(OH)O⁻, charge −1, with C at formal charge 0.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The next products are CH₃NH₂ and NH₄⁺. A separate proton acceptor is necessary to form neutral methylamine.</p>
+<p>This is the single most important step of Week 4, so it’s worth getting right now. Use Day 1’s valence check: the carbonyl carbon already has four bonds (C=O counts two), so a new bond has to come at the cost of an old one. The weakest one is the pi bond, and its pair goes to the more electronegative atom. Watch for two errors: the five-bonded carbon, and the right atoms but no charge drawn on the oxygen. Some students then “fix” the charge by putting +1 on carbon, which neither the arrows nor the total charge support. The carbon also changes shape, from trigonal planar to tetrahedral.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -333,12 +410,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="choose-the-next-chemical-operation" class="slide level2">
-<h2>Choose the next chemical operation</h2>
+<section id="two-steps-add-then-protonate" class="slide level2">
+<h2>Two steps: add, then protonate</h2>
 
-<img data-src="figures/13-neutral-nucleophile.svg" style="width:85.0%" alt="A new bond need not give a neutral product" class="r-stretch quarto-figure-center"><p class="caption">A new bond need not give a neutral product</p><p>Draw another NH₃ accepting a proton from CH₃NH₃⁺. Track the pair returning to methylamine N.</p>
+<img data-src="figures/sk-hydride-two-steps.svg" style="width:74.0%" alt="Step 1: a hydride from NaBH4 adds to the carbonyl carbon of acetone and the pi pair moves to oxygen, giving an alkoxide. Step 2: the alkoxide takes a proton from water, giving propan-2-ol and hydroxide" class="r-stretch quarto-figure-center"><p class="caption">Hydride adds to acetone, then water protonates the alkoxide</p><p>NaBH₄ delivers <strong>H⁻</strong> to carbon. The alkoxide then takes <strong>H⁺ from water</strong>. Every new H must come from a named species.</p>
+<div class="try">
+<p><strong>Try it:</strong> a student converts (CH₃)₂CHO⁻ into (CH₃)₂CHOH with no other reagent. Complete the step.</p>
+<div class="fragment">
+<p><strong>Add water as the donor.</strong> The O⁻ lone pair takes a water H, the O–H pair goes to water’s O, and the products are propan-2-ol and HO⁻. The total charge stays −1.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The next products are CH₃NH₂ and NH₄⁺. A separate proton acceptor is necessary to form neutral methylamine.</p>
+<p>Two caveats to say aloud. First, free hydride ions don’t float around in solution; H⁻ is shorthand for a hydride delivered from the B–H bond of borohydride. Second, the first product is the alkoxide, not the alcohol; the workup supplies the proton. This is exactly how a ketone is reduced to an alcohol, which is a Day 13 reaction. The habit we’re building is that protons don’t appear from nowhere: if an H shows up, point to where it came from and draw what is left behind.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -351,29 +434,37 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-2" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw the immediate product when OH⁻ adds to CH₃CHO. Count every carbon bond order and place the charge before protonating anything.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="do-not-give-carbon-five-bonds" class="slide level2">
-<h2>Do not give carbon five bonds</h2>
+<section id="resonance-is-not-a-reaction" class="slide level2">
+<h2>Resonance is not a reaction</h2>
 
-<img data-src="figures/04-carbonyl-pairs.svg" style="width:85.0%" alt="Hydroxide addition moves the carbonyl pi pair to oxygen and makes a tetrahedral alkoxide." class="r-stretch quarto-figure-center"><p class="caption">Hydroxide addition moves the carbonyl pi pair to oxygen and makes a tetrahedral alkoxide.</p><p>New C–O bond formation and C=O π-bond cleavage occur in the same elementary addition step.</p>
+<img data-src="figures/sk-resonance.svg" style="width:72.0%" alt="Top: the two acetate contributors joined by a double-headed resonance arrow, with arrows moving only electrons. Bottom: acetic acid plus water giving acetate and hydronium as a real equilibrium" class="r-stretch quarto-figure-center"><p class="caption">Acetate resonance contributors and acetic acid dissociation</p><table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>resonance ↔︎</th>
+<th>equilibrium ⇌</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>what moves</td>
+<td>only electrons, on paper</td>
+<td>nuclei: an H goes to another molecule</td>
+</tr>
+<tr class="even">
+<td>how many species</td>
+<td><strong>one</strong> real ion</td>
+<td>two different species</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Count the central carbon bond orders before and after. The product oxygen with one bond has three lone pairs and formal charge minus one.</p>
+<p>Students meet curved arrows in resonance too, so they need to know the difference. In acetate, the two drawings are not two molecules flipping back and forth. The real ion is one hybrid with two identical C–O bonds of about 1.5 bond order, and the negative charge shared over both oxygens. That’s why acetic acid is more acidic than ethanol (Day 3). The bottom equation is a real chemical change: a proton leaves acetic acid and ends up on water. Use the right arrow for each: double-headed for resonance, equilibrium half-arrows for a reaction.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -386,12 +477,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-each-minimum-as-its-own-baseline" class="slide level2">
-<h2>Use each minimum as its own baseline</h2>
+<section id="energy-profile-of-one-step" class="slide level2">
+<h2>Energy profile of one step</h2>
 
-<img data-src="figures/14-reverse-barrier.svg" style="width:85.0%" alt="Use each minimum as its own baseline" class="r-stretch quarto-figure-center"><p class="caption">Use each minimum as its own baseline</p><p>Read the forward and reverse barriers from reactants0, transition state +45 and products−20 kJ/mol.</p>
+<img data-src="figures/sk-profile-one-step.svg" style="width:72.0%" alt="Reactants at 0, transition state at +45 and products at −20 kJ/mol; forward barrier 45, reverse barrier 65 and overall ΔG −20 kJ/mol" class="r-stretch quarto-figure-center"><p class="caption">A one-step profile with forward and reverse barriers</p><p>The top of the hill is the <strong>transition state</strong> (‡): it lasts for one bond vibration and can’t be isolated. <strong>ΔG‡</strong> sets the rate; <strong>ΔG</strong> sets the equilibrium.</p>
+<div class="try">
+<p><strong>Try it:</strong> what’s the reverse barrier here?</p>
+<div class="fragment">
+<p><strong>65 kJ/mol.</strong> Measure from the products up to the same transition state: 45 − (−20) = 65.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Forward barrier 45, reverse 65. Endpoint free energy describes equilibrium; the barrier is needed for rate reasoning.</p>
+<p>Every elementary step has one transition state at a maximum. Emphasise that each barrier is measured from its own starting valley. Reverse barrier errors usually come from measuring from the reactants. For the SN2 we drew earlier, the transition state is the moment where C–O is half formed and C–Br half broken, with the three hydrogens flat. You can draw it in brackets with a double dagger. A useful rule of thumb: around 80 to 90 kJ/mol is the barrier that lets a reaction proceed at a convenient rate at room temperature.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -404,12 +501,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="distinguish-favourable-from-fast" class="slide level2">
-<h2>Distinguish favourable from fast</h2>
+<section id="intermediates-sit-in-valleys" class="slide level2">
+<h2>Intermediates sit in valleys</h2>
 
-<img data-src="figures/14-reverse-barrier.svg" style="width:85.0%" alt="Use each minimum as its own baseline" class="r-stretch quarto-figure-center"><p class="caption">Use each minimum as its own baseline</p><p>The endpoint ΔG is −20 kJ/mol. Explain why a45 kJ/mol forward barrier still matters even though the products are lower.</p>
+<img data-src="figures/sk-profile-two-step.svg" style="width:80.0%" alt="Two maxima TS1 and TS2 separated by one minimum, the alkoxide intermediate CH3CH(OH)O−, showing two elementary steps" class="r-stretch quarto-figure-center"><p class="caption">A two-step profile with an intermediate</p><p>An <strong>intermediate</strong> is a real species with a lifetime. It sits in a minimum between two transition states. Count steps by counting maxima: two maxima and one valley means <strong>two elementary steps</strong>.</p>
 <aside class="notes">
-<p>Forward barrier 45, reverse 65. Endpoint free energy describes equilibrium; the barrier is needed for rate reasoning.</p>
+<p>Contrast the two words carefully: an intermediate is a minimum and could in principle be observed or trapped; a transition state is a maximum and can’t. In the hydration reaction coming up, the alkoxide is the intermediate between the hydroxide-addition step and the protonation step. Point out that the SN2 profile from the previous slide has no valley, because it has no intermediate. The highest transition state in a multi-step path usually controls the overall rate.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -422,29 +519,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-3" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>For OH⁻ + CH₃Br, draw the new bond and the departing bond pair in one elementary step. What species must not be inserted between them?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="one-elementary-step-can-use-several-arrows" class="slide level2">
-<h2>One elementary step can use several arrows</h2>
+<section id="favourable-is-not-the-same-as-fast" class="slide level2">
+<h2>Favourable is not the same as fast</h2>
 
-<img data-src="figures/05-concerted-substitution.svg" style="width:85.0%" alt="Two electron pairs move together in methyl bromide substitution by hydroxide." class="r-stretch quarto-figure-center"><p class="caption">Two electron pairs move together in methyl bromide substitution by hydroxide.</p><p><strong>Concerted</strong> means one step with no intermediate between bond breaking and bond making.</p>
+<img data-src="figures/sk-favourable-vs-fast.svg" style="width:74.0%" alt="Left: products far below reactants but with a high barrier, so the reaction is favourable but slow. Right: a low barrier but products above reactants, so the reaction is fast but gives little product" class="r-stretch quarto-figure-center"><p class="caption">Favourable but slow versus fast but unfavourable</p><p>Sugar plus O₂ is hugely downhill, yet a sugar bowl doesn’t burst into flames: the barrier is high. <strong>Endpoints set K; barriers set the rate.</strong> Given paths with 15 and 25 kJ/mol barriers, the 15 one is faster.</p>
 <aside class="notes">
-<p>The total charge remains minus one. There is no methyl carbocation minimum hidden in this concerted example.</p>
+<p>This is a place where everyday intuition misleads. Knowing ΔG tells you where a reaction ends up if you wait long enough; it says nothing about how long that takes. Knowing a barrier tells you about speed, but nothing about the final ratio of products. The 15 versus 25 kJ/mol example is from the exercises: the lower barrier wins on rate, all else equal, but neither number tells you the equilibrium composition. Your body burns sugar, of course, but only through enzymes that offer lower-barrier paths, which is the bridge to the next slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -457,12 +537,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="protons-transfer-oxygen-labels-stay" class="slide level2">
-<h2>Protons transfer; oxygen labels stay</h2>
+<section id="catalysts-are-regenerated" class="slide level2">
+<h2>Catalysts are regenerated</h2>
 
-<img data-src="figures/15-oxygen-labels.svg" style="width:85.0%" alt="Protons transfer; oxygen labels stay" class="r-stretch quarto-figure-center"><p class="caption">Protons transfer; oxygen labels stay</p><p>Identify which oxygen remains bonded to CH₃ after methanol deprotonation.</p>
+<img data-src="figures/sk-catalytic-hydration.svg" style="width:74.0%" alt="Step 1: hydroxide adds to acetaldehyde giving an alkoxide intermediate. Step 2: the alkoxide takes a proton from water giving the hydrate CH3CH(OH)2 and giving back hydroxide" class="r-stretch quarto-figure-center"><p class="caption">Base-catalysed hydration of acetaldehyde</p><p>Add the steps and cross out what appears on both sides: <strong>CH₃CHO + H₂O ⇌ CH₃CH(OH)₂</strong>. Hydroxide is used in step 1 and returned in step 2, so it’s a <strong>catalyst</strong>; the alkoxide is an <strong>intermediate</strong>.</p>
 <aside class="notes">
-<p>A remains methoxide oxygen; B is water oxygen. Exchanging labels would imply C–O cleavage/new bonding not present here.</p>
+<p>The two steps are things we already drew today: carbonyl addition, then a proton transfer from water. Sum them on the board and cancel species: OH− appears on the left of step 1 and the right of step 2; the alkoxide appears on the right of step 1 and the left of step 2. What’s left is the net hydration. The distinction to make crisp: a catalyst goes in first and comes out last; an intermediate is made first and consumed later. Carbonic anhydrase from the opening works the same way, with zinc-bound hydroxide doing step 1. Carbonyl hydration and its cousins return in Week 4.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -475,12 +555,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-labels-to-reject-an-extra-mechanism" class="slide level2">
-<h2>Use labels to reject an extra mechanism</h2>
+<section id="a-catalyst-lowers-the-barrier-not-δg" class="slide level2">
+<h2>A catalyst lowers the barrier, not ΔG</h2>
 
-<img data-src="figures/15-oxygen-labels.svg" style="width:85.0%" alt="Protons transfer; oxygen labels stay" class="r-stretch quarto-figure-center"><p class="caption">Protons transfer; oxygen labels stay</p><p>A proposed answer puts oxygen A into water. What additional bond changes would that require beyond proton transfer?</p>
+<img data-src="figures/sk-catalysis-profile.svg" style="width:82.0%" alt="An uncatalysed path with one barrier of 45 kJ/mol and a catalysed two-step path whose highest barrier is 25 kJ/mol, both starting at 0 and ending at −20 kJ/mol" class="r-stretch quarto-figure-center"><p class="caption">Catalysed and uncatalysed profiles between the same endpoints</p><p>The catalysed path is <strong>different</strong>, often with more steps, but it starts and ends at the same place. Both directions get faster, so equilibrium is reached sooner but <strong>K doesn’t change</strong>.</p>
 <aside class="notes">
-<p>A remains methoxide oxygen; B is water oxygen. Exchanging labels would imply C–O cleavage/new bonding not present here.</p>
+<p>Return to carbonic anhydrase: the enzyme doesn’t make more bicarbonate at equilibrium; it gets there millions of times faster, in both directions. That matters because in your lungs the same enzyme runs the reaction backwards to release CO2. A catalyst that speeded only the forward reaction would be a perpetual-motion machine. Point out that the green path has two humps, so it also has an intermediate. A lower highest barrier doesn’t require fewer steps.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -493,11 +573,52 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-4" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>An alkoxide becomes alcohol after water is added. What happens to the proton-donor water? Write it rather than supplying an unexplained H⁺.</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>arrow from H⁺ to the base</td>
+<td>start at the <strong>lone pair</strong>, point at H</td>
+</tr>
+<tr class="even">
+<td>carbon with five bonds after an addition</td>
+<td>move the <strong>π pair</strong> to O</td>
+</tr>
+<tr class="odd">
+<td>product drawn without its charge</td>
+<td>recount: <strong>total charge is conserved</strong></td>
+</tr>
+<tr class="even">
+<td>H appears from nowhere</td>
+<td>name the <strong>proton donor</strong> and its conjugate base</td>
+</tr>
+<tr class="odd">
+<td>two arrows read as two steps</td>
+<td>steps = <strong>barriers</strong>, not arrows</td>
+</tr>
+<tr class="even">
+<td>balanced drawing taken as proof</td>
+<td>check the <strong>energies</strong> (cation stability, leaving group)</td>
+</tr>
+<tr class="odd">
+<td>catalyst “shifts equilibrium to products”</td>
+<td>it lowers barriers both ways; <strong>K is unchanged</strong></td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
+<p>Read out each mistake and ask the room to give the fix before you show it. Every row corresponds to at least one exercise: 2 for the reversed arrow, 6 and 17 for the five-bonded carbon and missing charge, 8 for the missing proton donor, 3 and 12 for counting steps, 4 and 11 for the balanced-but-wrong drawings, and 15 for catalysis.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -510,293 +631,61 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="a-proton-must-come-from-a-species" class="slide level2">
-<h2>A proton must come from a species</h2>
-
-<img data-src="figures/06-proton-donor.svg" style="width:85.0%" alt="Ethoxide receives a proton from water, and hydroxide is produced." class="r-stretch quarto-figure-center"><p class="caption">Ethoxide receives a proton from water, and hydroxide is produced.</p><p>Write the proton donor and its conjugate base. A work-up is a chemical step, not a source of unexplained H atoms.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>curved arrow</td>
+<td>moves <strong>one pair</strong>: lone pair or bond → new bond or lone pair</td>
+</tr>
+<tr class="even">
+<td>charges</td>
+<td>lone pair → bond: +1; bond pair received: −1</td>
+</tr>
+<tr class="odd">
+<td>roles</td>
+<td>pair to <strong>H</strong> = base; pair to <strong>C</strong> = nucleophile</td>
+</tr>
+<tr class="even">
+<td>SN2</td>
+<td>one step, two arrows, attack from the back</td>
+</tr>
+<tr class="odd">
+<td>addition to C=O</td>
+<td>π pair to O → tetrahedral alkoxide</td>
+</tr>
+<tr class="even">
+<td>transition state</td>
+<td>maximum ‡, not isolable</td>
+</tr>
+<tr class="odd">
+<td>intermediate</td>
+<td>minimum between two steps</td>
+</tr>
+<tr class="even">
+<td>barriers vs ΔG</td>
+<td>ΔG‡ → rate; ΔG → K</td>
+</tr>
+<tr class="odd">
+<td>catalyst</td>
+<td>regenerated; lower barrier, same K</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> substitution, SN2 versus SN1 (Day 11). <strong>Practice:</strong> <a href="../mechanisms/exercise.html">exercises</a> · <a href="../mechanisms/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Use this to prepare for carbonyl reduction. Students often draw the alkoxide directly as an alcohol and lose both the proton donor and charge.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="two-contributors-describe-one-ion" class="slide level2">
-<h2>Two contributors describe one ion</h2>
-
-<img data-src="figures/16-resonance-versus-reaction.svg" style="width:85.0%" alt="Two contributors describe one ion" class="r-stretch quarto-figure-center"><p class="caption">Two contributors describe one ion</p><p>Compare the positions of C, O and H nuclei across ethanoate resonance contributors. What changes?</p>
-<aside class="notes">
-<p>Resonance moves electron placement at fixed nuclei. Deprotonation changes atom membership and describes interconverting species.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="contrast-a-chemical-equilibrium" class="slide level2">
-<h2>Contrast a chemical equilibrium</h2>
-
-<img data-src="figures/16-resonance-versus-reaction.svg" style="width:85.0%" alt="Two contributors describe one ion" class="r-stretch quarto-figure-center"><p class="caption">Two contributors describe one ion</p><p>Now write CH₃COOH⇌CH₃COO⁻+H⁺. Why does that relation require an equilibrium arrow instead?</p>
-<aside class="notes">
-<p>Resonance moves electron placement at fixed nuclei. Deprotonation changes atom membership and describes interconverting species.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-5" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Sketch one reaction step as a free-energy profile. Where is its transition state? Why is the horizontal axis not a clock?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="transition-states-are-energy-maxima" class="slide level2">
-<h2>Transition states are energy maxima</h2>
-
-<img data-src="figures/07-one-step-energy.svg" style="width:85.0%" alt="A one-step free-energy profile has one maximum between reactants and products." class="r-stretch quarto-figure-center"><p class="caption">A one-step free-energy profile has one maximum between reactants and products.</p><p>The transition state is not an isolable intermediate. Its barrier helps determine the reaction rate.</p>
-<aside class="notes">
-<p>The curve is schematic. The vertical axis is free energy, not concentration, and the horizontal axis is reaction progress, not elapsed time.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="a-complete-product-includes-its-charge" class="slide level2">
-<h2>A complete product includes its charge</h2>
-
-<img data-src="figures/17-charge-audit-case.svg" style="width:85.0%" alt="A complete product includes its charge" class="r-stretch quarto-figure-center"><p class="caption">A complete product includes its charge</p><p>Find the original carbonyl oxygen in the tetrahedral addition product and count its single bond and three pairs.</p>
-<aside class="notes">
-<p>No.&nbsp;Carbon has four single bonds and formal 0. Original oxygen is −1, preserving the starting net −1 charge.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="repair-a-wrong-carbon-charge" class="slide level2">
-<h2>Repair a wrong carbon charge</h2>
-
-<img data-src="figures/17-charge-audit-case.svg" style="width:85.0%" alt="A complete product includes its charge" class="r-stretch quarto-figure-center"><p class="caption">A complete product includes its charge</p><p>Would putting+1 at the tetrahedral carbon repair a missing oxygen-minus sign? Check the actual electrons and net charge.</p>
-<aside class="notes">
-<p>No.&nbsp;Carbon has four single bonds and formal 0. Original oxygen is −1, preserving the starting net −1 charge.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-6" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Sketch a two-step profile. Place the intermediate and both transition states. How would you measure the second step’s barrier?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="an-intermediate-occupies-a-minimum" class="slide level2">
-<h2>An intermediate occupies a minimum</h2>
-
-<img data-src="figures/08-intermediate-energy.svg" style="width:85.0%" alt="A two-step schematic path has two transition states and an intermediate free-energy minimum." class="r-stretch quarto-figure-center"><p class="caption">A two-step schematic path has two transition states and an intermediate free-energy minimum.</p><p>Count steps by maxima, not by the number of curved arrows. An intermediate has a finite lifetime.</p>
-<aside class="notes">
-<p>A minimum may be short-lived and difficult to observe. The diagram does not by itself specify whether it can be bottled.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="cancel-species-only-after-summing-real-steps" class="slide level2">
-<h2>Cancel species only after summing real steps</h2>
-
-<img data-src="figures/18-catalyst-accounting.svg" style="width:85.0%" alt="Cancel species only after summing real steps" class="r-stretch quarto-figure-center"><p class="caption">Cancel species only after summing real steps</p><p>Add the two hydrate-forming equations and mark the alkoxide as intermediate.</p>
-<aside class="notes">
-<p>The species OH⁻ is used and regenerated overall. Formal cancellation of species is net stoichiometry, not an assertion that individually labelled atoms cannot exchange through steps.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="identify-the-regenerated-participant" class="slide level2">
-<h2>Identify the regenerated participant</h2>
-
-<img data-src="figures/18-catalyst-accounting.svg" style="width:85.0%" alt="Cancel species only after summing real steps" class="r-stretch quarto-figure-center"><p class="caption">Cancel species only after summing real steps</p><p>Explain why hydroxide is a catalyst here, while water is a net reactant. Is every oxygen atom necessarily the same after cancellation?</p>
-<aside class="notes">
-<p>The species OH⁻ is used and regenerated overall. Formal cancellation of species is net stoichiometry, not an assertion that individually labelled atoms cannot exchange through steps.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-7" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Can two different barriers join the same reactant/product free energies? Predict what this means for catalysis and equilibrium.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="catalysis-changes-the-pathway" class="slide level2">
-<h2>Catalysis changes the pathway</h2>
-
-<img data-src="figures/09-catalyst-profile.svg" style="width:85.0%" alt="Catalysed and uncatalysed paths have the same reactant and product energies but different barriers." class="r-stretch quarto-figure-center"><p class="caption">Catalysed and uncatalysed paths have the same reactant and product energies but different barriers.</p><p>A catalyst can increase the rate while leaving the overall equilibrium constant unchanged.</p>
-<aside class="notes">
-<p>The drawn catalysed profile is simplified. Real catalysis often adds multiple elementary steps; the catalyst is regenerated overall.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-8" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>For OH⁻ + CH₃Br → CH₃OH + Br⁻, inventory C, H, O and Br and the total charge. Which omission is easiest to miss?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-an-atom-and-charge-audit" class="slide level2">
-<h2>Use an atom and charge audit</h2>
-
-<img data-src="figures/10-bookkeeping.svg" style="width:85.0%" alt="Substitution conserves C, H, O and Br and has total charge minus one on both sides." class="r-stretch quarto-figure-center"><p class="caption">Substitution conserves C, H, O and Br and has total charge minus one on both sides.</p><p>After every step, check valence, atoms and net charge. Add implied hydrogens when the audit is unclear.</p>
-<aside class="notes">
-<p>An electron-flow arrow does not add atoms. A missing counterion may be a spectator, but the reacting species must still have correct individual charges.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="nucleophilicity-and-basicity-ask-different-questions" class="slide level2">
-<h2>Nucleophilicity and basicity ask different questions</h2>
-<p>A base accepts a proton; a nucleophile attacks an electrophilic centre. The same species can do both, but the preferred outcome depends on the substrate and conditions.</p>
-<p>Identify the atom attacked before naming the process.</p>
-</section>
-<section id="repair-an-impossible-step" class="slide level2">
-<h2>Repair an impossible step</h2>
-<p>A student draws OH⁻ adding to a carbonyl but leaves the C=O double bond intact.</p>
-<p>Draw all bonds to that carbon. Which electron pair must move, and where does the negative charge end up?</p>
-</section>
-<section id="explain-an-energy-diagram" class="slide level2">
-<h2>Explain an energy diagram</h2>
-<p>Sketch a two-step path. Mark both transition states and the intermediate.</p>
-<p>Which feature would change if a catalyst offers a faster path? Which endpoint energy difference stays the same?</p>
-</section>
-<section id="use-the-same-reasoning-in-practice" class="slide level2">
-<h2>Use the same reasoning in practice</h2>
-<p>Complete the <a href="../mechanisms/exercise.html">exercises</a>, then the <a href="../mechanisms/quiz.html">self-check</a>.</p>
-<p>Optional textbook support: selected Solomons chapter 3 and 6 sections. The <a href="../reference/reading.html">reading guide</a> explains the provisional book mapping.</p>
-<aside class="notes">
-<p>Session budget45 minutes:roughly27–29 minutes of concise explanations/visual inspection, about 11–13 minutes of individual drawing and predictions distributed through the sequence, and4–6 minutes of discussion/closing checks. Adjust to observed errors; the 40 second metadata is a planning guide, not a quota. Required paper practice and optional transfer are available in the exercise bank.</p>
+<p>Run the checklist once more as the take-home habit: for each step, every arrow starts on a pair, carbon never exceeds four bonds, atoms and total charge balance, every new H has a donor. Then ask whether the step makes sense energetically. Close the loop with carbonic anhydrase: students can now draw its key step (zinc hydroxide adds to CO2, pi pair to oxygen) and explain why the enzyme speeds the reaction without changing its equilibrium. Days 9 and 10 are consolidation days; Day 11 builds directly on the SN2 and heterolysis slides.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

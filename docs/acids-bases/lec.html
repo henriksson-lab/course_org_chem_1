@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Acids, bases and ionisation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,18 +144,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Acids, bases and ionisation</h1>
-  <p class="subtitle">Week 1 · Follow the proton and the electron pair</p>
+  <p class="subtitle">Week 1 · Day 3 — follow the proton and the electron pair</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-should-you-be-able-to-explain" class="slide level2">
-<h2>What should you be able to explain?</h2>
-<p>Draw proton transfers; identify conjugates; compare acid strength and interpret an aqueous speciation model.</p>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>You swallow an aspirin tablet. In your stomach (pH ≈ 2) about <strong>97 %</strong> of it is the neutral acid. A few minutes later, in your blood (pH 7.4), more than <strong>99.9 %</strong> of it is the negatively charged ion. <strong>Same molecule, different form</strong>, and only the pH changed.</p>
+<p>Today we learn to predict that kind of switch:</p>
+<ul>
+<li><strong>Proton transfer:</strong> curved arrows, and what happens to charges</li>
+<li><strong>Conjugate pairs:</strong> acid and base differ by exactly one H⁺</li>
+<li><strong>Acid strength:</strong> pKa, and why the conjugate base decides it</li>
+<li><strong>Equilibrium:</strong> which side of an acid–base reaction wins</li>
+<li><strong>Ionisation:</strong> how much is HA and how much is A⁻ at a given pH</li>
+</ul>
+<p>Yesterday we used structure to predict boiling points; today the same reading skills predict acidity.</p>
 <aside class="notes">
-<p>45-minute budget: two-arrow proton transfer6 min including a60-second drawing; conjugate/charge audits4 min; resonance and stabilisation7 min; pKa interpretation5 min; equilibrium direction5 min with a60-second calculation; curve and midpoint6 min; ratio-to-fraction checks7 min including two60-second attempts; model/extraction boundary3 min; exit2 min. Total45 min including the pauses.</p>
-<p>Use the slide pace flexibly: concrete worked operations deserve more time than brief resolved checks. The intended outcome is an explainable chemical argument,not a slide count.</p>
+<p>Open with the aspirin tablet, and keep the numbers on the board; we come back to them at the end and actually calculate them. Aspirin’s carboxylic acid has a pKa of about 3.5. The point of the hook: whether a drug carries a charge depends on the pH it’s sitting in, and that changes how it crosses membranes, dissolves and gets excreted. Ask the room which form they’d guess crosses a fatty cell membrane more easily, charged or neutral. Most will say neutral, which is right, and it sets up the extraction slide at the end. Remind them that Day 1’s formal-charge rules are exactly what we need today: every acid–base step changes one atom’s charge.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -151,11 +181,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="bring-these-tools-into-the-room" class="slide level2">
-<h2>Bring these tools into the room</h2>
-<p>Locate lone pairs and calculate formal charge. A curved arrow starts at an electron pair, not at an isolated proton.</p>
+<section id="an-acid-gives-h-a-base-gives-an-electron-pair" class="slide level2">
+<h2>An acid gives H⁺; a base gives an electron pair</h2>
+
+<img data-src="figures/sk-proton-transfer.svg" style="width:82.0%" alt="Ethanoic acid plus hydroxide gives ethanoate plus water; one red curved arrow runs from a hydroxide lone pair to the acidic H, a second from the O–H bond onto the acid oxygen" class="r-stretch quarto-figure-center"><p class="caption">Ethanoic acid transfers a proton to hydroxide, shown with two curved arrows</p><p>A <strong>Brønsted acid</strong> donates H⁺; a <strong>base</strong> accepts it using a lone pair. Two arrows: the base’s <strong>lone pair → H</strong>, and the <strong>O–H bonding pair → O</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> can a curved arrow start at the H⁺ and point to the base?</p>
+<div class="fragment">
+<p><strong>No.</strong> Curved arrows show where <em>electrons</em> go, and a bare proton has none. Start at a lone pair or a bond; H can only be where an arrow ends.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use a quick spoken diagnostic; do not spend an additional unscheduled revision block. Revisit a missing convention at its worked example.</p>
+<p>Draw this one slowly on the board alongside the slide. The hydroxide oxygen has three lone pairs; one of them reaches for the acidic hydrogen. At the same time the O–H bond of the acid breaks, and both electrons of that bond stay on the acid oxygen. That’s why ethanoate ends up with a negative charge: the oxygen keeps an extra lone pair. Students often draw a single arrow from H to OH⁻, which is backwards. The arrow notation tracks electrons, and this is the same notation we’ll use for every mechanism from Week 2 onward, so it’s worth getting right on the simplest possible reaction.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -168,12 +205,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="find-the-electron-source-before-the-proton-moves" class="slide level2">
-<h2>Find the electron source before the proton moves</h2>
+<section id="a-nitrogen-base-methylamine" class="slide level2">
+<h2>A nitrogen base: methylamine</h2>
 
-<img data-src="figures/01-proton-transfer.svg" style="width:82.0%" alt="Find the electron source before the proton moves" class="r-stretch quarto-figure-center"><p class="caption">Find the electron source before the proton moves</p><p>Point to a hydroxide lone pair, the acidic H and the O–H bonding pair.</p>
+<img data-src="figures/sk-amine-protonation.svg" style="width:80.0%" alt="Methylamine lone pair arrow to H of H–A, H–A bond arrow to A; products methylammonium with N plus one and A minus" class="r-stretch quarto-figure-center"><p class="caption">Methylamine’s lone pair takes a proton from a generic acid H–A</p><p>Same two arrows. N goes from <strong>3 bonds + 1 lone pair</strong> (neutral) to <strong>4 bonds, no lone pair</strong> (+1). A keeps the bonding pair and becomes A⁻.</p>
+<p><strong>Total charge is conserved</strong>: 0 on the left, (+1) + (−1) = 0 on the right.</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>This is the nitrogen version of the previous slide. Use H–A as a placeholder for any acid, which is how the exercises write it. Ask: where did nitrogen’s lone pair go? It became the new N–H bond, so N now has four bonds and, by Day 1’s table, a +1 charge. Make students check total charge every time: if both products come out neutral, they’ve lost a charge somewhere. Amines as bases come back in a big way in Week 4 (amines and aromatics), and the ammonium ion is how most amine drugs are sold, as hydrochloride salts.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -186,26 +224,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="protonate-a-nitrogen-using-two-arrows" class="slide level2">
-<h2>Protonate a nitrogen using two arrows</h2>
+<section id="conjugate-pairs-differ-by-one-h" class="slide level2">
+<h2>Conjugate pairs differ by one H⁺</h2>
 
-<img data-src="figures/13-pace.svg" style="width:82.0%" alt="Protonate a nitrogen using two arrows" class="r-stretch quarto-figure-center"><p class="caption">Protonate a nitrogen using two arrows</p><p>N pair goes to H; H–A bond pair goes to A. The products are ammonium and A⁻.</p>
-</section>
-<section id="follow-both-pairs-in-the-oxygen-example" class="slide level2">
-<h2>Follow both pairs in the oxygen example</h2>
-
-<img data-src="figures/01-proton-transfer.svg" style="width:82.0%" alt="Follow both pairs in the oxygen example" class="r-stretch quarto-figure-center"><p class="caption">Follow both pairs in the oxygen example</p><p>The base makes a new bond to H while the acid oxygen keeps its original bonding pair.</p>
-</section>
-<section id="let-water-play-either-role" class="slide level2">
-<h2>Let water play either role</h2>
-
-<img data-src="figures/14-pace.svg" style="width:82.0%" alt="Let water play either role" class="r-stretch quarto-figure-center"><p class="caption">Let water play either role</p><p>Water is the conjugate base of hydronium and the acid corresponding to hydroxide.</p>
-</section>
-<section id="predict-can-the-arrow-start-at-h" class="slide level2">
-<h2>Predict: can the arrow start at H⁺?</h2>
-<p>An electron-pair-flow arrow shows where an electron pair comes from. Does an isolated proton supply that pair?</p>
+<img data-src="figures/sk-conjugate-pairs.svg" style="width:78.0%" alt="Ethanoic acid to ethanoate, ethanol to ethoxide, methylammonium to methylamine and ammonium to ammonia, each by loss of H plus" class="r-stretch quarto-figure-center"><p class="caption">Four acids above their conjugate bases</p><p>Removing H⁺ takes away <strong>one H</strong> and lowers the charge by <strong>one</strong>. The bonding pair stays behind as a new lone pair.</p>
+<div class="try">
+<p><strong>Try it:</strong> what is the conjugate base of CH₃NH₃⁺?</p>
+<div class="fragment">
+<p><strong>CH₃NH₂ (methylamine), neutral.</strong> N goes from four bonds to three bonds plus a lone pair, and +1 drops to 0.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>One rule covers neutral and charged acids alike. Ethanoic acid (neutral) gives ethanoate (−1); methylammonium (+1) gives methylamine (0). A conjugate base is not necessarily negative, which surprises people. Point out the shaded atom in each pair: that’s where the lone pair appears. Common slip: students remove a hydrogen atom (H·) rather than a proton (H⁺) and end up with a neutral radical. The charge bookkeeping catches it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -218,11 +248,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-begin-at-the-electron-source" class="slide level2">
-<h2>Resolve: begin at the electron source</h2>
-<p>Begin at a lone pair or bond. H⁺ can be the destination but is not a source of an electron pair.</p>
+<section id="water-can-be-either" class="slide level2">
+<h2>Water can be either</h2>
+
+<img data-src="figures/sk-water-both.svg" style="width:82.0%" alt="HCl plus water gives hydronium plus chloride; ammonia plus water gives ammonium plus hydroxide" class="r-stretch quarto-figure-center"><p class="caption">Water accepting a proton from HCl and donating one to ammonia</p><p>With a stronger acid, water is the <strong>base</strong> (→ H₃O⁺). With a stronger base, water is the <strong>acid</strong> (→ OH⁻). Being an acid or base is a <em>role</em>, not a fixed label.</p>
+<div class="try">
+<p><strong>Try it:</strong> a student draws neutral HA + neutral B → A⁻ + BH. What’s wrong?</p>
+<div class="fragment">
+<p><strong>BH must be BH⁺.</strong> Charge is 0 on the left, so A⁻ needs a +1 partner. A neutral BH would make a unit of charge disappear.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Water’s double role is why aqueous acid–base chemistry works at all: hydronium and hydroxide are the conjugates of water. Write the two pairs on the board: H₃O⁺/H₂O and H₂O/OH⁻. Water appears in both, once as the base and once as the acid. The try-it is a charge check written in generic letters; this is exactly the kind of error that shows up in exam mechanisms. Mention that HCl transfers its proton to water essentially completely, while ammonia in water is only slightly protonated, which is our cue for needing numbers: pKa.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -235,12 +272,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="compare-each-acid-with-its-conjugate-base" class="slide level2">
-<h2>Compare each acid with its conjugate base</h2>
+<section id="pka-a-logarithmic-scale-of-acid-strength" class="slide level2">
+<h2>pKa: a logarithmic scale of acid strength</h2>
 
-<img data-src="figures/02-conjugate-pairs.svg" style="width:82.0%" alt="Compare each acid with its conjugate base" class="r-stretch quarto-figure-center"><p class="caption">Compare each acid with its conjugate base</p><p>What single particle differs, and by how much does formal charge change?</p>
+<img data-src="figures/sk-pka-scale.svg" style="width:80.0%" alt="A pKa axis from 0 to 16 with chloroethanoic acid 2.9, ethanoic acid 4.8, ammonium 9.2, methylammonium 10.6 and ethanol 16" class="r-stretch quarto-figure-center"><p class="caption">pKa scale with five acids drawn at their positions</p><p><span class="math display">\text{p}K_\text{a} = -\log_{10} K_\text{a}</span></p>
+<p><strong>Lower pKa = stronger acid.</strong> One pKa unit is a factor of <strong>10</strong> in Ka, so ethanoic acid (4.8) is about 10¹¹ times more acidic than ethanol (16).</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Make sure everyone reads the scale in the right direction: small pKa, strong acid. Because it’s a log scale, the gap between 4.8 and 16 is not “a bit more than three times”; it’s eleven powers of ten. All the values here are approximate aqueous values and that’s the only kind we’ll compare; pKa values in DMSO or the gas phase are different and not interchangeable. Note that charged acids (ammonium, methylammonium) sit on the same scale as neutral ones. The pKa of methylammonium (10.6) is how we describe the basicity of methylamine. Ask: why is ethanoic acid so much more acidic than ethanol, when both lose H from an O–H? That’s the next slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -253,21 +291,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-one-rule-for-neutral-and-charged-acids" class="slide level2">
-<h2>Use one rule for neutral and charged acids</h2>
+<section id="acid-strength-lives-in-the-conjugate-base" class="slide level2">
+<h2>Acid strength lives in the conjugate base</h2>
 
-<img data-src="figures/11-pace.svg" style="width:82.0%" alt="Use one rule for neutral and charged acids" class="r-stretch quarto-figure-center"><p class="caption">Use one rule for neutral and charged acids</p><p>Ethanoic acid gives ethanoate; ammonium gives ammonia. Each loses H⁺.</p>
-</section>
-<section id="apply-the-rule-to-an-alcohol" class="slide level2">
-<h2>Apply the rule to an alcohol</h2>
-
-<img data-src="figures/12-pace.svg" style="width:82.0%" alt="Apply the rule to an alcohol" class="r-stretch quarto-figure-center"><p class="caption">Apply the rule to an alcohol</p><p>Ethanol gives ethoxide on deprotonation. Its oxygen changes from two bonds to one and gains a lone pair.</p>
-</section>
-<section id="predict-remove-h-from-ch₃nh₃" class="slide level2">
-<h2>Predict: remove H⁺ from CH₃NH₃⁺</h2>
-<p>Write the neutral/charged formula and count N bonds before naming the result.</p>
+<img data-src="figures/sk-ethoxide-ethanoate.svg" style="width:80.0%" alt="Ethoxide with its single charged oxygen shaded; two equivalent drawings of ethanoate with both oxygens shaded" class="r-stretch quarto-figure-center"><p class="caption">Ethoxide with charge on one oxygen, ethanoate with charge shared by two</p><p>Both acids lose H⁺ from O–H. The difference is what’s left: in ethoxide the charge sits on <strong>one</strong> O, in ethanoate it’s <strong>spread over two equivalent O</strong>. A more stable conjugate base means a stronger acid.</p>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>This is the central idea of the lecture: to compare two acids, compare their conjugate bases. A base that holds its negative charge comfortably has little drive to take the proton back, so the acid gives it up more readily. Ethanoate spreads its charge over two oxygens, ethoxide can’t. Students often try to explain acidity by looking at the acid itself (“the O–H bond is weaker”), which is a dead end here. Train them to draw the conjugate base first and ask where the charge goes. The two drawings of ethanoate need explaining, and that’s the next slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -280,11 +309,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-methylamine-is-neutral" class="slide level2">
-<h2>Resolve: methylamine is neutral</h2>
-<p>CH₃NH₂ has three N bonds and one lone pair. The initial +1 charge becomes zero.</p>
+<section id="resonance-one-ion-two-drawings" class="slide level2">
+<h2>Resonance: one ion, two drawings</h2>
+
+<img data-src="figures/sk-resonance.svg" style="width:74.0%" alt="Ethanoate contributor with a lone pair arrow forming C=O and the C=O pi bond moving onto the other oxygen, a double-headed arrow, and the second contributor" class="r-stretch quarto-figure-center"><p class="caption">Two resonance contributors of ethanoate related by curved arrows</p><p>The <strong>↔︎</strong> means “two drawings of the same thing”, not an equilibrium (⇌). The real ion is a blend: each O carries about −½ and the two C–O bonds are identical.</p>
+<div class="try">
+<p><strong>Try it:</strong> a classmate proposes a “second contributor” in which the H moves from one oxygen to the other. Is that resonance?</p>
+<div class="fragment">
+<p><strong>No.</strong> Moving an H moves a nucleus, which makes a different species (a proton transfer). Resonance contributors differ only in where the electrons are drawn.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Two classic misconceptions here. First, that ethanoate flips back and forth between the two forms. It doesn’t: there’s one ion, and neither drawing is the whole truth, a bit like describing a rhinoceros as part dragon, part unicorn. The evidence is that both C–O bonds have the same length, about 126 pm, between a normal C=O and C–O. Second, the equilibrium arrow and the resonance arrow get mixed up. Equilibrium (⇌) connects different species; resonance (↔︎) connects drawings of one species. Resonance comes back constantly: in amides in Week 4 and in aromatic rings in Week 4 too.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -297,12 +333,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="explain-why-the-two-co-bonds-are-equivalent" class="slide level2">
-<h2>Explain why the two C–O bonds are equivalent</h2>
+<section id="induction-electronegative-neighbours-help" class="slide level2">
+<h2>Induction: electronegative neighbours help</h2>
 
-<img data-src="figures/03-resonance.svg" style="width:82.0%" alt="Explain why the two C–O bonds are equivalent" class="r-stretch quarto-figure-center"><p class="caption">Explain why the two C–O bonds are equivalent</p><p>Which electrons differ between the two ethanoate contributors, and which nuclei stay fixed?</p>
+<img data-src="figures/sk-induction.svg" style="width:80.0%" alt="Ethanoic acid pKa 4.8, chloroethanoic acid pKa 2.9 and trichloroethanoic acid pKa 0.7 with chlorine atoms shaded" class="r-stretch quarto-figure-center"><p class="caption">Ethanoic, chloroethanoic and trichloroethanoic acid with their pKa values</p><p>Cl pulls electron density through the <strong>σ bonds</strong>, which stabilises the carboxylate. More Cl, stronger acid. The effect fades quickly with distance.</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Induction is a second, separate way to stabilise a conjugate base. Keep it distinct from resonance: chlorine does not get a share of the negative charge in any contributor; it just pulls on the bonding electrons along the chain. That’s why the effect drops off with distance: 3-chloropropanoic acid (pKa about 4.0) is only slightly stronger than propanoic acid (4.9), while 2-chloropropanoic is about 2.8. Quick check to ask aloud: which is the stronger acid, ClCH₂COOH or CH₃COOH, and why? Insist on a reason, not just the number. Then insist on fair comparisons: same functional group, same solvent, one change at a time. Comparing a carboxylic acid with an alcohol and calling it “induction” mixes up two effects.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -315,21 +351,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="distinguish-contributor-arrows-from-equilibrium-arrows" class="slide level2">
-<h2>Distinguish contributor arrows from equilibrium arrows</h2>
+<section id="which-way-does-an-acidbase-equilibrium-lie" class="slide level2">
+<h2>Which way does an acid–base equilibrium lie?</h2>
 
-<img data-src="figures/15-pace.svg" style="width:82.0%" alt="Distinguish contributor arrows from equilibrium arrows" class="r-stretch quarto-figure-center"><p class="caption">Distinguish contributor arrows from equilibrium arrows</p><p>Resonance describes one delocalised species. Proton transfer changes which molecular species are present.</p>
-</section>
-<section id="compare-ethoxide-with-ethanoate" class="slide level2">
-<h2>Compare ethoxide with ethanoate</h2>
-
-<img data-src="figures/16-pace.svg" style="width:82.0%" alt="Compare ethoxide with ethanoate" class="r-stretch quarto-figure-center"><p class="caption">Compare ethoxide with ethanoate</p><p>Equivalent delocalisation over two oxygens stabilises ethanoate relative to a localised alkoxide description.</p>
-</section>
-<section id="predict-can-a-hydrogen-shift-be-resonance" class="slide level2">
-<h2>Predict: can a hydrogen shift be resonance?</h2>
-<p>If a proposed second drawing moves H from one atom to another, is only electron placement changing?</p>
+<img data-src="figures/sk-equilibrium.svg" style="width:82.0%" alt="Ethanoic acid pKa 4.8 plus methylamine in equilibrium with ethanoate plus methylammonium pKa 10.6; K about 6.3 times ten to the fifth" class="r-stretch quarto-figure-center"><p class="caption">Ethanoic acid and methylamine reacting with pKa values under each acid</p><p>Find <strong>the acid on each side</strong> and compare their pKa values. Equilibrium favours the side with the <strong>weaker acid</strong> (higher pKa):</p>
+<p><span class="math display">K \approx 10^{\,\text{p}K_\text{a}(\text{product acid}) - \text{p}K_\text{a}(\text{reactant acid})}</span></p>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Walk through it: on the left the acid is ethanoic acid, 4.8. On the right the acid is methylammonium, 10.6. The proton prefers to sit on the weaker acid’s base, i.e.&nbsp;methylamine holds it more tightly than ethanoate does. Subtract in the right order: product acid minus reactant acid gives +5.8, so K is about 6.3 × 10⁵ and the products win heavily. The most common mistake is comparing the wrong two numbers, for example the pKa of ethanoic acid with the pKa of methylamine’s N–H (which is about 40 and irrelevant here). Always compare HA on the left with BH⁺ on the right.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -342,11 +370,43 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-moving-a-nucleus-changes-the-species" class="slide level2">
-<h2>Resolve: moving a nucleus changes the species</h2>
-<p>A proton shift is a chemical transformation. Resonance contributors preserve nuclear positions and connectivity.</p>
+<section id="reversing-the-equation-and-what-k-doesnt-tell-you" class="slide level2">
+<h2>Reversing the equation, and what K doesn’t tell you</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>direction</th>
+<th>equation</th>
+<th>K</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>forward</td>
+<td>CH₃COOH + CH₃NH₂ ⇌ CH₃COO⁻ + CH₃NH₃⁺</td>
+<td>10<sup>5.8</sup> ≈ 6.3 × 10⁵</td>
+</tr>
+<tr class="even">
+<td>reverse</td>
+<td>CH₃COO⁻ + CH₃NH₃⁺ ⇌ CH₃COOH + CH₃NH₂</td>
+<td>10<sup>−5.8</sup> ≈ 1.6 × 10⁻⁶</td>
+</tr>
+</tbody>
+</table>
+<p>The reverse constant is the <strong>reciprocal</strong>. And K says <strong>where</strong> the equilibrium lies, never <strong>how fast</strong> it gets there.</p>
+<div class="try">
+<p><strong>Try it:</strong> a proton transfer has K = 10⁶. How many seconds does it take to reach equilibrium?</p>
+<div class="fragment">
+<p><strong>K can’t tell you.</strong> It compares the two states; speed depends on the pathway and its barrier. (Proton transfers between O and N happen to be very fast, but that’s extra information.)</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Two short points that show up in the exercises. The reverse reaction uses 1/K, not the same big number; writing the same K for both directions would mean both sides are favoured, which is impossible. And K is a thermodynamic statement. Students conflate “favourable” with “fast” all the time, and it will matter a lot in Week 3 when we compare substitution and elimination, where a reaction can be favourable and still slow. Note for the curious: favourable O–H and N–H proton transfers really are near diffusion-limited, which is why we can treat acid–base steps as instant in mechanisms.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -359,12 +419,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="read-the-acid-scale-in-the-right-direction" class="slide level2">
-<h2>Read the acid scale in the right direction</h2>
-
-<img data-src="figures/04-pka-scale.svg" style="width:82.0%" alt="Read the acid scale in the right direction" class="r-stretch quarto-figure-center"><p class="caption">Read the acid scale in the right direction</p><p>Lower pKa corresponds to greater acid dissociation under comparable conditions.</p>
+<section id="from-pka-and-ph-to-a-ratio" class="slide level2">
+<h2>From pKa and pH to a ratio</h2>
+<p><span class="math display">r = \frac{[\text{A}^-]}{[\text{HA}]} = 10^{\,\text{pH} - \text{p}K_\text{a}} \qquad \text{fraction A}^- = \frac{r}{1 + r}</span></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>pH − pKa</th>
+<th>−2</th>
+<th>−1</th>
+<th>0</th>
+<th>+1</th>
+<th>+2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ratio A⁻ : HA</td>
+<td>0.01</td>
+<td>0.1</td>
+<td>1</td>
+<td>10</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>fraction A⁻</td>
+<td>0.99 %</td>
+<td>9.1 %</td>
+<td>50 %</td>
+<td>90.9 %</td>
+<td>99.0 %</td>
+</tr>
+</tbody>
+</table>
+<div class="try">
+<p><strong>Try it:</strong> pKa 4.8, pH 3.8. Is the acid 10 % ionised?</p>
+<div class="fragment">
+<p><strong>No, about 9.1 %.</strong> r = 0.1, and the fraction is 0.1/(1 + 0.1) = 0.091. A ratio and a fraction have different denominators.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>This is the Henderson–Hasselbalch relation rearranged, for a single acid in dilute water. Emphasise the two different quantities. The ratio compares A⁻ to HA and can be any positive number. The fraction compares A⁻ to the total and must lie between 0 and 1. If an R calculation gives a “fraction” of 10, the student has calculated the ratio. Learn the middle three columns by heart: one unit below pKa, about 9 %; at pKa, 50 %; one unit above, about 91 %. Two units either side, you’re at 99 % one way or the other, but never exactly 100 %.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -377,26 +472,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="choose-the-two-relevant-acid-pka-values" class="slide level2">
-<h2>Choose the two relevant acid pKa values</h2>
+<section id="a-fraction-describes-a-population" class="slide level2">
+<h2>A fraction describes a population</h2>
 
-<img data-src="figures/17-pace.svg" style="width:82.0%" alt="Choose the two relevant acid pKa values" class="r-stretch quarto-figure-center"><p class="caption">Choose the two relevant acid pKa values</p><p>For HA + B ⇌ A⁻ + BH⁺, compare HA with BH⁺, rather than comparing unrelated acidic sites.</p>
-</section>
-<section id="a-logarithmic-change-represents-a-ratio" class="slide level2">
-<h2>A logarithmic change represents a ratio</h2>
-
-<img data-src="figures/04-pka-scale.svg" style="width:82.0%" alt="A logarithmic change represents a ratio" class="r-stretch quarto-figure-center"><p class="caption">A logarithmic change represents a ratio</p><p>A decrease of one pKa unit corresponds to a tenfold increase in Ka, with compatible conventions.</p>
-</section>
-<section id="estimate-the-product-favoured-equilibrium" class="slide level2">
-<h2>Estimate the product-favoured equilibrium</h2>
-
-<img data-src="figures/18-pace.svg" style="width:82.0%" alt="Estimate the product-favoured equilibrium" class="r-stretch quarto-figure-center"><p class="caption">Estimate the product-favoured equilibrium</p><p>10^(10.6 − 4.8) is about 6.3 × 10⁵. The product acid is much weaker.</p>
-</section>
-<section id="predict-use-the-sign-of-the-difference" class="slide level2">
-<h2>Predict: use the sign of the difference</h2>
-<p>If the product acid instead has lower pKa than HA, is the forward equilibrium strongly favoured?</p>
+<img data-src="figures/sk-population.svg" style="width:82.0%" alt="Three boxes of particles: one A minus and ten HA, five of each, and ten A minus with one HA, with their ratios and fractions" class="r-stretch quarto-figure-center"><p class="caption">Illustrative particles of HA and A⁻ at three pH values</p><p>At pH = pKa, half the molecules are HA and half are A⁻. <strong>No molecule is “half deprotonated”</strong>: each one is either HA or A⁻ at any instant.</p>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>The pictures are illustrative, not ten real molecules, but they make the ratio-to-fraction step concrete. In the left box, one A⁻ to ten HA is a ratio of 0.1, and one out of eleven is 9.1 %. Students who say “at the midpoint each molecule has lost half a proton” are mixing up a population average with a single molecule. Protons hop on and off constantly, so a given molecule spends part of its time in each form, but at any moment it is one or the other.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -409,11 +490,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-the-exponent-becomes-negative" class="slide level2">
-<h2>Resolve: the exponent becomes negative</h2>
-<p>K becomes less than one. Equilibrium favours the side containing the weaker acid/base pair, all else comparable.</p>
+<section id="the-ionisation-curve" class="slide level2">
+<h2>The ionisation curve</h2>
+
+<img data-src="figures/sk-curve.svg" style="width:74.0%" alt="Two S-shaped curves rising from 0 to 1, crossing 0.5 at pH 4.8 and at pH 6.0; at pH 4.8 the pKa 6.0 acid is 5.9 percent ionised" class="r-stretch quarto-figure-center"><p class="caption">Fraction A⁻ against pH for acids of pKa 4.8 and 6.0</p><p>The fraction A⁻ rises with pH and crosses <strong>0.5 exactly at pH = pKa</strong>. A higher pKa shifts the whole curve to the right.</p>
+<div class="try">
+<p><strong>Try it:</strong> at pH 4.8, how much of each acid is ionised?</p>
+<div class="fragment">
+<p><strong>pKa 4.8: 50 %. pKa 6.0: about 5.9 %</strong>, from 1/(1 + 10<sup>1.2</sup>). At the same pH, the lower-pKa acid is more ionised.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>This is the plot students build in today’s R task: <code>1 / (1 + 10^(4.8 - pH))</code> over a pH grid. If their curve goes <em>down</em> with pH, the exponent sign is flipped and they’ve plotted the HA fraction instead. The curve is the same shape for every monoprotic acid; only the midpoint moves. Make sure nobody calls this a titration curve. Here pH is the input we choose; in a titration, pH is the result of adding a measured volume of base, which needs a different model.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -426,41 +514,35 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="reverse-the-constant-when-reversing-the-equation" class="slide level2">
-<h2>Reverse the constant when reversing the equation</h2>
+<section id="back-to-aspirin" class="slide level2">
+<h2>Back to aspirin</h2>
 
-<img data-src="figures/19-pace.svg" style="width:82.0%" alt="Reverse the constant when reversing the equation" class="r-stretch quarto-figure-center"><p class="caption">Reverse the constant when reversing the equation</p><p>The reverse reaction uses the reciprocal equilibrium constant, not the same large number.</p>
-</section>
-<section id="do-not-infer-reaction-speed-from-k" class="slide level2">
-<h2>Do not infer reaction speed from K</h2>
-
-<img data-src="figures/05-equilibrium.svg" style="width:82.0%" alt="Do not infer reaction speed from K" class="r-stretch quarto-figure-center"><p class="caption">Do not infer reaction speed from K</p><p>An equilibrium ratio compares states. It does not specify how fast the reaction reaches equilibrium.</p>
-</section>
-<section id="compare-a-controlled-substituent-change" class="slide level2">
-<h2>Compare a controlled substituent change</h2>
-
-<img data-src="figures/20-pace.svg" style="width:82.0%" alt="Compare a controlled substituent change" class="r-stretch quarto-figure-center"><p class="caption">Compare a controlled substituent change</p><p>A nearby electron-withdrawing Cl group lowers this related carboxylic-acid pKa by stabilising its conjugate base.</p>
-</section>
-<section id="plot-a-defined-acid-rather-than-an-unspecified-curve" class="slide level2">
-<h2>Plot a defined acid rather than an unspecified curve</h2>
-
-<img data-src="figures/21-pace.svg" style="width:82.0%" alt="Plot a defined acid rather than an unspecified curve" class="r-stretch quarto-figure-center"><p class="caption">Plot a defined acid rather than an unspecified curve</p><p>At supplied pKa 4.8, the predicted A⁻ fraction rises continuously as aqueous pH increases.</p>
-</section>
-<section id="keep-induction-distinct-from-resonance" class="slide level2">
-<h2>Keep induction distinct from resonance</h2>
-
-<img data-src="figures/06-induction.svg" style="width:82.0%" alt="Keep induction distinct from resonance" class="r-stretch quarto-figure-center"><p class="caption">Keep induction distinct from resonance</p><p>Inductive effects act through sigma bonds; ethanoate resonance redistributes electrons within its conjugated group.</p>
-</section>
-<section id="change-the-acid-while-keeping-the-ph-range" class="slide level2">
-<h2>Change the acid while keeping the pH range</h2>
-
-<img data-src="figures/22-pace.svg" style="width:82.0%" alt="Change the acid while keeping the pH range" class="r-stretch quarto-figure-center"><p class="caption">Change the acid while keeping the pH range</p><p>Raising pKa to 6.0 shifts the same-shaped ideal speciation curve toward higher pH.</p>
-</section>
-<section id="predict-at-ph-4.8-which-acid-is-more-ionised" class="slide level2">
-<h2>Predict: at pH 4.8, which acid is more ionised?</h2>
-<p>Compare supplied pKa values 4.8 and 6.0 before calculating.</p>
+<img data-src="figures/sk-aspirin.svg" style="width:72.0%" alt="Aspirin with COOH shaded at stomach pH about 2, mostly neutral; aspirin with COO minus shaded at blood pH 7.4, almost entirely ionised" class="r-stretch quarto-figure-center"><p class="caption">Aspirin as the neutral acid in the stomach and as the carboxylate in blood</p><table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th>pH − pKa</th>
+<th>ratio A⁻ : HA</th>
+<th>fraction A⁻</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>stomach, pH 2</td>
+<td>2 − 3.5 = −1.5</td>
+<td>0.032</td>
+<td>≈ 3 %</td>
+</tr>
+<tr class="even">
+<td>blood, pH 7.4</td>
+<td>7.4 − 3.5 = +3.9</td>
+<td>≈ 8000</td>
+<td>&gt; 99.9 %</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Now we can do the opening calculation properly. Aspirin’s carboxylic acid has pKa about 3.5. In the stomach, pH minus pKa is −1.5, so the ratio is 10^−1.5 ≈ 0.032 and only about 3 % is ionised. In blood, the ratio is 10^3.9 ≈ 8000, so essentially all of it is the carboxylate. The neutral form crosses membranes more easily, which is part of why aspirin can irritate the stomach lining. Honest caveat: most aspirin is actually absorbed in the small intestine, despite being ionised there, because the surface area is enormous. pKa reasoning tells you which form dominates, not the whole pharmacology.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -473,11 +555,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-the-lower-pka-acid-is-more-ionised" class="slide level2">
-<h2>Resolve: the lower-pKa acid is more ionised</h2>
-<p>The pKa 4.8 acid is 50% A⁻. The pKa 6.0 acid is only about 5.9% A⁻ at the same pH.</p>
+<section id="two-groups-two-pka-values-glycine" class="slide level2">
+<h2>Two groups, two pKa values: glycine</h2>
+
+<img data-src="figures/sk-glycine.svg" style="width:78.0%" alt="Neutral glycine with NH2 and COOH converting at pH 7.4 to the zwitterion with NH3 plus and COO minus" class="r-stretch quarto-figure-center"><p class="caption">Glycine drawn neutral and as the zwitterion that exists at pH 7.4</p><p>Treat each group separately. COOH (pKa 2.3) at pH 7.4 is far above its pKa, so it’s <strong>COO⁻</strong>. NH₃⁺ (pKa 9.6) is below its pKa, so it <strong>stays NH₃⁺</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> at pH 7.4, about what fraction of glycine’s amino groups are NH₂ rather than NH₃⁺?</p>
+<div class="fragment">
+<p><strong>About 0.6 %.</strong> pH − pKa = 7.4 − 9.6 = −2.2, so the ratio NH₂ : NH₃⁺ is 10<sup>−2.2</sup> ≈ 0.006.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>This links back to Day 1’s zwitterion try-it: we can now explain <em>why</em> amino acids exist as H₃N⁺–CH–COO⁻ in cells. For each ionisable group, compare pH with that group’s pKa. The neutral “textbook” form with NH₂ and COOH is almost absent in water at any pH, which surprises students. Remind them that the pKa of the ammonium group (9.6) describes the conjugate acid, so the amine is the base here. Proteins carry these charged groups on their side chains as well, which is why protein charge depends on pH.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -490,12 +579,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="read-a-curve-as-a-population-statement" class="slide level2">
-<h2>Read a curve as a population statement</h2>
+<section id="where-this-model-stops" class="slide level2">
+<h2>Where this model stops</h2>
 
-<img data-src="figures/07-ionisation-curve.svg" style="width:82.0%" alt="Read a curve as a population statement" class="r-stretch quarto-figure-center"><p class="caption">Read a curve as a population statement</p><p>The ordinate is [A⁻]/([HA]+[A⁻]), not the number of protons on an individual molecule.</p>
+<img data-src="figures/sk-extraction.svg" style="width:78.0%" alt="Organic layer above water; HA moves between the layers, while HA and A minus interconvert in the water; labels say pKa and pH describe the aqueous step, partition coefficient and phase volumes the transfer" class="r-stretch quarto-figure-center"><p class="caption">Two-layer extraction showing aqueous ionisation and partition between layers</p><p>Our equation describes <strong>one acid in dilute water at a chosen pH</strong>. It doesn’t give the pH during a titration, and it doesn’t tell you how much ends up in an organic layer.</p>
+<div class="try">
+<p><strong>Try it:</strong> at high pH an acid is mostly A⁻. What else would you need to predict how much you recover from an organic extract?</p>
+<div class="fragment">
+<p><strong>Partition coefficients and the phase volumes</strong>, plus the starting amount and any losses. Aqueous ionisation is only one piece.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>This is the lab connection. In a work-up you shake an organic solvent with aqueous acid or base, and the charged form stays in the water. So raising the pH pulls a carboxylic acid out of the organic layer, and lowering it pushes it back. That’s the principle, but the numbers need more: how strongly the neutral HA prefers the organic phase (the partition coefficient), how much of each solvent you use, and how much you started with. Being clear about what a model can and can’t predict is part of doing chemistry with R: the curve you plot today is a model consequence of an assumed pKa, not measured data.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -508,26 +603,56 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="start-below-the-midpoint" class="slide level2">
-<h2>Start below the midpoint</h2>
-
-<img data-src="figures/23-pace.svg" style="width:82.0%" alt="Start below the midpoint" class="r-stretch quarto-figure-center"><p class="caption">Start below the midpoint</p><p>At pH 3.8 and pKa 4.8, A⁻/HA = 0.1. Convert that ratio into a fraction.</p>
-</section>
-<section id="check-the-two-limiting-directions" class="slide level2">
-<h2>Check the two limiting directions</h2>
-
-<img data-src="figures/07-ionisation-curve.svg" style="width:82.0%" alt="Check the two limiting directions" class="r-stretch quarto-figure-center"><p class="caption">Check the two limiting directions</p><p>Low pH favours HA; high pH favours A⁻ in this monoprotic dilute aqueous model.</p>
-</section>
-<section id="evaluate-the-midpoint-exactly" class="slide level2">
-<h2>Evaluate the midpoint exactly</h2>
-
-<img data-src="figures/24-pace.svg" style="width:82.0%" alt="Evaluate the midpoint exactly" class="r-stretch quarto-figure-center"><p class="caption">Evaluate the midpoint exactly</p><p>At pH = pKa the ratio is one, so fraction A⁻ = 1/(1+1) = 0.5.</p>
-</section>
-<section id="predict-ratio-0.1-means-10-ionised" class="slide level2">
-<h2>Predict: ratio 0.1 means 10% ionised?</h2>
-<p>Convert A⁻/HA to A⁻/(A⁻+HA). Are the denominators identical?</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>curved arrow starting at H⁺</td>
+<td>start at a <strong>lone pair or a bond</strong></td>
+</tr>
+<tr class="even">
+<td>conjugate base with the same charge as the acid</td>
+<td>removing H⁺ lowers the charge <strong>by one</strong></td>
+</tr>
+<tr class="odd">
+<td>“lower pKa = weaker acid”</td>
+<td>lower pKa = <strong>stronger</strong> acid</td>
+</tr>
+<tr class="even">
+<td>comparing pKa values of unrelated sites</td>
+<td>compare <strong>HA on the left</strong> with <strong>BH⁺ on the right</strong></td>
+</tr>
+<tr class="odd">
+<td>resonance forms “switching back and forth”</td>
+<td>one ion; <strong>↔︎</strong> is not <strong>⇌</strong></td>
+</tr>
+<tr class="even">
+<td>ratio 0.1 read as 10 % ionised</td>
+<td>fraction = r/(1 + r) = <strong>9.1 %</strong></td>
+</tr>
+<tr class="odd">
+<td>“half the molecule is deprotonated”</td>
+<td>half the <strong>molecules</strong> are A⁻</td>
+</tr>
+<tr class="even">
+<td>a large K means a fast reaction</td>
+<td>K gives <strong>position</strong>, not rate</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Read each mistake aloud and ask the room why it’s wrong before revealing the fix. Every row maps to an exercise: arrows to 1 and 3, charges to 4 and 18, pKa direction and comparison to 5, 7 and 9, resonance to 6, ratio and fraction to 10 to 14, populations to 11, and K versus rate to 16.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -540,241 +665,53 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-about-9.1-not-exactly-10" class="slide level2">
-<h2>Resolve: about 9.1%, not exactly 10%</h2>
-<p>Use 0.1/(1+0.1) = 0.0909. Ratio and fraction are different quantities.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>proton transfer</td>
+<td>two arrows: lone pair → H, bond pair → atom</td>
+</tr>
+<tr class="even">
+<td>conjugate pair</td>
+<td>differ by one H⁺; charge changes by one</td>
+</tr>
+<tr class="odd">
+<td>pKa</td>
+<td>lower = stronger; 1 unit = factor of 10</td>
+</tr>
+<tr class="even">
+<td>acid strength</td>
+<td>judged by conjugate-base stability</td>
+</tr>
+<tr class="odd">
+<td>stabilisation</td>
+<td>resonance (↔︎) and induction (σ bonds)</td>
+</tr>
+<tr class="even">
+<td>equilibrium</td>
+<td>weaker acid side wins; K ≈ 10<sup>ΔpKa</sup></td>
+</tr>
+<tr class="odd">
+<td>ratio and fraction</td>
+<td>r = 10<sup>pH&nbsp;−&nbsp;pKa</sup>, fraction = r/(1 + r)</td>
+</tr>
+<tr class="even">
+<td>midpoint</td>
+<td>pH = pKa gives 50 % A⁻</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> conformations, how molecules twist about single bonds (Day 6). <strong>Practice:</strong> <a href="../acids-bases/exercise.html">exercises</a> · <a href="../acids-bases/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="interpret-5050-without-half-molecules" class="slide level2">
-<h2>Interpret 50/50 without half-molecules</h2>
-
-<img data-src="figures/08-half-ionised.svg" style="width:82.0%" alt="Interpret 50/50 without half-molecules" class="r-stretch quarto-figure-center"><p class="caption">Interpret 50/50 without half-molecules</p><p>At the midpoint, equal concentrations of the two molecular species coexist.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-a-low-ionisation-particle-sketch" class="slide level2">
-<h2>Read a low-ionisation particle sketch</h2>
-
-<img data-src="figures/27-pace.svg" style="width:82.0%" alt="Read a low-ionisation particle sketch" class="r-stretch quarto-figure-center"><p class="caption">Read a low-ionisation particle sketch</p><p>One A⁻ among ten illustrative particles corresponds to about 10%, not an atom carrying one-tenth of a charge.</p>
-</section>
-<section id="read-an-equal-species-sketch" class="slide level2">
-<h2>Read an equal-species sketch</h2>
-
-<img data-src="figures/28-pace.svg" style="width:82.0%" alt="Read an equal-species sketch" class="r-stretch quarto-figure-center"><p class="caption">Read an equal-species sketch</p><p>Five HA and five A⁻ represent equal populations. The sketch is illustrative, not a measurement of ten actual molecules.</p>
-</section>
-<section id="predict-are-all-molecules-halfway-deprotonated" class="slide level2">
-<h2>Predict: are all molecules halfway deprotonated?</h2>
-<p>Describe what a 50% fraction means in terms of definite molecular species.</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-two-types-coexist" class="slide level2">
-<h2>Resolve: two types coexist</h2>
-<p>A particular species is HA or A⁻. The fraction describes how much of the population belongs to each form.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="convert-the-tenfold-ratio-explicitly" class="slide level2">
-<h2>Convert the tenfold ratio explicitly</h2>
-
-<img data-src="figures/09-ratios.svg" style="width:82.0%" alt="Convert the tenfold ratio explicitly" class="r-stretch quarto-figure-center"><p class="caption">Convert the tenfold ratio explicitly</p><p>At pKa + 1, A⁻/HA = 10. The fraction is 10/11.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-the-near-upper-part-of-the-curve" class="slide level2">
-<h2>Read the near-upper part of the curve</h2>
-
-<img data-src="figures/25-pace.svg" style="width:82.0%" alt="Read the near-upper part of the curve" class="r-stretch quarto-figure-center"><p class="caption">Read the near-upper part of the curve</p><p>At pH 5.8, pKa 4.8, the ionised fraction is about 0.9091.</p>
-</section>
-<section id="check-two-units-above-pka" class="slide level2">
-<h2>Check two units above pKa</h2>
-
-<img data-src="figures/26-pace.svg" style="width:82.0%" alt="Check two units above pKa" class="r-stretch quarto-figure-center"><p class="caption">Check two units above pKa</p><p>At pH 6.8 the ratio is 100 and the fraction is 100/101, about 0.9901.</p>
-</section>
-<section id="predict-may-a-valid-fraction-exceed-one" class="slide level2">
-<h2>Predict: may a valid fraction exceed one?</h2>
-<p>An R calculation returns 10. What quantity may the student have calculated instead?</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-likely-the-ratio-not-the-fraction" class="slide level2">
-<h2>Resolve: likely the ratio, not the fraction</h2>
-<p>A⁻/HA may exceed one. A⁻/(HA+A⁻) must stay between zero and one.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="separate-aqueous-chemistry-from-phase-transfer" class="slide level2">
-<h2>Separate aqueous chemistry from phase transfer</h2>
-
-<img data-src="figures/10-model-boundary.svg" style="width:82.0%" alt="Separate aqueous chemistry from phase transfer" class="r-stretch quarto-figure-center"><p class="caption">Separate aqueous chemistry from phase transfer</p><p>Which part of the diagram is described by the supplied acid–base equation?</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-a-mostly-ionised-population" class="slide level2">
-<h2>Read a mostly ionised population</h2>
-
-<img data-src="figures/29-pace.svg" style="width:82.0%" alt="Read a mostly ionised population" class="r-stretch quarto-figure-center"><p class="caption">Read a mostly ionised population</p><p>Nine A⁻ among ten illustrative species means predominantly the conjugate base, without implying complete ionisation.</p>
-</section>
-<section id="list-the-extra-extraction-inputs" class="slide level2">
-<h2>List the extra extraction inputs</h2>
-
-<img data-src="figures/10-model-boundary.svg" style="width:82.0%" alt="List the extra extraction inputs" class="r-stretch quarto-figure-center"><p class="caption">List the extra extraction inputs</p><p>Partition behaviour and the two phase volumes affect recovery beyond aqueous species ratios.</p>
-</section>
-<section id="do-not-mislabel-the-horizontal-axis" class="slide level2">
-<h2>Do not mislabel the horizontal axis</h2>
-
-<img data-src="figures/30-pace.svg" style="width:82.0%" alt="Do not mislabel the horizontal axis" class="r-stretch quarto-figure-center"><p class="caption">Do not mislabel the horizontal axis</p><p>This speciation plot takes pH as input. A titration curve instead needs a model connecting titrant addition to pH.</p>
-</section>
-<section id="predict-what-did-changing-pka-in-r-test" class="slide level2">
-<h2>Predict: what did changing pKa in R test?</h2>
-<p>Was it an experimental measurement, a proof of solvent recovery, or a sensitivity check of the supplied model?</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-a-model-comparison" class="slide level2">
-<h2>Resolve: a model comparison</h2>
-<p>The plot visualises consequences of an assumed pKa and dilute aqueous relationship. It is neither new measured data nor an extraction calculation.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="combine-the-tools-in-one-explanation" class="slide level2">
-<h2>Combine the tools in one explanation</h2>
-<p>Use CH₃COOH + CH₃NH₂ as the common example linking electron flow, conjugates, pKa and population.</p>
-<aside class="notes">
-<p>Take a 30-second sketch or explanation, then ask for one observation and the reason linking it to the conclusion. This is included in the 45-minute session.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="your-next-independent-work" class="slide level2">
-<h2>Your next independent work</h2>
-<p>Use the <a href="../acids-bases/exercise.html">exercises</a>, then the <a href="../acids-bases/quiz.html">self-check</a>. Required core problems and optional transfer work are labelled separately.</p>
-</section>
-<section id="one-sentence-exit-explanation" class="slide level2">
-<h2>One-sentence exit explanation</h2>
-<p>Write one chemical claim, the feature that supports it and one limit of the inference.</p>
-<p>The <a href="../reference/reading.html">reading guide</a> provides optional textbook support; no textbook is needed to attempt the local practice.</p>
-<aside class="notes">
-<p>Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.</p>
+<p>Recite the procedure once: draw the conjugate base, find where the charge goes, compare pKa values on the same scale, and use pH minus pKa to get the ratio. Days 4 and 5 are consolidation days, and Day 5 puts structure, properties and acidity together, so today’s material comes straight back. Today’s R task plots the ionisation curve; encourage students to predict the fractions at pH 3.8, 4.8 and 5.8 before running the code. After the consolidation days we start Week 2 with conformations, where the question shifts from which atoms are bonded to how the molecule is shaped in 3D.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Synthesis, yield and experimental evidence</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -27,8 +28,90 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+      }
+    pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+    div.sourceCode
+      { color: #24292e;  }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #24292e; } /* Normal */
+    code span.al { color: #ff5555; font-weight: bold; } /* Alert */
+    code span.an { color: #6a737d; } /* Annotation */
+    code span.at { color: #d73a49; } /* Attribute */
+    code span.bn { color: #005cc5; } /* BaseN */
+    code span.bu { color: #d73a49; } /* BuiltIn */
+    code span.cf { color: #d73a49; } /* ControlFlow */
+    code span.ch { color: #032f62; } /* Char */
+    code span.cn { color: #005cc5; } /* Constant */
+    code span.co { color: #6a737d; } /* Comment */
+    code span.cv { color: #6a737d; } /* CommentVar */
+    code span.do { color: #6a737d; } /* Documentation */
+    code span.dt { color: #d73a49; } /* DataType */
+    code span.dv { color: #005cc5; } /* DecVal */
+    code span.er { color: #ff5555; text-decoration: underline; } /* Error */
+    code span.ex { color: #d73a49; font-weight: bold; } /* Extension */
+    code span.fl { color: #005cc5; } /* Float */
+    code span.fu { color: #6f42c1; } /* Function */
+    code span.im { color: #032f62; } /* Import */
+    code span.in { color: #6a737d; } /* Information */
+    code span.kw { color: #d73a49; } /* Keyword */
+    code span.op { color: #24292e; } /* Operator */
+    code span.ot { color: #6f42c1; } /* Other */
+    code span.pp { color: #d73a49; } /* Preprocessor */
+    code span.re { color: #6a737d; } /* RegionMarker */
+    code span.sc { color: #005cc5; } /* SpecialChar */
+    code span.ss { color: #032f62; } /* SpecialString */
+    code span.st { color: #032f62; } /* String */
+    code span.va { color: #e36209; } /* Variable */
+    code span.vs { color: #032f62; } /* VerbatimString */
+    code span.wa { color: #ff5555; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,18 +210,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Synthesis, yield and experimental evidence</h1>
-  <p class="subtitle">Week 5 · 45-minute teaching session</p>
+  <p class="subtitle">Week 5 · Day 22 — did we make it, how much, and how pure?</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="a-chemical-route-through-this-session" class="slide level2">
-<h2>A chemical route through this session</h2>
-<p>Connect reaction planning to recorded amounts and evidence. Keep theoretical product, isolated yield, conversion, identity and purity as separate claims.</p>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>Acetylsalicylic acid was first made in 1853, as a crude product that nobody could sell. In 1897 chemists at Bayer made it <strong>clean and reproducibly</strong>, and two years later it went on sale as <strong>aspirin</strong>. Same reaction; the difference was evidence of identity and purity.</p>
+<p>In the practical you’ll make aspirin yourself. Today we learn to answer three separate questions about the white solid on your filter paper:</p>
+<ul>
+<li><strong>Planning:</strong> a route is a sequence of functional-group changes</li>
+<li><strong>Amounts:</strong> moles, the limiting reagent, and coefficients</li>
+<li><strong>Yield:</strong> the theoretical maximum versus what you weighed</li>
+<li><strong>TLC:</strong> what Rf measures, and what one spot can’t prove</li>
+<li><strong>Spectra:</strong> IR and NMR as checks on identity and purity</li>
+</ul>
+<p>Yesterday you read structures from spectra; today those spectra become evidence about a reaction you ran.</p>
 <aside class="notes">
-<p>45-minute budget: retrieval 4 min; route planning 5 min; amount/limiting-reagent calculations with paper checks 12 min; theoretical and isolated yield 8 min; TLC and spectral evidence 10 min; report critique and exit 6 min. Total 45 min, including calculation and discussion.</p>
-<p>Suggested 30 seconds; adjust to the explanation and class response. Plan 45 minutes including short drawing and discussion intervals. Routine visual frames take roughly 40 seconds; worked checks need longer and some resolutions can be quicker. Treat timings as guidance, with room for questions.</p>
+<p>Open with the aspirin story. Charles Gerhardt made acetylsalicylic acid in 1853 but his material was impure and he didn’t pursue it; Felix Hoffmann’s 1897 preparation at Bayer was clean enough to become a medicine, sold as Aspirin from 1899. The chemistry hadn’t really changed; what changed was being able to make a pure product reliably and show that it was pure. That’s exactly the gap students meet in the lab: a mass on a balance isn’t the same as a pure compound. Name the three questions explicitly and keep coming back to them: how much (yield), is it the right molecule (identity), and is anything else in there (purity). Most marks lost on practical reports come from letting one of those answers stand in for another.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -151,29 +247,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="retrieve-the-starting-idea" class="slide level2">
-<h2>Retrieve the starting idea</h2>
-<p>Write amount = mass / molar mass with units. What quantity results from g divided by g/mol?</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Give students a short individual attempt. Worked answer: Mol. Calculate amounts before comparing reagents and include balanced coefficients.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="begin-with-functional-group-changes" class="slide level2">
-<h2>Begin with functional-group changes</h2>
+<section id="plan-a-route-by-functional-group-changes" class="slide level2">
+<h2>Plan a route by functional-group changes</h2>
 
-<img data-src="figures/01-short-route.svg" style="width:85.0%" alt="Two simple transformations connect an alcohol and an ester" class="r-stretch quarto-figure-center"><p class="caption">Two simple transformations connect an alcohol and an ester</p><p>Which two transformations connect ethanol to the ester through an acid?</p>
+<img data-src="figures/sk-route.svg" style="width:88.0%" alt="Ethanol is oxidised to ethanoic acid, which is esterified with a second ethanol portion to give ethyl ethanoate; the ethoxy part of the ester is shaded" class="r-stretch quarto-figure-center"><p class="caption">Ethanol to ethanoic acid to ethyl ethanoate</p><p>Work backwards from the target: an <strong>ester</strong> comes from an acid plus an alcohol, and the <strong>acid</strong> comes from oxidising an alcohol (Day 13). Each arrow changes one functional group.</p>
+<div class="try">
+<p><strong>Try it:</strong> where does the O–CH₂CH₃ part of ethyl ethanoate come from?</p>
+<div class="fragment">
+<p><strong>From a second portion of ethanol.</strong> The first portion is oxidised to the acid; a fresh portion supplies the alkoxy group in the acid-catalysed esterification.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Oxidation gives ethanoic acid; acid-catalysed esterification with another ethanol portion gives ethyl ethanoate.</p>
+<p>Planning is just functional-group bookkeeping. Ask: what bond did the last step make? In an ester it’s the C(=O)–O bond, so the last step joins an acid and an alcohol. That’s the Fischer esterification from Week 4 (acyl chemistry, Day 17). The common confusion is thinking the same ethanol molecule somehow becomes both halves. Draw two separate flasks if needed. Stress that a route on paper says nothing about conditions, work-up or yield; it’s a plan, not a protocol.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -186,29 +271,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-begin-with-functional-group-changes" class="slide level2">
-<h2>Apply: begin with functional-group changes</h2>
-<p>Where does the ethoxy fragment of the final ester come from?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: A separate ethanol portion supplies the O–CH₂CH₃ fragment in the esterification step.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="choose-the-intended-oxidation-endpoint" class="slide level2">
-<h2>Choose the intended oxidation endpoint</h2>
+<section id="choose-where-the-oxidation-stops" class="slide level2">
+<h2>Choose where the oxidation stops</h2>
 
-<img data-src="figures/11-route-stopping.svg" style="width:85.0%" alt="An aldehyde target requires a different stopping point" class="r-stretch quarto-figure-center"><p class="caption">An aldehyde target requires a different stopping point</p><p>Why is an unspecified oxidation arrow insufficient for an aldehyde target?</p>
+<img data-src="figures/sk-oxidation.svg" style="width:84.0%" alt="Ethanol oxidised to ethanal, then a red arrow to ethanoic acid, labelled easy to overshoot" class="r-stretch quarto-figure-center"><p class="caption">Ethanol to ethanal to ethanoic acid</p><p>A primary alcohol oxidises to an <strong>aldehyde</strong> and then on to an <strong>acid</strong>. If ethanal is the target, a bare “[O]” isn’t enough: the conditions must stop at the aldehyde and let you isolate it.</p>
+<p>Stopping early doesn’t <em>prove</em> you have pure ethanal either. You still need evidence that it’s there and that the acid isn’t.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An aldehyde can undergo further oxidation. Conditions must favour its formation and isolation rather than the acid.</p>
+<p>Link back to alcohols and redox on Day 13. In practice, aldehyde-selective conditions or distilling the aldehyde out as it forms (ethanal boils at about 20 °C) are ways to avoid over-oxidation; we don’t need the reagent details today. The key reasoning point is the second sentence: a target label on a reaction scheme is a hope. Ask the room what evidence would distinguish ethanal from ethanoic acid. Good answers: IR (broad acid O–H, aldehyde C–H near 2700–2800), NMR (aldehyde H near 9.8 ppm versus acid H near 11–12). That’s yesterday’s content applied.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -221,29 +290,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-choose-the-intended-oxidation-endpoint" class="slide level2">
-<h2>Apply: choose the intended oxidation endpoint</h2>
-<p>Is stopping oxidation early the same as proving pure ethanal?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Product identity and purity require suitable observations, not just a target label or reaction time.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="inspect-the-actual-aspirin-transformation" class="slide level2">
-<h2>Inspect the actual aspirin transformation</h2>
+<section id="the-aspirin-reaction-one-oxygen-changes" class="slide level2">
+<h2>The aspirin reaction: one oxygen changes</h2>
 
-<img data-src="figures/12-aspirin-structure.svg" style="width:85.0%" alt="Aspirin formation acetylates the phenolic oxygen" class="r-stretch quarto-figure-center"><p class="caption">Aspirin formation acetylates the phenolic oxygen</p><p>Which oxygen-containing site changes and which acid group remains?</p>
+<img data-src="figures/sk-aspirin.svg" style="width:80.0%" alt="Salicylic acid reacts with acetic anhydride, drawn above the arrow, to give aspirin and acetic acid; the phenolic oxygen and the transferred acetyl group are shaded" class="r-stretch quarto-figure-center"><p class="caption">Salicylic acid plus acetic anhydride gives aspirin</p><p>The <strong>phenol O–H</strong> becomes an ester; the <strong>carboxylic acid</strong> is untouched, so aspirin is an acid <em>and</em> an ester. All coefficients are 1: 138.12 + 102.09 = 180.16 + 60.05.</p>
+<p>It’s an <strong>acyl substitution</strong> (Day 17): the phenol oxygen attacks one C=O of the anhydride, and acetate leaves as acetic acid.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The phenolic oxygen receives an acetyl group; the carboxylic acid remains. The target contains an ester and an acid.</p>
+<p>This is an acyl substitution from Day 17: the phenol oxygen attacks one carbonyl of the anhydride, and acetate leaves, ending up as acetic acid. Make students point at the shaded atoms: the acetyl group comes from the anhydride, the oxygen comes from salicylic acid. Ask why we bother writing acetic acid in the equation if we only want aspirin: it balances the atoms, and it’s a real by-product that can contaminate the crude solid. Have them check the molar masses add up; it’s a quick way to catch a wrong formula.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -256,11 +309,42 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-inspect-the-actual-aspirin-transformation" class="slide level2">
-<h2>Apply: inspect the actual aspirin transformation</h2>
-<p>Would every O–H-related feature necessarily disappear after successful acetylation?</p>
+<section id="grams-dont-react-moles-do" class="slide level2">
+<h2>Grams don’t react; moles do</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>reagent</th>
+<th>m / g</th>
+<th>M / g mol⁻¹</th>
+<th>n = m / M</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>salicylic acid</td>
+<td>1.3812</td>
+<td>138.12</td>
+<td>0.01000 mol = <strong>10.00 mmol</strong></td>
+</tr>
+<tr class="even">
+<td>acetic anhydride</td>
+<td>1.53135</td>
+<td>102.09</td>
+<td>0.01500 mol = <strong>15.00 mmol</strong></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">n = \frac{m}{M} \qquad \frac{\text{g}}{\text{g mol}^{-1}} = \text{mol} \qquad 1\ \text{mol} = 1000\ \text{mmol}</span></p>
+<p>Write the units every time and let them cancel.</p>
+<div class="try">
+<p><strong>Try it:</strong> you weigh out <strong>1.00 g of each</strong> reagent. Is either in excess?</p>
+<div class="fragment">
+<p><strong>Yes, the anhydride.</strong> 1.00 / 138.12 = 7.24 mmol acid, but 1.00 / 102.09 = 9.80 mmol anhydride. Equal masses aren’t equal amounts.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Carboxylic acid O–H remains, even though the phenolic OH has changed.</p>
+<p>This is Day 1 arithmetic, but now it’s load-bearing. Give students 60 seconds to do the anhydride row on paper before revealing it. Watch for two slips: dividing the wrong way round (M/m), and mixing mmol and mol later when multiplying by a molar mass in g/mol. Here the anhydride really is in excess, but you can only say that after converting both to moles. The next slide makes the comparison properly.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -273,12 +357,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="balance-the-amount-calculation-first" class="slide level2">
-<h2>Balance the amount calculation first</h2>
+<section id="the-limiting-reagent-sets-the-ceiling" class="slide level2">
+<h2>The limiting reagent sets the ceiling</h2>
 
-<img data-src="figures/02-stoichiometry.svg" style="width:85.0%" alt="An amount table follows a balanced equation" class="r-stretch quarto-figure-center"><p class="caption">An amount table follows a balanced equation</p><p>What mole ratio connects the two reagents and aspirin?</p>
+<img data-src="figures/sk-limiting.svg" style="width:82.0%" alt="Bar charts: as planned, salicylic acid 10.0 mmol limits against 15.0 mmol anhydride; with only 0.51045 g anhydride, 5.00 mmol anhydride limits against 10.0 mmol acid" class="r-stretch quarto-figure-center"><p class="caption">Reaction extent bars for two scenarios</p><p>Divide each amount by its coefficient. The <strong>smallest n / coefficient</strong> is the limiting reagent; the rest is left over and can’t make extra product.</p>
+<div class="try">
+<p><strong>Try it:</strong> keep 10.00 mmol salicylic acid but use only 0.51045 g anhydride. What limits, and what’s the maximum aspirin mass?</p>
+<div class="fragment">
+<p>0.51045 / 102.09 = <strong>5.00 mmol anhydride</strong>, which now limits. 0.00500 mol × 180.16 g/mol = <strong>0.9008 g</strong> aspirin.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The supplied teaching equation is salicylic acid + acetic anhydride → aspirin + ethanoic acid, all coefficients one.</p>
+<p>The point of the second panel is that “salicylic acid is the limiting reagent” is not a fact about aspirin chemistry; it’s a fact about the amounts you weighed. Recompute every time an input changes. In the planned case, the 5 mmol of excess anhydride is deliberate: it’s cheap, it pushes the reaction along, and it’s easy to remove (it hydrolyses to acetic acid during work-up). Ask: does using 30 mmol of anhydride raise the theoretical yield? No, the acid still caps it at 10 mmol.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -291,12 +381,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-balance-the-amount-calculation-first" class="slide level2">
-<h2>Resolve: balance the amount calculation first</h2>
+<section id="coefficients-change-the-comparison" class="slide level2">
+<h2>Coefficients change the comparison</h2>
 
-<img data-src="figures/02-stoichiometry.svg" style="width:85.0%" alt="An amount table follows a balanced equation" class="r-stretch quarto-figure-center"><p class="caption">An amount table follows a balanced equation</p><p>The supplied teaching equation is salicylic acid + acetic anhydride → aspirin + ethanoic acid, all coefficients one.</p>
+<img data-src="figures/sk-coefficients.svg" style="width:74.0%" alt="Bars for A: 10 mmol raw, 5 after dividing by 2, shown red; for B: 8 mmol raw and 8 after dividing by 1" class="r-stretch quarto-figure-center"><p class="caption">2 A + B gives P: raw amounts and amounts divided by coefficient</p><p>For 2 A + B → P with 10 mmol A and 8 mmol B, <strong>A</strong> looks plentiful but limits: 10/2 = 5 versus 8/1 = 8. At most <strong>5 mmol P</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> same amounts, but the equation is 2 A + B → <strong>2</strong> P. How much P can form?</p>
+<div class="fragment">
+<p><strong>10 mmol.</strong> The limiting extent is still 5 mmol; multiply it by the product coefficient, 2.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: It accounts for the remaining atoms and confirms the balanced net transformation, even though aspirin is the target.</p>
+<p>The aspirin reaction is 1:1:1:1, which hides this step. Taking min(10, 8) and declaring B limiting is the classic error. Separate two numbers: the reaction extent (how many times the balanced equation can run, 5 mmol here) and the product amount (extent times product coefficient). They’re only equal when the product coefficient is 1. This exact pair of problems appears in the exercises and the self-check.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -309,11 +405,43 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-balance-the-amount-calculation-first" class="slide level2">
-<h2>Apply: balance the amount calculation first</h2>
-<p>Why include the ethanoic acid product in the equation?</p>
+<section id="theoretical-mass-is-an-upper-bound" class="slide level2">
+<h2>Theoretical mass is an upper bound</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>step</th>
+<th>calculation</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>limiting extent</td>
+<td>10.0 mmol salicylic acid ÷ 1</td>
+<td>10.0 mmol</td>
+</tr>
+<tr class="even">
+<td>aspirin amount</td>
+<td>10.0 mmol × 1, in mol</td>
+<td>0.0100 mol</td>
+</tr>
+<tr class="odd">
+<td>theoretical mass</td>
+<td>0.0100 mol × 180.16 g mol⁻¹</td>
+<td><strong>1.8016 g</strong></td>
+</tr>
+</tbody>
+</table>
+<p>It’s a <strong>prediction from the starting masses</strong>, never a measurement of what you made. It assumes:</p>
+<ul>
+<li>only the desired reaction happens, with no side products;</li>
+<li>every bit of the limiting reagent reacts;</li>
+<li>nothing is lost in filtering, washing or recrystallising.</li>
+</ul>
+<p>Real isolated masses are lower, and the gap tells you about losses, not about purity.</p>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It accounts for the remaining atoms and confirms the balanced net transformation, even though aspirin is the target.</p>
+<p>Keep full precision (1.8016 g) until the end and round only when reporting. Emphasise where this number comes from: the starting-material masses and the balanced equation, nothing else. That will matter on the report slide, where students who change the isolated mass sometimes also change the theoretical mass. Ask: does calculating 1.8016 g tell you the reaction went to completion? No; it tells you the most you could possibly get.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -326,12 +454,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="convert-mass-to-chemical-amount" class="slide level2">
-<h2>Convert mass to chemical amount</h2>
+<section id="isolated-yield-compares-the-balance-with-the-ceiling" class="slide level2">
+<h2>Isolated yield compares the balance with the ceiling</h2>
 
-<img data-src="figures/13-unit-calculation.svg" style="width:85.0%" alt="Mass divided by molar mass gives chemical amount" class="r-stretch quarto-figure-center"><p class="caption">Mass divided by molar mass gives chemical amount</p><p>Which units cancel in 1.3812 g divided by 138.12 g/mol?</p>
+<img data-src="figures/sk-yield.svg" style="width:72.0%" alt="Straight line of apparent yield against isolated mass through the origin; points at 1.10 g, 61.1 percent, 1.20 g, 66.6 percent, and 1.95 g, 108.2 percent in a red region above 100 percent" class="r-stretch quarto-figure-center"><p class="caption">Apparent yield against isolated mass</p><p><span class="math display">\text{apparent isolated yield} = 100 \times \frac{\text{isolated mass}}{\text{theoretical mass}} = 100 \times \frac{1.20}{1.8016} = 66.6\ \%</span></p>
+<div class="try">
+<p><strong>Try it:</strong> you recover 1.10 g instead. What’s the yield, and what else changes?</p>
+<div class="fragment">
+<p><strong>61.1 %.</strong> Only the numerator changed; the theoretical mass stays 1.8016 g.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Grams cancel, leaving mol: 0.01000 mol or 10.00 mmol salicylic acid.</p>
+<p>Call it “apparent” deliberately: the formula treats every milligram on the balance as product. The line is straight because theoretical mass is a constant; that’s a property of the arithmetic, not evidence about the chemistry. Point at the red region: you can’t make more aspirin than the limiting reagent allows, so a value above 100 % tells you the assumption failed, which is the next slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -344,12 +478,59 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-convert-mass-to-chemical-amount" class="slide level2">
-<h2>Resolve: convert mass to chemical amount</h2>
+<section id="yield-is-not-purity" class="slide level2">
+<h2>Yield is not purity</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>isolate</th>
+<th>mass</th>
+<th>apparent yield</th>
+<th>spectra</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>1.10 g</td>
+<td>61.1 %</td>
+<td>consistent with aspirin, no extra signals</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>1.95 g</td>
+<td>108.2 %</td>
+<td>major extra NMR signals</td>
+</tr>
+</tbody>
+</table>
+<p>Yield measures <strong>how much</strong> you weighed. It says nothing about <strong>what</strong> you weighed. Sample A is probably the better product.</p>
+<div class="try">
+<p><strong>Try it:</strong> give two kinds of explanation for B’s yield above 100 %.</p>
+<div class="fragment">
+<p><strong>Extra mass that isn’t product</strong> (residual solvent or water, leftover reagents, by-product) or <strong>an error</strong> (weighing, molar mass, stoichiometry). Not extra aspirin.</p>
+</div>
+</div>
+<aside class="notes">
+<p>This is the central idea of the lecture. Students instinctively rank isolates by yield. Turn it around: a high yield with dirty spectra is worse than a modest yield of clean material. Don’t let students diagnose a single cause for sample B without evidence; “residual solvent” is a hypothesis to test, for example by drying to constant mass or checking the NMR for solvent peaks. In the aspirin prep, wet crystals that weren’t dried properly are the most common culprit.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="tlc-separates-before-you-judge" class="slide level2">
+<h2>TLC separates before you judge</h2>
 
-<img data-src="figures/13-unit-calculation.svg" style="width:85.0%" alt="Mass divided by molar mass gives chemical amount" class="r-stretch quarto-figure-center"><p class="caption">Mass divided by molar mass gives chemical amount</p><p>Grams cancel, leaving mol: 0.01000 mol or 10.00 mmol salicylic acid.</p>
+<img data-src="figures/sk-tlc.svg" style="width:72.0%" alt="TLC plate with lanes S, P and crude; the crude lane has spots matching both S and P" class="r-stretch quarto-figure-center"><p class="caption">TLC plate with starting material, product reference and crude lanes</p><p>Compounds that stick more strongly to the polar silica travel less. The crude lane shows <strong>at least two detected components</strong>, matching the references. Spot darkness isn’t a measure of amount.</p>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 0.01500 mol = 15.00 mmol. Different molar masses prevent direct comparison of reagent masses.</p>
+<p>Run lanes side by side on the same plate: starting material, product reference, crude. Matching heights on the same plate are much more meaningful than comparing to a number from a book. Two spots in the crude means the reaction is incomplete or starting material survived work-up, at least under this detection method. Resist “the product spot is darker, so 80 % conversion”: the eye isn’t a calibrated detector. These are teaching data; with a real eluent the order of the spots depends on the conditions.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -362,29 +543,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-convert-mass-to-chemical-amount" class="slide level2">
-<h2>Apply: convert mass to chemical amount</h2>
-<p>Convert 1.53135 g anhydride using 102.09 g/mol.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 0.01500 mol = 15.00 mmol. Different molar masses prevent direct comparison of reagent masses.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compare-available-reaction-extents" class="slide level2">
-<h2>Compare available reaction extents</h2>
+<section id="rf-two-distances-from-the-same-origin" class="slide level2">
+<h2>Rf: two distances from the same origin</h2>
 
-<img data-src="figures/03-limiting-reagent.svg" style="width:85.0%" alt="Compare amount divided by stoichiometric coefficient" class="r-stretch quarto-figure-center"><p class="caption">Compare amount divided by stoichiometric coefficient</p><p>Which starting amount gives the smaller n/coefficient?</p>
+<img data-src="figures/sk-rf.svg" style="width:78.0%" alt="Left: spot 3.2 cm and front 5.0 cm from the origin give Rf 0.64. Right: a spot at 3.0 cm on a plate with no front marked, so no Rf" class="r-stretch quarto-figure-center"><p class="caption">Measuring Rf, and a plate without a marked front</p><p><strong>Rf = distance to spot centre ÷ distance to solvent front</strong>, both from the origin. Mark the front as soon as the plate comes out: without it there’s no denominator, and you can’t invent one.</p>
+<div class="try">
+<p><strong>Try it:</strong> the starting-material spot is 1.2 cm up, front 5.0 cm. What’s its Rf, with units?</p>
+<div class="fragment">
+<p><strong>0.24, no units.</strong> Centimetres cancel. The value only holds for that plate, eluent and conditions.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: 10.0 mmol/1 is smaller than 15.0 mmol/1, so salicylic acid limits theoretical aspirin formation.</p>
+<p>Both distances start at the origin line, not the bottom of the plate. Measure to the centre of the spot. The right panel is a real lab-report problem: someone records a spot at 3.0 cm but forgot to mark the front, which evaporates within seconds. The honest answer is “Rf cannot be determined”, not “assume the front went to 5 cm”. Ask why an Rf from another eluent can’t confirm identity: retention depends on the conditions, and even identical values aren’t unique to one molecule.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -397,12 +567,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-compare-available-reaction-extents" class="slide level2">
-<h2>Resolve: compare available reaction extents</h2>
+<section id="one-spot-can-hide-a-mixture" class="slide level2">
+<h2>One spot can hide a mixture</h2>
 
-<img data-src="figures/03-limiting-reagent.svg" style="width:85.0%" alt="Compare amount divided by stoichiometric coefficient" class="r-stretch quarto-figure-center"><p class="caption">Compare amount divided by stoichiometric coefficient</p><p>10.0 mmol/1 is smaller than 15.0 mmol/1, so salicylic acid limits theoretical aspirin formation.</p>
+<img data-src="figures/sk-comigration.svg" style="width:74.0%" alt="Lanes A, B and A plus B all show one spot at Rf 0.64; lane C shows a dashed outline for a component not seen under UV" class="r-stretch quarto-figure-center"><p class="caption">Co-migrating compounds and an undetected component</p><p>Different compounds can <strong>co-migrate</strong> at the same Rf, and some components are <strong>invisible</strong> under UV or the chosen stain. One spot means one <em>detected</em> component under these conditions, not proof of purity.</p>
+<div class="try">
+<p><strong>Try it:</strong> your product shows a single spot. What evidence would test whether it’s pure?</p>
+<div class="fragment">
+<p><strong>A different eluent or stain, or an independent method</strong> such as NMR, where a second compound would add its own signals.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;Convert masses to amounts and include balanced coefficients before comparing.</p>
+<p>Students love “one spot, therefore pure”. Ask them to explain how the A + B lane could happen: the two compounds simply interact with silica and solvent in the same way. Two follow-ups that genuinely test the claim: rerun in a different solvent system (co-migration rarely survives a change of eluent) and look with a technique that sees the whole sample, like NMR. A melting point is another classic purity check in the aspirin practical: impurities lower and broaden it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -415,29 +591,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-compare-available-reaction-extents" class="slide level2">
-<h2>Apply: compare available reaction extents</h2>
-<p>Does the smaller gram mass always identify the limiting reagent?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Convert masses to amounts and include balanced coefficients before comparing.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="transfer-the-rule-to-another-equation" class="slide level2">
-<h2>Transfer the rule to another equation</h2>
+<section id="ir-what-should-change-what-should-stay" class="slide level2">
+<h2>IR: what should change, what should stay</h2>
 
-<img data-src="figures/14-coefficient-comparison.svg" style="width:85.0%" alt="Stoichiometric coefficients change the limiting comparison" class="r-stretch quarto-figure-center"><p class="caption">Stoichiometric coefficients change the limiting comparison</p><p>For 2A + B → P, compare 10 mmol A and 8 mmol B.</p>
+<img data-src="figures/sk-ir.svg" style="width:80.0%" alt="Two schematic IR traces: both have a broad acid O-H band; salicylic acid has a phenol O-H band and one C=O near 1660; aspirin has an ester C=O near 1750 and an acid C=O near 1690" class="r-stretch quarto-figure-center"><p class="caption">Schematic IR of salicylic acid and aspirin</p><p>Predict from the structures before you look: the <strong>phenol O–H</strong> should go and an <strong>ester C=O near 1750 cm⁻¹</strong> should appear. The broad <strong>acid O–H</strong> stays, because aspirin is still a carboxylic acid.</p>
+<p>So an acid O–H band is not evidence of unreacted salicylic acid. These traces are schematic, not measured.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A gives 5 mmol extent while B gives 8 mmol; A limits and at most 5 mmol P can form.</p>
+<p>This is Day 2 and Day 21 IR reading applied to a reaction. The logic is “what’s lost, what’s gained, what’s retained”. The new ester carbonyl is the most useful positive evidence, appearing next to the acid carbonyl as two bands. The trap is over-interpreting the broad O–H: students see it and write “starting material still present”, but the target has an acid O–H too. Be explicit that IR here supports “functional groups consistent with aspirin”; it doesn’t measure purity, and a schematic trace documents nothing about a real sample.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -450,12 +610,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-transfer-the-rule-to-another-equation" class="slide level2">
-<h2>Resolve: transfer the rule to another equation</h2>
+<section id="nmr-count-every-signal" class="slide level2">
+<h2>NMR: count every signal</h2>
 
-<img data-src="figures/14-coefficient-comparison.svg" style="width:85.0%" alt="Stoichiometric coefficients change the limiting comparison" class="r-stretch quarto-figure-center"><p class="caption">Stoichiometric coefficients change the limiting comparison</p><p>A gives 5 mmol extent while B gives 8 mmol; A limits and at most 5 mmol P can form.</p>
+<img data-src="figures/sk-nmr.svg" style="width:82.0%" alt="Stick spectrum: broad 1H COOH near 11 ppm, four 1H aromatic signals between 7.1 and 8.1, a 3H acetyl singlet at 2.3 ppm and an extra red singlet near 2.1 ppm" class="r-stretch quarto-figure-center"><p class="caption">Schematic proton NMR of an aspirin sample with an extra signal</p><p>Aspirin predicts <strong>1 + 4 + 3 = 8 H</strong>: acid H, four aromatic H, one CH₃ singlet. Anything else needs explaining.</p>
+<div class="try">
+<p><strong>Try it:</strong> this sample gave a good yield and one TLC spot. Should the extra signal be ignored?</p>
+<div class="fragment">
+<p><strong>No.</strong> The yield assumed the solid was product; the NMR tests that. Residual solvent, starting material or a by-product are all possible; check integrations and references before naming one.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: The limiting extent is still 5 mmol, but maximum product amount would be 2×5 = 10 mmol.</p>
+<p>NMR sees everything with hydrogens in it, so it’s the strongest purity check students will meet. Walk through the prediction from the structure first, as on Day 21, then compare. The extra singlet is deliberately left unassigned. Acetic acid, a by-product of this very reaction, would give a CH3 singlet near 2.1 ppm, but it’s a hypothesis until you check it against a reference. The principle: contradictory evidence beats a convenient number. Never discard a spectrum because the yield looks nice.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -468,11 +634,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-transfer-the-rule-to-another-equation" class="slide level2">
-<h2>Apply: transfer the rule to another equation</h2>
-<p>What changes if the product coefficient were two?</p>
+<section id="three-claims-three-kinds-of-evidence" class="slide level2">
+<h2>Three claims, three kinds of evidence</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>claim</th>
+<th>supported by</th>
+<th>can’t show</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>how much</strong></td>
+<td>mass, theoretical mass, yield</td>
+<td>what the solid is</td>
+</tr>
+<tr class="even">
+<td><strong>reaction happened</strong></td>
+<td>new TLC spot, starting spot shrinks</td>
+<td>exact conversion</td>
+</tr>
+<tr class="odd">
+<td><strong>identity</strong></td>
+<td>IR and NMR match the predicted structure</td>
+<td>purity, on IR alone</td>
+</tr>
+<tr class="even">
+<td><strong>purity</strong></td>
+<td>clean NMR, one spot in several eluents</td>
+<td>– (never absolute)</td>
+</tr>
+</tbody>
+</table>
+<p>A good conclusion keeps these apart: “Apparent yield 66.6 %; crude TLC shows two components; IR consistent with an aryl ester and an acid.”</p>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The limiting extent is still 5 mmol, but maximum product amount would be 2×5 = 10 mmol.</p>
+<p>Use this as the template for the practical report. Read out the example sentence and point out what it doesn’t claim: it doesn’t say “pure aspirin”. Ask students to add the limitation that belongs in the next sentence, for example “the crude still contains starting material, so the isolated mass may overstate the product” or “the IR trace was simulated”. This is the reasoning the integration day (tomorrow) builds on.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -485,12 +687,33 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="change-one-input-and-predict-first" class="slide level2">
-<h2>Change one input and predict first</h2>
-
-<img data-src="figures/15-changed-limiter.svg" style="width:85.0%" alt="Changing one input can change the limiting reagent" class="r-stretch quarto-figure-center"><p class="caption">Changing one input can change the limiting reagent</p><p>If anhydride is reduced to 0.51045 g, does the original limiting reagent remain limiting?</p>
+<section id="a-report-that-recomputes-itself" class="slide level2">
+<h2>A report that recomputes itself</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a>amounts <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/amounts.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">amount_mol =</span> mass_g <span class="sc">/</span> molar_mass_g_mol,</span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a>         <span class="at">extent_mol =</span> amount_mol <span class="sc">/</span> stoich)</span>
+<span id="cb1-4"><a aria-hidden="true" tabindex="-1"></a>theoretical_mass_g <span class="ot">&lt;-</span> <span class="fu">min</span>(amounts<span class="sc">$</span>extent_mol) <span class="sc">*</span> <span class="fl">180.16</span></span>
+<span id="cb1-5"><a aria-hidden="true" tabindex="-1"></a>isolated_mass_g <span class="ot">&lt;-</span> <span class="fl">1.20</span></span>
+<span id="cb1-6"><a aria-hidden="true" tabindex="-1"></a>isolated_yield_percent <span class="ot">&lt;-</span> <span class="dv">100</span> <span class="sc">*</span> isolated_mass_g <span class="sc">/</span> theoretical_mass_g</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>change <code>isolated_mass_g</code> to 1.10</th>
+<th>should change</th>
+<th>should not change</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>after Knit</td>
+<td>yield → 61.1 %</td>
+<td>amounts, extent, 1.8016 g</td>
+</tr>
+</tbody>
+</table>
+<p>Compute every number from saved raw inputs and put results in the text with <strong>inline R</strong>, never retyped. Then one edited input updates exactly what depends on it.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: That mass is 5.00 mmol anhydride, so it now limits the 1:1 reaction instead of the 10.0 mmol acid.</p>
+<p>Every number in the report should come from saved raw inputs, and every value in the text should be inline R, not retyped. Then a single change propagates. The dependency rule mirrors the chemistry: theoretical mass depends on the starting masses only; isolated mass only enters the yield. A student who edits the isolated mass and sees the theoretical mass move has a bug. Also warn about min(): it’s only right if the table contains just the starting reagents. Automatic updating guarantees consistency, not correctness; wrong stoichiometry recomputes beautifully.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -503,12 +726,52 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-change-one-input-and-predict-first" class="slide level2">
-<h2>Resolve: change one input and predict first</h2>
-
-<img data-src="figures/15-changed-limiter.svg" style="width:85.0%" alt="Changing one input can change the limiting reagent" class="r-stretch quarto-figure-center"><p class="caption">Changing one input can change the limiting reagent</p><p>That mass is 5.00 mmol anhydride, so it now limits the 1:1 reaction instead of the 10.0 mmol acid.</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>comparing grams to find the limiting reagent</td>
+<td>convert to <strong>mol</strong>, divide by the <strong>coefficient</strong></td>
+</tr>
+<tr class="even">
+<td>min(10, 8) for 2 A + B → P</td>
+<td>10/2 = 5 versus 8/1 = 8</td>
+</tr>
+<tr class="odd">
+<td>reporting a yield above 100 % as “excellent”</td>
+<td>the solid <strong>isn’t all product</strong>, or there’s an error</td>
+</tr>
+<tr class="even">
+<td>ranking samples by yield</td>
+<td>yield is <strong>amount</strong>, not purity</td>
+</tr>
+<tr class="odd">
+<td>“one spot, so it’s pure”</td>
+<td>co-migration and invisible components</td>
+</tr>
+<tr class="even">
+<td>Rf with no front marked</td>
+<td>mark it immediately; otherwise no Rf</td>
+</tr>
+<tr class="odd">
+<td>acid O–H in IR means salicylic acid is left</td>
+<td>aspirin <strong>is also an acid</strong></td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 0.00500 mol × 180.16 g/mol = 0.9008 g.</p>
+<p>Read each mistake aloud and ask the room for the fix before you point at the right-hand column. Each row maps to an exercise: limiting reagent (3–7), yield above 100 % (11), yield versus purity (12), Rf and missing fronts (13–15), one spot (16), aspirin IR (17).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -521,572 +784,53 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-change-one-input-and-predict-first" class="slide level2">
-<h2>Apply: change one input and predict first</h2>
-<p>Calculate the new maximum aspirin mass with M = 180.16 g/mol.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>route</td>
+<td>plan backwards, one functional-group change per step</td>
+</tr>
+<tr class="even">
+<td>amount</td>
+<td>n = m / M, with units</td>
+</tr>
+<tr class="odd">
+<td>limiting reagent</td>
+<td>smallest <strong>n / coefficient</strong></td>
+</tr>
+<tr class="even">
+<td>theoretical mass</td>
+<td>extent × product coefficient × M</td>
+</tr>
+<tr class="odd">
+<td>isolated yield</td>
+<td>100 × isolated / theoretical; <strong>not purity</strong></td>
+</tr>
+<tr class="even">
+<td>Rf</td>
+<td>spot ÷ front, both from the origin; no units</td>
+</tr>
+<tr class="odd">
+<td>one TLC spot</td>
+<td>not proof of identity or purity</td>
+</tr>
+<tr class="even">
+<td>spectra</td>
+<td>predict what’s lost, gained and kept</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> putting the whole course together (Day 23). <strong>Practice:</strong> <a href="../synthesis-evidence/exercise.html">exercises</a> · <a href="../synthesis-evidence/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 0.00500 mol × 180.16 g/mol = 0.9008 g.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="calculate-theoretical-product-mass" class="slide level2">
-<h2>Calculate theoretical product mass</h2>
-
-<img data-src="figures/04-theoretical-mass.svg" style="width:85.0%" alt="Theoretical mass is a stoichiometric prediction" class="r-stretch quarto-figure-center"><p class="caption">Theoretical mass is a stoichiometric prediction</p><p>What does the supplied 10.0 mmol limit predict in grams?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: 0.0100 mol × 180.16 g/mol = 1.8016 g theoretical aspirin before final rounding.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-calculate-theoretical-product-mass" class="slide level2">
-<h2>Resolve: calculate theoretical product mass</h2>
-
-<img data-src="figures/04-theoretical-mass.svg" style="width:85.0%" alt="Theoretical mass is a stoichiometric prediction" class="r-stretch quarto-figure-center"><p class="caption">Theoretical mass is a stoichiometric prediction</p><p>0.0100 mol × 180.16 g/mol = 1.8016 g theoretical aspirin before final rounding.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;It is the maximum from stoichiometric availability under the assumed desired transformation.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-calculate-theoretical-product-mass" class="slide level2">
-<h2>Apply: calculate theoretical product mass</h2>
-<p>Does this prediction prove complete conversion?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;It is the maximum from stoichiometric availability under the assumed desired transformation.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-the-independently-measured-isolated-mass" class="slide level2">
-<h2>Use the independently measured isolated mass</h2>
-
-<img data-src="figures/05-yield.svg" style="width:85.0%" alt="Isolated yield compares recovered mass with theoretical mass" class="r-stretch quarto-figure-center"><p class="caption">Isolated yield compares recovered mass with theoretical mass</p><p>How does 1.20 g compare with 1.8016 g theoretical?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: 100×1.20/1.8016 ≈ 66.6% apparent isolated yield, assuming the material weighed is product.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-use-the-independently-measured-isolated-mass" class="slide level2">
-<h2>Resolve: use the independently measured isolated mass</h2>
-
-<img data-src="figures/05-yield.svg" style="width:85.0%" alt="Isolated yield compares recovered mass with theoretical mass" class="r-stretch quarto-figure-center"><p class="caption">Isolated yield compares recovered mass with theoretical mass</p><p>100×1.20/1.8016 ≈ 66.6% apparent isolated yield, assuming the material weighed is product.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 100×1.10/1.8016 ≈ 61.1%; only the numerator changed.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-use-the-independently-measured-isolated-mass" class="slide level2">
-<h2>Apply: use the independently measured isolated mass</h2>
-<p>What is the approximate yield for 1.10 g with the same starting amounts?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 100×1.10/1.8016 ≈ 61.1%; only the numerator changed.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="inspect-the-massyield-relationship" class="slide level2">
-<h2>Inspect the mass–yield relationship</h2>
-
-<img data-src="figures/16-yield-sensitivity.svg" style="width:85.0%" alt="A mass-based yield scales with recovered mass" class="r-stretch quarto-figure-center"><p class="caption">A mass-based yield scales with recovered mass</p><p>Why is the line straight when theoretical mass stays fixed?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Yield is a constant factor times isolated mass. Linearity reflects the calculation, not experimental evidence for identity.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-inspect-the-massyield-relationship" class="slide level2">
-<h2>Apply: inspect the mass–yield relationship</h2>
-<p>Would an apparent value above 100% demonstrate an excellent synthesis?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It calls the product-mass assumption or inputs into question; residual solvent, impurities or calculation errors can inflate the value.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-the-plate-as-a-separation-observation" class="slide level2">
-<h2>Read the plate as a separation observation</h2>
-
-<img data-src="figures/06-tlc.svg" style="width:85.0%" alt="Simulated TLC: crude contains two visible components" class="r-stretch quarto-figure-center"><p class="caption">Simulated TLC: crude contains two visible components</p><p>What do two visible crude spots support under these conditions?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: At least two detected components are present, with retention consistent with starting/product references in this example.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-read-the-plate-as-a-separation-observation" class="slide level2">
-<h2>Apply: read the plate as a separation observation</h2>
-<p>Can their relative spot darkness directly give conversion?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Not without a validated quantitative detection relationship; response and visualisation can differ among compounds.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="measure-from-a-common-origin" class="slide level2">
-<h2>Measure from a common origin</h2>
-
-<img data-src="figures/17-tlc-distances.svg" style="width:85.0%" alt="Measure both TLC distances from the same origin" class="r-stretch quarto-figure-center"><p class="caption">Measure both TLC distances from the same origin</p><p>Which two distances enter Rf for the product reference?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Spot centre 3.2 cm divided by solvent-front distance 5.0 cm gives Rf 0.64. Both start at the baseline.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-measure-from-a-common-origin" class="slide level2">
-<h2>Resolve: measure from a common origin</h2>
-
-<img data-src="figures/17-tlc-distances.svg" style="width:85.0%" alt="Measure both TLC distances from the same origin" class="r-stretch quarto-figure-center"><p class="caption">Measure both TLC distances from the same origin</p><p>Spot centre 3.2 cm divided by solvent-front distance 5.0 cm gives Rf 0.64. Both start at the baseline.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Dimensionless, because the same distance units cancel.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-measure-from-a-common-origin" class="slide level2">
-<h2>Apply: measure from a common origin</h2>
-<p>What are the units of Rf?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Dimensionless, because the same distance units cancel.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="interpret-the-numerical-rf" class="slide level2">
-<h2>Interpret the numerical Rf</h2>
-
-<img data-src="figures/07-rf.svg" style="width:85.0%" alt="Rf measures distance relative to the solvent front" class="r-stretch quarto-figure-center"><p class="caption">Rf measures distance relative to the solvent front</p><p>Why compare samples on the same plate and conditions?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Rf depends on eluent, stationary phase and conditions. Reference comparison is more meaningful when those factors match.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-interpret-the-numerical-rf" class="slide level2">
-<h2>Apply: interpret the numerical Rf</h2>
-<p>Could an Rf measured in another eluent uniquely confirm identity?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Different conditions change retention, and even matching values are not unique molecular identifiers.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="recognise-an-uncomputable-quantity" class="slide level2">
-<h2>Recognise an uncomputable quantity</h2>
-
-<img data-src="figures/18-missing-front.svg" style="width:85.0%" alt="A TLC front must be recorded before calculating Rf" class="r-stretch quarto-figure-center"><p class="caption">A TLC front must be recorded before calculating Rf</p><p>Can spot distance alone reconstruct a reliable Rf?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: No.&nbsp;Without the solvent-front distance, the denominator is unknown. Do not invent a typical front travel.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-recognise-an-uncomputable-quantity" class="slide level2">
-<h2>Apply: recognise an uncomputable quantity</h2>
-<p>What primary observation should have been recorded?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The solvent-front position relative to the same origin, normally marked while it is observable.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="test-the-one-spot-inference" class="slide level2">
-<h2>Test the one-spot inference</h2>
-
-<img data-src="figures/09-comigration.svg" style="width:85.0%" alt="Two compounds can co-migrate on a TLC plate" class="r-stretch quarto-figure-center"><p class="caption">Two compounds can co-migrate on a TLC plate</p><p>How can two compounds produce one TLC spot in this example?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: They can have the same retention and co-migrate. Other components might also be invisible under the detection method.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-test-the-one-spot-inference" class="slide level2">
-<h2>Apply: test the one-spot inference</h2>
-<p>What modest conclusion is supported by a single visible spot?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: One detected retention feature under that separation and detection condition, not unique identity or guaranteed purity.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compare-tlc-with-independent-evidence" class="slide level2">
-<h2>Compare TLC with independent evidence</h2>
-
-<img data-src="figures/19-mixture-signals.svg" style="width:85.0%" alt="A mixture can add signals without changing a single TLC spot" class="r-stretch quarto-figure-center"><p class="caption">A mixture can add signals without changing a single TLC spot</p><p>What does an extra major NMR signal ask you to investigate?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A mixture, residual solvent, starting material or an incorrect assignment could contribute. Do not name a unique impurity without enough evidence.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-compare-tlc-with-independent-evidence" class="slide level2">
-<h2>Resolve: compare TLC with independent evidence</h2>
-
-<img data-src="figures/19-mixture-signals.svg" style="width:85.0%" alt="A mixture can add signals without changing a single TLC spot" class="r-stretch quarto-figure-center"><p class="caption">A mixture can add signals without changing a single TLC spot</p><p>A mixture, residual solvent, starting material or an incorrect assignment could contribute. Do not name a unique impurity without enough evidence.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;The yield calculation assumes product mass; contradictory identity/purity evidence tests that assumption.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-compare-tlc-with-independent-evidence" class="slide level2">
-<h2>Apply: compare TLC with independent evidence</h2>
-<p>Should a high isolated yield overrule contradictory NMR?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;The yield calculation assumes product mass; contradictory identity/purity evidence tests that assumption.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-retained-and-changed-spectral-motifs" class="slide level2">
-<h2>Predict retained and changed spectral motifs</h2>
-
-<img data-src="figures/20-aspirin-local-change.svg" style="width:85.0%" alt="The acid group is retained while the phenolic OH is acetylated" class="r-stretch quarto-figure-center"><p class="caption">The acid group is retained while the phenolic OH is acetylated</p><p>Why can an acid-region feature remain in an aspirin-like product?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The carboxylic acid group is retained. Phenolic acetylation creates an ester but does not remove all O–H functionality.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-predict-retained-and-changed-spectral-motifs" class="slide level2">
-<h2>Apply: predict retained and changed spectral motifs</h2>
-<p>Which starting-group interpretation would be too strong from acid O–H alone?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Calling every acid O–H feature unreacted salicylic acid would be unjustified; the target itself contains an acid.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-product-spectra-with-the-target-structure" class="slide level2">
-<h2>Use product spectra with the target structure</h2>
-
-<img data-src="figures/08-product-ir.svg" style="width:85.0%" alt="Simulated aspirin-like IR teaching trace" class="r-stretch quarto-figure-center"><p class="caption">Simulated aspirin-like IR teaching trace</p><p>Which combination is consistent with acid plus ester functions?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Carbonyl evidence for the two motifs and retained acid features are consistent with the aspirin-like target, but the simulated trace is not unique proof.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-use-product-spectra-with-the-target-structure" class="slide level2">
-<h2>Apply: use product spectra with the target structure</h2>
-<p>Why label this trace simulated rather than measured?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It was constructed for teaching and does not document an actual isolation; provenance limits the claims it supports.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="keep-the-two-mass-inputs-independent" class="slide level2">
-<h2>Keep the two mass inputs independent</h2>
-
-<img data-src="figures/10-reproducible-chain.svg" style="width:85.0%" alt="Trace a reported result back to its observations" class="r-stretch quarto-figure-center"><p class="caption">Trace a reported result back to its observations</p><p>Which measurements determine theoretical mass, and which enters yield separately?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Starting-reagent masses and molar masses determine theoretical product. Independently weighed isolate mass enters the yield numerator.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-keep-the-two-mass-inputs-independent" class="slide level2">
-<h2>Apply: keep the two mass inputs independent</h2>
-<p>What should happen when only isolated mass changes in an Rmd report?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Calculated yield should update; theoretical product amount should stay fixed. A fresh Knit should reconstruct both from saved inputs.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="integrate-one-short-case" class="slide level2">
-<h2>Integrate one short case</h2>
-<p>A 1:1 teaching reaction uses 10.0 mmol limiting reagent; product M = 180.16 g/mol and isolate = 1.20 g. Give theoretical mass, apparent yield and one limitation.</p>
-<aside class="notes">
-<p>Suggested 120 seconds; adjust to the explanation and class response. Give time to formulate the claim and compare a partner explanation. Worked answer: Theoretical mass is 1.8016 g and apparent isolated yield about 66.6%. The isolate may contain impurities or solvent, so mass alone does not establish purity.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compare-the-worked-reasoning" class="slide level2">
-<h2>Compare the worked reasoning</h2>
-<p>Theoretical mass is 1.8016 g and apparent isolated yield about 66.6%. The isolate may contain impurities or solvent, so mass alone does not establish purity.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Ask students to identify the exact step or observation their own reasoning omitted. This is a correction interval within the session, not a new topic.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="exit-explanation" class="slide level2">
-<h2>Exit explanation</h2>
-<p>Why does one visible TLC spot not prove pure product?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Worked answer: Co-migration and invisible components can hide a mixture; combine evidence under suitable conditions. Ask for a causal explanation, not a single vocabulary label.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="continue-with-independent-practice" class="slide level2">
-<h2>Continue with independent practice</h2>
-<p>Use the <a href="../synthesis-evidence/exercise.html">exercises</a>, then the <a href="../synthesis-evidence/quiz.html">self-check</a>.</p>
-<p>All required inputs and explanations are provided locally. The <a href="../reference/reading.html">reading guide</a> offers optional textbook support.</p>
-<aside class="notes">
-<p>Suggested 20 seconds; adjust to the explanation and class response. Preview the local exercise route. No book purchase or external problem set is needed to complete it. Leave time to note one corrected misconception.</p>
+<p>Close the loop with the opening story: the difference between 1853 and 1897 was not the reaction but the evidence. Recite the three questions once more: how much, is it the right molecule, is it clean. Tomorrow’s integration day combines mechanism, spectra and these calculations in single problems. Point students to the exercises: 1–10 are the core calculations and planning, 11–20 the evidence reasoning, and the R task builds the report that the practical needs.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

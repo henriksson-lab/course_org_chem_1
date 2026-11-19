@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Properties, interactions and introductory IR</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,18 +128,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Properties, interactions and introductory IR</h1>
-  <p class="subtitle">Week 1 · Use structure to predict an observation</p>
+  <p class="subtitle">Week 1 · Day 2 — why ethanol boils 100 °C above its isomer</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-should-you-be-able-to-explain" class="slide level2">
-<h2>What should you be able to explain?</h2>
-<p>Explain polarity, donor/acceptor sites and qualitative property trends; interpret a simple IR feature.</p>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>Yesterday we left two bottles of <strong>C₂H₆O</strong> on the bench: ethanol boils at <strong>78 °C</strong>, dimethyl ether at <strong>−24 °C</strong>. Same atoms, a 100-degree gap. Today we explain it. And the police breath test? It shines <strong>infrared light</strong> through your breath and measures how much ethanol absorbs.</p>
+<p>Today we learn:</p>
+<ul>
+<li><strong>Polarity:</strong> why bonds and molecules carry partial charges</li>
+<li><strong>Hydrogen bonds:</strong> donors, acceptors and how to count them</li>
+<li><strong>Properties:</strong> boiling points and water solubility from structure</li>
+<li><strong>IR spectroscopy:</strong> reading the axes and a few key bands</li>
+<li><strong>Limits:</strong> what one observation can and can’t prove</li>
+</ul>
+<p>Yesterday you learned to read a structure; today you use it to predict what a molecule does.</p>
 <aside class="notes">
-<p>45-minute budget: bond/molecular polarity6 min; donor/acceptor drawings9 min including two60-second attempts; boiling and solubility comparisons8 min with a90-second paired explanation; IR axes and vibration5 min; worked candidate comparisons10 min including two45-second predictions; charge/hydration/model limits4 min; integrated explanation/exit3 min. All checks are included in these45 min.</p>
-<p>Use the slide pace flexibly: concrete worked operations deserve more time than brief resolved checks. The intended outcome is an explainable chemical argument,not a slide count.</p>
+<p>Open by reminding them of the cliffhanger from Day 1: ethanol and dimethyl ether are constitutional isomers, yet one is a drink and the other a spray-can gas. Ask the room for guesses before revealing anything; someone usually says “the OH”, which is exactly right, and today we make that guess precise. The breathalyzer is a nice second hook: evidential breath-alcohol instruments use IR absorption by ethanol’s C–H or C–O bonds, so the second half of the lecture is the physics inside that machine. Stress the theme of the day: structure in, observable property out.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -151,11 +165,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="bring-these-tools-into-the-room" class="slide level2">
-<h2>Bring these tools into the room</h2>
-<p>You can identify alcohol, ether, amine, ketone, aldehyde, acid and ester from their local bond patterns.</p>
+<section id="electronegativity-makes-bonds-polar" class="slide level2">
+<h2>Electronegativity makes bonds polar</h2>
+
+<img data-src="figures/sk-polar-bonds.svg" style="width:82.0%" alt="Ethanol drawn with its O–H hydrogen; the carbon next to oxygen and the hydroxyl hydrogen are marked delta plus and oxygen delta minus. A scale shows Pauling electronegativities H 2.20, C 2.55, N 3.04, O 3.44" class="r-stretch quarto-figure-center"><p class="caption">Ethanol with partial charges, beside a Pauling electronegativity scale</p><p>The more electronegative atom pulls the shared electrons towards itself and gets a <strong>partial negative charge, δ−</strong>. O and N are the electron-greedy atoms in organic molecules; C–H bonds are close to nonpolar.</p>
 <aside class="notes">
-<p>Use a quick spoken diagnostic; do not spend an additional unscheduled revision block. Revisit a missing convention at its worked example.</p>
+<p>Electronegativity is the tug-of-war strength for bonding electrons. The numbers on the scale are Pauling values; students don’t need to memorise them, only the order H ≈ C &lt; N &lt; O. In ethanol the oxygen pulls electron density from both the carbon and the hydrogen, so both neighbours become δ+. Point out that the C–H bonds, which make up most of an organic molecule, are almost nonpolar: that’s why the hydrocarbon part of a molecule behaves like oil. That sentence comes back when we discuss solubility.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -168,12 +183,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="separate-partial-and-formal-charge" class="slide level2">
-<h2>Separate partial and formal charge</h2>
+<section id="partial-charge-is-not-formal-charge" class="slide level2">
+<h2>Partial charge is not formal charge</h2>
 
-<img data-src="figures/01-bond-polarity.svg" style="width:82.0%" alt="Separate partial and formal charge" class="r-stretch quarto-figure-center"><p class="caption">Separate partial and formal charge</p><p>Which label describes unequal sharing and which comes from integer Lewis electron bookkeeping?</p>
+<img data-src="figures/sk-partial-formal.svg" style="width:80.0%" alt="Ethanol oxygen with two bonds and two lone pairs: delta minus, formal charge 0. Ethoxide oxygen with one bond and three lone pairs: formal charge minus 1" class="r-stretch quarto-figure-center"><p class="caption">Ethanol and ethoxide with oxygen lone pairs and charge bookkeeping</p><p><strong>δ−</strong> describes uneven sharing in a neutral molecule. <strong>Formal charge</strong> is Day 1’s integer electron count.</p>
+<div class="try">
+<p><strong>Try it:</strong> the O in ethanol is δ−. Does it carry a formal charge of −1?</p>
+<div class="fragment">
+<p><strong>No.</strong> Two bonds and two lone pairs give 6 − 4 − 2 = 0. The δ− is a fraction of an electron, not a whole extra one.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>This is the most common confusion of the day. A partial charge is a shift of electron density; the molecule as a whole stays neutral. A formal charge is the bookkeeping from yesterday and only appears when an atom deviates from its normal bonding pattern, as in ethoxide, which is ethanol after losing its O–H proton. Ethoxide is a preview of Day 3: removing H+ from an O–H leaves the bonding pair on oxygen. Ask them to say out loud which numbers go into each formal-charge calculation.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -186,26 +207,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="follow-the-electronegative-atom" class="slide level2">
-<h2>Follow the electronegative atom</h2>
+<section id="polar-bonds-polar-molecule-add-the-vectors" class="slide level2">
+<h2>Polar bonds, polar molecule? Add the vectors</h2>
 
-<img data-src="figures/11-pace.svg" style="width:82.0%" alt="Follow the electronegative atom" class="r-stretch quarto-figure-center"><p class="caption">Follow the electronegative atom</p><p>An O–H bond is polar toward O even when the molecule is formally neutral.</p>
-</section>
-<section id="explain-the-co-polarisation" class="slide level2">
-<h2>Explain the C–O polarisation</h2>
-
-<img data-src="figures/01-bond-polarity.svg" style="width:82.0%" alt="Explain the C–O polarisation" class="r-stretch quarto-figure-center"><p class="caption">Explain the C–O polarisation</p><p>O attracts the bonding electrons more strongly than C. δ− is not a claim that oxygen has a whole extra electron.</p>
-</section>
-<section id="compare-neutral-alcohol-with-alkoxide" class="slide level2">
-<h2>Compare neutral alcohol with alkoxide</h2>
-
-<img data-src="figures/17-pace.svg" style="width:82.0%" alt="Compare neutral alcohol with alkoxide" class="r-stretch quarto-figure-center"><p class="caption">Compare neutral alcohol with alkoxide</p><p>The neutral alcohol is polar; the alkoxide has a formal charge as well as polar bonds.</p>
-</section>
-<section id="predict-must-a-δ-atom-carry-formal-1" class="slide level2">
-<h2>Predict: must a δ− atom carry formal −1?</h2>
-<p>Apply the ordinary Lewis count to the O atom in ethanol.</p>
+<img data-src="figures/sk-dipoles.svg" style="width:78.0%" alt="Linear O=C=O with two equal bond-dipole arrows pointing in opposite directions, net zero. Bent water with two bond-dipole arrows towards O and a net dipole arrow pointing to oxygen" class="r-stretch quarto-figure-center"><p class="caption">Carbon dioxide bond dipoles cancel; water bond dipoles add</p><p>Each polar bond is an arrow pointing at its δ− end. The <strong>molecular dipole</strong> is their vector sum, so <strong>shape decides</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> a friend says “CO₂ has two polar bonds, so it’s a polar molecule.” What did they forget?</p>
+<div class="fragment">
+<p><strong>Geometry.</strong> CO₂ is linear, so its two equal bond dipoles point in opposite directions and cancel. Bent water keeps a net dipole.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Draw the arrows on the board as tug-of-war ropes: two equal teams pulling in opposite directions go nowhere. Water is bent (about 104.5°), so its two arrows add to a net dipole pointing at oxygen. Link back to Day 1’s geometry slide: you needed the shapes to do this. CO2 will return in the IR section, where its lack of a permanent dipole turns out to be less important than you’d think. Another example if there’s time: CCl4 is nonpolar for the same reason.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -218,11 +231,16 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-ethanol-oxygen-is-formally-neutral" class="slide level2">
-<h2>Resolve: ethanol oxygen is formally neutral</h2>
-<p>Its two bonds and two lone pairs give formal charge zero. Partial charge describes electron distribution differently.</p>
+<section id="same-size-very-different-boiling-points" class="slide level2">
+<h2>Same size, very different boiling points</h2>
+
+<img data-src="figures/sk-same-size.svg" style="width:80.0%" alt="Butane 58 g/mol boils at −1 °C with dispersion only; propanone 58 g/mol boils at 56 °C with added dipole–dipole attraction; propan-1-ol 60 g/mol boils at 97 °C with hydrogen bonds" class="r-stretch quarto-figure-center"><p class="caption">Butane, propanone and propan-1-ol with similar molar mass and rising boiling points</p><ul>
+<li><strong>Dispersion:</strong> every molecule has it; grows with size and contact area.</li>
+<li><strong>Dipole–dipole:</strong> polar molecules line up δ+ to δ−.</li>
+<li><strong>Hydrogen bonds:</strong> an O–H or N–H meets a lone pair. The strongest of the three.</li>
+</ul>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>The trick of this slide is the controlled comparison: all three molecules weigh about the same, so dispersion forces are similar and the differences come from the polar groups. Butane only has dispersion and is a gas at room temperature; the C=O of propanone adds dipole–dipole attraction; propan-1-ol’s O–H can hydrogen-bond and boils almost 100 degrees above butane. Emphasise that these are forces between molecules. Nothing inside the molecule changes when it boils. Ask: which of the three would you expect to mix with water? That sets up the solubility slides.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -235,12 +253,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="add-bond-dipoles-as-directions" class="slide level2">
-<h2>Add bond dipoles as directions</h2>
+<section id="the-hydrogen-bond-a-donor-meets-an-acceptor" class="slide level2">
+<h2>The hydrogen bond: a donor meets an acceptor</h2>
 
-<img data-src="figures/02-molecular-dipoles.svg" style="width:82.0%" alt="Add bond dipoles as directions" class="r-stretch quarto-figure-center"><p class="caption">Add bond dipoles as directions</p><p>Why do the two C=O bond dipoles in CO₂ cancel while the two O–H dipoles in water do not?</p>
+<img data-src="figures/sk-hbond.svg" style="width:82.0%" alt="Left: the O–H hydrogen of ethanol makes a dashed contact to a lone pair on water oxygen. Right: an O–H of water makes a dashed contact to a lone pair on the oxygen of dimethyl ether" class="r-stretch quarto-figure-center"><p class="caption">Ethanol donating to water, and water donating to dimethyl ether</p><p>The <strong>donor</strong> brings an H on O or N. The <strong>acceptor</strong> brings a lone pair on O or N. The dashed contact is <strong>between</strong> molecules: no covalent bond forms or breaks.</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Insist on the dashed line and on keeping both molecules intact. Students often draw a hydrogen bond as a solid line or move the H halfway across, which turns it into a proton transfer, a reaction for tomorrow. The H on a donor must be on O or N because only then is it δ+ enough; a C–H is not a donor. Show that water can play both roles: it accepts from ethanol on the left and donates to the ether on the right. That dual role is why water dissolves so many small polar molecules.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -253,21 +271,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="geometry-changes-the-molecular-sum" class="slide level2">
-<h2>Geometry changes the molecular sum</h2>
+<section id="count-donors-and-acceptors" class="slide level2">
+<h2>Count donors and acceptors</h2>
 
-<img data-src="figures/02-molecular-dipoles.svg" style="width:82.0%" alt="Geometry changes the molecular sum" class="r-stretch quarto-figure-center"><p class="caption">Geometry changes the molecular sum</p><p>Linear CO₂ has opposing equal bond dipoles; bent water has a nonzero vector sum.</p>
-</section>
-<section id="a-functional-group-test-is-narrower-than-identity" class="slide level2">
-<h2>A functional-group test is narrower than identity</h2>
-
-<img data-src="figures/30-pace.svg" style="width:82.0%" alt="A functional-group test is narrower than identity" class="r-stretch quarto-figure-center"><p class="caption">A functional-group test is narrower than identity</p><p>Observing or failing to observe C=O tests a structural feature, not the entire identity of the molecule.</p>
-</section>
-<section id="predict-what-information-is-missing" class="slide level2">
-<h2>Predict: what information is missing?</h2>
-<p>Someone says a molecule is polar because it has two polar bonds. What else must you know?</p>
+<img data-src="figures/sk-inventory.svg" style="width:82.0%" alt="Ethanol has one O–H donor and one acceptor oxygen; dimethyl ether, propanone and methyl acetate have no donors, with one, one and two acceptor oxygens shaded" class="r-stretch quarto-figure-center"><p class="caption">Donor and acceptor counts for ethanol, dimethyl ether, propanone and methyl acetate</p><p>Ask two separate questions of every molecule: <strong>is there an O–H or N–H?</strong> and <strong>is there a lone pair on O or N?</strong></p>
+<div class="try">
+<p><strong>Try it:</strong> can pure dimethyl ether form hydrogen bonds with itself?</p>
+<div class="fragment">
+<p><strong>No.</strong> Its O can accept, but it has no O–H to donate. Mixed with water, it can accept from water’s O–H.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>This inventory habit is the tool for the rest of the day. “Contains oxygen” is not enough: every oxygen here can accept, but only the alcohol has a donor. The ester is a nice case: two oxygens, two acceptor sites, zero donors, so it’s not “an alcohol plus an ether”. Have students write the two numbers for each molecule before you reveal the labels. Pure ether molecules can’t hydrogen-bond to each other because a hydrogen bond needs a donor and an acceptor at the same time.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -280,11 +295,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-their-spatial-arrangement" class="slide level2">
-<h2>Resolve: their spatial arrangement</h2>
-<p>Bond dipoles may add or cancel. Molecular geometry and symmetry are necessary for the conclusion.</p>
+<section id="amines-count-the-nh-then-the-lone-pair" class="slide level2">
+<h2>Amines: count the N–H, then the lone pair</h2>
+
+<img data-src="figures/sk-amines.svg" style="width:82.0%" alt="Methylamine with two N–H bonds and a lone pair, dimethylamine with one N–H and a lone pair, trimethylamine with no N–H and a lone pair, and methylammonium with three N–H bonds and no lone pair" class="r-stretch quarto-figure-center"><p class="caption">Methylamine, dimethylamine, trimethylamine and methylammonium</p><p>Neutral amines all <strong>accept</strong> at N. Only those with N–H can <strong>donate</strong>. Adding H⁺ uses up the lone pair.</p>
+<div class="try">
+<p><strong>Try it:</strong> CH₃NH₂ picks up a proton to become CH₃NH₃⁺. Can that N still accept a hydrogen bond?</p>
+<div class="fragment">
+<p><strong>No.</strong> The lone pair became the new N–H bond, so N has four bonds and no lone pair. It gained a donor and lost its acceptor.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Same inventory, now with nitrogen. Trimethylamine is the trap: it has three methyls on N and no N–H, so it can only accept. Its boiling point (about 3 °C) is actually lower than dimethylamine’s (about 7 °C) despite being bigger. The ammonium ion is the bridge to tomorrow: amines are bases precisely because that lone pair can grab a proton, and once it has, the inventory changes. Check that students count the formal charge on N in methylammonium: four bonds, no lone pairs, +1.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -297,12 +319,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="place-the-hydrogen-bond-contact" class="slide level2">
-<h2>Place the hydrogen-bond contact</h2>
+<section id="back-to-the-two-bottles" class="slide level2">
+<h2>Back to the two bottles</h2>
 
-<img data-src="figures/03-hydrogen-bond.svg" style="width:82.0%" alt="Place the hydrogen-bond contact" class="r-stretch quarto-figure-center"><p class="caption">Place the hydrogen-bond contact</p><p>Identify donor O–H and acceptor lone pair in the drawn intermolecular interaction.</p>
+<img data-src="figures/sk-boiling.svg" style="width:82.0%" alt="Left: two ethanol molecules joined by a dashed O–H to O hydrogen bond, bp 78 °C. Right: two dimethyl ether molecules with no donor, bp −24 °C" class="r-stretch quarto-figure-center"><p class="caption">Hydrogen-bonded ethanol molecules beside dimethyl ether molecules</p><p>Ethanol molecules <strong>hold on to each other</strong> through O–H···O hydrogen bonds. To boil, they must be pulled apart. Dimethyl ether has no O–H, so its molecules let go easily.</p>
+<div class="try">
+<p><strong>Try it:</strong> which bonds break when ethanol boils?</p>
+<div class="fragment">
+<p><strong>None of the covalent ones.</strong> Boiling separates whole ethanol molecules by overcoming the attractions between them. Breaking C–O would be a chemical reaction.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>This is the payoff for Day 1’s cliffhanger, so slow down. Same formula, same mass, same number of polar bonds; the only difference is whether a donor exists. Ethanol’s liquid is a constantly rearranging network of hydrogen bonds, and boiling means tearing every molecule out of that network. The try-it targets the misconception that boiling breaks the molecule: ethanol vapour condensed again is still ethanol, which is exactly why distillation works as a purification. Ask a student to restate the explanation in one sentence using the words donor and acceptor.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -315,26 +343,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="let-water-donate-to-a-carbonyl" class="slide level2">
-<h2>Let water donate to a carbonyl</h2>
+<section id="size-and-shape-dispersion-adds-up" class="slide level2">
+<h2>Size and shape: dispersion adds up</h2>
 
-<img data-src="figures/13-pace.svg" style="width:82.0%" alt="Let water donate to a carbonyl" class="r-stretch quarto-figure-center"><p class="caption">Let water donate to a carbonyl</p><p>Propanone oxygen can accept a contact from water O–H. No new covalent C–O or O–H bond is implied.</p>
-</section>
-<section id="keep-the-two-molecules-intact" class="slide level2">
-<h2>Keep the two molecules intact</h2>
-
-<img data-src="figures/03-hydrogen-bond.svg" style="width:82.0%" alt="Keep the two molecules intact" class="r-stretch quarto-figure-center"><p class="caption">Keep the two molecules intact</p><p>A dashed O–H···O contact connects a donor H with a suitable acceptor site on another molecule.</p>
-</section>
-<section id="recognise-an-amine-donor" class="slide level2">
-<h2>Recognise an amine donor</h2>
-
-<img data-src="figures/14-pace.svg" style="width:82.0%" alt="Recognise an amine donor" class="r-stretch quarto-figure-center"><p class="caption">Recognise an amine donor</p><p>Ethylamine has N–H donor bonds and a nitrogen lone-pair acceptor. Both count as local features, not a solubility guarantee.</p>
-</section>
-<section id="predict-which-part-of-water-points-toward-ether-o" class="slide level2">
-<h2>Predict: which part of water points toward ether O?</h2>
-<p>Choose the partial positive H or partial negative O, and explain your choice.</p>
+<img data-src="figures/sk-size-shape.svg" style="width:82.0%" alt="Plot of boiling points rising from methanol 65 °C to hexan-1-ol 157 °C with chain length; pentane boils at 36 °C and its compact isomer 2,2-dimethylpropane at 10 °C" class="r-stretch quarto-figure-center"><p class="caption">Boiling points of straight-chain alcohols, and pentane versus 2,2-dimethylpropane</p><p>Every extra CH₂ adds contact area and roughly <strong>20 °C</strong> of boiling point. Branching makes a molecule more compact, so it <strong>touches its neighbours less</strong> and boils lower.</p>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Hydrogen bonding isn’t the whole story. In the alcohol series every member has exactly one O–H, yet the boiling point keeps climbing: that’s dispersion growing with chain length. On the right, pentane and 2,2-dimethylpropane are constitutional isomers with no polar groups at all, and the compact one boils 26 degrees lower. A good image: long chains are like spaghetti that tangles; a ball is like a marble that rolls away. Yesterday’s butane versus 2-methylpropane comparison is the same effect.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -347,11 +361,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-a-donor-h-faces-the-acceptor" class="slide level2">
-<h2>Resolve: a donor H faces the acceptor</h2>
-<p>Water supplies an O–H donor; ether supplies the oxygen acceptor. Draw O–H···O, not O···O without context.</p>
+<section id="will-it-dissolve-in-water" class="slide level2">
+<h2>Will it dissolve in water?</h2>
+
+<img data-src="figures/sk-solubility.svg" style="width:84.0%" alt="Methanol mixes completely with water, butan-1-ol dissolves to about 7 g per 100 mL and hexan-1-ol to about 0.6 g per 100 mL" class="r-stretch quarto-figure-center"><p class="caption">Methanol, butan-1-ol and hexan-1-ol with the OH shaded and their water solubility</p><p>Water welcomes the <strong>polar head</strong> that can hydrogen-bond, but the <strong>hydrocarbon tail</strong> gets in the way. The longer the tail per OH, the lower the solubility.</p>
+<div class="try">
+<p><strong>Try it:</strong> which mixes better with water, methanol or hexan-1-ol? And what does “it has an OH, so it dissolves” miss?</p>
+<div class="fragment">
+<p><strong>Methanol.</strong> Hexan-1-ol has six carbons per OH; the big nonpolar tail outweighs one polar head. A single OH doesn’t settle the question.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>“Like dissolves like” in a more useful form: count polar heads against carbons. A rough rule is that one O–H can carry three or four carbons into water. The numbers are approximate room-temperature solubilities and the exact values depend on temperature, so keep the claims qualitative. Biology link: soaps, membrane lipids and many drugs are exactly this kind of molecule, with a polar head and a long tail, and that balance decides whether a drug dissolves in blood or crosses a membrane.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -364,21 +385,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="find-the-tertiary-amine-difference" class="slide level2">
-<h2>Find the tertiary-amine difference</h2>
+<section id="a-charge-changes-everything" class="slide level2">
+<h2>A charge changes everything</h2>
 
-<img data-src="figures/15-pace.svg" style="width:82.0%" alt="Find the tertiary-amine difference" class="r-stretch quarto-figure-center"><p class="caption">Find the tertiary-amine difference</p><p>Trimethylamine can accept at N but has no N–H donor. Dimethylamine has an N–H bond.</p>
-</section>
-<section id="count-ester-oxygen-environments" class="slide level2">
-<h2>Count ester oxygen environments</h2>
-
-<img data-src="figures/16-pace.svg" style="width:82.0%" alt="Count ester oxygen environments" class="r-stretch quarto-figure-center"><p class="caption">Count ester oxygen environments</p><p>An ester has two oxygen environments and no OH donor. A simple ether has one oxygen environment.</p>
-</section>
-<section id="predict-does-protonating-an-amine-retain-its-lone-pair" class="slide level2">
-<h2>Predict: does protonating an amine retain its lone pair?</h2>
-<p>The original pair forms a new N–H bond. Can that same pair still act as an acceptor?</p>
+<img data-src="figures/sk-ionised.svg" style="width:80.0%" alt="Benzoic acid dissolves to about 0.3 g per 100 mL water; after adding base, sodium benzoate dissolves to more than 50 g per 100 mL" class="r-stretch quarto-figure-center"><p class="caption">Benzoic acid and sodium benzoate with the carboxyl group shaded</p><p>An ion is surrounded by water dipoles (<strong>ion–dipole</strong> hydration), far more strongly than a neutral molecule. Add base, and an acid that barely dissolves becomes very soluble.</p>
+<div class="try">
+<p><strong>Try it:</strong> your benzoic acid is mostly ionised in a basic water layer. Is that enough to predict how many grams you recover in an extraction?</p>
+<div class="fragment">
+<p><strong>No.</strong> You also need how the neutral form partitions between the two solvents, the phase volumes, the starting amount and losses. Speciation alone gives ratios, not grams.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Sodium benzoate is the preservative E211 in soft drinks, so its high water solubility is something students have drunk. This slide is the bridge to tomorrow: whether the acid is ionised depends on pH and pKa, which is Day 3’s whole topic. The try-it heads off a shortcut we see in lab reports: knowing the species ratio in water doesn’t give you a recovered mass. Extraction needs a partition model too. Keep it qualitative today.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -391,11 +409,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-not-the-original-pair" class="slide level2">
-<h2>Resolve: not the original pair</h2>
-<p>Ordinary ammonium N has four bonds and no available nitrogen lone pair. Protonation changes the donor/acceptor inventory.</p>
+<section id="ir-bonds-vibrate-like-springs" class="slide level2">
+<h2>IR: bonds vibrate like springs</h2>
+
+<img data-src="figures/sk-ir-co2.svg" style="width:82.0%" alt="CO2 symmetric stretch with both oxygens moving outwards keeps the dipole zero and gives no IR band; asymmetric stretch with the carbon moving against the oxygens changes the dipole and absorbs near 2349 per centimetre" class="r-stretch quarto-figure-center"><p class="caption">Symmetric and asymmetric stretches of carbon dioxide</p><p>Infrared light makes bonds <strong>stretch and bend</strong>. A vibration absorbs only if it <strong>changes the dipole</strong>. Positions are given as <strong>wavenumbers</strong> (cm⁻¹): higher means stiffer bonds or lighter atoms.</p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>The spring picture is good enough for this course: a stiff spring with light masses vibrates fast, so O–H, N–H and C–H (light hydrogen) and C=O (a stiff double bond) sit at high wavenumbers. CO2 is the lovely example: it has no permanent dipole, but its asymmetric stretch and its bend change the dipole while vibrating, so it absorbs IR. That’s precisely why CO2 is a greenhouse gas, while N2 and O2 are not. Nothing breaks: the bond just oscillates more. Wavenumber is 1 divided by the wavelength in cm; students only need “bigger number, more energy”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -408,12 +427,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="compare-molecules-of-similar-size" class="slide level2">
-<h2>Compare molecules of similar size</h2>
+<section id="read-the-axes-before-the-peaks" class="slide level2">
+<h2>Read the axes before the peaks</h2>
 
-<img data-src="figures/05-boiling-comparison.svg" style="width:82.0%" alt="Compare molecules of similar size" class="r-stretch quarto-figure-center"><p class="caption">Compare molecules of similar size</p><p>Why are ethanol and dimethyl ether a useful pair for discussing intermolecular attractions?</p>
+<img data-src="figures/sk-ir-axes.svg" style="width:84.0%" alt="Left: transmittance plot where the C=O absorption near 1715 per centimetre is a downward dip. Right: absorbance plot where the same absorption is an upward peak. Both x-axes run from 4000 down to 500" class="r-stretch quarto-figure-center"><p class="caption">The same carbonyl band plotted as transmittance and as absorbance</p><p>The x-axis runs <strong>backwards</strong>, from 4000 down to about 500 cm⁻¹. On a <strong>transmittance</strong> plot absorption is a <strong>dip</strong>; on an <strong>absorbance</strong> plot it’s a <strong>peak</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> a classmate’s spectrum has tall upward bands and they think it’s wrong. What do you check?</p>
+<div class="fragment">
+<p><strong>The y-axis label.</strong> If it says absorbance, upward bands are correct: it’s the same absorption drawn the other way up.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Make reading axes a ritual: x first (units, direction), then y (transmittance or absorbance), then the bands. Most textbook and lab spectra are transmittance, so students learn “peaks point down” and are then confused by absorbance data from other instruments. These two traces are schematic, not measured, which is why they’re labelled as such. Also mention that “less light got through” and “more light was absorbed” are the same statement.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -426,16 +451,16 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="read-a-property-value-with-its-conditions" class="slide level2">
-<h2>Read a property value with its conditions</h2>
+<section id="the-regions-worth-knowing" class="slide level2">
+<h2>The regions worth knowing</h2>
 
-<img data-src="figures/24-pace.svg" style="width:82.0%" alt="Read a property value with its conditions" class="r-stretch quarto-figure-center"><p class="caption">Read a property value with its conditions</p><p>Approximate normal boiling temperatures are 78 ° C and −24 ° C. Pressure must be comparable.</p>
-</section>
-<section id="predict-what-breaks-during-boiling" class="slide level2">
-<h2>Predict: what breaks during boiling?</h2>
-<p>Do ethanol molecules normally lose their covalent C–O bonds when they pass into the vapour?</p>
+<img data-src="figures/sk-ir-regions.svg" style="width:80.0%" alt="Approximate ranges: alcohol O–H 3200–3600 broad, acid O–H 2500–3300 very broad, N–H 3300–3500, C–H 2850–3000, C=O 1650–1800 strong, fingerprint region below 1500" class="r-stretch quarto-figure-center"><p class="caption">Bars showing approximate IR ranges for O–H, N–H, C–H and C=O</p><ul>
+<li><strong>Above 2500:</strong> bonds to H. Hydrogen bonding makes O–H bands <strong>broad</strong>.</li>
+<li><strong>1650–1800:</strong> C=O, strong and sharp. Its exact position depends on the neighbours.</li>
+<li><strong>Below 1500:</strong> the fingerprint region. Compare whole patterns; don’t assign single bands.</li>
+</ul>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>These are teaching ranges, not exact values, and the same numbers appear on the exercise sheet. Connect the broadness of O–H to today’s first half: in a liquid, every O–H sits in a slightly different hydrogen-bonded environment, so the band smears out. The carboxylic-acid O–H is even broader because acids form strongly hydrogen-bonded pairs. C–H appears in nearly every organic molecule, so it’s rarely informative. Don’t ask students to memorise the fingerprint region; it matters again in Week 4’s spectroscopy unit.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -448,11 +473,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-intact-molecules-separate" class="slide level2">
-<h2>Resolve: intact molecules separate</h2>
-<p>Boiling primarily overcomes attractions between molecules. It is not ordinary decomposition into atoms or bond fragments.</p>
+<section id="three-spectra-side-by-side" class="slide level2">
+<h2>Three spectra side by side</h2>
+
+<img data-src="figures/sk-ir-spectra.svg" style="width:90.0%" alt="Ethanol shows a broad O–H band near 3350 and no C=O; propanone shows a strong C=O near 1715 and no O–H; acetic acid shows a very broad O–H from about 2500 to 3300 plus a C=O" class="r-stretch quarto-figure-center"><p class="caption">Schematic IR traces of ethanol, propanone and acetic acid</p><p>Read each one with two questions: <strong>is there a broad O–H?</strong> and <strong>is there a strong C=O?</strong> The two answers already separate an alcohol, a ketone and an acid.</p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>These are schematic traces drawn to show the key bands, not real measured spectra. Walk through them as a detective. Ethanol: broad O–H, no C=O. Propanone: C=O, nothing above 3000 except C–H. Acetic acid: both, and the O–H is so broad it swallows the C–H region. Ask which band tells the alcohol from the acid when both have O–H: the C=O and the shape of the O–H. Remind them that this is presence-and-absence reasoning, which is exactly what the exercise asks.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -465,12 +491,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="balance-the-polar-head-against-the-chain" class="slide level2">
-<h2>Balance the polar head against the chain</h2>
+<section id="using-ir-to-choose-between-candidates" class="slide level2">
+<h2>Using IR to choose between candidates</h2>
 
-<img data-src="figures/06-solubility-balance.svg" style="width:82.0%" alt="Balance the polar head against the chain" class="r-stretch quarto-figure-center"><p class="caption">Balance the polar head against the chain</p><p>For related alcohols, what changes as the hydrocarbon region becomes larger?</p>
+<img data-src="figures/sk-ir-candidates.svg" style="width:82.0%" alt="Ethanol (O–H yes, C=O no) and dimethyl ether (neither) are ruled out; propanone and propanal (C=O yes, O–H no) both fit a strong 1715 band with no O–H" class="r-stretch quarto-figure-center"><p class="caption">Four C3 and C2 candidates with their predicted O–H and C=O bands</p><p>Predict the bands for <strong>each candidate first</strong>, then compare with the data. Both presence and <strong>absence</strong> count as evidence.</p>
+<div class="try">
+<p><strong>Try it:</strong> a strong band at 1715 cm⁻¹ and no O–H. Does that prove the sample is propanone?</p>
+<div class="fragment">
+<p><strong>No.</strong> It supports a C=O and no O–H, but propanal and many other carbonyl compounds fit too. You need more evidence to name one structure.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>This is the reasoning pattern of the whole spectroscopy week, in miniature. Write the candidate list first; then for each one predict “O–H? C=O?”; then cross out what contradicts the data. Two candidates survive here, and that’s an honest result. An aldehyde also has a characteristic C–H stretch around 2720 and 2820 cm⁻¹, which could separate propanal from propanone; mention it only as a teaser for Week 4. The worst habit to avoid is reasoning backwards from one band to one favourite molecule.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -483,27 +515,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="make-the-comparison-quantitative-enough-to-inspect" class="slide level2">
-<h2>Make the comparison quantitative enough to inspect</h2>
-
-<img data-src="figures/25-pace.svg" style="width:82.0%" alt="Make the comparison quantitative enough to inspect" class="r-stretch quarto-figure-center"><p class="caption">Make the comparison quantitative enough to inspect</p><p>Methanol has one carbon per OH; hexan-1-ol has six carbons per OH. Their nonpolar regions differ substantially.</p>
-</section>
-<section id="explain-a-qualitative-water-trend" class="slide level2">
-<h2>Explain a qualitative water trend</h2>
-
-<img data-src="figures/06-solubility-balance.svg" style="width:82.0%" alt="Explain a qualitative water trend" class="r-stretch quarto-figure-center"><p class="caption">Explain a qualitative water trend</p><p>A larger nonpolar region generally lowers compatibility with water within this related series.</p>
-</section>
-<section id="ionisation-changes-the-hydration-interaction" class="slide level2">
-<h2>Ionisation changes the hydration interaction</h2>
-
-<img data-src="figures/29-pace.svg" style="width:82.0%" alt="Ionisation changes the hydration interaction" class="r-stretch quarto-figure-center"><p class="caption">Ionisation changes the hydration interaction</p><p>Carboxylate can engage in ion–dipole interactions. Neutral acid and its anion need not share a solubility.</p>
-</section>
-<section id="describe-what-is-vibrating" class="slide level2">
-<h2>Describe what is vibrating</h2>
-
-<img data-src="figures/07-bond-vibration.svg" style="width:82.0%" alt="Describe what is vibrating" class="r-stretch quarto-figure-center"><p class="caption">Describe what is vibrating</p><p>An O–H stretching vibration changes separation without ordinarily breaking the bond.</p>
+<section id="what-one-spectrum-can-and-cant-tell-you" class="slide level2">
+<h2>What one spectrum can and can’t tell you</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>observation</th>
+<th>supports</th>
+<th>doesn’t prove</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>strong band near 1715 cm⁻¹</td>
+<td>a C=O is present</td>
+<td>which carbonyl compound</td>
+</tr>
+<tr class="even">
+<td>broad band near 3300 cm⁻¹</td>
+<td>an O–H somewhere in the sample</td>
+<td>that the target has O–H (water?)</td>
+</tr>
+<tr class="odd">
+<td>no band at 1650–1800</td>
+<td>no C=O in the sample</td>
+<td>anything about the rest of the molecule</td>
+</tr>
+<tr class="even">
+<td>it absorbs IR at all</td>
+<td>some vibrations change the dipole</td>
+<td>that it dissolves in water</td>
+</tr>
+</tbody>
+</table>
+<p>A <strong>wet</strong> sample shows water’s broad O–H even if your compound has none. Check the sample before you blame the structure.</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Keep the claims sized to the evidence. The wet-sample row is the one students meet in the lab: a broad O–H in a supposed ether or ketone often means water or an alcohol impurity, or the target assignment is wrong, and one spectrum can’t tell those apart. The last row targets an odd shortcut that turns up in exam answers, linking IR absorption to solubility. They answer different questions: IR probes vibrations, solubility depends on intermolecular interactions with water. Ask students to suggest one extra observation that would separate the wet-sample explanations (a dried sample, a reference spectrum, a boiling point).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -516,26 +568,52 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="read-transmittance-first" class="slide level2">
-<h2>Read transmittance first</h2>
-
-<img data-src="figures/26-pace.svg" style="width:82.0%" alt="Read transmittance first" class="r-stretch quarto-figure-center"><p class="caption">Read transmittance first</p><p>Lower transmittance means more radiation has been absorbed at that wavenumber.</p>
-</section>
-<section id="connect-ir-to-a-changing-dipole" class="slide level2">
-<h2>Connect IR to a changing dipole</h2>
-
-<img data-src="figures/07-bond-vibration.svg" style="width:82.0%" alt="Connect IR to a changing dipole" class="r-stretch quarto-figure-center"><p class="caption">Connect IR to a changing dipole</p><p>The relevant vibration must change the molecular dipole to absorb in this simple interpretation.</p>
-</section>
-<section id="change-the-ordinate-not-the-molecule" class="slide level2">
-<h2>Change the ordinate, not the molecule</h2>
-
-<img data-src="figures/27-pace.svg" style="width:82.0%" alt="Change the ordinate, not the molecule" class="r-stretch quarto-figure-center"><p class="caption">Change the ordinate, not the molecule</p><p>An absorbance feature points upward for the same underlying absorption that produces a transmission dip.</p>
-</section>
-<section id="predict-is-a-tall-upward-ir-feature-impossible" class="slide level2">
-<h2>Predict: is a tall upward IR feature impossible?</h2>
-<p>Your classmate expects only downward peaks. Which axis label would explain the different plot?</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“O is δ−, so it’s O⁻”</td>
+<td>δ is partial; formal charge comes from <strong>bonds and lone pairs</strong></td>
+</tr>
+<tr class="even">
+<td>“two polar bonds, so a polar molecule”</td>
+<td>add the vectors: <strong>geometry decides</strong></td>
+</tr>
+<tr class="odd">
+<td>“it has oxygen, so it hydrogen-bonds with itself”</td>
+<td>a donor needs <strong>O–H or N–H</strong></td>
+</tr>
+<tr class="even">
+<td>“boiling breaks the C–O bond”</td>
+<td>boiling separates <strong>intact molecules</strong></td>
+</tr>
+<tr class="odd">
+<td>“it has an OH, so it dissolves in water”</td>
+<td>weigh the <strong>polar head against the tail</strong></td>
+</tr>
+<tr class="even">
+<td>“the IR peaks point the wrong way”</td>
+<td>check <strong>transmittance vs absorbance</strong></td>
+</tr>
+<tr class="odd">
+<td>“1715 cm⁻¹, so it’s propanone”</td>
+<td>one band supports a <strong>group</strong>, not an identity</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Read each mistake aloud and let the room explain why it’s wrong before revealing the fix. Every row corresponds to an exercise: partial versus formal charge is exercise 1, geometry is 2, donors are 4 and 5, boiling is 8, solubility is 9, axes are 11 and the carbonyl claim is 13. Students who still make one of these should redo that exercise.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -548,236 +626,57 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-absorbance-uses-the-other-direction" class="slide level2">
-<h2>Resolve: absorbance uses the other direction</h2>
-<p>Check whether the ordinate is absorbance or transmittance before interpreting feature direction.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>bond polarity</td>
+<td>O and N pull electrons: δ−</td>
+</tr>
+<tr class="even">
+<td>partial vs formal charge</td>
+<td>uneven sharing vs integer bookkeeping</td>
+</tr>
+<tr class="odd">
+<td>molecular dipole</td>
+<td>vector sum of bond dipoles; <strong>shape decides</strong></td>
+</tr>
+<tr class="even">
+<td>hydrogen bond</td>
+<td>donor O–H/N–H + acceptor lone pair</td>
+</tr>
+<tr class="odd">
+<td>boiling point</td>
+<td>H-bonds, then size and shape; molecules stay intact</td>
+</tr>
+<tr class="even">
+<td>water solubility</td>
+<td>polar head vs hydrocarbon tail; ions dissolve best</td>
+</tr>
+<tr class="odd">
+<td>IR absorption</td>
+<td>a vibration that <strong>changes the dipole</strong>; check the y-axis</td>
+</tr>
+<tr class="even">
+<td>key bands</td>
+<td>O–H 3200–3600 broad · C=O 1650–1800 strong</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> what happens when that O–H gives away its proton: acids and bases (Day 3). <strong>Practice:</strong> <a href="../properties/exercise.html">exercises</a> · <a href="../properties/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="inspect-axes-before-features" class="slide level2">
-<h2>Inspect axes before features</h2>
-
-<img data-src="figures/08-ir-trace.svg" style="width:82.0%" alt="Inspect axes before features" class="r-stretch quarto-figure-center"><p class="caption">Inspect axes before features</p><p>Locate high and low wavenumber. On this conventional display, values decrease to the right.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="recognise-a-broad-alcohol-region" class="slide level2">
-<h2>Recognise a broad alcohol region</h2>
-
-<img data-src="figures/21-pace.svg" style="width:82.0%" alt="Recognise a broad alcohol region" class="r-stretch quarto-figure-center"><p class="caption">Recognise a broad alcohol region</p><p>The simulated alcohol O–H feature is broad around 3200–3600 cm⁻¹, rather than a unique sharp line.</p>
-</section>
-<section id="recognise-carbonyl-evidence" class="slide level2">
-<h2>Recognise carbonyl evidence</h2>
-
-<img data-src="figures/22-pace.svg" style="width:82.0%" alt="Recognise carbonyl evidence" class="r-stretch quarto-figure-center"><p class="caption">Recognise carbonyl evidence</p><p>A strong carbonyl absorption often occurs within roughly 1650–1800 cm⁻¹; environment shifts its position.</p>
-</section>
-<section id="predict-does-1715-cm¹-uniquely-identify-propanone" class="slide level2">
-<h2>Predict: does 1715 cm⁻¹ uniquely identify propanone?</h2>
-<p>Consider whether other ketones, aldehydes or related carbonyl compounds can absorb in the same region.</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-many-candidates-share-co" class="slide level2">
-<h2>Resolve: many candidates share C=O</h2>
-<p>The band supports a carbonyl feature. Further observations are needed to identify one complete structure.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compare-the-candidate-predictions" class="slide level2">
-<h2>Compare the candidate predictions</h2>
-
-<img data-src="figures/09-ir-candidate-comparison.svg" style="width:82.0%" alt="Compare the candidate predictions" class="r-stretch quarto-figure-center"><p class="caption">Compare the candidate predictions</p><p>Which candidate predicts both a carbonyl feature and no alcohol OH region?</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="test-a-named-bond-in-each-drawing" class="slide level2">
-<h2>Test a named bond in each drawing</h2>
-
-<img data-src="figures/19-pace.svg" style="width:82.0%" alt="Test a named bond in each drawing" class="r-stretch quarto-figure-center"><p class="caption">Test a named bond in each drawing</p><p>Propanone contains C=O; propan-1-ol lacks it. Predict the contrast before looking at data.</p>
-</section>
-<section id="try-a-second-carbonyl-candidate" class="slide level2">
-<h2>Try a second carbonyl candidate</h2>
-
-<img data-src="figures/20-pace.svg" style="width:82.0%" alt="Try a second carbonyl candidate" class="r-stretch quarto-figure-center"><p class="caption">Try a second carbonyl candidate</p><p>Propanone and propanal both have a carbonyl. One common band does not distinguish every pair.</p>
-</section>
-<section id="predict-could-a-wet-sample-confuse-oh-interpretation" class="slide level2">
-<h2>Predict: could a wet sample confuse OH interpretation?</h2>
-<p>What extra broad feature might water introduce even when the organic target lacks OH?</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-water-can-add-an-oh-absorption" class="slide level2">
-<h2>Resolve: water can add an OH absorption</h2>
-<p>Sample context matters. Check a suitable reference and other evidence rather than assigning the broad feature automatically.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="name-the-interaction-altered-by-charge" class="slide level2">
-<h2>Name the interaction altered by charge</h2>
-
-<img data-src="figures/10-hydration.svg" style="width:82.0%" alt="Name the interaction altered by charge" class="r-stretch quarto-figure-center"><p class="caption">Name the interaction altered by charge</p><p>How does hydration of carboxylate differ from that of its neutral acid?</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="keep-acid-and-alcohol-oh-environments-distinct" class="slide level2">
-<h2>Keep acid and alcohol OH environments distinct</h2>
-
-<img data-src="figures/18-pace.svg" style="width:82.0%" alt="Keep acid and alcohol OH environments distinct" class="r-stretch quarto-figure-center"><p class="caption">Keep acid and alcohol OH environments distinct</p><p>Both contain O–H, but a carboxylic-acid OH often has a particularly broad IR region.</p>
-</section>
-<section id="inspect-the-acid-oh-region" class="slide level2">
-<h2>Inspect the acid OH region</h2>
-
-<img data-src="figures/23-pace.svg" style="width:82.0%" alt="Inspect the acid OH region" class="r-stretch quarto-figure-center"><p class="caption">Inspect the acid OH region</p><p>This simulated broad acid feature extends across a substantial range, unlike a narrow carbonyl dip.</p>
-</section>
-<section id="predict-what-extra-data-would-extraction-need" class="slide level2">
-<h2>Predict: what extra data would extraction need?</h2>
-<p>Name two quantities beyond aqueous pH and pKa that affect recovered amount.</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-partition-and-volume-matter" class="slide level2">
-<h2>Resolve: partition and volume matter</h2>
-<p>Partition coefficients, phase volumes, initial amount and losses are relevant. A speciation curve alone cannot predict isolated mass.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="combine-the-tools-in-one-explanation" class="slide level2">
-<h2>Combine the tools in one explanation</h2>
-<p>Compare a carbonyl candidate with a noncarbonyl candidate using both interactions and IR predictions.</p>
-<aside class="notes">
-<p>Take a 30-second sketch or explanation, then ask for one observation and the reason linking it to the conclusion. This is included in the 45-minute session.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="your-next-independent-work" class="slide level2">
-<h2>Your next independent work</h2>
-<p>Use the <a href="../properties/exercise.html">exercises</a>, then the <a href="../properties/quiz.html">self-check</a>. Required core problems and optional transfer work are labelled separately.</p>
-</section>
-<section id="one-sentence-exit-explanation" class="slide level2">
-<h2>One-sentence exit explanation</h2>
-<p>Write one chemical claim, the feature that supports it and one limit of the inference.</p>
-<p>The <a href="../reference/reading.html">reading guide</a> provides optional textbook support; no textbook is needed to attempt the local practice.</p>
-<aside class="notes">
-<p>Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.</p>
+<p>Close the loop with the opening question: ethanol boils 100 degrees higher because its O–H can donate a hydrogen bond and the ether’s oxygen can only accept, and the breathalyzer works because ethanol’s bonds absorb infrared light. Tomorrow we stop treating the O–H proton as fixed: acids give it away, bases take it, and the charges we met today (ethoxide, ammonium, benzoate) are the products. Point students to the exercises: problems 1 to 12 are core, 13 to 20 optional transfer.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

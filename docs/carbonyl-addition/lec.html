@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Nucleophilic addition to carbonyls</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,22 +128,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Nucleophilic addition to carbonyls</h1>
-  <p class="subtitle">Week 4 · A common pattern behind different products</p>
+  <p class="subtitle">Week 4 · Day 16 — one pattern behind hydrates, hemiacetals and sugar rings</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-will-you-be-able-to-explain" class="slide level2">
-<h2>What will you be able to explain?</h2>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>Glucose is drawn in every textbook as a six-carbon chain with an aldehyde at the end. Yet in your blood, <strong>well over 99 %</strong> of it is a <strong>ring</strong>, and only a trace is the open-chain aldehyde. The ring forms because the molecule’s own OH adds to its own C=O. That’s the reaction we study today.</p>
+<p>Today we learn the one pattern behind it:</p>
 <ul>
-<li>Explain why carbonyl carbon is electrophilic.</li>
-<li>Follow addition and proton-transfer steps.</li>
-<li>Recognise a hydrate, hemiacetal and acetal.</li>
+<li><strong>Why C=O reacts:</strong> a polar, flat carbonyl with an electron-poor carbon</li>
+<li><strong>The addition step:</strong> nucleophile in, π pair out, tetrahedral product</li>
+<li><strong>Base and acid routes:</strong> hydrates and hemiacetals, with every proton accounted for</li>
+<li><strong>Product classes:</strong> hydrate, hemiacetal, acetal, and how water controls the acetal equilibrium</li>
+<li><strong>Rings and stereocentres:</strong> cyclic hemiacetals, glucose, and new stereocentres</li>
 </ul>
+<p>On Day 13 you reduced ketones with NaBH₄. That was already a carbonyl addition; today we see the general pattern.</p>
 <aside class="notes">
-<p><strong>45-minute block budget (all pauses included):</strong> 0–5 min: polarity and geometry; 5–15 min: labelled hydration and catalyst accounting; 15–27 min: acid activation, alcohol attack and deprotonation; 27–34 min: hydrate/hemiacetal/acetal comparisons and water equilibrium; 34–40 min: ring closure, formula and stereocentre checks; 40–43 min: independent labelled mechanism; 43–45 min: recap. The brief predictions, individual drawing and board discussion occur inside these blocks, not in extra time. The 40-second metadata is a rough planning reference; spend longer on the identified drawings and merge explanations already understood.</p>
-<p>Begin with the previous unit’s electron-pair and charge audit. Ask students to predict a product or bond change before displaying the worked drawing. These slides support discussion and paper drawing; the practice page supplies further explanations.</p>
+<p>Start with the glucose puzzle: the open-chain drawing is the one everyone memorises, but it barely exists in water. Ask the room why a molecule would “prefer” to be a ring. Don’t answer yet; tell them the answer is today’s reaction, and that by the end they’ll be able to draw how the ring forms, arrow by arrow. The link back to Day 13 matters: hydride reduction put H on the carbonyl carbon and O⁻ on oxygen before a proton finished the job. Today the nucleophiles are oxygen nucleophiles (water, alcohols), but the electron movement is exactly the same. Today’s tools come back tomorrow (Day 17), when the carbonyl carries a group that can leave.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -155,29 +165,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw ethanal and distinguish its partial charges from formal charges. What is its carbonyl-carbon geometry?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="the-carbonyl-is-polar-and-planar" class="slide level2">
-<h2>The carbonyl is polar and planar</h2>
+<section id="the-carbonyl-is-polar-and-flat" class="slide level2">
+<h2>The carbonyl is polar and flat</h2>
 
-<img data-src="figures/01-carbonyl-geometry.svg" style="width:85.0%" alt="Ethanal has an oxygen-polarised carbonyl and approximately trigonal planar geometry at its carbonyl carbon." class="r-stretch quarto-figure-center"><p class="caption">Ethanal has an oxygen-polarised carbonyl and approximately trigonal planar geometry at its carbonyl carbon.</p><p>C=O polarity makes carbon electron-poor. Its π pair can move to oxygen when a nucleophile adds.</p>
+<img data-src="figures/sk-polar.svg" style="width:84.0%" alt="Skeletal ethanal with delta plus on the carbonyl carbon and delta minus on oxygen with its two lone pairs, and propanone showing trigonal planar 120 degree angles" class="r-stretch quarto-figure-center"><p class="caption">Ethanal with partial charges and propanone with 120 degree angles</p><p>Oxygen pulls the C=O electrons towards itself, so the carbonyl carbon is <strong>δ+</strong> and attracts nucleophiles. The carbon is <strong>trigonal planar</strong>, so a nucleophile can approach from either face.</p>
 <aside class="notes">
-<p>Partial charges are not formal charges. The neutral starting carbonyl has no formal positive carbon even though the carbon is electrophilic.</p>
+<p>Two separate facts on one slide: polarity explains <em>where</em> nucleophiles attack, flatness explains <em>how</em> (from above or below the plane), which matters later for stereocentres. Probe the classic confusion: δ+ is not a formal charge. In the ordinary Lewis structure of ethanal every atom has formal charge zero. If someone writes C⁺ on a neutral aldehyde, ask them to count bonds: the carbon has four bonds and no lone pairs, so it’s neutral. Partial charge describes uneven electron sharing; formal charge is bookkeeping from the Lewis structure. Day 1’s formal charge rules still apply.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -190,12 +183,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="label-the-original-and-incoming-oxygen" class="slide level2">
-<h2>Label the original and incoming oxygen</h2>
+<section id="one-pattern-nucleophile-in-π-pair-out" class="slide level2">
+<h2>One pattern: nucleophile in, π pair out</h2>
 
-<img data-src="figures/11-labelled-addition.svg" style="width:85.0%" alt="Label the original and incoming oxygen" class="r-stretch quarto-figure-center"><p class="caption">Label the original and incoming oxygen</p><p>Identify which O receives the pi pair and which brings its H into the tetrahedral intermediate.</p>
+<img data-src="figures/sk-pattern.svg" style="width:72.0%" alt="A nucleophile lone pair attacks the carbonyl carbon of propanone while the C=O pi pair moves onto oxygen, giving a tetrahedral alkoxide with Nu, O minus and two methyl groups" class="r-stretch quarto-figure-center"><p class="caption">General nucleophilic addition with two curved arrows</p><p>Arrow 1: a lone pair on the nucleophile forms the new <strong>C–Nu</strong> bond. Arrow 2: the <strong>π pair</strong> moves onto oxygen, which becomes <strong>O⁻</strong>. Carbon goes from planar to <strong>tetrahedral</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> why can’t you draw only the first arrow and keep the C=O?</p>
+<div class="fragment">
+<p><strong>Carbon would have five bonds.</strong> The π bond must open as the new σ bond forms, so carbon stays at four.</p>
+</div>
+</div>
 <aside class="notes">
-<p>A was carbonyl O and becomes O⁻ first, then OH. B was incoming hydroxide O and already carries H. Hydroxide is regenerated by water proton loss.</p>
+<p>This is the slide to come back to all day: every mechanism today is this pattern plus proton transfers. Insist on two arrows that start at electrons: the first from a lone pair (not from the atom letter or the minus sign), the second from the middle of the C=O double bond and ending on oxygen. Many students draw the first arrow and forget the second, producing a five-bonded carbon; the try-it targets exactly that. Mention the Day 1 “valence check” habit here.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -208,12 +207,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="follow-the-proton-transfer-product" class="slide level2">
-<h2>Follow the proton-transfer product</h2>
+<section id="hydroxide-adds-to-ethanal" class="slide level2">
+<h2>Hydroxide adds to ethanal</h2>
 
-<img data-src="figures/11-labelled-addition.svg" style="width:85.0%" alt="Label the original and incoming oxygen" class="r-stretch quarto-figure-center"><p class="caption">Label the original and incoming oxygen</p><p>After water protonates A, draw both labelled OH groups and the regenerated base.</p>
+<img data-src="figures/sk-hydroxide-add.svg" style="width:74.0%" alt="Hydroxide, with its oxygen labelled B, attacks the carbonyl carbon of ethanal with curved arrows; the carbonyl oxygen labelled A becomes O minus in the tetrahedral intermediate, where B is now an OH group" class="r-stretch quarto-figure-center"><p class="caption">Hydroxide oxygen B attacks ethanal; carbonyl oxygen A becomes the alkoxide</p><p>Label the oxygens so you can follow them: <strong>A</strong> was the carbonyl O, <strong>B</strong> came in with hydroxide. Total charge stays <strong>−1</strong> on both sides.</p>
+<div class="try">
+<p><strong>Try it:</strong> after this step, which oxygen carries the negative charge, A or B?</p>
+<div class="fragment">
+<p><strong>A.</strong> It received the π pair. B arrived with its H and is now a neutral OH on carbon.</p>
+</div>
+</div>
 <aside class="notes">
-<p>A was carbonyl O and becomes O⁻ first, then OH. B was incoming hydroxide O and already carries H. Hydroxide is regenerated by water proton loss.</p>
+<p>The oxygen labels are the core skill of today and of the Day 16 demo. Students often put the negative charge on the incoming oxygen because “it was the one with the minus sign”. Ask them to count: B started with one bond and three lone pairs (charge −1), and now has two bonds (to H and to C) and two lone pairs, so it’s neutral. A started with two bonds (the double bond) and two lone pairs, and now has one bond and three lone pairs, so it’s −1. The charge moved because the electrons moved. Also check that both sides show a total charge of −1.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -226,29 +231,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-1" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Add OH⁻ to CH₃CHO on paper. If C–O forms, which existing pair must move so carbon keeps four bond orders?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="addition-changes-carbon-geometry" class="slide level2">
-<h2>Addition changes carbon geometry</h2>
+<section id="water-finishes-the-hydrate" class="slide level2">
+<h2>Water finishes the hydrate</h2>
 
-<img data-src="figures/02-hydrate-addition.svg" style="width:85.0%" alt="Hydroxide adds to ethanal, giving a tetrahedral intermediate with alkoxide oxygen and a newly attached OH." class="r-stretch quarto-figure-center"><p class="caption">Hydroxide adds to ethanal, giving a tetrahedral intermediate with alkoxide oxygen and a newly attached OH.</p><p>Two coupled arrows form C–O and move the C=O π pair to oxygen. The total charge remains −1.</p>
+<img data-src="figures/sk-hydrate-finish.svg" style="width:82.0%" alt="The alkoxide oxygen A takes a proton from water, whose oxygen is labelled C; products are the hydrate with two OH groups, A and B, on one carbon, plus hydroxide containing oxygen C" class="r-stretch quarto-figure-center"><p class="caption">Water protonates the alkoxide to give the hydrate and regenerate hydroxide</p><p>The alkoxide takes <strong>H⁺ from water</strong>; the O–H bonding pair stays on water’s oxygen (C), which leaves as <strong>OH⁻</strong>. Hydroxide is used and then returned, so it’s a <strong>catalyst</strong>.</p>
+<p>Net: CH₃CHO + H₂O ⇌ CH₃CH(OH)₂, a <strong>hydrate</strong> (<em>gem</em>-diol).</p>
 <aside class="notes">
-<p>The carbon has four single bonds after addition. The original carbonyl oxygen bears the negative charge. Check atom identity rather than treating both oxygens as interchangeable.</p>
+<p>Work through the arrows: lone pair on A to the H of water, and the H–O bond pair onto water’s oxygen. Point out that the hydroxide that comes out (oxygen C) is not the same hydroxide that went in (oxygen B). That’s fine: catalysts are regenerated as a species, not as the same atoms. Have students add the two steps and cancel OH⁻ to get the net equation; this is exercise 6. Also stress that a “proton” is never just floating: always name the donor and the acceptor.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -261,12 +250,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="compare-acid-and-base-entry-steps" class="slide level2">
-<h2>Compare acid and base entry steps</h2>
+<section id="how-much-hydrate-it-depends-on-the-carbonyl" class="slide level2">
+<h2>How much hydrate? It depends on the carbonyl</h2>
 
-<img data-src="figures/12-two-starting-routes.svg" style="width:85.0%" alt="Compare acid and base entry steps" class="r-stretch quarto-figure-center"><p class="caption">Compare acid and base entry steps</p><p>Name the first operation in base-catalysed versus acid-catalysed hydration.</p>
+<img data-src="figures/sk-hydrate-extent.svg" style="width:78.0%" alt="Methanal more than 99.9 percent hydrate, ethanal about 50 percent, propanone about 0.1 percent, chloral more than 99.9 percent" class="r-stretch quarto-figure-center"><p class="caption">Hydrate share for methanal, ethanal, propanone and chloral</p><p>The same mechanism works for all four. <strong>Where the equilibrium lies</strong> depends on structure: alkyl groups stabilise the C=O; electron-withdrawing groups (like CCl₃) favour the hydrate.</p>
+<div class="try">
+<p><strong>Try it:</strong> a student draws a correct hydration mechanism for propanone and concludes the flask is all hydrate. What’s missing?</p>
+<div class="fragment">
+<p><strong>Equilibrium data.</strong> A mechanism shows how species interconvert, not how much of each is present; propanone is about 99.9 % ketone.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Base route attacks carbon first; acid route protonates oxygen first. Strong basic anions are protonated in excess acid, so the route must respect acid–base chemistry.</p>
+<p>This slide separates two questions students tend to merge: “can it happen?” (mechanism) and “how much is there at equilibrium?” (thermodynamics). Formaldehyde in water (formalin) is almost entirely the hydrate; acetone barely hydrates at all. Chloral is a nice story: its hydrate is so stable that chloral hydrate is a crystalline solid, and it was one of the first synthetic sedatives in the 19th century. Keep the explanation qualitative: alkyl groups donate electron density and stabilise the carbonyl; electron-withdrawing groups make the carbonyl carbon even more δ+ and favour addition. Exercise 20 is this exact argument.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -279,12 +274,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="choose-a-compatible-attacking-species" class="slide level2">
-<h2>Choose a compatible attacking species</h2>
+<section id="in-acid-the-oxygen-is-protonated-first" class="slide level2">
+<h2>In acid, the oxygen is protonated first</h2>
 
-<img data-src="figures/12-two-starting-routes.svg" style="width:85.0%" alt="Compare acid and base entry steps" class="r-stretch quarto-figure-center"><p class="caption">Compare acid and base entry steps</p><p>Under proton-rich conditions, why use a neutral water/alcohol nucleophile rather than assuming freely persistent OH⁻/RO⁻?</p>
+<img data-src="figures/sk-acid-activation.svg" style="width:86.0%" alt="A lone pair on the ethanal oxygen takes a proton from hydronium, giving the protonated carbonyl with O plus and water; a resonance form shows the positive charge on carbon" class="r-stretch quarto-figure-center"><p class="caption">Hydronium protonates ethanal’s carbonyl oxygen</p><p>A lone pair on the carbonyl O takes <strong>H⁺ from H₃O⁺</strong>. The protonated carbonyl is far more electrophilic: its resonance form puts <strong>+ on carbon</strong>. Now even a weak, neutral nucleophile can add.</p>
 <aside class="notes">
-<p>Base route attacks carbon first; acid route protonates oxygen first. Strong basic anions are protonated in excess acid, so the route must respect acid–base chemistry.</p>
+<p>Compare the two routes explicitly. In base, a strong nucleophile (OH⁻) attacks an ordinary carbonyl. In acid, the carbonyl is made more reactive so that a weak nucleophile (water or an alcohol) can attack. Both arrows matter: the lone pair to H, and the H–O bond of hydronium onto its oxygen. Ask what the charge on the product oxygen is: three bonds and one lone pair, so +1. The resonance form is the reason for activation; it’s the same resonance thinking from Day 3.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -297,11 +292,57 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-2" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Label the original carbonyl oxygen A and incoming hydroxide oxygen B. After addition, which one needs a proton?</p>
+<section id="base-route-vs-acid-route" class="slide level2">
+<h2>Base route vs acid route</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>base-catalysed</th>
+<th>acid-catalysed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>first step</td>
+<td>nucleophile <strong>adds</strong> to C=O</td>
+<td>carbonyl O is <strong>protonated</strong></td>
+</tr>
+<tr class="even">
+<td>nucleophile</td>
+<td>strong, anionic (OH⁻, RO⁻)</td>
+<td>weak, neutral (H₂O, ROH)</td>
+</tr>
+<tr class="odd">
+<td>intermediate</td>
+<td>alkoxide, charge −1</td>
+<td>oxonium, charge +1</td>
+</tr>
+<tr class="even">
+<td>last step</td>
+<td>O⁻ takes H⁺ from water</td>
+<td>O⁺–H gives H⁺ to water</td>
+</tr>
+<tr class="odd">
+<td>catalyst</td>
+<td>OH⁻ regenerated</td>
+<td>H₃O⁺ regenerated</td>
+</tr>
+</tbody>
+</table>
+<div class="try">
+<p><strong>Try it:</strong> in methanol with plenty of acid, why don’t we draw CH₃O⁻ as the nucleophile?</p>
+<div class="fragment">
+<p><strong>It can’t survive there.</strong> Methoxide is a strong base and would be protonated at once; the nucleophile in acid is neutral CH₃OH.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
+<p>This table is the map for the rest of the lecture. The key consistency rule: a mechanism has to respect the acid-base chemistry of the conditions. Strong bases and strong acids don’t coexist, so don’t draw OH⁻ or CH₃O⁻ in a strongly acidic flask, and don’t draw H₃O⁺ in a strongly basic one. Ask students which column the Day 13 NaBH₄ reduction belongs to (base-like: anionic nucleophile first, proton last). Exercise 8 is the try-it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -314,12 +355,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="proton-transfer-completes-the-hydrate" class="slide level2">
-<h2>Proton transfer completes the hydrate</h2>
+<section id="methanol-adds-to-the-activated-carbonyl" class="slide level2">
+<h2>Methanol adds to the activated carbonyl</h2>
 
-<img data-src="figures/03-hydrate-protonation.svg" style="width:85.0%" alt="Water transfers a proton to the alkoxide, giving a geminal diol and regenerating hydroxide." class="r-stretch quarto-figure-center"><p class="caption">Water transfers a proton to the alkoxide, giving a geminal diol and regenerating hydroxide.</p><p>The net reaction is carbonyl + water ⇌ hydrate. The base participates in the pathway and is regenerated.</p>
+<img data-src="figures/sk-methanol-attack.svg" style="width:76.0%" alt="A lone pair on methanol oxygen B attacks the carbonyl carbon of protonated ethanal while the pi pair moves to oxygen A; the product has OH on oxygen A and an oxonium oxygen B with H, CH3 and a positive charge" class="r-stretch quarto-figure-center"><p class="caption">Methanol attacks protonated ethanal</p><p>Same two arrows as before. Now the <strong>incoming</strong> oxygen B ends with three bonds, so it carries the <strong>+1</strong>. Oxygen A becomes a neutral OH.</p>
+<div class="try">
+<p><strong>Try it:</strong> count the bonds and lone pairs on oxygen B after attack. What’s its formal charge?</p>
+<div class="fragment">
+<p><strong>+1.</strong> Three bonds (H, CH₃, C) and one lone pair: 6 − 2 − 3 = +1.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Not every carbonyl is mostly hydrated at equilibrium. Substituents and conditions affect the equilibrium; mechanism and product proportion are different questions.</p>
+<p>This is the mirror image of the base route. In base, the incoming oxygen was neutral after attack and the old carbonyl oxygen took the negative charge. In acid, the old carbonyl oxygen was already protonated (+1) and becomes neutral once the π pair lands on it, while the incoming oxygen becomes +1. The overall charge is +1 throughout. Students often put the + on oxygen A out of habit. The formal charge formula from Day 1 settles it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -332,12 +379,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="count-methanol-oxygen-bonds" class="slide level2">
-<h2>Count methanol oxygen bonds</h2>
+<section id="a-proton-transfer-gives-the-hemiacetal" class="slide level2">
+<h2>A proton transfer gives the hemiacetal</h2>
 
-<img data-src="figures/13-incoming-oxygen-charge.svg" style="width:85.0%" alt="Count methanol oxygen bonds" class="r-stretch quarto-figure-center"><p class="caption">Count methanol oxygen bonds</p><p>After methanol bonds to carbon but still retains H, explain its formal charge.</p>
+<img data-src="figures/sk-hemiacetal.svg" style="width:76.0%" alt="A water lone pair takes the proton on oxonium oxygen B; the product is the neutral hemiacetal with OH on oxygen A and OCH3 on oxygen B, plus hydronium" class="r-stretch quarto-figure-center"><p class="caption">Water removes the proton from oxygen B to give the hemiacetal</p><p>Water removes H⁺ from the <strong>three-bonded oxygen B</strong>, and H₃O⁺ is regenerated. The product, CH₃CH(OH)OCH₃, is a <strong>hemiacetal</strong>: OH and OR on the same carbon.</p>
+<div class="try">
+<p><strong>Try it:</strong> in the hemiacetal, which labelled oxygen is the OH and which is in the OCH₃?</p>
+<div class="fragment">
+<p><strong>A is the OH, B is the OCH₃.</strong> Swapping them would need extra bond-breaking steps that we never drew.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Incoming O goes from two to three bonds and becomes +1. Water takes its H⁺ to give neutral hemiacetal and hydronium.</p>
+<p>The proton must come off the oxygen that has three bonds; taking it from oxygen A would leave an O⁻ next to an O⁺, which is the wrong product. Walk through the full acid sequence once more as “protonate, add, deprotonate” and count: H₃O⁺ in at the start, H₃O⁺ out at the end. The atom-tracking question is exercise 4 and quiz question 2 in a different form; the point is that atoms don’t silently swap places. A drawing in which the methanol oxygen ends up as the OH means something went wrong.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -350,12 +403,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="neutralise-with-an-explicit-acceptor" class="slide level2">
-<h2>Neutralise with an explicit acceptor</h2>
+<section id="hydrate-hemiacetal-acetal" class="slide level2">
+<h2>Hydrate, hemiacetal, acetal</h2>
 
-<img data-src="figures/13-incoming-oxygen-charge.svg" style="width:85.0%" alt="Count methanol oxygen bonds" class="r-stretch quarto-figure-center"><p class="caption">Count methanol oxygen bonds</p><p>Draw the water deprotonation that restores a two-bond oxygen and state its donor-derived product.</p>
+<img data-src="figures/sk-classes.svg" style="width:80.0%" alt="Ethanal, its hydrate with two OH groups, its hemiacetal with OH and OCH3, and its acetal with two OCH3 groups, each with the former carbonyl carbon and its oxygens shaded" class="r-stretch quarto-figure-center"><p class="caption">Aldehyde, hydrate, hemiacetal and acetal with the key carbon shaded</p><p>Look at the <strong>former carbonyl carbon</strong> and its two oxygen groups: OH + OH is a <strong>hydrate</strong>, OH + OR is a <strong>hemiacetal</strong>, and OR + OR is an <strong>acetal</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> classify CH₃CH(OCH₃)₂.</p>
+<div class="fragment">
+<p><strong>Acetal.</strong> Two OCH₃ groups sit on the same carbon. An OCH₃ somewhere else in a molecule would just be an ether.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Incoming O goes from two to three bonds and becomes +1. Water takes its H⁺ to give neutral hemiacetal and hydronium.</p>
+<p>Classification is all about one carbon. A common error is to call any molecule with an OH and an OR a hemiacetal, even if they’re on different carbons; HOCH2CH2OCH3 is an alcohol plus an ether, not a hemiacetal. Run the four names quickly as an oral drill: point at a structure and have the room call out the class. This is exercise 11 and quiz question 4. Note that ketones give the same classes; you’ll sometimes see “hemiketal” and “ketal”, which are older names for the ketone versions.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -368,29 +427,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-3" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>In a proton-rich aqueous medium, which carbonyl atom can accept H⁺? Draw the donor-derived water too.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="acid-can-activate-the-oxygen-first" class="slide level2">
-<h2>Acid can activate the oxygen first</h2>
+<section id="from-hemiacetal-to-acetal" class="slide level2">
+<h2>From hemiacetal to acetal</h2>
 
-<img data-src="figures/04-acid-activation.svg" style="width:85.0%" alt="A carbonyl oxygen lone pair accepts a proton from hydronium, producing protonated carbonyl and water." class="r-stretch quarto-figure-center"><p class="caption">A carbonyl oxygen lone pair accepts a proton from hydronium, producing protonated carbonyl and water.</p><p>Protonating oxygen increases carbonyl electrophilicity. Neutral water or alcohol can then be the attacking nucleophile.</p>
+<img data-src="figures/sk-acetal-steps.svg" style="width:86.0%" alt="The hemiacetal OH is protonated, the methoxy lone pair pushes out water to give an oxocarbenium ion, and a second methanol adds and loses a proton to give the acetal" class="r-stretch quarto-figure-center"><p class="caption">Protonation, loss of water and a second methanol give the acetal</p><p>The OH is a poor leaving group, so acid <strong>protonates it first</strong>. Water leaves, helped by the neighbouring OCH₃ lone pair, and a second CH₃OH adds to the <strong>oxocarbenium ion</strong>.</p>
+<p>Net: CH₃CHO + <strong>2</strong> CH₃OH ⇌ CH₃CH(OCH₃)₂ + H₂O</p>
 <aside class="notes">
-<p>Avoid drawing a strongly basic nucleophile freely coexisting in excess strong acid. For this route use neutral nucleophiles and explicit proton transfers.</p>
+<p>This is more steps than students need to reproduce in full today, but they must know that turning OH into OR is not a single arrow; that’s exercise 12. Point out the logic: OH⁻ is a terrible leaving group, but H₂O is a fine one, so protonation converts a bad leaving group into a good one. That idea returns in substitution and in tomorrow’s acyl chemistry. The oxocarbenium ion is just another strongly activated carbonyl, so the second methanol adds exactly like the first. Count atoms in the net equation: two methanols in, one water out. That balance is exercise 13.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -403,12 +446,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="keep-both-oxygens-in-the-product" class="slide level2">
-<h2>Keep both oxygens in the product</h2>
+<section id="water-decides-the-acetal-equilibrium" class="slide level2">
+<h2>Water decides the acetal equilibrium</h2>
 
-<img data-src="figures/14-labelled-hemiacetal.svg" style="width:85.0%" alt="Keep both oxygens in the product" class="r-stretch quarto-figure-center"><p class="caption">Keep both oxygens in the product</p><p>Which labelled oxygen is OH and which belongs to OCH₃ after hemiacetal formation?</p>
+<img data-src="figures/sk-acetal-equilibrium.svg" style="width:74.0%" alt="Ethanal plus two methanol is in equilibrium with the acetal plus water under acid catalysis; removing water favours the acetal, excess water with acid hydrolyses it back" class="r-stretch quarto-figure-center"><p class="caption">Acetal equilibrium shifted by removing or adding water</p><p>Acid speeds up <strong>both directions</strong> but doesn’t change K. To make the acetal, <strong>remove water</strong>; to undo it, add <strong>excess water</strong> with a little acid. In base, acetals are stable.</p>
+<div class="try">
+<p><strong>Try it:</strong> you dissolve an acetal in dilute aqueous acid. Which way does the equilibrium move?</p>
+<div class="fragment">
+<p><strong>Back to aldehyde + alcohol.</strong> Water is a product of acetal formation, so a large excess of water pushes the reaction backwards (Le Chatelier).</p>
+</div>
+</div>
 <aside class="notes">
-<p>Original carbonyl A gives OH; methanol B gives OCH₃. Swapping labels would require additional bond-breaking/exchange chemistry beyond the drawn sequence.</p>
+<p>Keep two operations separate: adding a catalyst changes how fast equilibrium is reached, while changing composition (removing or adding water) changes where it ends up. Students often say “acid makes the acetal”. Acid makes it <em>possible</em>, but water removal makes it <em>favourable</em>. A practical aside: chemists use this on/off switch to protect a carbonyl as an acetal, do chemistry elsewhere under basic conditions, then remove the acetal with aqueous acid. Sugars linked in starch and cellulose are acetals, which is why acid hydrolysis breaks them down. This is quiz question 6 and exercise 14.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -421,12 +470,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="reject-a-silent-atom-exchange" class="slide level2">
-<h2>Reject a silent atom exchange</h2>
+<section id="does-addition-create-a-stereocentre" class="slide level2">
+<h2>Does addition create a stereocentre?</h2>
 
-<img data-src="figures/14-labelled-hemiacetal.svg" style="width:85.0%" alt="Keep both oxygens in the product" class="r-stretch quarto-figure-center"><p class="caption">Keep both oxygens in the product</p><p>Why cannot the two oxygen labels simply be swapped in the worked drawing?</p>
+<img data-src="figures/sk-stereocentre.svg" style="width:74.0%" alt="The hemiacetal from ethanal has four different groups on the shaded carbon and is a stereocentre; the product from propanone has two identical methyl groups and is not" class="r-stretch quarto-figure-center"><p class="caption">Hemiacetal from ethanal versus hemiketal from propanone</p><p>A tetrahedral carbon is a stereocentre only if its <strong>four groups differ</strong>. From ethanal: CH₃, H, OH, OCH₃, so yes. Attack on either face of the flat C=O is equally likely, giving a <strong>racemic</strong> mixture.</p>
+<div class="try">
+<p><strong>Try it:</strong> methanol adds to propanone to give (CH₃)₂C(OH)OCH₃. Is the former carbonyl carbon a stereocentre?</p>
+<div class="fragment">
+<p><strong>No.</strong> Two of its groups are identical CH₃ groups. Becoming tetrahedral isn’t enough.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Original carbonyl A gives OH; methanol B gives OCH₃. Swapping labels would require additional bond-breaking/exchange chemistry beyond the drawn sequence.</p>
+<p>Connect to Week 2. The flat carbonyl from the first slide is why both enantiomers form: the nucleophile is equally likely to approach from the top face and the bottom face. Assigning R or S is only meaningful once you draw a specific 3D product with wedges; a flat drawing of the hemiacetal is the racemate. Exercises 18 and 19 are this slide. Plant the seed for the next slides: in glucose, the new stereocentre at C1 is the origin of the α and β forms.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -439,29 +494,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-4" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Methanol attacks a protonated aldehyde. Before deprotonation, count the incoming oxygen’s bonds and predict its charge.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="an-alcohol-oxygen-supplies-a-pair" class="slide level2">
-<h2>An alcohol oxygen supplies a pair</h2>
+<section id="a-ring-from-inside-one-molecule" class="slide level2">
+<h2>A ring from inside one molecule</h2>
 
-<img data-src="figures/05-methanol-attack.svg" style="width:85.0%" alt="Methanol attacks the protonated carbonyl; the pi pair moves to oxygen, and the incoming methanol oxygen becomes oxonium." class="r-stretch quarto-figure-center"><p class="caption">Methanol attacks the protonated carbonyl; the pi pair moves to oxygen, and the incoming methanol oxygen becomes oxonium.</p><p>The new tetrahedral species has OH and O⁺HCH₃ attached to the same carbon.</p>
+<img data-src="figures/sk-cyclisation.svg" style="width:74.0%" alt="5-Hydroxypentanal drawn curled up: its terminal OH oxygen B attacks the aldehyde carbon C1 while the pi pair moves to oxygen A; after proton transfers the product is oxan-2-ol, a six-membered ring containing oxygen B, with OH on oxygen A" class="r-stretch quarto-figure-center"><p class="caption">5-Hydroxypentanal closes to a six-membered cyclic hemiacetal</p><p>When the OH and the C=O are in the <strong>same molecule</strong>, the addition closes a ring. Five- and six-membered rings form easily.</p>
+<div class="try">
+<p><strong>Try it:</strong> how many atoms are in the ring, and is any water lost?</p>
+<div class="fragment">
+<p><strong>Six (oxygen B and five carbons), and no water is lost.</strong> Both structures are C₅H₁₀O₂; addition only moves atoms around.</p>
+</div>
+</div>
 <aside class="notes">
-<p>An incoming neutral oxygen changes from two to three bonds and acquires positive charge. The formerly protonated carbonyl oxygen becomes neutral OH after its pi pair returns.</p>
+<p>Draw the chain curled up so the OH is close to the carbonyl carbon; that’s how it actually reacts. Count the ring atoms aloud: O, C5, C4, C3, C2, C1. Students often leave the attacking oxygen outside the ring or remove water as if it were a condensation reaction. A hemiacetal forms by addition, so the formula can’t change; only acetal formation releases water. Also note that the old carbonyl oxygen, A, becomes the OH on C1, and the new ring oxygen is B. This is exercise 15, exercise 16 and quiz question 5.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -474,12 +518,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="classify-by-groups-at-one-carbon" class="slide level2">
-<h2>Classify by groups at one carbon</h2>
+<section id="glucose-is-a-cyclic-hemiacetal" class="slide level2">
+<h2>Glucose is a cyclic hemiacetal</h2>
 
-<img data-src="figures/15-hydrate-versus-hemiacetal.svg" style="width:85.0%" alt="Classify by groups at one carbon" class="r-stretch quarto-figure-center"><p class="caption">Classify by groups at one carbon</p><p>Identify two OH versus OH+OR in the two structures. Which reagent supplies the extra carbon of the methoxy group?</p>
+<img data-src="figures/sk-glucose.svg" style="width:88.0%" alt="Open-chain D-glucose with the C1 aldehyde and C5 hydroxyl shaded, in equilibrium with beta-D-glucopyranose, whose ring contains the C5 oxygen and whose new hemiacetal OH sits on C1" class="r-stretch quarto-figure-center"><p class="caption">Open-chain D-glucose and β-D-glucopyranose</p><p>The <strong>C5 OH</strong> adds to the <strong>C1 aldehyde</strong>, giving a six-membered ring. C1 becomes a new stereocentre, so there are two forms: <strong>β</strong> (about 64 %) and <strong>α</strong> (about 36 %) in water.</p>
 <aside class="notes">
-<p>Water adds no carbon and gives a hydrate. Methanol provides OCH₃ and gives a hemiacetal; local group identity and overall atoms both distinguish them.</p>
+<p>This answers the opening question. The ring is favoured because a six-membered ring is nearly strain-free (the chair you saw in conformations) and the reaction is intramolecular. Point out that this is exactly the previous slide with extra OH groups along the chain. The new stereocentre at C1 is called the anomeric carbon, and α and β are its two configurations; they interconvert through the open chain, which is why a fresh glucose solution slowly changes its optical rotation (mutarotation). Don’t expect students to draw glucose from memory; the goal is to recognise the hemiacetal carbon: the only carbon with two oxygens attached.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -492,12 +536,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-formula-accounting-as-a-check" class="slide level2">
-<h2>Use formula accounting as a check</h2>
+<section id="same-pattern-other-nucleophiles" class="slide level2">
+<h2>Same pattern, other nucleophiles</h2>
 
-<img data-src="figures/15-hydrate-versus-hemiacetal.svg" style="width:85.0%" alt="Classify by groups at one carbon" class="r-stretch quarto-figure-center"><p class="caption">Classify by groups at one carbon</p><p>Compare aldehyde+water with aldehyde+methanol. Why are their products not the same class?</p>
+<img data-src="figures/sk-other-nucleophiles.svg" style="width:84.0%" alt="Propanone plus hydride from NaBH4 gives an alkoxide and then propan-2-ol; propanone plus cyanide gives an alkoxide with a nitrile and then the cyanohydrin" class="r-stretch quarto-figure-center"><p class="caption">Hydride and cyanide add to propanone</p><p>Hydride (from NaBH₄, Day 13) and cyanide add the same way: <strong>alkoxide first, then a proton</strong>. Only the new group on carbon changes.</p>
 <aside class="notes">
-<p>Water adds no carbon and gives a hydrate. Methanol provides OCH₃ and gives a hemiacetal; local group identity and overall atoms both distinguish them.</p>
+<p>Show how far the single pattern reaches. With NaBH₄ the “nucleophile” is a hydride delivered from boron; with cyanide a new C–C bond forms, which is how chemists extend a carbon chain. Keep the claims modest: we’re showing the electron pattern, not a full scope of reagents or conditions. Ask the room what product NaBH₄ gives from ethanal (ethanol) to check they can transfer the pattern. Hydride addition is effectively irreversible, whereas cyanohydrin formation is an equilibrium like hydration (cyanohydrins of ketones can fall back to ketone and HCN), which links back to the mechanism-versus-equilibrium slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -510,29 +554,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-5" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>After attack, choose the oxygen that must lose a proton to form a neutral hemiacetal. What base can take it?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="deprotonate-the-incoming-oxygen" class="slide level2">
-<h2>Deprotonate the incoming oxygen</h2>
+<section id="aldehydes-keep-the-addition-esters-can-lose-a-group" class="slide level2">
+<h2>Aldehydes keep the addition; esters can lose a group</h2>
 
-<img data-src="figures/06-hemiacetal-neutral.svg" style="width:85.0%" alt="Water accepts a proton from the methoxy oxonium group, forming a neutral hemiacetal and hydronium." class="r-stretch quarto-figure-center"><p class="caption">Water accepts a proton from the methoxy oxonium group, forming a neutral hemiacetal and hydronium.</p><p>A hemiacetal has <strong>OH and OR attached to the same carbon</strong>. The acid catalyst is regenerated.</p>
+<img data-src="figures/sk-aldehyde-vs-ester.svg" style="width:86.0%" alt="The tetrahedral alkoxide from ethanal and hydroxide has only H and CH3 besides oxygen; the one from methyl ethanoate has a methoxy group, and curved arrows show the O minus pair re-forming C=O as methoxide leaves" class="r-stretch quarto-figure-center"><p class="caption">Tetrahedral intermediates from ethanal and from methyl ethanoate</p><p>Ask what else is on the carbonyl carbon. An aldehyde or ketone has only <strong>H or C</strong>, which can’t leave. An ester has <strong>OR</strong>, so the C=O can re-form and push RO⁻ out: <strong>addition, then elimination</strong>.</p>
 <aside class="notes">
-<p>Do not remove the proton from the wrong atom without considering the resulting structure. Ask students to label original carbonyl oxygen and incoming alcohol oxygen.</p>
+<p>This is the bridge to tomorrow (Day 17). The first step is identical: a nucleophile adds and gives a tetrahedral intermediate. What differs is the next step: in an aldehyde, H⁻ or CH₃⁻ are hopeless leaving groups, so the intermediate just picks up a proton. In an ester, the oxygen lone pair can push back down to re-form C=O and expel CH₃O⁻. Don’t over-claim: whether a group actually leaves depends on conditions and leaving-group ability, which is what Day 17 is about. Exercise 17 asks exactly this comparison.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -545,12 +572,56 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="ring-closure-does-not-imply-elimination" class="slide level2">
-<h2>Ring closure does not imply elimination</h2>
-
-<img data-src="figures/16-cyclisation-formula.svg" style="width:85.0%" alt="Ring closure does not imply elimination" class="r-stretch quarto-figure-center"><p class="caption">Ring closure does not imply elimination</p><p>Compare before/after formulas for the five-hydroxy aldehyde cyclisation.</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>only one arrow, so carbon has five bonds</td>
+<td>the <strong>π pair</strong> must move to O</td>
+</tr>
+<tr class="even">
+<td>the minus charge kept on the incoming OH⁻</td>
+<td>count bonds: the <strong>old C=O oxygen</strong> is O⁻</td>
+</tr>
+<tr class="odd">
+<td>OH⁻ or CH₃O⁻ drawn in strong acid</td>
+<td>in acid, use <strong>neutral</strong> H₂O or CH₃OH</td>
+</tr>
+<tr class="even">
+<td>H⁺ appearing or vanishing</td>
+<td>name the <strong>donor and acceptor</strong> every time</td>
+</tr>
+<tr class="odd">
+<td>oxygen labels swapped between steps</td>
+<td>label <strong>A and B</strong> and follow them</td>
+</tr>
+<tr class="even">
+<td>water removed when a hemiacetal ring forms</td>
+<td>addition: <strong>same formula</strong></td>
+</tr>
+<tr class="odd">
+<td>OH turned into OR in one arrow</td>
+<td>acetal needs <strong>protonation, loss of water, second ROH</strong></td>
+</tr>
+<tr class="even">
+<td>“a valid mechanism, so it’s all hydrate”</td>
+<td>the <strong>equilibrium</strong> decides the amount</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>The terminal alcohol oxygen becomes ring O; the original carbonyl O becomes OH. No net water is removed in hemiacetal addition/proton transfer.</p>
+<p>Read each mistake aloud and ask the room why it’s wrong before revealing the fix. Every row maps to an exercise: arrows (3, 9), charges (4, 9), conditions (8), proton accounting (5, 10), labels (4), ring formula (16), acetal steps (12) and pathway versus population (20). Students who still make one of these know exactly which exercise to redo.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -563,12 +634,53 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="locate-every-ring-atom" class="slide level2">
-<h2>Locate every ring atom</h2>
-
-<img data-src="figures/16-cyclisation-formula.svg" style="width:85.0%" alt="Ring closure does not imply elimination" class="r-stretch quarto-figure-center"><p class="caption">Ring closure does not imply elimination</p><p>Draw the six-membered ring and mark the oxygen that was the terminal OH versus the oxygen now in its OH substituent.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>carbonyl</td>
+<td>δ+ carbon, planar, attacked from either face</td>
+</tr>
+<tr class="even">
+<td>addition</td>
+<td>Nu in, π pair to O, tetrahedral carbon</td>
+</tr>
+<tr class="odd">
+<td>base route</td>
+<td>add, then protonate O⁻ (OH⁻ catalyst)</td>
+</tr>
+<tr class="even">
+<td>acid route</td>
+<td>protonate O, add, deprotonate (H₃O⁺ catalyst)</td>
+</tr>
+<tr class="odd">
+<td>hydrate · hemiacetal · acetal</td>
+<td>OH+OH · OH+OR · OR+OR on one carbon</td>
+</tr>
+<tr class="even">
+<td>acetal equilibrium</td>
+<td>remove water to form; excess water to hydrolyse</td>
+</tr>
+<tr class="odd">
+<td>rings</td>
+<td>internal OH → cyclic hemiacetal (glucose)</td>
+</tr>
+<tr class="even">
+<td>mechanism vs amount</td>
+<td>a pathway doesn’t give the equilibrium mixture</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> acyl chemistry, when a group can leave (Day 17). <strong>Practice:</strong> <a href="../carbonyl-addition/exercise.html">exercises</a> · <a href="../carbonyl-addition/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>The terminal alcohol oxygen becomes ring O; the original carbonyl O becomes OH. No net water is removed in hemiacetal addition/proton transfer.</p>
+<p>Recite the core sequence once: nucleophile in, π pair out, then fix the charges with proton transfers using real donors and acceptors. Close the loop on the opening: glucose is a ring because its own C5 OH adds to its own C1 aldehyde, and that ring is a hemiacetal. Point students to the exercises: problems 1–12 are the core, 13–20 are optional transfer. The Day 16 demo lets them step through the hydrate and hemiacetal routes and check each oxygen’s charge.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -580,268 +692,6 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-6" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>At the same tetrahedral carbon compare OH+OR with OR+OR. Name the two product classes without changing the drawing.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="one-substitution-changes-the-class" class="slide level2">
-<h2>One substitution changes the class</h2>
-
-<img data-src="figures/07-hemiacetal-acetal.svg" style="width:85.0%" alt="A hemiacetal carbon has one OH and one OR group; an acetal carbon has two OR groups." class="r-stretch quarto-figure-center"><p class="caption">A hemiacetal carbon has one OH and one OR group; an acetal carbon has two OR groups.</p><p>A second alcohol can ultimately give an acetal under acid catalysis, with water formed. Additional steps are required.</p>
-<aside class="notes">
-<p>The left/right diagrams compare product classes; they do not represent a single elementary OH-to-OR substitution. Students are required to understand the hemiacetal steps first.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="four-groups-must-be-different" class="slide level2">
-<h2>Four groups must be different</h2>
-
-<img data-src="figures/17-new-stereocentre.svg" style="width:85.0%" alt="Four groups must be different" class="r-stretch quarto-figure-center"><p class="caption">Four groups must be different</p><p>Compare the former carbonyl carbon after methanol addition to ethanal versus propanone.</p>
-<aside class="notes">
-<p>Ethanal product hasCH₃, H, OH, OCH₃ and is stereogenic. Propanone product retains two identical methyl groups, so its tetrahedral carbon is not a simple stereocentre.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="separate-tetrahedral-from-chiral" class="slide level2">
-<h2>Separate tetrahedral from chiral</h2>
-
-<img data-src="figures/17-new-stereocentre.svg" style="width:85.0%" alt="Four groups must be different" class="r-stretch quarto-figure-center"><p class="caption">Four groups must be different</p><p>Why can an addition change geometry without making a stereocentre?</p>
-<aside class="notes">
-<p>Ethanal product hasCH₃, H, OH, OCH₃ and is stereogenic. Propanone product retains two identical methyl groups, so its tetrahedral carbon is not a simple stereocentre.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-7" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Balance aldehyde+two alcohols⇌acetal+water. Predict which direction excess water favours and separate that from acid catalysis.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="conditions-control-the-equilibrium-mixture" class="slide level2">
-<h2>Conditions control the equilibrium mixture</h2>
-
-<img data-src="figures/08-water-equilibrium.svg" style="width:85.0%" alt="The acetal equilibrium can be shifted toward acetal by removing water or toward hydrolysis using excess water under acid catalysis." class="r-stretch quarto-figure-center"><p class="caption">The acetal equilibrium can be shifted toward acetal by removing water or toward hydrolysis using excess water under acid catalysis.</p><p>Acid speeds both directions. Changing composition can shift the equilibrium mixture; catalysis alone does not change K.</p>
-<aside class="notes">
-<p>This is a composition argument, not an experimental recipe. Do not describe an equilibrium arrow as proof of equal concentrations.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="a-pathway-does-not-give-the-equilibrium-amount" class="slide level2">
-<h2>A pathway does not give the equilibrium amount</h2>
-
-<img data-src="figures/18-mechanism-vs-population.svg" style="width:85.0%" alt="A pathway does not give the equilibrium amount" class="r-stretch quarto-figure-center"><p class="caption">A pathway does not give the equilibrium amount</p><p>Identify what a valid hydration mechanism accounts for and what it does not calculate.</p>
-<aside class="notes">
-<p>Need compatible equilibrium/structure/condition evidence. A valid accessible pathway does not establish100% conversion to hydrate.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="state-the-missing-evidence" class="slide level2">
-<h2>State the missing evidence</h2>
-
-<img data-src="figures/18-mechanism-vs-population.svg" style="width:85.0%" alt="A pathway does not give the equilibrium amount" class="r-stretch quarto-figure-center"><p class="caption">A pathway does not give the equilibrium amount</p><p>What information would justify calling the hydrate the dominant solution form?</p>
-<aside class="notes">
-<p>Need compatible equilibrium/structure/condition evidence. A valid accessible pathway does not establish100% conversion to hydrate.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-8" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw HO(CH₂)₄CHO and connect the alcohol O to aldehyde C. How many atoms belong to the new ring?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="an-internal-oh-can-close-a-ring" class="slide level2">
-<h2>An internal OH can close a ring</h2>
-
-<img data-src="figures/09-cyclic-hemiacetal.svg" style="width:85.0%" alt="The terminal alcohol of 5-hydroxypentanal can add to its aldehyde to form a six-membered cyclic hemiacetal." class="r-stretch quarto-figure-center"><p class="caption">The terminal alcohol of 5-hydroxypentanal can add to its aldehyde to form a six-membered cyclic hemiacetal.</p><p>Intramolecular addition conserves the molecular formula. The ring includes the attacking oxygen and the original carbonyl carbon.</p>
-<aside class="notes">
-<p>Count the six ring atoms: oxygen plus five carbons. This provides a chemical bridge to sugar rings without assuming carbohydrate biochemistry.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-9" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Compare CH₃CHO and CH₃C(=O)OCH₃. Which group attached at carbonyl C introduces a possible leaving-group pathway?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="ask-what-else-is-bonded-to-carbonyl-carbon" class="slide level2">
-<h2>Ask what else is bonded to carbonyl carbon</h2>
-
-<img data-src="figures/10-addition-vs-substitution.svg" style="width:85.0%" alt="An aldehyde bears H at its carbonyl carbon, while an ester bears OR that can participate in an addition–elimination pathway." class="r-stretch quarto-figure-center"><p class="caption">An aldehyde bears H at its carbonyl carbon, while an ester bears OR that can participate in an addition–elimination pathway.</p><p>Aldehydes and ketones ordinarily retain their H/carbon substituents during addition. Acyl derivatives introduce leaving-group chemistry next.</p>
-<aside class="notes">
-<p>Do not imply that alkoxide departs freely from every tetrahedral intermediate. Protonation state, leaving-group ability and conditions determine the viable pathway.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="same-pattern-different-nucleophiles" class="slide level2">
-<h2>Same pattern, different nucleophiles</h2>
-<p>Water gives a hydrate; an alcohol can give a hemiacetal; a hydride equivalent gives an alcohol after proton donation.</p>
-<p>Locate the new bond in each product. Keep reagent scope and conditions explicit.</p>
-</section>
-<section id="a-mechanism-and-an-equilibrium-answer-different-questions" class="slide level2">
-<h2>A mechanism and an equilibrium answer different questions</h2>
-<p>The mechanism accounts for the path and intermediates. The equilibrium describes the relative amounts of species under stated conditions.</p>
-<p>Drawing an accessible hydrate does not prove it is the major species.</p>
-</section>
-<section id="account-for-each-oxygen" class="slide level2">
-<h2>Account for each oxygen</h2>
-<p>Start with CH₃CHO and CH₃OH. Label the aldehyde oxygen A and alcohol oxygen B.</p>
-<p>In the hemiacetal, which is OH and which is OCH₃? What would be wrong with exchanging their atom labels without an extra process?</p>
-</section>
-<section id="draw-the-hemiacetal-sequence-without-the-slides" class="slide level2">
-<h2>Draw the hemiacetal sequence without the slides</h2>
-<p>Start from CH₃CHO and CH₃OH under acid catalysis. Draw activation, attack and deprotonation, labelling both oxygen atoms throughout.</p>
-<aside class="notes">
-<p>Reserve 2 minutes for a complete individual drawing, then compare one mechanism at the board. This is application of the previous steps, not a new reaction family.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-<aside class="notes">
-<p>Session budget45 minutes:roughly27–29 minutes of concise explanations/visual inspection, about 11–13 minutes of individual drawing and predictions distributed through the sequence, and4–6 minutes of discussion/closing checks. Adjust to observed errors; the 40 second metadata is a planning guide, not a quota. Required paper practice and optional transfer are available in the exercises.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-the-same-reasoning-in-practice" class="slide level2">
-<h2>Use the same reasoning in practice</h2>
-<p>Complete the <a href="../carbonyl-addition/exercise.html">exercises</a>, then the <a href="../carbonyl-addition/quiz.html">self-check</a>.</p>
-<p>Optional textbook support: selected Solomons chapter 16 sections. The <a href="../reference/reading.html">reading guide</a> explains the provisional book mapping.</p>
 
 
 </section>

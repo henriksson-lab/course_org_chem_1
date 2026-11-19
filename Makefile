@@ -10,10 +10,8 @@ figures:
 	python3 tools/make_foundation_figures.py
 	python3 tools/make_reactivity_figures.py
 	python3 tools/make_application_figures.py
-	python3 tools/make_pacing_foundation_figures.py
-	python3 tools/make_pacing_reactivity_figures.py
-	python3 tools/make_pacing_application_figures.py
 	python3 tools/make_structure_figures.py
+	for f in tools/make_sk_*.py; do python3 $$f || exit 1; done
 	Rscript tools/make-r-figures.R
 	python3 tools/asset_register.py
 

@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img"><title>Hydride addition to acetone, then protonation by water</title><desc>Step 1: a hydride from NaBH4, drawn as H minus, adds to the carbonyl carbon of acetone and the pi pair moves to oxygen. Step 2: the alkoxide takes a proton from water, giving propan-2-ol and hydroxide.</desc>
+<defs><marker id="headaf3b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#af3b45"/></marker></defs>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="470" rx="12" fill="#f7fafc"/>
+<svg x="220.0" y="6.5" width="220.0" height="207.0" viewBox="0 0 220.0 207.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 37.3,171.5 L 110.0,129.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 110.0,129.5 L 182.7,171.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 116.3,133.1 L 116.3,95.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 116.3,95.9 L 116.3,58.6' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 103.7,133.1 L 103.7,95.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 103.7,95.9 L 103.7,58.6' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 106.4,131.6 L 110.0,129.5 L 113.6,131.6' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-3' d='M 100.9 45.6
+Q 100.9 40.8, 103.3 38.1
+Q 105.6 35.5, 110.0 35.5
+Q 114.4 35.5, 116.7 38.1
+Q 119.1 40.8, 119.1 45.6
+Q 119.1 50.4, 116.7 53.1
+Q 114.3 55.8, 110.0 55.8
+Q 105.6 55.8, 103.3 53.1
+Q 100.9 50.4, 100.9 45.6
+M 110.0 53.6
+Q 113.0 53.6, 114.6 51.6
+Q 116.3 49.5, 116.3 45.6
+Q 116.3 41.7, 114.6 39.7
+Q 113.0 37.7, 110.0 37.7
+Q 107.0 37.7, 105.3 39.7
+Q 103.7 41.6, 103.7 45.6
+Q 103.7 49.6, 105.3 51.6
+Q 107.0 53.6, 110.0 53.6
+' fill='#AF3B45'/>
+</svg>
+<circle cx="348.43007096975856" cy="33.00325243342783" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="354.16583533326906" cy="41.19477287631774" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="305.83416466673094" cy="41.19477287631776" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="311.56992903024144" cy="33.00325243342783" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<svg x="58.5" y="118.5" width="123.0" height="123.0" viewBox="0 0 123.0 123.0" overflow="visible">
+<path class='atom-0' d='M 48.5 51.6
+L 51.2 51.6
+L 51.2 60.0
+L 61.3 60.0
+L 61.3 51.6
+L 64.0 51.6
+L 64.0 71.4
+L 61.3 71.4
+L 61.3 62.3
+L 51.2 62.3
+L 51.2 71.4
+L 48.5 71.4
+L 48.5 51.6
+' fill='#153747'/>
+<path class='atom-0' d='M 67.7 54.9
+L 74.5 54.9
+L 74.5 56.3
+L 67.7 56.3
+L 67.7 54.9
+' fill='#153747'/>
+</svg>
+<circle cx="137.49612742380526" cy="166.40901316960307" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="140.91632885706196" cy="175.80593937746218" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<path d="M 145.1 170.0 Q 220.5 93.5 318.2 138.2" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<path d="M 331.4 92.6 Q 376.8 107.4 361.4 62.2" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<text x="120" y="212" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">from NaBH₄</text>
+<line x1="475.0" y1="115" x2="565.0" y2="115" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="520" y="93" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">step 1</text>
+<svg x="610.0" y="5.0" width="220.0" height="220.0" viewBox="0 0 220.0 220.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 33.4,146.8 L 106.1,104.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 106.1,104.8 L 64.1,32.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 106.1,104.8 L 168.3,68.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 106.1,104.8 L 123.4,134.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 123.4,134.8 L 140.7,164.8' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-3' d='M 171.1 52.9
+L 173.8 52.9
+L 173.8 61.3
+L 183.9 61.3
+L 183.9 52.9
+L 186.6 52.9
+L 186.6 72.7
+L 183.9 72.7
+L 183.9 63.6
+L 173.8 63.6
+L 173.8 72.7
+L 171.1 72.7
+L 171.1 52.9
+' fill='#153747'/>
+<path class='atom-4' d='M 139.0 177.6
+Q 139.0 172.9, 141.4 170.2
+Q 143.7 167.6, 148.1 167.6
+Q 152.5 167.6, 154.9 170.2
+Q 157.2 172.9, 157.2 177.6
+Q 157.2 182.5, 154.8 185.2
+Q 152.5 187.9, 148.1 187.9
+Q 143.8 187.9, 141.4 185.2
+Q 139.0 182.5, 139.0 177.6
+M 148.1 185.7
+Q 151.1 185.7, 152.8 183.7
+Q 154.4 181.6, 154.4 177.6
+Q 154.4 173.7, 152.8 171.8
+Q 151.1 169.8, 148.1 169.8
+Q 145.1 169.8, 143.4 171.8
+Q 141.8 173.7, 141.8 177.6
+Q 141.8 181.6, 143.4 183.7
+Q 145.1 185.7, 148.1 185.7
+' fill='#AF3B45'/>
+<path class='atom-4' d='M 160.0 170.8
+L 166.8 170.8
+L 166.8 172.3
+L 160.0 172.3
+L 160.0 170.8
+' fill='#AF3B45'/>
+</svg>
+<circle cx="738.1053395016047" cy="199.91026093681506" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="733.1053395016047" cy="191.2500068989707" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="775.4521270189223" cy="202.59679441628825" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="766.7918729810779" cy="207.59679441628825" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="778.1386604983954" cy="165.25000689897064" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="783.1386604983954" cy="173.910260936815" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<line x1="40" y1="235" x2="920" y2="235" stroke="#c9d6dd" stroke-width="2"/>
+<svg x="2.5" y="237.5" width="235.0" height="235.0" viewBox="0 0 235.0 235.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 108.1,206.5 L 108.1,122.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 108.1,122.5 L 24.1,122.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 108.1,122.5 L 108.1,51.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 108.1,122.5 L 144.2,122.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 144.2,122.5 L 180.3,122.5' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-3' d='M 100.4 28.5
+L 103.1 28.5
+L 103.1 37.0
+L 113.2 37.0
+L 113.2 28.5
+L 115.9 28.5
+L 115.9 48.4
+L 113.2 48.4
+L 113.2 39.2
+L 103.1 39.2
+L 103.1 48.4
+L 100.4 48.4
+L 100.4 28.5
+' fill='#153747'/>
+<path class='atom-4' d='M 183.0 122.5
+Q 183.0 117.8, 185.4 115.1
+Q 187.8 112.4, 192.1 112.4
+Q 196.5 112.4, 198.9 115.1
+Q 201.2 117.8, 201.2 122.5
+Q 201.2 127.3, 198.9 130.1
+Q 196.5 132.8, 192.1 132.8
+Q 187.8 132.8, 185.4 130.1
+Q 183.0 127.4, 183.0 122.5
+M 192.1 130.5
+Q 195.2 130.5, 196.8 128.5
+Q 198.4 126.5, 198.4 122.5
+Q 198.4 118.6, 196.8 116.7
+Q 195.2 114.7, 192.1 114.7
+Q 189.1 114.7, 187.5 116.6
+Q 185.8 118.6, 185.8 122.5
+Q 185.8 126.5, 187.5 128.5
+Q 189.1 130.5, 192.1 130.5
+' fill='#AF3B45'/>
+<path class='atom-4' d='M 204.1 115.7
+L 210.9 115.7
+L 210.9 117.1
+L 204.1 117.1
+L 204.1 115.7
+' fill='#AF3B45'/>
+</svg>
+<circle cx="199.64702000000003" cy="385.956" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="189.64702000000003" cy="385.956" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="220.64702000000003" cy="354.956" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="220.64702000000003" cy="364.956" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="189.64702000000003" cy="333.956" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="199.64702000000003" cy="333.956" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="245" y="402" font-family="DejaVu Sans, sans-serif" font-size="36" fill="#153747" text-anchor="middle" font-weight="normal">+</text>
+<svg x="276.5" y="269.5" width="207.0" height="171.0" viewBox="0 0 207.0 171.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 51.0,49.2 L 81.8,49.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 81.8,49.2 L 112.6,49.2' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 132.1,62.3 L 145.6,85.8' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 145.6,85.8 L 159.2,109.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 32.7 39.3
+L 35.4 39.3
+L 35.4 47.7
+L 45.6 47.7
+L 45.6 39.3
+L 48.3 39.3
+L 48.3 59.1
+L 45.6 59.1
+L 45.6 49.9
+L 35.4 49.9
+L 35.4 59.1
+L 32.7 59.1
+L 32.7 39.3
+' fill='#153747'/>
+<path class='atom-1' d='M 115.4 49.2
+Q 115.4 44.5, 117.8 41.8
+Q 120.1 39.2, 124.5 39.2
+Q 128.9 39.2, 131.2 41.8
+Q 133.6 44.5, 133.6 49.2
+Q 133.6 54.1, 131.2 56.8
+Q 128.8 59.5, 124.5 59.5
+Q 120.1 59.5, 117.8 56.8
+Q 115.4 54.1, 115.4 49.2
+M 124.5 57.3
+Q 127.5 57.3, 129.1 55.3
+Q 130.8 53.2, 130.8 49.2
+Q 130.8 45.3, 129.1 43.4
+Q 127.5 41.4, 124.5 41.4
+Q 121.5 41.4, 119.8 43.4
+Q 118.2 45.3, 118.2 49.2
+Q 118.2 53.2, 119.8 55.3
+Q 121.5 57.3, 124.5 57.3
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 158.7 112.0
+L 161.4 112.0
+L 161.4 120.4
+L 171.6 120.4
+L 171.6 112.0
+L 174.3 112.0
+L 174.3 131.8
+L 171.6 131.8
+L 171.6 122.7
+L 161.4 122.7
+L 161.4 131.8
+L 158.7 131.8
+L 158.7 112.0
+' fill='#153747'/>
+</svg>
+<circle cx="417.70321747266075" cy="298.14023297360865" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="424.1310935695261" cy="305.8006774047985" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="389.4410756958891" cy="294.8629567830504" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="399.1003339587798" cy="292.2747663320252" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<path d="M 226.2 357.6 Q 247.9 303.2 302.3 325.0" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<path d="M 360.6 319.9 Q 355.6 350.9 384.5 338.7" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<line x1="495.0" y1="355" x2="585.0" y2="355" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="540" y="333" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">step 2</text>
+<text x="610" y="365" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="start" font-weight="normal">(CH₃)₂CHOH + HO⁻</text>
+<text x="610" y="410" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="start" font-weight="normal">water supplies the H</text>
+</svg>

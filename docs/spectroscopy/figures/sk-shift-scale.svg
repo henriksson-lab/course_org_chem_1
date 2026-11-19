@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img"><title>Where protons appear on the shift scale</title><desc>Typical 1H shift ranges: alkyl C-H 0.9 to 1.7, H-C-C=O 2.0 to 2.6, H-C-O 3.3 to 4.3, alkene 4.6 to 6.5, aromatic 6.5 to 8, aldehyde 9.5 to 10, carboxylic acid 10 to 12 ppm</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="360" rx="12" fill="#f7fafc"/>
+<line x1="40" y1="250" x2="920" y2="250" stroke="#153747" stroke-width="2"/>
+<line x1="40.0" y1="250" x2="40.0" y2="257" stroke="#153747" stroke-width="2"/>
+<text x="40.0" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#153747" text-anchor="middle" font-weight="normal">12</text>
+<line x1="186.66666666666666" y1="250" x2="186.66666666666666" y2="257" stroke="#153747" stroke-width="2"/>
+<text x="186.66666666666666" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#153747" text-anchor="middle" font-weight="normal">10</text>
+<line x1="333.3333333333333" y1="250" x2="333.3333333333333" y2="257" stroke="#153747" stroke-width="2"/>
+<text x="333.3333333333333" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#153747" text-anchor="middle" font-weight="normal">8</text>
+<line x1="480.0" y1="250" x2="480.0" y2="257" stroke="#153747" stroke-width="2"/>
+<text x="480.0" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#153747" text-anchor="middle" font-weight="normal">6</text>
+<line x1="626.6666666666666" y1="250" x2="626.6666666666666" y2="257" stroke="#153747" stroke-width="2"/>
+<text x="626.6666666666666" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#153747" text-anchor="middle" font-weight="normal">4</text>
+<line x1="773.3333333333334" y1="250" x2="773.3333333333334" y2="257" stroke="#153747" stroke-width="2"/>
+<text x="773.3333333333334" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#153747" text-anchor="middle" font-weight="normal">2</text>
+<line x1="920.0" y1="250" x2="920.0" y2="257" stroke="#153747" stroke-width="2"/>
+<text x="920.0" y="277" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#153747" text-anchor="middle" font-weight="normal">0</text>
+<text x="480.0" y="306" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">chemical shift δ / ppm</text>
+<text x="40" y="330" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#af3b45" text-anchor="start" font-weight="normal">← downfield: H near O or C=O</text>
+<text x="920" y="330" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#153747" text-anchor="end" font-weight="normal">upfield: plain alkyl H →</text>
+<rect x="795.3333333333334" y="150" width="58.666666666666515" height="46" rx="8" fill="#dde3e7" stroke="none"/>
+<text x="824.6666666666666" y="140" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="bold">alkyl C–H</text>
+<rect x="729.3333333333334" y="80" width="44.0" height="46" rx="8" fill="#d2eadf" stroke="none"/>
+<text x="751.3333333333334" y="70" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">H–C–C=O</text>
+<rect x="604.6666666666667" y="150" width="73.33333333333326" height="46" rx="8" fill="#f3d5d8" stroke="none"/>
+<text x="641.3333333333334" y="140" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#af3b45" text-anchor="middle" font-weight="bold">H–C–O</text>
+<rect x="443.3333333333333" y="80" width="139.33333333333343" height="46" rx="8" fill="#e7ecef" stroke="none"/>
+<text x="513.0" y="70" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="bold">C=C–H</text>
+<rect x="333.3333333333333" y="150" width="110.0" height="46" rx="8" fill="#e7ecef" stroke="none"/>
+<text x="388.3333333333333" y="140" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="bold">Ar–H</text>
+<rect x="186.66666666666666" y="80" width="36.666666666666686" height="46" rx="8" fill="#cfe3ec" stroke="none"/>
+<text x="205.0" y="70" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">CHO</text>
+<rect x="40.0" y="150" width="146.66666666666666" height="46" rx="8" fill="#cfe3ec" stroke="none"/>
+<text x="113.33333333333333" y="140" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">COOH</text>
+<line x1="617.8666666666667" y1="210" x2="617.8666666666667" y2="248" stroke="#af3b45" stroke-width="4"/>
+<line x1="769.6666666666666" y1="210" x2="769.6666666666666" y2="248" stroke="#23765d" stroke-width="4"/>
+<line x1="828.3333333333334" y1="210" x2="828.3333333333334" y2="248" stroke="#176b91" stroke-width="4"/>
+<text x="692.6666666666667" y="233" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#153747" text-anchor="middle" font-weight="bold">U1</text>
+</svg>

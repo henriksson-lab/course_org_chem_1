@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="585" viewBox="0 0 960 585" role="img"><title>Butane through one full turn</title><desc>Six Newman projections of butane along C2–C3 at methyl dihedrals 0, 60, 120, 180, 240 and 300 degrees</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="585" rx="12" fill="#f7fafc"/>
+<circle cx="160" cy="115" r="26" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="166.28996928559135" y1="89.77231111682408" x2="174.51531373598007" y2="56.78225642344021" stroke="#153747" stroke-width="3"/>
+<text x="183.22450197756808" y="29.551610277504334" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="178.70283480880494" y1="133.06111763193394" x2="203.16038802031906" y2="156.67950222753984" stroke="#153747" stroke-width="3"/>
+<text x="220.4245432284467" y="181.05130311855575" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="135.0071959056037" y1="122.16657125124198" x2="102.32429824370087" y2="131.53824134901996" stroke="#153747" stroke-width="3"/>
+<text x="79.25401754118121" y="145.85353788862793" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="160" y1="115" x2="160.0" y2="77.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="160.0" y="54.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">CH₃</text>
+<line x1="160" y1="115" x2="192.9089653438087" y2="134.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="208.49742261192858" y="150.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="160" y1="115" x2="127.09103465619133" y2="134.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="111.50257738807143" y="150.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="160" cy="115" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<text x="160" y="243" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#af3b45" text-anchor="middle" font-weight="bold">0° · eclipsed</text>
+<text x="160" y="273" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#176b91" text-anchor="middle" font-weight="normal">syn</text>
+<circle cx="480" cy="115" r="26" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="502.5166604983954" y1="102.0" x2="531.9615242270663" y2="85.0" stroke="#153747" stroke-width="3"/>
+<text x="563.1384387633061" y="74.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="480.0" y1="141.0" x2="480.0" y2="175.0" stroke="#153747" stroke-width="3"/>
+<text x="480.0" y="206.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="457.4833395016046" y1="102.0" x2="428.0384757729337" y2="85.0" stroke="#153747" stroke-width="3"/>
+<text x="407.25386608210715" y="80.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="480" y1="115" x2="480.0" y2="77.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="480.0" y="50.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">CH₃</text>
+<line x1="480" y1="115" x2="512.9089653438086" y2="134.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="531.9615242270663" y="152.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="480" y1="115" x2="447.0910346561913" y2="134.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="428.0384757729337" y="152.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="480" cy="115" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<text x="480" y="243" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#23765d" text-anchor="middle" font-weight="bold">60° · staggered</text>
+<text x="480" y="273" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#176b91" text-anchor="middle" font-weight="normal">gauche</text>
+<circle cx="800" cy="115" r="26" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="818.7028348088049" y1="133.06111763193394" x2="843.160388020319" y2="156.67950222753984" stroke="#153747" stroke-width="3"/>
+<text x="869.0566208325105" y="189.38720356406373" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="775.0071959056037" y1="122.16657125124198" x2="742.3242982437009" y2="131.53824134901996" stroke="#153747" stroke-width="3"/>
+<text x="719.2540175411812" y="145.85353788862793" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="806.2899692855914" y1="89.77231111682408" x2="814.51531373598" y2="56.7822564234402" stroke="#153747" stroke-width="3"/>
+<text x="820.3214392303721" y="41.19515899281629" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="800" y1="115" x2="800.0" y2="77.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="800.0" y="54.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">CH₃</text>
+<line x1="800" y1="115" x2="832.9089653438086" y2="134.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="848.4974226119285" y="150.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="800" y1="115" x2="767.0910346561914" y2="134.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="751.5025773880715" y="150.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="800" cy="115" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<text x="800" y="243" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#af3b45" text-anchor="middle" font-weight="bold">120° · eclipsed</text>
+<text x="800" y="273" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#af3b45" text-anchor="middle" font-weight="normal">CH₃/H eclipsed</text>
+<circle cx="160" cy="400" r="26" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="160.0" y1="426.0" x2="160.0" y2="460.0" stroke="#153747" stroke-width="3"/>
+<text x="160.0" y="503.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="137.4833395016046" y1="387.0" x2="108.03847577293368" y2="370.0" stroke="#153747" stroke-width="3"/>
+<text x="87.25386608210715" y="365.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="182.5166604983954" y1="387.0" x2="211.96152422706632" y2="370.0" stroke="#153747" stroke-width="3"/>
+<text x="232.74613391789282" y="365.69999999999993" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="160" y1="400" x2="160.0" y2="362.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="160.0" y="335.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">CH₃</text>
+<line x1="160" y1="400" x2="192.9089653438087" y2="419.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="211.96152422706632" y="437.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="160" y1="400" x2="127.09103465619133" y2="419.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="108.03847577293368" y="437.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="160" cy="400" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<text x="160" y="528" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#23765d" text-anchor="middle" font-weight="bold">180° · staggered</text>
+<text x="160" y="558" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#176b91" text-anchor="middle" font-weight="normal">anti</text>
+<circle cx="480" cy="400" r="26" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="455.0071959056037" y1="407.166571251242" x2="422.32429824370087" y2="416.5382413490199" stroke="#153747" stroke-width="3"/>
+<text x="387.7188771899214" y="434.1611861584319" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="486.2899692855913" y1="374.7723111168241" x2="494.51531373598004" y2="341.78225642344023" stroke="#153747" stroke-width="3"/>
+<text x="500.32143923037205" y="326.1951589928163" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="498.70283480880494" y1="418.06111763193394" x2="523.160388020319" y2="441.67950222753984" stroke="#153747" stroke-width="3"/>
+<text x="540.4245432284467" y="466.0513031185558" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="480" y1="400" x2="480.0" y2="362.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="480.0" y="339.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">CH₃</text>
+<line x1="480" y1="400" x2="512.9089653438086" y2="419.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="528.4974226119285" y="435.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="480" y1="400" x2="447.0910346561913" y2="419.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="431.5025773880714" y="435.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="480" cy="400" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<text x="480" y="528" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#af3b45" text-anchor="middle" font-weight="bold">240° · eclipsed</text>
+<text x="480" y="558" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#af3b45" text-anchor="middle" font-weight="normal">CH₃/H eclipsed</text>
+<circle cx="800" cy="400" r="26" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="777.4833395016046" y1="387.0" x2="748.0384757729337" y2="370.0" stroke="#153747" stroke-width="3"/>
+<text x="716.8615612366939" y="359.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="822.5166604983954" y1="387.0" x2="851.9615242270663" y2="370.0" stroke="#153747" stroke-width="3"/>
+<text x="872.7461339178928" y="365.69999999999993" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="800.0" y1="426.0" x2="800.0" y2="460.0" stroke="#153747" stroke-width="3"/>
+<text x="800.0" y="491.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="800" y1="400" x2="800.0" y2="362.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="800.0" y="335.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">CH₃</text>
+<line x1="800" y1="400" x2="832.9089653438086" y2="419.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="851.9615242270663" y="437.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="800" y1="400" x2="767.0910346561914" y2="419.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="748.0384757729337" y="437.7" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="800" cy="400" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<text x="800" y="528" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#23765d" text-anchor="middle" font-weight="bold">300° · staggered</text>
+<text x="800" y="558" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#176b91" text-anchor="middle" font-weight="normal">gauche</text>
+</svg>

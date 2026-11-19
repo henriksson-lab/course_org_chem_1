@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Putting the chemistry together</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,18 +144,30 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Putting the chemistry together</h1>
-  <p class="subtitle">Week 5 · 45-minute teaching session</p>
+  <p class="subtitle">Week 5 · Day 23 — one small molecule, every tool in the course</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="a-chemical-route-through-this-session" class="slide level2">
-<h2>A chemical route through this session</h2>
-<p>Transfer familiar reasoning to lactic acid, an amino acid and an unknown spectrum. No metabolic pathway knowledge is needed; read the local atoms and bonds.</p>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>After a hard sprint your blood lactate can jump from about 1 to over 10 mmol/L. People call it “lactic acid”, but at blood pH almost none of it is the acid. The same three-carbon molecule makes yoghurt sour and is polymerised into compostable PLA cups. <strong>One small molecule, and every week of this course has something to say about it.</strong></p>
+<p>Today we read one molecule with every tool:</p>
+<ul>
+<li><strong>Structure and stereo:</strong> groups, CIP priorities, R/S, enantiomers</li>
+<li><strong>Acids and charge:</strong> proton transfer, atom audits, pKa and ionised fraction</li>
+<li><strong>Reactions:</strong> oxidation, esterification, addition versus substitution</li>
+<li><strong>Evidence:</strong> spectra, alternatives, yield and honest conclusions</li>
+</ul>
+<p>Yesterday was about yield and evidence; today we use it alongside everything else.</p>
 <aside class="notes">
-<p>45-minute budget: retrieval 3 min; lactic-acid stereochemistry and charge 10 min; redox/ester mechanisms with drawing checks 10 min; amino-acid charge transfer 5 min; integrated spectral assignment 8 min; experimental-claim critique 7 min; exit check 2 min. Total 45 min, including drawing and discussion.</p>
-<p>Suggested 30 seconds; adjust to the explanation and class response. Plan 45 minutes including short drawing and discussion intervals. Routine visual frames take roughly 40 seconds; worked checks need longer and some resolutions can be quicker. Treat timings as guidance, with room for questions.</p>
+<p>Open with the sprint. Ask who has heard that “lactic acid” makes your legs burn, then promise that by slide eight we’ll show with one pKa that the blood is full of lactate, not lactic acid. Mention the yoghurt and the PLA cup to show this isn’t just a biochemistry molecule; the PLA link comes back on the esterification slide. Make clear that no metabolic pathways are needed: everything today is read from the atoms and bonds, using tools from Weeks 1 to 5. This is also a good model of how exam questions combine topics: one molecule, several questions in a row.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -151,29 +180,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="retrieve-the-starting-idea" class="slide level2">
-<h2>Retrieve the starting idea</h2>
-<p>List the checks you can make on any proposed elementary step.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Give students a short individual attempt. Worked answer: Track electron pairs, count bond orders and hydrogens, conserve atoms and net charge, and inspect the plausible source and acceptor.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-an-unfamiliar-looking-molecule-locally" class="slide level2">
-<h2>Read an unfamiliar-looking molecule locally</h2>
+<section id="read-the-molecule-locally-first" class="slide level2">
+<h2>Read the molecule locally first</h2>
 
-<img data-src="figures/01-lactic-features.svg" style="width:85.0%" alt="Lactic acid combines several familiar chemical features" class="r-stretch quarto-figure-center"><p class="caption">Lactic acid combines several familiar chemical features</p><p>Which functional groups can you recognise without knowing a metabolic pathway?</p>
+<img data-src="figures/sk-lactic-features.svg" style="width:80.0%" alt="Skeletal structure of lactic acid with the stereocentre shaded and starred, labelled secondary alcohol, carboxylic acid and stereocentre bearing OH, COOH, CH3 and H" class="r-stretch quarto-figure-center"><p class="caption">Lactic acid with its stereocentre and functional groups</p><p>Before thinking about reactions, name what’s there: a <strong>secondary alcohol</strong>, a <strong>carboxylic acid</strong>, and one <strong>stereocentre</strong> carrying OH, COOH, CH₃ and H.</p>
+<div class="try">
+<p><strong>Try it:</strong> why is the alcohol <em>secondary</em>?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> The OH-bearing carbon has two carbon neighbours (CH₃ and COOH) and one H.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Lactic acid has a secondary alcohol and carboxylic acid; its alcohol-bearing carbon has four different substituents.</p>
+<p>This is the first move on any unfamiliar molecule, and it’s the habit from Day 1: look at the neighbours of each heteroatom. Point at the two OH groups and ask which one is an acid. Only the OH on the carbonyl carbon is a carboxylic acid; the other is an alcohol. Students sometimes call the C=O carbon the stereocentre; it’s trigonal planar with three neighbours, so it can’t be. The stereocentre is the CH(OH) carbon with four different groups. Formula C3H6O3, molar mass 90.08 g/mol: worth checking the H count, since the central carbon has only one H.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -186,29 +204,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-read-an-unfamiliar-looking-molecule-locally" class="slide level2">
-<h2>Apply: read an unfamiliar-looking molecule locally</h2>
-<p>Why is the alcohol secondary?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The OH-bearing carbon is attached to two other carbons and one H.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="rank-the-carbon-branches" class="slide level2">
-<h2>Rank the carbon branches</h2>
+<section id="rank-the-branches-at-the-stereocentre" class="slide level2">
+<h2>Rank the branches at the stereocentre</h2>
 
-<img data-src="figures/11-priority-branches.svg" style="width:85.0%" alt="Rank the two carbon branches at lactic acid stereocentre" class="r-stretch quarto-figure-center"><p class="caption">Rank the two carbon branches at lactic acid stereocentre</p><p>Why does COOH outrank CH₃ in CIP comparison?</p>
+<img data-src="figures/sk-lactic-cip.svg" style="width:82.0%" alt="(S)-lactic acid with priorities 1 OH, 2 COOH, 3 CH3, 4 H; COOH carbon compares as O,O,O and CH3 as H,H,H" class="r-stretch quarto-figure-center"><p class="caption">CIP priorities at the lactic acid stereocentre</p><p>O beats C beats H. The two carbons tie, so compare the <strong>next atoms</strong>: the C=O counts its O twice, so COOH is <strong>(O, O, O)</strong> against CH₃’s <strong>(H, H, H)</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> give the full priority order at this centre.</p>
+<div class="fragment">
+<p><strong>Answer.</strong> OH &gt; COOH &gt; CH₃ &gt; H: oxygen first, then the two ranked carbons, then H.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: After the first carbon tie, compare attached atoms: O,O,O outranks H,H,H using multiple-bond bookkeeping.</p>
+<p>This is the Week 2 CIP procedure applied to a real case. Stress the duplication rule: a double bond to O counts as two O substituents for comparison, which together with the OH gives O,O,O. The mistake to probe is ranking by group size or by “how big it looks” on the page. COOH wins because of what its first carbon is attached to, not because it’s drawn bigger. Ask a student to justify why the comparison stops at the first point of difference.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -221,12 +228,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-rank-the-carbon-branches" class="slide level2">
-<h2>Resolve: rank the carbon branches</h2>
+<section id="assign-r-or-s-with-h-pointing-away" class="slide level2">
+<h2>Assign R or S with H pointing away</h2>
 
-<img data-src="figures/11-priority-branches.svg" style="width:85.0%" alt="Rank the two carbon branches at lactic acid stereocentre" class="r-stretch quarto-figure-center"><p class="caption">Rank the two carbon branches at lactic acid stereocentre</p><p>After the first carbon tie, compare attached atoms: O,O,O outranks H,H,H using multiple-bond bookkeeping.</p>
+<img data-src="figures/sk-lactic-rs.svg" style="width:74.0%" alt="Left: (S)-lactic acid with H hashed away and an anticlockwise arrow from priority 1 to 3, giving S. Right: (R)-lactic acid in the same orientation with H on a wedge; the path looks anticlockwise, so the answer is reversed to R" class="r-stretch quarto-figure-center"><p class="caption">Tracing 1 to 2 to 3 with H away and with H toward you</p><p>With H (4) hashed away, trace <strong>1 → 2 → 3</strong>: clockwise is <strong>R</strong>, anticlockwise is <strong>S</strong>. On the left OH → COOH → CH₃ runs anticlockwise: <strong>(S)-lactic acid</strong>, the one your muscles make. With H on a wedge, <strong>reverse</strong> what you see.</p>
+<div class="try">
+<p><strong>Try it:</strong> in another drawing, H points <em>toward</em> you and 1 → 2 → 3 looks clockwise. What is the configuration?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> S. With H toward you, reverse the apparent result (or rotate a model until H points away).</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: OH &gt; COOH &gt; CH₃ &gt; H: O first, then the two ranked carbon branches, then H.</p>
+<p>Trace the path with your finger on the screen: left (OH), right (COOH), up (CH3). That sweep goes anticlockwise, and since H is on the hashed bond, the answer stands: S. Then do exercise 3’s version orally: OH upper left, COOH upper right, CH3 lower left, H away gives clockwise, so R. The most common exam error is forgetting to reverse when H is on a wedge. Remind them that turning the page or rotating the drawing never changes the answer; only swapping two groups does.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -239,29 +252,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-rank-the-carbon-branches" class="slide level2">
-<h2>Apply: rank the carbon branches</h2>
-<p>Give the complete priority order at lactic acid’s centre.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: OH &gt; COOH &gt; CH₃ &gt; H: O first, then the two ranked carbon branches, then H.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="orient-the-lowest-priority-away" class="slide level2">
-<h2>Orient the lowest priority away</h2>
+<section id="mirror-images-not-rotations" class="slide level2">
+<h2>Mirror images, not rotations</h2>
 
-<img data-src="figures/12-stereo-view.svg" style="width:85.0%" alt="A low-priority H directed away makes the viewing rule usable" class="r-stretch quarto-figure-center"><p class="caption">A low-priority H directed away makes the viewing rule usable</p><p>With H dashed away, which path gives R or S?</p>
+<img data-src="figures/sk-lactic-enantiomers.svg" style="width:78.0%" alt="(S)-lactic acid and (R)-lactic acid as mirror images across a dashed line; S is made by muscle and rotates light plus, R by some bacteria and rotates light minus" class="r-stretch quarto-figure-center"><p class="caption">(S)- and (R)-lactic acid drawn as mirror images</p><p>Same connectivity, opposite arrangement: <strong>enantiomers</strong>. No rotation turns one into the other. R/S is a naming rule; the <strong>sign of optical rotation</strong> has to be measured.</p>
+<div class="try">
+<p><strong>Try it:</strong> does rotating the whole drawing 180° on the page give the other enantiomer?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> No.&nbsp;A rigid rotation keeps the configuration. Only swapping two groups at the centre (or reflecting) does.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Read 1→2→3: clockwise is R, anticlockwise is S. In this supplied view it is clockwise, so R.</p>
+<p>(S)-lactic acid happens to be dextrorotatory, (+), but there is no rule linking S to plus. In fact its salts, the lactates, rotate the other way, which is a nice demonstration that the sign is a measured property. Biology cares about the difference: lactate dehydrogenase in muscle handles the S form, and some bacteria make the R form, which is why D-lactate is a clinical marker of certain gut infections. Connect back to Week 2: enantiomers share boiling point, IR and NMR in ordinary solvents, so these tools can’t tell them apart.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -274,12 +276,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-orient-the-lowest-priority-away" class="slide level2">
-<h2>Resolve: orient the lowest priority away</h2>
+<section id="the-simplest-reaction-a-proton-transfer" class="slide level2">
+<h2>The simplest reaction: a proton transfer</h2>
 
-<img data-src="figures/12-stereo-view.svg" style="width:85.0%" alt="A low-priority H directed away makes the viewing rule usable" class="r-stretch quarto-figure-center"><p class="caption">A low-priority H directed away makes the viewing rule usable</p><p>Read 1→2→3: clockwise is R, anticlockwise is S. In this supplied view it is clockwise, so R.</p>
+<img data-src="figures/sk-deprotonation.svg" style="width:82.0%" alt="Curved arrows: hydroxide lone pair to the carboxyl H, O-H bond pair onto oxygen, giving lactate and water" class="r-stretch quarto-figure-center"><p class="caption">Hydroxide removes the carboxyl proton of lactic acid</p><p>One arrow from the <strong>base’s lone pair to H</strong>, one from the <strong>O–H bond onto O</strong>. The carboxyl O–H is the acidic one; the alcohol O–H is far less acidic.</p>
+<div class="try">
+<p><strong>Try it:</strong> does this step invert the stereocentre?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> No.&nbsp;Only the carboxyl O–H bond changes. No bond to the stereocentre is made or broken.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Reverse the apparent clockwise/anticlockwise assignment, or reorient a model until the lowest priority points away.</p>
+<p>Two arrows, both starting from electrons: this is the Day 8 rule. Ask students where each arrow starts and refuse an arrow that starts at the H. The carboxylic acid is the acidic site because its conjugate base is resonance-stabilised over two oxygens, which is the Day 3 argument; the alcohol has a pKa around 16, so hydroxide in water doesn’t remove it meaningfully. The stereocentre question is there because students sometimes assume any reaction “scrambles” stereo. A step can only change a configuration if it changes bonds at that carbon.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -292,11 +300,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-orient-the-lowest-priority-away" class="slide level2">
-<h2>Apply: orient the lowest priority away</h2>
-<p>If H instead points toward you, how is the apparent result corrected?</p>
+<section id="audit-every-atom-and-the-charge" class="slide level2">
+<h2>Audit every atom and the charge</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th></th>
+<th>lactic acid + OH⁻</th>
+<th></th>
+<th>lactate + H₂O</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>species</td>
+<td>C₃H₆O₃ + HO⁻</td>
+<td>→</td>
+<td>C₃H₅O₃⁻ + H₂O</td>
+</tr>
+<tr class="even">
+<td>C, H, O total</td>
+<td><strong>C₃H₇O₄</strong></td>
+<td></td>
+<td><strong>C₃H₇O₄</strong></td>
+</tr>
+<tr class="odd">
+<td>net charge</td>
+<td><strong>−1</strong></td>
+<td></td>
+<td><strong>−1</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The H isn’t lost; it moves to hydroxide. The bonding pair of the old O–H stays on oxygen, which is why that O now carries the −1.</p>
+<div class="try">
+<p><strong>Try it:</strong> what goes wrong if you write the products as just lactate?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> You lose H₂O from the inventory: two H, one O. The equation no longer balances, and the proton’s new home is hidden.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Reverse the apparent clockwise/anticlockwise assignment, or reorient a model until the lowest priority points away.</p>
+<p>This is the valence audit from Day 1 applied to a whole equation. Have students count with you: left side 3 C, 6 + 1 = 7 H, 3 + 1 = 4 O; right side 3 C, 5 + 2 = 7 H, 3 + 1 = 4 O. Charge −1 on both sides. The point is that arrows track electrons, but they don’t give permission to delete atoms. The audit is the fastest way to catch a dropped product in an exam answer.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -309,12 +353,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="compare-configurations-without-changing-connectivity" class="slide level2">
-<h2>Compare configurations without changing connectivity</h2>
+<section id="at-blood-ph-its-lactate-not-lactic-acid" class="slide level2">
+<h2>At blood pH it’s lactate, not lactic acid</h2>
 
-<img data-src="figures/02-lactic-mirrors.svg" style="width:85.0%" alt="Keep connectivity fixed when identifying stereoisomers" class="r-stretch quarto-figure-center"><p class="caption">Keep connectivity fixed when identifying stereoisomers</p><p>Can the mirror-related pair be superimposed by rigid rotation?</p>
+<img data-src="figures/13-lactate-curve.svg" style="width:62.0%" alt="Sigmoid curve of fraction lactate against pH from 0 to 8, crossing one half at pH 3.86" class="r-stretch quarto-figure-center"><p class="caption">Fraction of lactate against pH for pKa 3.86</p><p><span class="math display">f_{\text{A}^-} = \frac{1}{1 + 10^{\,\text{p}K_a - \text{pH}}} \qquad \text{p}K_a = 3.86</span></p>
+<div class="try">
+<p><strong>Try it:</strong> what fraction is lactate at pH 4.86? And at blood pH 7.4?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> At 4.86 the ratio A⁻/HA is 10, so 10/11 ≈ 0.91. At 7.4 it’s about 3500 : 1, so over 99.9 % lactate.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: No.&nbsp;They are enantiomeric configurations with identical connectivity and opposite tetrahedral arrangement.</p>
+<p>This answers the opening hook. At pH equal to pKa the fraction is exactly one half; every pH unit above multiplies the A-minus to HA ratio by ten. At 7.4 that’s 10 to the 3.54, about 3500. So “lactic acid in the blood” is really lactate, and the acidification during exercise is a more complicated story than the name suggests. Probe the population meaning: 0.91 means 91 % of molecules are ionised at any moment, not that each molecule has lost 91 % of a proton. Week 1 Day 3 introduced this curve; the dilute monoprotic model is what we assume.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -327,29 +377,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-compare-configurations-without-changing-connectivity" class="slide level2">
-<h2>Apply: compare configurations without changing connectivity</h2>
-<p>Does changing the drawing orientation alone create the other enantiomer?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Rigid rotation preserves configuration; changing wedge/dash geometry at the centre can alter it.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-the-simplest-acidbase-change" class="slide level2">
-<h2>Predict the simplest acid–base change</h2>
+<section id="oxidation-turns-the-stereocentre-into-a-ketone" class="slide level2">
+<h2>Oxidation turns the stereocentre into a ketone</h2>
 
-<img data-src="figures/03-lactic-ionisation.svg" style="width:85.0%" alt="Acid–base change preserves the carbon skeleton" class="r-stretch quarto-figure-center"><p class="caption">Acid–base change preserves the carbon skeleton</p><p>Which H is removed in the stated hydroxide deprotonation?</p>
+<img data-src="figures/sk-pyruvate.svg" style="width:80.0%" alt="Lactic acid oxidised to pyruvic acid, losing two H; C2 goes from tetrahedral stereocentre to trigonal planar ketone" class="r-stretch quarto-figure-center"><p class="caption">Lactic acid oxidised to pyruvic acid</p><p>The secondary alcohol becomes a <strong>ketone</strong>: <strong>pyruvic acid</strong>, CH₃C(=O)COOH. In your cells lactate dehydrogenase does this with NAD⁺.</p>
+<div class="try">
+<p><strong>Try it:</strong> does pyruvic acid still have an R/S centre?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> No.&nbsp;C2 is now trigonal planar with three groups, so there’s no stereocentre left to label.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The carboxyl proton moves to hydroxide, giving lactate and water. The alcohol-bearing centre is not inverted by that step.</p>
+<p>Week 3 redox: a secondary alcohol oxidises to a ketone and stops there, because there’s no H left on the carbonyl carbon to remove. The formula changes from C3H6O3 to C3H4O3, a loss of two H, which is the classic signature of oxidation. Muscles run this reaction in both directions: pyruvate is reduced to lactate when oxygen is short, and lactate is oxidised back in the heart and liver. Emphasise geometry: the stereochemical information is destroyed, and reducing pyruvate back could in principle give either enantiomer. The enzyme is what makes it give only S.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -362,12 +401,77 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-predict-the-simplest-acidbase-change" class="slide level2">
-<h2>Resolve: predict the simplest acid–base change</h2>
+<section id="count-the-oxidation-state-at-the-changing-carbon" class="slide level2">
+<h2>Count the oxidation state at the changing carbon</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>bond at C2</th>
+<th>contributes</th>
+<th>lactic acid C2</th>
+<th>pyruvic acid C2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C–O (per bond order)</td>
+<td>+1</td>
+<td>C–OH: <strong>+1</strong></td>
+<td>C=O: <strong>+2</strong></td>
+</tr>
+<tr class="even">
+<td>C–H</td>
+<td>−1</td>
+<td><strong>−1</strong></td>
+<td>none: <strong>0</strong></td>
+</tr>
+<tr class="odd">
+<td>C–C</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>total</strong></td>
+<td></td>
+<td><strong>0</strong></td>
+<td><strong>+2</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The carbon goes from 0 to +2: an <strong>oxidation</strong>, even though no O atom was added.</p>
+<div class="try">
+<p><strong>Try it:</strong> why does a C–C bond count zero?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> The two atoms have the same electronegativity, so neither one is assigned the bonding electrons.</p>
+</div>
+</div>
+<aside class="notes">
+<p>This is the bookkeeping from Day 13. The bond to O counts per bond order, so a C=O counts plus two. The take-home message is that oxidation is about electrons at the carbon, not about counting oxygen atoms in the formula; lactic and pyruvic acid have the same three oxygens. Ask the room what happens to the carboxyl carbon (nothing: plus three in both). The counting rule only works for the carbon that changes, which is why we focus on C2.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="esterification-track-the-alcohol-oxygen" class="slide level2">
+<h2>Esterification: track the alcohol oxygen</h2>
 
-<img data-src="figures/03-lactic-ionisation.svg" style="width:85.0%" alt="Acid–base change preserves the carbon skeleton" class="r-stretch quarto-figure-center"><p class="caption">Acid–base change preserves the carbon skeleton</p><p>The carboxyl proton moves to hydroxide, giving lactate and water. The alcohol-bearing centre is not inverted by that step.</p>
+<img data-src="figures/sk-ester-label.svg" style="width:84.0%" alt="Lactic acid plus ethanol with H+ and heat gives ethyl lactate plus water; the labelled ethanol oxygen O* ends up between the acyl carbon and the ethyl group" class="r-stretch quarto-figure-center"><p class="caption">Lactic acid and ethanol give ethyl lactate, with the ethanol oxygen labelled O-star</p><p>Fischer esterification is an <strong>acyl substitution</strong>: ethanol’s O* attacks the carbonyl carbon, and the acid’s OH leaves as water. Ethyl lactate is a biodegradable solvent.</p>
+<div class="try">
+<p><strong>Try it:</strong> which two atoms is O* bonded to in the product?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> The acid-derived carbonyl carbon and the ethyl CH₂. The water’s O comes from the acid.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: CH₃CH(OH)COO⁻, charge −1, plus neutral water.</p>
+<p>Isotope labelling with oxygen-18 is the classic experiment that proved this: the label from the alcohol ends up in the ester, not in the water. That only makes sense if the alcohol is the nucleophile attacking the acyl carbon (Week 4). The bonds at the stereocentre aren’t touched, so (S)-lactic acid gives (S)-ethyl lactate. Now the limitation: lactic acid has its own OH, so one molecule’s OH can esterify another’s COOH. That’s exactly how lactide and PLA plastic are made. A target drawing doesn’t guarantee selectivity; the conditions do.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -380,29 +484,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-predict-the-simplest-acidbase-change" class="slide level2">
-<h2>Apply: predict the simplest acid–base change</h2>
-<p>Write the product formula and net charge.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: CH₃CH(OH)COO⁻, charge −1, plus neutral water.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="audit-atoms-and-net-charge" class="slide level2">
-<h2>Audit atoms and net charge</h2>
+<section id="addition-or-substitution-look-for-a-leaving-group" class="slide level2">
+<h2>Addition or substitution? Look for a leaving group</h2>
 
-<img data-src="figures/14-lactate-audit.svg" style="width:85.0%" alt="Audit a proton-transfer reaction atom by atom" class="r-stretch quarto-figure-center"><p class="caption">Audit a proton-transfer reaction atom by atom</p><p>What inventory should agree before and after the proton transfer?</p>
+<img data-src="figures/sk-add-vs-sub.svg" style="width:80.0%" alt="Top row: ethanal adds cyanide to give an alkoxide then a cyanohydrin. Bottom row: methyl acetate adds hydroxide to give a tetrahedral intermediate that loses methoxide to reform C=O" class="r-stretch quarto-figure-center"><p class="caption">Aldehyde plus cyanide stays tetrahedral; ester plus hydroxide expels methoxide and reforms C=O</p><p>Both start the same way: <strong>Nu adds, the C=O π pair moves onto O</strong>. An ester carries an OR that can leave, so C=O comes back. An aldehyde has only H or C there.</p>
+<div class="try">
+<p><strong>Try it:</strong> what’s the first elementary step both pathways share?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> Nucleophilic attack at the carbonyl carbon, giving a tetrahedral alkoxide.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Both sides have C₃H₇O₄ and total charge −1. The H changes location; it is not deleted.</p>
+<p>This is the Day 16 versus Day 17 decision in one picture. The question students should ask is: after the tetrahedral intermediate forms, is there a group that can leave and take a bonding pair with it? Methoxide can; hydride and methyl can’t, so aldehydes and ketones stop at addition. In base, the acetic acid at the end is immediately deprotonated to acetate, which is why ester hydrolysis in base (saponification) goes to completion. Probe the valence: keeping C=O and adding Nu at the same time would give a five-bonded carbon.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -415,12 +508,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-audit-atoms-and-net-charge" class="slide level2">
-<h2>Resolve: audit atoms and net charge</h2>
+<section id="amino-acids-carry-two-charges-at-ph-7" class="slide level2">
+<h2>Amino acids carry two charges at pH 7</h2>
 
-<img data-src="figures/14-lactate-audit.svg" style="width:85.0%" alt="Audit a proton-transfer reaction atom by atom" class="r-stretch quarto-figure-center"><p class="caption">Audit a proton-transfer reaction atom by atom</p><p>Both sides have C₃H₇O₄ and total charge −1. The H changes location; it is not deleted.</p>
+<img data-src="figures/sk-alanine.svg" style="width:78.0%" alt="L-alanine zwitterion: N with four bonds is +1, O with one bond and three lone pairs is -1, net charge 0" class="r-stretch quarto-figure-center"><p class="caption">L-alanine as a zwitterion with ammonium and carboxylate shaded</p><p>Read the charges from the <strong>normal-state table</strong> (Day 1). The net charge is zero, but the molecule still has a + and a − end.</p>
+<div class="try">
+<p><strong>Try it:</strong> net zero, so does alanine behave like a hydrocarbon in water?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> No.&nbsp;Both charged sites interact strongly with water, which is why amino acids are high-melting and water-soluble.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: It stays on the carboxyl oxygen when the H leaves as H⁺ transfer to the base.</p>
+<p>Alanine is lactic acid’s nitrogen cousin: swap the OH for NH3+. Ask the room to point at the exact charged atoms, not just “the molecule is charged”. At pH 7 the carboxylic acid (pKa about 2) has lost its proton and the amine (conjugate acid pKa about 10) has gained one, so both ends are charged. L-alanine is S, just like L-lactic acid, which is a nice coincidence of the CIP rules here (it isn’t true for every L amino acid; cysteine is R).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -433,29 +532,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-audit-atoms-and-net-charge" class="slide level2">
-<h2>Apply: audit atoms and net charge</h2>
-<p>Where does the original acid O–H bonding pair go?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It stays on the carboxyl oxygen when the H leaves as H⁺ transfer to the base.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="transfer-the-aqueous-ionisation-model" class="slide level2">
-<h2>Transfer the aqueous ionisation model</h2>
+<section id="change-the-ph-keep-the-skeleton" class="slide level2">
+<h2>Change the pH, keep the skeleton</h2>
 
-<img data-src="figures/13-lactate-curve.svg" style="width:85.0%" alt="A supplied lactic-acid model predicts its ionised fraction" class="r-stretch quarto-figure-center"><p class="caption">A supplied lactic-acid model predicts its ionised fraction</p><p>At pH equal to supplied pKa 3.86, what fraction is lactate?</p>
+<img data-src="figures/sk-alanine-ph.svg" style="width:80.0%" alt="Alanine zwitterion with explicit N-H bonds reacts with hydroxide to give the anion with a neutral NH2 group; net charge goes from 0 to -1" class="r-stretch quarto-figure-center"><p class="caption">At high pH the ammonium group of alanine loses a proton to hydroxide</p><p>Hydroxide removes an <strong>N–H proton</strong>. The bonding pair goes back to N, which ends with three bonds and a lone pair. No C–C bond is touched.</p>
+<div class="try">
+<p><strong>Try it:</strong> is the N in a peptide bond (an amide) basic like this ammonium N?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> No.&nbsp;The amide N’s lone pair is delocalised into the C=O, so it’s barely basic (Week 4).</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: For a dilute monoprotic model, 1/(1+10^(pKa−pH)) = 0.5 at equal pH and pKa.</p>
+<p>Same move as the lactic acid deprotonation, at a different site. Check the charge audit: zwitterion plus hydroxide has net −1, anion plus water has net −1. Product formula H2NCH(CH3)COO−, C3H6NO2−. The peptide question links to Day 18: an amide N is planar and its lone pair is part of the amide resonance, which is why proteins don’t pick up a proton on every backbone nitrogen.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -468,12 +556,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-transfer-the-aqueous-ionisation-model" class="slide level2">
-<h2>Resolve: transfer the aqueous ionisation model</h2>
+<section id="identify-an-unknown-make-the-evidence-agree" class="slide level2">
+<h2>Identify an unknown: make the evidence agree</h2>
 
-<img data-src="figures/13-lactate-curve.svg" style="width:85.0%" alt="A supplied lactic-acid model predicts its ionised fraction" class="r-stretch quarto-figure-center"><p class="caption">A supplied lactic-acid model predicts its ionised fraction</p><p>For a dilute monoprotic model, 1/(1+10^(pKa−pH)) = 0.5 at equal pH and pKa.</p>
+<img data-src="figures/sk-u1-ester.svg" style="width:84.0%" alt="Ethyl acetate with acetyl CH3 a, OCH2 b and ethyl CH3 c, and a stick spectrum: 4.12 quartet 2H, 2.05 singlet 3H, 1.25 triplet 3H" class="r-stretch quarto-figure-center"><p class="caption">Ethyl acetate with protons a, b and c matched to its NMR spectrum</p><p><strong>U1:</strong> C₄H₈O₂, IR C=O but no broad O–H, ¹H NMR 4.12 q 2H, 2.05 s 3H, 1.25 t 3H. The quartet and triplet are an <strong>ethyl on O</strong>; the singlet is a <strong>CH₃ next to C=O</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> what does the molecular formula add to this argument?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> DBE = 1, so one C=O and no ring. It also sets the atom budget: every C, H and O must be placed.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 10/(1+10) ≈ 0.909, or 90.9%, not 100% and not each molecule partly deprotonated.</p>
+<p>This is the Week 5 spectroscopy workflow from Day 21. Build the structure piece by piece: the quartet (2H) and triplet (3H) couple to each other, so they’re an ethyl group, and the 4.12 shift puts the CH2 on oxygen. The singlet at 2.05 has no neighbouring H, consistent with sitting next to the carbonyl. The IR rules out acids and alcohols. The formula is the referee: C4H8O2 with one degree of unsaturation is accounted for by the ester C=O. Ethyl acetate is also nail-polish remover, which helps it stick.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -486,29 +580,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-transfer-the-aqueous-ionisation-model" class="slide level2">
-<h2>Apply: transfer the aqueous ionisation model</h2>
-<p>At pH 4.86, calculate the approximate fraction.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 10/(1+10) ≈ 0.909, or 90.9%, not 100% and not each molecule partly deprotonated.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-a-functional-group-transformation" class="slide level2">
-<h2>Predict a functional-group transformation</h2>
+<section id="test-the-alternative-before-you-claim" class="slide level2">
+<h2>Test the alternative before you claim</h2>
 
-<img data-src="figures/04-lactic-redox.svg" style="width:85.0%" alt="Oxidation changes the alcohol carbon into a carbonyl carbon" class="r-stretch quarto-figure-center"><p class="caption">Oxidation changes the alcohol carbon into a carbonyl carbon</p><p>What product results from oxidising the secondary alcohol to a ketone?</p>
+<img data-src="figures/sk-alternative.svg" style="width:80.0%" alt="Ethyl acetate predicts an OCH2 2H quartet, a CH3 triplet and no OH, all matching; 3-hydroxybutan-2-one predicts an OCH 1H quartet, a CH3 doublet and a broad OH, all disagreeing" class="r-stretch quarto-figure-center"><p class="caption">Ethyl acetate and 3-hydroxybutan-2-one with their predicted NMR and IR features</p><p><strong>3-hydroxybutan-2-one</strong> is also C₄H₈O₂ with a C=O. A good claim says why it <em>doesn’t</em> fit: wrong integrals, wrong splitting and an O–H that isn’t there.</p>
+<div class="try">
+<p><strong>Try it:</strong> would a matching C=O band rescue the hydroxyketone?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> No.&nbsp;One shared feature can’t outweigh three predictions that disagree with the data.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: CH₃C(=O)COOH, pyruvic acid. The former alcohol carbon is now trigonal planar.</p>
+<p>Real problem-solving means generating an alternative and testing it, not just confirming the first idea. The hydroxyketone’s CH3 next to CH would be a doublet; its O-bearing carbon is a CH, so 1H, not 2H; and it has an OH that the IR would show. Say it plainly: we don’t use the name of the bottle or the expected product as evidence. Ask students to name one more C4H8O2 candidate (methyl propanoate, for instance) and say which signal would rule it out.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -521,12 +604,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-predict-a-functional-group-transformation" class="slide level2">
-<h2>Resolve: predict a functional-group transformation</h2>
+<section id="a-high-yield-doesnt-prove-identity" class="slide level2">
+<h2>A high yield doesn’t prove identity</h2>
 
-<img data-src="figures/04-lactic-redox.svg" style="width:85.0%" alt="Oxidation changes the alcohol carbon into a carbonyl carbon" class="r-stretch quarto-figure-center"><p class="caption">Oxidation changes the alcohol carbon into a carbonyl carbon</p><p>CH₃C(=O)COOH, pyruvic acid. The former alcohol carbon is now trigonal planar.</p>
+<img data-src="figures/09-yield-identity.svg" style="width:66.0%" alt="Bar chart: theoretical 1.8016 g and isolated 1.70 g, 94.4 percent; NMR stick spectrum with one unexpected extra signal" class="r-stretch quarto-figure-center"><p class="caption">Isolated mass against theoretical mass beside an NMR spectrum with an unexpected peak</p><p>0.0100 mol × 180.16 g/mol = <strong>1.8016 g</strong> theoretical; 1.70 g isolated is <strong>94.4 %</strong>, <em>if</em> the solid is pure product. Unexpected NMR peaks challenge that “if”.</p>
+<div class="try">
+<p><strong>Try it:</strong> give two reasons the isolated mass could be too high.</p>
+<div class="fragment">
+<p><strong>Answer.</strong> Residual solvent or water, and unreacted starting material or a side product. One TLC spot can hide a co-running impurity.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;It is not a tetrahedral carbon with four different substituents, so that centre no longer qualifies for R/S.</p>
+<p>180.16 g/mol is aspirin, made from the 0.0100 mol of salicylic acid we weighed on Day 1, so this closes a loop. The yield calculation is only as good as its assumption that the mass is all product. Neither observation should be ignored: the plausible mass and the strange NMR together say “investigate”. Also mention exercise 19: dividing isolated mass by the starting-material mass (1.70 / 1.3812) gives 123 %, a reproducible number that is still chemically wrong because molar masses differ. Running the same wrong formula in R every time doesn’t make it right.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -539,11 +628,54 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-predict-a-functional-group-transformation" class="slide level2">
-<h2>Apply: predict a functional-group transformation</h2>
-<p>Does the ketone carbon retain the original R/S stereocentre?</p>
+<section id="writing-a-conclusion-someone-can-check" class="slide level2">
+<h2>Writing a conclusion someone can check</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>part</th>
+<th>for the U1 ester</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>claim</strong></td>
+<td>U1 is ethyl acetate</td>
+</tr>
+<tr class="even">
+<td><strong>evidence</strong></td>
+<td>C₄H₈O₂; C=O, no O–H; q 2H, s 3H, t 3H</td>
+</tr>
+<tr class="odd">
+<td><strong>reason</strong></td>
+<td>O–CH₂CH₃ explains q/t; CH₃–C=O explains the singlet</td>
+</tr>
+<tr class="even">
+<td><strong>alternative ruled out</strong></td>
+<td>hydroxyketone predicts a doublet and an O–H</td>
+</tr>
+<tr class="odd">
+<td><strong>limitation</strong></td>
+<td>simulated data, not a measured real sample</td>
+</tr>
+<tr class="even">
+<td><strong>next test</strong></td>
+<td>measured spectra and a purity check on the isolate</td>
+</tr>
+</tbody>
+</table>
+<div class="try">
+<p><strong>Try it:</strong> why is “it’s the ester because we made the ester” not evidence?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> It’s circular: it assumes the reaction worked, which is exactly what the evidence must test.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;It is not a tetrahedral carbon with four different substituents, so that centre no longer qualifies for R/S.</p>
+<p>This is the Day 22 structure, now with all the chemistry filled in. Each row should be checkable by someone else. The reason row is the one students skip; insist that each observation is linked to a specific atom group. For R-based reports, the reproducibility part is that raw data and code are saved so a fresh session recreates the tables, but reproducible doesn’t mean chemically correct; both checks are needed.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -556,12 +688,57 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="check-oxidation-without-counting-oxygen-atoms-only" class="slide level2">
-<h2>Check oxidation without counting oxygen atoms only</h2>
-
-<img data-src="figures/15-lactate-redox-count.svg" style="width:85.0%" alt="The alcohol carbon oxidation state changes from zero to plus two" class="r-stretch quarto-figure-center"><p class="caption">The alcohol carbon oxidation state changes from zero to plus two</p><p>How does the changing carbon’s oxidation state change?</p>
+<section id="a-first-move-routine-for-any-new-problem" class="slide level2">
+<h2>A first-move routine for any new problem</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>step</th>
+<th>ask yourself</th>
+<th>came from</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>which groups, charges and stereocentres are there?</td>
+<td>Weeks 1–2</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>where are the acidic H, the lone pairs, the δ+ carbons?</td>
+<td>Days 3, 8</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>which bonds change? draw the arrows from electrons</td>
+<td>Weeks 3–4</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>do atoms, charge and valence balance?</td>
+<td>Day 1</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>what would the alternative predict, and does the data agree?</td>
+<td>Days 21–22</td>
+</tr>
+</tbody>
+</table>
+<div class="try">
+<p><strong>Try it:</strong> you’re handed a molecule you’ve never seen. What do you do first?</p>
+<div class="fragment">
+<p><strong>Answer.</strong> Read it locally: name the functional groups and look at the atoms around each one, before thinking about any reaction.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Lactic centre: +1 for C–O and −1 for C–H gives 0. Ketone carbon: C=O gives +2.</p>
+<p>This is the exit question from the old session, turned into a routine. The exam is built exactly like today: a molecule you may not have met, and a sequence of questions that each use one tool. Students who panic at an unfamiliar name should fall back to step 1; the name never matters, the atoms do. Encourage them to write this routine at the top of their exam paper.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -574,12 +751,52 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-check-oxidation-without-counting-oxygen-atoms-only" class="slide level2">
-<h2>Resolve: check oxidation without counting oxygen atoms only</h2>
-
-<img data-src="figures/15-lactate-redox-count.svg" style="width:85.0%" alt="The alcohol carbon oxidation state changes from zero to plus two" class="r-stretch quarto-figure-center"><p class="caption">The alcohol carbon oxidation state changes from zero to plus two</p><p>Lactic centre: +1 for C–O and −1 for C–H gives 0. Ketone carbon: C=O gives +2.</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ranking COOH over CH₃ “because it’s bigger”</td>
+<td>compare the <strong>next atoms</strong>: (O,O,O) vs (H,H,H)</td>
+</tr>
+<tr class="even">
+<td>forgetting to reverse when H is on a wedge</td>
+<td>H toward you: <strong>flip</strong> the answer</td>
+</tr>
+<tr class="odd">
+<td>thinking R means (+)</td>
+<td>the sign of rotation is <strong>measured</strong></td>
+</tr>
+<tr class="even">
+<td>dropping water from a proton transfer</td>
+<td>audit <strong>atoms and charge</strong> on both sides</td>
+</tr>
+<tr class="odd">
+<td>keeping an R/S label on a ketone carbon</td>
+<td>trigonal planar: <strong>no stereocentre</strong></td>
+</tr>
+<tr class="even">
+<td>“net zero, so no charges” for alanine</td>
+<td>net zero, <strong>two charged sites</strong></td>
+</tr>
+<tr class="odd">
+<td>a high yield taken as proof of purity</td>
+<td>yield <strong>assumes</strong> identity; test it</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: The bonded atoms are the same element, so the bonding electrons are divided equally in oxidation-state assignment.</p>
+<p>Read each mistake aloud and ask the room why it’s wrong before revealing the fix. Every row matches an exercise from today’s set, so a student who recognises their own mistake knows which problem to redo. These are also the errors that cost the most marks on past exams.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -592,537 +809,53 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-check-oxidation-without-counting-oxygen-atoms-only" class="slide level2">
-<h2>Apply: check oxidation without counting oxygen atoms only</h2>
-<p>Why does each C–C bond contribute zero in this count?</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>read locally</td>
+<td>groups, charges and stereocentres first</td>
+</tr>
+<tr class="even">
+<td>CIP</td>
+<td>OH &gt; COOH &gt; CH₃ &gt; H; H away, clockwise = R</td>
+</tr>
+<tr class="odd">
+<td>enantiomers</td>
+<td>mirror images; sign of rotation is measured</td>
+</tr>
+<tr class="even">
+<td>proton transfer</td>
+<td>two arrows; stereocentre untouched; audit atoms</td>
+</tr>
+<tr class="odd">
+<td>ionised fraction</td>
+<td>1/(1 + 10^(pKa − pH)); lactate at pH 7.4</td>
+</tr>
+<tr class="even">
+<td>oxidation</td>
+<td>lactic → pyruvic acid; C2 goes 0 → +2</td>
+</tr>
+<tr class="odd">
+<td>addition vs substitution</td>
+<td>a leaving group lets C=O come back</td>
+</tr>
+<tr class="even">
+<td>evidence</td>
+<td>claim, evidence, reason, alternative, limitation</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> revision on Days 24–25 (<a href="../practice/day24.html">spectra and calculations</a>, <a href="../practice/day25.html">final synthesis</a>), then the exam. <strong>Practice:</strong> <a href="../integration/exercise.html">exercises</a> · <a href="../integration/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The bonded atoms are the same element, so the bonding electrons are divided equally in oxidation-state assignment.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="choose-the-target-site-before-a-mechanism" class="slide level2">
-<h2>Choose the target site before a mechanism</h2>
-
-<img data-src="figures/05-lactic-ester.svg" style="width:85.0%" alt="Esterification replaces the acidic OH as a net transformation" class="r-stretch quarto-figure-center"><p class="caption">Esterification replaces the acidic OH as a net transformation</p><p>Which group changes in the selected ethyl-lactate target?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The carboxylic acid becomes COOEt; the secondary alcohol remains in the drawn target.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-choose-the-target-site-before-a-mechanism" class="slide level2">
-<h2>Apply: choose the target site before a mechanism</h2>
-<p>Does this target drawing guarantee no competing reactions under all conditions?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;It specifies the desired transformation; conditions and selectivity must be assessed for the actual experiment.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="track-an-atom-through-a-mechanism" class="slide level2">
-<h2>Track an atom through a mechanism</h2>
-
-<img data-src="figures/16-ester-oxygen-tracking.svg" style="width:85.0%" alt="The alcohol oxygen becomes the ester single-bond oxygen" class="r-stretch quarto-figure-center"><p class="caption">The alcohol oxygen becomes the ester single-bond oxygen</p><p>Where does the labelled alcohol oxygen appear in standard esterification?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: It becomes the ester single-bond oxygen linking acyl carbon to ethyl. The mechanism, not a filename, tracks the atom.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-track-an-atom-through-a-mechanism" class="slide level2">
-<h2>Resolve: track an atom through a mechanism</h2>
-
-<img data-src="figures/16-ester-oxygen-tracking.svg" style="width:85.0%" alt="The alcohol oxygen becomes the ester single-bond oxygen" class="r-stretch quarto-figure-center"><p class="caption">The alcohol oxygen becomes the ester single-bond oxygen</p><p>It becomes the ester single-bond oxygen linking acyl carbon to ethyl. The mechanism, not a filename, tracks the atom.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Not in this selected net transformation; the CH(OH) centre retains its tetrahedral arrangement if no separate racemising process occurs.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-track-an-atom-through-a-mechanism" class="slide level2">
-<h2>Apply: track an atom through a mechanism</h2>
-<p>Does esterification at the acid site require breaking a bond at the original stereocentre?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Not in this selected net transformation; the CH(OH) centre retains its tetrahedral arrangement if no separate racemising process occurs.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="choose-addition-or-acyl-substitution" class="slide level2">
-<h2>Choose addition or acyl substitution</h2>
-
-<img data-src="figures/06-mechanism-choice.svg" style="width:85.0%" alt="Choose a mechanism from the site and the structural change" class="r-stretch quarto-figure-center"><p class="caption">Choose a mechanism from the site and the structural change</p><p>Which substrate feature allows the carbonyl to reform by leaving-group loss?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An acyl derivative has a potentially viable leaving group. An ordinary aldehyde/ketone lacks that group at the corresponding position.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-choose-addition-or-acyl-substitution" class="slide level2">
-<h2>Resolve: choose addition or acyl substitution</h2>
-
-<img data-src="figures/06-mechanism-choice.svg" style="width:85.0%" alt="Choose a mechanism from the site and the structural change" class="r-stretch quarto-figure-center"><p class="caption">Choose a mechanism from the site and the structural change</p><p>An acyl derivative has a potentially viable leaving group. An ordinary aldehyde/ketone lacks that group at the corresponding position.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: A nucleophile donates to carbonyl carbon as the C=O pi pair moves to oxygen, giving a tetrahedral species.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-choose-addition-or-acyl-substitution" class="slide level2">
-<h2>Apply: choose addition or acyl substitution</h2>
-<p>Name the first shared elementary event in both pathways.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: A nucleophile donates to carbonyl carbon as the C=O pi pair moves to oxygen, giving a tetrahedral species.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-a-biological-looking-charge-pattern" class="slide level2">
-<h2>Read a biological-looking charge pattern</h2>
-
-<img data-src="figures/07-amino-acid.svg" style="width:85.0%" alt="The same molecule can carry acid and basic sites" class="r-stretch quarto-figure-center"><p class="caption">The same molecule can carry acid and basic sites</p><p>Which formal charges are present in the supplied alanine form?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ammonium N is +1 and carboxylate is −1. The centre and methyl remain part of the same carbon skeleton.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-read-a-biological-looking-charge-pattern" class="slide level2">
-<h2>Apply: read a biological-looking charge pattern</h2>
-<p>Can net-neutral alanine still strongly interact with water?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Yes. Its zwitterionic charged sites remain; net charge zero does not eliminate local electrostatic interactions.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compute-net-charge-explicitly" class="slide level2">
-<h2>Compute net charge explicitly</h2>
-
-<img data-src="figures/17-alanine-charge-audit.svg" style="width:85.0%" alt="Alanine net charge is the sum of its formal charges" class="r-stretch quarto-figure-center"><p class="caption">Alanine net charge is the sum of its formal charges</p><p>What is the sum of the two formal charges?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: +1 + (−1) = 0. “Zwitterion” describes those opposing charges within one molecule.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-compute-net-charge-explicitly" class="slide level2">
-<h2>Apply: compute net charge explicitly</h2>
-<p>Does the amide N of a peptide automatically behave like this free ammonium site?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;A peptide N is an amide with different lone-pair delocalisation; local structure must be checked.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="change-protonation-without-changing-skeleton" class="slide level2">
-<h2>Change protonation without changing skeleton</h2>
-
-<img data-src="figures/18-alanine-high-ph.svg" style="width:85.0%" alt="A pH change can alter charge without changing connectivity" class="r-stretch quarto-figure-center"><p class="caption">A pH change can alter charge without changing connectivity</p><p>At sufficiently high pH, which drawn site loses H⁺?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ammonium becomes NH₂ while COO⁻ remains; the dominant form has net −1.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-change-protonation-without-changing-skeleton" class="slide level2">
-<h2>Apply: change protonation without changing skeleton</h2>
-<p>Does this protonation-state change alone break a C–C bond?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;It changes an N–H bond and charge, preserving the displayed carbon connectivity.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="combine-independent-observations" class="slide level2">
-<h2>Combine independent observations</h2>
-
-<img data-src="figures/08-evidence-combination.svg" style="width:85.0%" alt="Require agreement between different measurements" class="r-stretch quarto-figure-center"><p class="caption">Require agreement between different measurements</p><p>Which candidate fits the supplied carbonyl and ethyl/acetyl proton pattern?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ethyl ethanoate fits C₄H₈O₂, an ester carbonyl, 3H singlet and 2H quartet/3H triplet.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-combine-independent-observations" class="slide level2">
-<h2>Apply: combine independent observations</h2>
-<p>What is the role of the molecular formula in that argument?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It constrains total atoms and unsaturation so that a candidate matching one spectral fragment must also explain the whole composition.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="ask-an-alternative-to-make-a-prediction" class="slide level2">
-<h2>Ask an alternative to make a prediction</h2>
-
-<img data-src="figures/19-alternative-test.svg" style="width:85.0%" alt="A second candidate predicts a different methyl splitting" class="r-stretch quarto-figure-center"><p class="caption">A second candidate predicts a different methyl splitting</p><p>What simple coupling feature challenges the hydroxyketone alternative?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Its CH₃ beside CH predicts a doublet in the simple model, and its OH-bearing CH represents 1H rather than an O–CH₂ 2H quartet.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-ask-an-alternative-to-make-a-prediction" class="slide level2">
-<h2>Resolve: ask an alternative to make a prediction</h2>
-
-<img data-src="figures/19-alternative-test.svg" style="width:85.0%" alt="A second candidate predicts a different methyl splitting" class="r-stretch quarto-figure-center"><p class="caption">A second candidate predicts a different methyl splitting</p><p>Its CH₃ beside CH predicts a doublet in the simple model, and its OH-bearing CH represents 1H rather than an O–CH₂ 2H quartet.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;A candidate must account for the full evidence rather than one familiar region.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-ask-an-alternative-to-make-a-prediction" class="slide level2">
-<h2>Apply: ask an alternative to make a prediction</h2>
-<p>Would a single matching carbonyl band rescue all those disagreements?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;A candidate must account for the full evidence rather than one familiar region.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-conflicting-experimental-claims" class="slide level2">
-<h2>Resolve conflicting experimental claims</h2>
-
-<img data-src="figures/09-yield-identity.svg" style="width:85.0%" alt="High isolated yield cannot rescue contradictory identity evidence" class="r-stretch quarto-figure-center"><p class="caption">High isolated yield cannot rescue contradictory identity evidence</p><p>What can 1.70 g against 1.8016 g theoretical establish by itself?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An apparent mass-based yield of about 94.4%, assuming product mass. Contradictory NMR tests that identity/purity assumption.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-resolve-conflicting-experimental-claims" class="slide level2">
-<h2>Resolve: resolve conflicting experimental claims</h2>
-
-<img data-src="figures/09-yield-identity.svg" style="width:85.0%" alt="High isolated yield cannot rescue contradictory identity evidence" class="r-stretch quarto-figure-center"><p class="caption">High isolated yield cannot rescue contradictory identity evidence</p><p>An apparent mass-based yield of about 94.4%, assuming product mass. Contradictory NMR tests that identity/purity assumption.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Residual solvent or another impurity, including starting material, may add to mass. The observations do not identify a unique cause.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-resolve-conflicting-experimental-claims" class="slide level2">
-<h2>Apply: resolve conflicting experimental claims</h2>
-<p>Give two possible contributors to an unexpectedly high mass.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Residual solvent or another impurity, including starting material, may add to mass. The observations do not identify a unique cause.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="write-the-causal-link" class="slide level2">
-<h2>Write the causal link</h2>
-
-<img data-src="figures/10-claim-evidence.svg" style="width:85.0%" alt="A scientific explanation links claim, observation and chemical reason" class="r-stretch quarto-figure-center"><p class="caption">A scientific explanation links claim, observation and chemical reason</p><p>How does the ester claim connect to actual measured kinds of observations?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A carbonyl plus O–CH₂ environment and absent broad acid O–H agree with the ester candidate among those tested.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-write-the-causal-link" class="slide level2">
-<h2>Apply: write the causal link</h2>
-<p>What statement would be circular rather than evidential?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: “The sample is ester because the file is called ester” uses a label as proof rather than testing structural predictions.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="bring-quantitative-and-structural-evidence-together" class="slide level2">
-<h2>Bring quantitative and structural evidence together</h2>
-
-<img data-src="figures/20-conclusion-streams.svg" style="width:85.0%" alt="Build a defensible conclusion from separate evidence streams" class="r-stretch quarto-figure-center"><p class="caption">Build a defensible conclusion from separate evidence streams</p><p>Which evidence streams must agree before a strong synthesis claim?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Structure predictions, spectra and properly calculated masses should agree. A reproducible calculation alone cannot override contradictory chemistry.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-bring-quantitative-and-structural-evidence-together" class="slide level2">
-<h2>Apply: bring quantitative and structural evidence together</h2>
-<p>Name one useful follow-up when purity is uncertain.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Use a suitable independent spectral or separation check, chosen to test a specific remaining alternative; do not merely repeat the yield calculation.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="integrate-one-short-case" class="slide level2">
-<h2>Integrate one short case</h2>
-<p>An isolate has high apparent yield and one TLC spot but unexpected major NMR signals. Write a defensible claim and one targeted next check.</p>
-<aside class="notes">
-<p>Suggested 120 seconds; adjust to the explanation and class response. Give time to formulate the claim and compare a partner explanation. Worked answer: The apparent yield is calculated under a product-mass assumption that the NMR calls into question. Compare full assigned NMR or use a suitable second separation to test a specific impurity alternative.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compare-the-worked-reasoning" class="slide level2">
-<h2>Compare the worked reasoning</h2>
-<p>The apparent yield is calculated under a product-mass assumption that the NMR calls into question. Compare full assigned NMR or use a suitable second separation to test a specific impurity alternative.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Ask students to identify the exact step or observation their own reasoning omitted. This is a correction interval within the session, not a new topic.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="exit-explanation" class="slide level2">
-<h2>Exit explanation</h2>
-<p>What should an unfamiliar molecule prompt you to do first?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Worked answer: Read its functional groups, charges and geometry; use the same local electron and evidence rules before invoking a remembered reaction name. Ask for a causal explanation, not a single vocabulary label.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="continue-with-independent-practice" class="slide level2">
-<h2>Continue with independent practice</h2>
-<p>Use the <a href="../integration/exercise.html">exercises</a>, then the <a href="../integration/quiz.html">self-check</a>.</p>
-<p>All required inputs and explanations are provided locally. The <a href="../reference/reading.html">reading guide</a> offers optional textbook support.</p>
-<aside class="notes">
-<p>Suggested 20 seconds; adjust to the explanation and class response. Preview the local exercise route. No book purchase or external problem set is needed to complete it. Leave time to note one corrected misconception.</p>
+<p>Close the loop: lactic acid in the blood is lactate, its configuration is S, oxidising it gives pyruvate, esterifying it gives a solvent or a plastic, and we know what a sample is only when the evidence agrees. That’s five weeks in one molecule. There’s no new lecture after this one. Days 24 and 25 are mixed revision sets in exactly this style, and the exam will ask the same kinds of linked questions. Point to the exercises: 1 to 10 are core, 11 to 16 transfer and 17 to 20 are about evidence.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

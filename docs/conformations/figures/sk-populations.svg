@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>Populations from free-energy gaps</title><desc>Two-state populations at 298 K for gaps of 0, 3500 and 7000 J/mol</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<line x1="120" y1="320" x2="920" y2="320" stroke="#153747" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="120" y1="320" x2="120" y2="50" stroke="#153747" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="520.0" y="382" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal"></text>
+<text x="70" y="185.0" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" transform="rotate(-90 70 185.0)">fraction</text>
+<line x1="114" y1="320" x2="120" y2="320" stroke="#153747" stroke-width="2"/>
+<text x="106" y="327" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#153747" text-anchor="end" font-weight="normal">0</text>
+<line x1="114" y1="195.0" x2="120" y2="195.0" stroke="#153747" stroke-width="2"/>
+<text x="106" y="202.0" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#153747" text-anchor="end" font-weight="normal">0.5</text>
+<line x1="114" y1="70.0" x2="120" y2="70.0" stroke="#153747" stroke-width="2"/>
+<text x="106" y="77.0" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#153747" text-anchor="end" font-weight="normal">1</text>
+<rect x="175" y="195.0" width="70" height="125.0" rx="8" fill="#176b91" stroke="none"/>
+<text x="210" y="185.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">0.500</text>
+<text x="210" y="346" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="bold">A</text>
+<rect x="255" y="195.0" width="70" height="125.0" rx="8" fill="#7fb3c9" stroke="none"/>
+<text x="290" y="185.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">0.500</text>
+<text x="290" y="346" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="bold">B</text>
+<text x="245" y="382" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">ΔG(B) = 0 J/mol</text>
+<rect x="445" y="118.98426383344201" width="70" height="201.01573616655799" rx="8" fill="#176b91" stroke="none"/>
+<text x="480" y="108.98426383344201" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">0.804</text>
+<text x="480" y="346" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="bold">A</text>
+<rect x="525" y="271.015736166558" width="70" height="48.984263833441986" rx="8" fill="#7fb3c9" stroke="none"/>
+<text x="560" y="261.015736166558" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">0.196</text>
+<text x="560" y="346" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="bold">B</text>
+<text x="515" y="382" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">ΔG(B) = 3500 J/mol</text>
+<rect x="715" y="84.01330503510337" width="70" height="235.98669496489663" rx="8" fill="#176b91" stroke="none"/>
+<text x="750" y="74.01330503510337" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">0.944</text>
+<text x="750" y="346" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="bold">A</text>
+<rect x="795" y="305.9866949648967" width="70" height="14.013305035103341" rx="8" fill="#7fb3c9" stroke="none"/>
+<text x="830" y="295.9866949648967" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="normal">0.056</text>
+<text x="830" y="346" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#153747" text-anchor="middle" font-weight="bold">B</text>
+<text x="785" y="382" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">ΔG(B) = 7000 J/mol</text>
+<text x="520" y="40" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#6b7f8a" text-anchor="middle" font-weight="normal">A has ΔG = 0 in every case · T = 298.15 K</text>
+</svg>

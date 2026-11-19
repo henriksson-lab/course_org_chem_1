@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>What you may and may not do to a Fischer projection</title><desc>Starting from (S)-lactic acid: a 180 degree rotation keeps S; a 90 degree rotation or one swap gives R</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="74" y1="160" x2="166" y2="160" stroke="#153747" stroke-width="3"/>
+<line x1="120" y1="114" x2="120" y2="206" stroke="#153747" stroke-width="3"/>
+<text x="120" y="100" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="120" y="240" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="62" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="end" font-weight="normal">OH</text>
+<text x="178" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="start" font-weight="normal">H</text>
+<text x="120" y="315" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">starting point</text>
+<text x="120" y="355" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#23765d" text-anchor="middle" font-weight="normal">(S): same molecule</text>
+<line x1="314" y1="160" x2="406" y2="160" stroke="#153747" stroke-width="3"/>
+<line x1="360" y1="114" x2="360" y2="206" stroke="#153747" stroke-width="3"/>
+<text x="360" y="100" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="360" y="240" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="302" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="end" font-weight="normal">H</text>
+<text x="418" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="start" font-weight="normal">OH</text>
+<text x="360" y="315" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">rotate 180°</text>
+<text x="360" y="355" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#23765d" text-anchor="middle" font-weight="normal">(S): same molecule</text>
+<line x1="554" y1="160" x2="646" y2="160" stroke="#153747" stroke-width="3"/>
+<line x1="600" y1="114" x2="600" y2="206" stroke="#153747" stroke-width="3"/>
+<text x="600" y="100" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">OH</text>
+<text x="600" y="240" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<text x="542" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="end" font-weight="normal">CH₃</text>
+<text x="658" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="start" font-weight="normal">COOH</text>
+<text x="600" y="315" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">rotate 90°</text>
+<text x="600" y="355" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#af3b45" text-anchor="middle" font-weight="normal">(R): enantiomer</text>
+<line x1="794" y1="160" x2="886" y2="160" stroke="#153747" stroke-width="3"/>
+<line x1="840" y1="114" x2="840" y2="206" stroke="#153747" stroke-width="3"/>
+<text x="840" y="100" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="840" y="240" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="782" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="end" font-weight="normal">H</text>
+<text x="898" y="169" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="start" font-weight="normal">OH</text>
+<text x="840" y="315" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">swap OH and H</text>
+<text x="840" y="355" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#af3b45" text-anchor="middle" font-weight="normal">(R): enantiomer</text>
+</svg>

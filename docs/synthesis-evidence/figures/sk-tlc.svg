@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img"><title>A TLC plate with starting material, product reference and crude lanes</title><desc>Three lanes: S with a spot at 1.2 cm, P with a spot at 3.2 cm, and crude with spots at both heights</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="430" rx="12" fill="#f7fafc"/>
+<rect x="300" y="30" width="360" height="330" rx="8" fill="white" stroke="#8aa0ab"/>
+<line x1="312" y1="320" x2="648" y2="320" stroke="#153747" stroke-width="2" stroke-dasharray="4 5"/>
+<line x1="312" y1="60.0" x2="648" y2="60.0" stroke="#176b91" stroke-width="2" stroke-dasharray="8 5"/>
+<ellipse cx="360.0" cy="257.6" rx="15" ry="10" fill="#153747"/>
+<text x="360.0" y="392" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">S</text>
+<ellipse cx="480.0" cy="153.6" rx="15" ry="10" fill="#176b91"/>
+<text x="480.0" y="392" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">P</text>
+<ellipse cx="600.0" cy="257.6" rx="15" ry="10" fill="#af3b45"/>
+<ellipse cx="600.0" cy="153.6" rx="15" ry="10" fill="#af3b45"/>
+<text x="600.0" y="392" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">crude</text>
+<text x="290" y="327" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="end" font-weight="normal">origin</text>
+<text x="290" y="67.0" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#176b91" text-anchor="end" font-weight="normal">solvent front</text>
+<text x="680" y="160.6" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#176b91" text-anchor="start" font-weight="normal">matches P</text>
+<text x="680" y="264.6" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="start" font-weight="normal">matches S</text>
+<text x="150" y="140" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#8aa0ab" text-anchor="middle" font-weight="normal">silica (polar)</text>
+<text x="150" y="170" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#8aa0ab" text-anchor="middle" font-weight="normal">stays put</text>
+<text x="810" y="60" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#af3b45" text-anchor="middle" font-weight="normal">crude: at least</text>
+<text x="810" y="88" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#af3b45" text-anchor="middle" font-weight="normal">two components</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>A ring flip swaps axial and equatorial</title><desc>Methylcyclohexane: axial-up methyl on the left becomes equatorial-up methyl after the ring flip</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<line x1="318.2" y1="232.2" x2="271.7" y2="215.9" stroke="#153747" stroke-width="3.5"/>
+<line x1="271.7" y1="215.9" x2="153.5" y2="260.1" stroke="#153747" stroke-width="3.5"/>
+<line x1="153.5" y1="260.1" x2="81.8" y2="197.8" stroke="#153747" stroke-width="3.5"/>
+<line x1="81.8" y1="197.8" x2="128.3" y2="214.1" stroke="#153747" stroke-width="3.5"/>
+<line x1="128.3" y1="214.1" x2="246.5" y2="169.9" stroke="#153747" stroke-width="3.5"/>
+<line x1="246.5" y1="169.9" x2="318.2" y2="232.2" stroke="#153747" stroke-width="3.5"/>
+<line x1="888.2" y1="191.3" x2="841.7" y2="256.9" stroke="#153747" stroke-width="3.5"/>
+<line x1="841.7" y1="256.9" x2="723.5" y2="219.2" stroke="#153747" stroke-width="3.5"/>
+<line x1="723.5" y1="219.2" x2="651.8" y2="238.7" stroke="#153747" stroke-width="3.5"/>
+<line x1="651.8" y1="238.7" x2="698.3" y2="173.1" stroke="#153747" stroke-width="3.5"/>
+<line x1="698.3" y1="173.1" x2="816.5" y2="210.8" stroke="#153747" stroke-width="3.5"/>
+<line x1="816.5" y1="210.8" x2="888.2" y2="191.3" stroke="#153747" stroke-width="3.5"/>
+<line x1="81.8" y1="197.8" x2="81.8" y2="121.9" stroke="#af3b45" stroke-width="4"/>
+<text x="81.8" y="102.3" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#af3b45" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="81.8" y1="197.8" x2="35.8" y2="215.1" stroke="#6b7f8a" stroke-width="3"/>
+<text x="12.8" y="231.1" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#6b7f8a" text-anchor="middle" font-weight="normal">H</text>
+<line x1="651.8" y1="238.7" x2="594.3" y2="220.3" stroke="#af3b45" stroke-width="4"/>
+<text x="555.9" y="212.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#af3b45" text-anchor="middle" font-weight="normal">CH₃</text>
+<line x1="651.8" y1="238.7" x2="651.8" y2="286.7" stroke="#6b7f8a" stroke-width="3"/>
+<text x="651.8" y="318.0" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#6b7f8a" text-anchor="middle" font-weight="normal">H</text>
+<line x1="365" y1="205" x2="465" y2="205" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="465" y1="235" x2="365" y2="235" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="415" y="185" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">ring flip</text>
+<text x="200" y="345" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">axial · up</text>
+<text x="770" y="345" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">equatorial · up</text>
+<text x="480" y="395" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#176b91" text-anchor="middle" font-weight="normal">axial ⇄ equatorial changes; up stays up</text>
+</svg>

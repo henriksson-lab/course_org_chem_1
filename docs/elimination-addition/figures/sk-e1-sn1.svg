@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>A tertiary carbocation can be captured or lose a beta H</title><desc>The tert-butyl cation in water gives tert-butanol by capture (SN1) or 2-methylpropene by beta-H loss (E1)</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<svg x="371.0" y="18.1" width="218.0" height="205.0" viewBox="0 0 218.0 205.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 109.0,164.4 L 109.0,94.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 130.5,69.4 L 180.4,40.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 98.6,75.9 L 37.6,40.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-1' d='M 101.4 82.0
+Q 101.4 77.0, 103.7 74.5
+Q 106.0 71.9, 110.4 71.9
+Q 114.5 71.9, 116.6 74.7
+L 114.8 76.2
+Q 113.2 74.1, 110.4 74.1
+Q 107.4 74.1, 105.8 76.2
+Q 104.2 78.2, 104.2 82.0
+Q 104.2 85.9, 105.8 87.9
+Q 107.5 89.9, 110.7 89.9
+Q 112.9 89.9, 115.4 88.6
+L 116.2 90.7
+Q 115.2 91.4, 113.6 91.8
+Q 112.0 92.2, 110.3 92.2
+Q 106.0 92.2, 103.7 89.5
+Q 101.4 86.9, 101.4 82.0
+' fill='#153747'/>
+<path class='atom-1' d='M 119.2 75.4
+L 122.7 75.4
+L 122.7 71.7
+L 124.2 71.7
+L 124.2 75.4
+L 127.8 75.4
+L 127.8 76.7
+L 124.2 76.7
+L 124.2 80.4
+L 122.7 80.4
+L 122.7 76.7
+L 119.2 76.7
+L 119.2 75.4
+' fill='#153747'/>
+</svg>
+<text x="480" y="30" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="bold">tert-butyl cation in water</text>
+<line x1="410" y1="170" x2="300" y2="215" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="550" y1="170" x2="660" y2="215" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="330" y="168" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="end" font-weight="normal">H₂O bonds to C⁺</text>
+<text x="630" y="168" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="start" font-weight="normal">H₂O removes a β-H</text>
+<svg x="124.5" y="176.9" width="211.0" height="211.0" viewBox="0 0 211.0 211.0" overflow="visible">
+<ellipse cx='114.8' cy='47.3' rx='26.0' ry='15.4' class='atom-4'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 39.5,113.1 L 105.5,113.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 105.5,113.1 L 171.5,113.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 105.5,113.1 L 105.5,179.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 105.5,113.1 L 105.5,59.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-4' d='M 96.4 47.2
+Q 96.4 42.4, 98.8 39.8
+Q 101.1 37.1, 105.5 37.1
+Q 109.9 37.1, 112.2 39.8
+Q 114.6 42.4, 114.6 47.2
+Q 114.6 52.0, 112.2 54.7
+Q 109.8 57.5, 105.5 57.5
+Q 101.1 57.5, 98.8 54.7
+Q 96.4 52.0, 96.4 47.2
+M 105.5 55.2
+Q 108.5 55.2, 110.1 53.2
+Q 111.8 51.2, 111.8 47.2
+Q 111.8 43.3, 110.1 41.3
+Q 108.5 39.3, 105.5 39.3
+Q 102.5 39.3, 100.8 41.3
+Q 99.2 43.3, 99.2 47.2
+Q 99.2 51.2, 100.8 53.2
+Q 102.5 55.2, 105.5 55.2
+' fill='#af3b45'/>
+<path class='atom-4' d='M 117.7 37.3
+L 120.4 37.3
+L 120.4 45.8
+L 130.5 45.8
+L 130.5 37.3
+L 133.2 37.3
+L 133.2 57.1
+L 130.5 57.1
+L 130.5 48.0
+L 120.4 48.0
+L 120.4 57.1
+L 117.7 57.1
+L 117.7 37.3
+' fill='#af3b45'/>
+</svg>
+<text x="230" y="385" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="bold">tert-butanol + H₃O⁺</text>
+<text x="230" y="406" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#af3b45" text-anchor="middle" font-weight="bold">SN1</text>
+<svg x="630.5" y="181.3" width="199.0" height="189.0" viewBox="0 0 199.0 189.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 86.3,52.7 L 112.7,52.7 L 112.7,118.7 L 86.3,118.7 Z' style='fill:#CFE3EC;fill-rule:evenodd;fill-opacity:1;stroke:#CFE3EC;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<ellipse cx='99.5' cy='52.7' rx='15.4' ry='15.4' class='atom-0'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='99.5' cy='118.7' rx='15.4' ry='15.4' class='atom-1'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 104.5,52.7 L 104.5,121.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 94.6,52.7 L 94.6,121.6' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 99.5,118.7 L 42.3,151.7' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 99.5,118.7 L 156.7,151.7' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 96.6,120.3 L 99.5,118.7 L 102.4,120.3' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+</svg>
+<text x="730" y="385" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="bold">2-methylpropene + H₃O⁺</text>
+<text x="730" y="406" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#af3b45" text-anchor="middle" font-weight="bold">E1</text>
+</svg>

@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Amines and aromatic molecules</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,18 +144,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Amines and aromatic molecules</h1>
-  <p class="subtitle">Week 4 · 45-minute teaching session</p>
+  <p class="subtitle">Week 4 · Day 18 — where does nitrogen keep its lone pair?</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="a-chemical-route-through-this-session" class="slide level2">
-<h2>A chemical route through this session</h2>
-<p>Locate each nitrogen pair before predicting proton transfer. Distinguish simple amines, amides and aromatic nitrogens, then combine acid and base sites in an amino acid.</p>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>Old fish smells because bacteria turn a nitrogen compound into <strong>trimethylamine</strong>, a volatile amine. Squeeze lemon on it and the smell fades: citric acid hands a proton to the nitrogen, and the resulting <strong>ammonium salt</strong> can’t evaporate. That’s one lone pair taking one proton.</p>
+<p>Today we follow the nitrogen lone pair:</p>
+<ul>
+<li><strong>Amines:</strong> classify them, and draw their protonation with curved arrows</li>
+<li><strong>Basicity:</strong> compare bases with conjugate-acid pKa values</li>
+<li><strong>Amides and aniline:</strong> when the pair is shared, the base gets weaker</li>
+<li><strong>Aromaticity:</strong> what makes benzene, pyridine and pyrrole special</li>
+<li><strong>Amino acids:</strong> glycine’s charge at different pH</li>
+</ul>
+<p>Yesterday’s acyl chemistry made amides; today explains why their nitrogen hardly behaves like an amine.</p>
 <aside class="notes">
-<p>45-minute budget: retrieval 4 min; N bond/charge examples and paired checks 8 min; basicity comparison 6 min; aromatic nitrogen reasoning 12 min; amino-acid charge cases 10 min; integrated check and exit 5 min. Total 45 min, including drawing and discussion.</p>
-<p>Suggested 30 seconds; adjust to the explanation and class response. Plan 45 minutes including short drawing and discussion intervals. Routine visual frames take roughly 40 seconds; worked checks need longer and some resolutions can be quicker. Treat timings as guidance, with room for questions.</p>
+<p>Open with the fish. Fresh fish contains trimethylamine N-oxide, which bacteria reduce to trimethylamine as the fish ages; that’s the “fishy” smell. Lemon juice or vinegar protonates it to trimethylammonium, an ion that stays in the water instead of reaching your nose. The same trick explains why many drugs are sold as hydrochloride salts: the protonated amine is a stable, water-soluble solid. The thread through the whole lecture is one question: where is the nitrogen lone pair, and is it free to grab a proton? Amines, amides, aniline, pyridine and pyrrole are all answers to that one question.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -151,29 +181,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="retrieve-the-starting-idea" class="slide level2">
-<h2>Retrieve the starting idea</h2>
-<p>Draw NH₃ with three bonds and a lone pair. What changes when it accepts H⁺?</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Give students a short individual attempt. Worked answer: The pair becomes an N–H bond; NH₄⁺ has four bonds and positive charge.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="count-carbon-substituents-at-nitrogen" class="slide level2">
-<h2>Count carbon substituents at nitrogen</h2>
+<section id="amines-count-the-carbons-on-nitrogen" class="slide level2">
+<h2>Amines: count the carbons on nitrogen</h2>
 
-<img data-src="figures/01-amine-family.svg" style="width:85.0%" alt="Count carbon substituents on nitrogen, not total N bonds" class="r-stretch quarto-figure-center"><p class="caption">Count carbon substituents on nitrogen, not total N bonds</p><p>Which number distinguishes primary, secondary and tertiary amines?</p>
+<img data-src="figures/sk-amine-classes.svg" style="width:80.0%" alt="Methylamine, dimethylamine and trimethylamine with nitrogen shaded and its lone pair drawn; one, two and three carbons on N" class="r-stretch quarto-figure-center"><p class="caption">Primary, secondary and tertiary amines</p><p>A neutral amine N has <strong>three bonds and one lone pair</strong>, just like ammonia. Primary, secondary and tertiary count the <strong>carbons bonded to N</strong>, not the carbons in the molecule.</p>
+<div class="try">
+<p><strong>Try it:</strong> classify CH₃NHCH₂CH₃.</p>
+<div class="fragment">
+<p><strong>Secondary.</strong> Two carbon groups (methyl and ethyl) sit on N, plus one N–H. The total of three carbons doesn’t matter.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Count directly attached carbon groups: one, two or three. The neutral ordinary amines shown still have a lone pair.</p>
+<p>Amines are ammonia with carbon groups in place of hydrogens. Stress that the classification looks only at nitrogen’s neighbours. Students who learned “primary, secondary, tertiary” for alcohols on Day 13 often transfer the alcohol rule, which counts carbons on the carbinol carbon, not on oxygen. Here we count directly on N. Point at the lone pair in each drawing: all three are neutral, all three have one pair, and that pair is what makes them bases. Trimethylamine, on the right, is our fish molecule.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -186,29 +205,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-count-carbon-substituents-at-nitrogen" class="slide level2">
-<h2>Apply: count carbon substituents at nitrogen</h2>
-<p>Classify CH₃NHCH₂CH₃.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Secondary: two carbon substituents are attached to N, plus one H.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="audit-nitrogen-before-protonation" class="slide level2">
-<h2>Audit nitrogen before protonation</h2>
+<section id="protonation-the-lone-pair-makes-the-new-nh-bond" class="slide level2">
+<h2>Protonation: the lone pair makes the new N–H bond</h2>
 
-<img data-src="figures/11-nitrogen-audit.svg" style="width:85.0%" alt="Count nitrogen bonds and its nonbonding pair" class="r-stretch quarto-figure-center"><p class="caption">Count nitrogen bonds and its nonbonding pair</p><p>How many bonds and nonbonding electrons belong to neutral methylamine N?</p>
+<img data-src="figures/sk-protonation.svg" style="width:82.0%" alt="Curved arrows from the nitrogen lone pair to an H of hydronium and from the O-H bond to oxygen, giving methylammonium and water" class="r-stretch quarto-figure-center"><p class="caption">Methylamine takes a proton from hydronium</p><p>Two arrows: <strong>N pair → H</strong>, and <strong>H–O bond → O</strong>. Nitrogen goes from 3 bonds + 1 pair (neutral) to <strong>4 bonds, no pair, +1</strong>. Net charge is +1 on both sides.</p>
+<div class="try">
+<p><strong>Try it:</strong> draw the reverse, CH₃NH₃⁺ + OH⁻. What forms?</p>
+<div class="fragment">
+<p><strong>CH₃NH₂ + H₂O.</strong> Hydroxide’s pair takes the H, and the N–H bond pair goes back to N as its lone pair. Net charge is zero on both sides.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: It has three single bonds and one nonbonding pair. That pair can form the new N–H bond.</p>
+<p>This is the Day 3 acid-base arrow pattern with nitrogen as the base. Insist on both arrows: one starts at the lone pair and ends at the H, the other starts at the H–O bond and ends on oxygen. A common error is drawing the arrow from H+ to nitrogen, which shows the proton carrying electrons; the arrow always follows the electrons. Also note that N doesn’t “lose an electron” to become positive. It shares its pair in a new bond, so it now owns one electron fewer by formal-charge bookkeeping. Ask: what happened to the positive charge of hydronium? It moved to nitrogen.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -221,12 +229,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-audit-nitrogen-before-protonation" class="slide level2">
-<h2>Resolve: audit nitrogen before protonation</h2>
+<section id="charge-and-classification-are-separate-questions" class="slide level2">
+<h2>Charge and classification are separate questions</h2>
 
-<img data-src="figures/11-nitrogen-audit.svg" style="width:85.0%" alt="Count nitrogen bonds and its nonbonding pair" class="r-stretch quarto-figure-center"><p class="caption">Count nitrogen bonds and its nonbonding pair</p><p>It has three single bonds and one nonbonding pair. That pair can form the new N–H bond.</p>
+<img data-src="figures/sk-tertiary-quaternary.svg" style="width:80.0%" alt="Trimethylamine (3 C, neutral), trimethylammonium (3 C, one N-H, +1) and tetramethylammonium (4 C, +1)" class="r-stretch quarto-figure-center"><p class="caption">Tertiary amine, its conjugate acid and a quaternary ammonium ion</p><p>Protonating a tertiary amine gives a <strong>tertiary ammonium ion</strong>, not a quaternary one: it still has three carbons and now one N–H. <strong>Quaternary</strong> means four carbons on N. With no N–H to lose, it stays +1 at any pH.</p>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: +1. Ordinary ammonium N has four bonds and no nonbonding pair.</p>
+<p>Read across the three: carbons on N, N–H count, charge. 3/0/0, 3/1/+1, 4/0/+1. The middle one is what lemon juice makes from trimethylamine. Students often call it quaternary because N now has four bonds. Ask them what defines “quaternary”: four carbon groups. The practical difference matters: (CH3)3NH+ can give its proton back to a base and become volatile again, but (CH3)4N+ can’t, which is why quaternary ammonium ions show up in disinfectants and fabric softeners as permanently charged species.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -239,29 +247,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-audit-nitrogen-before-protonation" class="slide level2">
-<h2>Apply: audit nitrogen before protonation</h2>
-<p>Give the N formal charge after forming a fourth single bond.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: +1. Ordinary ammonium N has four bonds and no nonbonding pair.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-a-real-proton-donor" class="slide level2">
-<h2>Use a real proton donor</h2>
+<section id="basicity-read-the-pka-of-the-conjugate-acid" class="slide level2">
+<h2>Basicity: read the pKa of the conjugate acid</h2>
 
-<img data-src="figures/02-amine-protonation.svg" style="width:85.0%" alt="Amine protonation creates four bonds and positive charge" class="r-stretch quarto-figure-center"><p class="caption">Amine protonation creates four bonds and positive charge</p><p>What must accompany the new N–H bond if H–A supplies H?</p>
+<img data-src="figures/sk-pka-bars.svg" style="width:86.0%" alt="Bar chart of conjugate-acid pKa: ethylammonium 10.7, benzylammonium 9.3, ammonium 9.2, pyridinium 5.2, anilinium 4.6, each base drawn below its bar" class="r-stretch quarto-figure-center"><p class="caption">Conjugate-acid pKa values of five nitrogen bases</p><p>We rank bases by the <strong>pKa of BH⁺</strong>. A <strong>higher</strong> pKa means BH⁺ holds its proton tightly, so B is the <strong>stronger base</strong>. Ethylamine beats aniline by about six pKa units.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The N pair forms N–H while the H–A bonding pair moves to A. Products are ammonium and A⁻.</p>
+<p>The single most important convention of the lecture: amine basicity is reported as the pKa of the protonated form. Students meet “the pKa of ethylamine” in sloppy sources and look up 35-ish, which is the N–H acidity of the neutral amine, a completely different equilibrium. Always ask “pKa of what?”. The chart sets up the rest of the lecture: alkyl amines and ammonia sit around 9–11, and the two green bars, pyridine and aniline, are about a hundred thousand times weaker as bases. By the end of today each bar should have a structural explanation.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -274,12 +265,19 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-use-a-real-proton-donor" class="slide level2">
-<h2>Resolve: use a real proton donor</h2>
+<section id="which-way-does-a-proton-transfer-go" class="slide level2">
+<h2>Which way does a proton transfer go?</h2>
 
-<img data-src="figures/02-amine-protonation.svg" style="width:85.0%" alt="Amine protonation creates four bonds and positive charge" class="r-stretch quarto-figure-center"><p class="caption">Amine protonation creates four bonds and positive charge</p><p>The N pair forms N–H while the H–A bonding pair moves to A. Products are ammonium and A⁻.</p>
+<img data-src="figures/sk-proton-transfer.svg" style="width:76.0%" alt="Anilinium plus ethylamine in equilibrium with aniline plus ethylammonium; K is about 10 to the 6.1" class="r-stretch quarto-figure-center"><p class="caption">Anilinium gives its proton to ethylamine</p><p><span class="math display">K \approx 10^{\,\text{pKa(product acid)} \;-\; \text{pKa(reactant acid)}}</span></p>
+<p>The equilibrium favours the side with the <strong>weaker acid</strong> (higher pKa).</p>
+<div class="try">
+<p><strong>Try it:</strong> estimate K for anilinium + NH₃ ⇌ aniline + NH₄⁺ (pKa 4.6 and 9.2).</p>
+<div class="fragment">
+<p><strong>K ≈ 10^(9.2 − 4.6) = 10^4.6 ≈ 4 × 10⁴.</strong> Ammonia takes the proton, so the products win.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: CH₃NH₃⁺ + H₂O. Net charge stays +1.</p>
+<p>Walk through the formula with the figure: the product acid is ethylammonium, 10.7; the reactant acid is anilinium, 4.6; the exponent is 6.1, so K is about a million. Remind students that this works only when both pKa values come from the same solvent and conventions, here water. The rule in words: protons flow downhill to the stronger base, ending up on the weaker acid. This is the same tool students used on Day 3 for O–H acids; nitrogen changes nothing about the arithmetic.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -292,11 +290,37 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-use-a-real-proton-donor" class="slide level2">
-<h2>Apply: use a real proton donor</h2>
-<p>Balance CH₃NH₂ + H₃O⁺.</p>
+<section id="basicity-is-about-equilibrium-not-speed" class="slide level2">
+<h2>Basicity is about equilibrium, not speed</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>a pKa comparison tells you…</th>
+<th>it doesn’t tell you…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>which side of a proton transfer is favoured</td>
+<td>how <strong>fast</strong> the proton transfer happens</td>
+</tr>
+<tr class="even">
+<td>which base holds a proton more tightly</td>
+<td>which N attacks a <strong>carbon</strong> electrophile fastest</td>
+</tr>
+<tr class="odd">
+<td>roughly how much of each form at a given pH</td>
+<td>effects of <strong>solvent</strong>, <strong>sterics</strong> or the <strong>leaving group</strong></td>
+</tr>
+</tbody>
+</table>
+<p>A strong base is often a good nucleophile, but <strong>nucleophilicity is a rate</strong>, and pKa alone can’t rank rates.</p>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: CH₃NH₃⁺ + H₂O. Net charge stays +1.</p>
+<p>Students tend to collapse “basic” and “nucleophilic” into one word. Basicity is thermodynamic: where the proton ends up at equilibrium. Nucleophilicity is kinetic: how fast a lone pair attacks carbon. They often trend together for similar nitrogens, which is why the shortcut is tempting, but a bulky tertiary amine can be a good base and a poor nucleophile because it can’t reach a crowded carbon. Connect back to substitution on Day 11, where solvent and sterics changed SN2 rates. If a question asks for a rate, pKa is at most one piece of evidence.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -309,12 +333,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="keep-classification-separate-from-charge" class="slide level2">
-<h2>Keep classification separate from charge</h2>
+<section id="amides-the-pair-is-shared-with-co" class="slide level2">
+<h2>Amides: the pair is shared with C=O</h2>
 
-<img data-src="figures/12-tertiary-quaternary.svg" style="width:85.0%" alt="Tertiary amine and quaternary ammonium differ" class="r-stretch quarto-figure-center"><p class="caption">Tertiary amine and quaternary ammonium differ</p><p>Why is neutral trimethylamine not quaternary ammonium?</p>
+<img data-src="figures/sk-amide-resonance.svg" style="width:80.0%" alt="Ethanamide drawn neutral and as the charge-separated contributor CH3C(O-)=NH2+, with curved arrows from the N lone pair and the C=O pi bond" class="r-stretch quarto-figure-center"><p class="caption">The amide nitrogen pair is shared with the carbonyl</p><p>The N pair delocalises into the carbonyl, giving the C–N bond <strong>partial double-bond character</strong>. Protonating N would cost that stabilisation, so amides are <strong>not</strong> basic like amines.</p>
+<div class="try">
+<p><strong>Try it:</strong> in CH₃C(O⁻)=NH₂⁺, check each charge. Is this a second molecule in equilibrium with ethanamide?</p>
+<div class="fragment">
+<p><strong>N</strong> has four bonds and no pair, so +1; <strong>O</strong> has one bond and three pairs, so −1; net 0. <strong>No:</strong> it’s a resonance contributor of the <em>same</em> molecule, with the same atoms in the same places.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Trimethylamine has three carbon groups and a lone pair. Quaternary ammonium has four carbon substituents and positive charge.</p>
+<p>This ties straight back to yesterday: amides are the least reactive acyl derivatives for exactly this reason, the nitrogen pair is feeding the carbonyl. Draw the two arrows slowly: the lone pair becomes the C=N pi bond, and the C=O pi bond becomes an oxygen lone pair. The double-headed resonance arrow is not an equilibrium arrow; nothing moves except our bookkeeping of electrons. The real molecule is a blend, and the evidence is that the amide C–N bond is shorter than a normal C–N single bond and doesn’t rotate freely, which is why peptide backbones are flat.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -327,29 +357,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-keep-classification-separate-from-charge" class="slide level2">
-<h2>Apply: keep classification separate from charge</h2>
-<p>Is (CH₃)₃NH⁺ a quaternary ammonium ion?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It is the conjugate acid of a tertiary amine, with three carbon groups and one H. Quaternary ammonium has four carbon groups.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="inspect-the-group-beside-nitrogen" class="slide level2">
-<h2>Inspect the group beside nitrogen</h2>
+<section id="two-nitrogens-two-behaviours" class="slide level2">
+<h2>Two nitrogens, two behaviours</h2>
 
-<img data-src="figures/03-amine-amide.svg" style="width:85.0%" alt="Amine and amide nitrogen have different electron availability" class="r-stretch quarto-figure-center"><p class="caption">Amine and amide nitrogen have different electron availability</p><p>Which local structural feature makes peptide N different from an alkylamine?</p>
+<img data-src="figures/sk-peptide.svg" style="width:80.0%" alt="H2N-CH2-C(=O)-NH-CH3 with the amine nitrogen labelled pair free and basic, and the amide nitrogen labelled pair shared with C=O" class="r-stretch quarto-figure-center"><p class="caption">Two kinds of nitrogen in one molecule</p><p>Before predicting protonation, look at <strong>what each N is bonded to</strong>. Is the next atom a <strong>carbonyl carbon</strong>? Here only the NH₂ end is a real amine, so acid protonates <strong>that</strong> nitrogen.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An amide nitrogen is directly bonded to carbonyl carbon. Its pair can delocalise into C=O.</p>
+<p>This is a dipeptide-like fragment: glycine’s amine end (drawn on the right) and a methyl amide (on the left). Both nitrogens are “an N with H on it”, and students who look only at the letter N will treat them identically. Make the habit explicit: follow each nitrogen’s bonds one atom out. The amide NH stays neutral in water at any ordinary pH, while the amine end is protonated near pH 7. That’s why the N-terminus of a protein is charged and the backbone NH groups are not.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -362,12 +375,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-inspect-the-group-beside-nitrogen" class="slide level2">
-<h2>Resolve: inspect the group beside nitrogen</h2>
+<section id="aniline-a-ring-can-share-the-pair-too" class="slide level2">
+<h2>Aniline: a ring can share the pair too</h2>
 
-<img data-src="figures/03-amine-amide.svg" style="width:85.0%" alt="Amine and amide nitrogen have different electron availability" class="r-stretch quarto-figure-center"><p class="caption">Amine and amide nitrogen have different electron availability</p><p>An amide nitrogen is directly bonded to carbonyl carbon. Its pair can delocalise into C=O.</p>
+<img data-src="figures/sk-aniline-benzylamine.svg" style="width:78.0%" alt="Aniline with N directly on the benzene ring, conjugate-acid pKa 4.6, and benzylamine with a CH2 between N and the ring, pKa 9.3" class="r-stretch quarto-figure-center"><p class="caption">Aniline and benzylamine</p><p>In <strong>aniline</strong> the N sits directly on the ring, so its pair overlaps the ring’s π system and is less available. In <strong>benzylamine</strong> an sp³ CH₂ breaks that link, and the basicity is back near an ordinary amine.</p>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Amide N, not a simple secondary alkylamine. Its carbonyl connection changes electron availability.</p>
+<p>Same atoms in the ring, same NH2 group, five pKa units apart, which is a factor of about a hundred thousand in basicity. The only difference is whether the nitrogen is attached directly to the pi system. The CH2 has no p orbital, so it’s an insulator. Be honest that other factors (solvation, inductive effects) also play a part; the structural argument explains the big gap, not every decimal. This is the same logic as the amide: a neighbouring pi system that can accept the pair makes a weaker base.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -380,29 +393,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-inspect-the-group-beside-nitrogen" class="slide level2">
-<h2>Apply: inspect the group beside nitrogen</h2>
-<p>Classify nitrogen in CH₃C(=O)NHCH₃.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Amide N, not a simple secondary alkylamine. Its carbonyl connection changes electron availability.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="conserve-charge-across-resonance-contributors" class="slide level2">
-<h2>Conserve charge across resonance contributors</h2>
+<section id="what-makes-a-ring-aromatic" class="slide level2">
+<h2>What makes a ring aromatic</h2>
 
-<img data-src="figures/18-amide-charge-audit.svg" style="width:85.0%" alt="Charges in an amide resonance contributor balance" class="r-stretch quarto-figure-center"><p class="caption">Charges in an amide resonance contributor balance</p><p>What charges appear when the N pair forms a C=N pi bond?</p>
+<img data-src="figures/sk-benzene.svg" style="width:78.0%" alt="Benzene in Kekule form with 2 pi electrons counted at each double bond, next to the four aromaticity checks" class="r-stretch quarto-figure-center"><p class="caption">Benzene has six pi electrons</p><p>Aromatic rings are unusually stable: benzene resists the addition reactions that alkenes undergo easily. Check <strong>structure first</strong>, then <strong>count</strong>. We draw benzene with alternating double bonds, but the real π electrons are spread evenly around the ring.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Nitrogen becomes positive and oxygen negative as the original C=O pi pair moves to O. Net charge remains zero.</p>
+<p>Work through the checklist in order. It’s a ring; every carbon is sp2, so each has a p orbital; it’s flat, so the p orbitals overlap continuously all the way round; and 2+2+2 = 6, which fits 4n+2 with n = 1. The Kekulé drawing is one resonance contributor; all six C–C bonds are actually the same length. Mention the payoff from Day 12: bromine adds across cyclohexene instantly but leaves benzene alone without a catalyst. And a preview for spectroscopy next week: aromatic H atoms show up around 7 ppm in proton NMR, a fingerprint you’ll use constantly.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -415,12 +411,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-conserve-charge-across-resonance-contributors" class="slide level2">
-<h2>Resolve: conserve charge across resonance contributors</h2>
+<section id="a-ring-alone-is-not-enough" class="slide level2">
+<h2>A ring alone is not enough</h2>
 
-<img data-src="figures/18-amide-charge-audit.svg" style="width:85.0%" alt="Charges in an amide resonance contributor balance" class="r-stretch quarto-figure-center"><p class="caption">Charges in an amide resonance contributor balance</p><p>Nitrogen becomes positive and oxygen negative as the original C=O pi pair moves to O. Net charge remains zero.</p>
+<img data-src="figures/sk-ring-types.svg" style="width:84.0%" alt="Benzene aromatic with 6 pi electrons; cyclohexa-1,3-diene nonaromatic because two CH2 break the loop; cyclohexane nonaromatic with no pi electrons; cyclobutadiene antiaromatic with 4 pi electrons" class="r-stretch quarto-figure-center"><p class="caption">Aromatic, nonaromatic and antiaromatic rings</p><p><strong>Nonaromatic:</strong> the loop of p orbitals is broken or absent. <strong>Antiaromatic:</strong> a complete loop with <strong>4n</strong> π electrons, which is destabilising.</p>
+<div class="try">
+<p><strong>Try it:</strong> cyclohexane fails the aromatic test. Is it antiaromatic?</p>
+<div class="fragment">
+<p><strong>No, it’s nonaromatic.</strong> It has no π system at all. Antiaromatic needs a closed loop of p orbitals with the wrong count.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;Resonance contributors describe electron placement in one delocalised molecule; nuclear connectivity stays fixed.</p>
+<p>The diene in the middle is the useful trap: it has two double bonds in a ring, but the two CH2 carbons are sp3 with no p orbital, so the loop is broken. Students see “ring plus double bonds” and say aromatic. Cyclobutadiene is the antiaromatic example: closed loop, 4 pi electrons, so unstable that it only exists at very low temperature. Keep antiaromaticity light today; the important distinction for the exam is that “not aromatic” usually means nonaromatic, not antiaromatic.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -433,29 +435,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-conserve-charge-across-resonance-contributors" class="slide level2">
-<h2>Apply: conserve charge across resonance contributors</h2>
-<p>Do the nuclei move or switch between two molecular structures?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Resonance contributors describe electron placement in one delocalised molecule; nuclear connectivity stays fixed.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="inspect-conjugation-at-aniline-nitrogen" class="slide level2">
-<h2>Inspect conjugation at aniline nitrogen</h2>
+<section id="pyridine-an-extra-pair-outside-the-ring" class="slide level2">
+<h2>Pyridine: an extra pair, outside the ring</h2>
 
-<img data-src="figures/04-aniline.svg" style="width:85.0%" alt="Aniline nitrogen can donate into the aromatic ring" class="r-stretch quarto-figure-center"><p class="caption">Aniline nitrogen can donate into the aromatic ring</p><p>How can the benzene ring affect availability of the N pair?</p>
+<img data-src="figures/sk-pyridine.svg" style="width:80.0%" alt="Pyridine with 2 pi electrons per double bond and an in-plane N lone pair taking a proton to give aromatic pyridinium" class="r-stretch quarto-figure-center"><p class="caption">Pyridine keeps its lone pair outside the aromatic sextet</p><p>Pyridine’s N gives <strong>one</strong> electron to the π system, through its double bond. Its lone pair points <strong>out of the ring, in the plane</strong>. Protonating that pair leaves the sextet intact, so pyridine is a real base (pKa 5.2).</p>
+<div class="try">
+<p><strong>Try it:</strong> a student counts pyridine’s lone pair in the π system. What total would they get, and why is that a red flag?</p>
+<div class="fragment">
+<p><strong>Eight</strong>, which is 4n, not 4n + 2. The pair sits in an sp² orbital at right angles to the p orbitals, so it never joins the ring count.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The N pair can overlap with the ring pi system, stabilising the neutral base and lowering its proton affinity relative to a simple alkylamine comparison.</p>
+<p>Pyridine looks like benzene with one CH replaced by N, and that’s exactly the right picture. The three double bonds give 6 pi electrons. The nitrogen still has a lone pair, but it lives in the plane of the ring, pointing outward like a C–H bond would. Protonation uses that pair, so the aromatic system is untouched and pyridinium is still aromatic. Why is pyridine weaker than an alkyl amine (5.2 vs about 10.7)? The pair is in an sp2 orbital, with more s character, held closer to N. Mention that pyridine is a common lab base, used to mop up HCl in acylations like yesterday’s.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -468,29 +459,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-inspect-conjugation-at-aniline-nitrogen" class="slide level2">
-<h2>Apply: inspect conjugation at aniline nitrogen</h2>
-<p>Would a saturated carbon between N and the ring preserve the same direct conjugation?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;An sp³ carbon interrupts that direct N-to-ring pi overlap. Other electronic effects can still exist.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-the-correct-pka-for-a-base" class="slide level2">
-<h2>Read the correct pKa for a base</h2>
+<section id="pyrrole-the-pair-is-part-of-the-sextet" class="slide level2">
+<h2>Pyrrole: the pair is part of the sextet</h2>
 
-<img data-src="figures/13-basicity-bars.svg" style="width:85.0%" alt="Conjugate-acid pKa compares protonation equilibria" class="r-stretch quarto-figure-center"><p class="caption">Conjugate-acid pKa compares protonation equilibria</p><p>Why compare BH⁺ pKa rather than call neutral B an acid?</p>
+<img data-src="figures/sk-pyrrole.svg" style="width:80.0%" alt="Pyrrole with 2 pi electrons from each C=C and 2 from the N lone pair, total 6" class="r-stretch quarto-figure-center"><p class="caption">Pyrrole uses its nitrogen pair in the sextet</p><p>Pyrrole has only two C=C bonds, which supply four π electrons. The <strong>N lone pair supplies the other two</strong>. If N took a proton, that pair would leave the ring and the aromaticity would be lost.</p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The conjugate-acid dissociation equilibrium relates BH⁺ to B. Larger BH⁺ pKa corresponds to stronger B under comparable conditions.</p>
+<p>Contrast with pyridine as sharply as you can. Both rings contain one nitrogen; in pyridine the pair is spare, in pyrrole it’s load-bearing. Count with the class: 2 + 2 from the double bonds, plus 2 from nitrogen, gives 6. Pyrrole’s conjugate acid has a pKa around −4, and when it is forced to protonate it does so on carbon, not nitrogen. Pyrrole rings appear in haem and chlorophyll, where the nitrogens bind metal ions rather than protons.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -503,12 +477,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-read-the-correct-pka-for-a-base" class="slide level2">
-<h2>Resolve: read the correct pKa for a base</h2>
+<section id="imidazole-one-nitrogen-of-each-kind" class="slide level2">
+<h2>Imidazole: one nitrogen of each kind</h2>
 
-<img data-src="figures/13-basicity-bars.svg" style="width:85.0%" alt="Conjugate-acid pKa compares protonation equilibria" class="r-stretch quarto-figure-center"><p class="caption">Conjugate-acid pKa compares protonation equilibria</p><p>The conjugate-acid dissociation equilibrium relates BH⁺ to B. Larger BH⁺ pKa corresponds to stronger B under comparable conditions.</p>
+<img data-src="figures/sk-imidazole.svg" style="width:80.0%" alt="Imidazole with a labelled pyridine-like N with a lone pair and a pyrrole-like NH, protonated at the pyridine-like N to give imidazolium, pKa about 7" class="r-stretch quarto-figure-center"><p class="caption">Imidazole has one pyridine-like and one pyrrole-like nitrogen</p><p>Imidazole is the side chain of <strong>histidine</strong>. Its pKa near 7 makes it the proton shuttle in many enzyme active sites.</p>
+<div class="try">
+<p><strong>Try it:</strong> which nitrogen takes the proton, and why?</p>
+<div class="fragment">
+<p><strong>The pyridine-like N</strong> (top left). Its pair is outside the sextet; the NH’s pair is part of the six π electrons.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Ethylamine is the stronger base in this aqueous comparison; ethylammonium is the weaker acid.</p>
+<p>This is the worked example that combines the two previous slides. Count the pi electrons: two double bonds give 4, the NH nitrogen gives its pair, 2 more: 6, aromatic. The other nitrogen is pyridine-like: it contributes one electron through its double bond and keeps a spare pair in the plane. In imidazolium the two N–H nitrogens become equivalent by resonance, which is part of why it’s a better base than pyridine. Its pKa sits close to physiological pH, so histidine can be protonated or not with only a small pH change, ideal for passing protons around in enzymes.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -521,29 +501,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-read-the-correct-pka-for-a-base" class="slide level2">
-<h2>Apply: read the correct pKa for a base</h2>
-<p>Compare ethylammonium 10.7 with anilinium 4.6.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Ethylamine is the stronger base in this aqueous comparison; ethylammonium is the weaker acid.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-a-proton-transfer-direction" class="slide level2">
-<h2>Predict a proton-transfer direction</h2>
+<section id="glycine-two-sites-three-charge-states" class="slide level2">
+<h2>Glycine: two sites, three charge states</h2>
 
-<img data-src="figures/14-base-competition.svg" style="width:85.0%" alt="A proton can transfer between two nitrogen bases" class="r-stretch quarto-figure-center"><p class="caption">A proton can transfer between two nitrogen bases</p><p>Which side contains the weaker acid in the supplied competition?</p>
+<img data-src="figures/sk-glycine-ph.svg" style="width:80.0%" alt="Glycine on a pH axis: H3N+CH2COOH net +1 at pH 1, zwitterion H3N+CH2COO- net 0 at pH 6, H2NCH2COO- net -1 at pH 12, with pKa marks at 2.3 and 9.6" class="r-stretch quarto-figure-center"><p class="caption">Glycine at low, middle and high pH</p><p>Treat each site separately: <strong>below its pKa</strong> a site is mostly protonated, <strong>above it</strong> mostly deprotonated. Between 2.3 and 9.6 glycine is a <strong>zwitterion</strong>: net zero, but with +1 on N and −1 on O.</p>
+<div class="try">
+<p><strong>Try it:</strong> draw what happens when the pH 6 form meets OH⁻.</p>
+<div class="fragment">
+<p><strong>H₃N⁺CH₂COO⁻ + OH⁻ → H₂NCH₂COO⁻ + H₂O.</strong> The ammonium loses its proton; net charge is −1 on both sides.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ethylammonium has larger pKa, so products aniline + ethylammonium are favoured.</p>
+<p>We met the glycine zwitterion on Day 1 as a formal-charge exercise; now we can explain when it exists. Go left to right along the pH axis. At pH 1, below both pKa values, both sites hold their protons: +1. Pass 2.3 and the carboxylic acid loses its H first: net 0. Pass 9.6 and the ammonium gives its proton up: −1. Emphasise that “net zero” doesn’t mean “uncharged”. The zwitterion has two full formal charges, which is why amino acids are high-melting solids that dissolve in water and not in hexane.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -556,12 +525,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-predict-a-proton-transfer-direction" class="slide level2">
-<h2>Resolve: predict a proton-transfer direction</h2>
+<section id="how-much-is-protonated-use-the-ratio" class="slide level2">
+<h2>How much is protonated? Use the ratio</h2>
 
-<img data-src="figures/14-base-competition.svg" style="width:85.0%" alt="A proton can transfer between two nitrogen bases" class="r-stretch quarto-figure-center"><p class="caption">A proton can transfer between two nitrogen bases</p><p>Ethylammonium has larger pKa, so products aniline + ethylammonium are favoured.</p>
+<img data-src="figures/sk-fraction-curve.svg" style="width:74.0%" alt="Curve of fraction BH+ against pH for pKa 10: 0.91 at pH 9, 0.50 at pH 10, 0.09 at pH 11" class="r-stretch quarto-figure-center"><p class="caption">Fraction of an amine protonated, pKa 10</p><p>At pH 9, [B]/[BH⁺] = 10⁻¹ = 0.1, so the protonated fraction is 1/(1 + 0.1) ≈ <strong>0.91</strong>. Each pH unit changes the ratio <strong>tenfold</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> at pH = pKa, half is BH⁺. Does every molecule carry a charge of +½?</p>
+<div class="fragment">
+<p><strong>No.</strong> Each molecule is either B or BH⁺; half the <em>population</em> is in each form. Charges on single molecules come in whole units.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: About 1.26×10⁶ toward products using compatible approximate aqueous pKa values.</p>
+<p>The equation is Henderson–Hasselbalch rearranged: ratio = 10 to the (pH − pKa). Watch for the common slip of reporting the ratio as the fraction; 0.1 is the ratio of B to BH+, and the fraction protonated is 1/(1 + 0.1). Exercises 17 and 18 do exactly this calculation at pH 9, 10 and 11. The half-charge misconception is worth taking seriously, because it reappears in biochemistry when people talk about a residue being “half protonated”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -574,11 +549,56 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-predict-a-proton-transfer-direction" class="slide level2">
-<h2>Apply: predict a proton-transfer direction</h2>
-<p>Estimate 10^(10.7 − 4.6).</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>counting all the carbons to classify an amine</td>
+<td>count carbons <strong>on N</strong></td>
+</tr>
+<tr class="even">
+<td>calling (CH₃)₃NH⁺ quaternary</td>
+<td>quaternary means <strong>four carbons</strong> on N</td>
+</tr>
+<tr class="odd">
+<td>quoting the amine’s N–H pKa for basicity</td>
+<td>use the <strong>pKa of BH⁺</strong></td>
+</tr>
+<tr class="even">
+<td>ranking reaction rates from pKa</td>
+<td>pKa compares <strong>equilibria</strong></td>
+</tr>
+<tr class="odd">
+<td>treating an amide N like an amine N</td>
+<td>check for a <strong>C=O next to N</strong></td>
+</tr>
+<tr class="even">
+<td>counting pyridine’s lone pair in the sextet</td>
+<td>its pair is <strong>in the plane</strong>, outside the π system</td>
+</tr>
+<tr class="odd">
+<td>“a ring, so aromatic”</td>
+<td>check the <strong>unbroken p-orbital loop</strong> first</td>
+</tr>
+<tr class="even">
+<td>“net zero, so no charges”</td>
+<td>a zwitterion has <strong>+1 and −1</strong></td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: About 1.26×10⁶ toward products using compatible approximate aqueous pKa values.</p>
+<p>Read each mistake aloud and ask for the reason before revealing the fix. The amide and pyridine rows are the ones that cost the most marks. Point out that almost every row comes down to the same question as the title of the lecture: where is the nitrogen pair, and is it free?</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -591,520 +611,57 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="separate-equilibrium-from-reaction-rate" class="slide level2">
-<h2>Separate equilibrium from reaction rate</h2>
-
-<img data-src="figures/10-basicity-comparison.svg" style="width:85.0%" alt="Basicity is an equilibrium comparison, not a reaction-speed ranking" class="r-stretch quarto-figure-center"><p class="caption">Basicity is an equilibrium comparison, not a reaction-speed ranking</p><p>What does this pKa comparison establish, and what does it not establish?</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>amine N</td>
+<td>3 bonds + 1 pair; protonated: 4 bonds, +1</td>
+</tr>
+<tr class="even">
+<td>classification</td>
+<td>count <strong>carbons on N</strong></td>
+</tr>
+<tr class="odd">
+<td>base strength</td>
+<td>higher <strong>pKa of BH⁺</strong> = stronger base</td>
+</tr>
+<tr class="even">
+<td>proton transfer</td>
+<td>K ≈ 10^(pKa product acid − pKa reactant acid)</td>
+</tr>
+<tr class="odd">
+<td>amide, aniline</td>
+<td>pair shared with π system: <strong>weak base</strong></td>
+</tr>
+<tr class="even">
+<td>aromatic</td>
+<td>flat, unbroken p-orbital loop, <strong>4n + 2</strong> π electrons</td>
+</tr>
+<tr class="odd">
+<td>pyridine vs pyrrole</td>
+<td>spare pair (basic) vs pair in sextet (barely basic)</td>
+</tr>
+<tr class="even">
+<td>amino acids</td>
+<td>each site: protonated below its pKa</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> reading structures from IR and NMR spectra (Day 21). <strong>Practice:</strong> <a href="../amines-aromatics/exercise.html">exercises</a> · <a href="../amines-aromatics/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: It compares proton-transfer equilibria. It does not by itself rank every nucleophilic reaction rate or specify an isolated yield.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-separate-equilibrium-from-reaction-rate" class="slide level2">
-<h2>Apply: separate equilibrium from reaction rate</h2>
-<p>Name one other factor needed for a nucleophilic-rate prediction.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Substrate identity, solvent, steric access or leaving group can matter; a pKa table alone is insufficient.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="check-the-structural-requirements-first" class="slide level2">
-<h2>Check the structural requirements first</h2>
-
-<img data-src="figures/05-aromaticity.svg" style="width:85.0%" alt="Benzene has six pi electrons in a cyclic conjugated system" class="r-stretch quarto-figure-center"><p class="caption">Benzene has six pi electrons in a cyclic conjugated system</p><p>Before counting 4n + 2, what must the ring permit?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A planar cyclic network with continuous p-orbital overlap is needed for these simple aromatic examples.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-check-the-structural-requirements-first" class="slide level2">
-<h2>Apply: check the structural requirements first</h2>
-<p>For benzene, what n gives six pi electrons?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: n = 1 in 4n + 2 = 6. These are six electrons, not six pairs.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="trace-a-path-around-the-ring" class="slide level2">
-<h2>Trace a path around the ring</h2>
-
-<img data-src="figures/15-continuous-overlap.svg" style="width:85.0%" alt="Continuous overlap is required around an aromatic ring" class="r-stretch quarto-figure-center"><p class="caption">Continuous overlap is required around an aromatic ring</p><p>Can the pi network stop at one saturated sp³ ring atom?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An ordinary sp³ atom interrupts continuous overlap. Electron counting cannot repair a missing conjugated path.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-trace-a-path-around-the-ring" class="slide level2">
-<h2>Resolve: trace a path around the ring</h2>
-
-<img data-src="figures/15-continuous-overlap.svg" style="width:85.0%" alt="Continuous overlap is required around an aromatic ring" class="r-stretch quarto-figure-center"><p class="caption">Continuous overlap is required around an aromatic ring</p><p>An ordinary sp³ atom interrupts continuous overlap. Electron counting cannot repair a missing conjugated path.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: A cyclic sigma skeleton alone does not establish the planar, conjugated pi system required by the simple rule.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-trace-a-path-around-the-ring" class="slide level2">
-<h2>Apply: trace a path around the ring</h2>
-<p>Why is the aromatic rule not a rule for every cyclic molecule?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: A cyclic sigma skeleton alone does not establish the planar, conjugated pi system required by the simple rule.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="distinguish-nonaromatic-from-antiaromatic" class="slide level2">
-<h2>Distinguish nonaromatic from antiaromatic</h2>
-
-<img data-src="figures/06-ring-comparison.svg" style="width:85.0%" alt="A ring alone does not make a compound aromatic" class="r-stretch quarto-figure-center"><p class="caption">A ring alone does not make a compound aromatic</p><p>Why is cyclohexane nonaromatic rather than antiaromatic?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: It lacks a continuously conjugated pi ring. Antiaromaticity is a different situation, not a synonym for any nonaromatic ring.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-distinguish-nonaromatic-from-antiaromatic" class="slide level2">
-<h2>Apply: distinguish nonaromatic from antiaromatic</h2>
-<p>Does rotating a cyclohexane chair create the missing pi bonds?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Conformational motion does not change its sigma-bond connectivity into a benzene pi system.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="locate-the-separate-pyridine-pair" class="slide level2">
-<h2>Locate the separate pyridine pair</h2>
-
-<img data-src="figures/07-pyridine.svg" style="width:85.0%" alt="Pyridine has a lone pair outside its aromatic pi system" class="r-stretch quarto-figure-center"><p class="caption">Pyridine has a lone pair outside its aromatic pi system</p><p>Which nitrogen electrons are outside the aromatic sextet?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The displayed lone pair lies outside the pi system. N supplies one different electron to the aromatic network.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-locate-the-separate-pyridine-pair" class="slide level2">
-<h2>Resolve: locate the separate pyridine pair</h2>
-
-<img data-src="figures/07-pyridine.svg" style="width:85.0%" alt="Pyridine has a lone pair outside its aromatic pi system" class="r-stretch quarto-figure-center"><p class="caption">Pyridine has a lone pair outside its aromatic pi system</p><p>The displayed lone pair lies outside the pi system. N supplies one different electron to the aromatic network.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;Adding it would double-count electrons from distinct orbitals and give an incorrect aromatic count.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-locate-the-separate-pyridine-pair" class="slide level2">
-<h2>Apply: locate the separate pyridine pair</h2>
-<p>Should that lone pair be added to the six-electron count?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Adding it would double-count electrons from distinct orbitals and give an incorrect aromatic count.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-protonation-without-breaking-aromaticity" class="slide level2">
-<h2>Predict protonation without breaking aromaticity</h2>
-
-<img data-src="figures/16-pyridinium.svg" style="width:85.0%" alt="Pyridine protonation can retain the aromatic sextet" class="r-stretch quarto-figure-center"><p class="caption">Pyridine protonation can retain the aromatic sextet</p><p>Which pair forms the N–H bond in pyridinium?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The non-pi lone pair binds H⁺. The aromatic sextet can remain, while N carries positive charge.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-predict-protonation-without-breaking-aromaticity" class="slide level2">
-<h2>Apply: predict protonation without breaking aromaticity</h2>
-<p>What changes in N charge after accepting H⁺?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It changes from neutral pyridine N to positive pyridinium N; the carbon skeleton remains fixed.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="count-pyrrole-electrons-once" class="slide level2">
-<h2>Count pyrrole electrons once</h2>
-
-<img data-src="figures/17-pyrrole-count.svg" style="width:85.0%" alt="Pyrrole contributes two electrons from nitrogen" class="r-stretch quarto-figure-center"><p class="caption">Pyrrole contributes two electrons from nitrogen</p><p>How many electrons come from the nitrogen lone pair?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Two electrons from N plus four from the two carbon pi bonds give six in the aromatic system.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-count-pyrrole-electrons-once" class="slide level2">
-<h2>Resolve: count pyrrole electrons once</h2>
-
-<img data-src="figures/17-pyrrole-count.svg" style="width:85.0%" alt="Pyrrole contributes two electrons from nitrogen" class="r-stretch quarto-figure-center"><p class="caption">Pyrrole contributes two electrons from nitrogen</p><p>Two electrons from N plus four from the two carbon pi bonds give six in the aromatic system.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: The same pair cannot be treated as both outside and inside the pi system; ordinary N protonation would disrupt its stabilising role.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-count-pyrrole-electrons-once" class="slide level2">
-<h2>Apply: count pyrrole electrons once</h2>
-<p>What goes wrong if the N pair is also counted as freely available?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The same pair cannot be treated as both outside and inside the pi system; ordinary N protonation would disrupt its stabilising role.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compare-the-two-aromatic-nitrogen-sites" class="slide level2">
-<h2>Compare the two aromatic nitrogen sites</h2>
-
-<img data-src="figures/08-pyrrole.svg" style="width:85.0%" alt="Pyrrole uses its nitrogen lone pair in the aromatic sextet" class="r-stretch quarto-figure-center"><p class="caption">Pyrrole uses its nitrogen lone pair in the aromatic sextet</p><p>Why is pyrrole N much less basic than pyridine N?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Pyrrole uses its pair in the aromatic sextet; pyridine keeps a separate pair available.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-compare-the-two-aromatic-nitrogen-sites" class="slide level2">
-<h2>Apply: compare the two aromatic nitrogen sites</h2>
-<p>Which molecule more readily gives ordinary N protonation in comparable conditions?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Pyridine. This conclusion follows from the different orbital roles, not from nitrogen atom count.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="combine-acid-and-base-sites-in-one-molecule" class="slide level2">
-<h2>Combine acid and base sites in one molecule</h2>
-
-<img data-src="figures/09-glycine.svg" style="width:85.0%" alt="Glycine charge depends on pH" class="r-stretch quarto-figure-center"><p class="caption">Glycine charge depends on pH</p><p>What formal charges can coexist in a net-neutral glycine form?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A protonated ammonium site has +1 and carboxylate has −1. Their sum is zero: a zwitterion.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-combine-acid-and-base-sites-in-one-molecule" class="slide level2">
-<h2>Apply: combine acid and base sites in one molecule</h2>
-<p>Does net zero imply that all sites are nonpolar?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Opposite formal charges remain and can interact strongly with polar surroundings.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-two-supplied-pka-values" class="slide level2">
-<h2>Use two supplied pKa values</h2>
-
-<img data-src="figures/19-glycine-regions.svg" style="width:85.0%" alt="Two pKa values produce three glycine charge regions" class="r-stretch quarto-figure-center"><p class="caption">Two pKa values produce three glycine charge regions</p><p>At pH 6, which form predominates for pKa 2.3 and 9.6?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: COOH is mainly deprotonated while ammonium remains mainly protonated: H₃N⁺CH₂COO⁻.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-use-two-supplied-pka-values" class="slide level2">
-<h2>Resolve: use two supplied pKa values</h2>
-
-<img data-src="figures/19-glycine-regions.svg" style="width:85.0%" alt="Two pKa values produce three glycine charge regions" class="r-stretch quarto-figure-center"><p class="caption">Two pKa values produce three glycine charge regions</p><p>COOH is mainly deprotonated while ammonium remains mainly protonated: H₃N⁺CH₂COO⁻.</p>
-<aside class="notes">
-<p>Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No.&nbsp;Neighbouring protonation forms coexist; dominant-form drawings are approximations away from transition regions.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-use-two-supplied-pka-values" class="slide level2">
-<h2>Apply: use two supplied pKa values</h2>
-<p>At pH close to either pKa, is only one drawn form present?</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No.&nbsp;Neighbouring protonation forms coexist; dominant-form drawings are approximations away from transition regions.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="finish-the-high-ph-charge-audit" class="slide level2">
-<h2>Finish the high-pH charge audit</h2>
-
-<img data-src="figures/20-amine-deprotonation.svg" style="width:85.0%" alt="High pH removes the ammonium proton" class="r-stretch quarto-figure-center"><p class="caption">High pH removes the ammonium proton</p><p>Which site loses H⁺ to make the net −1 amino-acid form?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The ammonium site loses a proton, leaving neutral NH₂ plus carboxylate. Nitrogen returns to three bonds.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="apply-finish-the-high-ph-charge-audit" class="slide level2">
-<h2>Apply: finish the high-pH charge audit</h2>
-<p>Write the net charge on each side of zwitterion + OH⁻ → anion + water.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Left: 0 −1 = −1. Right: −1 + 0 = −1; charge is conserved.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="integrate-one-short-case" class="slide level2">
-<h2>Integrate one short case</h2>
-<p>At pH 6, use glycine pKa values 2.3 and 9.6 to draw the dominant form and assign every charge.</p>
-<aside class="notes">
-<p>Suggested 120 seconds; adjust to the explanation and class response. Give time to formulate the claim and compare a partner explanation. Worked answer: H₃N⁺CH₂COO⁻ predominates; opposite formal charges sum to zero. Nearby protonation forms coexist, especially near each pKa.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="compare-the-worked-reasoning" class="slide level2">
-<h2>Compare the worked reasoning</h2>
-<p>H₃N⁺CH₂COO⁻ predominates; opposite formal charges sum to zero. Nearby protonation forms coexist, especially near each pKa.</p>
-<aside class="notes">
-<p>Suggested 60 seconds; adjust to the explanation and class response. Ask students to identify the exact step or observation their own reasoning omitted. This is a correction interval within the session, not a new topic.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="exit-explanation" class="slide level2">
-<h2>Exit explanation</h2>
-<p>Why can two aromatic nitrogen atoms have very different basicity?</p>
-<aside class="notes">
-<p>Suggested 40 seconds; adjust to the explanation and class response. Worked answer: Their lone pairs can occupy different orbital roles: pyridine keeps a separate pair while pyrrole uses its pair in the aromatic sextet. Ask for a causal explanation, not a single vocabulary label.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="continue-with-independent-practice" class="slide level2">
-<h2>Continue with independent practice</h2>
-<p>Use the <a href="../amines-aromatics/exercise.html">exercises</a>, then the <a href="../amines-aromatics/quiz.html">self-check</a>.</p>
-<p>The <a href="../reference/reading.html">reading guide</a> offers optional background reading.</p>
-<aside class="notes">
-<p>Suggested 20 seconds; adjust to the explanation and class response. Preview the local exercise route. No book purchase or external problem set is needed to complete it. Leave time to note one corrected misconception.</p>
+<p>Close with the fish: trimethylamine’s free pair grabs a proton from citric acid, and the ammonium salt stays in the water. Every row of this table is a variation on that one event. Tomorrow and Day 20 are consolidation days, and Day 20 is specifically about nitrogen, resonance and charge, so the exercises from today feed straight into it. Spectroscopy on Day 21 will bring back aromatic rings, which give characteristic signals near 7 ppm in proton NMR.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

@@ -9,7 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
-  <title>Organic Chemistry 1 – Substitution: replacing a leaving group</title>
+  <meta name="author" content="Organic Chemistry 1">
+  <title>Organic Chemistry 1 – Nucleophilic substitution</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,7 +29,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -126,23 +143,53 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Substitution: replacing a leaving group</h1>
-  <p class="subtitle">Week 3 · Mechanism, geometry and conditions</p>
+  <h1 class="title">Nucleophilic substitution</h1>
+  <p class="subtitle">Week 3 · Day 11 — how one group pushes another off carbon</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-will-you-be-able-to-explain" class="slide level2">
-<h2>What will you be able to explain?</h2>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>In 1942, two Yale pharmacologists gave a <strong>nitrogen mustard</strong>, a chemical cousin of the mustard gas from the First World War, to a man dying of lymphoma. His tumours shrank. It was the start of cancer chemotherapy. The drug works by <strong>substitution</strong>: a nitrogen in DNA attacks a carbon, chloride leaves, and the drug staples the two DNA strands together.</p>
+<p>Today we learn how one group pushes another off carbon:</p>
 <ul>
-<li>Explain a concerted SN2 and a stepwise SN1 example.</li>
-<li>Predict inversion at a reacting stereocentre.</li>
-<li>Justify a pathway using substrate and conditions.</li>
+<li><strong>SN2:</strong> one step, attack from the back, inversion of configuration</li>
+<li><strong>SN1:</strong> the leaving group goes first, a flat carbocation, two faces</li>
+<li><strong>What decides:</strong> the carbon, the leaving group, the nucleophile and the solvent</li>
+<li><strong>Bookkeeping:</strong> charges, extra proton transfers and net equations</li>
+</ul>
+<p>Every step uses the curved arrows from Day 8, so have them ready.</p>
+<aside class="notes">
+<p>Open with the nitrogen-mustard story; it’s true and it sticks. Goodman and Gilman treated their first patient in 1942, though the work was classified and only published in 1946. The real mechanism has a twist (the mustard first does an internal substitution to make a strained three-membered aziridinium ion, which the guanine N7 then opens), but every step is a substitution of the kind we’ll draw today. Mention that our own cells do the same chemistry on purpose: S-adenosylmethionine hands a methyl group to DNA and to hormones like adrenaline by an SN2 step. The link back to Day 8: students already know that an arrow starts at a lone pair or a bond and ends where the new bond forms. Today we just apply that to a carbon carrying a leaving group.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="one-reaction-three-parts" class="slide level2">
+<h2>One reaction, three parts</h2>
+
+<img data-src="figures/sk-parts.svg" style="width:86.0%" alt="Ethoxide labelled nucleophile, the CH2 of bromoethane labelled electrophilic carbon with delta plus, bromine labelled leaving group, giving diethyl ether and bromide" class="r-stretch quarto-figure-center"><p class="caption">Ethoxide plus bromoethane gives diethyl ether plus bromide</p><ul>
+<li>The <strong>nucleophile</strong> brings a lone pair to carbon.</li>
+<li>The <strong>electrophilic carbon</strong> is δ+ because Br pulls electron density away.</li>
+<li>The <strong>leaving group</strong> takes the old C–Br bonding pair with it, as Br⁻.</li>
 </ul>
 <aside class="notes">
-<p><strong>45-minute block budget (all pauses included):</strong> 0–4 min: reacting-centre classification; 4–14 min: SN2 arrows, inversion and rate model; 14–21 min: steric access and leaving-group activation; 21–32 min: SN1 ionisation, capture and deprotonation; 32–39 min: face access, net accounting and competing routes; 39–43 min: independent mechanism drawing; 43–45 min: recap. The brief predictions, individual drawing and board discussion occur inside these blocks, not in extra time. The 40-second metadata is a rough planning reference; spend longer on the identified drawings and merge explanations already understood.</p>
-<p>Begin with the previous unit’s electron-pair and charge audit. Ask students to predict a product or bond change before displaying the worked drawing. These slides support discussion and paper drawing; the practice page supplies further explanations.</p>
+<p>This is the Williamson ether synthesis, and it’s a good first example because every part is easy to spot. Ask the room: which atom donates electrons? (the O⁻). Which bond breaks? (C–Br). Where does that pair go? (onto Br, which becomes bromide). Point out the charge bookkeeping: ethoxide’s oxygen has one bond and three lone pairs, so −1; in the ether it has two bonds and two lone pairs, so it’s neutral. The negative charge didn’t disappear, it moved to bromide. Total charge is −1 on both sides. That habit of checking total charge will catch half the errors today.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -155,29 +202,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw CH₃CH₂Br and CH₃CH(Br)CH₃. Circle the carbon attached to Br, count carbon neighbours and predict which centre is less crowded.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="classify-the-reacting-carbon" class="slide level2">
-<h2>Classify the reacting carbon</h2>
+<section id="classify-the-carbon-that-carries-the-leaving-group" class="slide level2">
+<h2>Classify the carbon that carries the leaving group</h2>
 
-<img data-src="figures/01-substrates.svg" style="width:85.0%" alt="Primary, secondary and tertiary alkyl bromides differ in carbon neighbours at the carbon attached to Br." class="r-stretch quarto-figure-center"><p class="caption">Primary, secondary and tertiary alkyl bromides differ in carbon neighbours at the carbon attached to Br.</p><p>Count the carbon neighbours of <strong>the carbon carrying the leaving group</strong>. Do not classify the whole molecule by total carbon count.</p>
+<img data-src="figures/sk-substrates.svg" style="width:84.0%" alt="Bromomethane, bromoethane, 2-bromopropane and 2-bromo-2-methylpropane with the carbon bearing Br shaded and labelled methyl, primary, secondary and tertiary" class="r-stretch quarto-figure-center"><p class="caption">Methyl, primary, secondary and tertiary bromides</p><p>Count the <strong>carbon neighbours of the carbon bonded to Br</strong>, not the carbons in the whole molecule.</p>
+<div class="try">
+<p><strong>Try it:</strong> classify the carbon bearing Br in CH₃CH(Br)CH₂CH₃.</p>
+<div class="fragment">
+<p><strong>Secondary.</strong> It’s bonded to two carbons. The molecule has four carbons, but that doesn’t make the centre tertiary.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The highlighted region locates the reaction centre. Ask students to draw the tertiary example fully and count four bonds at its central carbon.</p>
+<p>This classification decides almost everything that follows, so get it automatic. The trap is in the try-it: students see four carbons and say “tertiary”, or see a branch and say “tertiary”. Make them put a finger on the carbon that holds Br and count only the carbons touching it. The same counting comes back for carbocations later today (a tertiary cation has three carbons on C+) and for alcohols on Day 13 (primary, secondary and tertiary alcohols oxidise differently).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -190,12 +226,16 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="partial-bonds-belong-to-a-transition-state" class="slide level2">
-<h2>Partial bonds belong to a transition state</h2>
+<section id="sn2-one-step-two-arrows" class="slide level2">
+<h2>SN2: one step, two arrows</h2>
 
-<img data-src="figures/11-sn2-transition-state.svg" style="width:85.0%" alt="Partial bonds belong to a transition state" class="r-stretch quarto-figure-center"><p class="caption">Partial bonds belong to a transition state</p><p>Read the dashed incoming/outgoing bonds. Explain why this is neither a stable five-bonded carbon nor a carbocation minimum.</p>
+<img data-src="figures/sk-sn2-arrows.svg" style="width:86.0%" alt="Curved arrow from a hydroxide lone pair to the carbon of bromomethane on the side opposite Br, and a second arrow from the C–Br bond to Br, giving methanol and bromide" class="r-stretch quarto-figure-center"><p class="caption">Hydroxide attacks bromomethane from the back as bromide leaves</p><ul>
+<li>The new C–O bond forms <strong>while</strong> the C–Br bond breaks.</li>
+<li><strong>S</strong>ubstitution, <strong>N</strong>ucleophilic, <strong>2</strong> molecules in the slow step.</li>
+<li>Swap in I⁻ and the same two arrows give CH₃I + Br⁻.</li>
+</ul>
 <aside class="notes">
-<p>The transition state has partial bond formation/cleavage and is marked‡. One elementary SN2 step has no intervening stable intermediate.</p>
+<p>Draw this on the board as well, slowly, and ask someone to redo it with iodide (exercise 4). Arrow one starts at a lone pair on oxygen and ends at carbon. Arrow two starts in the middle of the C–Br bond and ends on Br. Two arrows, one step. Point at the three H atoms: in the reactant they point left, away from Br; in the product they point right. The molecule has flipped inside out, like an umbrella in the wind. That flip is invisible here because methyl isn’t a stereocentre, but it’s the whole story two slides from now. Methyl bromide has no H on a neighbouring carbon, so elimination (tomorrow) can’t compete.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -208,12 +248,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="place-this-structure-on-the-profile" class="slide level2">
-<h2>Place this structure on the profile</h2>
+<section id="the-transition-state-sits-at-the-top-of-one-hill" class="slide level2">
+<h2>The transition state sits at the top of one hill</h2>
 
-<img data-src="figures/11-sn2-transition-state.svg" style="width:85.0%" alt="Partial bonds belong to a transition state" class="r-stretch quarto-figure-center"><p class="caption">Partial bonds belong to a transition state</p><p>Sketch a one-step energy curve and put the depicted structure at its maximum, not between two maxima.</p>
+<img data-src="figures/sk-sn2-profile.svg" style="width:84.0%" alt="Energy profile with one maximum labelled transition state, and the transition state drawn as HO dashed to a flat CH3 dashed to Br, in brackets with a double dagger" class="r-stretch quarto-figure-center"><p class="caption">Single-step energy profile with the SN2 transition state</p><p>At the top, C–O is half made and C–Br half broken. It’s a <strong>transition state</strong>, not an intermediate: it lasts one molecular vibration and can’t be isolated.</p>
 <aside class="notes">
-<p>The transition state has partial bond formation/cleavage and is marked‡. One elementary SN2 step has no intervening stable intermediate.</p>
+<p>Students often draw the transition state as a real molecule with five bonds to carbon. Stress the dashed bonds and the double-dagger: this is the highest-energy arrangement on the path, not a stop along it. There’s no dip in the curve, so there’s no intermediate. Compare with the SN1 profile later, which has two dips. The three H atoms are flat in the transition state, which is the halfway point of the umbrella flip. The barrier height, Ea, is what the rate constant k depends on; anything that raises the transition-state energy (crowding, a poor nucleophile) slows the reaction.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -226,11 +266,48 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-1" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>For methyl bromide plus hydroxide, draw a backside approach and two electron-pair arrows. Does a carbocation appear?</p>
+<section id="the-sn2-rate-depends-on-both-partners" class="slide level2">
+<h2>The SN2 rate depends on both partners</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>change at fixed temperature and solvent</th>
+<th>[RX]</th>
+<th>[Nu]</th>
+<th>initial rate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>double the substrate</td>
+<td>2×</td>
+<td>1×</td>
+<td><strong>2×</strong></td>
+</tr>
+<tr class="even">
+<td>double the substrate, triple the nucleophile</td>
+<td>2×</td>
+<td>3×</td>
+<td><strong>6×</strong></td>
+</tr>
+<tr class="odd">
+<td>halve the substrate, double the nucleophile</td>
+<td>½×</td>
+<td>2×</td>
+<td><strong>1×</strong></td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\text{rate} = k\,[\text{RX}]\,[\text{Nu}]</span></p>
+<p>Both molecules are in the one step, so both concentrations appear. The factors <strong>multiply</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> both concentrations double. What happens to the initial rate?</p>
+<div class="fragment">
+<p><strong>4×.</strong> 2 × 2 = 4, as long as k stays the same (same temperature and solvent).</p>
+</div>
+</div>
 <aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
+<p>This is the “2” in SN2: the rate law is second order overall. Keep it concrete with the factor table rather than algebra. Two warnings. First, this is about initial rate, not yield: a reaction that’s six times faster doesn’t give six times more product. Second, k is only constant if temperature and solvent stay the same; change the solvent and you change k. The Day 11 demo lets students compare this rate law with the SN1 one by changing concentrations and watching the predicted rates.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -243,13 +320,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="sn2-couples-bond-formation-and-cleavage" class="slide level2">
-<h2>SN2 couples bond formation and cleavage</h2>
+<section id="backside-attack-inverts-a-stereocentre" class="slide level2">
+<h2>Backside attack inverts a stereocentre</h2>
 
-<img data-src="figures/02-sn2-step.svg" style="width:85.0%" alt="Hydroxide attacks methyl bromide from the side opposite bromine as bromide departs." class="r-stretch quarto-figure-center"><p class="caption">Hydroxide attacks methyl bromide from the side opposite bromine as bromide departs.</p><p>One step: donor pair → carbon; C–Br bond pair → Br.</p>
-<p>CH₃Br + OH⁻ → CH₃OH + Br⁻.</p>
+<img data-src="figures/sk-inversion.svg" style="width:86.0%" alt="Hydroxide attacks (S)-2-bromobutane opposite Br; the methyl, ethyl and wedged H flip to the other side, giving (R)-butan-2-ol. Priority numbers 1 to 4 are shown on both" class="r-stretch quarto-figure-center"><p class="caption">(S)-2-bromobutane gives (R)-butan-2-ol by SN2</p><p>The nucleophile comes in <strong>opposite</strong> the leaving group, so the other three groups flip over. This is <strong>inversion of configuration</strong>, and it happens in every SN2 step.</p>
 <aside class="notes">
-<p>This methyl example is deliberately simple. Hydroxide can also act as a base on suitable substrates, but methyl bromide has no beta carbon for elimination.</p>
+<p>Use a molecular model if you have one: hold the H, methyl and ethyl like the ribs of an umbrella and push the OH in from the back. The ribs flip. In the drawing, the H stays wedged but has moved from the left side of the carbon to the right, and the other two groups have swung across too. Walk through the priorities on both structures using the blue numbers: Br is 1, ethyl 2, methyl 3, H 4 in the reactant; OH is 1, ethyl 2, methyl 3, H 4 in the product. Because the new group takes the old group’s rank, the geometric flip shows up as S becoming R. The next slide shows why that’s not automatic.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -262,12 +338,70 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="change-a-concentration-while-keeping-the-model-fixed" class="slide level2">
-<h2>Change a concentration while keeping the model fixed</h2>
+<section id="inversion-is-geometry-r-and-s-are-labels" class="slide level2">
+<h2>Inversion is geometry; R and S are labels</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>(S)-2-bromobutane + OH⁻</th>
+<th>(R)-2-bromopropan-1-ol + CN⁻</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>priorities before</td>
+<td><strong>Br</strong> &gt; ethyl &gt; methyl &gt; H</td>
+<td><strong>Br</strong> &gt; CH₂OH &gt; CH₃ &gt; H</td>
+</tr>
+<tr class="even">
+<td>priorities after</td>
+<td><strong>OH</strong> &gt; ethyl &gt; methyl &gt; H</td>
+<td>CH₂OH &gt; <strong>CN</strong> &gt; CH₃ &gt; H</td>
+</tr>
+<tr class="odd">
+<td>geometry</td>
+<td>inverted</td>
+<td>inverted</td>
+</tr>
+<tr class="even">
+<td>label</td>
+<td>S → <strong>R</strong></td>
+<td>R → <strong>R</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="try">
+<p><strong>Try it:</strong> in the second example, why does the letter stay R even though SN2 inverted the centre?</p>
+<div class="fragment">
+<p><strong>Priorities 1 and 2 swapped.</strong> CH₂OH (O first) now outranks CN (N, N, N), so the relabelling cancels the geometric flip.</p>
+</div>
+</div>
+<aside class="notes">
+<p>This is the slide that separates students who understand CIP from those who memorised “SN2 flips the letter”. The geometry always inverts. Whether the letter changes depends on whether the incoming group takes the same priority rank as the outgoing one. In the first example it does: Br and OH are both top priority. In the second, Br was 1 but cyanide is only 2, because at the first point of difference CH2OH has an O and the nitrile carbon only has N. Both labels here were checked with RDKit’s CIP labeller. Send students back to Day 7 if they’re shaky on how CIP counts the atoms of a triple bond.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="crowding-at-the-back-stops-sn2" class="slide level2">
+<h2>Crowding at the back stops SN2</h2>
 
-<img data-src="figures/12-rate-factors.svg" style="width:85.0%" alt="Change a concentration while keeping the model fixed" class="r-stretch quarto-figure-center"><p class="caption">Change a concentration while keeping the model fixed</p><p>Calculate the factor for doubling[RX] and tripling[Nu]. Identify what “k fixed” assumes.</p>
+<img data-src="figures/sk-steric.svg" style="width:86.0%" alt="Four bromides drawn with Br to the right and three groups on the attack side: methyl fast, primary slower, secondary slow, tertiary blocked with a red cross" class="r-stretch quarto-figure-center"><p class="caption">Groups behind the carbon block the path of the nucleophile</p><p>Each carbon group on the reacting carbon sits in the nucleophile’s path. <strong>Methyl &gt; primary &gt; secondary</strong>, and tertiary carbons don’t do SN2 at all.</p>
 <aside class="notes">
-<p>The factors multiply:6 and1 respectively. The statement is initial kinetics at unchanged temperature, solvent and applicable mechanism.</p>
+<p>The drawing shows the three groups on the attack side. For methyl they’re all small H atoms; for tertiary they’re three methyl groups, each with its own H atoms waving around, and there’s simply no room. A strong nucleophile can’t fix a geometric problem. That’s the point of exercise 10: students sometimes argue “strong nucleophile, so SN2” for tertiary bromides. What actually happens with a tertiary bromide and a strong base is elimination, which is tomorrow. Secondary is the grey zone: SN2 works, but slowly, and other paths compete.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -280,12 +414,83 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="find-an-offsetting-concentration-change" class="slide level2">
-<h2>Find an offsetting concentration change</h2>
+<section id="a-good-leaving-group-is-a-weak-base" class="slide level2">
+<h2>A good leaving group is a weak base</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>leaving group</th>
+<th>its conjugate acid</th>
+<th>pKa of that acid</th>
+<th>leaving group?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>I⁻</td>
+<td>HI</td>
+<td>about −10</td>
+<td>excellent</td>
+</tr>
+<tr class="even">
+<td>Br⁻</td>
+<td>HBr</td>
+<td>about −9</td>
+<td>excellent</td>
+</tr>
+<tr class="odd">
+<td>Cl⁻</td>
+<td>HCl</td>
+<td>about −7</td>
+<td>good</td>
+</tr>
+<tr class="even">
+<td>H₂O</td>
+<td>H₃O⁺</td>
+<td>−1.7</td>
+<td>good</td>
+</tr>
+<tr class="odd">
+<td>HO⁻</td>
+<td>H₂O</td>
+<td>15.7</td>
+<td>very poor</td>
+</tr>
+</tbody>
+</table>
+<p>The leaving group has to hold the pair it takes. <strong>Strong acid, weak conjugate base, good leaving group.</strong></p>
+<aside class="notes">
+<p>This connects straight back to Day 3. A leaving group leaves with the bonding pair, so it ends up as an anion (or as a neutral molecule if it started positive). Anions that are happy holding a negative charge are the conjugate bases of strong acids. Bromide and iodide are great; hydroxide is terrible, because HO− is a strong base. So you can’t just push OH− off an alcohol. The table uses the classic value of 15.7 for water; some books quote 14, and the conclusion is the same either way. The next slide shows how to rescue alcohols.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="activating-an-alcohol-protonate-first" class="slide level2">
+<h2>Activating an alcohol: protonate first</h2>
 
-<img data-src="figures/12-rate-factors.svg" style="width:85.0%" alt="Change a concentration while keeping the model fixed" class="r-stretch quarto-figure-center"><p class="caption">Change a concentration while keeping the model fixed</p><p>Explain why halving[RX] while doubling[Nu] gives the same initial rate in this model, without claiming equal yield.</p>
+<img data-src="figures/sk-activation.svg" style="width:74.0%" alt="Step 1: ethanol's oxygen takes a proton from hydronium, giving the ethyloxonium ion. Step 2: bromide attacks carbon and water leaves, giving bromoethane" class="r-stretch quarto-figure-center"><p class="caption">Ethanol is protonated by hydronium, then bromide displaces water</p><p>Protonating OH turns a terrible leaving group (HO⁻) into a good one (H₂O).</p>
+<div class="try">
+<p><strong>Try it:</strong> does protonating ethanol mean the reaction now goes SN1?</p>
+<div class="fragment">
+<p><strong>No.</strong> A primary carbocation is far too unstable. Bromide does an SN2 on the oxonium ion instead.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The factors multiply:6 and1 respectively. The statement is initial kinetics at unchanged temperature, solvent and applicable mechanism.</p>
+<p>This is how HBr converts primary alcohols into alkyl bromides. Step one is the proton transfer from Day 3, drawn with two arrows. Step two is an ordinary SN2 with water as the leaving group. The common mistake is to write CH3CH2+ after water leaves. Activation fixes the leaving group; it doesn’t make a primary carbocation stable. With tertiary alcohols the same acid does give a carbocation, and that’s SN1, coming up. Alcohols get their own day on Day 13.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -298,29 +503,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-2" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Use a tetrahedral model with Br, H, methyl and ethyl. Replace Br through backside attack. Predict what happens to the retained group arrangement.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="backside-attack-inverts-local-geometry" class="slide level2">
-<h2>Backside attack inverts local geometry</h2>
+<section id="neutral-nucleophiles-leave-a-charge-behind" class="slide level2">
+<h2>Neutral nucleophiles leave a charge behind</h2>
 
-<img data-src="figures/03-inversion.svg" style="width:85.0%" alt="A schematic chiral carbon shows its retained group arrangement inverted when Br is replaced by OH." class="r-stretch quarto-figure-center"><p class="caption">A schematic chiral carbon shows its retained group arrangement inverted when Br is replaced by OH.</p><p>SN2 gives inversion at the reacting tetrahedral carbon. Reassign priorities before stating a product R/S label.</p>
+<img data-src="figures/sk-ammonia.svg" style="width:74.0%" alt="Step 1: ammonia attacks bromomethane giving methylammonium and bromide. Step 2: a second ammonia removes a proton from methylammonium, giving methylamine and ammonium" class="r-stretch quarto-figure-center"><p class="caption">Ammonia attacks bromomethane, then a second ammonia takes a proton</p><p>N goes from three bonds to <strong>four bonds and +1</strong>. The neutral amine needs a <strong>separate</strong> proton transfer to a base.</p>
+<div class="try">
+<p><strong>Try it:</strong> a student writes NH₃ + CH₃Br → CH₃NH₂ + Br⁻. What’s missing?</p>
+<div class="fragment">
+<p><strong>A step and a species.</strong> CH₃NH₃⁺ forms first; another NH₃ must take H⁺ and becomes NH₄⁺.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The diagram uses R as a generic carbon substituent, not the R configuration descriptor. Replacing Br can change CIP priorities, so inversion does not universally mean the letter changes.</p>
+<p>Count bonds at nitrogen after step 1: three to H, one to C, no lone pair, so +1. The tempting shortcut is to make the H “fall off”. Protons never just leave; something has to take them, and here that’s a second ammonia. Check the charge: step 2 starts at +1 and ends at +1. In practice you use excess ammonia, and the product mixture depends on amounts; the arrow-pushing is what we care about today. This neutral-nucleophile pattern repeats with water in SN1 in a few slides, and amines come back as nucleophiles in Week 4.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -333,12 +527,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="locate-the-ions-on-the-energy-path" class="slide level2">
-<h2>Locate the ions on the energy path</h2>
+<section id="sn1-step-1-the-leaving-group-goes-first" class="slide level2">
+<h2>SN1 step 1: the leaving group goes first</h2>
 
-<img data-src="figures/13-sn1-profile.svg" style="width:85.0%" alt="Locate the ions on the energy path" class="r-stretch quarto-figure-center"><p class="caption">Locate the ions on the energy path</p><p>Name the two depicted minima after initial reactants. Which one exists before water has bonded to carbon?</p>
+<img data-src="figures/sk-sn1-ionise.svg" style="width:76.0%" alt="2-bromo-2-methylpropane loses bromide to give the flat tert-butyl cation; below, methyl, primary, secondary and tertiary cations with stability increasing to the right" class="r-stretch quarto-figure-center"><p class="caption">tert-Butyl bromide ionises to a carbocation; cation stability from methyl to tertiary</p><p>With no room at the back, a tertiary bromide can <strong>ionise</strong> instead. The cation is flat, with three bonds and an empty orbital.</p>
 <aside class="notes">
-<p>The first minimum is carbocation, the second oxonium. Positive charge shifts from carbon to attacking oxygen before proton transfer produces neutral alcohol.</p>
+<p>One arrow: the C–Br bonding pair moves onto Br. Nothing attacks yet. This is the slow step, because pulling charges apart costs a lot of energy, and it only happens when the cation is stabilised. Alkyl groups donate electron density into the empty orbital (hyperconjugation is the name if anyone asks), so tertiary is the most stable and methyl is hopeless. That’s the mirror image of SN2: SN2 needs an uncrowded carbon, SN1 needs a well-substituted one. A polar solvent like water helps by surrounding both ions.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -351,12 +545,17 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="match-steps-to-changes-in-charge-location" class="slide level2">
-<h2>Match steps to changes in charge location</h2>
+<section id="sn1-steps-2-and-3-capture-then-lose-h" class="slide level2">
+<h2>SN1 steps 2 and 3: capture, then lose H⁺</h2>
 
-<img data-src="figures/13-sn1-profile.svg" style="width:85.0%" alt="Locate the ions on the energy path" class="r-stretch quarto-figure-center"><p class="caption">Locate the ions on the energy path</p><p>Identify ionisation, capture and deprotonation. Where is the positive charge in each intermediate?</p>
+<img data-src="figures/sk-sn1-capture.svg" style="width:74.0%" alt="Step 2: a water lone pair attacks the tert-butyl cation, giving a protonated alcohol. Step 3: another water takes a proton from it, giving tert-butanol and hydronium" class="r-stretch quarto-figure-center"><p class="caption">Water bonds to the cation, then a second water removes a proton</p><div class="try">
+<p><strong>Try it:</strong> add up all three steps, starting from (CH₃)₃CBr in water.</p>
+<div class="fragment">
+<p><strong>(CH₃)₃CBr + 2 H₂O → (CH₃)₃COH + H₃O⁺ + Br⁻.</strong> The cation and oxonium ion cancel out. Atoms and charge both balance.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The first minimum is carbocation, the second oxonium. Positive charge shifts from carbon to attacking oxygen before proton transfer produces neutral alcohol.</p>
+<p>After capture, oxygen has three bonds and one lone pair, so it’s +1. Students love to write the neutral alcohol straight away, which silently deletes a proton. Insist on step 3 with a named base. It’s the same move as the ammonia case. For the net equation, two waters are consumed: one as nucleophile, one as base. A net equation is accounting, not mechanism: it hides the intermediates, and it doesn’t tell you how much alkene forms by the competing route on the last content slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -369,29 +568,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-3" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Using rate=k[RX][Nu], predict the effect of doubling each concentration separately. What if both change?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="both-collision-partners-affect-the-rate" class="slide level2">
-<h2>Both collision partners affect the rate</h2>
+<section id="the-sn1-energy-profile" class="slide level2">
+<h2>The SN1 energy profile</h2>
 
-<img data-src="figures/04-sn2-rate.svg" style="width:85.0%" alt="A schematic straight line shows initial SN2 rate proportional to nucleophile concentration at fixed substrate." class="r-stretch quarto-figure-center"><p class="caption">A schematic straight line shows initial SN2 rate proportional to nucleophile concentration at fixed substrate.</p><p>For this simple model: rate = k[substrate][nucleophile]. Doubling one concentration doubles initial rate when the other is fixed.</p>
+<img data-src="figures/sk-sn1-profile.svg" style="width:84.0%" alt="Energy profile with a tall first barrier labelled ionisation (slow), a dip for R+, a smaller barrier, a dip for R–OH2+, a small barrier and the product. Text: rate = k[R–Br]" class="r-stretch quarto-figure-center"><p class="caption">Three-step SN1 energy profile with two intermediates</p><p>Only the substrate is in the slow step, so <strong>rate = k[R–Br]</strong>. The <strong>1</strong> in SN1 means one molecule in the slow step.</p>
+<div class="try">
+<p><strong>Try it:</strong> in an SN1 reaction you double the nucleophile concentration. What happens to the rate?</p>
+<div class="fragment">
+<p><strong>Nothing.</strong> The nucleophile only joins after the slow step, so it doesn’t appear in the rate law.</p>
+</div>
+</div>
 <aside class="notes">
-<p>This is a mechanistic model diagram, not measured data. Rate laws are evidence for mechanisms, but a single dependence does not prove every microscopic detail.</p>
+<p>Compare with the SN2 profile: one hill there, three here, and two real dips. The dips are intermediates; you could in principle detect them. The peaks are transition states. Since the first hill is by far the highest, everything after it is fast and doesn’t affect the rate. This is the experimental test: change [Nu] and see if the rate changes. The demo for today does exactly that comparison with simulated data. Rate laws support a mechanism but don’t prove every detail of it.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -404,12 +592,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="a-neutral-donor-produces-an-ionic-pair" class="slide level2">
-<h2>A neutral donor produces an ionic pair</h2>
+<section id="a-flat-cation-has-two-faces" class="slide level2">
+<h2>A flat cation has two faces</h2>
 
-<img data-src="figures/14-ammonia-substitution.svg" style="width:85.0%" alt="A neutral donor produces an ionic pair" class="r-stretch quarto-figure-center"><p class="caption">A neutral donor produces an ionic pair</p><p>Give nitrogen’s bond count immediately after methyl capture. Why is CH₃NH₂ premature?</p>
+<img data-src="figures/sk-sn1-stereo.svg" style="width:84.0%" alt="(R)-3-bromo-3-methylhexane loses bromide to give a flat carbocation; water attacks from the back to give (R)-3-methylhexan-3-ol or from the front to give (S)-3-methylhexan-3-ol" class="r-stretch quarto-figure-center"><p class="caption">A planar carbocation gives both enantiomers of 3-methylhexan-3-ol</p><p>Water can reach either face, so an optically pure starting material gives <strong>both enantiomers</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> is an SN1 product always exactly 50 : 50?</p>
+<div class="fragment">
+<p><strong>Not exactly.</strong> The departing Br⁻ briefly shields one face, so there’s often a small excess of the inverted product.</p>
+</div>
+</div>
 <aside class="notes">
-<p>NH₃ first forms CH₃NH₃⁺. Another NH₃ can take H⁺; proton loss cannot be implied without its recipient.</p>
+<p>Contrast with SN2, which is stereospecific: one enantiomer in, one out. Here the stereocentre is destroyed when the cation forms, because a flat carbon with three groups isn’t a stereocentre. Both products’ labels were checked with RDKit. Note the drawings show OH in the plane and the methyl wedged or hashed: same information, just a different way of placing the molecule on the page. The ion-pair point matters for honesty, not for exams: the textbook “racemic” is an idealisation. Day 7’s racemic mixtures and optical rotation are the link.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -422,12 +616,127 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="make-the-neutral-amine-by-a-real-step" class="slide level2">
-<h2>Make the neutral amine by a real step</h2>
+<section id="solvent-changes-the-rate-constant" class="slide level2">
+<h2>Solvent changes the rate constant</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>solvent type</th>
+<th>examples</th>
+<th>what it does</th>
+<th>favours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>polar protic</td>
+<td>water, methanol, ethanol</td>
+<td>H-bonds stabilise both ions; also cage anions</td>
+<td><strong>SN1</strong></td>
+</tr>
+<tr class="even">
+<td>polar aprotic</td>
+<td>acetone, DMSO, DMF</td>
+<td>dissolves salts but leaves anions free</td>
+<td><strong>SN2</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Same reactants in a different solvent means a different k.</p>
+<aside class="notes">
+<p>This is the content behind exercise 18. Protic solvents have O–H or N–H, so they can hydrogen bond. That’s great for SN1, where the slow step makes ions. But for SN2 with an anionic nucleophile, the H-bonds wrap the anion and make it less eager to attack. Aprotic polar solvents dissolve sodium or potassium salts by surrounding the cation, while the anion stays relatively free and reactive. Don’t oversell this: solvent is one factor among several, and the effect is on k, not on which atoms end up bonded.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="sn1-or-sn2-weigh-the-evidence" class="slide level2">
+<h2>SN1 or SN2? Weigh the evidence</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>SN2</th>
+<th>SN1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>steps</td>
+<td>one</td>
+<td>ionise, capture, (lose H⁺)</td>
+</tr>
+<tr class="even">
+<td>rate law</td>
+<td>k[RX][Nu]</td>
+<td>k[RX]</td>
+</tr>
+<tr class="odd">
+<td>carbon</td>
+<td>methyl &gt; 1° &gt; 2°, never 3°</td>
+<td>3°, sometimes 2°, never methyl or 1°</td>
+</tr>
+<tr class="even">
+<td>nucleophile</td>
+<td>strong, often an anion</td>
+<td>weak is fine: H₂O, ROH</td>
+</tr>
+<tr class="odd">
+<td>solvent</td>
+<td>polar aprotic helps</td>
+<td>polar protic helps</td>
+</tr>
+<tr class="even">
+<td>stereochemistry</td>
+<td>inversion</td>
+<td>both faces, close to racemic</td>
+</tr>
+</tbody>
+</table>
+<div class="try">
+<p><strong>Try it:</strong> CH₃CH₂Br + NaCN in DMSO, and (CH₃)₃CBr in water. Which mechanism for each?</p>
+<div class="fragment">
+<p><strong>SN2</strong> for the primary bromide with a strong anion in an aprotic solvent. <strong>SN1</strong> for the tertiary bromide in water.</p>
+</div>
+</div>
+<aside class="notes">
+<p>Encourage students to argue from the table rather than from a flowchart. The carbon class is usually the strongest clue. Methyl and primary: SN2. Tertiary: SN1 (or elimination). Secondary is genuinely ambiguous and the conditions decide. In the try-it, the primary nitrile synthesis gives propanenitrile, and it makes a new C–C bond, which is why cyanide is so useful in synthesis. Practise saying “because” for each choice.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="substitution-has-a-competitor" class="slide level2">
+<h2>Substitution has a competitor</h2>
 
-<img data-src="figures/14-ammonia-substitution.svg" style="width:85.0%" alt="A neutral donor produces an ionic pair" class="r-stretch quarto-figure-center"><p class="caption">A neutral donor produces an ionic pair</p><p>Use NH₃ as base and draw methylammonium deprotonation, including NH₄⁺.</p>
+<img data-src="figures/sk-competition.svg" style="width:84.0%" alt="Left: water attacks the tert-butyl cation at carbon, giving the protonated alcohol (SN1). Right: water removes an H from a neighbouring carbon, the C–H pair forms a C=C bond, giving 2-methylpropene and hydronium (E1)" class="r-stretch quarto-figure-center"><p class="caption">Water can attack the carbocation or remove a beta-H from it</p><p>The same cation can <strong>gain a nucleophile</strong> (SN1) or <strong>lose a β-H</strong> (E1). Heat and strong bases push towards elimination.</p>
 <aside class="notes">
-<p>NH₃ first forms CH₃NH₃⁺. Another NH₃ can take H⁺; proton loss cannot be implied without its recipient.</p>
+<p>This is the bridge to tomorrow. The carbocation is a shared intermediate, and water can play two roles: nucleophile at the positive carbon, or base at an H on the next carbon (the beta carbon). In the E1 arrows, the C–H bonding pair becomes the new pi bond. So a tertiary bromide in water gives a mixture of alcohol and alkene, and the net equation from three slides ago only described one branch. Tomorrow we’ll treat elimination properly, including the one-step E2 version that competes with SN2.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -440,11 +749,52 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-4" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Compare methyl, primary and tertiary centres. What geometric access does a strong nucleophile still need?</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“four carbons, so tertiary”</td>
+<td>count C neighbours of the <strong>carbon bearing the leaving group</strong></td>
+</tr>
+<tr class="even">
+<td>SN2 on a tertiary bromide “because the nucleophile is strong”</td>
+<td>the back face is <strong>blocked</strong></td>
+</tr>
+<tr class="odd">
+<td>a primary carbocation after protonating ethanol</td>
+<td>activation fixes the leaving group; it’s still <strong>SN2</strong></td>
+</tr>
+<tr class="even">
+<td>writing R–OH as soon as water attacks R⁺</td>
+<td><strong>oxonium first</strong>, then a base takes H⁺</td>
+</tr>
+<tr class="odd">
+<td>CH₃NH₂ straight from NH₃ + CH₃Br</td>
+<td><strong>CH₃NH₃⁺</strong> first, then proton transfer to NH₃</td>
+</tr>
+<tr class="even">
+<td>“inversion, so R becomes S”</td>
+<td><strong>re-rank</strong> the priorities in the product</td>
+</tr>
+<tr class="odd">
+<td>“SN1 always gives exactly 50 : 50”</td>
+<td>both faces react, but ion pairs can bias it</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
+<p>Read each mistake aloud and ask for the fix before revealing it. Every row is tied to an exercise: 1 and the quiz question on classification; 10; 17; 12 and 19; 6 and 7; 15; and 16. Students who still make one of these know which exercise to redo tonight.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -457,365 +807,57 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="crowding-obstructs-backside-approach" class="slide level2">
-<h2>Crowding obstructs backside approach</h2>
-
-<img data-src="figures/05-steric-access.svg" style="width:85.0%" alt="Substituent spheres illustrate less accessible attack at a more substituted saturated carbon." class="r-stretch quarto-figure-center"><p class="caption">Substituent spheres illustrate less accessible attack at a more substituted saturated carbon.</p><p>Methyl and many primary substrates are accessible to SN2. Tertiary alkyl centres strongly obstruct the required approach.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>substitution</td>
+<td>nucleophile in, leaving group out, at a δ+ carbon</td>
+</tr>
+<tr class="even">
+<td>SN2</td>
+<td>one step, backside attack, <strong>rate = k[RX][Nu]</strong></td>
+</tr>
+<tr class="odd">
+<td>SN2 stereochemistry</td>
+<td><strong>inversion</strong>; re-rank before naming R or S</td>
+</tr>
+<tr class="even">
+<td>SN2 carbon</td>
+<td>methyl &gt; 1° &gt; 2°; not 3°</td>
+</tr>
+<tr class="odd">
+<td>leaving group</td>
+<td>weak base; protonate OH to make H₂O leave</td>
+</tr>
+<tr class="even">
+<td>neutral nucleophile</td>
+<td>gives a cation; a separate base removes H⁺</td>
+</tr>
+<tr class="odd">
+<td>SN1</td>
+<td>ionise (slow), capture, lose H⁺; <strong>rate = k[RX]</strong></td>
+</tr>
+<tr class="even">
+<td>SN1 stereochemistry</td>
+<td>flat cation, both faces, close to racemic</td>
+</tr>
+<tr class="odd">
+<td>competition</td>
+<td>the same cation can lose β-H (E1)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> elimination and addition: making and breaking C=C (Day 12). <strong>Practice:</strong> <a href="../substitution/exercise.html">exercises</a> · <a href="../substitution/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>This drawing illustrates access rather than molecular dimensions. Solvent and nucleophile still matter; do not teach substrate class as the only variable.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="activation-changes-the-departing-species" class="slide level2">
-<h2>Activation changes the departing species</h2>
-
-<img data-src="figures/15-alcohol-protonation.svg" style="width:85.0%" alt="Activation changes the departing species" class="r-stretch quarto-figure-center"><p class="caption">Activation changes the departing species</p><p>Compare loss of OH⁻ from a neutral alcohol with departure of water from oxonium.</p>
-<aside class="notes">
-<p>Water is the improved leaving group after protonation. Activation is not evidence that an ordinary primary carbocation becomes a suitable intermediate.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="reject-an-unsupported-primary-carbocation" class="slide level2">
-<h2>Reject an unsupported primary carbocation</h2>
-
-<img data-src="figures/15-alcohol-protonation.svg" style="width:85.0%" alt="Activation changes the departing species" class="r-stretch quarto-figure-center"><p class="caption">Activation changes the departing species</p><p>Does protonating ethanol prove an SN1 route? Explain why substrate stability still matters.</p>
-<aside class="notes">
-<p>Water is the improved leaving group after protonation. Activation is not evidence that an ordinary primary carbocation becomes a suitable intermediate.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-5" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw tertiary C–Br cleavage in water. Which species receives the pair? Which newly formed charged species needs stabilisation?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="sn1-begins-by-forming-ions" class="slide level2">
-<h2>SN1 begins by forming ions</h2>
-
-<img data-src="figures/06-sn1-ionisation.svg" style="width:85.0%" alt="A tertiary C–Br bond cleaves to a tertiary carbocation and bromide." class="r-stretch quarto-figure-center"><p class="caption">A tertiary C–Br bond cleaves to a tertiary carbocation and bromide.</p><p>Ionisation precedes nucleophile capture. A suitable polar medium can stabilise charged species.</p>
-<aside class="notes">
-<p>Show a real bond pair moving to Br. Forming a carbocation has an energy cost; students should not transfer this step to methyl or ordinary primary substrates.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-the-sn2-pattern-for-a-new-bond" class="slide level2">
-<h2>Use the SN2 pattern for a new bond</h2>
-
-<img data-src="figures/16-ether-case.svg" style="width:85.0%" alt="Use the SN2 pattern for a new bond" class="r-stretch quarto-figure-center"><p class="caption">Use the SN2 pattern for a new bond</p><p>Mark the incoming oxygen and the substrate carbon that become bonded in ether formation.</p>
-<aside class="notes">
-<p>Methoxide changes from one to two bonds at O and becomes neutral in the ether. Br receives the leaving pair and carries−1.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="conserve-valence-and-the-negative-charge" class="slide level2">
-<h2>Conserve valence and the negative charge</h2>
-
-<img data-src="figures/16-ether-case.svg" style="width:85.0%" alt="Use the SN2 pattern for a new bond" class="r-stretch quarto-figure-center"><p class="caption">Use the SN2 pattern for a new bond</p><p>Count oxygen bonds before and after, then locate the remaining anionic species.</p>
-<aside class="notes">
-<p>Methoxide changes from one to two bonds at O and becomes neutral in the ether. Br receives the leaving pair and carries−1.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-6" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Water attacks a carbocation through oxygen. Before removing any H, count the bonds at that oxygen and assign its charge.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="water-can-be-a-nucleophile" class="slide level2">
-<h2>Water can be a nucleophile</h2>
-
-<img data-src="figures/07-sn1-capture.svg" style="width:85.0%" alt="A water oxygen lone pair attacks a carbocation to give a protonated alcohol." class="r-stretch quarto-figure-center"><p class="caption">A water oxygen lone pair attacks a carbocation to give a protonated alcohol.</p><p>A neutral nucleophile can form a new bond. Here the attacking oxygen becomes positively charged.</p>
-<aside class="notes">
-<p>Count three oxygen bonds in the oxonium product. Do not let students write a neutral alcohol at this stage; that would lose an H and change the charge.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="check-the-whole-chosen-branch" class="slide level2">
-<h2>Check the whole chosen branch</h2>
-
-<img data-src="figures/17-net-aqueous-substitution.svg" style="width:85.0%" alt="Check the whole chosen branch" class="r-stretch quarto-figure-center"><p class="caption">Check the whole chosen branch</p><p>Count both waters and every product H in the net tertiary aqueous substitution.</p>
-<aside class="notes">
-<p>Carbocation and oxonium cancel as intermediates. The net substitution branch does not exclude competing E1 or specify its proportion.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="keep-a-net-equation-separate-from-its-mechanism" class="slide level2">
-<h2>Keep a net equation separate from its mechanism</h2>
-
-<img data-src="figures/17-net-aqueous-substitution.svg" style="width:85.0%" alt="Check the whole chosen branch" class="r-stretch quarto-figure-center"><p class="caption">Check the whole chosen branch</p><p>Which intermediates are absent from the net equation, and why does it not establish the SN1/E1 product ratio?</p>
-<aside class="notes">
-<p>Carbocation and oxonium cancel as intermediates. The net substitution branch does not exclude competing E1 or specify its proportion.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-7" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw the step that converts a three-bond oxonium oxygen to a two-bond neutral alcohol. Where does its proton go?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="finish-the-proton-transfer" class="slide level2">
-<h2>Finish the proton transfer</h2>
-
-<img data-src="figures/08-sn1-deprotonation.svg" style="width:85.0%" alt="A second water molecule accepts H from the oxonium ion, giving alcohol and hydronium." class="r-stretch quarto-figure-center"><p class="caption">A second water molecule accepts H from the oxonium ion, giving alcohol and hydronium.</p><p>The neutral alcohol is produced by deprotonation, not by silently deleting H⁺.</p>
-<aside class="notes">
-<p>Track a spectator bromide separately if writing the whole solution reaction. All individual steps must conserve charge.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="translate-geometry-into-a-descriptor-carefully" class="slide level2">
-<h2>Translate geometry into a descriptor carefully</h2>
-
-<img data-src="figures/18-specific-inversion.svg" style="width:85.0%" alt="Translate geometry into a descriptor carefully" class="r-stretch quarto-figure-center"><p class="caption">Translate geometry into a descriptor carefully</p><p>For(S)-2-bromobutane→butan-2-ol SN2, compare priority rankings before assigning the product.</p>
-<aside class="notes">
-<p>Geometric inversion is the general rule. Here Br/OH each rank first, ethyl second, methyl third, H last; inversion therefore gives R product.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="distinguish-the-general-rule-from-this-example" class="slide level2">
-<h2>Distinguish the general rule from this example</h2>
-
-<img data-src="figures/18-specific-inversion.svg" style="width:85.0%" alt="Translate geometry into a descriptor carefully" class="r-stretch quarto-figure-center"><p class="caption">Translate geometry into a descriptor carefully</p><p>State what always follows from the SN2 geometry and what required this particular priority comparison.</p>
-<aside class="notes">
-<p>Geometric inversion is the general rule. Here Br/OH each rank first, ethyl second, methyl third, H last; inversion therefore gives R product.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-8" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>A planar carbocation is formed in an achiral medium. Where can a nucleophile approach relative to its three-bond plane?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="a-planar-carbocation-has-two-faces" class="slide level2">
-<h2>A planar carbocation has two faces</h2>
-
-<img data-src="figures/09-planar-cation.svg" style="width:85.0%" alt="A planar carbocation permits nucleophilic approach from either face." class="r-stretch quarto-figure-center"><p class="caption">A planar carbocation permits nucleophilic approach from either face.</p><p>An achiral medium can give both configurations. Ion-pair effects may prevent an exactly racemic product.</p>
-<aside class="notes">
-<p>This is a face-access cartoon; arrows represent approaches, not a full electron-flow mechanism. Do not promise exactly 50:50 for every SN1 reaction.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-9" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>On a secondary bromide, mark the atom attacked in substitution and the atom attacked in beta elimination. Why is “strong reagent” insufficient?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="substitution-is-one-possible-outcome" class="slide level2">
-<h2>Substitution is one possible outcome</h2>
-
-<img data-src="figures/10-competition.svg" style="width:85.0%" alt="A secondary alkyl bromide can follow nucleophilic substitution or beta-proton elimination." class="r-stretch quarto-figure-center"><p class="caption">A secondary alkyl bromide can follow nucleophilic substitution or beta-proton elimination.</p><p>Compare substrate, leaving group, nucleophile/base, solvent and temperature. Conditions are part of the question.</p>
-<aside class="notes">
-<p>We will handle elimination next. A decision should cite evidence; a colour-coded flowchart is not a substitute for explaining the elementary steps.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="which-conditions-support-each-example" class="slide level2">
-<h2>Which conditions support each example?</h2>
-<p><strong>Methyl bromide + hydroxide:</strong> accessible carbon and a strong pair donor support the SN2 model.</p>
-<p><strong>Tertiary bromide in water:</strong> ionisation can precede water capture, with elimination competing.</p>
-<p>Neither is a universal rule for every solvent and temperature.</p>
-</section>
-<section id="leaving-group-quality-matters" class="slide level2">
-<h2>Leaving-group quality matters</h2>
-<p>A departing group must accommodate its electron pair. Bromide is a plausible leaving group; OH⁻ is poor under ordinary substitution conditions.</p>
-<p>Protonating an alcohol can allow loss as water. Draw that activation step before using it.</p>
-</section>
-<section id="predict-before-checking" class="slide level2">
-<h2>Predict before checking</h2>
-<p>For CH₃Br + OH⁻, give the product, both curved arrows and net charge.</p>
-<p>For (CH₃)₃CBr in water, draw ionisation, water capture and deprotonation. Name a competing outcome.</p>
-</section>
-<section id="use-the-same-reasoning-in-practice" class="slide level2">
-<h2>Use the same reasoning in practice</h2>
-<p>Complete the <a href="../substitution/exercise.html">exercises</a>, then the <a href="../substitution/quiz.html">self-check</a>.</p>
-<p>Optional textbook support: selected Solomons chapter 6 sections. The <a href="../reference/reading.html">reading guide</a> explains the provisional book mapping.</p>
-<aside class="notes">
-<p>Session budget45 minutes:roughly27–29 minutes of concise explanations/visual inspection, about 11–13 minutes of individual drawing and predictions distributed through the sequence, and4–6 minutes of discussion/closing checks. Adjust to observed errors; the 40 second metadata is a planning guide, not a quota. Required paper practice and optional transfer are available in the exercise bank.</p>
+<p>Go back to the nitrogen mustard: a nitrogen nucleophile, a carbon with a chloride leaving group, an SN2 step. Students can now draw it. Tomorrow’s lecture picks up from the competition slide: the same reagents that act as nucleophiles can act as bases, and then we get alkenes. Core exercises 1 to 12 are the minimum; 13 to 20 are transfer problems, and 15, 16 and 20 are good preparation for tomorrow.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Alcohols and organic redox</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,22 +144,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Alcohols and organic redox</h1>
-  <p class="subtitle">Week 3 · Follow the carbon and check the evidence</p>
+  <p class="subtitle">Week 3 · Day 13 — what your liver does with ethanol</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-will-you-be-able-to-explain" class="slide level2">
-<h2>What will you be able to explain?</h2>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>After a drink, your liver turns ethanol into <strong>acetaldehyde</strong> and then into <strong>acetate</strong>. If the second step is slow, acetaldehyde piles up and you get the red face, racing heart and nausea of an “alcohol flush”. The drug disulfiram treats alcoholism by blocking that second step on purpose. Both steps are <strong>oxidations of one carbon</strong>.</p>
+<p>Today we learn to follow that carbon:</p>
 <ul>
-<li>Connect alcohols with aldehydes, ketones and acids.</li>
-<li>Draw carbonyl reduction as addition then proton transfer.</li>
-<li>Calculate a limiting amount with explicit units.</li>
+<li><strong>Classify alcohols</strong> as primary, secondary or tertiary, and predict what each oxidises to</li>
+<li><strong>Oxidation states</strong> of carbon, as a quick bookkeeping check</li>
+<li><strong>Reduction</strong> of aldehydes and ketones with NaBH₄, drawn as two steps</li>
+<li><strong>Activating OH</strong> so it can leave, and IR evidence for a redox change</li>
+<li><strong>Amounts and yield:</strong> limiting reagent, theoretical mass, what yield can’t tell you</li>
 </ul>
+<p>Yesterday we made alcohols by adding water to alkenes. Today we change how oxidised the alcohol carbon is.</p>
 <aside class="notes">
-<p><strong>45-minute block budget (all pauses included):</strong> 0–5 min: alcohol/carbonyl transformation map; 5–13 min: local oxidation-state comparisons and tertiary boundary; 13–23 min: reduction plus proton-transfer drawing; 23–29 min: OH activation and IR evidence; 29–39 min: paper amount, yield and purity comparisons; 39–43 min: target-based route choice; 43–45 min: recap. The brief predictions, individual drawing and board discussion occur inside these blocks, not in extra time. The 40-second metadata is a rough planning reference; spend longer on the identified drawings and merge explanations already understood.</p>
-<p>Begin with the previous unit’s electron-pair and charge audit. Ask students to predict a product or bond change before displaying the worked drawing. These slides support discussion and paper drawing; the practice page supplies further explanations.</p>
+<p>Open with the flush. Many students have seen it or felt it; the ALDH2 variant that slows acetaldehyde removal is common in East Asian populations. Disulfiram (Antabuse) blocks aldehyde dehydrogenase so that drinking makes people feel ill immediately. Methanol poisoning is the dark twin: the same enzymes turn methanol into formaldehyde and formic acid, which damages the optic nerve, and the antidote fomepizole blocks the first step. The point for today: these are ordinary organic oxidations, and the rules we learn for the lab apply in the liver. Link back to Day 12: hydration of an alkene gave an alcohol, but the carbon oxidation level didn’t change much there; today it does.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -155,29 +181,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw ethanol and predict two successive oxidation targets with the same carbon skeleton. Why might an aldehyde target require controlled conditions?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="a-primary-alcohol-has-two-oxidation-targets" class="slide level2">
-<h2>A primary alcohol has two oxidation targets</h2>
+<section id="your-liver-runs-two-oxidations-in-a-row" class="slide level2">
+<h2>Your liver runs two oxidations in a row</h2>
 
-<img data-src="figures/01-primary-map.svg" style="width:85.0%" alt="Ethanol can be oxidised to ethanal and then ethanoic acid." class="r-stretch quarto-figure-center"><p class="caption">Ethanol can be oxidised to ethanal and then ethanoic acid.</p><p>Controlling conditions matters when the intended product is the aldehyde. A transformation arrow is not a complete protocol.</p>
+<img data-src="figures/sk-metabolism.svg" style="width:82.0%" alt="Ethanol is oxidised by alcohol dehydrogenase to ethanal, then by aldehyde dehydrogenase to acetate; disulfiram blocks the second enzyme" class="r-stretch quarto-figure-center"><p class="caption">Ethanol to ethanal to acetate in the liver</p><p>Look at the shaded carbon. Each step <strong>removes a C–H bond and adds a C–O bond</strong>. The H leaves as a hydride, picked up by <strong>NAD⁺</strong>, which becomes NADH.</p>
 <aside class="notes">
-<p>Use ethanol as the recurring carbon skeleton. The [O] notation summarises net oxidation and must not be treated as an elementary mechanistic atom.</p>
+<p>Point at the shaded carbon through all three structures: the carbon skeleton never changes, only what’s attached to that one carbon. Ethanol’s carbon has two H and one O; ethanal’s has one H and a double bond to O; acetate’s has no H and three bonds to oxygen. NAD+ is nature’s oxidising agent: it accepts a hydride (H with two electrons). Keep that in mind, because later today NaBH4 does the reverse and gives a hydride to a carbonyl carbon. Biology and the lab run the same chemistry in opposite directions. Students often say “oxidation means adding oxygen”; ask whether going from ethanol to ethanal adds any oxygen atom. It doesn’t, and that’s why we need a better definition on the next slides.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -190,12 +199,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="extend-the-same-local-transformation" class="slide level2">
-<h2>Extend the same local transformation</h2>
+<section id="primary-secondary-tertiary" class="slide level2">
+<h2>Primary, secondary, tertiary</h2>
 
-<img data-src="figures/11-butanol-oxidation.svg" style="width:85.0%" alt="Extend the same local transformation" class="r-stretch quarto-figure-center"><p class="caption">Extend the same local transformation</p><p>Find the original OH-bearing carbon in butan-2-ol and keep its methyl/ethyl neighbours attached.</p>
+<img data-src="figures/sk-classes.svg" style="width:82.0%" alt="Ethanol, propan-2-ol and 2-methylpropan-2-ol with the OH-bearing carbon shaded and its hydrogens drawn: two, one and none" class="r-stretch quarto-figure-center"><p class="caption">Ethanol, propan-2-ol and 2-methylpropan-2-ol</p><p>Classify by the <strong>OH-bearing carbon</strong> (the carbinol carbon): count its carbon neighbours. That also tells you how many <strong>H</strong> it carries, which decides how far it can be oxidised.</p>
 <aside class="notes">
-<p>Butan-2-one retains the original reacting carbon and both carbon substituents. Butanal would move the carbonyl to the chain end.</p>
+<p>This classification is the key to everything on oxidation. Primary means one carbon neighbour, so two H on the carbinol carbon; secondary, two carbon neighbours and one H; tertiary, three carbon neighbours and no H. The H are drawn explicitly here only on the carbinol carbon because those are the ones that matter today. A common slip: students classify by counting OH groups or by counting all the carbons in the molecule. Butan-1-ol and butan-2-ol have the same number of carbons, but one is primary and one secondary. Same words as for carbocations on Day 11, same counting rule.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -208,12 +217,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="reject-an-unintended-aldehyde" class="slide level2">
-<h2>Reject an unintended aldehyde</h2>
+<section id="oxidation-state-a-bookkeeping-check-for-carbon" class="slide level2">
+<h2>Oxidation state: a bookkeeping check for carbon</h2>
 
-<img data-src="figures/11-butanol-oxidation.svg" style="width:85.0%" alt="Extend the same local transformation" class="r-stretch quarto-figure-center"><p class="caption">Extend the same local transformation</p><p>Why would butanal be the wrong product for this simple secondary-alcohol oxidation?</p>
+<img data-src="figures/sk-ox-states.svg" style="width:78.0%" alt="Ethanol, ethanal and ethanoic acid with the changing carbon shaded and assigned oxidation states minus one, plus one and plus three" class="r-stretch quarto-figure-center"><p class="caption">Oxidation states of the changing carbon</p><p>Count only bonds to the carbon you care about: <strong>C–O +1</strong> per bond (C=O counts +2), <strong>C–H −1</strong>, <strong>C–C 0</strong>. Oxidation <strong>raises</strong> the number; reduction lowers it.</p>
+<div class="try">
+<p><strong>Try it:</strong> what’s the carbinol carbon in propan-2-ol, and the carbonyl carbon in propanone?</p>
+<div class="fragment">
+<p><strong>0 and +2.</strong> Propan-2-ol: +1 (C–O) − 1 (C–H) = 0. Propanone: +2 (C=O), no C–H. Up by two, so it’s an oxidation.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Butan-2-one retains the original reacting carbon and both carbon substituents. Butanal would move the carbonyl to the chain end.</p>
+<p>This is a bookkeeping tool, not a real charge. The rule comes from electronegativity: O pulls electrons from C, so each C–O bond counts as +1 for carbon; H is less electronegative than C, so each C–H counts as −1; a C–C bond is shared evenly. Walk through ethanol: one C–O (+1), two C–H (−2), one C–C (0), total −1. Ethanal: C=O is +2, one C–H −1, total +1. Ethanoic acid: C=O +2, C–OH +1, total +3. Each step is a change of two, which matches two electrons leaving with the hydride. Give 30 seconds for the try-it. Students who get +1 for propanone usually forgot that a double bond counts twice.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -226,12 +241,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="a-secondary-alcohol-gives-a-ketone" class="slide level2">
-<h2>A secondary alcohol gives a ketone</h2>
+<section id="primary-alcohols-stop-at-the-aldehyde-or-go-on-to-the-acid" class="slide level2">
+<h2>Primary alcohols: stop at the aldehyde, or go on to the acid</h2>
 
-<img data-src="figures/02-secondary-map.svg" style="width:85.0%" alt="Propan-2-ol oxidation gives propanone with the carbon skeleton retained." class="r-stretch quarto-figure-center"><p class="caption">Propan-2-ol oxidation gives propanone with the carbon skeleton retained.</p><p>Identify the carbon bearing OH. Its C–H bond and O–H bond are replaced overall as the carbonyl forms.</p>
+<img data-src="figures/sk-primary.svg" style="width:80.0%" alt="Propan-1-ol gives propanal with PCC in dichloromethane, but propanoic acid with sodium dichromate in aqueous sulfuric acid" class="r-stretch quarto-figure-center"><p class="caption">Propan-1-ol oxidised by PCC or by aqueous dichromate</p><p>A primary alcohol has <strong>two</strong> C–H to give up, so it has two oxidation targets. To <strong>stop at the aldehyde</strong>, use a reagent without water, such as <strong>PCC</strong> in CH₂Cl₂. In water, the aldehyde is oxidised again to the <strong>carboxylic acid</strong>.</p>
 <aside class="notes">
-<p>This is a net transformation, not a universal one-step alcohol-oxidation mechanism. Different oxidants have different elementary steps.</p>
+<p>Why does water matter? In water an aldehyde partly adds water to give a hydrate, which has a new C–H next to an OH and gets oxidised again; that’s a preview of carbonyl addition in Week 4, Day 16. PCC (pyridinium chlorochromate) in dichloromethane avoids that. The orange-to-green colour change of dichromate, Cr(VI) to Cr(III), is the chemistry of the old roadside breathalyser: ethanol in breath reduced the dichromate. Stress that “[O]” over an arrow is shorthand for some oxidant, not a free oxygen atom, and an arrow on a slide is not a lab protocol. The reagents here are examples to reason with; you won’t be examined on chromium mechanisms.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -244,12 +259,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-the-aldehyde-reduction-pattern" class="slide level2">
-<h2>Use the aldehyde reduction pattern</h2>
+<section id="secondary-alcohols-give-ketones" class="slide level2">
+<h2>Secondary alcohols give ketones</h2>
 
-<img data-src="figures/12-propanal-reduction.svg" style="width:85.0%" alt="Use the aldehyde reduction pattern" class="r-stretch quarto-figure-center"><p class="caption">Use the aldehyde reduction pattern</p><p>Show hydride-equivalent addition first, then write the protonated neutral product.</p>
+<img data-src="figures/sk-secondary.svg" style="width:82.0%" alt="Butan-2-ol with numbered carbons oxidises to butan-2-one with the C=O on C2; butanal is crossed out because its C=O is on C1" class="r-stretch quarto-figure-center"><p class="caption">Butan-2-ol oxidises to butan-2-one</p><p>The C=O forms <strong>exactly where the OH was</strong>. Both carbon neighbours stay attached, so the product is a ketone. With no further C–H on that carbon, oxidation stops there.</p>
+<div class="try">
+<p><strong>Try it:</strong> a student writes butanal as the product. What went wrong?</p>
+<div class="fragment">
+<p><strong>The C=O moved.</strong> Butanal has its carbonyl on C1, but oxidation only changes the carbon that carried the OH, which is C2.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Delivery forms a new C–H bond and an alkoxide. A donor later supplies O–H, yielding propan-1-ol with its carbon skeleton retained.</p>
+<p>Numbering makes the point concrete: C2 carries the OH before, and C2 carries the O after. Oxidation doesn’t move functional groups along a chain and doesn’t break C–C bonds under these conditions. Ask why oxidation stops at the ketone: the carbonyl carbon has no H left, and making an acid would mean breaking a C–C bond. Everyday example: propan-2-ol (rubbing alcohol) oxidises to propanone (acetone, nail-polish remover). The exercises use butan-2-ol and butan-2-one, so make sure everyone can draw both.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -262,12 +283,13 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="audit-the-extra-hydrogens" class="slide level2">
-<h2>Audit the extra hydrogens</h2>
+<section id="tertiary-alcohols-resist-simple-oxidation" class="slide level2">
+<h2>Tertiary alcohols resist simple oxidation</h2>
 
-<img data-src="figures/12-propanal-reduction.svg" style="width:85.0%" alt="Use the aldehyde reduction pattern" class="r-stretch quarto-figure-center"><p class="caption">Use the aldehyde reduction pattern</p><p>Which new H bonds to carbon and which comes from the proton donor to oxygen?</p>
+<img data-src="figures/sk-tertiary.svg" style="width:80.0%" alt="Propan-2-ol has one H on its OH carbon and oxidises to propanone; 2-methylpropan-2-ol has no H on its OH carbon" class="r-stretch quarto-figure-center"><p class="caption">Propan-2-ol versus 2-methylpropan-2-ol</p><p>Oxidation to C=O needs a <strong>C–H on the carbinol carbon</strong>. A tertiary carbon has three C–C bonds and a C–O; drawing (CH₃)₃C=O would give it <strong>five bonds</strong>.</p>
+<p>Harsh oxidants can break C–C bonds instead, but that’s a different reaction and outside our toolkit.</p>
 <aside class="notes">
-<p>Delivery forms a new C–H bond and an alkoxide. A donor later supplies O–H, yielding propan-1-ol with its carbon skeleton retained.</p>
+<p>Run the valence check from Day 1 on the board: three C–C bonds plus a C=O is 3 + 2 = 5 bonds to carbon, which is impossible. So the simple alcohol-to-carbonyl pattern has nowhere to go. Be careful with the wording: don’t say “tertiary alcohols can never be oxidised”. Under forcing conditions C–C bonds break. What we can say is that the selected oxidations in this course leave tertiary alcohols alone. This is a useful test in practice: a mild oxidant distinguishes primary and secondary from tertiary alcohols.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -280,29 +302,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-1" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Compare the OH-bearing carbon in a secondary and tertiary alcohol. What H is missing in the tertiary case?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="why-is-the-tertiary-case-different" class="slide level2">
-<h2>Why is the tertiary case different?</h2>
+<section id="reduction-runs-the-map-backwards" class="slide level2">
+<h2>Reduction runs the map backwards</h2>
 
-<img data-src="figures/03-tertiary-boundary.svg" style="width:85.0%" alt="A secondary alcohol has a hydrogen on its OH-bearing carbon; a tertiary one has three carbon substituents instead." class="r-stretch quarto-figure-center"><p class="caption">A secondary alcohol has a hydrogen on its OH-bearing carbon; a tertiary one has three carbon substituents instead.</p><p>A tertiary alcohol lacks the required carbinol C–H bond for the simple alcohol → carbonyl transformation without C–C cleavage.</p>
+<img data-src="figures/sk-reduction-map.svg" style="width:74.0%" alt="Propanal is reduced to propan-1-ol and propanone to propan-2-ol by NaBH4 followed by water" class="r-stretch quarto-figure-center"><p class="caption">NaBH₄ reduces an aldehyde and a ketone</p><p>Sodium borohydride, <strong>NaBH₄</strong>, adds <strong>H to the carbonyl carbon</strong>; a proton source then puts <strong>H on oxygen</strong>. Aldehydes give <strong>primary</strong> alcohols, ketones give <strong>secondary</strong> alcohols. The carbon skeleton is unchanged.</p>
 <aside class="notes">
-<p>Do not state that tertiary alcohols can never oxidise. Harsh oxidative conditions may cleave carbon bonds; that chemistry is beyond this selected toolkit.</p>
+<p>This is the mirror image of the oxidation slides: one new C–H and one new O–H, oxidation state of the carbonyl carbon drops by two. The “1. 2.” numbering means two separate operations: first the reagent, then the water or acid work-up. NaBH4 is a mild, convenient reagent, often used in methanol or ethanol, and it’s selective, which we’ll come back to. In the body, NADH plays the same role as NaBH4: it delivers a hydride to a carbonyl carbon. Ask the room what a ketone reduction can never give: a primary alcohol, because the carbonyl carbon already has two carbon neighbours.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -315,12 +320,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="compare-a-secondary-carbon-before-and-after" class="slide level2">
-<h2>Compare a secondary carbon before and after</h2>
+<section id="step-1-a-hydride-adds-to-the-carbonyl-carbon" class="slide level2">
+<h2>Step 1: a hydride adds to the carbonyl carbon</h2>
 
-<img data-src="figures/13-secondary-oxidation-state.svg" style="width:85.0%" alt="Compare a secondary carbon before and after" class="r-stretch quarto-figure-center"><p class="caption">Compare a secondary carbon before and after</p><p>Calculate the OH-carbon assignment in propan-2-ol using C–O+1, C–H−1, C–C0.</p>
+<img data-src="figures/sk-hydride.svg" style="width:76.0%" alt="Curved arrows: the hydride pair attacks the carbonyl carbon of propanone and the C=O pi pair moves onto oxygen, giving an alkoxide" class="r-stretch quarto-figure-center"><p class="caption">Hydride delivery to propanone</p><p>Two arrows: the <strong>H:⁻ pair forms the new C–H</strong>, and the <strong>C=O π pair moves onto O</strong>. The product is an <strong>alkoxide</strong>, with O⁻. “H:⁻” is shorthand for a hydride delivered by BH₄⁻; there’s no free hydride in solution.</p>
+<div class="try">
+<p><strong>Try it:</strong> why must the π bond break when the H adds?</p>
+<div class="fragment">
+<p><strong>Valence.</strong> The carbonyl carbon already has four bonds. A fifth is impossible, so the π pair has to leave, onto the more electronegative oxygen.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The alcohol carbon is 0; ketone carbon +2. Increasing C–O bond order and losing C–H raises its oxidation state without adding an oxygen atom.</p>
+<p>Draw this one on the board with the students. The first arrow starts at the electron pair (the H with its two electrons) and ends at the carbonyl carbon, which is electrophilic because O pulls electron density away from it. The second arrow starts at the middle of the C=O double bond and ends on O. Count charges: hydride −1 going in, alkoxide oxygen −1 coming out, so charge is conserved. This is the first example of nucleophilic addition to a carbonyl, which is the whole of Day 16. Probe the misconception that BH4- releases free H- ions into water; it doesn’t, and free hydride would react with water instantly to give H2.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -333,12 +344,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="explain-the-two-unit-change" class="slide level2">
-<h2>Explain the two-unit change</h2>
+<section id="step-2-water-protonates-the-alkoxide" class="slide level2">
+<h2>Step 2: water protonates the alkoxide</h2>
 
-<img data-src="figures/13-secondary-oxidation-state.svg" style="width:85.0%" alt="Compare a secondary carbon before and after" class="r-stretch quarto-figure-center"><p class="caption">Compare a secondary carbon before and after</p><p>Calculate the ketone carbon value and identify why oxidation is not just “adding an O atom”.</p>
+<img data-src="figures/sk-workup.svg" style="width:80.0%" alt="The alkoxide oxygen lone pair takes a proton from water and the O–H bonding pair stays on the water oxygen, giving propan-2-ol and hydroxide" class="r-stretch quarto-figure-center"><p class="caption">Proton transfer from water to the alkoxide</p><p>The alkoxide is a strong base, so it takes <strong>H⁺ from water</strong>. Name the donor and write its conjugate base: charge is <strong>−1 on both sides</strong>, and every H is accounted for.</p>
 <aside class="notes">
-<p>The alcohol carbon is 0; ketone carbon +2. Increasing C–O bond order and losing C–H raises its oxidation state without adding an oxygen atom.</p>
+<p>This is an acid-base step straight out of Day 3: an alkoxide (conjugate base of an alcohol, pKa about 16) and water (pKa about 15.7) are close, and with plenty of water the equilibrium gives the alcohol. The two arrows mirror each other: the O⁻ lone pair grabs the H, and the old O–H bond pair stays on the water oxygen, which becomes hydroxide. Students often write “+ H+” over the arrow and lose track of charge; insist on a named proton donor. The order matters: addition first, then proton transfer. The net product is the alcohol, but the steps don’t happen at once.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -351,29 +362,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-2" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>For the changing carbon, use C–O bond order +1, C–H −1 and C–C 0. Predict the values for ethanol, ethanal and ethanoic acid.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-bond-accounting-as-a-check" class="slide level2">
-<h2>Use bond accounting as a check</h2>
+<section id="a-new-stereocentre-both-hands" class="slide level2">
+<h2>A new stereocentre, both hands</h2>
 
-<img data-src="figures/04-oxidation-count.svg" style="width:85.0%" alt="The changing carbon is assigned oxidation states minus one in ethanol, plus one in ethanal and plus three in ethanoic acid." class="r-stretch quarto-figure-center"><p class="caption">The changing carbon is assigned oxidation states minus one in ethanol, plus one in ethanal and plus three in ethanoic acid.</p><p>Assign C–O bond order +1 and C–H bond −1 to the carbon; C–C contributes zero. Oxidation raises the value.</p>
+<img data-src="figures/sk-racemic.svg" style="width:76.0%" alt="Hydride adds to either face of planar butan-2-one, giving (R)- and (S)-butan-2-ol in a 50:50 mixture" class="r-stretch quarto-figure-center"><p class="caption">Reduction of butan-2-one gives both enantiomers</p><p>The carbonyl is <strong>planar</strong>, so hydride can arrive from <strong>either face</strong> with equal ease. Butan-2-ol has a stereocentre, and an achiral reagent makes a <strong>racemic</strong> 50 : 50 mixture.</p>
+<div class="try">
+<p><strong>Try it:</strong> does the product solution rotate plane-polarised light?</p>
+<div class="fragment">
+<p><strong>No.</strong> Equal amounts of R and S cancel. A racemate is optically inactive even though each molecule is chiral.</p>
+</div>
+</div>
 <aside class="notes">
-<p>For an aldehyde carbon, C=O contributes plus two and C–H minus one, giving plus one. For a carboxylic acid the three C–O bond orders give plus three.</p>
+<p>Bridge to Week 2: the new carbon carries OH, H, CH3 and CH2CH3, four different groups, so it’s a stereocentre. NaBH4 is achiral and the two faces of butan-2-one are mirror images, so the rates are identical. Enzymes are different: the reductases in your cells and in baker’s yeast deliver NADH’s hydride to one face only, and give a single enantiomer. That’s why biocatalysis is used to make chiral drugs. Students sometimes assign the drawn wedge to R without checking; ask one of them to verify the R label with CIP priorities: OH &gt; ethyl &gt; methyl &gt; H.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -386,12 +386,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="do-not-compare-raw-amounts-only" class="slide level2">
-<h2>Do not compare raw amounts only</h2>
+<section id="nabh₄-has-a-scope" class="slide level2">
+<h2>NaBH₄ has a scope</h2>
 
-<img data-src="figures/14-stoichiometric-coefficients.svg" style="width:85.0%" alt="Do not compare raw amounts only" class="r-stretch quarto-figure-center"><p class="caption">Do not compare raw amounts only</p><p>For2A+B→P with 12 mmol A and8 mmol B, compare each allowable reaction extent.</p>
+<img data-src="figures/sk-scope.svg" style="width:78.0%" alt="NaBH4 reduces cyclohexanone, but not ethyl acetate or acetamide under ordinary conditions" class="r-stretch quarto-figure-center"><p class="caption">What NaBH₄ reduces</p><p>Esters and amides have a C=O too, but the <strong>O or N next to it</strong> donates electrons and makes the carbonyl less reactive. NaBH₄ reduces <strong>aldehydes and ketones</strong>; don’t stretch that rule to other carbonyl groups.</p>
 <aside class="notes">
-<p>At 2:1, A permits 6 mmol P and limits. At 1:1, B permits 8 mmol and limits. The balanced demand changes the denominator.</p>
+<p>Same skill as Day 1: read the neighbours of the carbonyl, not just the C=O. In esters and amides, the lone pair on O or N is shared with the carbonyl by resonance, which makes the carbonyl carbon less electrophilic. Under ordinary conditions NaBH4 leaves them alone. A stronger reagent, LiAlH4, does reduce esters and amides; we meet that, and the reasons behind the reactivity order, in acyl chemistry on Day 17. The practical lesson for exam answers: state the reagent and the functional group it acts on, and don’t assume one reagent does everything.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -404,12 +404,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="change-the-coefficient-mentally" class="slide level2">
-<h2>Change the coefficient mentally</h2>
+<section id="choose-the-direction-from-the-target" class="slide level2">
+<h2>Choose the direction from the target</h2>
 
-<img data-src="figures/14-stoichiometric-coefficients.svg" style="width:85.0%" alt="Do not compare raw amounts only" class="r-stretch quarto-figure-center"><p class="caption">Do not compare raw amounts only</p><p>If the balanced equation instead were A+B→P with the same amounts, which reagent would limit and why?</p>
+<img data-src="figures/sk-route.svg" style="width:74.0%" alt="Oxidation with PCC takes ethanol to ethanal; NaBH4 then water takes ethanal back to ethanol" class="r-stretch quarto-figure-center"><p class="caption">Ethanol and ethanal interconvert</p><p>Before naming a reagent, compare start and target: <strong>more C–O or fewer C–H</strong> means oxidation; <strong>more C–H</strong> means reduction. Then pick a reagent that does that and nothing else.</p>
 <aside class="notes">
-<p>At 2:1, A permits 6 mmol P and limits. At 1:1, B permits 8 mmol and limits. The balanced demand changes the denominator.</p>
+<p>This is the planning habit that synthesis questions in Week 5 rely on. Give a quick oral drill: ethanal to ethanol? Reduction, NaBH4 then water. Ethanol to ethanal? Oxidation, and it has to be controlled, like PCC, or you overshoot to the acid. Ethanal to ethanoic acid? Oxidation. The oxidation-state numbers under each structure are the check: going up is oxidation, going down is reduction. A frequent wrong answer is “oxidise ethanal to get ethanol” because students pattern-match “ethanol and oxidation” from earlier slides; make them say which bonds change.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -422,29 +422,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-3" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Draw simplified hydride-equivalent addition to propanone. What is the immediate oxygen charge before work-up?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="reduction-starts-with-delivery-of-a-hydride-equivalent" class="slide level2">
-<h2>Reduction starts with delivery of a hydride equivalent</h2>
+<section id="activating-oh-make-it-leave-as-water" class="slide level2">
+<h2>Activating OH: make it leave as water</h2>
 
-<img data-src="figures/05-hydride-addition.svg" style="width:85.0%" alt="A hydride-equivalent pair forms a C–H bond at a ketone while its carbonyl pi pair moves onto oxygen." class="r-stretch quarto-figure-center"><p class="caption">A hydride-equivalent pair forms a C–H bond at a ketone while its carbonyl pi pair moves onto oxygen.</p><p>A reagent such as NaBH₄ can reduce selected aldehydes and ketones. First draw the alkoxide.</p>
+<img data-src="figures/sk-activation.svg" style="width:78.0%" alt="Ethanol's oxygen lone pair takes a proton from hydronium, giving an ethyloxonium ion; water is a much better leaving group than hydroxide" class="r-stretch quarto-figure-center"><p class="caption">Protonation of ethanol by hydronium</p><p>OH⁻ is a <strong>strong base</strong>, so it’s a poor leaving group. <strong>Protonate</strong> the OH first, and the group that leaves is <strong>neutral water</strong>, a weak base.</p>
 <aside class="notes">
-<p>H: minus is a mechanistic shorthand for reagent delivery, not a bottle of free hydride in water. Full borate chemistry is outside the introductory scheme.</p>
+<p>This connects the last three days. On Day 3 we learned that the weaker the base, the better the leaving group: compare the conjugate acids, water at pKa about 15.7 versus hydronium at about −1.7. On Days 11 and 12 this protonated alcohol was the starting point for SN1 with HBr and for E1 dehydration with sulfuric acid. Which one happens depends on the substrate and the conditions, so don’t assume SN1 for every alcohol. Ask why we can’t just do SN2 on ethanol with bromide: the hydroxide would have to leave, and it won’t. The curved arrow starts at the oxygen lone pair, not at the H, a mistake we see every year.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -457,12 +440,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-a-theoretical-pure-product-maximum" class="slide level2">
-<h2>Use a theoretical pure-product maximum</h2>
+<section id="evidence-did-the-alcohol-really-oxidise" class="slide level2">
+<h2>Evidence: did the alcohol really oxidise?</h2>
 
-<img data-src="figures/15-yield-denominator.svg" style="width:85.0%" alt="Use a theoretical pure-product maximum" class="r-stretch quarto-figure-center"><p class="caption">Use a theoretical pure-product maximum</p><p>Compute the isolated mass percentage for 1.20 g relative to 1.8016 g. What assumptions enter the numerator?</p>
+<img data-src="figures/08-ir-redox.svg" style="width:66.0%" alt="Simulated offset IR traces: the alcohol shows a broad O–H band around 3200 to 3600 inverse centimetres, the carbonyl product a strong band near 1715" class="r-stretch quarto-figure-center"><p class="caption">Schematic IR traces before and after oxidation</p><p>A <strong>broad O–H band (3200–3600 cm⁻¹)</strong> that disappears and a <strong>strong C=O band (about 1715 cm⁻¹)</strong> that appears both support oxidation to a ketone.</p>
+<div class="try">
+<p><strong>Try it:</strong> after oxidising propan-2-ol, the IR shows C=O and no O–H. What’s still unproved?</p>
+<div class="fragment">
+<p><strong>Identity and purity.</strong> IR shows which groups are present, not which ketone, and not whether the sample is pure.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The apparent isolated mass yield is 66.6%. Identity and purity require additional evidence; the balance reading alone does not establish all of its mass is intended product.</p>
+<p>These are schematic traces, not real spectra. The logic is what counts: the IR tells you which functional groups are present. Losing the O–H and gaining the C=O is consistent with oxidation, but many ketones absorb near 1715, and a mixture with a little leftover alcohol might show only a weak O–H. Water in the sample also gives an O–H band, so a wet product can look as if the alcohol is still there. Full identification combines IR with NMR and other evidence, which is the topic of Week 5 (Days 21 and 22).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -475,12 +464,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="separate-yield-from-identity" class="slide level2">
-<h2>Separate yield from identity</h2>
+<section id="from-grams-to-the-limiting-reagent" class="slide level2">
+<h2>From grams to the limiting reagent</h2>
 
-<img data-src="figures/15-yield-denominator.svg" style="width:85.0%" alt="Use a theoretical pure-product maximum" class="r-stretch quarto-figure-center"><p class="caption">Use a theoretical pure-product maximum</p><p>Could the same mass include solvent or impurity? What independent evidence would you request?</p>
+<img data-src="figures/sk-aspirin-amounts.svg" style="width:74.0%" alt="Salicylic acid plus acetic anhydride gives aspirin; 1.3812 g salicylic acid is 10.00 mmol and 1.53135 g acetic anhydride is 15.00 mmol, so salicylic acid limits" class="r-stretch quarto-figure-center"><p class="caption">Amounts in the aspirin synthesis</p><p>Convert each mass to moles, <span class="math inline">n = m/M</span>, then compare <strong>n ÷ coefficient</strong>. The smallest value limits the product. Never compare grams directly.</p>
+<div class="try">
+<p><strong>Try it:</strong> for 2 A + B → P with 12 mmol A and 8 mmol B, which limits, and how much P?</p>
+<div class="fragment">
+<p><strong>A limits: 6 mmol P.</strong> A allows 12 ÷ 2 = 6, B allows 8 ÷ 1 = 8. The larger amount can still limit.</p>
+</div>
+</div>
 <aside class="notes">
-<p>The apparent isolated mass yield is 66.6%. Identity and purity require additional evidence; the balance reading alone does not establish all of its mass is intended product.</p>
+<p>We switch from redox to the lab report for your synthesis practical. The reaction is aspirin from salicylic acid and acetic anhydride (acetic acid is the by-product); all coefficients are one. Work the numbers aloud: 1.3812 / 138.12 = 0.01000 mol = 10.00 mmol; 1.53135 / 102.09 = 0.01500 mol = 15.00 mmol. In the R task you’ll do the same with mutate() on the amounts CSV and then take min() of the extents. The 2A + B example is there because students who only ever see 1:1 reactions compare raw amounts and get the wrong answer once a coefficient isn’t one.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -493,29 +488,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-4" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Use H₂O to protonate the alkoxide. Write the product made from the water instead of erasing its original O–H bond.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="an-alkoxide-still-needs-a-proton" class="slide level2">
-<h2>An alkoxide still needs a proton</h2>
+<section id="theoretical-mass-and-yield" class="slide level2">
+<h2>Theoretical mass and yield</h2>
 
-<img data-src="figures/06-workup.svg" style="width:85.0%" alt="A separate water proton-transfer step converts the alkoxide into a neutral alcohol." class="r-stretch quarto-figure-center"><p class="caption">A separate water proton-transfer step converts the alkoxide into a neutral alcohol.</p><p>Specify the proton donor. Add the conjugate base to conserve charge and H atoms.</p>
+<img data-src="figures/sk-yield.svg" style="width:68.0%" alt="Bar chart: theoretical maximum 1.8016 g, isolated dry product 1.20 g which is 66.6 percent, and a wet sample of 1.95 g which would be an impossible 108 percent" class="r-stretch quarto-figure-center"><p class="caption">Theoretical, isolated and wet masses</p><p>Theoretical mass = 10.00 mmol × 180.16 g/mol = <strong>1.8016 g</strong>. Isolated yield = 1.20 g ÷ 1.8016 g = <strong>66.6%</strong>.</p>
+<div class="try">
+<p><strong>Try it:</strong> a wet sample weighs 1.95 g. Is the yield 108%?</p>
+<div class="fragment">
+<p><strong>No.</strong> You can’t make more pure product than the stoichiometry allows. The extra mass is water, solvent or impurity, so dry the sample and check your inputs.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Discuss the order: carbonyl attack, alkoxide, proton transfer. The net alcohol product does not mean all events occur at once.</p>
+<p>Insist on unit conversion: 10.00 mmol is 0.01000 mol, and multiplying 10 by 180.16 gives a thousandfold error, which happens every year. The balance weighs everything in the vial, so a mass above the maximum is a measurement of your drying, not of your chemistry. The right response is to dry to constant mass, check for leftover solvent, and recheck the input masses and molar masses. A yield above 100% in a report should always trigger an explanation, never a celebration.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -528,12 +512,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="investigate-a-mass-above-the-maximum" class="slide level2">
-<h2>Investigate a mass above the maximum</h2>
-
-<img data-src="figures/16-wet-isolate.svg" style="width:85.0%" alt="Investigate a mass above the maximum" class="r-stretch quarto-figure-center"><p class="caption">Investigate a mass above the maximum</p><p>Compare a1.95 g wet sample with the 1.8016 g stoichiometric maximum. What assumption has failed?</p>
+<section id="conversion-yield-and-purity-answer-different-questions" class="slide level2">
+<h2>Conversion, yield and purity answer different questions</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>quantity</th>
+<th>question it answers</th>
+<th>measured by</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>conversion</strong></td>
+<td>how much starting material reacted?</td>
+<td>starting material left (e.g.&nbsp;TLC, NMR)</td>
+</tr>
+<tr class="even">
+<td><strong>isolated yield</strong></td>
+<td>how much product did I recover?</td>
+<td>product mass ÷ theoretical mass</td>
+</tr>
+<tr class="odd">
+<td><strong>purity</strong></td>
+<td>how much of my solid is the product?</td>
+<td>melting point, NMR, chromatography</td>
+</tr>
+</tbody>
+</table>
+<div class="try">
+<p><strong>Try it:</strong> all the starting material is gone, but the isolated yield is only 40%. Give two reasons.</p>
+<div class="fragment">
+<p><strong>Side reactions</strong> made other products, and <strong>losses</strong> during work-up, filtering or recrystallisation. Full conversion doesn’t mean full yield.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Residual solvent/water, contaminants or input errors can inflate mass. An apparent result over 100% is not evidence of making more pure product than stoichiometry permits.</p>
+<p>These three numbers are often confused in lab reports. One spot on a TLC plate under one set of conditions is consistent with a pure sample but doesn’t prove it; one IR band doesn’t identify a compound; one mass doesn’t establish purity. A good evidence statement separates what’s supported from what’s still open: “IR shows a carbonyl; TLC shows one spot; identity needs NMR; purity needs a melting point.” That sentence structure is exactly what exercise 20 asks for, and it comes back in the synthesis-evidence day in Week 5.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -546,12 +565,60 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="propose-a-concrete-corrective-check" class="slide level2">
-<h2>Propose a concrete corrective check</h2>
-
-<img data-src="figures/16-wet-isolate.svg" style="width:85.0%" alt="Investigate a mass above the maximum" class="r-stretch quarto-figure-center"><p class="caption">Investigate a mass above the maximum</p><p>Name checks on drying/sample composition and original input measurements before reporting yield.</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>classifying an alcohol by its number of carbons</td>
+<td>count <strong>C neighbours of the OH carbon</strong></td>
+</tr>
+<tr class="even">
+<td>secondary alcohol oxidised to an aldehyde</td>
+<td>the C=O stays <strong>where the OH was</strong></td>
+</tr>
+<tr class="odd">
+<td>(CH₃)₃C=O drawn from a tertiary alcohol</td>
+<td>no C–H means <strong>no simple oxidation</strong></td>
+</tr>
+<tr class="even">
+<td>“oxidation means adding O”</td>
+<td>look for <strong>lost C–H, gained C–O</strong></td>
+</tr>
+<tr class="odd">
+<td>C=O counted +1 in oxidation states</td>
+<td>a double bond counts <strong>twice</strong></td>
+</tr>
+<tr class="even">
+<td>“+ H⁺” written with no donor</td>
+<td>draw <strong>water and its OH⁻</strong></td>
+</tr>
+<tr class="odd">
+<td>NaBH₄ used on an ester</td>
+<td>it reduces <strong>aldehydes and ketones</strong></td>
+</tr>
+<tr class="even">
+<td>comparing grams to find the limit</td>
+<td>compare <strong>n ÷ coefficient</strong></td>
+</tr>
+<tr class="odd">
+<td>yield over 100% reported</td>
+<td><strong>dry and recheck</strong>, it’s not product</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Residual solvent/water, contaminants or input errors can inflate mass. An apparent result over 100% is not evidence of making more pure product than stoichiometry permits.</p>
+<p>Read out each mistake and ask the room why it’s wrong before revealing the fix. Every row matches one or more exercises: classification is exercise 1, the secondary and tertiary cases are 4 and 5, oxidation states are 6 and 7, the mechanism is 10 and 11, scope is 12, amounts and yield are 14 to 18.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -564,224 +631,57 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="predict-before-the-worked-drawing-5" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>Compare OH⁻ with water as a leaving group. What acid–base change can activate an alcohol?</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>alcohol class</td>
+<td>count C neighbours of the OH carbon</td>
+</tr>
+<tr class="even">
+<td>oxidation</td>
+<td>1° → aldehyde → acid; 2° → ketone; 3° no</td>
+</tr>
+<tr class="odd">
+<td>stop at aldehyde</td>
+<td>PCC, no water</td>
+</tr>
+<tr class="even">
+<td>oxidation state</td>
+<td>C–O +1, C–H −1, C–C 0</td>
+</tr>
+<tr class="odd">
+<td>NaBH₄ reduction</td>
+<td>H⁻ to C, alkoxide, then H⁺ from water</td>
+</tr>
+<tr class="even">
+<td>new stereocentre</td>
+<td>achiral reagent gives a racemate</td>
+</tr>
+<tr class="odd">
+<td>activating OH</td>
+<td>protonate, so water leaves</td>
+</tr>
+<tr class="even">
+<td>amounts</td>
+<td>n = m/M, compare n ÷ coefficient</td>
+</tr>
+<tr class="odd">
+<td>yield</td>
+<td>isolated ÷ theoretical; not purity</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> nucleophiles adding to C=O, the general version of today’s hydride step (Day 16). <strong>Practice:</strong> <a href="../alcohols-redox/exercise.html">exercises</a> · <a href="../alcohols-redox/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="alcohol-chemistry-often-begins-with-activation" class="slide level2">
-<h2>Alcohol chemistry often begins with activation</h2>
-
-<img data-src="figures/07-activate-oh.svg" style="width:85.0%" alt="An alcohol can be protonated to an oxonium species from which water is a better leaving group than hydroxide." class="r-stretch quarto-figure-center"><p class="caption">An alcohol can be protonated to an oxonium species from which water is a better leaving group than hydroxide.</p><p>OH⁻ is generally a poor leaving group. Protonation changes what can depart.</p>
-<aside class="notes">
-<p>Which reaction follows activation depends on substrate and conditions. Do not infer SN1 for every alcohol or ignore an elimination pathway.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="ask-which-denominator-belongs-to-each-claim" class="slide level2">
-<h2>Ask which denominator belongs to each claim</h2>
-
-<img data-src="figures/17-three-claims.svg" style="width:85.0%" alt="Ask which denominator belongs to each claim" class="r-stretch quarto-figure-center"><p class="caption">Ask which denominator belongs to each claim</p><p>Define conversion, isolated yield and purity using the quantities shown.</p>
-<aside class="notes">
-<p>Side reactions and isolation loss can reduce desired isolated product despite starting-material consumption. Purity concerns what fraction of the isolate is actually product.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="explain-one-realistic-mismatch" class="slide level2">
-<h2>Explain one realistic mismatch</h2>
-
-<img data-src="figures/17-three-claims.svg" style="width:85.0%" alt="Ask which denominator belongs to each claim" class="r-stretch quarto-figure-center"><p class="caption">Ask which denominator belongs to each claim</p><p>How could starting material disappear while isolated yield remains low?</p>
-<aside class="notes">
-<p>Side reactions and isolation loss can reduce desired isolated product despite starting-material consumption. Purity concerns what fraction of the isolate is actually product.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-6" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>A proposed oxidation sample loses broad alcohol O–H absorption and gains a strong carbonyl band. What is supported, and what is still unproved?</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-evidence-to-test-the-transformation" class="slide level2">
-<h2>Use evidence to test the transformation</h2>
-
-<img data-src="figures/08-ir-redox.svg" style="width:85.0%" alt="Simulated offset IR traces contrast a broad alcohol O–H region with a carbonyl absorption near 1720 inverse centimetres." class="r-stretch quarto-figure-center"><p class="caption">Simulated offset IR traces contrast a broad alcohol O–H region with a carbonyl absorption near 1720 inverse centimetres.</p><p>A new carbonyl band supports a functional-group change. A missing broad O–H band is useful but not a complete identification.</p>
-<aside class="notes">
-<p>These are synthetic schematic traces, not real spectra or a universal frequency reference. Water, concentration and overlapping bands can affect actual observations.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="choose-direction-from-the-desired-structure" class="slide level2">
-<h2>Choose direction from the desired structure</h2>
-
-<img data-src="figures/18-target-choice.svg" style="width:85.0%" alt="Choose direction from the desired structure" class="r-stretch quarto-figure-center"><p class="caption">Choose direction from the desired structure</p><p>Read the ethanol/ethanal map and choose the supplied reduction route when the target is ethanol.</p>
-<aside class="notes">
-<p>Different carbonyl classes differ in reactivity. Use only the stated selected reagent scope unless extra evidence and conditions are supplied.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="keep-the-scope-explicit" class="slide level2">
-<h2>Keep the scope explicit</h2>
-
-<img data-src="figures/18-target-choice.svg" style="width:85.0%" alt="Choose direction from the desired structure" class="r-stretch quarto-figure-center"><p class="caption">Choose direction from the desired structure</p><p>Why does the aldehyde/ketone rule not automatically justify reducing every ester or amide with the same reagent?</p>
-<aside class="notes">
-<p>Different carbonyl classes differ in reactivity. Use only the stated selected reagent scope unless extra evidence and conditions are supplied.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="choose-the-desired-functional-group-first" class="slide level2">
-<h2>Choose the desired functional group first</h2>
-
-<img data-src="figures/09-route-choice.svg" style="width:85.0%" alt="Ethanol to ethanal is an oxidation, while ethanal to ethanol can use NaBH4 followed by proton donation." class="r-stretch quarto-figure-center"><p class="caption">Ethanol to ethanal is an oxidation, while ethanal to ethanol can use NaBH4 followed by proton donation.</p><p>Say which bonds change, then justify a suitable transformation. Conditions must match the target and other functional groups.</p>
-<aside class="notes">
-<p>Reagent names are examples for reasoning, not laboratory instructions. Actual lab protocols require the approved departmental directions.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="predict-before-the-worked-drawing-7" class="slide level2">
-<h2>Predict before the worked drawing</h2>
-<p>A balanced 1:1 teaching reaction has10.0 mmol of one reagent and15.0 mmol of the other. Predict the limiting amount before using a balance or R.</p>
-<aside class="notes">
-<p>Allow about 25 seconds of individual drawing/thinking, then ask for one reason. Do not display the worked product yet. Use the following illustration to resolve the atom, charge or geometry issue.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="calculate-a-maximum-before-an-isolated-yield" class="slide level2">
-<h2>Calculate a maximum before an isolated yield</h2>
-
-<img data-src="figures/10-limiting-reagent.svg" style="width:85.0%" alt="A supplied one-to-one synthesis with 10 mmol acid and 15 mmol anhydride has a 10 mmol product maximum." class="r-stretch quarto-figure-center"><p class="caption">A supplied one-to-one synthesis with 10 mmol acid and 15 mmol anhydride has a 10 mmol product maximum.</p><p>Compare n/stoichiometric coefficient, not reagent masses. Use the balanced equation supplied for the actual experiment.</p>
-<aside class="notes">
-<p>This task prepares the synthesis report, using aspirin data rather than an alcohol-redox reaction. Make that context switch explicit; the calculation method transfers.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="a-reagent-has-a-scope" class="slide level2">
-<h2>A reagent has a scope</h2>
-<p>This course uses selected transformations. Predict aldehyde/ketone reduction by NaBH₄ under suitable conditions; do not silently extend that claim to ordinary esters or amides.</p>
-<p>Other functional groups and conditions can change the outcome.</p>
-</section>
-<section id="yield-conversion-and-purity-differ" class="slide level2">
-<h2>Yield, conversion and purity differ</h2>
-<p><strong>Isolated yield:</strong> isolated product amount / theoretical maximum.</p>
-<p><strong>Conversion:</strong> fraction of a starting material consumed.</p>
-<p><strong>Purity:</strong> fraction of the isolated material that is the desired substance.</p>
-<p>One number cannot establish all three.</p>
-</section>
-<section id="chemical-explanation-before-calculation" class="slide level2">
-<h2>Chemical explanation before calculation</h2>
-<p>For a secondary alcohol, predict the oxidation product and explain the local bond changes.</p>
-<p>For a balanced 1:1 synthesis with 10 and 15 mmol reagents, predict the limiting reagent before opening R.</p>
-</section>
-<section id="use-the-same-reasoning-in-practice" class="slide level2">
-<h2>Use the same reasoning in practice</h2>
-<p>Complete the <a href="../alcohols-redox/exercise.html">exercises</a>, then the <a href="../alcohols-redox/quiz.html">self-check</a>.</p>
-<p>Optional textbook support: selected Solomons chapter 11–12 sections. The <a href="../reference/reading.html">reading guide</a> explains the provisional book mapping.</p>
-<aside class="notes">
-<p>Session budget45 minutes:roughly27–29 minutes of concise explanations/visual inspection, about 11–13 minutes of individual drawing and predictions distributed through the sequence, and4–6 minutes of discussion/closing checks. Adjust to observed errors; the 40 second metadata is a planning guide, not a quota. Required paper practice and optional transfer are available in the exercise bank.</p>
+<p>Close the loop with the opening: ADH and ALDH are oxidations of a primary alcohol, first to the aldehyde and then to the acid (as acetate), and disulfiram stops the second one. You can now draw every step and assign the oxidation states. Recite the procedure once: find the carbinol carbon, classify it, decide the direction from the target, and check with oxidation states. Day 14 is a mechanism review and Day 15 practises redox, amounts and evidence. Then Day 16 generalises today’s hydride addition to other nucleophiles. The core exercises 1 to 12 are required; 13 to 20 and the R task are for the lab report.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

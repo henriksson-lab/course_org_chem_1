@@ -9,6 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-662ae1889177880cb371f83234c0a158.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.30">
 
+  <meta name="author" content="Organic Chemistry 1">
   <title>Organic Chemistry 1 – Stereochemistry: identity in three dimensions</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,23 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-e66638be781969258b7f0f190bba837b.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a994f251b0940cc1e320dc8eeaea57b8.css">
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,18 +144,31 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Stereochemistry: identity in three dimensions</h1>
-  <p class="subtitle">Week 2 · Connectivity, configuration and composition</p>
+  <p class="subtitle">Week 2 · Day 7 — why your nose can tell mirror images apart</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Organic Chemistry 1 
+</div>
+</div>
 </div>
 
 </section>
-<section id="what-should-you-be-able-to-explain" class="slide level2">
-<h2>What should you be able to explain?</h2>
-<p>Classify isomer relationships; justify simple R/S and E/Z; explain meso symmetry and ee.</p>
+<section id="about-this-lecture" class="slide level2">
+<h2>About this lecture</h2>
+<p>Spearmint and caraway (the seeds in rye bread) owe their smell to the same molecule, <strong>carvone</strong>. Same formula, same bonds, same boiling point. The only difference is that one is the <strong>mirror image</strong> of the other, and the smell receptors in your nose can tell.</p>
+<p>Today we learn to describe molecules in 3D:</p>
+<ul>
+<li><strong>Isomer types:</strong> constitutional, conformers, enantiomers, diastereomers</li>
+<li><strong>Stereocentres</strong> and how to name them <strong>R</strong> or <strong>S</strong></li>
+<li><strong>Fischer projections</strong> and the moves you may make with them</li>
+<li><strong>Two centres, meso compounds</strong> and <strong>E/Z</strong> alkenes</li>
+<li><strong>Mixtures:</strong> enantiomeric excess, and what R/S does <em>not</em> tell you</li>
+</ul>
+<p>Yesterday, anti and gauche butane turned into each other by rotation. Today’s isomers don’t.</p>
 <aside class="notes">
-<p>45-minute budget: connectivity and candidate centres5 min; mirror relationships/CIP ranking8 min with a60-second ranking attempt; Fischer depth and staged R/S10 min including a90-second drawing; E/Z6 min including a60-second test; meso/whole-molecule symmetry5 min; composition/ee6 min with a60-second calculation; rotation/biological-evidence limits3 min; exit2 min. Total45 min with all checks inside the session.</p>
-<p>Use the slide pace flexibly: concrete worked operations deserve more time than brief resolved checks. The intended outcome is an explainable chemical argument,not a slide count.</p>
+<p>Open with something students can smell: if you can, bring a pack of spearmint gum and a slice of rye bread. (R)-carvone smells of spearmint and (S)-carvone of caraway. Same atoms, same connectivity, same melting and boiling points; the only difference is handedness, and our olfactory receptors are themselves chiral proteins. That’s the theme of the day: a molecule’s 3D arrangement is part of its identity. Link to yesterday: conformers (anti/gauche, chair flips) interconvert by rotating single bonds, so they are one compound. Today’s stereoisomers can only be interconverted by breaking bonds. Ask the room: “Is your left hand a rotated version of your right?” Let them try to superimpose their hands.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -151,11 +181,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="bring-these-tools-into-the-room" class="slide level2">
-<h2>Bring these tools into the room</h2>
-<p>Name the bonded neighbours first. Use an explicit wedge/dash or projection convention before assigning a spatial descriptor.</p>
+<section id="four-ways-two-molecules-can-be-related" class="slide level2">
+<h2>Four ways two molecules can be related</h2>
+
+<img data-src="figures/sk-relationships.svg" style="width:72.0%" alt="Three columns: ethanol and dimethyl ether as constitutional isomers; (S)- and (R)-lactic acid as enantiomers; (Z)- and (E)-but-2-ene as diastereomers" class="r-stretch quarto-figure-center"><p class="caption">Constitutional isomers, enantiomers and diastereomers</p><p>Ask in order: <strong>same connectivity?</strong> If no, constitutional isomers. If yes, <strong>same by bond rotation?</strong> Then conformers (Day 6). If not, they’re stereoisomers: <strong>mirror images</strong> are enantiomers; the rest are <strong>diastereomers</strong>.</p>
 <aside class="notes">
-<p>Use a quick spoken diagnostic; do not spend an additional unscheduled revision block. Revisit a missing convention at its worked example.</p>
+<p>This is the decision tree for the whole lecture; come back to it at the end. Walk through the three questions in order. Constitutional isomers we met on Day 1 (ethanol and dimethyl ether). Conformers were yesterday’s topic and are not drawn here: anti and gauche butane are the same compound. Stereoisomers have the same connectivity but a different 3D arrangement that you can’t undo by rotating single bonds. Among stereoisomers, the mirror-image pairs are enantiomers and everything else is a diastereomer. Students often think “diastereomer” means something exotic. It just means “stereoisomer, not mirror image”, and E/Z alkenes are the simplest example.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -168,12 +199,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="classify-connectivity-before-spatial-relationships" class="slide level2">
-<h2>Classify connectivity before spatial relationships</h2>
+<section id="a-stereocentre-has-four-different-groups" class="slide level2">
+<h2>A stereocentre has four different groups</h2>
 
-<img data-src="figures/01-classification.svg" style="width:82.0%" alt="Classify connectivity before spatial relationships" class="r-stretch quarto-figure-center"><p class="caption">Classify connectivity before spatial relationships</p><p>Which pair differs in bonded neighbours, and which pair differs only by rotation?</p>
+<img data-src="figures/sk-stereocentre.svg" style="width:66.0%" alt="Propan-2-ol with its central carbon shaded, bearing H, OH and two CH3 groups; lactic acid with its central carbon shaded, bearing H, OH, CH3 and COOH" class="r-stretch quarto-figure-center"><p class="caption">Propan-2-ol and lactic acid</p><p>A tetrahedral carbon with <strong>four different groups</strong> is a stereocentre: its mirror image can’t be laid on top of it. Two identical groups, and the mirror image is the same molecule.</p>
+<div class="try">
+<p><strong>Try it:</strong> someone draws a wedge on one of the H atoms of a CH₂ group. Is that carbon now a stereocentre?</p>
+<div class="fragment">
+<p><strong>No.</strong> A wedge shows direction; it can’t make two H atoms different.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Build a model if you have a kit: a carbon with four different coloured balls, and its mirror image. Try to superimpose them; you can’t. Then replace one ball so two are the same colour, and the mirror image now matches. Compare full groups, not only the first atom: in lactic acid both CH3 and COOH start with carbon but are clearly different groups. The try-it targets a very common belief that drawing a wedge “creates” a stereocentre. The drawing describes geometry; whether the carbon is a stereocentre depends only on what’s attached.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -186,21 +223,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="test-four-substituents-rather-than-a-wedge" class="slide level2">
-<h2>Test four substituents rather than a wedge</h2>
+<section id="spotting-stereocentres-in-real-molecules" class="slide level2">
+<h2>Spotting stereocentres in real molecules</h2>
 
-<img data-src="figures/13-pace.svg" style="width:82.0%" alt="Test four substituents rather than a wedge" class="r-stretch quarto-figure-center"><p class="caption">Test four substituents rather than a wedge</p><p>Propan-2-ol has two identical methyl groups; lactic acid has four different groups at its alcohol carbon.</p>
-</section>
-<section id="state-what-a-complete-assignment-needs" class="slide level2">
-<h2>State what a complete assignment needs</h2>
-
-<img data-src="figures/30-pace.svg" style="width:82.0%" alt="State what a complete assignment needs" class="r-stretch quarto-figure-center"><p class="caption">State what a complete assignment needs</p><p>Identify four substituents, their priorities and a valid 3D representation before giving an R/S label.</p>
-</section>
-<section id="predict-wedge-drawn-on-a-ch₂-carbon" class="slide level2">
-<h2>Predict: wedge drawn on a CH₂ carbon</h2>
-<p>Does adding a wedge make a carbon bearing two H atoms a simple stereocentre?</p>
+<img data-src="figures/sk-find-centres.svg" style="width:70.0%" alt="Plain skeletal structures of glycine, alanine, glycerol and ibuprofen without stereo bonds" class="r-stretch quarto-figure-center"><p class="caption">Glycine, alanine, glycerol and ibuprofen</p><p>Check each sp³ carbon: does it carry <strong>four different</strong> groups? CH₂ and CH₃ carbons never do.</p>
+<div class="try">
+<p><strong>Try it:</strong> which of these four molecules have a stereocentre?</p>
+<div class="fragment">
+<p><strong>Alanine and ibuprofen</strong>, one each. Glycine’s carbon has two H; glycerol’s middle carbon carries two identical CH₂OH groups.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Give students 30 seconds. Teach the shortcut: skip every CH2, CH3, carbonyl carbon and alkene carbon, then look hard at what’s left. Glycerol is the trap: the middle carbon has H, OH and two CH2OH arms, and those arms are identical. Ibuprofen is sold as a racemic mixture of two enantiomers; only (S)-ibuprofen blocks the COX enzymes, and the body converts some of the (R) form into (S). Alanine is chiral like every amino acid except glycine; proteins use only the L forms, which is a good bridge to the Week 2 biology examples.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -213,11 +247,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-identical-groups-still-match" class="slide level2">
-<h2>Resolve: identical groups still match</h2>
-<p>A drawing convention cannot make two H substituents different. Four different substituents are required for this simple centre.</p>
+<section id="enantiomers-are-mirror-images" class="slide level2">
+<h2>Enantiomers are mirror images</h2>
+
+<img data-src="figures/sk-enantiomers.svg" style="width:80.0%" alt="(S)-lactic acid and its mirror image (R)-lactic acid either side of a dashed mirror line, each with H on a hashed bond" class="r-stretch quarto-figure-center"><p class="caption">(S)- and (R)-lactic acid</p><p><strong>Wedge</strong> = toward you, <strong>hash</strong> = away. Enantiomers have identical boiling points, solubilities and spectra. They differ only in a <strong>chiral</strong> setting: polarised light, an enzyme, a receptor.</p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Read the drawing out loud: OH and COOH in the plane, CH3 in the plane, H pointing back. The mirror flips left and right but keeps the H at the back. Your muscles make (S)-lactic acid (L-lactate) during hard exercise. Stress that the two enantiomers are not “two versions” chemically in a flask of achiral solvent: they boil, melt and dissolve identically, and you can’t separate them by distillation. That’s why the enzyme and receptor examples are so striking: biology is a chiral environment. Mention that swapping any two groups on a stereocentre gives the enantiomer; we’ll use that trick on Fischer projections.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -230,12 +265,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="find-the-candidate-stereocentre" class="slide level2">
-<h2>Find the candidate stereocentre</h2>
+<section id="naming-a-stereocentre-rank-by-atomic-number" class="slide level2">
+<h2>Naming a stereocentre: rank by atomic number</h2>
 
-<img data-src="figures/02-stereocentre.svg" style="width:82.0%" alt="Find the candidate stereocentre" class="r-stretch quarto-figure-center"><p class="caption">Find the candidate stereocentre</p><p>At lactic acid carbon, list OH, H, CH₃ and COOH without assigning priorities yet.</p>
+<img data-src="figures/sk-cip-rule1.svg" style="width:74.0%" alt="Bromochloromethanol with priorities Br 1, Cl 2, OH 3, H 4; 1-bromopropan-2-ol with priorities OH 1, CH2Br 2, CH3 3, H 4" class="r-stretch quarto-figure-center"><p class="caption">Priorities by atomic number</p><p><strong>Cahn–Ingold–Prelog (CIP) rule 1:</strong> rank the four groups by the <strong>atomic number of the atom attached</strong> to the stereocentre. Higher Z, higher priority. Size of the whole group doesn’t matter.</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>The names R and S come from a ranking system named after Cahn, Ingold and Prelog. Rule 1 looks only at the first atom of each group. Left: four different atoms, so it’s just a lookup of atomic numbers. Right: the deliberate trap. CH2Br contains bromine, but it’s attached through carbon, so it loses to OH, which is attached through oxygen. Ask: “What’s attached to the stereocentre?” and make students point at the atom. Many will want to rank CH2Br first because it “has Br in it”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -248,21 +283,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="apply-atomic-number-at-the-first-shell" class="slide level2">
-<h2>Apply atomic number at the first shell</h2>
+<section id="breaking-a-tie-go-out-one-atom" class="slide level2">
+<h2>Breaking a tie: go out one atom</h2>
 
-<img data-src="figures/14-pace.svg" style="width:82.0%" alt="Apply atomic number at the first shell" class="r-stretch quarto-figure-center"><p class="caption">Apply atomic number at the first shell</p><p>Br outranks Cl, O outranks N, and O outranks C. Total substituent size is not the first rule.</p>
-</section>
-<section id="resolve-the-two-carbon-tie" class="slide level2">
-<h2>Resolve the two-carbon tie</h2>
-
-<img data-src="figures/15-pace.svg" style="width:82.0%" alt="Resolve the two-carbon tie" class="r-stretch quarto-figure-center"><p class="caption">Resolve the two-carbon tie</p><p>The COOH carbon compares as O,O,O; the CH₃ carbon as H,H,H. The first difference gives COOH higher priority.</p>
-</section>
-<section id="predict-which-ranks-higher-oh-or-cooh" class="slide level2">
-<h2>Predict: which ranks higher, OH or COOH?</h2>
-<p>Compare the directly attached atoms, not the total number of O atoms in each group.</p>
+<img data-src="figures/sk-cip-ties.svg" style="width:64.0%" alt="Lactic acid with priorities OH 1, COOH 2, CH3 3, H 4; the COOH carbon carries O, O, O and the CH3 carbon H, H, H" class="r-stretch quarto-figure-center"><p class="caption">Lactic acid priorities</p><p>When two groups attach through the same atom, list <strong>what that atom carries</strong> and compare at the first difference. A <strong>double bond counts twice</strong>: C=O gives (O, O).</p>
+<div class="try">
+<p><strong>Try it:</strong> which ranks higher, –CH₂OH or –CH(CH₃)₂?</p>
+<div class="fragment">
+<p><strong>–CH₂OH.</strong> Its carbon carries (O, H, H); the other carries (C, C, H). Compare the highest first: O beats C.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>In lactic acid, COOH and CH3 both attach through carbon, so we tie at rule 1. Go one atom further out: list the three atoms on each carbon, sorted from highest to lowest, and compare position by position. COOH carbon: O, O (counted twice for the double bond), O. Methyl: H, H, H. O beats H immediately. The duplicate O is bookkeeping, not an extra real atom. The try-it catches students who count atoms: isopropyl has more carbons, but you compare the highest atom in each set first, and O beats C.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -275,11 +307,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-oh-outranks-cooh" class="slide level2">
-<h2>Resolve: OH outranks COOH</h2>
-<p>OH attaches through O; COOH attaches through C. Atomic number settles this comparison immediately.</p>
+<section id="r-or-s-look-with-priority-4-away-from-you" class="slide level2">
+<h2>R or S: look with priority 4 away from you</h2>
+
+<img data-src="figures/sk-rs-assign.svg" style="width:78.0%" alt="(S)-lactic acid with H hashed away and a red arrow running counterclockwise from OH (1) to COOH (2) to CH3 (3)" class="r-stretch quarto-figure-center"><p class="caption">Assigning (S)-lactic acid</p><p>With the lowest group pointing away, trace <strong>1 → 2 → 3</strong>. <strong>Clockwise = R</strong> (rectus), <strong>counterclockwise = S</strong> (sinister). This lactic acid is <strong>S</strong>.</p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Use the steering-wheel picture: hold the molecule so priority 4 points away from you like a steering column, then turn the wheel 1 to 2 to 3. Right turn is R, left turn is S. Do the trace live on the slide with your finger. Remind them that the arrow can skip past group 4; only 1, 2 and 3 matter. Then point back at the mirror image two slides ago: same procedure gives clockwise, so R. Every stereocentre in its enantiomer flips.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -292,12 +325,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="compare-the-mirror-related-molecules" class="slide level2">
-<h2>Compare the mirror-related molecules</h2>
+<section id="when-h-points-toward-you-reverse-it" class="slide level2">
+<h2>When H points toward you, reverse it</h2>
 
-<img data-src="figures/03-enantiomers.svg" style="width:82.0%" alt="Compare the mirror-related molecules" class="r-stretch quarto-figure-center"><p class="caption">Compare the mirror-related molecules</p><p>Their connectivity matches. Can their spatial arrangements be superimposed without changing the molecule?</p>
+<img data-src="figures/sk-h-forward.svg" style="width:80.0%" alt="(S)-lactic acid drawn with H hashed, read counterclockwise as S; the same molecule drawn with H wedged appears clockwise and is reversed to S" class="r-stretch quarto-figure-center"><p class="caption">The same molecule drawn twice</p><p>If priority 4 is on a <strong>wedge</strong>, trace 1 → 2 → 3 anyway and <strong>reverse</strong> the answer. Both drawings show the same (S)-lactic acid.</p>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>These two drawings are the same molecule viewed from opposite sides. Viewed from the front, the trace looks clockwise; but we’re looking at it from the wrong side, with H toward us, so the true answer is the opposite. Students who forget this get exactly the wrong answer, which is the worst kind of mistake because it looks confident. If priority 4 is in the plane, rotate the molecule in your head or swap two groups (which inverts), assign, and invert back. Encourage a quick model check whenever they’re unsure.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -310,26 +343,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="inspect-the-left-oh-fischer-drawing" class="slide level2">
-<h2>Inspect the left-OH Fischer drawing</h2>
+<section id="fischer-projections-a-cross-with-depth" class="slide level2">
+<h2>Fischer projections: a cross with depth</h2>
 
-<img data-src="figures/11-pace.svg" style="width:82.0%" alt="Inspect the left-OH Fischer drawing" class="r-stretch quarto-figure-center"><p class="caption">Inspect the left-OH Fischer drawing</p><p>COOH top, CH₃ bottom, OH left and H right is one defined configuration.</p>
-</section>
-<section id="enantiomers-are-nonsuperimposable-mirrors" class="slide level2">
-<h2>Enantiomers are nonsuperimposable mirrors</h2>
-
-<img data-src="figures/03-enantiomers.svg" style="width:82.0%" alt="Enantiomers are nonsuperimposable mirrors" class="r-stretch quarto-figure-center"><p class="caption">Enantiomers are nonsuperimposable mirrors</p><p>For this one-centre molecule, the two mirror configurations are an enantiomeric pair.</p>
-</section>
-<section id="inspect-the-right-oh-fischer-drawing" class="slide level2">
-<h2>Inspect the right-OH Fischer drawing</h2>
-
-<img data-src="figures/12-pace.svg" style="width:82.0%" alt="Inspect the right-OH Fischer drawing" class="r-stretch quarto-figure-center"><p class="caption">Inspect the right-OH Fischer drawing</p><p>Swapping OH and H gives the opposite configuration while retaining connectivity.</p>
-</section>
-<section id="predict-do-all-mirror-drawings-represent-different-molecules" class="slide level2">
-<h2>Predict: do all mirror drawings represent different molecules?</h2>
-<p>Consider a molecule with two identical substituents at the supposed centre.</p>
+<img data-src="figures/sk-fischer.svg" style="width:78.0%" alt="Fischer projection of lactic acid with COOH top, OH left, H right and CH3 bottom, next to the same molecule with horizontal wedges and vertical hashes" class="r-stretch quarto-figure-center"><p class="caption">Fischer projection and wedge drawing</p><p>A Fischer projection is shorthand for one specific 3D shape: <strong>horizontal bonds come toward you, vertical bonds go away</strong>. The centre of the cross is the stereocentre carbon.</p>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Fischer projections come from sugar and amino-acid chemistry, and you’ll see them again in biochemistry for D-glucose and L-amino acids. The cross is not a flat molecule. Make a “bow tie” with your arms: horizontal groups hug toward you, vertical groups lean back. Students who treat the cross as a flat drawing will rotate it freely and get the wrong answer, which is the next-but-one slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -342,11 +361,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-a-mirror-can-be-superimposable" class="slide level2">
-<h2>Resolve: a mirror can be superimposable</h2>
-<p>Achiral molecules can coincide with their mirror images. Test the full arrangement rather than declaring every mirror drawing an enantiomer.</p>
+<section id="reading-rs-straight-off-a-fischer-projection" class="slide level2">
+<h2>Reading R/S straight off a Fischer projection</h2>
+
+<img data-src="figures/sk-fischer-rs.svg" style="width:64.0%" alt="Fischer projection with OH 1 left, COOH 2 top, CH3 3 bottom and H 4 right; the trace looks clockwise but H is horizontal, so the centre is S" class="r-stretch quarto-figure-center"><p class="caption">Assigning R/S on a Fischer projection</p><p>If H is on a <strong>horizontal</strong> bond, it points toward you: trace and <strong>reverse</strong>. If H is <strong>vertical</strong>, read the trace directly.</p>
+<div class="try">
+<p><strong>Try it:</strong> swap OH and H in this projection. Which configuration do you get?</p>
+<div class="fragment">
+<p><strong>R.</strong> One swap of two groups inverts a stereocentre. That’s D-lactic acid, the enantiomer.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>This is the same reversal rule as the wedge drawing, applied to the convention. With H on the right, 1 (left) to 2 (top) to 3 (bottom) runs clockwise, H is toward us, so reverse: S. This is L-lactic acid, the muscle form. The try-it introduces the swap rule: exchanging any two groups gives the enantiomer. It’s also a handy trick to move H to a vertical position: swap, read, then reverse once more.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -359,21 +385,33 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-duplicate-atoms-as-comparison-bookkeeping" class="slide level2">
-<h2>Use duplicate atoms as comparison bookkeeping</h2>
+<section id="what-you-may-do-to-a-fischer-projection" class="slide level2">
+<h2>What you may do to a Fischer projection</h2>
 
-<img data-src="figures/15-pace.svg" style="width:82.0%" alt="Use duplicate atoms as comparison bookkeeping" class="r-stretch quarto-figure-center"><p class="caption">Use duplicate atoms as comparison bookkeeping</p><p>The C=O bond contributes duplicate O entries in the CIP comparison; it does not create extra real oxygen atoms.</p>
-</section>
-<section id="try-a-different-attached-atom-set" class="slide level2">
-<h2>Try a different attached-atom set</h2>
-
-<img data-src="figures/14-pace.svg" style="width:82.0%" alt="Try a different attached-atom set" class="r-stretch quarto-figure-center"><p class="caption">Try a different attached-atom set</p><p>For directly attached Br, Cl, C and H, priority follows decreasing atomic number.</p>
-</section>
-<section id="predict-does-the-largest-looking-group-always-win" class="slide level2">
-<h2>Predict: does the largest-looking group always win?</h2>
-<p>Compare a directly attached O with a carbon attached to several heavier neighbours.</p>
+<img data-src="figures/sk-fischer-moves.svg" style="width:74.0%" alt="Four Fischer projections: the starting (S) form; rotated 180 degrees, still S; rotated 90 degrees, now R; OH and H swapped, now R" class="r-stretch quarto-figure-center"><p class="caption">Rotating and swapping in a Fischer projection</p><table class="caption-top">
+<thead>
+<tr class="header">
+<th>move</th>
+<th>result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>rotate <strong>180°</strong> in the page</td>
+<td>same molecule</td>
+</tr>
+<tr class="even">
+<td>rotate <strong>90°</strong></td>
+<td>enantiomer (toward/away swap)</td>
+</tr>
+<tr class="odd">
+<td>swap <strong>two</strong> groups</td>
+<td>enantiomer</td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Why does 180 degrees work and 90 not? A 180-degree turn keeps horizontal groups horizontal, so they still point toward you. A 90-degree turn moves the toward-you groups into vertical positions, which the convention reads as away from you, and that inverts the centre. Two swaps cancel, so swapping twice gives back the same molecule. Practise one example together: ask a student to rotate the starting projection 180 degrees aloud, naming each new position, then confirm S. The figure labels were checked by building each projection as a 3D model.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -386,11 +424,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-start-at-the-attachment-atom" class="slide level2">
-<h2>Resolve: start at the attachment atom</h2>
-<p>An attached O outranks an attached C in this ordinary comparison, regardless of the drawn group size farther away.</p>
+<section id="two-stereocentres-up-to-four-stereoisomers" class="slide level2">
+<h2>Two stereocentres: up to four stereoisomers</h2>
+
+<img data-src="figures/sk-threonine.svg" style="width:64.0%" alt="The four stereoisomers of threonine: (2S,3R) and (2R,3S) as one enantiomer pair, (2S,3S) and (2R,3R) as another, with the pairs related as diastereomers" class="r-stretch quarto-figure-center"><p class="caption">The four stereoisomers of threonine</p><p>With <em>n</em> stereocentres there are at most <strong>2ⁿ</strong> stereoisomers. An enantiomer inverts <strong>every</strong> centre; change only <strong>some</strong> and you get a diastereomer.</p>
+<div class="try">
+<p><strong>Try it:</strong> how are (2R,3R)- and (2R,3S)-2-bromo-3-chlorobutane related?</p>
+<div class="fragment">
+<p><strong>Diastereomers.</strong> Only one centre changed, so they aren’t mirror images. (2S,3S) would be the enantiomer of (2R,3R).</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Threonine is an essential amino acid, and your proteins use exactly one of these four: (2S,3R), L-threonine. Its enantiomer and the two allothreonines are not used. Unlike enantiomers, diastereomers have different physical properties: different melting points, solubilities and NMR spectra, so they can be separated by ordinary methods. The quick test for the relationship: compare descriptors centre by centre. All flipped means enantiomer; some flipped means diastereomer; none flipped means the same compound.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -403,12 +448,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="use-the-fischer-depth-convention" class="slide level2">
-<h2>Use the Fischer depth convention</h2>
+<section id="meso-stereocentres-but-no-chirality" class="slide level2">
+<h2>Meso: stereocentres but no chirality</h2>
 
-<img data-src="figures/05-fischer-depth.svg" style="width:82.0%" alt="Use the Fischer depth convention" class="r-stretch quarto-figure-center"><p class="caption">Use the Fischer depth convention</p><p>Horizontal bonds point toward you; vertical bonds point away. Do not read this as an ordinary flat cross.</p>
+<img data-src="figures/sk-tartaric.svg" style="width:66.0%" alt="Fischer projections of (2R,3R)-, (2S,3S)- and meso-tartaric acid; the meso form has a dashed mirror plane between its two identical halves" class="r-stretch quarto-figure-center"><p class="caption">Tartaric acid stereoisomers</p><p>If the two halves are built the same, (R,S) can be its <strong>own</strong> mirror image. That’s a <strong>meso</strong> compound: achiral, so tartaric acid has only <strong>three</strong> stereoisomers, not four.</p>
+<div class="try">
+<p><strong>Try it:</strong> is (2R,3S)-2-bromo-3-chlorobutane meso?</p>
+<div class="fragment">
+<p><strong>No.</strong> The ends differ (Br vs Cl), so no internal mirror plane exists. It’s chiral.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>Tartaric acid from grapes is the (2R,3R) form; Pasteur’s famous crystal-sorting experiment in 1848 was on tartrate salts. In the meso Fischer projection, both OH groups are on the same side, and a horizontal mirror plane maps the top half onto the bottom half. The descriptors are R at one centre and S at the other, because a mirror inverts. The key point: opposite descriptors are necessary but not sufficient for meso. You also need two identically substituted halves, as the try-it shows. Ask a student to rotate the meso drawing 180 degrees in the page and confirm it gives the same drawing.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -421,21 +472,12 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="rotate-the-fischer-drawing-by-180" class="slide level2">
-<h2>Rotate the Fischer drawing by 180°</h2>
+<section id="e-and-z-stereoisomers-at-a-double-bond" class="slide level2">
+<h2>E and Z: stereoisomers at a double bond</h2>
 
-<img data-src="figures/16-pace.svg" style="width:82.0%" alt="Rotate the Fischer drawing by 180°" class="r-stretch quarto-figure-center"><p class="caption">Rotate the Fischer drawing by 180°</p><p>Both the positions and group labels move. The example preserves the same S configuration.</p>
-</section>
-<section id="exchange-exactly-one-pair" class="slide level2">
-<h2>Exchange exactly one pair</h2>
-
-<img data-src="figures/17-pace.svg" style="width:82.0%" alt="Exchange exactly one pair" class="r-stretch quarto-figure-center"><p class="caption">Exchange exactly one pair</p><p>Swapping H and OH alone inverts this centre. Keep the other two groups fixed while checking.</p>
-</section>
-<section id="predict-safe-to-rotate-a-fischer-by-90" class="slide level2">
-<h2>Predict: safe to rotate a Fischer by 90°?</h2>
-<p>A quarter-turn on the page would exchange which bonds the convention treats as toward and away.</p>
+<img data-src="figures/sk-but-2-ene.svg" style="width:76.0%" alt="(Z)-but-2-ene with both methyl groups shaded on the same side; (E)-but-2-ene with the methyl groups on opposite sides" class="r-stretch quarto-figure-center"><p class="caption">(Z)- and (E)-but-2-ene</p><p>A C=C can’t rotate, so the groups are fixed. Rank the two groups <strong>at each end separately</strong> with CIP rules. Higher priorities on the <strong>same side = Z</strong>, <strong>opposite = E</strong>.</p>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Contrast with yesterday: a single bond rotates freely, so anti and gauche are conformers. Rotating around a double bond would break the pi bond, so (Z)- and (E)-but-2-ene are separate compounds with different boiling points, and they’re diastereomers (stereoisomers, not mirror images). For but-2-ene, E/Z matches the older cis/trans names, but E/Z works for any substitution pattern. Biology tie-in: natural fatty acids such as oleic acid have Z double bonds; “trans fats” have E double bonds, which pack differently and behave differently in the body.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -448,11 +490,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-not-an-identity-operation" class="slide level2">
-<h2>Resolve: not an identity operation</h2>
-<p>A 90° Fischer rotation changes its implied configuration. Use a valid 3D transformation rather than page rotation alone.</p>
+<section id="does-this-alkene-have-e-and-z-forms" class="slide level2">
+<h2>Does this alkene have E and Z forms?</h2>
+
+<img data-src="figures/sk-ez-test.svg" style="width:70.0%" alt="Propene and 2-methylbut-2-ene each have two identical groups on one alkene carbon, so no E/Z; (E)-3-methylpent-2-ene has ethyl above methyl at one end" class="r-stretch quarto-figure-center"><p class="caption">Testing alkenes for E/Z</p><p>Each alkene carbon needs <strong>two different groups</strong>. One identical pair at either end, and E/Z doesn’t apply.</p>
+<div class="try">
+<p><strong>Try it:</strong> can pent-2-ene, CH₃CH=CHCH₂CH₃, exist as E and Z forms?</p>
+<div class="fragment">
+<p><strong>Yes.</strong> Each alkene carbon carries one H and one carbon group, so both ends pass the test.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Do the test before any ranking. Propene fails because its terminal carbon has two H; 2-methylbut-2-ene fails because one carbon has two methyls. On the right, both ends pass, and the ranking matters: at C3, ethyl beats methyl at the second atom out (C,H,H versus H,H,H), and ethyl is opposite to the methyl on C2, so it’s E. This is the same tie-breaking we used for lactic acid, applied to an alkene.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -465,21 +514,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="trace-the-s-example-in-stages" class="slide level2">
-<h2>Trace the S example in stages</h2>
+<section id="rs-is-not-the-sign-of-rotation" class="slide level2">
+<h2>R/S is not the sign of rotation</h2>
 
-<img data-src="figures/11-pace.svg" style="width:82.0%" alt="Trace the S example in stages" class="r-stretch quarto-figure-center"><p class="caption">Trace the S example in stages</p><p>With OH left, COOH top and CH₃ bottom, 1→2→3 appears clockwise.</p>
-</section>
-<section id="reverse-when-group-four-points-forward" class="slide level2">
-<h2>Reverse when group four points forward</h2>
-
-<img data-src="figures/06-rs-worked.svg" style="width:82.0%" alt="Reverse when group four points forward" class="r-stretch quarto-figure-center"><p class="caption">Reverse when group four points forward</p><p>In this Fischer H is horizontal, so toward the viewer. Invert the apparent clockwise result to S.</p>
-</section>
-<section id="predict-clockwise-with-group-four-away" class="slide level2">
-<h2>Predict: clockwise with group four away</h2>
-<p>If a valid representation puts priority four behind the page, what does clockwise 1→2→3 mean?</p>
+<img data-src="figures/sk-carvone.svg" style="width:62.0%" alt="(R)-(−)-carvone, which smells of spearmint, and its mirror image (S)-(+)-carvone, which smells of caraway" class="r-stretch quarto-figure-center"><p class="caption">(R)- and (S)-carvone</p><p>Enantiomers rotate plane-polarised light by <strong>equal and opposite</strong> angles: (+) or (−). That sign is <strong>measured</strong>, while R/S is <strong>assigned</strong> from a drawing. No rule connects them: (R)-carvone is (−).</p>
+<div class="try">
+<p><strong>Try it:</strong> (R)-carvone rotates light to the left, (−). What does (S)-carvone do?</p>
+<div class="fragment">
+<p><strong>Rotates it to the right, (+), by the same angle.</strong> That’s an experimental fact about this pair, not something R or S predicts.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Back to the opening hook. The two carvones have identical boiling points and IR spectra; a polarimeter shows the only physical difference you can measure in an achiral setting: equal and opposite rotation. Stress the independence of the two labels: you can find R compounds that are (+) and R compounds that are (−). Also, the size and even the sign of rotation depend on solvent, concentration, temperature and wavelength, so a rotation value always needs its conditions. The smell difference comes from chiral receptors, which leads to the next slide.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -492,11 +538,47 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-that-orientation-gives-r" class="slide level2">
-<h2>Resolve: that orientation gives R</h2>
-<p>Clockwise gives R only with group four away; counterclockwise then gives S. State the viewing condition.</p>
+<section id="chiral-environments-tell-enantiomers-apart" class="slide level2">
+<h2>Chiral environments tell enantiomers apart</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>property</th>
+<th>enantiomers</th>
+<th>diastereomers</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>boiling point, solubility, IR</td>
+<td><strong>identical</strong></td>
+<td>different</td>
+</tr>
+<tr class="even">
+<td>optical rotation</td>
+<td><strong>equal and opposite</strong></td>
+<td>unrelated</td>
+</tr>
+<tr class="odd">
+<td>reaction with an enzyme or receptor</td>
+<td>often <strong>different</strong></td>
+<td>different</td>
+</tr>
+<tr class="even">
+<td>separated by distillation?</td>
+<td><strong>no</strong></td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<p>A receptor is a chiral “glove”: only one hand fits well. Which enantiomer works better must be <strong>measured</strong>; R/S can’t predict it.</p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<p>Use the hand-in-glove analogy: your two hands are identical in mass and shape, but only one fits a right glove. Enzymes and receptors are made of L-amino acids, so they’re chiral gloves. Examples: (S)-ibuprofen is the active painkiller; the carvones smell different; thalidomide is often quoted, but warn that its enantiomers interconvert in the body, so giving a single enantiomer would not have prevented the harm. The point for the exam: never claim that “R is the active form” or “S is toxic” as a rule. That requires biological data for each compound.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -509,12 +591,18 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="check-both-ends-of-the-double-bond" class="slide level2">
-<h2>Check both ends of the double bond</h2>
+<section id="enantiomeric-excess-how-lopsided-is-a-mixture" class="slide level2">
+<h2>Enantiomeric excess: how lopsided is a mixture?</h2>
 
-<img data-src="figures/07-ez-alkenes.svg" style="width:82.0%" alt="Check both ends of the double bond" class="r-stretch quarto-figure-center"><p class="caption">Check both ends of the double bond</p><p>E/Z requires two different substituents at each alkene carbon before priorities are compared.</p>
+<img data-src="figures/sk-ee-bars.svg" style="width:60.0%" alt="Bars for 50:50, 70:30 and 95:5 R:S mixtures: 0, 40 and 90 percent enantiomeric excess, with the matched R/S part shown as racemic" class="r-stretch quarto-figure-center"><p class="caption">Enantiomeric excess as bars</p><p><span class="math display">\text{ee} = |\,\%R - \%S\,| \qquad 70{:}30 \rightarrow 40\%\ \text{ee, not } 70\%</span></p>
+<div class="try">
+<p><strong>Try it:</strong> a sample has 80% ee in favour of R. What are %R and %S?</p>
+<div class="fragment">
+<p><strong>90% R, 10% S.</strong> Solve R + S = 100 and R − S = 80, so 2R = 180.</p>
+</div>
+</div>
 <aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<p>A 50:50 mixture is racemic: its rotations cancel and ee is zero. Pair each S molecule with one R molecule; those pairs behave like a racemate, and the leftover R is the excess. So 70:30 is 40% ee, and the major enantiomer is 70%, not 40%. Drug companies report ee for every single-enantiomer drug. Today’s R exercise computes ee from a small data table. Caution: ee says nothing about other impurities such as solvent or water; a 95:5 sample (90% ee) can still be chemically impure.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -527,26 +615,56 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="assign-higher-priority-groups-together" class="slide level2">
-<h2>Assign higher-priority groups together</h2>
-
-<img data-src="figures/18-pace.svg" style="width:82.0%" alt="Assign higher-priority groups together" class="r-stretch quarto-figure-center"><p class="caption">Assign higher-priority groups together</p><p>In but-2-ene, methyl outranks H at both ends. Same-side methyl groups give Z.</p>
-</section>
-<section id="the-relevant-arrangement-is-configurational" class="slide level2">
-<h2>The relevant arrangement is configurational</h2>
-
-<img data-src="figures/07-ez-alkenes.svg" style="width:82.0%" alt="The relevant arrangement is configurational" class="r-stretch quarto-figure-center"><p class="caption">The relevant arrangement is configurational</p><p>Ordinary rotation around an intact C=C is restricted; E/Z is not an anti/gauche conformer label.</p>
-</section>
-<section id="assign-higher-priority-groups-opposite" class="slide level2">
-<h2>Assign higher-priority groups opposite</h2>
-
-<img data-src="figures/19-pace.svg" style="width:82.0%" alt="Assign higher-priority groups opposite" class="r-stretch quarto-figure-center"><p class="caption">Assign higher-priority groups opposite</p><p>Opposite methyl groups give E-but-2-ene. Each end is ranked independently.</p>
-</section>
-<section id="predict-can-ch₂chch₃-be-e-or-z" class="slide level2">
-<h2>Predict: can CH₂=CHCH₃ be E or Z?</h2>
-<p>Inspect the two substituents attached to the terminal double-bond carbon.</p>
+<section id="mistakes-we-see-every-year" class="slide level2">
+<h2>Mistakes we see every year</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>mistake</th>
+<th>fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>a wedge on a CH₂ “makes” a stereocentre</td>
+<td>check for <strong>four different groups</strong></td>
+</tr>
+<tr class="even">
+<td>ranking by size of the whole group</td>
+<td>compare the <strong>attached atom</strong> first</td>
+</tr>
+<tr class="odd">
+<td>forgetting to reverse when H is on a wedge</td>
+<td>H toward you: <strong>reverse</strong></td>
+</tr>
+<tr class="even">
+<td>rotating a Fischer projection by 90°</td>
+<td>only <strong>180°</strong> keeps the molecule</td>
+</tr>
+<tr class="odd">
+<td>calling every (R,S) compound meso</td>
+<td>the two halves must be <strong>identical</strong></td>
+</tr>
+<tr class="even">
+<td>assigning E/Z to propene</td>
+<td>each end needs <strong>two different</strong> groups</td>
+</tr>
+<tr class="odd">
+<td>“R means (+)”</td>
+<td>rotation is <strong>measured</strong>, not predicted</td>
+</tr>
+<tr class="even">
+<td>70% R reported as 70% ee</td>
+<td>ee = <strong>70 − 30 = 40%</strong></td>
+</tr>
+</tbody>
+</table>
 <aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<p>Read each mistake aloud and ask the room why it’s wrong before revealing the fix. The reversal error and the 90-degree Fischer rotation are the two most common exam errors on this topic, and both give a confident wrong answer. Each row maps onto at least one exercise, so students can find the matching problem to redo.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -559,251 +677,57 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="resolve-propene-fails-the-two-different-groups-test" class="slide level2">
-<h2>Resolve: propene fails the two-different-groups test</h2>
-<p>The terminal carbon has H and H. No E/Z descriptor applies to that double bond.</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>concept</th>
+<th>key fact</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>stereoisomers</td>
+<td>same connectivity, different 3D arrangement</td>
+</tr>
+<tr class="even">
+<td>stereocentre</td>
+<td>four <strong>different</strong> groups</td>
+</tr>
+<tr class="odd">
+<td>CIP priority</td>
+<td>atomic number, then first difference outward</td>
+</tr>
+<tr class="even">
+<td>R / S</td>
+<td>priority 4 away: clockwise R, counterclockwise S</td>
+</tr>
+<tr class="odd">
+<td>Fischer</td>
+<td>horizontal toward, vertical away; 180° only</td>
+</tr>
+<tr class="even">
+<td>enantiomer / diastereomer</td>
+<td>all centres flipped / some flipped</td>
+</tr>
+<tr class="odd">
+<td>meso</td>
+<td>stereocentres + mirror plane = achiral</td>
+</tr>
+<tr class="even">
+<td>E / Z</td>
+<td>high priorities same side Z, opposite E</td>
+</tr>
+<tr class="odd">
+<td>ee</td>
+<td>|%R − %S|; not linked to (+)/(−)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Next:</strong> curved arrows and how electrons move in reactions (Day 8). <strong>Practice:</strong> <a href="../stereochemistry/exercise.html">exercises</a> · <a href="../stereochemistry/quiz.html">self-check</a></p>
 <aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="look-beyond-individual-centres" class="slide level2">
-<h2>Look beyond individual centres</h2>
-
-<img data-src="figures/08-meso.svg" style="width:82.0%" alt="Look beyond individual centres" class="r-stretch quarto-figure-center"><p class="caption">Look beyond individual centres</p><p>The meso example has stereocentres yet its overall molecule is achiral.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="mirror-every-centre-in-an-unsymmetrical-framework" class="slide level2">
-<h2>Mirror every centre in an unsymmetrical framework</h2>
-
-<img data-src="figures/21-pace.svg" style="width:82.0%" alt="Mirror every centre in an unsymmetrical framework" class="r-stretch quarto-figure-center"><p class="caption">Mirror every centre in an unsymmetrical framework</p><p>A generic (R,R) mirror is (S,S). Symmetry must be checked before counting distinct species.</p>
-</section>
-<section id="a-meso-relationship-needs-complete-symmetry" class="slide level2">
-<h2>A meso relationship needs complete symmetry</h2>
-
-<img data-src="figures/08-meso.svg" style="width:82.0%" alt="A meso relationship needs complete symmetry" class="r-stretch quarto-figure-center"><p class="caption">A meso relationship needs complete symmetry</p><p>Opposite descriptors alone do not establish a meso compound. The connected groups must permit the relevant superimposition.</p>
-</section>
-<section id="inspect-equivalent-tartaric-acid-halves" class="slide level2">
-<h2>Inspect equivalent tartaric-acid halves</h2>
-
-<img data-src="figures/23-pace.svg" style="width:82.0%" alt="Inspect equivalent tartaric-acid halves" class="r-stretch quarto-figure-center"><p class="caption">Inspect equivalent tartaric-acid halves</p><p>The displayed COOH-terminated Fischer has an internal symmetry relationship and is meso.</p>
-</section>
-<section id="predict-is-every-rs-molecule-meso" class="slide level2">
-<h2>Predict: is every R,S molecule meso?</h2>
-<p>What if its two ends or substituents differ, so the halves cannot be exchanged by symmetry?</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-descriptors-alone-are-insufficient" class="slide level2">
-<h2>Resolve: descriptors alone are insufficient</h2>
-<p>An unsymmetrical R,S molecule can be chiral. Evaluate the full structure and its relationship to its mirror.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-composition-before-excess" class="slide level2">
-<h2>Read composition before excess</h2>
-
-<img data-src="figures/09-enantiomeric-excess.svg" style="width:82.0%" alt="Read composition before excess" class="r-stretch quarto-figure-center"><p class="caption">Read composition before excess</p><p>Seven R and three S species represent 70% R, not 70% ee.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="use-a-racemic-baseline" class="slide level2">
-<h2>Use a racemic baseline</h2>
-
-<img data-src="figures/24-pace.svg" style="width:82.0%" alt="Use a racemic baseline" class="r-stretch quarto-figure-center"><p class="caption">Use a racemic baseline</p><p>Equal 50/50 populations have zero ee. There is no major enantiomer.</p>
-</section>
-<section id="subtract-the-two-percentages" class="slide level2">
-<h2>Subtract the two percentages</h2>
-
-<img data-src="figures/09-enantiomeric-excess.svg" style="width:82.0%" alt="Subtract the two percentages" class="r-stretch quarto-figure-center"><p class="caption">Subtract the two percentages</p><p>For 70/30, the excess is 40 percentage points in favour of R; the rest can be viewed as a racemic portion.</p>
-</section>
-<section id="translate-7030-into-a-bar" class="slide level2">
-<h2>Translate 70/30 into a bar</h2>
-
-<img data-src="figures/25-pace.svg" style="width:82.0%" alt="Translate 70/30 into a bar" class="r-stretch quarto-figure-center"><p class="caption">Translate 70/30 into a bar</p><p>The full bar is 100% composition; the difference between the R and S portions gives ee.</p>
-</section>
-<section id="predict-80-ee-in-favour-of-r" class="slide level2">
-<h2>Predict: 80% ee in favour of R</h2>
-<p>Solve R+S=100 and R−S=80 before consulting the answer.</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-90-r-and-10-s" class="slide level2">
-<h2>Resolve: 90% R and 10% S</h2>
-<p>Add the equations to obtain 2R=180. An ee value is not the same as the major-enantiomer percentage.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="separate-configuration-from-a-measurement" class="slide level2">
-<h2>Separate configuration from a measurement</h2>
-
-<img data-src="figures/10-rotation-vs-configuration.svg" style="width:82.0%" alt="Separate configuration from a measurement" class="r-stretch quarto-figure-center"><p class="caption">Separate configuration from a measurement</p><p>R/S describes geometry under a priority convention; (+)/(−) describes measured optical rotation.</p>
-<aside class="notes">
-<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="read-the-two-labels-independently" class="slide level2">
-<h2>Read the two labels independently</h2>
-
-<img data-src="figures/28-pace.svg" style="width:82.0%" alt="Read the two labels independently" class="r-stretch quarto-figure-center"><p class="caption">Read the two labels independently</p><p>There is no general rule that R means (+), or S means (−). The rotation also depends on specified conditions.</p>
-</section>
-<section id="chiral-recognition-needs-evidence" class="slide level2">
-<h2>Chiral recognition needs evidence</h2>
-
-<img data-src="figures/10-rotation-vs-configuration.svg" style="width:82.0%" alt="Chiral recognition needs evidence" class="r-stretch quarto-figure-center"><p class="caption">Chiral recognition needs evidence</p><p>Enantiomers can interact differently with a chiral receptor. The R/S label does not predict which has the larger effect.</p>
-</section>
-<section id="keep-the-comparison-conditions-stated" class="slide level2">
-<h2>Keep the comparison conditions stated</h2>
-
-<img data-src="figures/29-pace.svg" style="width:82.0%" alt="Keep the comparison conditions stated" class="r-stretch quarto-figure-center"><p class="caption">Keep the comparison conditions stated</p><p>Enantiomers share ordinary properties in an achiral environment but can differ in a chiral one; an actual effect requires data.</p>
-</section>
-<section id="predict-can-ee-prove-chemical-purity" class="slide level2">
-<h2>Predict: can ee prove chemical purity?</h2>
-<p>A sample is 95:5 R:S among its measured enantiomeric components. Could other contaminants still be present?</p>
-<aside class="notes">
-<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="resolve-composition-is-not-total-purity" class="slide level2">
-<h2>Resolve: composition is not total purity</h2>
-<p>Enantiomeric composition answers a restricted question. Other molecules, water or solvent are not excluded by the 95:5 ratio.</p>
-<aside class="notes">
-<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="combine-the-tools-in-one-explanation" class="slide level2">
-<h2>Combine the tools in one explanation</h2>
-<p>Compare lactic-acid configurations and a two-enantiomer mixture without inferring optical-rotation sign or biological effect.</p>
-<aside class="notes">
-<p>Take a 30-second sketch or explanation, then ask for one observation and the reason linking it to the conclusion. This is included in the 45-minute session.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="your-next-independent-work" class="slide level2">
-<h2>Your next independent work</h2>
-<p>Use the <a href="../stereochemistry/exercise.html">exercises</a>, then the <a href="../stereochemistry/quiz.html">self-check</a>. Required core problems and optional transfer work are labelled separately.</p>
-</section>
-<section id="one-sentence-exit-explanation" class="slide level2">
-<h2>One-sentence exit explanation</h2>
-<p>Write one chemical claim, the feature that supports it and one limit of the inference.</p>
-<p>The <a href="../reference/reading.html">reading guide</a> offers supplementary explanations.</p>
-<aside class="notes">
-<p>Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.</p>
+<p>Recite the workflow once: is it a stereocentre? Rank the groups. Put 4 at the back. Trace and, if needed, reverse. Then go back to the decision tree on slide two and classify the opening pair: the two carvones are enantiomers, identical except in a chiral environment like your nose. Tomorrow we start mechanisms with curved arrows; stereochemistry returns in Week 3, when we ask whether a reaction keeps, inverts or scrambles a stereocentre. The exercises’ core problems are required; the transfer problems are optional.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
