@@ -30,10 +30,34 @@ course syllabus specifies the approved outcomes and examination rules.
 | 4 | Carbonyl addition; acyl chemistry; amines/aromatics | Stepwise mechanisms, ester/amide comparisons and a TLC evidence table |
 | 5 | Spectroscopy; synthesis/evidence; integration | Structure puzzles, a short synthetic route and a report linking claims to evidence |
 
-Plan substantial time for drawing and independent problem solving. Three short
+Each lecture is planned for **45 minutes**, including drawing, prediction and
+checking pauses. Slide counts vary with the chemistry. Some steps are quick;
+worked mechanisms and spatial reasoning deserve longer. Use the pauses to
+construct an answer, rather than watching the finished drawing appear.
+
+Each study day has an [interactive chemistry exploration](demos/index.qmd),
+linked directly in the left menu. Predict a change, try the controls and explain
+the result. Use these short activities within a worked-example block or as
+independent practice; they do not add an extra lesson to the timetable.
+
+Plan substantial time for drawing and independent problem solving. Three
 lecture units per week leave room for tutorials, practical work and revision.
 The eight R activities occupy about five hours plus time to assemble reports
 and recover from mistakes; they form a small part of the overall chemistry work.
+
+## A textbook-independent practice route
+
+Use the [25-day chemistry practice route](practice/index.qmd). Each lecture
+unit supplies at least 20 non-R paper problems, with separate hints and worked
+explanations; each of the ten consolidation days has at least 12 mixed problems.
+That is at least **420 paper chemistry problems**, with additional self-checks
+and the short R tasks. Core, transfer and challenge routes let you practise
+at a realistic pace and return for revision.
+
+The local explanations, worked examples, definitions and supplied data are
+sufficient for these exercises. You do not need the textbook to look up an
+unseen structure, figure, constant or question. The reading guide offers
+optional supplementary explanations.
 
 ## Check your understanding
 

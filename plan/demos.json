@@ -1,0 +1,227 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "title": "Molecules and hidden hydrogens",
+    "purpose": "Inspect atom counts and connectivity",
+    "href": "demos/day01.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day01"
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "title": "Interactions and properties",
+    "purpose": "Compare donors, acceptors and molecular properties",
+    "href": "demos/day02.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day02"
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "title": "Aqueous ionisation",
+    "purpose": "Change pH and pKa and inspect the population",
+    "href": "demos/day03.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day03"
+  },
+  {
+    "day": 4,
+    "week": 1,
+    "title": "Functional-group inspector",
+    "purpose": "Find groups in molecules with more than one feature",
+    "href": "demos/day04.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day04"
+  },
+  {
+    "day": 5,
+    "week": 1,
+    "title": "Ionisation and extraction",
+    "purpose": "Supply the additional partition information explicitly",
+    "href": "demos/day05.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day05"
+  },
+  {
+    "day": 6,
+    "week": 2,
+    "title": "Rotate a Newman projection",
+    "purpose": "Relate a changing dihedral to a conformational view",
+    "href": "demos/day06.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day06"
+  },
+  {
+    "day": 7,
+    "week": 2,
+    "title": "Fischer configurations",
+    "purpose": "Compare mirror images, swaps and valid rotations",
+    "href": "demos/day07.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day07"
+  },
+  {
+    "day": 8,
+    "week": 2,
+    "title": "Repair electron flow",
+    "purpose": "Choose electron sources and destinations",
+    "href": "demos/day08.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day08"
+  },
+  {
+    "day": 9,
+    "week": 2,
+    "title": "Conformer populations",
+    "purpose": "Explore supplied relative free energies and temperature",
+    "href": "demos/day09.qmd",
+    "module": "interactives/foundations.js",
+    "root_id": "day09"
+  },
+  {
+    "day": 10,
+    "week": 2,
+    "title": "Enantiomer mixtures",
+    "purpose": "Distinguish major fraction from enantiomeric excess",
+    "href": "demos/day10.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day10"
+  },
+  {
+    "day": 11,
+    "week": 3,
+    "title": "Reaction rate models",
+    "purpose": "Compare assumed SN1 and SN2 concentration dependence",
+    "href": "demos/day11.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day11"
+  },
+  {
+    "day": 12,
+    "week": 3,
+    "title": "E2 geometry",
+    "purpose": "Find the anti-periplanar arrangement",
+    "href": "demos/day12.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day12"
+  },
+  {
+    "day": 13,
+    "week": 3,
+    "title": "Alcohol oxidation states",
+    "purpose": "Track local C\u2013O and C\u2013H bond changes",
+    "href": "demos/day13.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day13"
+  },
+  {
+    "day": 14,
+    "week": 3,
+    "title": "SN1 steps and charge",
+    "purpose": "Inspect ionisation, capture and proton transfer",
+    "href": "demos/day14.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day14"
+  },
+  {
+    "day": 15,
+    "week": 3,
+    "title": "Limiting reagent and yield",
+    "purpose": "Change amounts and separate mass yield from purity",
+    "href": "demos/day15.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day15"
+  },
+  {
+    "day": 16,
+    "week": 4,
+    "title": "Carbonyl addition",
+    "purpose": "Follow oxygen identities and proton transfers",
+    "href": "demos/day16.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day16"
+  },
+  {
+    "day": 17,
+    "week": 4,
+    "title": "Acyl substitution",
+    "purpose": "Link addition, collapse and acid\u2013base trapping",
+    "href": "demos/day17.qmd",
+    "module": "interactives/reactivity.js",
+    "root_id": "day17"
+  },
+  {
+    "day": 18,
+    "week": 4,
+    "title": "Amine protonation",
+    "purpose": "Compare supplied conjugate-acid pKas at a chosen pH",
+    "href": "demos/day18.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day18"
+  },
+  {
+    "day": 19,
+    "week": 4,
+    "title": "Proton-transfer equilibria",
+    "purpose": "Compare acid/base pairs without claiming reaction speed",
+    "href": "demos/day19.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day19"
+  },
+  {
+    "day": 20,
+    "week": 4,
+    "title": "Amide electron availability",
+    "purpose": "Inspect resonance and a nitrogen lone pair",
+    "href": "demos/day20.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day20"
+  },
+  {
+    "day": 21,
+    "week": 5,
+    "title": "Spectral candidate lab",
+    "purpose": "Combine supplied formula, IR and NMR observations",
+    "href": "demos/day21.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day21"
+  },
+  {
+    "day": 22,
+    "week": 5,
+    "title": "TLC measurements",
+    "purpose": "Measure distances and compare retention factors",
+    "href": "demos/day22.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day22"
+  },
+  {
+    "day": 23,
+    "week": 5,
+    "title": "Build a short synthesis",
+    "purpose": "Choose transformations and inspect their consequences",
+    "href": "demos/day23.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day23"
+  },
+  {
+    "day": 24,
+    "week": 5,
+    "title": "How strong is a spectral clue?",
+    "purpose": "Change the available evidence and test a claim",
+    "href": "demos/day24.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day24"
+  },
+  {
+    "day": 25,
+    "week": 5,
+    "title": "Claims and chemical evidence",
+    "purpose": "Separate identity, purity, conversion and isolated yield",
+    "href": "demos/day25.qmd",
+    "module": "interactives/applications.js",
+    "root_id": "day25"
+  }
+]

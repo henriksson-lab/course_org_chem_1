@@ -1,9 +1,13 @@
 ---
-title: "Conformations and molecular flexibility"
-subtitle: "Week 2 · A different view need not mean a different compound"
+title: Conformations and molecular flexibility
+subtitle: Week 2 · Follow a view, a bond and a substituent
+session-minutes: 45
+pacing-seconds-per-slide: 40
 format:
   revealjs:
-    theme: [simple, ../theme.scss]
+    theme:
+    - simple
+    - ../theme.scss
     slide-number: c/t
     width: 1280
     height: 720
@@ -13,142 +17,412 @@ format:
     html-math-method: katex
 ---
 
-## What will you be able to explain?
+## What should you be able to explain?
 
-- Draw a Newman projection along a stated bond.
-- Distinguish staggered/eclipsed and anti/gauche arrangements.
-- Explain a chair flip and inspect a supplied two-state population model.
+Read Newman projections, compare conformers, preserve up/down through a chair flip and inspect a supplied population model.
 
 ::: notes
-Begin with a model or two pen caps connected by a bond. Ask which atoms remain neighbours after turning one end. The R task is a guided numerical comparison, not a thermodynamics derivation.
+45-minute budget: view/connectivity/Newman construction10 min including a90-second drawing; ethane and butane comparison9 min with two45-second predictions; chair labels and flips10 min including a2-minute model/drawing check; free-energy units and populations9 min including a90-second manual normalisation; equilibrium-versus-rate discussion4 min; integrated explanation/exit3 min. Total45 min; independent practice follows separately.
+
+Use the slide pace flexibly: concrete worked operations deserve more time than brief resolved checks. The intended outcome is an explainable chemical argument,not a slide count.
 :::
 
-## Rotate a bond; keep the neighbours
+## Bring these tools into the room
 
-![Rotation about the ethane carbon-carbon sigma bond preserves connectivity.](figures/01-rotation.svg){width=85% fig-alt="Rotation about the ethane carbon-carbon sigma bond preserves connectivity."}
-
-Conformation changes can occur through bond rotation. Configuration changes require a different operation, often bond breaking.
+Connectivity and ordinary valence remain fixed during the single-bond rotations considered here.
 
 ::: notes
-Do not claim every single bond rotates freely. Rings, steric interactions and partial double-bond character can restrict rotation.
+Use a quick spoken diagnostic; do not spend an additional unscheduled revision block. Revisit a missing convention at its worked example.
 :::
 
-## State the viewing direction
+## Name the operation before the result
 
-![Looking along a CC bond gives a front dot and rear circle in a Newman projection.](figures/02-newman-view.svg){width=85% fig-alt="Looking along a CC bond gives a front dot and rear circle in a Newman projection."}
+![Name the operation before the result](figures/01-rotation.svg){width=82% fig-alt="Name the operation before the result"}
 
-The front carbon is the one nearest your eye. Identify it before placing the substituents.
+Rotation about a C–C sigma bond changes relative positions while retaining connected neighbours.
 
 ::: notes
-Have students physically point along a model bond. Copying the page silhouette without specifying a view is a common source of error.
+Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
 :::
 
-## Compare the angular offset
+## Choose a bond and viewing direction
 
-![Ethane Newman projections compare staggered and eclipsed bond alignments.](figures/03-ethane-conformers.svg){width=85% fig-alt="Ethane Newman projections compare staggered and eclipsed bond alignments."}
+![Choose a bond and viewing direction](figures/19-pace.svg){width=82% fig-alt="Choose a bond and viewing direction"}
 
-Staggered has a 60° offset between front and rear bonds. Eclipsed bonds align in the projection.
+Number butane C1–C4. Look from C2 toward C3, so C2 is front and C3 rear.
+
+## Compare two drawings of the same connectivity
+
+![Compare two drawings of the same connectivity](figures/20-pace.svg){width=82% fig-alt="Compare two drawings of the same connectivity"}
+
+Anti and gauche butane have identical condensed connectivity even though the spatial arrangements differ.
+
+## Predict: must every single bond rotate freely?
+
+Consider rings, steric barriers and partial double-bond character before answering.
 
 ::: notes
-Coincident bonds in an eclipsed projection do not represent a shared extra bond. Distinguish overlapping views from connectivity.
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
 :::
 
-## Rotation crosses an energy barrier
+## Resolve: rotation can be restricted
 
-![A qualitative ethane torsional profile has eclipsed maxima and staggered minima.](figures/04-ethane-energy.svg){width=85% fig-alt="A qualitative ethane torsional profile has eclipsed maxima and staggered minima."}
-
-The conformers interconvert; lower energy does not mean a structure is permanently trapped.
+Single bonds can have torsional barriers; rings constrain motion and conjugation can restrict rotation. “Single” is not “barrier-free”.
 
 ::: notes
-This curve is a qualitative energy model. Do not use its arbitrary vertical scale to infer a numerical population or rate.
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
 :::
 
-## Butane introduces distinct staggered arrangements
+## Read a Newman projection from the eye outward
 
-![Newman projections place the butane methyl groups 180 or 60 degrees apart.](figures/05-butane-anti-gauche.svg){width=85% fig-alt="Newman projections place the butane methyl groups 180 or 60 degrees apart."}
+![Read a Newman projection from the eye outward](figures/02-newman-view.svg){width=82% fig-alt="Read a Newman projection from the eye outward"}
 
-Anti and gauche describe the methyl-group dihedral angle here. Both arrangements are staggered.
+The central dot is front carbon; the circle denotes the rear carbon.
 
 ::: notes
-The terms do not replace front/back or R/S. Count the C1-C2-C3-C4 dihedral, not an arbitrary pair of H atoms.
+Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
 :::
 
-## Compare minima, not just shapes
+## Inspect one staggered ethane view
 
-![Qualitative butane profile places anti below gauche and methyl-methyl eclipsing highest.](figures/06-butane-energy.svg){width=85% fig-alt="Qualitative butane profile places anti below gauche and methyl-methyl eclipsing highest."}
+![Inspect one staggered ethane view](figures/11-pace.svg){width=82% fig-alt="Inspect one staggered ethane view"}
 
-For butane, anti is lower than gauche. The profile also contains less favourable eclipsed arrangements.
+Three front bonds and three rear bonds are offset by 60°. Count the H groups on both carbons.
+
+## Inspect the eclipsed view
+
+![Inspect the eclipsed view](figures/12-pace.svg){width=82% fig-alt="Inspect the eclipsed view"}
+
+Aligned projected bonds give a 0° offset. The H labels belong to different carbon atoms.
+
+## Predict: reverse the viewing direction
+
+If you look C3 toward C2 rather than C2 toward C3, which carbon becomes front?
 
 ::: notes
-Keep qualitative electronic/steric reasoning at the intended level. A simplified energy profile is not a measured free-energy dataset.
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
 :::
 
-## A ring constrains the available motion
+## Resolve: front and rear swap
 
-![Planar skeletal drawings of cyclopropane and cyclohexane show different ring connectivity.](figures/07-ring-strain.svg){width=85% fig-alt="Planar skeletal drawings of cyclopropane and cyclohexane show different ring connectivity."}
-
-A flat polygon is a connectivity drawing. Cyclohexane is not normally a planar regular hexagon.
+C3 is now nearest the viewer. Redraw the complete spatial arrangement rather than copying only the page orientation.
 
 ::: notes
-Cyclopropane has substantial angle strain. Do not imply cyclohexane has no energetic differences among conformations.
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
 :::
 
-## Read axial and equatorial locally
+## Place butane methyl groups opposite
 
-![A cyclohexane chair with one axial and one equatorial direction at a selected carbon.](figures/08-chair-directions.svg){width=85% fig-alt="A cyclohexane chair with one axial and one equatorial direction at a selected carbon."}
+![Place butane methyl groups opposite](figures/13-pace.svg){width=82% fig-alt="Place butane methyl groups opposite"}
 
-Each carbon has an axial and an equatorial position. Axial positions alternate up and down around the ring.
+For anti-butane, front CH₃ at twelve and rear CH₃ at six gives a 180° methyl dihedral.
+
+## Place a methyl group at +60°
+
+![Place a methyl group at +60°](figures/14-pace.svg){width=82% fig-alt="Place a methyl group at +60°"}
+
+The gauche view remains staggered. The two larger substituents are closer than in anti.
+
+## Predict: is every staggered butane conformer anti?
+
+Use the methyl positions, not only the absence of eclipsed bonds.
 
 ::: notes
-Students should not identify axial as up: there are axial-down positions too. Equatorial does not mean lying in the page.
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
 :::
 
-## A chair flip preserves up/down
+## Resolve: gauche is staggered too
 
-![A schematic chair flip exchanges an up methyl substituent between axial and equatorial sites.](figures/09-ring-flip.svg){width=85% fig-alt="A schematic chair flip exchanges an up methyl substituent between axial and equatorial sites."}
-
-Axial becomes equatorial and vice versa; an up substituent stays up. A ring flip does not invert the configuration.
+Anti and both gauche arrangements are staggered minima, but their methyl-group dihedrals and relative energies differ.
 
 ::: notes
-This diagram highlights local bond directions. Use a molecular model to complete the whole chair flip and preserve all six connected atoms.
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
 :::
 
-## Inspect a supplied free-energy model
+## Count equivalent ethane minima
 
-![A two-conformer free-energy model gives unequal populations at 298.15 kelvin.](figures/10-conformer-populations.svg){width=85% fig-alt="A two-conformer free-energy model gives unequal populations at 298.15 kelvin."}
+![Count equivalent ethane minima](figures/04-ethane-energy.svg){width=82% fig-alt="Count equivalent ethane minima"}
 
-Use relative free energies and a temperature to calculate weights. The lower-free-energy conformer is more populated.
+A complete turn visits three equivalent staggered arrangements because all three substituents on each carbon are H.
 
 ::: notes
-The supplied ΔG values already account for degeneracy. Do not import qualitative torsional energies from another figure as these numerical free energies.
+Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
 :::
 
-## The two-state calculation
+## Find the second gauche arrangement
 
-For supplied relative free energies,
-$w_i=\exp[-\Delta G_i/(RT)]$ and $p_i=w_i/\sum_j w_j$.
+![Find the second gauche arrangement](figures/15-pace.svg){width=82% fig-alt="Find the second gauche arrangement"}
 
-Use consistent J/mol and J/(mol K) units; temperature is kelvin.
+A −60° methyl dihedral gives the other gauche view of butane.
 
-## R continues a familiar workflow
+## Read maxima as barriers along the path
 
-```r
-conformers <- readr::read_csv("data/conformers.csv")
-conformers$weight <- exp(-conformers$delta_G_J_mol /
-                           (8.314462618 * 298.15))
-conformers$fraction <- conformers$weight / sum(conformers$weight)
-```
+![Read maxima as barriers along the path](figures/04-ethane-energy.svg){width=82% fig-alt="Read maxima as barriers along the path"}
 
-Check that fractions sum to one.
+Eclipsed arrangements lie higher than neighbouring staggered ones in the qualitative profile.
 
-## Explain a model boundary
+## Eclipse the methyl groups directly
 
-An equilibrium population alone does not give the rate of interconversion.
+![Eclipse the methyl groups directly](figures/16-pace.svg){width=82% fig-alt="Eclipse the methyl groups directly"}
 
-Rates depend on activation barriers; populations depend on the free-energy difference between states.
+Methyl/methyl eclipsing is especially unfavourable in the butane comparison.
 
-## Practise with a physical or drawn model
+## Predict: can the qualitative vertical axis give a population?
 
-Complete the [practice](exercise.qmd) and [self-check](quiz.qmd).
+No energy values, temperature or free-energy conventions are supplied on this illustrative profile.
 
-Provisional reference: selected Solomons chapter 4 sections; see the [reading guide](../reference/reading.qmd).
+::: notes
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+:::
+
+## Resolve: not a numerical equilibrium ratio
+
+The curve supports relative-energy reasoning only. Numerical populations require suitable free-energy differences and temperature.
+
+::: notes
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+:::
+
+## Inspect a methyl/H eclipse
+
+![Inspect a methyl/H eclipse](figures/17-pace.svg){width=82% fig-alt="Inspect a methyl/H eclipse"}
+
+An eclipsed view need not put the two methyl groups directly on top of one another.
+
+## Explain why anti is favoured here
+
+![Explain why anti is favoured here](figures/05-butane-anti-gauche.svg){width=82% fig-alt="Explain why anti is favoured here"}
+
+For ordinary butane, separating the methyl groups in the anti arrangement lowers energy relative to gauche.
+
+## Follow the next eclipsed view
+
+![Follow the next eclipsed view](figures/18-pace.svg){width=82% fig-alt="Follow the next eclipsed view"}
+
+Rotation passes another methyl/H eclipse before reaching a different staggered minimum.
+
+## Predict: how many gauche minima in one full turn?
+
+Count the +60° and −60° arrangements separately, while recognising their equal energy in an achiral environment.
+
+::: notes
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+:::
+
+## Resolve: two equivalent gauche minima
+
+Do not silently treat their multiplicity as one if constructing a physical statistical model. Our supplied two-state ΔG values already account for degeneracy.
+
+::: notes
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+:::
+
+## Check units before exponentiating
+
+![Check units before exponentiating](figures/26-pace.svg){width=82% fig-alt="Check units before exponentiating"}
+
+ΔG and RT must both use J/mol here. At 298.15 K, RT is about 2479 J/mol.
+
+## Separate a conformer energy from a barrier
+
+![Separate a conformer energy from a barrier](figures/06-butane-energy.svg){width=82% fig-alt="Separate a conformer energy from a barrier"}
+
+A state free-energy difference predicts an equilibrium preference; a barrier concerns how fast interconversion occurs.
+
+## Inspect a supplied two-state prediction
+
+![Inspect a supplied two-state prediction](figures/27-pace.svg){width=82% fig-alt="Inspect a supplied two-state prediction"}
+
+With ΔG(A)=0 and ΔG(B)=3500 J/mol, the fractions are about 0.804 and 0.196.
+
+## Predict: which weight equals one?
+
+Using exp(−ΔG/RT), what is the statistical weight of a state whose relative free energy is zero?
+
+::: notes
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+:::
+
+## Resolve: the reference weight is one
+
+exp(0)=1. The other weight is about 0.244; divide each weight by their sum to obtain fractions.
+
+::: notes
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+:::
+
+## A planar ring sketch does not fix geometry
+
+![A planar ring sketch does not fix geometry](figures/07-ring-strain.svg){width=82% fig-alt="A planar ring sketch does not fix geometry"}
+
+A hexagon on paper normally shows connectivity, not a claim that cyclohexane is flat.
+
+::: notes
+Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+:::
+
+## Separate two naming systems
+
+![Separate two naming systems](figures/21-pace.svg){width=82% fig-alt="Separate two naming systems"}
+
+Axial/equatorial identifies local bond direction in a chair; up/down identifies which side of the ring a substituent occupies.
+
+## Recognise a cis relation
+
+![Recognise a cis relation](figures/24-pace.svg){width=82% fig-alt="Recognise a cis relation"}
+
+Up/up and down/down substituent pairs are cis even when one substituent is axial and the other equatorial.
+
+## Predict: does “equatorial” mean “down”?
+
+Locate both up-equatorial and down-equatorial positions on a chair model.
+
+::: notes
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+:::
+
+## Resolve: no fixed up/down equivalence
+
+Each chair contains axial-up, axial-down, equatorial-up and equatorial-down positions around the ring.
+
+::: notes
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+:::
+
+## Find both positions at one ring carbon
+
+![Find both positions at one ring carbon](figures/08-chair-directions.svg){width=82% fig-alt="Find both positions at one ring carbon"}
+
+The diagram displays one axial and one equatorial direction; the full ring alternates their up/down pattern.
+
+::: notes
+Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+:::
+
+## Follow an axial-up substituent
+
+![Follow an axial-up substituent](figures/22-pace.svg){width=82% fig-alt="Follow an axial-up substituent"}
+
+After a ring flip it is equatorial-up. The label “up” is retained.
+
+## Recognise a trans relation
+
+![Recognise a trans relation](figures/25-pace.svg){width=82% fig-alt="Recognise a trans relation"}
+
+Up/down means trans. A chair flip preserves that relation while changing axial/equatorial occupancy.
+
+## Predict: cis before the flip, trans after?
+
+Can an ordinary ring flip change which side of the ring a substituent occupies?
+
+::: notes
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+:::
+
+## Resolve: cis/trans configuration is retained
+
+A ring flip changes conformation, not the up/down relation. A cis pair remains cis.
+
+::: notes
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+:::
+
+## Repeat the rule for a down group
+
+![Repeat the rule for a down group](figures/23-pace.svg){width=82% fig-alt="Repeat the rule for a down group"}
+
+Axial-down becomes equatorial-down. Following one up example is not the whole rule.
+
+## Explain a preference without claiming exclusivity
+
+![Explain a preference without claiming exclusivity](figures/09-ring-flip.svg){width=82% fig-alt="Explain a preference without claiming exclusivity"}
+
+Methylcyclohexane generally favours equatorial methyl because it avoids unfavourable 1,3-diaxial interactions.
+
+## Test a zero free-energy difference
+
+![Test a zero free-energy difference](figures/28-pace.svg){width=82% fig-alt="Test a zero free-energy difference"}
+
+In the supplied two-state model, equal free energies produce equal weights and 0.5/0.5 fractions.
+
+## Predict: is the disfavoured conformer absent?
+
+Would a finite positive free-energy difference make its equilibrium fraction exactly zero?
+
+::: notes
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+:::
+
+## Resolve: lower population is not absence
+
+A finite difference gives a positive Boltzmann weight. Very small populations may be hard to observe but are not mathematically zero.
+
+::: notes
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+:::
+
+## Normalise weights before calling them fractions
+
+![Normalise weights before calling them fractions](figures/10-conformer-populations.svg){width=82% fig-alt="Normalise weights before calling them fractions"}
+
+The relative weight is not yet a population fraction. Sum the weights and divide.
+
+::: notes
+Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+:::
+
+## Increase the free-energy gap
+
+![Increase the free-energy gap](figures/29-pace.svg){width=82% fig-alt="Increase the free-energy gap"}
+
+With ΔG(B)=7000 J/mol at the same temperature, A becomes more strongly favoured than in the 3500 J/mol example.
+
+## Interpret the plotted fractions chemically
+
+![Interpret the plotted fractions chemically](figures/10-conformer-populations.svg){width=82% fig-alt="Interpret the plotted fractions chemically"}
+
+A is more populated because its supplied free energy is lower. The calculation assumes the chosen states describe the equilibrium.
+
+## Separate the two energy questions
+
+![Separate the two energy questions](figures/30-pace.svg){width=82% fig-alt="Separate the two energy questions"}
+
+Changing the state difference changes equilibrium. Changing only a barrier can change rate without changing that equilibrium ratio.
+
+## Predict: add 1000 J/mol to both states
+
+Does a common energy offset change the normalised fractions? Explain before computing.
+
+::: notes
+Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+:::
+
+## Resolve: the common factor cancels
+
+Both weights acquire the same multiplier. It cancels when dividing by their sum, leaving fractions unchanged.
+
+::: notes
+Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+:::
+
+## Combine the tools in one explanation
+
+Explain both the butane anti/gauche preference and the limits of predicting rate from an equilibrium population.
+
+::: notes
+Take a 30-second sketch or explanation, then ask for one observation and the reason linking it to the conclusion. This is included in the 45-minute session.
+:::
+
+## Your next independent work
+
+Use the [standalone practice and worked checks](exercise.qmd), then the [self-check](quiz.qmd). Required core problems and optional transfer work are labelled separately.
+
+## One-sentence exit explanation
+
+Write one chemical claim, the feature that supports it and one limit of the inference.
+
+The [reading guide](../reference/reading.qmd) provides optional textbook support; no textbook is needed to attempt the local practice.
+
+::: notes
+Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.
+:::

@@ -1,116 +1,261 @@
 ---
-title: "Practice: follow elimination and addition in space"
+title: "Elimination and addition:20 problems"
 ---
 
-Allow 90 minutes. Use a model kit or make a simple physical model for the Newman
-projection questions. The aim is to explain bond changes and geometry before
-learning product patterns.
+Use problems 1–12 as the **core route (about 80–100 minutes)**. Problems 13–20 are optional transfer practice (another 45–65 minutes); select them to target mistakes rather than adding every problem to required contact time. Paper/model drawing is central. All inputs and conventions needed are below; no textbook purchase or external problem set is required.
 
-## 1. Define alpha and beta for a particular substrate
+## Local refresher and worked starting example
 
-Draw 2-bromobutane, CH₃CH(Br)CH₂CH₃. Label the carbon bearing Br as α, then
-label every adjacent carbon as β. Circle the β-hydrogens that could be removed
-in a formal elimination. Draw the constitutional alkene products.
+Alpha means the carbon carrying the leaving group and beta an adjacent carbon. E2 couples base attack at β-H, C–H pair donation to C–C and leaving-group departure; a suitable anti-periplanar arrangement has180° H–C–C–leaving-group dihedral. Addition consumes an alkene pi bond. The ionic HBr cases here explicitly exclude peroxides.
 
-::: {.callout-note collapse="true" title="Worked check"}
-C2 is α; C1 and C3 are β. Removal of H from C1 can produce but-1-ene; removal
-from C3 can produce but-2-ene. But-2-ene has E and Z configurations because
-each double-bond carbon has two different substituents. But-1-ene does not,
-because its terminal carbon has two H atoms. This lists possible products;
-it does not establish their proportions under an unspecified condition.
-:::
+**Worked starting example.** In a formal E2 step RCH₂CH₂Br+B⁻→RCH=CH₂+BH+Br⁻, three pairs move together: B→H, C–H→C–C and C–Br→Br. This balances atoms and charge, but a particular primary substrate may favour competing substitution under actual conditions.
 
-## 2. Draw one E2 step
+Draw structures, identify the relevant atom and explain the reason. A name alone is insufficient where a mechanism or argument is requested.
 
-Choose a conformation of 2-bromobutane with an appropriate β-H opposite Br.
-Show a generic base B⁻, its lone pair and **three** curved arrows. Draw all
-products, including BH and Br⁻. Which two bonds disappear and which new
-bond order appears? Is there a carbocation intermediate?
+## 1. Find every beta carbon
+
+Draw 2-bromobutane and mark α and all β carbons. Explain the local definition.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-Follow a closed sequence of pairs: base → H; C–H → C–C; C–Br → Br.
-Each arrow tail must identify a pair in the starting structure.
+Alpha is the carbon carrying the leaving group.
 :::
 
-::: {.callout-note collapse="true" title="Worked check"}
-The base lone pair forms B–H; the C–H pair forms the alkene π bond;
-the C–Br pair returns to Br. The products are the selected alkene, BH and
-Br⁻. C–H and C–Br are lost, while C–C changes from a single to a double bond.
-The concerted E2 model contains no carbocation intermediate. The net charge
-is −1 on each side for a B⁻ base and neutral substrate.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+C2 is α; C1 and C3 are β because they are directly adjacent to C2. Alpha/beta labels are relative to this functional site, not permanent names for the molecule.
 :::
 
-## 3. Read a Newman projection rather than memorising a shape
+## 2. List possible alkene connectivities
 
-![A Newman projection with a front hydrogen and rear bromine anti at a 180-degree dihedral angle.](figures/03-anti-newman.svg){fig-alt="A Newman projection with a front hydrogen and rear bromine anti at a 180-degree dihedral angle."}
+From formal HBr elimination of 2-bromobutane, draw but-1-ene and but-2-ene and show which β site produces each.
 
-Identify which bonds start at the front dot and which start at the rear circle.
-Rebuild the depicted carbon–carbon bond with a model. Rotate one carbon by
-60° and then 120° while keeping the other fixed. Does the chosen H/Br pair
-stay anti-periplanar? Explain why rotation changes conformation rather than
-configuration at an otherwise stable stereocentre.
-
-::: {.callout-note collapse="true" title="Worked check"}
-The selected front H and rear Br initially point in opposite directions
-with a dihedral angle of 180°. After a relative rotation by 60° or 120°,
-that particular pair is no longer anti. Other hydrogen choices may become
-appropriately aligned. Rotation changes torsion about the single bond
-without exchanging groups at a stereocentre or changing connectivity.
-For many flexible molecules conformational access makes several eliminations
-possible; constrained rings require additional care.
+::: {.callout-tip collapse="true" title="Hint"}
+Remove H from either neighbouring carbon, without moving the carbon skeleton.
 :::
 
-## 4. Predict and explain ionic HBr addition to propene
-
-Assume an ionic reaction without peroxides. Draw both possible carbocation
-connectivities that could follow protonation of CH₃CH=CH₂. Identify the more
-stable carbocation and complete the bromide capture step. Draw each relevant
-electron-flow arrow, including the H–Br bond cleavage.
-
-::: {.callout-note collapse="true" title="Worked check"}
-Donating the alkene π pair to H with H attaching at the terminal carbon
-gives the secondary carbocation CH₃CH⁺CH₃; H attaching at the middle carbon
-would give a primary terminal carbocation. The secondary route is favoured
-in this selected model. The H–Br pair moves to Br, and a bromide lone pair
-then attacks the carbocation, giving 2-bromopropane. The explanation is
-relative intermediate stability in a stated mechanism, not a rule about
-where a written H symbol must appear in every addition reaction.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Loss from C1 forms C1=C2, but-1-ene. Loss from C3 forms C2=C3, but-2-ene. This inventories possible connectivity, not product proportions in unspecified conditions.
 :::
 
-## 5. Contrast bromination with HBr addition
+## 3. Test the E/Z prerequisite
 
-In a Br₂ addition, a bridged bromonium ion can form. Draw the ring-opening
-stage with bromide attacking one carbon from the opposite side and the
-corresponding C–Br bridge pair returning to the bridge bromine. What
-stereochemical relationship results between the two newly added bromines?
-Why should you not carry the free-carbocation HBr drawing over unchanged?
+Draw the preceding two alkene products and decide which can be E/Z.
 
-::: {.callout-note collapse="true" title="Worked check"}
-Backside opening of the bridge gives anti addition. The bridge blocks direct
-same-side attack in this simple mechanism. HBr and Br₂ add different species
-through different intermediates, so a free carbocation mechanism is not an
-adequate general explanation of bromonium-mediated addition. Anti describes
-relative addition geometry; the exact configurations depend on the starting
-alkene and require drawing the actual product.
+::: {.callout-tip collapse="true" title="Hint"}
+Each end of a double bond needs two different substituents.
 :::
 
-## 6. E1 or SN1 after ionisation?
-
-Start with `(CH₃)₃C⁺` in water. Draw one path to 2-methylpropan-2-ol and
-another to 2-methylpropene. Identify whether water attacks carbon or removes
-β-H. Explain why observing a carbocation intermediate would not by itself
-establish which final product is obtained.
-
-::: {.callout-note collapse="true" title="Worked check"}
-Water attack at carbon, then deprotonation, gives the alcohol through SN1.
-Water acting as a base removes β-H while the C–H pair forms C=C, giving the
-alkene and hydronium through E1. Both can follow ionisation; their competition
-depends on the conditions. Ionisation identifies an early mechanistic stage,
-not a unique product.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+But-2-ene can be E or Z because each alkene carbon bears CH₃ and H. But-1-ene has two H on one end, so it cannot have an E/Z descriptor.
 :::
 
-## Leave with
+## 4. Construct an E2 electron-flow step
 
-An audited E2 drawing, an anti Newman model, and two distinct addition
-mechanisms. Optional reading: selected Solomons chapters 7–8; see the
-[reading guide](../reference/reading.qmd).
+Assume a suitable anti conformation of 2-bromopropane and a strong base B⁻. Draw the three arrows and complete the products.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Base→β-H; C–H→C–C; C–Br→Br.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Products are propene, BH and Br⁻. All three pair movements are concerted in E2; no carbocation is inserted. Net charge remains −1. The conformation must support the reacting geometry.
+:::
+
+## 5. Reject methyl elimination
+
+Explain why CH₃Br cannot undergo ordinary β-elimination to an alkene. Contrast it with CH₃CH₂Br as a formal bond inventory.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count carbon atoms before searching for a β-H.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Methyl bromide has no β-carbon. Ethyl bromide has one and can formally lose HBr to form ethene; however, a primary substrate with a strong nucleophile can favour SN2, so the inventory does not establish a dominant pathway.
+:::
+
+## 6. Read a Newman projection
+
+Looking from the β-carbon toward the α-carbon, put the front reacting H at twelve o’clock and rear Br at six. Give the H–C–C–Br dihedral.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Opposing clock positions are separated by half a turn.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The dihedral is 180°, an anti-periplanar arrangement. The front bond starts at the dot and the rear bond at the circle. Reversing which carbon is viewed first requires redrawing the projection consistently.
+:::
+
+## 7. Rotate without changing connectivity
+
+Starting from that anti view, rotate only the rear carbon by 60°. Is the same H/Br pair still anti? Has the molecule become a constitutional isomer?
+
+::: {.callout-tip collapse="true" title="Hint"}
+A torsion changes spatial arrangement around one bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The selected pair is no longer at 180°. Connectivity and substituent identities remain unchanged, so this is a conformational change, not a constitutional isomerisation.
+:::
+
+## 8. Fix a two-arrow E2 proposal
+
+A drawing moves the base pair to β-H and the C–Br pair to Br, but never moves C–H electrons. What is missing?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Account for the pair left behind when H departs as H⁺.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The C–H pair must form the new C–C π bond. Otherwise the proposed bond inventory and electron count do not describe the alkene. Draw all three arrows in the same elementary step.
+:::
+
+## 9. Separate accessible from favoured products
+
+A student lists all β sites, then claims each gives equal alkene amounts. Give two reasons that conclusion is unsupported.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Consider geometry and the identities of base and substrate.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Different sites can have different access to anti geometry and give differently substituted alkenes; steric properties of the base and other conditions also affect relative pathways. Possible products need not be equally probable.
+:::
+
+## 10. Draw E1 after ionisation
+
+Use (CH₃)₃C⁺ and water to draw β-H loss, with both electron-pair arrows and all products.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water supplies a pair to H while C–H supplies the alkene π pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The products are (CH₃)₂C=CH₂ and H₃O⁺. This deprotonation follows prior ionisation in an E1 pathway. It is not the concerted C–Br-breaking E2 event.
+:::
+
+## 11. Contrast E1 with E2
+
+Compare an E1 route from a tertiary bromide in water with an E2 model using a strong base. State the order of bond breaking and the presence or absence of a carbocation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ask whether loss of the leaving group is a separate elementary step.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+E1 ionises first to a carbocation, then loses β-H. E2 couples base attack, C–H cleavage and C–leaving-group cleavage in one step, without a carbocation intermediate. Conditions and competing routes must still be considered.
+:::
+
+## 12. Choose the attacked atom
+
+For a secondary bromide with a reagent that can act as nucleophile and base, draw a carbon-attack possibility and a β-H-removal possibility.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The alternatives differ first in where the donated pair goes.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Pair donation to saturated carbon with leaving-group departure gives substitution; donation to β-H with C–H electrons forming C=C gives elimination. A reagent label alone does not choose between them.
+:::
+
+::: {.callout-note}
+**Optional transfer starts here.** Choose problems that address your own gaps; the core route remains1–12.
+:::
+
+## 13. Protonate propene in two ways
+
+For ionic HBr addition without peroxides, draw both formal carbocation connectivities possible after protonating propene.
+
+::: {.callout-tip collapse="true" title="Hint"}
+H can attach at either alkene carbon, leaving the positive site at the other.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Terminal H addition gives secondary CH₃CH⁺CH₃; internal H addition gives primary CH₃CH₂CH₂⁺. The secondary route is favoured in the selected model because its intermediate is more stabilised.
+:::
+
+## 14. Complete bromide capture
+
+Starting from CH₃CH⁺CH₃ and Br⁻, draw pair donation and name the organic product.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The cationic carbon needs the new bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A bromide lone pair forms C–Br, giving 2-bromopropane. Carbon becomes tetrahedral and neutral. The HBr addition sequence is protonation followed by capture, not a single arbitrary placement of H and Br.
+:::
+
+## 15. Audit HBr addition
+
+Balance propene + HBr → 2-bromopropane at the formula level and count the local bonds that change.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A pi bond is consumed while two sigma bonds are made.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+C₃H₆ + HBr gives C₃H₇Br. The C=C π bond and H–Br bond are consumed overall while C–H and C–Br form; the original C–C sigma bond remains.
+:::
+
+## 16. Recognise a symmetric alkene
+
+Predict the connectivity of ionic HBr addition to ethene. Is there a distinct regioisomeric alternative?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The two alkene carbons are equivalent by symmetry.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The product is bromoethane, CH₃CH₂Br. Exchanging which equivalent carbon receives H gives the same connectivity, so there is no distinct regioisomeric product in this example.
+:::
+
+## 17. Read bromonium opening
+
+Draw a three-membered C–Br⁺–C bridge and Br⁻ approaching a carbon from the opposite side. Show which bridge bond pair returns to Br.
+
+::: {.callout-tip collapse="true" title="Hint"}
+New C–Br formation opens the corresponding C–Br bridge bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Bromide attacks carbon from the back of the bridge, and that carbon–bridge-Br pair returns to the bridging Br. This yields two C–Br bonds with anti addition in the representative mechanism.
+:::
+
+## 18. Compare HBr with Br₂
+
+Why should the free-carbocation HBr picture not be copied unchanged when explaining anti Br₂ addition?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare the intermediates, not just the two letters Br in the reagents.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The bromonium bridge changes access to the two faces and its backside opening explains anti addition. A freely planar carbocation picture omits this bridge and does not provide the same stereochemical explanation.
+:::
+
+## 19. Identify a false reverse reaction
+
+A student calls every addition the reverse of the corresponding laboratory elimination under the same conditions. Rewrite the claim carefully.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Distinguish net bond inventory from microscopic path and operating conditions.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Addition consumes a pi bond and elimination creates one, so some net transformations can be related. Their useful reagents, mechanisms, equilibrium conditions and competing processes may differ; the names alone do not establish an exact reverse under identical conditions.
+:::
+
+## 20. Explain a complete branch point
+
+A tertiary carbocation is formed in water. Draw both capture leading to alcohol and deprotonation leading to alkene, including proton-transfer products.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water can attack carbon or act as base at β-H.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Carbon capture gives an oxonium ion, then water deprotonation gives alcohol plus H₃O⁺. β-H removal gives alkene plus H₃O⁺ directly from the cation. Both follow the same early ionisation, so seeing ionisation alone does not settle the product ratio.
+:::
+
+## Check your progress
+
+Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.

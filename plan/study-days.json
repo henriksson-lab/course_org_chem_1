@@ -1,0 +1,217 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "kind": "unit",
+    "unit": "structures",
+    "title": "Reading organic structures",
+    "href": "structures/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "kind": "unit",
+    "unit": "properties",
+    "title": "Properties and IR",
+    "href": "properties/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "kind": "unit",
+    "unit": "acids-bases",
+    "title": "Acids, bases and ionisation",
+    "href": "acids-bases/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 4,
+    "week": 1,
+    "kind": "consolidation",
+    "title": "Mixed chemistry practice",
+    "href": "practice/day04.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 5,
+    "week": 1,
+    "kind": "consolidation",
+    "title": "Independent transfer and explanation",
+    "href": "practice/day05.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 6,
+    "week": 2,
+    "kind": "unit",
+    "unit": "conformations",
+    "title": "Conformations",
+    "href": "conformations/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 7,
+    "week": 2,
+    "kind": "unit",
+    "unit": "stereochemistry",
+    "title": "Stereochemistry",
+    "href": "stereochemistry/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 8,
+    "week": 2,
+    "kind": "unit",
+    "unit": "mechanisms",
+    "title": "Electron flow and mechanisms",
+    "href": "mechanisms/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 9,
+    "week": 2,
+    "kind": "consolidation",
+    "title": "Mixed chemistry practice",
+    "href": "practice/day09.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 10,
+    "week": 2,
+    "kind": "consolidation",
+    "title": "Independent transfer and explanation",
+    "href": "practice/day10.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 11,
+    "week": 3,
+    "kind": "unit",
+    "unit": "substitution",
+    "title": "Substitution",
+    "href": "substitution/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 12,
+    "week": 3,
+    "kind": "unit",
+    "unit": "elimination-addition",
+    "title": "Elimination and addition",
+    "href": "elimination-addition/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 13,
+    "week": 3,
+    "kind": "unit",
+    "unit": "alcohols-redox",
+    "title": "Alcohols and redox",
+    "href": "alcohols-redox/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 14,
+    "week": 3,
+    "kind": "consolidation",
+    "title": "Mixed chemistry practice",
+    "href": "practice/day14.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 15,
+    "week": 3,
+    "kind": "consolidation",
+    "title": "Independent transfer and explanation",
+    "href": "practice/day15.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 16,
+    "week": 4,
+    "kind": "unit",
+    "unit": "carbonyl-addition",
+    "title": "Carbonyl addition",
+    "href": "carbonyl-addition/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 17,
+    "week": 4,
+    "kind": "unit",
+    "unit": "acyl-chemistry",
+    "title": "Acyl chemistry",
+    "href": "acyl-chemistry/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 18,
+    "week": 4,
+    "kind": "unit",
+    "unit": "amines-aromatics",
+    "title": "Amines and aromatics",
+    "href": "amines-aromatics/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 19,
+    "week": 4,
+    "kind": "consolidation",
+    "title": "Mixed chemistry practice",
+    "href": "practice/day19.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 20,
+    "week": 4,
+    "kind": "consolidation",
+    "title": "Independent transfer and explanation",
+    "href": "practice/day20.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 21,
+    "week": 5,
+    "kind": "unit",
+    "unit": "spectroscopy",
+    "title": "Structure from spectra",
+    "href": "spectroscopy/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 22,
+    "week": 5,
+    "kind": "unit",
+    "unit": "synthesis-evidence",
+    "title": "Synthesis and evidence",
+    "href": "synthesis-evidence/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 23,
+    "week": 5,
+    "kind": "unit",
+    "unit": "integration",
+    "title": "Putting the chemistry together",
+    "href": "integration/exercise.qmd",
+    "minimum_paper_problems": 20
+  },
+  {
+    "day": 24,
+    "week": 5,
+    "kind": "consolidation",
+    "title": "Mixed chemistry practice",
+    "href": "practice/day24.qmd",
+    "minimum_paper_problems": 12
+  },
+  {
+    "day": 25,
+    "week": 5,
+    "kind": "consolidation",
+    "title": "Independent transfer and explanation",
+    "href": "practice/day25.qmd",
+    "minimum_paper_problems": 12
+  }
+]

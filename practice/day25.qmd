@@ -1,0 +1,174 @@
+---
+title: "Day 25: Final transfer workshop"
+---
+
+A **150-minute consolidation block**, containing 12 non-R problems. No book is
+needed. Suggested timing:10 minutes retrieval;48 minutes for problems 1–6;
+48 minutes for 7–10;34 minutes for 11–12;10 minutes review. The slower drawing
+and comparison intervals are included in that total. Continue unfinished work
+as independent practice rather than rushing a mechanism.
+
+Local explanations: [Integrated chemistry](../integration/exercise.qmd), [spectroscopy](../spectroscopy/exercise.qmd) and [practical reporting](../reference/practical.qmd).
+
+## Working definitions
+
+Use full-headed arrows for electron pairs: start at a lone pair or bond and
+end at its acceptor. Keep ordinary carbon to four bond orders and conserve
+atoms and net charge. For compatible proton-transfer data,
+K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and
+1 mol=1000 mmol; compare n/coefficient before predicting theoretical product.
+Apparent isolated yield=100×isolated/theoretical product mass. TLC uses
+Rf=spot/front distances from the same origin. For simple first-order NMR,
+n adjacent equivalent H give n +1 lines while integration counts H area.
+Every additional structure, constant and observation needed is supplied in
+the individual problem; no unseen textbook table is assumed.
+
+## 1. Read a new secondary alcohol
+
+For CH₃CH(OH)CH₂COOH, identify the alcohol type, acid and possible tetrahedral stereocentre. List four groups at the OH-bearing carbon.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The changing centre is bonded to CH₃ and CH₂COOH, not directly to carbonyl carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+It is a secondary alcohol and carboxylic acid with substituents OH,H,CH₃,CH₂COOH at the tetrahedral carbon. Those groups differ, so that carbon is a stereocentre.
+:::
+
+## 2. Rank the new carbon branches
+
+At that centre compare CH₂COOH with CH₃ using attached-atom lists C,H,H versus H,H,H. Give full priorities with O and H included.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Break the first C/C tie at the next attached atoms.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₂COOH outranks CH₃ because C outranks H at the first difference. Full order is OH>CH₂COOH>CH₃>H. Priority follows atomic comparison, not a memorised lactic-acid label.
+:::
+
+## 3. Transfer acid–base reasoning
+
+Draw hydroxide removal of the COOH proton from CH₃CH(OH)CH₂COOH with both arrows. Does that elementary transfer invert the OH-bearing stereocentre?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Follow the acidic H and the original O–H bonding pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The product is CH₃CH(OH)CH₂COO⁻+H₂O. Base pair→H and acid O–H pair→acid O. Bonds at the stereocentre are not rearranged by this step, so it does not itself invert.
+:::
+
+## 4. Transfer oxidation reasoning
+
+Oxidise the secondary alcohol of CH₃CH(OH)CH₂COOH to a ketone while retaining skeleton. Give product and identify whether the former centre remains stereogenic.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The OH-bearing CH becomes C=O.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃C(=O)CH₂COOH forms as the selected target. The former centre is trigonal planar and no longer the tetrahedral stereocentre. Conditions/selectivity still matter in an actual reaction.
+:::
+
+## 5. Distinguish ester from amide
+
+Compare CH₃C(=O)OCH₃ and CH₃C(=O)NHCH₃. Identify common electrophilic site and explain a structural reason their chemistry differs.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Both have an acyl carbon; only the amide has N-pair donation into it.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Both initially accept a suitable nucleophile at carbonyl carbon. Amide resonance stabilisation and leaving-group behaviour differ from ester, so common carbonyl shape does not imply equal reactivity or conditions.
+:::
+
+## 6. Repair an acid–amine shortcut
+
+For CH₃COOH+CH₃CH₂NH₂, use pKa 4.8 for acid and 10.7 for ethylammonium. Predict the initial favoured pair and explain why the result is not an amide bond.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare acid strengths in the proton-transfer equation.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃COO⁻+CH₃CH₂NH₃⁺ are favoured, with K≈10^5.9. This transfers H, not an acyl group. Amide formation needs suitable activation/conditions and a valid addition–elimination pathway.
+:::
+
+## 7. Resolve a formula-compatible unknown
+
+U has C₄H₈O₂, C=O IR without broadOH, and proton peaks 1.25 t 3H,2.05 s 3H,4.12 q 2H. Assign the ester candidate and reject the acid with two independent clues.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use the full ethyl/acetyl pattern, not just one triplet.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃COOCH₂CH₃ fits O–CH₂ quartet, ethyl methyl triplet and acetyl methyl singlet. Butanoic acid predicts acid OH and lacks O–CH₂ plus isolated acetyl methyl; terminal triplet alone could occur in either.
+:::
+
+## 8. Keep model claims honest
+
+The unknown spectra above are numerically simulated. A student uses the plot to claim their own unrelated isolate was measured and pure. Identify both unsupported parts of that claim.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Provenance and purity each need their own evidence.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A generated teaching trace is not a measurement of the student’s isolate. Even an appropriate measured functional-group spectrum alone would not necessarily prove purity. Sample-linked measurements and suitable composition checks are needed.
+:::
+
+## 9. Calculate a new limiting case
+
+A1:1 reaction has A=0.00400 mol, B=0.00600 mol and product coefficient 1. Product M=125.0 g/mol. Calculate limiter and theoretical mass.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare n/coefficient, then convert product mol to g.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A limits at 0.00400 mol product. Theoretical mass=0.00400×125.0=0.500 g. Excess B does not increase that stoichiometric maximum.
+:::
+
+## 10. Interpret a high apparent yield
+
+The previous theoretical mass is 0.500 g and isolate is 0.480 g. Calculate apparent yield. If NMR contains major extra signals, what should be investigated before stating pure product?
+
+::: {.callout-tip collapse="true" title="Hint"}
+A plausible mass fraction does not establish the numerator’s composition.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Apparent yield=96.0%, assuming product mass. Investigate residual solvent, another component, unreacted starting material or assignment error using appropriate full evidence; the problem does not identify a unique impurity.
+:::
+
+## 11. Audit a TLC conclusion
+
+A reference and isolate each have one spot atRf 0.50 under one condition. Explain the supported comparison and two reasons it does not uniquely prove identity/purity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ask what separation and detection could fail to distinguish.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Their detected retention matches under those conditions. Co-migration can hide distinct compounds, and some components may not be detected. A single matching spot is useful comparison evidence rather than a unique molecular proof.
+:::
+
+## 12. Write a final conclusion and next test
+
+Combine the hypothetical reaction amounts,96% apparent yield and uncertain NMR from this workshop into a short claim with limitation and targeted next observation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Include the quantity actually calculated and the evidence that challenges its interpretation.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The mass calculation gives 96% apparent isolated yield under the product-mass assumption, but unexpected NMR makes purity/identity uncertain. A complete spectral assignment and suitable comparison or separation should test a specific remaining alternative before claiming successful pure-product isolation.
+:::
+
+## Review your reasoning
+
+Choose two corrected errors: one in a drawing/calculation and one in an
+interpretation. Explain why the corrected answer follows from the supplied
+inputs. Keep the first attempt so you can see the change in your reasoning.

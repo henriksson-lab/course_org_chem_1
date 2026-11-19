@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>A two-state equilibrium population</title><desc>A two-state equilibrium population</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<rect x="195" y="92.33170843089096" width="130" height="207.66829156910904" rx="8" fill="#176b91" stroke="none"/>
+<text x="260" y="72.33170843089096" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">0.944</text>
+<text x="260" y="345" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">A: ΔG = 0</text>
+<rect x="635" y="287.66829156910904" width="130" height="12.331708430890965" rx="8" fill="#176b91" stroke="none"/>
+<text x="700" y="267.66829156910904" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">0.056</text>
+<text x="700" y="345" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">B: ΔG = 7000 J/mol</text>
+<text x="480" y="45" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">298.15 K; free energies include degeneracy</text>
+</svg>

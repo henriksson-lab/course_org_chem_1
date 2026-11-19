@@ -57,12 +57,17 @@ with tempfile.TemporaryDirectory(prefix='orgchem-browser-') as td:
                 if 'exceptionDetails' in result: raise RuntimeError(result['exceptionDetails'])
                 return result.get('result',{}).get('value')
             results=[]
+            history_results=[]
             for unit in units:
-                call('Page.navigate',{'url':(ROOT/'docs'/unit['slug']/'lec.html').as_uri()},session)
+                expected_url=(ROOT/'docs'/unit['slug']/'lec.html').as_uri()
+                call('Page.navigate',{'url':expected_url},session)
                 for _ in range(100):
-                    if evaluate('Boolean(window.Reveal && Reveal.isReady())'): break
+                    ready='location.href.split("#")[0] === '+json.dumps(expected_url)+' && Boolean(window.Reveal && Reveal.isReady())'
+                    if evaluate(ready): break
                     time.sleep(.1)
                 else: raise RuntimeError('Reveal did not initialise: '+unit['slug'])
+                if evaluate('Reveal.getConfig().history') is not False:
+                    raise RuntimeError('Slide changes must not add browser history entries: '+unit['slug'])
                 result=evaluate('''(async()=>{
                   Reveal.configure({transition:'none',autoAnimate:false});
                   await Promise.all(Array.from(document.querySelectorAll('img')).map(img=>new Promise(resolve=>{
@@ -99,8 +104,38 @@ with tempfile.TemporaryDirectory(prefix='orgchem-browser-') as td:
                     time.sleep(.15)
                     shot=call('Page.captureScreenshot',{'format':'png'},session)
                     Path('/tmp/orgchem-'+unit['slug']+'-slide.png').write_bytes(base64.b64decode(shot['data']))
+            # Reproduce the reported scaffold bug through the homepage's real
+            # lecture link. Even after many slide changes, one browser Back must
+            # return directly to that homepage, not to a previous slide.
+            for slug in ['structures','substitution','spectroscopy']:
+                home=(ROOT/'docs/index.html').as_uri()
+                call('Page.navigate',{'url':home},session)
+                for _ in range(100):
+                    ready=evaluate('Boolean(document.querySelector(\'a[href$="'+slug+'/lec.html"]\'))')
+                    if ready and evaluate('location.href')==home: break
+                    time.sleep(.05)
+                else: raise RuntimeError('Homepage lecture link unavailable: '+slug)
+                before=call('Page.getNavigationHistory',session=session)['currentIndex']
+                evaluate('document.querySelector(\'a[href$="'+slug+'/lec.html"]\').click(); true')
+                for _ in range(100):
+                    if slug+'/lec.html' in (evaluate('location.href') or '') and evaluate('Boolean(window.Reveal && Reveal.isReady())'): break
+                    time.sleep(.05)
+                else: raise RuntimeError('Could not enter lecture through homepage: '+slug)
+                evaluate('Reveal.slide(2);Reveal.slide(7);Reveal.slide(12);true')
+                time.sleep(.3)  # Allow Reveal's URL update to settle before Back.
+                after=call('Page.getNavigationHistory',session=session)
+                if after['currentIndex']!=before+1:
+                    raise RuntimeError('Slide navigation added history entries: '+slug)
+                call('Page.navigateToHistoryEntry',{'entryId':after['entries'][before]['id']},session)
+                for _ in range(100):
+                    if evaluate('location.href')==home: break
+                    time.sleep(.05)
+                else: raise RuntimeError('Browser Back did not return to course home: '+slug)
+                history_results.append({'unit':slug,'browser_back_returns_home':True})
+                print(f'{slug}: one browser Back returns to course home',flush=True)
             ws.close()
             (ROOT/'plan/layout-check.json').write_text(json.dumps(results,indent=2)+'\n')
+            (ROOT/'plan/navigation-check.json').write_text(json.dumps(history_results,indent=2)+'\n')
             if any(r['overflows'] or r['missingImages'] for r in results):
                 raise SystemExit('Browser layout check failed; inspect plan/layout-check.json')
             print('All lecture slides fit their canvas with all figures loaded.')

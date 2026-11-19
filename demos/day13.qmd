@@ -1,0 +1,29 @@
+---
+title: "Day 13: Count alcohol and carbonyl oxidation states"
+---
+
+Use this explorer for about **7–10 minutes**. Make a prediction first, change one input at a time, and record a chemical explanation rather than only a screenshot.
+
+## Explore the chemistry
+
+```{=html}
+<section class="chem-demo" id="day13" aria-label="Count alcohol and carbonyl oxidation states"></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/reactivity.js"></script>
+```
+
+## Prediction, exploration and explanation
+
+**Predict (1–2 minutes).** Assign the changing carbon in ethanol before checking. Use +1 per C–O bond order, −1 per C–H bond and 0 per C–C bond. Is your answer a formal charge?
+
+**Explore (3–4 minutes).** Check ethanol, then use the selected-next-oxidation button to move through ethanal to ethanoic acid. Compare propan-2-ol with propanone. Finally inspect 2-methylpropan-2-ol and explain why the simple next-oxidation button is unavailable.
+
+**Explain (2 minutes).** Show one full bond-count calculation. Why can oxidation happen without adding a new oxygen atom? Why would retaining all three C–C bonds while converting the tertiary centre to C=O give an invalid ordinary carbon?
+
+## Supplied model and its limits
+
+The displayed value is the **oxidation state of the changing carbon**, not its formal charge. C–O bond order contributes +1, C–H −1, C–C 0. The supplied selected net maps are primary alcohol→aldehyde→acid and secondary alcohol→ketone. The tertiary centre has no attached H, so the simple carbon-skeleton-retaining map cannot be used. Other harsh, C–C-cleaving chemistry is outside this model; no laboratory conditions are supplied.
+
+## Carry the explanation into practice
+
+Return to the local [alcohols redox lesson](../alcohols-redox/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved. The interactive works locally and needs no online account or additional software packages.

@@ -1,0 +1,174 @@
+---
+title: "Day 24: Structure evidence and synthesis calculations"
+---
+
+A **150-minute consolidation block**, containing 12 non-R problems. No book is
+needed. Suggested timing:10 minutes retrieval;48 minutes for problems 1–6;
+48 minutes for 7–10;34 minutes for 11–12;10 minutes review. The slower drawing
+and comparison intervals are included in that total. Continue unfinished work
+as independent practice rather than rushing a mechanism.
+
+Local explanations: [Spectroscopy](../spectroscopy/exercise.qmd) and [synthesis evidence](../synthesis-evidence/exercise.qmd).
+
+## Working definitions
+
+Use full-headed arrows for electron pairs: start at a lone pair or bond and
+end at its acceptor. Keep ordinary carbon to four bond orders and conserve
+atoms and net charge. For compatible proton-transfer data,
+K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and
+1 mol=1000 mmol; compare n/coefficient before predicting theoretical product.
+Apparent isolated yield=100×isolated/theoretical product mass. TLC uses
+Rf=spot/front distances from the same origin. For simple first-order NMR,
+n adjacent equivalent H give n +1 lines while integration counts H area.
+Every additional structure, constant and observation needed is supplied in
+the individual problem; no unseen textbook table is assumed.
+
+## 1. Constrain an unknown formula
+
+Unknown V has C₄H₈O₂. Use DBE=(2C+2−H)/2 and draw one ester and one acid compatible with its value.
+
+::: {.callout-tip collapse="true" title="Hint"}
+O is omitted in this simple C/H/O count.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+DBE=1. CH₃COOCH₂CH₃ and CH₃CH₂CH₂COOH both fit. The formula constrains composition but does not choose connectivity.
+:::
+
+## 2. Read functional-group evidence
+
+V has a complete simulated IR trace with strong carbonyl near 1740 cm⁻¹ and no broad O–H. Which of those two candidates is challenged, assuming adequate coverage?
+
+::: {.callout-tip collapse="true" title="Hint"}
+A carboxylic acid predicts a broad OH envelope.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Butanoic acid is challenged; the ester remains consistent. Absence evidence depends on detection and coverage, and one carbonyl feature does not uniquely prove the ester.
+:::
+
+## 3. Join two proton environments
+
+V has 1.25 ppm triplet 3H and 4.12 ppm quartet 2H. Use the simple n +1 rule to explain both linesets and propose a connected fragment.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Triplet sees 2H; quartet sees 3H.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The pair fits O–CH₂–CH₃: CH₂ is split by 3H and methyl by 2H, with 2:3 integration. The downfield CH₂ shift helps place O; multiplicity alone would not locate that atom.
+:::
+
+## 4. Place a third environment
+
+A remaining 2.05 ppm singlet integrates 3H. Assign it in CH₃COOCH₂CH₃ and explain why the distant O–CH₂ does not give ordinary vicinal splitting.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The acetyl methyl’s adjacent carbon is the carbonyl carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃–C(=O) gives the singlet because adjacent carbonyl C has no H. The O–CH₂ protons are not vicinal neighbours of that methyl in this simple model.
+:::
+
+## 5. Use carbon evidence
+
+V has simulated ¹³C signals 14,21,60,171 ppm. Assign them to the proposed ester and explain whether peak heights count carbons.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate ester carbonyl, O-bound CH₂ and two methyls.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+171=C=O,60=O–CH₂,14=terminal ethyl CH₃,21=acetyl CH₃. Routine carbon intensities are not reliable quantitative carbon counts; environment count and formula must be checked together.
+:::
+
+## 6. Test a competing structure
+
+Compare V with CH₃COCH(OH)CH₃, also C₄H₈O₂. Give two differences predicted by that hydroxyketone.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Its oxygen-bearing carbon is CH rather than CH₂.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+It predicts an OH-bearing 1H environment and a methyl beside one H, commonly a doublet, unlike V’s 2H quartet/3H triplet pair. It also predicts OH functionality in suitable conditions.
+:::
+
+## 7. Calculate reagent amounts
+
+A supplied 1:1 reaction uses 0.750 g reagent A at 150.0 g/mol and 0.900 g reagent B at 100.0 g/mol, giving one product P per reaction extent. Calculate mmol and limiting reagent.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use n=m/M and compare n/coefficient.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A=0.00500 mol=5.00 mmol; B=0.00900 mol=9.00 mmol. A limits the desired reaction to 5.00 mmol product.
+:::
+
+## 8. Predict and compare product mass
+
+For that reaction, P has M=200.0 g/mol and isolate mass 0.720 g. Calculate theoretical mass and apparent isolated yield and state the purity assumption.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Theoretical product amount is 5.00 mmol from the supplied limiter.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Theoretical mass=0.00500×200.0=1.000 g. Apparent yield=72.0%. This assumes weighed isolate is product; it does not establish purity or actual conversion.
+:::
+
+## 9. Interpret TLC references
+
+Under one condition front distance is 6.0 cm, A reference 1.8 cm, P reference 3.6 cm and crude spots at both. Calculate Rf and state the strongest modest conclusion.
+
+::: {.callout-tip collapse="true" title="Hint"}
+All distances start at the same origin.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Rf A=0.30 and P=0.60. The crude has at least two detected components with matching retention to the references under those conditions, without unique identity proof or quantitative conversion.
+:::
+
+## 10. Recognise unresolved mixtures
+
+An isolate shows one TLC spot atRf 0.60 but extra major NMR signals. Explain why the observations can coexist and propose a targeted next check.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Different compounds may co-migrate or evade the detection method.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The single retention feature can hide a mixture. Compare full spectral assignments or use a suitable second separation condition that tests the extra component. Do not overrule NMR using the spot count.
+:::
+
+## 11. Check independent mass inputs
+
+A report recomputes theoretical mass from isolated mass rather than starting reagents. Explain why this makes the yield circular and give the correct calculation chain.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The denominator must be predicted independently of recovered mass.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Starting masses→mol→limiting extent→theoretical P mol→theoretical P mass. Independently measured isolated mass enters only the yield numerator. Reusing it to define the theoretical denominator destroys the intended comparison.
+:::
+
+## 12. Write one supported conclusion
+
+For V, all spectral observations are simulated and fit the ester candidate; the separate reaction data give 72% apparent yield. Can you claim these spectra identify that reaction’s real isolate?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Do not merge unrelated teaching datasets into one experimental story.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+No. The V model supports a candidate assignment for its supplied data, and the amount exercise gives 72% under its product-mass assumption. Real-isolate identity requires appropriately measured and linked sample evidence, not an unrelated simulated trace.
+:::
+
+## Review your reasoning
+
+Choose two corrected errors: one in a drawing/calculation and one in an
+interpretation. Explain why the corrected answer follows from the supplied
+inputs. Keep the first attempt so you can see the change in your reasoning.

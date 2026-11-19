@@ -1,6 +1,8 @@
 ---
 title: Synthesis, yield and experimental evidence
-subtitle: Week 5 · Structure, electron flow and evidence
+subtitle: Week 5 · 45-minute teaching session
+session-minutes: 45
+pacing-seconds-per-slide: 40
 format:
   revealjs:
     theme:
@@ -15,140 +17,504 @@ format:
     html-math-method: katex
 ---
 
-## What will you be able to explain?
+## A chemical route through this session
 
-- Plan a short route using known functional-group changes.
-- Calculate limiting reagent, theoretical amount and isolated yield with units.
-- Evaluate identity and purity separately from the recovered mass.
+Connect reaction planning to recorded amounts and evidence. Keep theoretical product, isolated yield, conversion, identity and purity as separate claims.
 
 ::: notes
-Start with a drawn molecule and an explanation from the preceding unit. Ask students to predict before revealing an answer. Use the practice page for complete worked checks rather than putting dense paragraphs on slides.
+45-minute budget: retrieval 4 min; route planning 5 min; amount/limiting-reagent calculations with paper checks 12 min; theoretical and isolated yield 8 min; TLC and spectral evidence 10 min; report critique and exit 6 min. Total 45 min, including calculation and discussion.
+
+Suggested 30 seconds; adjust to the explanation and class response. Plan 45 minutes including short drawing and discussion intervals. Routine visual frames take roughly 40 seconds; worked checks need longer and some resolutions can be quicker. Treat timings as guidance, with room for questions.
 :::
 
-## Plan with functional groups
+## Retrieve the starting idea
 
-![Oxidation followed by esterification connects ethanol, ethanoic acid and ethyl ethanoate.](figures/01-short-route.svg){width=85% fig-alt="Oxidation followed by esterification connects ethanol, ethanoic acid and ethyl ethanoate."}
-
-Choose a target transformation before selecting conditions.
+Write amount = mass / molar mass with units. What quantity results from g divided by g/mol?
 
 ::: notes
-The route uses a separate ethanol portion in the esterification stage. Strong oxidation to the acid requires suitable conditions; controlled aldehyde isolation is a different objective. These are planning examples, not laboratory instructions.
+Suggested 30 seconds; adjust to the explanation and class response. Give students a short individual attempt. Worked answer: Mol. Calculate amounts before comparing reagents and include balanced coefficients.
 :::
 
-## Balance before calculating
+## Begin with functional-group changes
 
-![The aspirin teaching example uses one salicylic acid and one acetic anhydride per aspirin.](figures/02-stoichiometry.svg){width=85% fig-alt="The aspirin teaching example uses one salicylic acid and one acetic anhydride per aspirin."}
+![Two simple transformations connect an alcohol and an ester](figures/01-short-route.svg){width=85% fig-alt="Two simple transformations connect an alcohol and an ester"}
 
-The other product is ethanoic acid; do not drop atoms from the equation.
+Which two transformations connect ethanol to the ester through an acid?
 
 ::: notes
-The sample masses and yields are simulated. The acetylation changes the phenolic OH into an ester while retaining the salicylic-acid carboxyl group.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Oxidation gives ethanoic acid; acid-catalysed esterification with another ethanol portion gives ethyl ethanoate.
 :::
 
-## Find the limiting reagent
+## Apply: begin with functional-group changes
 
-![10.0 mmol/1 is less than 15.0 mmol/1, so salicylic acid limits theoretical aspirin.](figures/03-limiting-reagent.svg){width=85% fig-alt="10.0 mmol/1 is less than 15.0 mmol/1, so salicylic acid limits theoretical aspirin."}
-
-Compare n divided by its stoichiometric coefficient, not the masses.
+Where does the ethoxy fragment of the final ester come from?
 
 ::: notes
-The smaller mass need not be limiting. A change in stoichiometry would change the comparison even if the measured amounts stayed the same.
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: A separate ethanol portion supplies the O–CH₂CH₃ fragment in the esterification step.
 :::
 
-## Predict the maximum product mass
+## Choose the intended oxidation endpoint
 
-![0.0100 mol times 180.16 g/mol gives 1.8016 g theoretical aspirin.](figures/04-theoretical-mass.svg){width=85% fig-alt="0.0100 mol times 180.16 g/mol gives 1.8016 g theoretical aspirin."}
+![An aldehyde target requires a different stopping point](figures/11-route-stopping.svg){width=85% fig-alt="An aldehyde target requires a different stopping point"}
 
-Keep units visible and round the final reported result appropriately.
+Why is an unspecified oxidation arrow insufficient for an aldehyde target?
 
 ::: notes
-The word theoretical describes the stoichiometric upper bound under assumed complete conversion and no competing pathways. It is not a guarantee of product formation.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An aldehyde can undergo further oxidation. Conditions must favour its formation and isolation rather than the acid.
 :::
 
-## Calculate isolated yield
+## Apply: choose the intended oxidation endpoint
 
-![An isolated mass of 1.20 g corresponds to 66.6% of the theoretical mass.](figures/05-yield.svg){width=85% fig-alt="An isolated mass of 1.20 g corresponds to 66.6% of the theoretical mass."}
-
-A mass-based yield assumes that the weighed material is the stated product.
+Is stopping oxidation early the same as proving pure ethanal?
 
 ::: notes
-Residual solvent, water or impurities can inflate the apparent mass. Do not call this conversion, and do not claim purity solely from a plausible percentage.
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Product identity and purity require suitable observations, not just a target label or reaction time.
 :::
 
-## Read a TLC comparison
+## Inspect the actual aspirin transformation
 
-![The simulated crude lane has spots matching starting-material and product references under the same conditions.](figures/06-tlc.svg){width=85% fig-alt="The simulated crude lane has spots matching starting-material and product references under the same conditions."}
+![Aspirin formation acetylates the phenolic oxygen](figures/12-aspirin-structure.svg){width=85% fig-alt="Aspirin formation acetylates the phenolic oxygen"}
 
-A reference match supports a comparison, not unique identification.
+Which oxygen-containing site changes and which acid group remains?
 
 ::: notes
-The plate is a schematic of supplied teaching observations. TLC retention depends on stationary phase, eluent and conditions; Rf is not a compound-specific constant.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The phenolic oxygen receives an acetyl group; the carboxylic acid remains. The target contains an ester and an acid.
 :::
 
-## Measure from the origin
+## Apply: inspect the actual aspirin transformation
 
-![For a 3.2 cm spot and 5.0 cm solvent-front travel, Rf = 0.64.](figures/07-rf.svg){width=85% fig-alt="For a 3.2 cm spot and 5.0 cm solvent-front travel, Rf = 0.64."}
-
-Both distances start at the same baseline; the ratio has no units.
+Would every O–H-related feature necessarily disappear after successful acetylation?
 
 ::: notes
-Measure the spot centre consistently. If the solvent front is unknown or runs off the plate, an Rf cannot be reliably reconstructed from this drawing.
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Carboxylic acid O–H remains, even though the phenolic OH has changed.
 :::
 
-## Ask which functional groups remain
+## Balance the amount calculation first
 
-![An aspirin-like teaching trace retains acid features and adds ester evidence.](figures/08-product-ir.svg){width=85% fig-alt="An aspirin-like teaching trace retains acid features and adds ester evidence."}
+![An amount table follows a balanced equation](figures/02-stoichiometry.svg){width=85% fig-alt="An amount table follows a balanced equation"}
 
-Check the expected product structure rather than assuming every starting-material feature should disappear.
+What mole ratio connects the two reagents and aspirin?
 
 ::: notes
-The carboxylic acid remains after phenolic acetylation. Do not interpret persistent acid O–H as automatic proof of unreacted salicylic acid; the phenolic and acid OH regions require care.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The supplied teaching equation is salicylic acid + acetic anhydride → aspirin + ethanoic acid, all coefficients one.
 :::
 
-## One spot need not mean one compound
+## Resolve: balance the amount calculation first
 
-![Two distinct compounds can have the same Rf in one eluent.](figures/09-comigration.svg){width=85% fig-alt="Two distinct compounds can have the same Rf in one eluent."}
+![An amount table follows a balanced equation](figures/02-stoichiometry.svg){width=85% fig-alt="An amount table follows a balanced equation"}
 
-Complement TLC with spectral evidence and other suitable purity checks.
+The supplied teaching equation is salicylic acid + acetic anhydride → aspirin + ethanoic acid, all coefficients one.
 
 ::: notes
-Co-migration is a counterexample to the inference “one spot proves pure”. A mixture can also contain components invisible under the chosen detection method.
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: It accounts for the remaining atoms and confirms the balanced net transformation, even though aspirin is the target.
 :::
 
-## Keep the calculation reproducible
+## Apply: balance the amount calculation first
 
-![Saved raw mass and an amount table feed an Rmd calculation and report.](figures/10-reproducible-chain.svg){width=85% fig-alt="Saved raw mass and an amount table feed an Rmd calculation and report."}
-
-Changing an input and knitting again should update every dependent result.
+Why include the ethanoic acid product in the equation?
 
 ::: notes
-Students should keep raw observations separate from derived columns. Rerendering does not validate whether the raw record or the chemical model is correct; each also needs checking.
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It accounts for the remaining atoms and confirms the balanced net transformation, even though aspirin is the target.
 :::
 
-## Work one example on paper
+## Convert mass to chemical amount
 
-Using 1.3812 g salicylic acid (138.12 g/mol) and 1.53135 g acetic anhydride (102.09 g/mol), calculate both amounts, theoretical aspirin mass and yield from 1.20 g isolated material. Explain why these numbers cannot establish purity.
+![Mass divided by molar mass gives chemical amount](figures/13-unit-calculation.svg){width=85% fig-alt="Mass divided by molar mass gives chemical amount"}
+
+Which units cancel in 1.3812 g divided by 138.12 g/mol?
 
 ::: notes
-Allow independent thinking, then compare in pairs. Ask students to defend each atom, charge or assignment. Show the worked check only after a first attempt.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Grams cancel, leaving mol: 0.01000 mol or 10.00 mmol salicylic acid.
 :::
 
-## A common mistake to repair
+## Resolve: convert mass to chemical amount
 
-“66.6% yield” and “66.6% pure” answer different questions. Also distinguish isolated yield from starting-material conversion and product selectivity.
+![Mass divided by molar mass gives chemical amount](figures/13-unit-calculation.svg){width=85% fig-alt="Mass divided by molar mass gives chemical amount"}
 
-Explain the correction using a drawing or a specific observation.
+Grams cancel, leaving mol: 0.01000 mol or 10.00 mmol salicylic acid.
 
-## Test your explanation
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 0.01500 mol = 15.00 mmol. Different molar masses prevent direct comparison of reagent masses.
+:::
 
-1. Which atoms, bonds or observations support the claim?
-2. What alternative would make a different prediction?
-3. What assumption limits the conclusion?
+## Apply: convert mass to chemical amount
 
-Give a partner your explanation without the answer label. Can they follow it?
+Convert 1.53135 g anhydride using 102.09 g/mol.
 
-## Take the reasoning forward
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 0.01500 mol = 15.00 mmol. Different molar masses prevent direct comparison of reagent masses.
+:::
 
-Complete the [practice and worked examples](exercise.qmd) and [self-check](quiz.qmd).
+## Compare available reaction extents
 
-Selected Solomons chapters 8, 12 and 17 sections; see the [reading guide](../reference/reading.qmd) for the provisional textbook map and open references.
+![Compare amount divided by stoichiometric coefficient](figures/03-limiting-reagent.svg){width=85% fig-alt="Compare amount divided by stoichiometric coefficient"}
+
+Which starting amount gives the smaller n/coefficient?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: 10.0 mmol/1 is smaller than 15.0 mmol/1, so salicylic acid limits theoretical aspirin formation.
+:::
+
+## Resolve: compare available reaction extents
+
+![Compare amount divided by stoichiometric coefficient](figures/03-limiting-reagent.svg){width=85% fig-alt="Compare amount divided by stoichiometric coefficient"}
+
+10.0 mmol/1 is smaller than 15.0 mmol/1, so salicylic acid limits theoretical aspirin formation.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. Convert masses to amounts and include balanced coefficients before comparing.
+:::
+
+## Apply: compare available reaction extents
+
+Does the smaller gram mass always identify the limiting reagent?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Convert masses to amounts and include balanced coefficients before comparing.
+:::
+
+## Transfer the rule to another equation
+
+![Stoichiometric coefficients change the limiting comparison](figures/14-coefficient-comparison.svg){width=85% fig-alt="Stoichiometric coefficients change the limiting comparison"}
+
+For 2A + B → P, compare 10 mmol A and 8 mmol B.
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A gives 5 mmol extent while B gives 8 mmol; A limits and at most 5 mmol P can form.
+:::
+
+## Resolve: transfer the rule to another equation
+
+![Stoichiometric coefficients change the limiting comparison](figures/14-coefficient-comparison.svg){width=85% fig-alt="Stoichiometric coefficients change the limiting comparison"}
+
+A gives 5 mmol extent while B gives 8 mmol; A limits and at most 5 mmol P can form.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: The limiting extent is still 5 mmol, but maximum product amount would be 2×5 = 10 mmol.
+:::
+
+## Apply: transfer the rule to another equation
+
+What changes if the product coefficient were two?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The limiting extent is still 5 mmol, but maximum product amount would be 2×5 = 10 mmol.
+:::
+
+## Change one input and predict first
+
+![Changing one input can change the limiting reagent](figures/15-changed-limiter.svg){width=85% fig-alt="Changing one input can change the limiting reagent"}
+
+If anhydride is reduced to 0.51045 g, does the original limiting reagent remain limiting?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: That mass is 5.00 mmol anhydride, so it now limits the 1:1 reaction instead of the 10.0 mmol acid.
+:::
+
+## Resolve: change one input and predict first
+
+![Changing one input can change the limiting reagent](figures/15-changed-limiter.svg){width=85% fig-alt="Changing one input can change the limiting reagent"}
+
+That mass is 5.00 mmol anhydride, so it now limits the 1:1 reaction instead of the 10.0 mmol acid.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 0.00500 mol × 180.16 g/mol = 0.9008 g.
+:::
+
+## Apply: change one input and predict first
+
+Calculate the new maximum aspirin mass with M = 180.16 g/mol.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 0.00500 mol × 180.16 g/mol = 0.9008 g.
+:::
+
+## Calculate theoretical product mass
+
+![Theoretical mass is a stoichiometric prediction](figures/04-theoretical-mass.svg){width=85% fig-alt="Theoretical mass is a stoichiometric prediction"}
+
+What does the supplied 10.0 mmol limit predict in grams?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: 0.0100 mol × 180.16 g/mol = 1.8016 g theoretical aspirin before final rounding.
+:::
+
+## Resolve: calculate theoretical product mass
+
+![Theoretical mass is a stoichiometric prediction](figures/04-theoretical-mass.svg){width=85% fig-alt="Theoretical mass is a stoichiometric prediction"}
+
+0.0100 mol × 180.16 g/mol = 1.8016 g theoretical aspirin before final rounding.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. It is the maximum from stoichiometric availability under the assumed desired transformation.
+:::
+
+## Apply: calculate theoretical product mass
+
+Does this prediction prove complete conversion?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It is the maximum from stoichiometric availability under the assumed desired transformation.
+:::
+
+## Use the independently measured isolated mass
+
+![Isolated yield compares recovered mass with theoretical mass](figures/05-yield.svg){width=85% fig-alt="Isolated yield compares recovered mass with theoretical mass"}
+
+How does 1.20 g compare with 1.8016 g theoretical?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: 100×1.20/1.8016 ≈ 66.6% apparent isolated yield, assuming the material weighed is product.
+:::
+
+## Resolve: use the independently measured isolated mass
+
+![Isolated yield compares recovered mass with theoretical mass](figures/05-yield.svg){width=85% fig-alt="Isolated yield compares recovered mass with theoretical mass"}
+
+100×1.20/1.8016 ≈ 66.6% apparent isolated yield, assuming the material weighed is product.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 100×1.10/1.8016 ≈ 61.1%; only the numerator changed.
+:::
+
+## Apply: use the independently measured isolated mass
+
+What is the approximate yield for 1.10 g with the same starting amounts?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 100×1.10/1.8016 ≈ 61.1%; only the numerator changed.
+:::
+
+## Inspect the mass–yield relationship
+
+![A mass-based yield scales with recovered mass](figures/16-yield-sensitivity.svg){width=85% fig-alt="A mass-based yield scales with recovered mass"}
+
+Why is the line straight when theoretical mass stays fixed?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Yield is a constant factor times isolated mass. Linearity reflects the calculation, not experimental evidence for identity.
+:::
+
+## Apply: inspect the mass–yield relationship
+
+Would an apparent value above 100% demonstrate an excellent synthesis?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It calls the product-mass assumption or inputs into question; residual solvent, impurities or calculation errors can inflate the value.
+:::
+
+## Read the plate as a separation observation
+
+![Simulated TLC: crude contains two visible components](figures/06-tlc.svg){width=85% fig-alt="Simulated TLC: crude contains two visible components"}
+
+What do two visible crude spots support under these conditions?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: At least two detected components are present, with retention consistent with starting/product references in this example.
+:::
+
+## Apply: read the plate as a separation observation
+
+Can their relative spot darkness directly give conversion?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Not without a validated quantitative detection relationship; response and visualisation can differ among compounds.
+:::
+
+## Measure from a common origin
+
+![Measure both TLC distances from the same origin](figures/17-tlc-distances.svg){width=85% fig-alt="Measure both TLC distances from the same origin"}
+
+Which two distances enter Rf for the product reference?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Spot centre 3.2 cm divided by solvent-front distance 5.0 cm gives Rf 0.64. Both start at the baseline.
+:::
+
+## Resolve: measure from a common origin
+
+![Measure both TLC distances from the same origin](figures/17-tlc-distances.svg){width=85% fig-alt="Measure both TLC distances from the same origin"}
+
+Spot centre 3.2 cm divided by solvent-front distance 5.0 cm gives Rf 0.64. Both start at the baseline.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Dimensionless, because the same distance units cancel.
+:::
+
+## Apply: measure from a common origin
+
+What are the units of Rf?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Dimensionless, because the same distance units cancel.
+:::
+
+## Interpret the numerical Rf
+
+![Rf measures distance relative to the solvent front](figures/07-rf.svg){width=85% fig-alt="Rf measures distance relative to the solvent front"}
+
+Why compare samples on the same plate and conditions?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Rf depends on eluent, stationary phase and conditions. Reference comparison is more meaningful when those factors match.
+:::
+
+## Apply: interpret the numerical Rf
+
+Could an Rf measured in another eluent uniquely confirm identity?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Different conditions change retention, and even matching values are not unique molecular identifiers.
+:::
+
+## Recognise an uncomputable quantity
+
+![A TLC front must be recorded before calculating Rf](figures/18-missing-front.svg){width=85% fig-alt="A TLC front must be recorded before calculating Rf"}
+
+Can spot distance alone reconstruct a reliable Rf?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: No. Without the solvent-front distance, the denominator is unknown. Do not invent a typical front travel.
+:::
+
+## Apply: recognise an uncomputable quantity
+
+What primary observation should have been recorded?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The solvent-front position relative to the same origin, normally marked while it is observable.
+:::
+
+## Test the one-spot inference
+
+![Two compounds can co-migrate on a TLC plate](figures/09-comigration.svg){width=85% fig-alt="Two compounds can co-migrate on a TLC plate"}
+
+How can two compounds produce one TLC spot in this example?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: They can have the same retention and co-migrate. Other components might also be invisible under the detection method.
+:::
+
+## Apply: test the one-spot inference
+
+What modest conclusion is supported by a single visible spot?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: One detected retention feature under that separation and detection condition, not unique identity or guaranteed purity.
+:::
+
+## Compare TLC with independent evidence
+
+![A mixture can add signals without changing a single TLC spot](figures/19-mixture-signals.svg){width=85% fig-alt="A mixture can add signals without changing a single TLC spot"}
+
+What does an extra major NMR signal ask you to investigate?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A mixture, residual solvent, starting material or an incorrect assignment could contribute. Do not name a unique impurity without enough evidence.
+:::
+
+## Resolve: compare TLC with independent evidence
+
+![A mixture can add signals without changing a single TLC spot](figures/19-mixture-signals.svg){width=85% fig-alt="A mixture can add signals without changing a single TLC spot"}
+
+A mixture, residual solvent, starting material or an incorrect assignment could contribute. Do not name a unique impurity without enough evidence.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. The yield calculation assumes product mass; contradictory identity/purity evidence tests that assumption.
+:::
+
+## Apply: compare TLC with independent evidence
+
+Should a high isolated yield overrule contradictory NMR?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. The yield calculation assumes product mass; contradictory identity/purity evidence tests that assumption.
+:::
+
+## Predict retained and changed spectral motifs
+
+![The acid group is retained while the phenolic OH is acetylated](figures/20-aspirin-local-change.svg){width=85% fig-alt="The acid group is retained while the phenolic OH is acetylated"}
+
+Why can an acid-region feature remain in an aspirin-like product?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The carboxylic acid group is retained. Phenolic acetylation creates an ester but does not remove all O–H functionality.
+:::
+
+## Apply: predict retained and changed spectral motifs
+
+Which starting-group interpretation would be too strong from acid O–H alone?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Calling every acid O–H feature unreacted salicylic acid would be unjustified; the target itself contains an acid.
+:::
+
+## Use product spectra with the target structure
+
+![Simulated aspirin-like IR teaching trace](figures/08-product-ir.svg){width=85% fig-alt="Simulated aspirin-like IR teaching trace"}
+
+Which combination is consistent with acid plus ester functions?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Carbonyl evidence for the two motifs and retained acid features are consistent with the aspirin-like target, but the simulated trace is not unique proof.
+:::
+
+## Apply: use product spectra with the target structure
+
+Why label this trace simulated rather than measured?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It was constructed for teaching and does not document an actual isolation; provenance limits the claims it supports.
+:::
+
+## Keep the two mass inputs independent
+
+![Trace a reported result back to its observations](figures/10-reproducible-chain.svg){width=85% fig-alt="Trace a reported result back to its observations"}
+
+Which measurements determine theoretical mass, and which enters yield separately?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Starting-reagent masses and molar masses determine theoretical product. Independently weighed isolate mass enters the yield numerator.
+:::
+
+## Apply: keep the two mass inputs independent
+
+What should happen when only isolated mass changes in an Rmd report?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Calculated yield should update; theoretical product amount should stay fixed. A fresh Knit should reconstruct both from saved inputs.
+:::
+
+## Integrate one short case
+
+A 1:1 teaching reaction uses 10.0 mmol limiting reagent; product M = 180.16 g/mol and isolate = 1.20 g. Give theoretical mass, apparent yield and one limitation.
+
+::: notes
+Suggested 120 seconds; adjust to the explanation and class response. Give time to formulate the claim and compare a partner explanation. Worked answer: Theoretical mass is 1.8016 g and apparent isolated yield about 66.6%. The isolate may contain impurities or solvent, so mass alone does not establish purity.
+:::
+
+## Compare the worked reasoning
+
+Theoretical mass is 1.8016 g and apparent isolated yield about 66.6%. The isolate may contain impurities or solvent, so mass alone does not establish purity.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Ask students to identify the exact step or observation their own reasoning omitted. This is a correction interval within the session, not a new topic.
+:::
+
+## Exit explanation
+
+Why does one visible TLC spot not prove pure product?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Worked answer: Co-migration and invisible components can hide a mixture; combine evidence under suitable conditions. Ask for a causal explanation, not a single vocabulary label.
+:::
+
+## Continue with independent practice
+
+Use the [standalone practice and worked checks](exercise.qmd), then the [self-check](quiz.qmd).
+
+All required inputs and explanations are provided locally. The [reading guide](../reference/reading.qmd) offers optional textbook support.
+
+::: notes
+Suggested 20 seconds; adjust to the explanation and class response. Preview the local exercise route. No book purchase or external problem set is needed to complete it. Leave time to note one corrected misconception.
+:::

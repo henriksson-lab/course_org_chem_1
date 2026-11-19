@@ -1,0 +1,163 @@
+---
+title: "Day 10: Week 2 consolidation: explain an unfamiliar spatial case"
+---
+
+This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+
+### Refresher and worked starting point
+
+Use all conventions supplied here and in the linked local lectures. Newman front/rear are distinct atoms. Fischer horizontal=toward/vertical=away. CIP ranks atomic number first; with 4 away clockwise=R. E/Z needs different substituents at both alkene ends. For two-enantiomer compositions, ee=|R%−S%|. Effective two-state populations use w=exp(−ΔG/RT), then normalise; R=8.314462618J/(molK), T=298.15 K.
+
+Local lessons: [structures](../structures/lec.qmd), [conformations](../conformations/lec.qmd), [stereochemistry](../stereochemistry/lec.qmd).
+
+## 1. Recover identity behind a rotated drawing
+
+Draw CH₃CH₂CH₂CH₃ twice with different bends in the chain. Do these establish different configurations? Identify any tetrahedral stereocentre or E/Z element that could justify that claim.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A drawn bend cannot create four different substituents or a double bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ordinary butane has no tetrahedral configurational stereocentre and no E/Z double-bond element. The bends are different views or conformations of the same connected molecule, not different configurations. Adding depth information cannot create a stereogenic element missing from the actual structure.
+:::
+
+## 2. Compare two constitutional frameworks
+
+Draw CH₃CH₂CH₂CH₃ and(CH₃)₃CH. Give formulas and explain why rotation cannot interconvert the connectivities.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count carbon neighbours at the branching site.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Both are C₄H₁₀. Branched central CH has three C neighbours; no carbon in unbranched butane has three. Bond rotation preserves neighbours and cannot create that branch.
+:::
+
+## 3. Read a torsional path
+
+For a qualitative ethane curve with maxima at 0,120,240,360°, give minima positions and why they repeat.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Staggered lies halfway between adjacent eclipses.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Minima at 60,180,300°. Equivalent H substituents make the three minima equivalent. The qualitative drawing does not give numerical free-energy populations.
+:::
+
+## 4. Use supplied numerical weights
+
+Weights of states A/B are 1 and 0.10. Compute fractions and say whether B is absent.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Normalise by 1.10.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+A≈0.9091 andB≈0.0909. B has a smaller but finite equilibrium population, not zero. Weights are not fractions until normalised.
+:::
+
+## 5. Change only the energy reference
+
+Two supplied state free energies are 0 and 3500 J/mol. Add2000 J/mol to both. Will the population ratio change?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The common exponential factor cancels.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+No. The difference stays3500 J/mol. Both weights gain the same multiplier and their normalised ratio remains unchanged.
+:::
+
+## 6. Distinguish a barrier claim
+
+An equatorial methyl chair is favoured. Does that preference alone determine how many flips occur each second?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Equilibrium preference and activation barrier answer different questions.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+No. The state free-energy difference describes preference; the barrier affects the rate. Additional kinetic information is required.
+:::
+
+## 7. Do one direct-atom priority ranking
+
+For a centre directly attached to I, Br, Cl, H, rank the groups. Supplied atomic numbers:I53, Br35, Cl17, H1.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use atomic number, not page position.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+I>Br>Cl>H. The given atomic numbers resolve the first comparison without needing further substituent shells.
+:::
+
+## 8. Assign the opposite lactic projection
+
+Draw COOH top, CH₃ bottom, OH right, H left. Assign R/S, then rotate the entire Fischer180° and check identity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+H points toward; apply the final inversion.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+This is R. After180°, labels become CH₃ top, COOH bottom, OH left, H right, still R. The whole rotation is not a one-pair exchange.
+:::
+
+### Optional extension
+
+Use these after the core or during later revision.
+
+## 9. Distinguish enantiomers from diastereomers
+
+Use CH₃CH(Br)CH(Cl)CH₃, numbered from the Br end. Classify the supplied (2R,3R)/(2S,3S) pair and (2R,3R)/(2R,3S) pair; no new R/S assignment is required.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A mirror reverses both centres.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+RR/SS are enantiomers; RR/RS are diastereomers. The stated absence of special symmetry is necessary when using descriptors alone this way.
+:::
+
+## 10. Compute a different ee
+
+A two-enantiomer mixture is 65 % S,35 % R. Give ee and recover the major percentage from the excess.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Subtract, then solve major=(100+ee)/2.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+30 % ee in favour of S. The major fraction is(100+30)/2=65%. An ee of 30 % does not mean30 % major enantiomer.
+:::
+
+## 11. Reject a rotation-sign shortcut
+
+A student assigns R and writes “therefore rotates light clockwise and binds more strongly.” Identify both unsupported steps.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Configuration is not an optical or receptor measurement.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+R does not universally determine(+)/(−), and neither descriptor determines relative receptor affinity. Each claim needs the appropriate measured evidence and stated conditions.
+:::
+
+## 12. Design a bounded stereochemical conclusion
+
+A sample’s measured enantiomer ratio is 90:10R:S but an unrelated solvent impurity remains. State ee and a conclusion that does not overclaim purity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate the two kinds of composition.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The measured enantiomeric components have80 % ee in favour of R. That result does not establish total chemical purity because the solvent is outside the R/S ratio.
+:::
+
+## Close the workshop
+
+Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.

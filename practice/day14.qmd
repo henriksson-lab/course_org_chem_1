@@ -1,0 +1,166 @@
+---
+title: "Day 14: Week 3 mechanism workshop: choose, draw, audit"
+---
+
+This mixed bank is self-contained. Use problems 1–8 as a **core 80–100 minute workshop**, then choose problems 9–12 as **optional transfer (30–45 minutes)**. Draw before reading checks; paired discussion can compare reasoning, but retain your own corrected drawing. No textbook questions or external figures are needed.
+
+## Refresher and worked start
+
+Full-headed arrows move pairs from bonds/lone pairs; ordinary carbon has total bond order four. Alpha is the leaving-group carbon; beta is its neighbour. E2 uses an appropriate anti geometry and three linked pair movements. Selected carbonyl reduction gives alkoxide then alcohol after proton transfer.
+
+For the worked starting example OH⁻+CH₃Br→CH₃OH+Br⁻, draw OH pair→C and C–Br pair→Br. Both sides have net charge −1; the concerted step contains no carbocation. Use the same atom/charge audit in the problems below.
+
+## 1. Find two reacting centres
+
+Draw CH₃CH₂Br and CH₃CH(Br)CH₂CH₃. Mark the Br-bearing carbon and every beta carbon. Which substrate has the more accessible SN2 centre?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare local neighbours rather than whole-molecule carbon totals.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Ethyl bromide has a primary reaction centre and one beta carbon;2-bromobutane has a secondary centre and two beta carbons. The primary centre is less sterically obstructed for backside attack, all else comparable.
+:::
+
+## 2. Build a carbon–oxygen bond
+
+Assume suitable dry SN2 conditions for CH₃O⁻+CH₃CH₂Br. Draw both arrows and products, including charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Oxygen donates the pair; Br takes the old C–Br pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Products are CH₃OCH₂CH₃ and Br⁻. Oxygen becomes a neutral two-bond ether oxygen. Net charge is −1 before and after. The new bond is to the substrate carbon, not to bromine.
+:::
+
+## 3. Keep the nitrogen proton count
+
+Draw the first step of NH₃ attack on CH₃CH₂Br in the selected SN2 model.
+Then draw a possible equilibrium proton transfer to another NH₃ molecule.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate bond formation from a later proton transfer.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+First obtain CH₃CH₂NH₃⁺+Br⁻. Another ammonia takes H⁺ to give CH₃CH₂NH₂+NH₄⁺. Neutral ethylamine is not the immediate attack product, because nitrogen initially retains all three H atoms.
+No quantitative equilibrium extent is asserted by these formal steps; excess
+ammonia and the actual conditions matter.
+:::
+
+## 4. Repair a charge-inconsistent mechanism
+
+A drawing shows H₂O adding to (CH₃)₃C⁺ and immediately labels the product(CH₃)₃COH. Supply the missing intermediate and proton-transfer step.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water oxygen has two H atoms when it first bonds to carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The immediate product is(CH₃)₃COH₂⁺. Water then removes H⁺, giving (CH₃)₃COH+H₃O⁺. This preserves the original H atoms and positive charge through the steps.
+:::
+
+## 5. Draw one anti view
+
+Look from a beta carbon toward the Br-bearing alpha carbon of an alkyl bromide. Put reacting beta-H at twelve o’clock and rear Br at six. Draw a Newman view and name the angle.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Front bonds start at the dot; rear bonds at the circle.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The H–C–C–Br dihedral is 180°, anti-periplanar. Add the remaining substituents consistently to each carbon; the selected H and Br are on opposite sides of the viewed bond.
+:::
+
+## 6. Turn that view into E2
+
+Using that anti arrangement and B⁻, draw the E2 step and account for all three pairs.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Do not leave the C–H pair without a destination.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+B pair→H forms BH; C–H pair→C–C forms the pi bond; C–Br pair→Br gives Br⁻. The step is concerted and has no carbocation intermediate.
+:::
+
+## 7. Choose possible alkene positions
+
+Draw all constitutional alkenes from formal HBr loss from 2-bromobutane. State which has E/Z forms and one reason products need not be equally abundant.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Test each beta site and then apply the two-different-groups rule at each double-bond carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The constitutional products are but-1-ene and but-2-ene. But-2-ene has E/Z forms; but-1-ene does not. Geometry, base sterics and other conditions can make pathways unequally favoured.
+:::
+
+## 8. Map the SN1/E1 branch
+
+From(CH₃)₃C⁺ in water, draw carbon capture and beta-H loss as separate branches, keeping charges visible.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water can donate a pair to carbon or to H.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Carbon capture gives oxonium and then alcohol after deprotonation; beta-H loss gives2-methylpropene+H₃O⁺. These are the SN1 and E1 branches after ionisation. A common cation does not imply a unique final product.
+:::
+
+::: {.callout-note}
+**Optional transfer problems 9–12.** Select for revision; they are not additional required contact hours.
+:::
+
+## 9. Invert and reassign
+
+Assume SN2 replacement of Br by OH in(R)-2-bromobutane. Draw the inverted geometry and independently assign the product descriptor.
+
+::: {.callout-tip collapse="true" title="Hint"}
+For this case, Br/OH rank first, ethyl second, methyl third and H fourth.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Inversion produces(S)-butan-2-ol for this particular priority ordering. The geometric inversion is the mechanism rule; the R/S change follows only after checking the actual replacement priorities.
+:::
+
+## 10. Add HBr with a reason
+
+For ionic HBr addition to propene without peroxides, draw protonation and capture. Explain the major connectivity using the two possible carbocations.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare secondary and primary cation formation.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Protonation giving CH₃CH⁺CH₃ is favoured over CH₃CH₂CH₂⁺ in the selected model. Br⁻ capture gives2-bromopropane. Move the alkene pi pair to H and the H–Br pair to Br before drawing capture.
+:::
+
+## 11. Distinguish a bridged intermediate
+
+Sketch bromonium opening by Br⁻ and explain why the relative addition is anti.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Show opposite-side carbon attack plus return of the bridge-bond pair to Br.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Backside attack opens the corresponding C–Br bridge bond, placing the new bromine opposite the bridging bromine. This is a different intermediate and stereochemical account from the free-carbocation HBr model.
+:::
+
+## 12. Write a justified pathway comparison
+
+Compare methyl bromide+OH⁻ with tertiary bromide in an ionising aqueous medium. Give a plausible pathway for each and identify one unsupported claim to avoid.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use steric access and cation stability, then remember competing elimination.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Methyl supports the concerted SN2 example and has no beta carbon for ordinary elimination. Tertiary bromide can ionise and undergo water capture or E1. Avoid promising an exact substitution/elimination ratio without actual conditions or data.
+:::
+
+## Revisit the relevant lesson
+
+Use the local [substitution](../substitution/exercise.qmd), [elimination/addition](../elimination-addition/exercise.qmd), [alcohol/redox](../alcohols-redox/exercise.qmd) and [practical evidence](../reference/practical.qmd) explanations when a correction needs more context.

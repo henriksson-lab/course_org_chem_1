@@ -1,97 +1,260 @@
 ---
-title: "Amines and aromaticity: where is the lone pair?"
+title: "Amines and aromaticity: standalone problem bank"
 ---
 
-Allow 60–75 minutes. Draw structures rather than relying on a nitrogen label.
-You need formal charges, pKa comparisons and resonance. No metabolic knowledge
-is assumed.
+This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
+Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
+Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
+mechanism. Use the hints after a first attempt and the worked checks after revising.
+All required definitions, structures, constants and observations are supplied here
+or in the linked local explanations; no textbook problem set is required.
 
-## 1. Classify and protonate
+## Working refresher
 
-Draw methylamine, dimethylamine and trimethylamine with their nitrogen lone
-pairs. Classify each as primary, secondary or tertiary. Protonate each once,
-showing an explicit acid H–A as donor and the corresponding A⁻ product. Count
-bonds and formal charge on every nitrogen before and after the change.
+A neutral ordinary amine N has three single bonds and a lone pair; ammonium N has four bonds and formal charge +1. Primary/secondary/tertiary amines have one/two/three carbon substituents on N. Proton-transfer arrows go from base pair to H and from donor H–A bond to A. A larger compatible conjugate-acid pKa means a stronger base; K≈10^(product-acid pKa−reactant-acid pKa). For simple aromatic rings first check planar cyclic conjugation, then count 4 n +2 pi electrons. Pyridine has a separate non-pi N pair; pyrrole uses its N pair in the sextet. In dominant-form pH reasoning, protonated forms predominate below a site’s pKa and deprotonated forms above it. See [the local lecture](lec.qmd) for molecular drawings.
 
-::: {.callout-tip collapse="true" title="Hint"}
-A neutral nitrogen with three ordinary single bonds has one lone pair. After
-using that pair to bind H, it has four bonds and a positive charge.
-:::
+## 1. Classify carbon substitution at N
 
-::: {.callout-note collapse="true" title="Worked check"}
-CH₃NH₂, (CH₃)₂NH and (CH₃)₃N have one, two and three carbon substituents on N,
-respectively. Their conjugate acids are CH₃NH₃⁺, (CH₃)₂NH₂⁺ and (CH₃)₃NH⁺.
-Draw N pair → H and H–A bond → A in the same proton transfer. A tertiary amine
-is neutral before protonation; it is not the same as a quaternary ammonium
-ion bearing four carbon substituents.
-:::
-
-## 2. Compare base strength using supplied data
-
-Use approximate aqueous conjugate-acid pKa values: ethylammonium 10.7 and
-anilinium 4.6. Which corresponding neutral amine is the stronger base? Estimate
-the equilibrium constant for anilinium + ethylamine ⇌ aniline + ethylammonium.
-Explain the structural difference without asserting that basicity determines
-all nucleophilic reaction rates.
-
-::: {.callout-note collapse="true" title="Worked check"}
-Ethylamine is the stronger base because its conjugate acid is weaker (larger
-pKa). The estimated constant is 10^(10.7 − 4.6), about 1.26 × 10⁶ toward
-aniline and ethylammonium. Aniline can delocalise its N pair into the aromatic
-ring. Basicity concerns an equilibrium; nucleophilicity concerns a reaction
-rate and also depends on substrate, solvent and other factors.
-:::
-
-## 3. Count the aromatic electrons carefully
-
-Draw benzene, cyclohexane, pyridine and pyrrole. For each state whether a
-continuous cyclic pi system exists. In pyridine and pyrrole identify whether
-the nitrogen lone pair contributes to the aromatic sextet. Predict which
-nitrogen is more readily protonated under comparable ordinary conditions.
-
-::: {.callout-note collapse="true" title="Worked check"}
-Benzene has six pi electrons and is aromatic. Cyclohexane lacks continuous
-conjugation and is nonaromatic. Pyridine N contributes one electron to its
-pi system; its separate lone pair is available to bind a proton while retaining
-aromaticity. Pyrrole uses its pair in the six-electron aromatic system, making
-ordinary N protonation much less favourable. Pyridine is therefore the more
-basic nitrogen in this comparison. “Both contain a ring N” misses the orbital
-difference.
-:::
-
-## 4. Draw glycine across pH
-
-Use supplied approximate pKa values 2.3 for the carboxyl group and 9.6 for
-the ammonium group. Draw the dominant form at pH 1, 6 and 12; label every
-formal charge and calculate the net charge. Explain what changes around each
-pKa, rather than implying an abrupt switch between pure forms.
+Draw CH₃NH₂, CH₃NHCH₃ and (CH₃)₃N with lone pairs. Classify them as primary, secondary or tertiary and count N–H bonds.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-At pH well below a site's pKa, its protonated form predominates. At pH well
-above it, its deprotonated form predominates. Apply this separately to the two
-sites.
+Count carbon groups directly bonded to N, not the total molecular carbon count.
 :::
 
-::: {.callout-note collapse="true" title="Worked check"}
-At pH 1: H₃N⁺–CH₂–COOH, net +1. At pH 6: H₃N⁺–CH₂–COO⁻, net zero. At pH
-12: H₂N–CH₂–COO⁻, net −1. The middle form is a zwitterion because it contains
-both positive and negative formal charges. Around each pKa adjacent forms
-coexist; these drawings describe dominant forms sufficiently away from the
-transition, not an all-or-nothing population rule.
+::: {.callout-note collapse="true" title="Worked explanation"}
+They are primary with two N–H, secondary with one N–H and tertiary with zero N–H. Each neutral ordinary amine has three single bonds at N and one lone pair.
 :::
 
-## 5. Amine versus peptide nitrogen
+## 2. Separate tertiary from quaternary
 
-Place CH₃CH₂NH₂ and CH₃CONH₂ side by side. Draw the amide resonance
-contributors and explain why assigning “amine-like basicity” to every
-nitrogen in a protein would fail. Give one structural feature you would
-inspect before predicting the nitrogen's behaviour.
+Compare (CH₃)₃N, (CH₃)₃NH⁺ and (CH₃)₄N⁺. Give carbon-substituent count, N–H count and formal charge for each.
 
-::: {.callout-note collapse="true" title="Worked check"}
-The amide N pair is delocalised into a neighbouring carbonyl; the simple amine
-pair is not. Peptide nitrogens are amide nitrogens. Inspect direct attachment
-to C=O, aromaticity and conjugation before applying a simple alkylamine model.
+::: {.callout-tip collapse="true" title="Hint"}
+A protonated tertiary amine still has three carbon groups; quaternary means four carbon groups.
 :::
 
-See the [reading guide](../reference/reading.qmd) for selected Solomons chapters
-14 and 20 and an open textbook reference.
+::: {.callout-note collapse="true" title="Worked explanation"}
+The three species have respectively 3/0/0, 3/1/+1 and 4/0/+1 for carbon groups/N–H/charge. Only the neutral first species has an available ordinary N lone pair.
+:::
+
+## 3. Draw protonation with a donor
+
+Draw CH₃NH₂ + H₃O⁺ → products using both curved arrows. Count the N bond number before and after and audit net charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The N pair attacks H; the donor O–H pair returns to oxygen.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Products are CH₃NH₃⁺ and H₂O. N changes from three bonds plus a pair to four bonds/+1. Net charge +1 is conserved; a positive proton is transferred rather than an electron being removed from N.
+:::
+
+## 4. Draw the reverse proton transfer
+
+For CH₃NH₃⁺ + OH⁻, draw deprotonation with both arrows and identify the conjugate acid/base pairs.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Hydroxide is the pair donor and the ammonium N–H bond is the pair returned to N.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃NH₂ + H₂O form. The pairs are methylammonium/methylamine and water/hydroxide. Net charge zero on each side; the newly neutral N regains its lone pair.
+:::
+
+## 5. Compare supplied conjugate-acid pKa values
+
+Ethylammonium has approximate aqueous pKa 10.7 and anilinium 4.6. Rank the corresponding neutral bases and state what larger conjugate-acid pKa means.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A weaker conjugate acid has a stronger conjugate base under comparable conditions.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Ethylamine is stronger than aniline. Ethylammonium loses H⁺ less readily, so its neutral base binds a proton more favourably in the corresponding comparison. These values do not alone determine all nucleophilic reaction rates.
+:::
+
+## 6. Estimate a nitrogen-to-nitrogen proton transfer
+
+For PhNH₃⁺ + EtNH₂ ⇌ PhNH₂ + EtNH₃⁺, use pKa 4.6 and 10.7 for the acids. Estimate K and identify the favoured side. Ph means phenyl; Et means ethyl.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use 10^(product-acid pKa − reactant-acid pKa).
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+K≈10^6.1≈1.26×10⁶ toward aniline and ethylammonium. Approximate pKa values must be compatible in solvent and conventions. This equilibrium estimate is not a rate prediction.
+:::
+
+## 7. Distinguish amine from amide
+
+Draw CH₃CH₂NH₂ and CH₃C(=O)NH₂. Identify the N directly connected to carbonyl and explain why its pair differs in availability.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Only one pair can overlap directly with the neighbouring C=O system.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The second is an amide. Its N pair delocalises into the carbonyl, contributing partial C–N double-bond character. The first is a simple amine without this direct carbonyl conjugation; treating both as equally basic would ignore structure.
+:::
+
+## 8. Audit an amide contributor
+
+Write CH₃C(O⁻)=NH₂⁺, count N bond orders and sum formal charges. Explain why this drawing is not an independently equilibrating isomer of neutral ethanamide.
+
+::: {.callout-tip collapse="true" title="Hint"}
+N has a C=N double bond and two N–H single bonds.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+N has four bond orders and +1; O is −1, giving net zero. The neutral and charge-separated drawings are resonance contributors to one molecule with fixed nuclei, not two species undergoing a chemical equilibrium.
+:::
+
+## 9. Explain aniline conjugation
+
+Compare PhNH₂ with PhCH₂NH₂, where Ph is a benzene ring. Which N pair can overlap directly with the aromatic pi system, and what structural interruption appears in the other?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The intervening CH₂ is an ordinary saturated carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Aniline PhNH₂ has N directly attached to the aromatic system. In PhCH₂NH₂, the sp³ CH₂ interrupts that direct conjugation. Other substituent and solvation effects can remain; the structural comparison does not claim that only one effect ever controls basicity.
+:::
+
+## 10. Check aromatic requirements
+
+For benzene and cyclohexane, state whether a continuous cyclic pi system exists. For benzene count pi electrons and find n in 4 n + 2.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A ring of sigma bonds is not sufficient.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Benzene has a planar continuous pi system and six electrons, giving n=1. Cyclohexane lacks continuous pi conjugation and is nonaromatic, not automatically antiaromatic.
+:::
+
+## 11. Avoid double-counting pyridine electrons
+
+In pyridine, N supplies one electron to the ring pi system and has a separate lone pair outside it. Should the pair be included when counting the aromatic sextet? Predict the effect of protonating that pair.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate the electron in the p orbital from the two in the non-pi lone-pair orbital.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Do not add the separate pair to the aromatic count. Its protonation makes pyridinium, and the sextet can remain. N becomes positive; the ring skeleton and pi electron count remain consistent with aromaticity.
+:::
+
+## 12. Count pyrrole electrons
+
+A five-membered pyrrole ring has two C=C units and an NH whose pair joins the cyclic pi system. Count the contributions and explain why the N pair is less available than pyridine’s separate pair.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Each double bond contributes two pi electrons.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Two C=C units supply four electrons, and N contributes its pair of two, giving six. Removing that pair from its aromatic role by ordinary N protonation costs stabilisation, so pyrrole N is much less basic than pyridine N in this comparison.
+:::
+
+## 13. Repair an aromaticity claim
+
+A student says “Both pyridine and pyrrole contain one nitrogen, so they must have equal basicity.” Give a structural correction using the two lone-pair roles.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Atom count does not locate the pair’s orbital role.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Pyridine keeps a non-pi pair available for N–H bond formation; pyrrole’s pair supplies part of the aromatic sextet. Their protonation equilibria differ because the pair environments differ, despite both molecules containing N.
+:::
+
+## 14. Draw glycine at low pH
+
+Use supplied pKa 2.3 for COOH and 9.6 for NH₃⁺. Draw the predominant glycine form at pH 1 and give every formal charge and net charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+At pH well below a pKa, the site’s protonated form predominates.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+H₃N⁺CH₂COOH predominates: N is +1, carboxyl group neutral, net +1. Dominant-form drawings are approximations; minority forms still exist.
+:::
+
+## 15. Draw glycine between its pKa values
+
+Using the same supplied pKa values 2.3 and 9.6, draw predominant glycine at pH 6. Explain “zwitterion” and whether net zero implies no formal charges.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Apply the pH comparison separately to COOH and ammonium.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+H₃N⁺CH₂COO⁻ predominates. COOH has mostly lost H while ammonium mostly retains it. Opposing formal charges sum to zero, so it is a zwitterion; it is not entirely uncharged at every site.
+:::
+
+## 16. Draw glycine at high pH
+
+With pKa values 2.3 and 9.6, draw the predominant form at pH 12. Show the proton transfer from the pH 6 form to hydroxide and audit charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+At sufficiently high pH, ammonium can lose a proton while carboxylate remains.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+H₂NCH₂COO⁻ predominates. Zwitterion + OH⁻ → H₂NCH₂COO⁻ + H₂O. N returns to neutral three-bonded form; total charge is −1 on both sides.
+:::
+
+## 17. Calculate a simple amine protonation ratio
+
+For B + H⁺ ⇌ BH⁺, use pKa(BH⁺)=10.0 and [B]/[BH⁺]=10^(pH−pKa). At pH 9 and 11 calculate the ratios and fraction present as BH⁺.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Convert ratio r=B/BH⁺ to protonated fraction 1/(1+r).
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+At pH9, r=0.1 and protonated fraction≈0.909. At pH11, r=10 and fraction≈0.0909. A higher pH reduces the protonated fraction; a ratio is not itself a population fraction.
+:::
+
+## 18. Explain coexistence near pKa
+
+For the same simple amine with pKa(BH⁺)=10.0, predict fractions at pH10. Does every molecule carry half a positive charge?
+
+::: {.callout-tip collapse="true" title="Hint"}
+At equal pH and pKa, the concentration ratio is one.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The populations of B and BH⁺ are equal under the model, each about 50%. Individual molecules are in one protonation state or the other; the population average does not mean each N is half protonated.
+:::
+
+## 19. Separate equilibrium from kinetics
+
+Two species have different conjugate-acid pKa values. A student infers which attacks every carbon electrophile fastest. State what the pKa comparison supports and name two missing factors for a rate prediction.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Basicity compares proton-transfer equilibrium; nucleophilicity is a kinetic property.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The data compare basicity under compatible conditions. Substrate steric/electronic structure, solvent, leaving group and the particular nucleophile’s solvation can change rates. pKa alone cannot supply a universal nucleophilic-rate ranking.
+:::
+
+## 20. Integrate a peptide-like fragment
+
+For H₂NCH₂C(=O)NHCH₃, identify the simple amine-like N and the amide N. Explain which structural feature you would inspect first before predicting protonation and why the two sites should not be treated identically.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Follow each N’s directly attached atom: is it a carbonyl carbon?
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The left H₂N site is not directly attached to C=O; the right NH is the amide N. Carbonyl conjugation delocalises the amide pair and changes its basicity. The molecule can contain more than one chemically distinct nitrogen environment.
+:::
+
+## Consolidate your work
+
+Choose one corrected error and explain what changed in your reasoning. Then
+complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
+all practice above is self-contained.

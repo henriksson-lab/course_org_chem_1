@@ -1,0 +1,52 @@
+---
+title: "Interactive chemistry: one exploration for each study day"
+---
+
+Use these short explorations alongside the drawings and paper problems.
+Predict what will happen before changing a control; then explain the chemical
+reason for the change. Most demos fit a 5–10 minute classroom or independent
+activity. They support the existing 45-minute sessions and practice route.
+
+Every demo has a direct link in the left sidebar under its corresponding
+unit or mixed-practice day. No account, R session or external service is needed.
+
+| Day | Interactive exploration | Question to investigate |
+| --- | --- | --- |
+| 1 | [Molecules and hidden hydrogens](day01.qmd) | Inspect atom counts and connectivity |
+| 2 | [Interactions and properties](day02.qmd) | Compare donors, acceptors and molecular properties |
+| 3 | [Aqueous ionisation](day03.qmd) | Change pH and pKa and inspect the population |
+| 4 | [Functional-group inspector](day04.qmd) | Find groups in molecules with more than one feature |
+| 5 | [Ionisation and extraction](day05.qmd) | Supply the additional partition information explicitly |
+| 6 | [Rotate a Newman projection](day06.qmd) | Relate a changing dihedral to a conformational view |
+| 7 | [Fischer configurations](day07.qmd) | Compare mirror images, swaps and valid rotations |
+| 8 | [Repair electron flow](day08.qmd) | Choose electron sources and destinations |
+| 9 | [Conformer populations](day09.qmd) | Explore supplied relative free energies and temperature |
+| 10 | [Enantiomer mixtures](day10.qmd) | Distinguish major fraction from enantiomeric excess |
+| 11 | [Reaction rate models](day11.qmd) | Compare assumed SN1 and SN2 concentration dependence |
+| 12 | [E2 geometry](day12.qmd) | Find the anti-periplanar arrangement |
+| 13 | [Alcohol oxidation states](day13.qmd) | Track local C–O and C–H bond changes |
+| 14 | [SN1 steps and charge](day14.qmd) | Inspect ionisation, capture and proton transfer |
+| 15 | [Limiting reagent and yield](day15.qmd) | Change amounts and separate mass yield from purity |
+| 16 | [Carbonyl addition](day16.qmd) | Follow oxygen identities and proton transfers |
+| 17 | [Acyl substitution](day17.qmd) | Link addition, collapse and acid–base trapping |
+| 18 | [Amine protonation](day18.qmd) | Compare supplied conjugate-acid pKas at a chosen pH |
+| 19 | [Proton-transfer equilibria](day19.qmd) | Compare acid/base pairs without claiming reaction speed |
+| 20 | [Amide electron availability](day20.qmd) | Inspect resonance and a nitrogen lone pair |
+| 21 | [Spectral candidate lab](day21.qmd) | Combine supplied formula, IR and NMR observations |
+| 22 | [TLC measurements](day22.qmd) | Measure distances and compare retention factors |
+| 23 | [Build a short synthesis](day23.qmd) | Choose transformations and inspect their consequences |
+| 24 | [How strong is a spectral clue?](day24.qmd) | Change the available evidence and test a claim |
+| 25 | [Claims and chemical evidence](day25.qmd) | Separate identity, purity, conversion and isolated yield |
+
+## Use a model with its assumptions
+
+The diagrams, curves and supplied observations are teaching models. A slider
+does not establish a measured reaction rate, experimental spectrum or isolated
+product identity. Each page states the model assumptions and links back to its
+local chemistry explanation and paper practice. For example, the extraction
+explorer supplies partition assumptions that an aqueous ionisation curve alone
+does not contain.
+
+The demos keep their state in your current browser page and do not submit
+answers or record students. Use reset/preset controls to compare situations,
+and return to the paper question to construct your own drawing or explanation.

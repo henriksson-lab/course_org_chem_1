@@ -1,78 +1,262 @@
 ---
-title: "Practice: alcohol transformations and an amount table"
+title: "Alcohols and redox:20 problems"
 ---
 
-Allow 60–75 minutes for chemistry problems and 45 minutes for the R calculation.
-The R task uses the course's synthesis teaching data as preparation for later
-reporting. That dataset describes aspirin formation, not an alcohol oxidation.
+Use problems 1–12 as the **core route (about 80–100 minutes)**. Problems 13–20 are optional transfer practice (another 45–65 minutes); select them to target mistakes rather than adding every problem to required contact time. Paper/model drawing is central. All inputs and conventions needed are below; no textbook purchase or external problem set is required.
 
-## 1. Keep track of the changing carbon
+## Local refresher and worked starting example
 
-Draw ethanol, ethanal and ethanoic acid. Mark the carbon that changes during
-oxidation and count its C–O bond orders and C–H bonds in each structure.
-Assign +1 per C–O bond order, −1 per C–H bond and zero per C–C bond.
-Explain why the sequence is oxidation even when no oxygen atom is added in
-the first net alcohol → aldehyde transformation.
+Selected primary alcohol oxidation gives aldehyde then acid; secondary alcohol gives ketone. Carbonyl reduction by a supplied suitable reagent gives an alkoxide then an alcohol after proton donation. For the carbon oxidation-state check, C–O bond order contributes+1, C–H−1, C–C0. For amounts use n=m/M and compare n/coefficient.
 
-::: {.callout-note collapse="true" title="Worked check"}
-The ethanol CH₂OH carbon has one C–O and two C–H bonds, giving −1. In ethanal,
-the carbonyl carbon has C=O and C–H, giving +1. In ethanoic acid it has C=O
-and C–O, giving +3. Raising the carbon oxidation state is oxidation. Removing
-hydrogen can accomplish that without increasing the number of oxygen atoms;
-the local bond inventory, rather than simply counting O atoms in the entire
-formula, gives the useful check.
+**Worked starting example.** Ethanol CH₃CH₂OH→ethanal CH₃CHO raises the changing carbon oxidation state from −1 to+1. In the reverse selected reduction, hydride-equivalent delivery forms CH₃CH₂O⁻ first; water can then donate H⁺ to give ethanol and OH⁻. Each stage has explicit atoms and charge.
+
+Draw structures, identify the relevant atom and explain the reason. A name alone is insufficient where a mechanism or argument is requested.
+
+## 1. Classify the alcohol centre
+
+Draw CH₃CH₂OH, CH₃CH(OH)CH₃ and (CH₃)₃COH. Classify the OH-bearing carbon and count its attached H.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count carbon neighbours and H at that particular carbon.
 :::
 
-## 2. Predict two oxidation products and one boundary
-
-Draw the selected oxidation product of propan-2-ol. Why does the comparable
-simple oxidation pattern not apply to 2-methylpropan-2-ol without breaking
-the carbon skeleton? If the target is ethanal from ethanol, why must you
-consider the possibility of ethanoic acid formation when selecting conditions?
-
-::: {.callout-note collapse="true" title="Worked check"}
-Propan-2-ol gives propanone. Its OH-bearing carbon has a C–H bond available
-for the net carbonyl-forming change. The tertiary alcohol has three C–C bonds
-at that carbon and no C–H; forming C=O while keeping all three carbon groups
-would overbond carbon. This does not mean a tertiary alcohol is immune to
-every oxidant, because harsh conditions can cleave C–C bonds. Ethanal can
-undergo further oxidation, so an aldehyde target requires appropriate
-controlled conditions rather than an unspecified oxidation arrow.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The centres are primary with two H, secondary with one H and tertiary with no H. These local differences determine whether the simple carbon-skeleton-retaining carbonyl oxidation pattern applies.
 :::
 
-## 3. Draw reduction in two stages
+## 2. Oxidise a primary alcohol once
 
-Use propanone and a hydride equivalent delivered from a reagent such as NaBH₄.
-Draw addition to carbonyl carbon with the π pair moving to oxygen. Give the
-alkoxide formula and charge. Then show an explicit proton transfer from water.
-Name the resulting alcohol. Explain the limit of using H:⁻ in this drawing.
+Draw the selected net transformation ethanol → ethanal, preserving the carbon skeleton. Identify the changing C–O and C–H bond inventory.
 
-::: {.callout-note collapse="true" title="Worked check"}
-The H-delivering pair forms a C–H bond and the C=O pair returns to O.
-The resulting `(CH₃)₂CHO⁻` is an alkoxide. Its oxygen lone pair takes H
-from water while the water O–H pair returns to water oxygen, giving
-propan-2-ol and OH⁻. H:⁻ is shorthand for hydride-equivalent delivery from
-the reagent, not free hydride coexisting in water. Detailed boron-containing
-intermediates are outside this simplified introductory scheme.
+::: {.callout-tip collapse="true" title="Hint"}
+Turn the alcohol-bearing carbon into a carbonyl carbon.
 :::
 
-## 4. What would count as evidence?
-
-Inspect the [simulated IR comparison](figures/08-ir-redox.svg). Identify the
-changes consistent with converting an alcohol to a carbonyl compound.
-What other observations would you request before identifying a pure isolated
-product? Could a 95% isolated yield alone establish identity or purity?
-
-::: {.callout-note collapse="true" title="Worked check"}
-Loss of a broad alcohol O–H absorption and appearance of a carbonyl band
-support the proposed functional-group change. A full spectrum, NMR or other
-appropriate identification evidence and a check of sample purity would be
-useful. Isolated mass can include solvent or impurities, so a large yield
-does not alone identify the compound or establish purity. The supplied
-traces are schematic teaching data, not observations from an actual oxidation.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+CH₃CH₂OH becomes CH₃CHO. The changing carbon loses a C–H bond overall and gains C–O bond order; O also loses its H. This is a net oxidation map, not an elementary one-step mechanism or a lab protocol.
 :::
 
-## 5. R task: prepare a reaction amount table
+## 3. Oxidise the aldehyde further
+
+Draw ethanal → ethanoic acid and explain why an aldehyde target requires controlled oxidation conditions.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Replace the aldehyde C–H with the acid C–OH in the net structure.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+CH₃CHO becomes CH₃COOH. Since the aldehyde can undergo further oxidation, an unspecified oxidation arrow does not guarantee that isolation stops there. Conditions and reagent scope matter.
+:::
+
+## 4. Oxidise a secondary alcohol
+
+Predict the selected oxidation product of butan-2-ol, CH₃CH(OH)CH₂CH₃. Name the functional group and give its condensed structure.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Retain both carbon substituents on the OH-bearing carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The product is butan-2-one, CH₃C(=O)CH₂CH₃, a ketone. Forming C=O while removing the appropriate H atoms retains the four-carbon skeleton.
+:::
+
+## 5. Explain the tertiary boundary
+
+Why would drawing (CH₃)₃C=O as the direct simple oxidation product of (CH₃)₃COH be invalid?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count bond orders at the central carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Three C–C single bonds plus C=O give bond-order sum five. The starting tertiary centre has no C–H for the usual alcohol-to-carbonyl change. Oxidative C–C cleavage can occur under other conditions, but that is a different transformation.
+:::
+
+## 6. Assign a carbon oxidation state
+
+Use +1 per C–O bond order, −1 per C–H and zero per C–C to assign the changing carbon in ethanol, ethanal and ethanoic acid.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Double C=O contributes plus two.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The values are −1, +1 and +3 respectively. Increasing oxidation state identifies oxidation even when simply counting oxygen atoms would miss the first change.
+:::
+
+## 7. Check a ketone carbon
+
+Assign the carbonyl-carbon oxidation state in CH₃COCH₃ and the corresponding OH-carbon value in CH₃CH(OH)CH₃.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The ketone carbon has no attached H; the alcohol carbon has one.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Propanone carbonyl C is +2 from C=O. Propan-2-ol carbinol C is 0 from +1 for C–O and −1 for C–H. The ketone-to-alcohol transformation lowers the carbon oxidation state by two.
+:::
+
+## 8. Reduce an aldehyde
+
+Assume a suitable NaBH₄ reduction then proton-donor work-up of CH₃CH₂CHO. Predict the neutral organic product.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Carbonyl reduction preserves the carbon skeleton and adds H at carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Propanal gives propan-1-ol, CH₃CH₂CH₂OH. Hydride-equivalent delivery gives an alkoxide first; a proton donor supplies its O–H proton afterward.
+:::
+
+## 9. Reduce a ketone
+
+Under the same selected reduction/work-up model, predict CH₃COCH₂CH₃ → product. Does the product have a stereocentre?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The former carbonyl carbon gains H and OH while retaining methyl and ethyl.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The product is butan-2-ol, CH₃CH(OH)CH₂CH₃. Its OH-bearing carbon has OH, H, CH₃ and CH₂CH₃, so it is a stereocentre. An achiral reagent/environment can allow both faces of the planar carbonyl to react.
+:::
+
+## 10. Draw the reduction arrows
+
+For propanone, draw a simplified H:⁻ delivery step and the alkoxide. Explicitly state what H:⁻ represents.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Move the carbonyl pi pair onto oxygen as C–H forms.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The product is (CH₃)₂CHO⁻; one pair forms C–H and the C=O π pair returns to O. H:⁻ means hydride-equivalent delivery from a reagent such as borohydride, not a claim that free hydride persists in aqueous solution.
+:::
+
+## 11. Finish the work-up
+
+Use water to turn (CH₃)₂CHO⁻ into alcohol. Draw the donor and conjugate base instead of writing unexplained H⁺.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water loses one H⁺ when it protonates the alkoxide.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Alkoxide O attacks water H; the water O–H pair returns to O. Products are propan-2-ol and OH⁻, with net charge −1 conserved.
+:::
+
+## 12. Test reagent scope
+
+A student transfers the selected NaBH₄ aldehyde/ketone rule directly to an ordinary ester and an amide. Why is that unsupported by this course toolkit?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Carbonyl groups belong to different functional classes with different reactivity.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The supplied rule establishes aldehyde/ketone reduction under appropriate conditions. Esters and amides have different electronic and leaving-group chemistry; their behaviour cannot be inferred just from the shared C=O drawing. More reagent/condition information is required.
+:::
+
+::: {.callout-note}
+**Optional transfer starts here.** Choose problems that address your own gaps; the core route remains1–12.
+:::
+
+## 13. Read two IR observations
+
+A supplied teaching sample loses a broad 3200–3600 cm⁻¹ alcohol feature and gains strong absorption near 1715 cm⁻¹ after a proposed secondary-alcohol oxidation. Explain support and limitation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Relate each observation to a functional group, then consider identity.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The changes support loss of OH and formation of carbonyl, consistent with the proposed oxidation. They do not uniquely identify the ketone or establish purity; use additional structure and sample evidence.
+:::
+
+## 14. Calculate amounts by hand
+
+A balanced 1:1 aspirin teaching reaction uses 1.3812 g acid at 138.12 g/mol and 1.53135 g anhydride at 102.09 g/mol. Calculate both mmol values and identify the limiting reagent.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Divide g by g/mol, multiply mol by1000, then compare amount/coefficient.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The acid is 0.01000 mol=10.00 mmol and anhydride0.01500 mol=15.00 mmol. The acid limits the 1:1 reaction. Comparing raw grams would ignore the different molar masses.
+:::
+
+## 15. Use a coefficient other than one
+
+For the hypothetical balanced teaching stoichiometry 2 A + B → P, available amounts are 12 mmol A and8 mmol B. Calculate the maximum mmol P and identify the limit.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare n(A)/2 with n(B)/1.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A permits 6 mmol reaction extent; B permits 8 mmol. A limits product to 6 mmol P. A larger molar amount can still limit when its stoichiometric coefficient is larger.
+:::
+
+## 16. Calculate theoretical mass
+
+The aspirin teaching reaction can make10.00 mmol product with molar mass180.16 g/mol. Calculate theoretical mass in grams.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Convert mmol to mol before multiplying by g/mol.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+0.01000 mol×180.16 g/mol=1.8016 g. Using10 directly as mol would introduce a thousandfold error.
+:::
+
+## 17. Calculate isolated yield
+
+Using theoretical mass1.8016 g and isolated mass1.20 g, calculate isolated yield. State a claim this value cannot establish.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Yield%=100×isolated/theoretical.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The result is about 66.6%. It does not prove purity or conversion: isolation losses, unreacted material, side reactions and retained impurities require separate evidence.
+:::
+
+## 18. Repair a yield over 100percent claim
+
+A wet isolated sample weighs1.95 g although the theoretical pure-product maximum is 1.8016 g. Should this establish109% chemical yield? Give a better interpretation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The balance measures all material present, not only intended product.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The apparent mass-based percentage is about 108%, but a pure-product yield above the stoichiometric maximum is inconsistent with the assumptions. Residual solvent/water, impurities or input/measurement errors should be investigated before reporting an actual product yield.
+:::
+
+## 19. Plan a one-step interconversion
+
+Given ethanal and a target of ethanol, choose oxidation or the supplied carbonyl reduction/work-up. Draw the target and explain why further oxidation is wrong.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The target carbon has more C–H and less C–O bond order.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Use the selected reduction followed by proton donation to give CH₃CH₂OH. Oxidation moves toward ethanoic acid instead, increasing rather than decreasing the changing carbon oxidation state.
+:::
+
+## 20. Assemble an evidence statement
+
+A proposed propan-2-ol→propanone experiment gives an IR carbonyl band, one visible TLC spot and an isolated mass. Write two supported conclusions and two unresolved questions.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate functional-group evidence, chromatographic observation and chemical identity.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The IR supports a carbonyl-containing sample; the TLC records one spot under its stated conditions. Neither alone proves pure propanone. Identity needs additional structural evidence, and purity/conversion require suitable separate checks; the isolated mass alone is not enough.
+:::
+
+## R task: chemistry calculation in your report
 
 The balanced teaching equation is salicylic acid + acetic anhydride → aspirin
 + ethanoic acid, with all coefficients one. The [shared CSV](../data/amounts.csv)
@@ -100,7 +284,7 @@ theoretical_product_mass_g <- limiting_extent_mol * 180.16
 theoretical_product_mass_g
 ```
 
-Knit the report. Give the limiting reagent, theoretical product amount in mmol
+Knit the report. Give the limiting reagent,  theoretical product amount in mmol
 and mass in g. Change a copy of the acetic anhydride input to 0.51045 g and
 predict the new limiting reagent before recalculating. Do not overwrite the
 original CSV to make this alternative scenario.
@@ -114,8 +298,7 @@ because the reagents have different molar masses. In a different balanced
 reaction, coefficients other than one must also be included.
 :::
 
-## Leave with
 
-A redox transformation map, a two-stage reduction mechanism and a knitted
-amount table. Continue with the [practical report guide](../reference/practical.qmd)
-to distinguish theoretical yield, isolated yield, conversion and purity.
+## Check your progress
+
+Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.

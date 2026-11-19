@@ -27,90 +27,8 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    html { -webkit-text-size-adjust: 100%; }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-8f15930f6bc871fdbe4a8dbd0ea50f2f.css">
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -209,21 +127,18 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Conformations and molecular flexibility</h1>
-  <p class="subtitle">Week 2 · A different view need not mean a different compound</p>
+  <p class="subtitle">Week 2 · Follow a view, a bond and a substituent</p>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
-<section id="what-will-you-be-able-to-explain" class="slide level2">
-<h2>What will you be able to explain?</h2>
-<ul>
-<li>Draw a Newman projection along a stated bond.</li>
-<li>Distinguish staggered/eclipsed and anti/gauche arrangements.</li>
-<li>Explain a chair flip and inspect a supplied two-state population model.</li>
-</ul>
+<section id="what-should-you-be-able-to-explain" class="slide level2">
+<h2>What should you be able to explain?</h2>
+<p>Read Newman projections, compare conformers, preserve up/down through a chair flip and inspect a supplied population model.</p>
 <aside class="notes">
-<p>Begin with a model or two pen caps connected by a bond. Ask which atoms remain neighbours after turning one end. The R task is a guided numerical comparison, not a thermodynamics derivation.</p>
+<p>45-minute budget: view/connectivity/Newman construction10 min including a90-second drawing; ethane and butane comparison9 min with two45-second predictions; chair labels and flips10 min including a2-minute model/drawing check; free-energy units and populations9 min including a90-second manual normalisation; equilibrium-versus-rate discussion4 min; integrated explanation/exit3 min. Total45 min; independent practice follows separately.</p>
+<p>Use the slide pace flexibly: concrete worked operations deserve more time than brief resolved checks. The intended outcome is an explainable chemical argument,not a slide count.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -236,12 +151,29 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="rotate-a-bond-keep-the-neighbours" class="slide level2">
-<h2>Rotate a bond; keep the neighbours</h2>
+<section id="bring-these-tools-into-the-room" class="slide level2">
+<h2>Bring these tools into the room</h2>
+<p>Connectivity and ordinary valence remain fixed during the single-bond rotations considered here.</p>
+<aside class="notes">
+<p>Use a quick spoken diagnostic; do not spend an additional unscheduled revision block. Revisit a missing convention at its worked example.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="name-the-operation-before-the-result" class="slide level2">
+<h2>Name the operation before the result</h2>
 
-<img data-src="figures/01-rotation.svg" style="width:85.0%" alt="Rotation about the ethane carbon-carbon sigma bond preserves connectivity." class="r-stretch quarto-figure-center"><p class="caption">Rotation about the ethane carbon-carbon sigma bond preserves connectivity.</p><p>Conformation changes can occur through bond rotation. Configuration changes require a different operation, often bond breaking.</p>
+<img data-src="figures/01-rotation.svg" style="width:82.0%" alt="Name the operation before the result" class="r-stretch quarto-figure-center"><p class="caption">Name the operation before the result</p><p>Rotation about a C–C sigma bond changes relative positions while retaining connected neighbours.</p>
 <aside class="notes">
-<p>Do not claim every single bond rotates freely. Rings, steric interactions and partial double-bond character can restrict rotation.</p>
+<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -254,30 +186,21 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="state-the-viewing-direction" class="slide level2">
-<h2>State the viewing direction</h2>
+<section id="choose-a-bond-and-viewing-direction" class="slide level2">
+<h2>Choose a bond and viewing direction</h2>
 
-<img data-src="figures/02-newman-view.svg" style="width:85.0%" alt="Looking along a CC bond gives a front dot and rear circle in a Newman projection." class="r-stretch quarto-figure-center"><p class="caption">Looking along a CC bond gives a front dot and rear circle in a Newman projection.</p><p>The front carbon is the one nearest your eye. Identify it before placing the substituents.</p>
-<aside class="notes">
-<p>Have students physically point along a model bond. Copying the page silhouette without specifying a view is a common source of error.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<img data-src="figures/19-pace.svg" style="width:82.0%" alt="Choose a bond and viewing direction" class="r-stretch quarto-figure-center"><p class="caption">Choose a bond and viewing direction</p><p>Number butane C1–C4. Look from C2 toward C3, so C2 is front and C3 rear.</p>
 </section>
-<section id="compare-the-angular-offset" class="slide level2">
-<h2>Compare the angular offset</h2>
+<section id="compare-two-drawings-of-the-same-connectivity" class="slide level2">
+<h2>Compare two drawings of the same connectivity</h2>
 
-<img data-src="figures/03-ethane-conformers.svg" style="width:85.0%" alt="Ethane Newman projections compare staggered and eclipsed bond alignments." class="r-stretch quarto-figure-center"><p class="caption">Ethane Newman projections compare staggered and eclipsed bond alignments.</p><p>Staggered has a 60° offset between front and rear bonds. Eclipsed bonds align in the projection.</p>
+<img data-src="figures/20-pace.svg" style="width:82.0%" alt="Compare two drawings of the same connectivity" class="r-stretch quarto-figure-center"><p class="caption">Compare two drawings of the same connectivity</p><p>Anti and gauche butane have identical condensed connectivity even though the spatial arrangements differ.</p>
+</section>
+<section id="predict-must-every-single-bond-rotate-freely" class="slide level2">
+<h2>Predict: must every single bond rotate freely?</h2>
+<p>Consider rings, steric barriers and partial double-bond character before answering.</p>
 <aside class="notes">
-<p>Coincident bonds in an eclipsed projection do not represent a shared extra bond. Distinguish overlapping views from connectivity.</p>
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -290,12 +213,29 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="rotation-crosses-an-energy-barrier" class="slide level2">
-<h2>Rotation crosses an energy barrier</h2>
+<section id="resolve-rotation-can-be-restricted" class="slide level2">
+<h2>Resolve: rotation can be restricted</h2>
+<p>Single bonds can have torsional barriers; rings constrain motion and conjugation can restrict rotation. “Single” is not “barrier-free”.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="read-a-newman-projection-from-the-eye-outward" class="slide level2">
+<h2>Read a Newman projection from the eye outward</h2>
 
-<img data-src="figures/04-ethane-energy.svg" style="width:85.0%" alt="A qualitative ethane torsional profile has eclipsed maxima and staggered minima." class="r-stretch quarto-figure-center"><p class="caption">A qualitative ethane torsional profile has eclipsed maxima and staggered minima.</p><p>The conformers interconvert; lower energy does not mean a structure is permanently trapped.</p>
+<img data-src="figures/02-newman-view.svg" style="width:82.0%" alt="Read a Newman projection from the eye outward" class="r-stretch quarto-figure-center"><p class="caption">Read a Newman projection from the eye outward</p><p>The central dot is front carbon; the circle denotes the rear carbon.</p>
 <aside class="notes">
-<p>This curve is a qualitative energy model. Do not use its arbitrary vertical scale to infer a numerical population or rate.</p>
+<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -308,30 +248,21 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="butane-introduces-distinct-staggered-arrangements" class="slide level2">
-<h2>Butane introduces distinct staggered arrangements</h2>
+<section id="inspect-one-staggered-ethane-view" class="slide level2">
+<h2>Inspect one staggered ethane view</h2>
 
-<img data-src="figures/05-butane-anti-gauche.svg" style="width:85.0%" alt="Newman projections place the butane methyl groups 180 or 60 degrees apart." class="r-stretch quarto-figure-center"><p class="caption">Newman projections place the butane methyl groups 180 or 60 degrees apart.</p><p>Anti and gauche describe the methyl-group dihedral angle here. Both arrangements are staggered.</p>
-<aside class="notes">
-<p>The terms do not replace front/back or R/S. Count the C1-C2-C3-C4 dihedral, not an arbitrary pair of H atoms.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<img data-src="figures/11-pace.svg" style="width:82.0%" alt="Inspect one staggered ethane view" class="r-stretch quarto-figure-center"><p class="caption">Inspect one staggered ethane view</p><p>Three front bonds and three rear bonds are offset by 60°. Count the H groups on both carbons.</p>
 </section>
-<section id="compare-minima-not-just-shapes" class="slide level2">
-<h2>Compare minima, not just shapes</h2>
+<section id="inspect-the-eclipsed-view" class="slide level2">
+<h2>Inspect the eclipsed view</h2>
 
-<img data-src="figures/06-butane-energy.svg" style="width:85.0%" alt="Qualitative butane profile places anti below gauche and methyl-methyl eclipsing highest." class="r-stretch quarto-figure-center"><p class="caption">Qualitative butane profile places anti below gauche and methyl-methyl eclipsing highest.</p><p>For butane, anti is lower than gauche. The profile also contains less favourable eclipsed arrangements.</p>
+<img data-src="figures/12-pace.svg" style="width:82.0%" alt="Inspect the eclipsed view" class="r-stretch quarto-figure-center"><p class="caption">Inspect the eclipsed view</p><p>Aligned projected bonds give a 0° offset. The H labels belong to different carbon atoms.</p>
+</section>
+<section id="predict-reverse-the-viewing-direction" class="slide level2">
+<h2>Predict: reverse the viewing direction</h2>
+<p>If you look C3 toward C2 rather than C2 toward C3, which carbon becomes front?</p>
 <aside class="notes">
-<p>Keep qualitative electronic/steric reasoning at the intended level. A simplified energy profile is not a measured free-energy dataset.</p>
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -344,30 +275,38 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="a-ring-constrains-the-available-motion" class="slide level2">
-<h2>A ring constrains the available motion</h2>
+<section id="resolve-front-and-rear-swap" class="slide level2">
+<h2>Resolve: front and rear swap</h2>
+<p>C3 is now nearest the viewer. Redraw the complete spatial arrangement rather than copying only the page orientation.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="place-butane-methyl-groups-opposite" class="slide level2">
+<h2>Place butane methyl groups opposite</h2>
 
-<img data-src="figures/07-ring-strain.svg" style="width:85.0%" alt="Planar skeletal drawings of cyclopropane and cyclohexane show different ring connectivity." class="r-stretch quarto-figure-center"><p class="caption">Planar skeletal drawings of cyclopropane and cyclohexane show different ring connectivity.</p><p>A flat polygon is a connectivity drawing. Cyclohexane is not normally a planar regular hexagon.</p>
-<aside class="notes">
-<p>Cyclopropane has substantial angle strain. Do not imply cyclohexane has no energetic differences among conformations.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<img data-src="figures/13-pace.svg" style="width:82.0%" alt="Place butane methyl groups opposite" class="r-stretch quarto-figure-center"><p class="caption">Place butane methyl groups opposite</p><p>For anti-butane, front CH₃ at twelve and rear CH₃ at six gives a 180° methyl dihedral.</p>
 </section>
-<section id="read-axial-and-equatorial-locally" class="slide level2">
-<h2>Read axial and equatorial locally</h2>
+<section id="place-a-methyl-group-at-60" class="slide level2">
+<h2>Place a methyl group at +60°</h2>
 
-<img data-src="figures/08-chair-directions.svg" style="width:85.0%" alt="A cyclohexane chair with one axial and one equatorial direction at a selected carbon." class="r-stretch quarto-figure-center"><p class="caption">A cyclohexane chair with one axial and one equatorial direction at a selected carbon.</p><p>Each carbon has an axial and an equatorial position. Axial positions alternate up and down around the ring.</p>
+<img data-src="figures/14-pace.svg" style="width:82.0%" alt="Place a methyl group at +60°" class="r-stretch quarto-figure-center"><p class="caption">Place a methyl group at +60°</p><p>The gauche view remains staggered. The two larger substituents are closer than in anti.</p>
+</section>
+<section id="predict-is-every-staggered-butane-conformer-anti" class="slide level2">
+<h2>Predict: is every staggered butane conformer anti?</h2>
+<p>Use the methyl positions, not only the absence of eclipsed bonds.</p>
 <aside class="notes">
-<p>Students should not identify axial as up: there are axial-down positions too. Equatorial does not mean lying in the page.</p>
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -380,12 +319,29 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="a-chair-flip-preserves-updown" class="slide level2">
-<h2>A chair flip preserves up/down</h2>
+<section id="resolve-gauche-is-staggered-too" class="slide level2">
+<h2>Resolve: gauche is staggered too</h2>
+<p>Anti and both gauche arrangements are staggered minima, but their methyl-group dihedrals and relative energies differ.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="count-equivalent-ethane-minima" class="slide level2">
+<h2>Count equivalent ethane minima</h2>
 
-<img data-src="figures/09-ring-flip.svg" style="width:85.0%" alt="A schematic chair flip exchanges an up methyl substituent between axial and equatorial sites." class="r-stretch quarto-figure-center"><p class="caption">A schematic chair flip exchanges an up methyl substituent between axial and equatorial sites.</p><p>Axial becomes equatorial and vice versa; an up substituent stays up. A ring flip does not invert the configuration.</p>
+<img data-src="figures/04-ethane-energy.svg" style="width:82.0%" alt="Count equivalent ethane minima" class="r-stretch quarto-figure-center"><p class="caption">Count equivalent ethane minima</p><p>A complete turn visits three equivalent staggered arrangements because all three substituents on each carbon are H.</p>
 <aside class="notes">
-<p>This diagram highlights local bond directions. Use a molecular model to complete the whole chair flip and preserve all six connected atoms.</p>
+<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -398,12 +354,26 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="inspect-a-supplied-free-energy-model" class="slide level2">
-<h2>Inspect a supplied free-energy model</h2>
+<section id="find-the-second-gauche-arrangement" class="slide level2">
+<h2>Find the second gauche arrangement</h2>
 
-<img data-src="figures/10-conformer-populations.svg" style="width:85.0%" alt="A two-conformer free-energy model gives unequal populations at 298.15 kelvin." class="r-stretch quarto-figure-center"><p class="caption">A two-conformer free-energy model gives unequal populations at 298.15 kelvin.</p><p>Use relative free energies and a temperature to calculate weights. The lower-free-energy conformer is more populated.</p>
+<img data-src="figures/15-pace.svg" style="width:82.0%" alt="Find the second gauche arrangement" class="r-stretch quarto-figure-center"><p class="caption">Find the second gauche arrangement</p><p>A −60° methyl dihedral gives the other gauche view of butane.</p>
+</section>
+<section id="read-maxima-as-barriers-along-the-path" class="slide level2">
+<h2>Read maxima as barriers along the path</h2>
+
+<img data-src="figures/04-ethane-energy.svg" style="width:82.0%" alt="Read maxima as barriers along the path" class="r-stretch quarto-figure-center"><p class="caption">Read maxima as barriers along the path</p><p>Eclipsed arrangements lie higher than neighbouring staggered ones in the qualitative profile.</p>
+</section>
+<section id="eclipse-the-methyl-groups-directly" class="slide level2">
+<h2>Eclipse the methyl groups directly</h2>
+
+<img data-src="figures/16-pace.svg" style="width:82.0%" alt="Eclipse the methyl groups directly" class="r-stretch quarto-figure-center"><p class="caption">Eclipse the methyl groups directly</p><p>Methyl/methyl eclipsing is especially unfavourable in the butane comparison.</p>
+</section>
+<section id="predict-can-the-qualitative-vertical-axis-give-a-population" class="slide level2">
+<h2>Predict: can the qualitative vertical axis give a population?</h2>
+<p>No energy values, temperature or free-energy conventions are supplied on this illustrative profile.</p>
 <aside class="notes">
-<p>The supplied ΔG values already account for degeneracy. Do not import qualitative torsional energies from another figure as these numerical free energies.</p>
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -416,28 +386,399 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="the-two-state-calculation" class="slide level2">
-<h2>The two-state calculation</h2>
-<p>For supplied relative free energies, <span class="math inline">w_i=\exp[-\Delta G_i/(RT)]</span> and <span class="math inline">p_i=w_i/\sum_j w_j</span>.</p>
-<p>Use consistent J/mol and J/(mol K) units; temperature is kelvin.</p>
+<section id="resolve-not-a-numerical-equilibrium-ratio" class="slide level2">
+<h2>Resolve: not a numerical equilibrium ratio</h2>
+<p>The curve supports relative-energy reasoning only. Numerical populations require suitable free-energy differences and temperature.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="r-continues-a-familiar-workflow" class="slide level2">
-<h2>R continues a familiar workflow</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>conformers <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"data/conformers.csv"</span>)</span>
-<span id="cb1-2"><a></a>conformers<span class="sc">$</span>weight <span class="ot">&lt;-</span> <span class="fu">exp</span>(<span class="sc">-</span>conformers<span class="sc">$</span>delta_G_J_mol <span class="sc">/</span></span>
-<span id="cb1-3"><a></a>                           (<span class="fl">8.314462618</span> <span class="sc">*</span> <span class="fl">298.15</span>))</span>
-<span id="cb1-4"><a></a>conformers<span class="sc">$</span>fraction <span class="ot">&lt;-</span> conformers<span class="sc">$</span>weight <span class="sc">/</span> <span class="fu">sum</span>(conformers<span class="sc">$</span>weight)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Check that fractions sum to one.</p>
+<section id="inspect-a-methylh-eclipse" class="slide level2">
+<h2>Inspect a methyl/H eclipse</h2>
+
+<img data-src="figures/17-pace.svg" style="width:82.0%" alt="Inspect a methyl/H eclipse" class="r-stretch quarto-figure-center"><p class="caption">Inspect a methyl/H eclipse</p><p>An eclipsed view need not put the two methyl groups directly on top of one another.</p>
 </section>
-<section id="explain-a-model-boundary" class="slide level2">
-<h2>Explain a model boundary</h2>
-<p>An equilibrium population alone does not give the rate of interconversion.</p>
-<p>Rates depend on activation barriers; populations depend on the free-energy difference between states.</p>
+<section id="explain-why-anti-is-favoured-here" class="slide level2">
+<h2>Explain why anti is favoured here</h2>
+
+<img data-src="figures/05-butane-anti-gauche.svg" style="width:82.0%" alt="Explain why anti is favoured here" class="r-stretch quarto-figure-center"><p class="caption">Explain why anti is favoured here</p><p>For ordinary butane, separating the methyl groups in the anti arrangement lowers energy relative to gauche.</p>
 </section>
-<section id="practise-with-a-physical-or-drawn-model" class="slide level2">
-<h2>Practise with a physical or drawn model</h2>
-<p>Complete the <a href="../conformations/exercise.html">practice</a> and <a href="../conformations/quiz.html">self-check</a>.</p>
-<p>Provisional reference: selected Solomons chapter 4 sections; see the <a href="../reference/reading.html">reading guide</a>.</p>
+<section id="follow-the-next-eclipsed-view" class="slide level2">
+<h2>Follow the next eclipsed view</h2>
+
+<img data-src="figures/18-pace.svg" style="width:82.0%" alt="Follow the next eclipsed view" class="r-stretch quarto-figure-center"><p class="caption">Follow the next eclipsed view</p><p>Rotation passes another methyl/H eclipse before reaching a different staggered minimum.</p>
+</section>
+<section id="predict-how-many-gauche-minima-in-one-full-turn" class="slide level2">
+<h2>Predict: how many gauche minima in one full turn?</h2>
+<p>Count the +60° and −60° arrangements separately, while recognising their equal energy in an achiral environment.</p>
+<aside class="notes">
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resolve-two-equivalent-gauche-minima" class="slide level2">
+<h2>Resolve: two equivalent gauche minima</h2>
+<p>Do not silently treat their multiplicity as one if constructing a physical statistical model. Our supplied two-state ΔG values already account for degeneracy.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="check-units-before-exponentiating" class="slide level2">
+<h2>Check units before exponentiating</h2>
+
+<img data-src="figures/26-pace.svg" style="width:82.0%" alt="Check units before exponentiating" class="r-stretch quarto-figure-center"><p class="caption">Check units before exponentiating</p><p>ΔG and RT must both use J/mol here. At 298.15 K, RT is about 2479 J/mol.</p>
+</section>
+<section id="separate-a-conformer-energy-from-a-barrier" class="slide level2">
+<h2>Separate a conformer energy from a barrier</h2>
+
+<img data-src="figures/06-butane-energy.svg" style="width:82.0%" alt="Separate a conformer energy from a barrier" class="r-stretch quarto-figure-center"><p class="caption">Separate a conformer energy from a barrier</p><p>A state free-energy difference predicts an equilibrium preference; a barrier concerns how fast interconversion occurs.</p>
+</section>
+<section id="inspect-a-supplied-two-state-prediction" class="slide level2">
+<h2>Inspect a supplied two-state prediction</h2>
+
+<img data-src="figures/27-pace.svg" style="width:82.0%" alt="Inspect a supplied two-state prediction" class="r-stretch quarto-figure-center"><p class="caption">Inspect a supplied two-state prediction</p><p>With ΔG(A)=0 and ΔG(B)=3500 J/mol, the fractions are about 0.804 and 0.196.</p>
+</section>
+<section id="predict-which-weight-equals-one" class="slide level2">
+<h2>Predict: which weight equals one?</h2>
+<p>Using exp(−ΔG/RT), what is the statistical weight of a state whose relative free energy is zero?</p>
+<aside class="notes">
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resolve-the-reference-weight-is-one" class="slide level2">
+<h2>Resolve: the reference weight is one</h2>
+<p>exp(0)=1. The other weight is about 0.244; divide each weight by their sum to obtain fractions.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-planar-ring-sketch-does-not-fix-geometry" class="slide level2">
+<h2>A planar ring sketch does not fix geometry</h2>
+
+<img data-src="figures/07-ring-strain.svg" style="width:82.0%" alt="A planar ring sketch does not fix geometry" class="r-stretch quarto-figure-center"><p class="caption">A planar ring sketch does not fix geometry</p><p>A hexagon on paper normally shows connectivity, not a claim that cyclohexane is flat.</p>
+<aside class="notes">
+<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="separate-two-naming-systems" class="slide level2">
+<h2>Separate two naming systems</h2>
+
+<img data-src="figures/21-pace.svg" style="width:82.0%" alt="Separate two naming systems" class="r-stretch quarto-figure-center"><p class="caption">Separate two naming systems</p><p>Axial/equatorial identifies local bond direction in a chair; up/down identifies which side of the ring a substituent occupies.</p>
+</section>
+<section id="recognise-a-cis-relation" class="slide level2">
+<h2>Recognise a cis relation</h2>
+
+<img data-src="figures/24-pace.svg" style="width:82.0%" alt="Recognise a cis relation" class="r-stretch quarto-figure-center"><p class="caption">Recognise a cis relation</p><p>Up/up and down/down substituent pairs are cis even when one substituent is axial and the other equatorial.</p>
+</section>
+<section id="predict-does-equatorial-mean-down" class="slide level2">
+<h2>Predict: does “equatorial” mean “down”?</h2>
+<p>Locate both up-equatorial and down-equatorial positions on a chair model.</p>
+<aside class="notes">
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resolve-no-fixed-updown-equivalence" class="slide level2">
+<h2>Resolve: no fixed up/down equivalence</h2>
+<p>Each chair contains axial-up, axial-down, equatorial-up and equatorial-down positions around the ring.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="find-both-positions-at-one-ring-carbon" class="slide level2">
+<h2>Find both positions at one ring carbon</h2>
+
+<img data-src="figures/08-chair-directions.svg" style="width:82.0%" alt="Find both positions at one ring carbon" class="r-stretch quarto-figure-center"><p class="caption">Find both positions at one ring carbon</p><p>The diagram displays one axial and one equatorial direction; the full ring alternates their up/down pattern.</p>
+<aside class="notes">
+<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="follow-an-axial-up-substituent" class="slide level2">
+<h2>Follow an axial-up substituent</h2>
+
+<img data-src="figures/22-pace.svg" style="width:82.0%" alt="Follow an axial-up substituent" class="r-stretch quarto-figure-center"><p class="caption">Follow an axial-up substituent</p><p>After a ring flip it is equatorial-up. The label “up” is retained.</p>
+</section>
+<section id="recognise-a-trans-relation" class="slide level2">
+<h2>Recognise a trans relation</h2>
+
+<img data-src="figures/25-pace.svg" style="width:82.0%" alt="Recognise a trans relation" class="r-stretch quarto-figure-center"><p class="caption">Recognise a trans relation</p><p>Up/down means trans. A chair flip preserves that relation while changing axial/equatorial occupancy.</p>
+</section>
+<section id="predict-cis-before-the-flip-trans-after" class="slide level2">
+<h2>Predict: cis before the flip, trans after?</h2>
+<p>Can an ordinary ring flip change which side of the ring a substituent occupies?</p>
+<aside class="notes">
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resolve-cistrans-configuration-is-retained" class="slide level2">
+<h2>Resolve: cis/trans configuration is retained</h2>
+<p>A ring flip changes conformation, not the up/down relation. A cis pair remains cis.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="repeat-the-rule-for-a-down-group" class="slide level2">
+<h2>Repeat the rule for a down group</h2>
+
+<img data-src="figures/23-pace.svg" style="width:82.0%" alt="Repeat the rule for a down group" class="r-stretch quarto-figure-center"><p class="caption">Repeat the rule for a down group</p><p>Axial-down becomes equatorial-down. Following one up example is not the whole rule.</p>
+</section>
+<section id="explain-a-preference-without-claiming-exclusivity" class="slide level2">
+<h2>Explain a preference without claiming exclusivity</h2>
+
+<img data-src="figures/09-ring-flip.svg" style="width:82.0%" alt="Explain a preference without claiming exclusivity" class="r-stretch quarto-figure-center"><p class="caption">Explain a preference without claiming exclusivity</p><p>Methylcyclohexane generally favours equatorial methyl because it avoids unfavourable 1,3-diaxial interactions.</p>
+</section>
+<section id="test-a-zero-free-energy-difference" class="slide level2">
+<h2>Test a zero free-energy difference</h2>
+
+<img data-src="figures/28-pace.svg" style="width:82.0%" alt="Test a zero free-energy difference" class="r-stretch quarto-figure-center"><p class="caption">Test a zero free-energy difference</p><p>In the supplied two-state model, equal free energies produce equal weights and 0.5/0.5 fractions.</p>
+</section>
+<section id="predict-is-the-disfavoured-conformer-absent" class="slide level2">
+<h2>Predict: is the disfavoured conformer absent?</h2>
+<p>Would a finite positive free-energy difference make its equilibrium fraction exactly zero?</p>
+<aside class="notes">
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resolve-lower-population-is-not-absence" class="slide level2">
+<h2>Resolve: lower population is not absence</h2>
+<p>A finite difference gives a positive Boltzmann weight. Very small populations may be hard to observe but are not mathematically zero.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="normalise-weights-before-calling-them-fractions" class="slide level2">
+<h2>Normalise weights before calling them fractions</h2>
+
+<img data-src="figures/10-conformer-populations.svg" style="width:82.0%" alt="Normalise weights before calling them fractions" class="r-stretch quarto-figure-center"><p class="caption">Normalise weights before calling them fractions</p><p>The relative weight is not yet a population fraction. Sum the weights and divide.</p>
+<aside class="notes">
+<p>Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="increase-the-free-energy-gap" class="slide level2">
+<h2>Increase the free-energy gap</h2>
+
+<img data-src="figures/29-pace.svg" style="width:82.0%" alt="Increase the free-energy gap" class="r-stretch quarto-figure-center"><p class="caption">Increase the free-energy gap</p><p>With ΔG(B)=7000 J/mol at the same temperature, A becomes more strongly favoured than in the 3500 J/mol example.</p>
+</section>
+<section id="interpret-the-plotted-fractions-chemically" class="slide level2">
+<h2>Interpret the plotted fractions chemically</h2>
+
+<img data-src="figures/10-conformer-populations.svg" style="width:82.0%" alt="Interpret the plotted fractions chemically" class="r-stretch quarto-figure-center"><p class="caption">Interpret the plotted fractions chemically</p><p>A is more populated because its supplied free energy is lower. The calculation assumes the chosen states describe the equilibrium.</p>
+</section>
+<section id="separate-the-two-energy-questions" class="slide level2">
+<h2>Separate the two energy questions</h2>
+
+<img data-src="figures/30-pace.svg" style="width:82.0%" alt="Separate the two energy questions" class="r-stretch quarto-figure-center"><p class="caption">Separate the two energy questions</p><p>Changing the state difference changes equilibrium. Changing only a barrier can change rate without changing that equilibrium ratio.</p>
+</section>
+<section id="predict-add-1000-jmol-to-both-states" class="slide level2">
+<h2>Predict: add 1000 J/mol to both states</h2>
+<p>Does a common energy offset change the normalised fractions? Explain before computing.</p>
+<aside class="notes">
+<p>Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resolve-the-common-factor-cancels" class="slide level2">
+<h2>Resolve: the common factor cancels</h2>
+<p>Both weights acquire the same multiplier. It cancels when dividing by their sum, leaving fractions unchanged.</p>
+<aside class="notes">
+<p>Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="combine-the-tools-in-one-explanation" class="slide level2">
+<h2>Combine the tools in one explanation</h2>
+<p>Explain both the butane anti/gauche preference and the limits of predicting rate from an equilibrium population.</p>
+<aside class="notes">
+<p>Take a 30-second sketch or explanation, then ask for one observation and the reason linking it to the conclusion. This is included in the 45-minute session.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="your-next-independent-work" class="slide level2">
+<h2>Your next independent work</h2>
+<p>Use the <a href="../conformations/exercise.html">standalone practice and worked checks</a>, then the <a href="../conformations/quiz.html">self-check</a>. Required core problems and optional transfer work are labelled separately.</p>
+</section>
+<section id="one-sentence-exit-explanation" class="slide level2">
+<h2>One-sentence exit explanation</h2>
+<p>Write one chemical claim, the feature that supports it and one limit of the inference.</p>
+<p>The <a href="../reference/reading.html">reading guide</a> provides optional textbook support; no textbook is needed to attempt the local practice.</p>
+<aside class="notes">
+<p>Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 
 </section>
@@ -512,7 +853,7 @@
         respondToHashChanges: true,
 
         // Push each slide change to the browser history
-        history: true,
+        history: false,
 
         // Enable keyboard shortcuts for navigation
         keyboard: true,

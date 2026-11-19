@@ -1,6 +1,8 @@
 ---
-title: 'Acyl chemistry: esters, amides and their reactions'
-subtitle: Week 4 · Structure, electron flow and evidence
+title: 'Acyl chemistry: esters, amides and reactions'
+subtitle: Week 4 · 45-minute teaching session
+session-minutes: 45
+pacing-seconds-per-slide: 40
 format:
   revealjs:
     theme:
@@ -15,140 +17,534 @@ format:
     html-math-method: katex
 ---
 
-## What will you be able to explain?
+## A chemical route through this session
 
-- Recognise the common acyl motif in acids, esters and amides.
-- Draw addition–elimination with valid electron flow and proton transfers.
-- Distinguish ester hydrolysis, esterification and amide formation.
+Use carbonyl addition as the starting pattern. Today we ask what makes a tetrahedral species collapse, how proton transfers enable leaving groups, and why amides differ.
 
 ::: notes
-Start with a drawn molecule and an explanation from the preceding unit. Ask students to predict before revealing an answer. Use the practice page for complete worked checks rather than putting dense paragraphs on slides.
+45-minute budget: retrieval and motif reading 4 min; worked basic hydrolysis with drawing checks 13 min; acid-catalysed esterification 11 min; amide/salt comparison 7 min; paired integrated case and correction 8 min; exit explanation 2 min. Total 45 min, including drawing and discussion.
+
+Suggested 30 seconds; adjust to the explanation and class response. Plan 45 minutes including short drawing and discussion intervals. Routine visual frames take roughly 40 seconds; worked checks need longer and some resolutions can be quicker. Treat timings as guidance, with room for questions.
 :::
 
-## One carbonyl motif, several families
+## Retrieve the starting idea
 
-![Acids, esters and amides differ in the group attached to the acyl carbon.](figures/01-acyl-family.svg){width=85% fig-alt="Acids, esters and amides differ in the group attached to the acyl carbon."}
-
-Circle the carbonyl carbon, then name its two directly attached groups.
+Draw CH₃CHO and CH₃COOCH₃. Which one has an oxygen-based substituent directly attached to acyl carbon?
 
 ::: notes
-R denotes an organic group; OR′ distinguishes an ester from an ether. An ester has a carbonyl adjacent to the single-bond oxygen. Avoid calling every carbonyl a ketone.
+Suggested 30 seconds; adjust to the explanation and class response. Give students a short individual attempt. Worked answer: The ester has OCH₃ where the aldehyde has H. Both carbonyl carbons accept nucleophiles, but their leaving-group options differ.
 :::
 
-## The first step resembles carbonyl addition
+## Locate the shared carbonyl
 
-![A nucleophile donates a pair to the carbonyl carbon while the pi pair moves to oxygen.](figures/02-addition-arrows.svg){width=85% fig-alt="A nucleophile donates a pair to the carbonyl carbon while the pi pair moves to oxygen."}
+![Carboxylic acid derivatives share an acyl carbon](figures/01-acyl-family.svg){width=85% fig-alt="Carboxylic acid derivatives share an acyl carbon"}
 
-Use two arrows in the same elementary addition step.
+Which directly bonded group distinguishes acid, ester and amide?
 
 ::: notes
-Here Nu− is a generic anionic nucleophile and Y is the potential leaving group. This drawing illustrates unprotonated addition; acid-catalysed variants require carbonyl protonation before attack by a neutral nucleophile.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The acyl carbon is C=O carbon. Its OH, OR or NR₂ substituent identifies the family.
 :::
 
-## Check the tetrahedral intermediate
+## Apply: locate the shared carbonyl
 
-![The former carbonyl carbon has four single bonds; oxygen carries the negative charge.](figures/03-tetrahedral.svg){width=85% fig-alt="The former carbonyl carbon has four single bonds; oxygen carries the negative charge."}
-
-The carbonyl pi bond has opened. Nu and Y are both still attached.
+Classify CH₃CONHCH₃ and CH₃COOCH₃.
 
 ::: notes
-Ask students to count carbon bonds before calculating charge. Nu− forms a bond and becomes neutral in this generic example; negative charge is now on O. Total charge remains minus one.
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The first is an amide; the second is an ester. Both contain an acyl carbon.
 :::
 
-## Collapse needs a viable leaving group
+## Distinguish ester from ether
 
-![An oxygen lone pair reforms C=O and the C–Y bond pair moves onto Y.](figures/04-collapse-arrows.svg){width=85% fig-alt="An oxygen lone pair reforms C=O and the C–Y bond pair moves onto Y."}
+![An ester contains an adjacent carbonyl; an ether does not](figures/11-ester-ether.svg){width=85% fig-alt="An ester contains an adjacent carbonyl; an ether does not"}
 
-These arrows describe one elimination step.
+Which carbon can accept a nucleophile by carbonyl addition?
 
 ::: notes
-Y must be able to leave under the reaction conditions. Hydroxide or alkoxide may need protonation in acidic mechanisms. Do not expel H− or an ordinary alkyl carbanion from an aldehyde/ketone simply to make a substitution.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The ester has an electron-poor carbonyl carbon; the ether has no C=O at that site.
 :::
 
-## Identify the net substitution
+## Resolve: distinguish ester from ether
 
-![The carbonyl is retained while Y is replaced by Nu.](figures/05-net-substitution.svg){width=85% fig-alt="The carbonyl is retained while Y is replaced by Nu."}
+![An ester contains an adjacent carbonyl; an ether does not](figures/11-ester-ether.svg){width=85% fig-alt="An ester contains an adjacent carbonyl; an ether does not"}
 
-Addition and elimination are separate mechanistic events; the net equation hides the intermediate.
+The ester has an electron-poor carbonyl carbon; the ether has no C=O at that site.
 
 ::: notes
-Compare with the previous carbonyl-addition lesson: ordinary aldehydes and ketones typically give addition products because they lack a suitable leaving group. No free acyl carbocation is required here.
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: H–C(=O)–O–CH₂CH₃ is an ester; H on acyl carbon does not make it an aldehyde because OEt is the other substituent.
 :::
 
-## Esterification is an equilibrium
+## Apply: distinguish ester from ether
 
-![Ethanoic acid and ethanol can form ethyl ethanoate and water under acid catalysis.](figures/06-ester-equilibrium.svg){width=85% fig-alt="Ethanoic acid and ethanol can form ethyl ethanoate and water under acid catalysis."}
-
-The catalyst is regenerated; water removal or excess reactant can shift the equilibrium.
+Circle the ester linkage in HCOOCH₂CH₃.
 
 ::: notes
-Have students trace the alcohol oxygen into the ester using a label. At this level show the required proton transfers without implying that an unprotonated OH group simply leaves as OH− in an acidic mechanism.
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: H–C(=O)–O–CH₂CH₃ is an ester; H on acyl carbon does not make it an aldehyde because OEt is the other substituent.
 :::
 
-## Base-promoted hydrolysis gives carboxylate
+## Give the oxygens identities
 
-![Hydroxide hydrolysis ultimately gives carboxylate and alcohol.](figures/07-hydrolysis.svg){width=85% fig-alt="Hydroxide hydrolysis ultimately gives carboxylate and alcohol."}
+![Atom labels preserve oxygen identity during hydrolysis](figures/12-oxygen-identity.svg){width=85% fig-alt="Atom labels preserve oxygen identity during hydrolysis"}
 
-An acid work-up is needed if the intended isolated form is the neutral carboxylic acid.
+If hydroxide attacks, which oxygen initially becomes O⁻?
 
 ::: notes
-Addition then collapse initially gives acid and alkoxide in the simplest model. The subsequent acid–base reaction strongly favours carboxylate and alcohol. Hydroxide is consumed overall, so base is not merely a regenerated catalyst in saponification.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The original carbonyl oxygen Oₐ gains the carbonyl pi pair. The original alkoxy oxygen Oᵦ remains bonded to ethyl.
 :::
 
-## Why an amide is different
+## Resolve: give the oxygens identities
 
-![Amide nitrogen donates into the carbonyl, giving partial C–N double-bond character.](figures/08-amide-resonance.svg){width=85% fig-alt="Amide nitrogen donates into the carbonyl, giving partial C–N double-bond character."}
+![Atom labels preserve oxygen identity during hydrolysis](figures/12-oxygen-identity.svg){width=85% fig-alt="Atom labels preserve oxygen identity during hydrolysis"}
 
-Use resonance to explain restricted rotation and reduced nitrogen basicity.
+The original carbonyl oxygen Oₐ gains the carbonyl pi pair. The original alkoxy oxygen Oᵦ remains bonded to ethyl.
 
 ::: notes
-These are contributors to one molecule, not two isomers. The charge-separated contributor has O− and N+, preserving net neutrality. Under comparable conditions ordinary amides are less reactive toward acyl substitution than esters.
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: It remains attached to O꜀ in the tetrahedral OH group; addition alone does not remove that H.
 :::
 
-## Mixing acid and amine does not suffice
+## Apply: give the oxygens identities
 
-![Acid and amine initially undergo proton transfer to give an ammonium carboxylate.](figures/09-salt-not-amide.svg){width=85% fig-alt="Acid and amine initially undergo proton transfer to give an ammonium carboxylate."}
-
-Making an amide requires suitable activation or conditions.
+Label incoming hydroxide oxygen O꜀. Where is its H after addition?
 
 ::: notes
-This corrects a frequent biologically motivated misconception: peptide bonds do not form rapidly just because two amino acids encounter each other in water. Later biochemistry explains how activation and enzymes enable coupling.
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It remains attached to O꜀ in the tetrahedral OH group; addition alone does not remove that H.
 :::
 
-## Recognise the motif in biology
+## Find both electron sources
 
-![Lipid esters and peptide amides contain the same acyl-carbon framework.](figures/10-bio-links.svg){width=85% fig-alt="Lipid esters and peptide amides contain the same acyl-carbon framework."}
+![Addition starts by moving the carbonyl pi pair to oxygen](figures/02-addition-arrows.svg){width=85% fig-alt="Addition starts by moving the carbonyl pi pair to oxygen"}
 
-The leaving group, activation and environment change the chemistry; the electron bookkeeping remains useful.
+Identify the tail of each curved arrow before naming products.
 
 ::: notes
-No metabolic pathways are prerequisites here. Ask only which bond is ester-like or amide-like and where a nucleophile would initially attack.
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: One arrow starts at the nucleophile pair and one at C=O π. Their coordinated movement avoids five bonds at carbon.
 :::
 
-## Work one example on paper
+## Resolve: find both electron sources
 
-For CH₃COOCH₂CH₃ + OH⁻, draw the tetrahedral intermediate, its collapse, and the final acid–base step. Label the alcohol product and distinguish the reaction mixture from its acid-worked-up form.
+![Addition starts by moving the carbonyl pi pair to oxygen](figures/02-addition-arrows.svg){width=85% fig-alt="Addition starts by moving the carbonyl pi pair to oxygen"}
+
+One arrow starts at the nucleophile pair and one at C=O π. Their coordinated movement avoids five bonds at carbon.
 
 ::: notes
-Allow independent thinking, then compare in pairs. Ask students to defend each atom, charge or assignment. Show the worked check only after a first attempt.
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Move the carbonyl pi pair to oxygen as the new C–Nu bond forms; retain only a single C–O bond.
 :::
 
-## A common mistake to repair
+## Apply: find both electron sources
 
-A mechanism that expels OH⁻ from an acid-protonated intermediate without checking protonation state usually skips an essential proton transfer. Check every oxygen charge after each step.
+Repair an ester-addition drawing that retains C=O.
 
-Explain the correction using a drawing or a specific observation.
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Move the carbonyl pi pair to oxygen as the new C–Nu bond forms; retain only a single C–O bond.
+:::
 
-## Test your explanation
+## Audit the intermediate
 
-1. Which atoms, bonds or observations support the claim?
-2. What alternative would make a different prediction?
-3. What assumption limits the conclusion?
+![The tetrahedral intermediate has four single bonds](figures/03-tetrahedral.svg){width=85% fig-alt="The tetrahedral intermediate has four single bonds"}
 
-Give a partner your explanation without the answer label. Can they follow it?
+Count carbon bond orders and locate the net charge.
 
-## Take the reasoning forward
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Carbon has four single bonds. For an anionic incoming nucleophile, charge moves to original carbonyl oxygen.
+:::
 
-Complete the [practice and worked examples](exercise.qmd) and [self-check](quiz.qmd).
+## Resolve: audit the intermediate
 
-Selected Solomons chapter 17 sections; see the [reading guide](../reference/reading.qmd) for the provisional textbook map and open references.
+![The tetrahedral intermediate has four single bonds](figures/03-tetrahedral.svg){width=85% fig-alt="The tetrahedral intermediate has four single bonds"}
+
+Carbon has four single bonds. For an anionic incoming nucleophile, charge moves to original carbonyl oxygen.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. Nu becomes neutral in this model, but O becomes negative. Net charge remains −1.
+:::
+
+## Apply: audit the intermediate
+
+Does the negative charge disappear when Nu⁻ bonds?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Nu becomes neutral in this model, but O becomes negative. Net charge remains −1.
+:::
+
+## Apply the pattern to ethyl ethanoate
+
+![Hydroxide addition opens the ester carbonyl](figures/13-actual-addition.svg){width=85% fig-alt="Hydroxide addition opens the ester carbonyl"}
+
+Write the intermediate after OH⁻ addition, keeping the ethoxy group intact.
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The intermediate is CH₃C(O⁻)(OH)(OEt). Incoming OH is neutral after bonding; the original carbonyl O is O⁻.
+:::
+
+## Resolve: apply the pattern to ethyl ethanoate
+
+![Hydroxide addition opens the ester carbonyl](figures/13-actual-addition.svg){width=85% fig-alt="Hydroxide addition opens the ester carbonyl"}
+
+The intermediate is CH₃C(O⁻)(OH)(OEt). Incoming OH is neutral after bonding; the original carbonyl O is O⁻.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Et is CH₂CH₃. The original carbonyl O⁻ has one bond and three lone pairs.
+:::
+
+## Apply: apply the pattern to ethyl ethanoate
+
+Expand Et and identify which oxygen has three lone pairs.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Et is CH₂CH₃. The original carbonyl O⁻ has one bond and three lone pairs.
+:::
+
+## Choose a collapse pathway
+
+![Collapse reforms the carbonyl and releases a leaving group](figures/04-collapse-arrows.svg){width=85% fig-alt="Collapse reforms the carbonyl and releases a leaving group"}
+
+Which pair reforms the carbonyl, and which bond pair leaves?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: O⁻ donates a pair into C–O π; the C–Y bonding pair moves to Y. The carbonyl reforms without a free acyl cation.
+:::
+
+## Resolve: choose a collapse pathway
+
+![Collapse reforms the carbonyl and releases a leaving group](figures/04-collapse-arrows.svg){width=85% fig-alt="Collapse reforms the carbonyl and releases a leaving group"}
+
+O⁻ donates a pair into C–O π; the C–Y bonding pair moves to Y. The carbonyl reforms without a free acyl cation.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. Leaving-group viability matters; hydride is a very poor leaving group in these simple reactions.
+:::
+
+## Apply: choose a collapse pathway
+
+Would the same drawing justify loss of H⁻ from an aldehyde?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Leaving-group viability matters; hydride is a very poor leaving group in these simple reactions.
+:::
+
+## Pause before calling products final
+
+![Collapse first gives acid and alkoxide](figures/14-collapse-products.svg){width=85% fig-alt="Collapse first gives acid and alkoxide"}
+
+What acid and base coexist immediately after this collapse?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The elementary collapse gives CH₃COOH and EtO⁻ in this simple scheme. They can undergo a strongly favoured proton transfer.
+:::
+
+## Resolve: pause before calling products final
+
+![Collapse first gives acid and alkoxide](figures/14-collapse-products.svg){width=85% fig-alt="Collapse first gives acid and alkoxide"}
+
+The elementary collapse gives CH₃COOH and EtO⁻ in this simple scheme. They can undergo a strongly favoured proton transfer.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Carboxylate plus EtOH: the product acid EtOH is much weaker, so the proton transfer favours that side.
+:::
+
+## Apply: pause before calling products final
+
+Compare pKa 4.8 for acid and 16 for EtOH. Which pair is favoured?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Carboxylate plus EtOH: the product acid EtOH is much weaker, so the proton transfer favours that side.
+:::
+
+## Track the last proton transfer
+
+![The alkoxide accepts the carboxylic acid proton](figures/15-acid-base-trap.svg){width=85% fig-alt="The alkoxide accepts the carboxylic acid proton"}
+
+Follow the acid H and the pair formerly in its O–H bond.
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: EtO⁻ accepts H. The acid O–H pair stays on carboxylate O. Products are CH₃COO⁻ and EtOH.
+:::
+
+## Resolve: track the last proton transfer
+
+![The alkoxide accepts the carboxylic acid proton](figures/15-acid-base-trap.svg){width=85% fig-alt="The alkoxide accepts the carboxylic acid proton"}
+
+EtO⁻ accepts H. The acid O–H pair stays on carboxylate O. Products are CH₃COO⁻ and EtOH.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: K is about 1.6×10¹¹ for this compatible-pKa estimate. Hydroxide is consumed overall in base-promoted ester hydrolysis.
+:::
+
+## Apply: track the last proton transfer
+
+Estimate K using 10^(16 − 4.8). Is base regenerated overall?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: K is about 1.6×10¹¹ for this compatible-pKa estimate. Hydroxide is consumed overall in base-promoted ester hydrolysis.
+:::
+
+## Write the base-promoted net equation
+
+![Base-promoted ester hydrolysis traps the carboxylate](figures/07-hydrolysis.svg){width=85% fig-alt="Base-promoted ester hydrolysis traps the carboxylate"}
+
+Which species should appear in a basic mixture: carboxylic acid or carboxylate?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ester + OH⁻ → carboxylate + alcohol. Do not write neutral acid as the predominant basic-mixture product.
+:::
+
+## Apply: write the base-promoted net equation
+
+Balance CH₃COOCH₃ + OH⁻ products.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: CH₃COO⁻ + CH₃OH. Total charge −1 and all atoms are conserved.
+:::
+
+## Separate reaction from work-up
+
+![Work-up changes protonation state](figures/16-acid-workup.svg){width=85% fig-alt="Work-up changes protonation state"}
+
+What changes when hydronium is added to the carboxylate?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Protonation gives the neutral acid and water. Work-up changes protonation state, not the carbon skeleton.
+:::
+
+## Apply: separate reaction from work-up
+
+Write CH₃COO⁻ + H₃O⁺ with products and charges.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: CH₃COOH + H₂O, net zero charge on both sides.
+:::
+
+## Compare net and elementary descriptions
+
+![Acyl substitution replaces Y while retaining a carbonyl](figures/05-net-substitution.svg){width=85% fig-alt="Acyl substitution replaces Y while retaining a carbonyl"}
+
+Which bond is replaced overall, and which temporary intermediate is hidden?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Y is replaced by Nu while C=O is retained overall. Addition temporarily opens C=O before elimination restores it.
+:::
+
+## Apply: compare net and elementary descriptions
+
+Is one net reaction arrow evidence for one elementary step?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. The net equation suppresses intermediates and proton transfers; elementary steps require mechanistic evidence and bookkeeping.
+:::
+
+## Activate the acid carbonyl
+
+![Acid activation protonates carbonyl oxygen](figures/17-acid-activation.svg){width=85% fig-alt="Acid activation protonates carbonyl oxygen"}
+
+Which atom is protonated first in the representative acid-catalysed pathway?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Carbonyl oxygen accepts H⁺ from a donor such as hydronium, increasing carbon electrophilicity. The protonated oxygen has +1 charge.
+:::
+
+## Resolve: activate the acid carbonyl
+
+![Acid activation protonates carbonyl oxygen](figures/17-acid-activation.svg){width=85% fig-alt="Acid activation protonates carbonyl oxygen"}
+
+Carbonyl oxygen accepts H⁺ from a donor such as hydronium, increasing carbon electrophilicity. The protonated oxygen has +1 charge.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: O has a double bond to C and a single bond to H, three bond orders in total, and formal charge +1.
+:::
+
+## Apply: activate the acid carbonyl
+
+Count oxygen bond orders in C=OH⁺.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: O has a double bond to C and a single bond to H, three bond orders in total, and formal charge +1.
+:::
+
+## Let a neutral alcohol attack
+
+![Neutral ethanol adds to the activated acyl carbon](figures/18-ethanol-addition.svg){width=85% fig-alt="Neutral ethanol adds to the activated acyl carbon"}
+
+After ethanol attacks activated carbonyl, where is the positive charge?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The incoming ethanol oxygen has three single bonds and is positive. Original carbonyl O becomes neutral OH.
+:::
+
+## Resolve: let a neutral alcohol attack
+
+![Neutral ethanol adds to the activated acyl carbon](figures/18-ethanol-addition.svg){width=85% fig-alt="Neutral ethanol adds to the activated acyl carbon"}
+
+The incoming ethanol oxygen has three single bonds and is positive. Original carbonyl O becomes neutral OH.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: CH₃C(OH)(OH)(O⁺HEt); the total charge is +1.
+:::
+
+## Apply: let a neutral alcohol attack
+
+Write the tetrahedral species from protonated ethanoic acid and ethanol.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: CH₃C(OH)(OH)(O⁺HEt); the total charge is +1.
+:::
+
+## Make the incoming oxygen neutral
+
+![Deprotonating the incoming oxygen gives a neutral tetrahedral species](figures/19-tetrahedral-neutral.svg){width=85% fig-alt="Deprotonating the incoming oxygen gives a neutral tetrahedral species"}
+
+What proton transfer makes OEt a neutral substituent?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Water removes H from O⁺HEt, leaving OEt with two bonds. This step regenerates hydronium.
+:::
+
+## Resolve: make the incoming oxygen neutral
+
+![Deprotonating the incoming oxygen gives a neutral tetrahedral species](figures/19-tetrahedral-neutral.svg){width=85% fig-alt="Deprotonating the incoming oxygen gives a neutral tetrahedral species"}
+
+Water removes H from O⁺HEt, leaving OEt with two bonds. This step regenerates hydronium.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: An unprotonated OH is poor as a departing group in this acid mechanism. A further proton transfer can make OH₂⁺.
+:::
+
+## Apply: make the incoming oxygen neutral
+
+Does this neutral tetrahedral drawing already contain a good leaving group?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: An unprotonated OH is poor as a departing group in this acid mechanism. A further proton transfer can make OH₂⁺.
+:::
+
+## Create a viable leaving group
+
+![Protonating an OH creates a water leaving group](figures/20-water-leaving.svg){width=85% fig-alt="Protonating an OH creates a water leaving group"}
+
+Which attached group can now leave as a neutral molecule?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The protonated OH₂⁺ group can leave as water while another oxygen pair reforms C=O. The first carbonyl product is protonated.
+:::
+
+## Resolve: create a viable leaving group
+
+![Protonating an OH creates a water leaving group](figures/20-water-leaving.svg){width=85% fig-alt="Protonating an OH creates a water leaving group"}
+
+The protonated OH₂⁺ group can leave as water while another oxygen pair reforms C=O. The first carbonyl product is protonated.
+
+::: notes
+Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: A base such as water removes the remaining carbonyl-oxygen proton, giving ester and regenerating hydronium.
+:::
+
+## Apply: create a viable leaving group
+
+Name the final step restoring neutral ester and catalyst.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: A base such as water removes the remaining carbonyl-oxygen proton, giving ester and regenerating hydronium.
+:::
+
+## Interpret the equilibrium separately from catalysis
+
+![Acid-catalysed esterification is an equilibrium](figures/06-ester-equilibrium.svg){width=85% fig-alt="Acid-catalysed esterification is an equilibrium"}
+
+How could the ester proportion change without changing the catalyst?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Changing reactant/product amounts, such as removing water, can favour ester formation. Acid accelerates approach in both directions.
+:::
+
+## Apply: interpret the equilibrium separately from catalysis
+
+Does adding a catalyst alone change equilibrium K at fixed conditions?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It offers a faster pathway but does not change the net reaction equilibrium constant at the same temperature.
+:::
+
+## Explain amide rotation and reactivity
+
+![Amide nitrogen donates into the carbonyl](figures/08-amide-resonance.svg){width=85% fig-alt="Amide nitrogen donates into the carbonyl"}
+
+What does the contributor with C=N imply about the real C–N bond?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: It has partial double-bond character. Nitrogen donation stabilises the amide and reduces its pair availability. Contributors describe one molecule.
+:::
+
+## Apply: explain amide rotation and reactivity
+
+Audit charges in CH₃C(O⁻)=NH₂⁺.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: O is −1 and N is +1, so the contributor remains neutral. N has four bond orders.
+:::
+
+## Distinguish proton transfer from coupling
+
+![Acid plus amine first gives an ammonium carboxylate salt](figures/09-salt-not-amide.svg){width=85% fig-alt="Acid plus amine first gives an ammonium carboxylate salt"}
+
+What immediate product should be expected from acid plus amine in water?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An ammonium carboxylate pair is a reasonable initial acid–base result. Amide formation requires suitable activation or conditions.
+:::
+
+## Apply: distinguish proton transfer from coupling
+
+Explain why two amino acids meeting in water is insufficient for rapid peptide formation.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The acid and amine can proton-transfer; a productive acyl-substitution pathway needs activation and appropriate conditions, later supplied biologically.
+:::
+
+## Transfer the acyl motif to biological structures
+
+![Biological ester and amide links share an acyl motif](figures/10-bio-links.svg){width=85% fig-alt="Biological ester and amide links share an acyl motif"}
+
+Which bond is ester-like in a lipid and amide-like in a peptide?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An acyl carbon bonded to O–R gives an ester linkage; an acyl carbon bonded to N gives an amide linkage.
+:::
+
+## Apply: transfer the acyl motif to biological structures
+
+Where would initial nucleophilic acyl attack occur in either motif?
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: At the carbonyl carbon. Whether reaction proceeds depends on activation, leaving group and environment, not merely the presence of C=O.
+:::
+
+## Integrate one short case
+
+A student stops base-promoted ethyl-ethanoate hydrolysis at CH₃COOH + EtO⁻. Write the missing step and the form obtained after acid work-up.
+
+::: notes
+Suggested 120 seconds; adjust to the explanation and class response. Give time to formulate the claim and compare a partner explanation. Worked answer: EtO⁻ deprotonates the acid to give CH₃COO⁻ + EtOH. Acid work-up later protonates carboxylate to CH₃COOH.
+:::
+
+## Compare the worked reasoning
+
+EtO⁻ deprotonates the acid to give CH₃COO⁻ + EtOH. Acid work-up later protonates carboxylate to CH₃COOH.
+
+::: notes
+Suggested 60 seconds; adjust to the explanation and class response. Ask students to identify the exact step or observation their own reasoning omitted. This is a correction interval within the session, not a new topic.
+:::
+
+## Exit explanation
+
+Why does a carbonyl alone not guarantee acyl substitution?
+
+::: notes
+Suggested 40 seconds; adjust to the explanation and class response. Worked answer: The substrate also needs a viable leaving-group pathway; aldehydes and ketones ordinarily undergo addition instead. Ask for a causal explanation, not a single vocabulary label.
+:::
+
+## Continue with independent practice
+
+Use the [standalone practice and worked checks](exercise.qmd), then the [self-check](quiz.qmd).
+
+All required inputs and explanations are provided locally. The [reading guide](../reference/reading.qmd) offers optional textbook support.
+
+::: notes
+Suggested 20 seconds; adjust to the explanation and class response. Preview the local exercise route. No book purchase or external problem set is needed to complete it. Leave time to note one corrected misconception.
+:::

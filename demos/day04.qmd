@@ -1,0 +1,33 @@
+---
+title: 'Day 4: Functional-group inspection workbench'
+---
+
+A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
+
+## Predict first
+
+In lactic acid, should selecting “alcohol” highlight every O atom? Predict which O belongs to the alcohol and which atoms belong to the carboxylic acid.
+
+```{=html}
+<section class="chem-demo" id="day04">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked worked practice below remain available.</noscript></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/foundations.js"></script>
+```
+
+## Explore
+
+1. Inspect lactic acid with the highlight hidden. Locate its two oxygen-containing motifs, then reveal alcohol and acid separately.
+
+2. Select ethanoic acid and ask for alcohol. Explain the absence of an alcohol match even though an O–H bond exists.
+
+3. Compare ether with ketone, then inspect the neutral drawn glycine form for an amine and acid. Change the selected group before revealing so each attempt starts with your own prediction.
+
+## Take-away
+
+Choose two molecules with oxygen and explain why one local O–H or C–O bond does not classify all their functional groups.
+
+## Model and limits
+
+The workbench recognises the complete motifs supplied in these particular structures; it is not an automatic general chemical classifier. Highlighted atoms identify the chosen local site. Neutral drawn glycine is used to inspect connectivity; actual aqueous protonation depends on pH.
+
+Continue with the [standalone worked practice](../practice/day04.qmd).

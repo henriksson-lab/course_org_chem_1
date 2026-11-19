@@ -1,0 +1,54 @@
+---
+title: "Day 19 demo: a proton-transfer equilibrium workbench"
+---
+
+**Question:** can you predict a favoured proton-transfer direction from the
+reactant and product acids, without confusing equilibrium with reaction speed?
+
+Allow **8 minutes**: predict for 2, compare cases for 4, and explain for 2.
+All numerical inputs and reacting species are supplied in the workbench.
+
+```{=html}
+<section class="chem-demo" id="day19" aria-label="Compatible aqueous pKa and proton-transfer equilibrium workbench">
+<p>Enable JavaScript to select a proton donor and base and inspect the complete conjugate-pair reaction.</p>
+</section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/applications.js"></script>
+```
+
+## Predict
+
+For the reaction HA + B ⇌ A + BH, compare the conjugate-pair pKa values using
+
+$$K\approx10^{pK_a(BH)-pK_a(HA)}.$$
+
+Charges depend on the chosen pair; the actual charged formulas are displayed.
+The supplied approximate aqueous acid pKa values are ethanoic acid **4.8**,
+methylammonium **10.6**, phenol **10.0** and pyridinium **5.2**. A lower pKa
+means a stronger acid within this compatible comparison.
+
+Predict the result of ethanoic acid with methylamine before using the controls.
+
+## Explore
+
+1. Inspect all four species, not only the numerical constant.
+2. Try **Equal pair**. Why does swapping a proton within the same conjugate-pair
+   bookkeeping give K = 1?
+3. Try **Reactant-favoured case** and identify the weaker acid on each side.
+4. Make your own product-favoured comparison and check the net charge.
+
+## Explain and check
+
+Ethanoic acid plus methylamine gives a pKa difference of $10.6-4.8=5.8$, so
+$K\approx6.3\times10^5$ toward ethanoate plus methylammonium. Phenol plus
+pyridine gives $5.2-10.0=-4.8$, so $K\approx1.6\times10^{-5}$ and reactants
+are favoured. Neither value specifies how rapidly equilibrium is approached.
+
+## Model limits
+
+The values are approximate and used under a common aqueous comparison.
+Standard-state, activity, solvent and temperature conventions must be
+compatible when transferring this calculation to other datasets. K alone
+also does not give the final composition without starting amounts and an
+appropriate equilibrium model. No equilibrium solver or laboratory protocol
+is implied. Review the [local acid–base explanation](../acids-bases/exercise.qmd).

@@ -1,69 +1,259 @@
 ---
-title: "A structure puzzle: one formula, several kinds of evidence"
+title: "Spectroscopy: standalone problem bank"
 ---
 
-Allow 60 minutes for structure work and 45 minutes for the R plot. All spectra
-and peak tables supplied here are **simulated teaching examples**, not measured
-spectra. Values are illustrative, and simple splitting uses a first-order model.
+This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
+Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
+Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
+mechanism. Use the hints after a first attempt and the worked checks after revising.
+All required definitions, structures, constants and observations are supplied here
+or in the linked local explanations; no textbook problem set is required.
 
-## 1. Use the formula before looking at a spectrum
+## Working refresher
 
-Unknown U1 has formula C₄H₈O₂. For this ordinary closed-shell C/H/O molecule,
-the degree of unsaturation is `(2*C + 2 - H)/2`. Calculate it. Draw ethyl
-ethanoate and butanoic acid, showing that both satisfy the formula.
+All numerical spectra in this bank are **simulated teaching examples**. For ordinary closed-shell C/H/O formulas use DBE=(2C+2−H)/2; O is omitted from this simple count. IR transmittance dips indicate absorption: broad alcohol O–H is often near 3200–3600 cm⁻¹, acid O–H can extend broadly around 2500–3300 cm⁻¹ and carbonyls occupy roughly 1650–1800 cm⁻¹ depending on structure. In our simple first-order proton NMR model, n equivalent adjacent H give n +1 lines; integral gives relative total H area. A singlet/triplet/quartet has 1/3/4 lines. These shortcuts do not describe all real coupling or exchange. Chemical shifts are in ppm; supplied values are illustrative. Candidate tests and drawings are available in [the lecture](lec.qmd).
 
-::: {.callout-note collapse="true" title="Worked check"}
-The degree is (8 + 2 − 8)/2 = 1. A carbonyl supplies one double bond in either
-candidate. The formula alone does not decide whether the oxygens are arranged
-as an ester or a carboxylic acid; it also does not rule out every other possible
-connectivity. These are two candidate structures to test.
-:::
+## 1. Calculate one formula constraint
 
-## 2. Read the supplied evidence
-
-U1 has strong IR absorption in the ester carbonyl region near 1740 cm⁻¹ and
-no evident broad acid/alcohol O–H band in the supplied complete trace. Its
-proton NMR peaks are:
-
-| Shift / ppm | Multiplicity | Integral |
-| --- | --- | --- |
-| 1.25 | triplet | 3H |
-| 2.05 | singlet | 3H |
-| 4.12 | quartet | 2H |
-
-The proton-decoupled carbon NMR shows four signals at approximately 14, 21,
-60 and 171 ppm. Assign every supplied observation to ethyl ethanoate. Explain
-the quartet/triplet relationship and the acetyl methyl singlet.
+For an ordinary closed-shell C/H/O molecule C₄H₈O₂, calculate DBE=(2C+2−H)/2. State two structural possibilities consistent with that degree without claiming a unique structure.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-First find an O–CH₂–CH₃ fragment. The CH₂ sees three equivalent neighbouring
-H; the CH₃ sees two. Then account for the remaining three protons.
+O does not enter this simplified expression.
 :::
 
-::: {.callout-note collapse="true" title="Worked assignment"}
-For CH₃COOCH₂CH₃: terminal ethyl CH₃ gives 1.25 ppm, triplet, 3H; O–CH₂ gives
-4.12 ppm, quartet, 2H; acetyl CH₃ gives 2.05 ppm, singlet, 3H because the
-adjacent carbonyl carbon has no H. The carbon signals correspond respectively
-to terminal ethyl CH₃ (14), acetyl CH₃ (21), O–CH₂ (60) and C=O (171). Strong
-carbonyl IR and no broad O–H agree with the ester. Peak heights in a schematic
-NMR drawing are not the integrals; use the supplied areas/integral values.
+::: {.callout-note collapse="true" title="Worked explanation"}
+DBE=1. One double bond, such as C=O, or one saturated ring could supply it. The formula alone does not establish ester, acid or any unique connectivity.
 :::
 
-## 3. Try to reject the alternative
+## 2. Check two proposed formulas
 
-Explain two independent disagreements between butanoic acid and U1. What
-would make an argument from an absent IR feature less reliable? Why is the
-name of a supplied data file not evidence for chemical identity?
+Count the atoms in CH₃COOCH₂CH₃ and CH₃CH₂CH₂COOH. Verify whether both can be U1 with C₄H₈O₂ and name their functional-group difference.
 
-::: {.callout-note collapse="true" title="Worked reasoning"}
-Butanoic acid would have an acid O–H region and no O–CH₂ quartet. It also
-would not give the isolated acetyl methyl singlet of the ester. Absence is less
-informative if the relevant region was not measured, the sample is too dilute,
-or the signal is obscured. A filename is a label supplied by a person and can
-be wrong; identity should be tested against the observations.
+::: {.callout-tip collapse="true" title="Hint"}
+Write the carbonyl explicitly before counting.
 :::
 
-## 4. R task: present an IR comparison
+::: {.callout-note collapse="true" title="Worked explanation"}
+Each is C₄H₈O₂. Ethyl ethanoate is an ester, while butanoic acid is a carboxylic acid. Both include one C=O, satisfying DBE1, but the oxygen/hydrogen connectivity differs.
+:::
+
+## 3. Reject a formula mismatch
+
+A proposed candidate for C₄H₈O₂ is ethanol CH₃CH₂OH. Count its atoms and explain why a plausible-looking O–H IR band would not rescue it as the whole U1 structure.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A matched functional group does not replace the molecular formula constraint.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Ethanol is C₂H₆O, not C₄H₈O₂. Even if it shared an OH feature with some spectrum, it would not account for U1’s total composition. A full candidate must satisfy all supplied constraints.
+:::
+
+## 4. Read a transmittance trace
+
+A simulated IR trace falls from 95% to 30% transmittance near 1740 cm⁻¹. Which position indicates stronger absorption, and why must you inspect the y-axis label?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Transmittance measures the fraction of incident light passing through.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+30% transmittance means less light transmitted and therefore stronger absorption than 95% at the comparison region. In an absorbance plot stronger absorption would normally be higher; the same curve direction cannot be assumed without reading the axis.
+:::
+
+## 5. Use an acid-region prediction
+
+Candidate A is ethyl ethanoate and B is butanoic acid. The supplied complete simulated IR has C=O but no broad O–H envelope across the usual acid region. Which candidate is challenged, and what experimental limitation could weaken that argument?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ask what each candidate predicts in a measured, sufficiently sensitive region.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Butanoic acid predicts broad acid O–H, so its absence challenges B. Missing spectral coverage, weak signal or obscuration would weaken absence evidence. Ester A fits this functional-group comparison but still needs other evidence.
+:::
+
+## 6. Compare alcohol and carbonyl evidence
+
+A teaching trace has broad O–H near 3300 cm⁻¹ and no evident C=O region band. Compare ethanol and ethanal as candidates, assuming adequate coverage and sensitivity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ethanol contains OH; ethanal contains C=O but no OH.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The trace supports ethanol over ethanal for this pair. It does not uniquely prove ethanol against all possible alcohols; the carbon skeleton still requires further constraints.
+:::
+
+## 7. Avoid a unique-peak claim
+
+A student assigns a whole molecule solely because its IR has a band near 1740 cm⁻¹. Explain why this is too strong and name two independent kinds of additional information used here.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Functional-group regions occur in many related molecules.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A carbonyl-region band constrains a functional group rather than uniquely specifying connectivity. Molecular formula and proton/carbon NMR supply independent information about composition and atom environments.
+:::
+
+## 8. Interpret a quartet and integral
+
+A simulated signal at 4.12 ppm is a quartet integrating to 2H. Under the supplied simple first-order n +1 model, give the number of neighbouring equivalent H and a plausible fragment.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Line count and integral describe different things.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Four lines imply three neighbouring equivalent H. The 2H integral supports CH₂ beside CH₃; a downfield O–CH₂–CH₃ environment is consistent with the shift. That fragment still needs to fit the whole formula.
+:::
+
+## 9. Interpret a triplet and integral
+
+A simulated signal at 1.25 ppm is a triplet integrating to 3H. Under the same simple model, state adjacent-H count and how it can pair with a 2H quartet.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A triplet has n +1=3, so n=2.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A CH₃ next to CH₂ can give three lines and 3H integration. Paired with a 2H quartet, it supports an ethyl fragment. The triplet alone does not say whether the remote atom is O, C or another group.
+:::
+
+## 10. Explain a singlet structurally
+
+For CH₃C(=O)OCH₂CH₃, explain why the acetyl CH₃ can be a 3H singlet near 2 ppm while the ethyl CH₃ is a triplet. Ignore small long-range couplings.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Identify the atom directly adjacent to each methyl.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Acetyl CH₃ is adjacent to carbonyl carbon with no attached H, so no ordinary vicinal splitting is expected. Ethyl CH₃ is adjacent to CH₂ with two H, giving a triplet in this simple model.
+:::
+
+## 11. Normalise integrals
+
+A spectrum reports integral areas 6, 6 and 4 for the three signal groups of a candidate with eight H. Normalise the ratio and explain why quartet line count is not a hydrogen count.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Divide by a common factor and compare the total.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The ratio reduces to 3:3:2, totalling eight H. Splitting distributes a signal’s area across lines; a quartet can represent two equivalent H. Its four lines do not mean four H.
+:::
+
+## 12. Avoid using peak heights as areas
+
+One line of a singlet is twice as tall as one line of a triplet. Can you infer relative H counts? State what quantitative information is required.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A multiplet spreads total area over several lines.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+No. Use integrated area over the full signal group, with a consistent integration scale. Individual line heights are not proton counts, especially when signal shapes or widths differ.
+:::
+
+## 13. Assign all proton environments in U1
+
+U1 is C₄H₈O₂ with 1.25 ppm triplet 3H, 2.05 ppm singlet 3H and 4.12 ppm quartet 2H. Assign every group to CH₃COOCH₂CH₃, explicitly connecting multiplicity and integral.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Start with the linked CH₂–CH₃ pair, then place the remaining methyl.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The terminal ethyl CH₃ is 1.25 t 3H; O–CH₂ is 4.12 q 2H. The acetyl CH₃ is 2.05 s 3H, with no H on adjacent carbonyl carbon. The groups account for all eight H and the ester connectivity.
+:::
+
+## 14. Assign four carbon environments
+
+A simulated decoupled ¹³C spectrum for CH₃COOCH₂CH₃ gives 14,21,60 and 171 ppm. Assign them and state why line height is not normally a quantitative carbon count.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate carbonyl, O-bound methylene and the two methyl environments.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+171 is ester C=O, 60 is O–CH₂, 14 terminal ethyl CH₃ and 21 acetyl CH₃. Routine ¹³C intensities depend on measurement/relaxation effects, so do not count atoms from heights.
+:::
+
+## 15. Interpret signal count with symmetry
+
+A candidate has six total carbons but only four ¹³C environments. Is that automatically impossible? Explain using the distinction between atoms and equivalent environments.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Equivalent carbons can share a resonance.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+No. Symmetry or equivalence can make several carbon atoms share one signal. Four environments do not always mean four total carbons. The formula, structure and measurement conditions determine whether that equivalence is plausible.
+:::
+
+## 16. Reject butanoic acid with two clues
+
+Use U1’s complete simulated IR (C=O, no broad OH) and proton peaks 1.25 t 3H,2.05 s 3H,4.12 q 2H. State two observations conflicting with CH₃CH₂CH₂COOH, rather than citing the sample name.
+
+::: {.callout-tip collapse="true" title="Hint"}
+An acid lacks O–CH₂ and predicts acid OH.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The acid predicts broad carboxylic O–H and no O–CH₂ quartet. It also lacks the isolated acetyl methyl singlet arrangement. A terminal methyl triplet could fit both structures, so that feature alone does not reject the acid.
+:::
+
+## 17. Reject a hydroxyketone alternative
+
+Candidate CH₃C(=O)CH(OH)CH₃ also has C₄H₈O₂. Compare its predicted OH-bearing proton count and adjacent methyl multiplicity with U1’s 4.12 q 2H and 1.25 t 3H.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The oxygen-bearing carbon is CH, not CH₂.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The hydroxyketone has a one-H OH-bearing CH and a methyl adjacent to one H, commonly giving a doublet. It does not give the supplied two-H O–CH₂ quartet/three-H ethyl triplet pattern. Its OH adds another predicted difference.
+:::
+
+## 18. Distinguish support from proof
+
+A supplied candidate fits formula, IR and simple NMR while two alternatives fail. Write an appropriately restrained identity conclusion and one remaining limitation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Specify the compared candidates and the nature of the observations.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The candidate best fits the supplied evidence among the tested structures. A finite comparison does not exclude every imaginable alternative, and real confidence depends on spectrum quality, assignment completeness and sample context.
+:::
+
+## 19. Check spectral provenance
+
+An IR file is numerically generated for teaching and named ethyl_ethanoate.csv. Which claims can the plot support, and which claims about an actual laboratory isolate would be unjustified?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate a model demonstration from measured sample evidence.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+It can demonstrate a labelled functional-group pattern and plotting workflow. It cannot establish that a real isolate was measured, identified or pure. The filename records the intended teaching label, not independent experimental identity proof.
+:::
+
+## 20. Plan an independent next check
+
+An unknown’s carbonyl IR fits both an ester and another carbonyl candidate. You can request either a molecular formula or repeat the same isolated peak label. Which is more informative here, and why?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Seek an observation that tests a different prediction.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The formula adds an independent composition/unsaturation constraint. Repeating the same peak label without new data adds little. A full proton NMR could likewise test distinct connectivity predictions; choose evidence that discriminates the remaining alternatives.
+:::
+
+## R task:  present an IR comparison
 
 Open the [student project](../reference/data.qmd). The supplied `data/ir.csv`
 contains `sample_id`, `wavenumber_cm1` and `transmittance_percent`. Plot the

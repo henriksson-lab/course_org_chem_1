@@ -1,0 +1,174 @@
+---
+title: "Day 20: Nitrogen, aromaticity and amino-acid charge"
+---
+
+A **150-minute consolidation block**, containing 12 non-R problems. No book is
+needed. Suggested timing:10 minutes retrieval;48 minutes for problems 1–6;
+48 minutes for 7–10;34 minutes for 11–12;10 minutes review. The slower drawing
+and comparison intervals are included in that total. Continue unfinished work
+as independent practice rather than rushing a mechanism.
+
+Local explanations: [Amines and aromatics](../amines-aromatics/exercise.qmd) and [acyl chemistry](../acyl-chemistry/exercise.qmd).
+
+## Working definitions
+
+Use full-headed arrows for electron pairs: start at a lone pair or bond and
+end at its acceptor. Keep ordinary carbon to four bond orders and conserve
+atoms and net charge. For compatible proton-transfer data,
+K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and
+1 mol=1000 mmol; compare n/coefficient before predicting theoretical product.
+Apparent isolated yield=100×isolated/theoretical product mass. TLC uses
+Rf=spot/front distances from the same origin. For simple first-order NMR,
+n adjacent equivalent H give n +1 lines while integration counts H area.
+Every additional structure, constant and observation needed is supplied in
+the individual problem; no unseen textbook table is assumed.
+
+## 1. Count N substituents
+
+Classify EtNH₂, EtNHMe and EtNMe₂ as primary, secondary or tertiary, with Et=CH₂CH₃ and Me=CH₃. Count N–H bonds and neutral N lone pairs.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Classification counts carbon groups directly attached to N.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+They are primary with 2 N–H, secondary with 1 N–H and tertiary with 0 N–H. Each neutral ordinary amine has three bonds and one pair.
+:::
+
+## 2. Protonate explicitly
+
+Draw EtNH₂+H₃O⁺ with both arrows and products. State the N bond count, N charge and total reacting charge after transfer.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The donor O–H pair returns to water oxygen.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+EtNH₃⁺+H₂O form. N has four bonds/+1; total +1 is conserved. A new bond uses the original N nonbonding pair.
+:::
+
+## 3. Compare base equilibria
+
+Neutral bases B1 and B2 have supplied conjugate-acid pKa values 9.0 and 5.0. Which is stronger under comparable conditions? Predict BH2⁺+B1⇌B2+BH1⁺ and estimate K.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The weaker acid is the one with larger pKa.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+B1 is stronger. Products contain the weaker acid BH1⁺, so K≈10^(9−5)=10⁴ toward products. This does not alone determine every nucleophilic rate.
+:::
+
+## 4. Convert a ratio to fraction
+
+For pKa(BH⁺)=9.0, use[B]/[BH⁺]=10^(pH−pKa). At pH8, find the ratio and protonated fraction.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The fraction BH⁺ is 1/(1+ratio).
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The ratio is 0.1 and the protonated fraction 1/1.1≈0.909, about 90.9%. The ratio 0.1 is not a 10% protonated fraction.
+:::
+
+## 5. Read an amide site
+
+For MeC(=O)NHEt, draw the neutral and charge-separated contributors and identify why its N pair should not be treated like EtNH₂.
+
+::: {.callout-tip collapse="true" title="Hint"}
+N donation shifts the carbonyl pi pair to O.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+MeC(O⁻)=N⁺HEt contributes with net 0. Delocalisation gives partial C–N double character and changes pair availability. A simple amine lacks this direct carbonyl conjugation.
+:::
+
+## 6. Check cyclic conjugation
+
+Compare benzene with cyclohexane. For each state whether continuous cyclic pi overlap exists, and count benzene pi electrons using 4 n +2.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A ring of sigma bonds is insufficient.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Benzene has continuous overlap and 6 pi electrons, n=1. Cyclohexane is nonaromatic because it lacks that network; it is not automatically antiaromatic.
+:::
+
+## 7. Compare aromatic nitrogens
+
+Pyridine has an N pair outside its pi sextet; pyrrole supplies its N pair to the sextet. Which N is more readily protonated ordinarily, and why?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ask whether the pair already supplies aromatic stabilisation.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Pyridine is more basic at N in this comparison. Protonation uses its separate pair while retaining the sextet. Pyrrole pair participation makes ordinary N protonation much less favourable.
+:::
+
+## 8. Draw an amino acid at low pH
+
+Use the simple amino acid H₂NCH(CH₃)COOH with supplied pKa 2.4 for COOH and 9.7 for ammonium. Draw its predominant form at pH1 and net charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Both sites are mostly protonated well below their pKa values.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+H₃N⁺CH(CH₃)COOH predominates, net +1. The carbon skeleton and the stereocentre’s bonds are retained by those protonation changes.
+:::
+
+## 9. Draw the zwitterion
+
+With the same pKa 2.4 and 9.7, draw the predominant amino-acid form at pH6. Mark individual and net charges.
+
+::: {.callout-tip collapse="true" title="Hint"}
+pH lies above the acid pKa but below ammonium pKa.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+H₃N⁺CH(CH₃)COO⁻ predominates. N is +1 and carboxylate −1, net 0; charged sites remain even when the net charge is zero.
+:::
+
+## 10. Draw the high-pH form
+
+At pH12 with supplied pKa 2.4 and 9.7, draw the dominant form and the reaction from its zwitterion with OH⁻.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ammonium can lose H while carboxylate stays deprotonated.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+H₂NCH(CH₃)COO⁻ forms with water. Zwitterion+OH⁻→amino-acid anion+H₂O; total −1 is conserved and N returns to three bonds plus a pair.
+:::
+
+## 11. Explain a nonbasic peptide site
+
+For H₂NCH₂C(=O)NHCH₃, identify which N is amide-like and explain why assigning one basicity to all N sites is unsound.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Trace each N’s direct attachment to C=O.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The right NH is directly bound to acyl carbon and has amide delocalisation. The left H₂N is not directly bound to carbonyl. They are different local environments, so pair availability and protonation behaviour differ.
+:::
+
+## 12. Critique a universal rate rule
+
+A student ranks two amines by conjugate-acid pKa and claims the stronger base must attack all carbon electrophiles faster. State the supported conclusion and two missing rate factors.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Equilibrium and kinetics ask different questions.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Compatible pKa values compare proton-transfer basicity. Substrate structure, steric access, solvent, leaving group and nucleophile solvation can alter nucleophilic rates. The pKa comparison is useful but is not a universal kinetic law.
+:::
+
+## Review your reasoning
+
+Choose two corrected errors: one in a drawing/calculation and one in an
+interpretation. Explain why the corrected answer follows from the supplied
+inputs. Keep the first attempt so you can see the change in your reasoning.

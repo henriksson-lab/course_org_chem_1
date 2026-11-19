@@ -2,12 +2,26 @@
 title: "Reading and visual sources"
 ---
 
-## A textbook route
+## You can study and practise without the book
+
+The local lectures, worked examples, reference toolkit, daily paper problems,
+hints and explained solutions supply the material needed for this teaching
+route. Every problem states the structures, data and assumptions it needs.
+Work through the [daily practice route](../practice/index.qmd) before seeking
+additional exercises. No exercise requires a textbook problem number or an
+unseen textbook figure.
+
+The references below are optional supplementary reading. They can provide
+another explanation or extra background; purchasing a textbook is not necessary
+to use these materials.
+
+## Optional textbook route
 
 The provisional reference is Solomons, Fryhle and Snyder, *Solomons' Organic
 Chemistry*, 12th Global edition (2016), ISBN 9781119248972. Umeå lists this
 edition for the separate [Organic Chemistry for Engineers course](https://www.umu.se/utbildning/kurs-och-utbildningsplan/5ke202/).
-**Use your instructor's confirmed reading list before purchasing a book.**
+It is a background reference for this draft; the course's own problem bank
+supplies the required practice.
 
 Selected chapter references in these lessons are study pointers, not a claim
 that complete chapters are assigned or that this book is confirmed for 5KE231.

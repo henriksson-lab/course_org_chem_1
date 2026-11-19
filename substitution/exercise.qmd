@@ -1,111 +1,265 @@
 ---
-title: "Practice: explain a substitution pathway"
+title: "Substitution:20 drawing and reasoning problems"
 ---
 
-Allow 75–90 minutes. Draw bonds, lone pairs and charges explicitly at the reacting
-centre. Your explanation should connect structure, geometry and conditions.
-A product formula alone is not a mechanism.
+Use problems 1–12 as the **core route (about 80–100 minutes)**. Problems 13–20 are optional transfer practice (another 45–65 minutes); select them to target mistakes rather than adding every problem to required contact time. Paper/model drawing is central. All inputs and conventions needed are below; no textbook purchase or external problem set is required.
 
-## 1. Classify the correct carbon
+## Local refresher and worked starting example
 
-Draw CH₃Br, CH₃CH₂Br, CH₃CH(Br)CH₃ and (CH₃)₃CBr. Circle the carbon attached
-to bromine and count how many carbon atoms are directly attached to it.
-Which are methyl, primary, secondary and tertiary? Which has no neighbouring
-carbon bearing a potential β-hydrogen?
+A nucleophile donates a pair to saturated carbon; a leaving group takes the old bonding pair. SN2 couples these changes and inverts the reacting geometry. SN1 ionises first and then captures a carbocation. Methyl/primary/secondary/tertiary counts carbon neighbours at the reacting carbon. Conditions determine which model applies.
 
-::: {.callout-tip collapse="true" title="Hint"}
-The classification concerns the carbon attached to Br. A long chain can still
-have a primary reaction centre if Br is at an end.
-:::
+**Worked starting example.** For OH⁻+CH₃Br, oxygen gains a C–O bond and becomes neutral in CH₃OH; Br receives the C–Br pair as Br⁻. No carbocation appears in this concerted example. A neutral incoming water or ammonia instead acquires positive charge before a later proton transfer.
 
-::: {.callout-note collapse="true" title="Worked check"}
-CH₃Br is methyl (zero carbon neighbours); CH₃CH₂Br is primary (one);
-CH₃CH(Br)CH₃ is secondary (two); (CH₃)₃CBr is tertiary (three). Methyl bromide
-has no β-carbon. This matters for both steric approach in substitution and
-the possibility of β-elimination. Carbon count alone does not settle the
-outcome; the nucleophile/base, leaving group, solvent and temperature matter.
-:::
+Draw structures, identify the relevant atom and explain the reason. A name alone is insufficient where a mechanism or argument is requested.
 
-## 2. Draw the methyl SN2 example
+## 1. Classify four centres
 
-Use OH⁻ + CH₃Br → CH₃OH + Br⁻. Show the hydroxide lone pair, the leaving-group
-bond pair and the products. Draw the approach opposite Br. Is there a
-carbocation intermediate? If the simple rate law is `rate = k[CH₃Br][OH⁻]`,
-what happens to the initial rate when both initial concentrations double at
-fixed temperature and solvent?
-
-::: {.callout-note collapse="true" title="Worked check"}
-The donor pair forms C–O as the C–Br pair returns to Br. The changes are
-concerted, with no carbocation intermediate. Net charge is −1 throughout.
-Doubling both concentrations gives four times the initial rate in the
-supplied model, because `(2[CH₃Br]) × (2[OH⁻]) = 4[CH₃Br][OH⁻]`. This is a
-kinetic prediction, not an equilibrium or isolated-yield prediction.
-:::
-
-## 3. Inversion versus a change in the letter
-
-Build a tetrahedral carbon model with four different groups: Br, H, CH₃ and
-CH₂CH₃. Place it so you can look along the C–Br bond. Replace Br by OH through
-backside attack while preserving the identities of the three retained groups.
-Draw before and after using wedge/dash bonds. Assign priorities independently
-to each drawing and then give the R/S labels.
-
-::: {.callout-note collapse="true" title="Worked check"}
-The tetrahedral arrangement inverts at the reacting carbon. For this particular
-2-bromobutane → butan-2-ol comparison, Br and OH are each highest priority in
-their respective structures; ethyl ranks above methyl and H is lowest. Thus
-an S starting configuration gives R in the product, or vice versa. The
-general mechanistic rule is geometric inversion. In other replacements,
-priorities may change, so do not infer a new letter without checking them.
-:::
-
-## 4. Work through an SN1 model in water
-
-For a tertiary alkyl bromide `(CH₃)₃CBr`, draw these **separate** stages:
-ionisation; attack by water; removal of a proton by another water molecule.
-Show charges after every stage. Explain why the first stage is more plausible
-for this substrate than for CH₃Br. Name one possible product of a competing
-pathway starting from the same carbocation.
+Draw CH₃Br, CH₃CH₂Br, CH₃CH(Br)CH₃ and (CH₃)₃CBr. Classify each carbon bonded to Br and explain your counting rule.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-Water oxygen starts with two bonds. After it bonds to carbon but before it
-loses a proton, count its bonds again.
+Count carbon neighbours directly attached to the Br-bearing carbon.
 :::
 
-::: {.callout-note collapse="true" title="Worked check"}
-The C–Br pair moves to Br, giving `(CH₃)₃C⁺ + Br⁻`. A water lone pair attacks
-the carbocation, giving `(CH₃)₃COH₂⁺`. Another water removes H⁺ to give
-`(CH₃)₃COH + H₃O⁺`. Bromide remains a spectator after ionisation. The tertiary
-carbocation is stabilised by its carbon substituents relative to a methyl
-carbocation. Loss of β-H from the carbocation can instead yield
-2-methylpropene through E1. Neither the substrate name nor water alone tells
-you the precise product ratio.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The classes are methyl, primary, secondary and tertiary, with zero, one, two and three carbon neighbours respectively. The total carbon count of the whole molecule is not the classification criterion.
 :::
 
-## 5. Why is a neutral alcohol not automatically a good substrate?
+## 2. Same formula, different accessibility
 
-A proposed step shows OH⁻ leaving directly from an ordinary neutral alcohol
-to form a carbocation. Identify the problem. Draw an acid–base activation step
-that could make water the departing group, and explain why the resulting
-substitution/elimination outcome still requires substrate and conditions.
+Draw 1-bromobutane and 2-bromobutane. Circle the reaction centre and compare backside crowding under otherwise comparable SN2 conditions.
 
-::: {.callout-note collapse="true" title="Worked check"}
-Hydroxide is a poor leaving group in the selected conditions. Protonating
-the alcohol oxygen gives an oxonium species that can lose neutral water.
-This activation does not make every alcohol react by SN1: carbocation
-stability, availability of nucleophiles/bases and other conditions determine
-whether a concerted, stepwise or competing elimination route is plausible.
+::: {.callout-tip collapse="true" title="Hint"}
+Their formulas match; the local carbon environment differs.
 :::
 
-## 6. Explain a substrate-and-condition choice
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The terminal reacting carbon in 1-bromobutane is primary and generally less hindered than the secondary carbon in 2-bromobutane. This favours SN2 access for the primary example, without establishing a universal rate ratio.
+:::
 
-Compare methyl bromide with a strong nucleophile to a tertiary bromide in a
-polar aqueous medium. Write a short justified pathway proposal for each.
-Include one limitation of your proposal; for example, a competing process or
-information needed before predicting an experimental product proportion.
+## 3. Construct the methyl mechanism
 
-## Leave with
+Draw the concerted OH⁻ + CH₃Br SN2 step, showing the leaving pair and net charge.
 
-Two complete mechanisms, an inversion drawing and an explanation linking each
-pathway to its reacting centre and medium. Consult the
-[reading guide](../reference/reading.qmd) for selected Solomons chapter 6 support.
+::: {.callout-tip collapse="true" title="Hint"}
+Both bond changes occur in one elementary step.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+OH lone pair → C and C–Br pair → Br produce CH₃OH + Br⁻. Total charge is −1. A methyl carbocation is not an intermediate in this model.
+:::
+
+## 4. Change the incoming group
+
+Assume an SN2 displacement of CH₃Br by I⁻ in a suitable medium. Draw the bond changes and products without claiming the equilibrium position.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use iodine as pair donor and keep bromide as the leaving group.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The I pair forms C–I while C–Br breaks to Br⁻, producing CH₃I + Br⁻. The same electron-flow pattern applies. Conditions and relative activities are needed to discuss extent of reaction.
+:::
+
+## 5. Build an ether
+
+Assume suitable dry SN2 conditions for CH₃CH₂O⁻ + CH₃CH₂Br. Draw the new bond and both products. Why is the organic product neutral?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The alkoxide oxygen changes from one bond to two.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Products are CH₃CH₂OCH₂CH₃ and Br⁻. Oxygen donates its pair to carbon and becomes a neutral two-bond ether oxygen. Net charge remains −1, now carried by bromide.
+:::
+
+## 6. Let ammonia attack
+
+Draw the first SN2 step of NH₃ + CH₃Br. A proposed answer CH₃NH₂ + Br⁻ is missing something: identify it.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The attacking nitrogen initially carries three H atoms.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The immediate product is CH₃NH₃⁺ + Br⁻. Nitrogen gains a fourth bond and positive charge. Neutral methylamine requires a separate proton-transfer step; it cannot lose H without a proton acceptor.
+:::
+
+## 7. Finish the amine proton transfer
+
+Draw the possible equilibrium proton transfer from CH₃NH₃⁺ to another NH₃.
+Show both arrows and all products; do not assume quantitative deprotonation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ammonia is the base in this second event.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+An NH₃ lone pair takes H from methylammonium; the original N–H pair returns to methylamine N. Products are CH₃NH₂ and NH₄⁺. Charge +1 is conserved, and the nitrogen roles differ between attack and deprotonation.
+This is a valid proton-transfer possibility, not a claim that equilibrium
+intrinsically favours complete deprotonation. Amounts and reaction conditions,
+including excess ammonia, affect the resulting mixture.
+:::
+
+## 8. Use the SN2 rate model
+
+For rate=k[RX][Nu], predict the initial-rate factor when [RX] is doubled and [Nu] tripled at fixed temperature and solvent.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Multiply the independent concentration factors.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The rate increases sixfold in the supplied simple model. The calculation describes initial kinetics and does not imply a sixfold equilibrium conversion or yield.
+:::
+
+## 9. Hold the rate constant
+
+In the same rate model, [RX] is halved while [Nu] is doubled. Predict the rate factor and state the assumptions.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One factor offsets the other if k is unchanged.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The predicted initial rate is unchanged: 0.5×2=1. Temperature, solvent and the applicable mechanism must remain comparable; changing those can change k or the mechanism.
+:::
+
+## 10. Reject an obstructed pathway
+
+Compare CH₃CH₂Br and (CH₃)₃CBr for direct backside substitution by the same nucleophile. Why should a tertiary substrate not be assigned SN2 merely because the nucleophile is strong?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Draw the carbon groups around the reaction centre.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Three carbon substituents strongly obstruct backside approach at the tertiary centre. A strong donor cannot remove this geometric requirement; elimination or a stepwise route may compete depending on conditions. Primary ethyl is much more accessible.
+:::
+
+## 11. Begin a tertiary SN1 route
+
+For (CH₃)₃CBr in an ionising aqueous medium, draw C–Br heterolysis and label the product charges.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The departing group receives the entire C–Br pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Products are (CH₃)₃C⁺ and Br⁻. The tertiary carbocation is more stabilised than a methyl cation, and the medium can stabilise separated charge. Ionisation does not yet specify the final capture or elimination outcome.
+:::
+
+## 12. Capture with water
+
+Draw H₂O attack on (CH₃)₃C⁺. Count oxygen bonds in the immediate product.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use a water lone pair, not a hydrogen, to make the new bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The oxonium product is (CH₃)₃COH₂⁺. Oxygen has three bonds and charge +1. Writing the neutral alcohol at this stage would silently remove a proton.
+:::
+
+::: {.callout-note}
+**Optional transfer starts here.** Choose problems that address your own gaps; the core route remains1–12.
+:::
+
+## 13. Obtain neutral alcohol
+
+Use H₂O to deprotonate (CH₃)₃COH₂⁺. Include the species made from the base.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water becomes hydronium after accepting H⁺.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Products are (CH₃)₃COH and H₃O⁺. The base pair forms O–H and the original oxonium O–H pair returns to its oxygen. The net charge is +1 before and after.
+:::
+
+## 14. Balance the overall aqueous route
+
+Combine tertiary ionisation, water capture and water deprotonation into one net equation starting from (CH₃)₃CBr. Include bromide.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Two waters appear in the explicit overall accounting.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+(CH₃)₃CBr + 2 H₂O → (CH₃)₃COH + H₃O⁺ + Br⁻. This represents the selected substitution path; it does not exclude competing elimination. Atoms and overall zero charge balance.
+:::
+
+## 15. Assign a particular inversion
+
+Start with (S)-2-bromobutane and assume stereospecific SN2 replacement of Br by OH. Assign the product configuration by checking priorities rather than just changing the letter.
+
+::: {.callout-tip collapse="true" title="Hint"}
+For each structure, rank the heteroatom group, ethyl, methyl and H.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Both Br and OH are highest priority in their respective structures; ethyl outranks methyl and H is lowest. Backside geometric inversion therefore gives (R)-butan-2-ol in this particular example. A different replacement could change the priority order and the letter relationship.
+:::
+
+## 16. Explain two-face access
+
+A planar carbocation reacts in an achiral medium to form a stereocentre. Explain why both configurations may form and why an exactly 50:50 mixture is not guaranteed in every SN1 reaction.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Distinguish an isolated planar model from an actual ion pair and environment.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Both faces of a planar intermediate may be accessible. Nearby leaving-group ions or other environmental constraints can bias capture, so the geometric argument supports both-face reaction without promising an exact racemic ratio in every experiment.
+:::
+
+## 17. Activate an alcohol
+
+Draw CH₃CH₂OH protonation by H₃O⁺ and name the better departing group after protonation. Do not assume a primary carbocation forms.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Change the oxygen protonation state before discussing departure.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The alcohol gives CH₃CH₂OH₂⁺ plus H₂O. Neutral water is a better leaving group than hydroxide. That activation allows suitable substitution pathways, but a primary substrate still should not be forced into an unsupported SN1 carbocation model.
+:::
+
+## 18. Keep solvent claims controlled
+
+A student predicts identical rates for CH₃Br + OH⁻ in every solvent because the two reactant formulas are unchanged. Give a chemically justified objection.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The medium can alter ion stabilisation and donor availability.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Solvation changes the energies and effective reactivity of the charged nucleophile and transition state. Keeping formulas the same does not keep k unchanged. State solvent and temperature before transferring rate comparisons between experiments.
+:::
+
+## 19. Repair an atom-loss error
+
+A proposed tertiary-water mechanism changes (CH₃)₃COH₂⁺ directly to (CH₃)₃COH and writes no other species. Add a valid missing step.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Supply a base and show where the departing proton goes.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Another water takes H⁺ while the oxonium O–H pair returns to O, producing alcohol and H₃O⁺. The corrected step conserves H atoms and charge +1.
+:::
+
+## 20. Name the competing route
+
+From (CH₃)₃C⁺ in water, draw removal of a β-H and the resulting alkene. How does this differ from water attack at carbon?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The C–H pair can form a C=C bond to the cationic centre.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Water acting as base removes β-H, giving 2-methylpropene and hydronium through E1. Water acting as nucleophile at carbon instead starts the alcohol-forming SN1 path. The common intermediate permits competing outcomes.
+:::
+
+## Check your progress
+
+Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.

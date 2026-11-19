@@ -1,0 +1,29 @@
+---
+title: "Day 11: Compare two assumed substitution rate laws"
+---
+
+Use this explorer for about **7–10 minutes**. Make a prediction first, change one input at a time, and record a chemical explanation rather than only a screenshot.
+
+## Explore the chemistry
+
+```{=html}
+<section class="chem-demo" id="day11" aria-label="Compare two assumed substitution rate laws"></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/reactivity.js"></script>
+```
+
+## Prediction, exploration and explanation
+
+**Predict (1–2 minutes).** With [RX]=0.050 mol/L and [Nu]=0.100 mol/L, use the supplied illustrative constants below to calculate both initial rates. Predict what happens when only [Nu] doubles.
+
+**Explore (3–4 minutes).** Hold [RX] fixed while changing [Nu], then hold [Nu] fixed while changing [RX]. Set nucleophile to zero, and then substrate to zero. Find the nucleophile concentration where the two model lines cross. Use the reset to return to the named starting case.
+
+**Explain (2 minutes).** Which model changes with nucleophile concentration and why? Why does a crossing of these assumed laws not identify the real mechanism of an arbitrary substrate? Report rates with units.
+
+## Supplied model and its limits
+
+Supplied models: `v₁=k₁[RX]` with `k₁=0.010 s⁻¹`; `v₂=k₂[RX][Nu]` with `k₂ = 0.100 L mol⁻¹ s⁻¹`. Concentrations are mol/L, and rates are mol L⁻¹ s⁻¹. These constants are illustrative teaching inputs, not measured values for a named chemical. The two laws are compared as separate assumed pathways; this tool does not choose SN1/SN2 from substrate identity or calculate product competition.
+
+## Carry the explanation into practice
+
+Return to the local [substitution lesson](../substitution/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved. The interactive works locally and needs no online account or additional software packages.

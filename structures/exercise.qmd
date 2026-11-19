@@ -1,102 +1,260 @@
 ---
-title: "Read, redraw and check an organic structure"
+title: "Reading organic structures: standalone practice bank"
 ---
 
-Allow 60–75 minutes for the drawing problems and 30 minutes for the report
-calculation. Work with paper or a structure editor; R is used only when it helps
-with an ordinary amount calculation.
+Use the [lecture](lec.qmd) and the refresher below; no textbook or external problem sheet is needed. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R. The separate computing task does not count as paper chemistry.
 
-## Before you start
+### Tools and worked start
 
-A skeletal drawing normally omits carbon symbols and hydrogens bonded to
-carbon. Unlabelled line endpoints and corners stand for carbon. Heteroatoms
-such as O and N are labelled. Unless indicated otherwise, use ordinary neutral
-valences: four bond orders for C, three for N and two for O. Show charges when
-those patterns change. An explicit charge always needs an electron-count check.
+For ordinary neutral structures use C bond-order sum 4, N three bonds/one lone pair, O two bonds/two lone pairs. Skeletal endpoints/corners are carbon; carbon-bound H is usually implicit. A double/triple bond counts 2/3. Formal charge equals valence electrons minus nonbonding electrons minus half the bonding electrons. Use valence-electron counts C4, N 5, O 6. Worked start: CH₃CH₂OH has two C, six H, one O and formula C₂H₆O.
 
-![Ethanol in molecular, condensed and skeletal representations.](figures/01-representations.svg){fig-alt="Ethanol in molecular, condensed and skeletal representations."}
+Draw first, explain the rule you used, and open the check only after an attempt. Ordinary drawings may use a structure editor or paper.
 
-## 1. Recover the hidden atoms
+## 1. Recover a five-carbon line
 
-Draw an unbranched four-segment zigzag with only single bonds. Number every
-carbon, write CH₃ or CH₂ at each carbon, and obtain the molecular formula.
-Now change the central C2–C3 bond to a double bond without changing connectivity.
-Which hydrogen counts change? What is the new formula? This new structure
-is pent-2-ene; leave E/Z unspecified for now.
+Draw an unbranched four-segment skeletal zigzag with only single bonds. Label each carbon CH₃ or CH₂ and obtain its molecular formula.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-Four segments connect five carbons. A carbon attached to two other carbons by
-single bonds needs two H atoms. Changing a single bond to a double uses one
-additional valence at each end of that bond.
+Segments are bonds; corners and endpoints are atoms.
 :::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-The saturated chain is CH₃CH₂CH₂CH₂CH₃, C₅H₁₂. Introducing C2=C3 gives
-CH₃CH=CHCH₂CH₃, C₅H₁₀. C2 and C3 each lose one attached H in the formula
-comparison; no carbon atom is removed. This is a comparison of structures,
-not a claim that editing a drawing is an experimental synthetic method.
+Five carbons give CH₃CH₂CH₂CH₂CH₃. The H count is 3+2+2+2+3=12, so the formula is C₅H₁₂.
 :::
 
-## 2. Tell identity from isomerism
+## 2. Read a branch
 
-Write Lewis or expanded structural drawings for CH₃CH₂OH and CH₃OCH₃. Count
-all atoms and list oxygen's neighbours in each. Explain why turning the first
-drawing around cannot make it identical to the second. Then redraw ethanol
-with the OH at the left; is that a third compound?
-
-::: {.callout-note collapse="true" title="Worked check"}
-Both molecules have C₂H₆O, but the ethanol oxygen is connected to C and H,
-while ether oxygen is connected to two C atoms. Changing the view does not
-change those neighbours, so they are constitutional isomers. Drawing ethanol
-as HOCH₂CH₃ leaves its connectivity unchanged and does not create a third
-compound. Both neutral oxygens have two bonds and two lone pairs.
-:::
-
-## 3. Read branches and functional groups
-
-For each condensed structure, draw the connected atoms, identify the functional
-group and label every carbon with its attached H count:
-
-1. CH₃CH₂CH₂OH
-2. CH₃C(=O)CH₃
-3. CH₃C(=O)OH
-4. CH₃C(=O)OCH₃
-5. CH₃CH₂NH₂
-
-Name the simple structures where you can. Which examples contain a carbonyl?
-Which have an O–H bond? Which contain an ester rather than an ether alone?
+Expand (CH₃)₃CH. Draw its three C–C bonds, count atoms and explain whether it has the same connectivity as CH₃CH₂CH₂CH₃.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-`C(=O)` puts a double-bonded oxygen on that carbon. In `C(=O)OCH₃`, the
-single-bonded O is connected to the carbonyl carbon and the methyl carbon.
+The subscript three repeats the complete parenthesised methyl group.
 :::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-The groups are alcohol (propan-1-ol), ketone (propanone), carboxylic acid
-(ethanoic acid), ester (methyl ethanoate) and amine (ethanamine/ethylamine).
-Examples 2–4 have a carbonyl; examples 1 and 3 have O–H. Example 4 is the
-ester: the oxygen lies next to a carbonyl. A carbonyl carbon in these examples
-has no H except where the drawing explicitly allows one, as in an aldehyde.
-The carbon totals are 3, 3, 2, 3 and 2 respectively.
+There are four C and ten H. A central CH connects to three methyl carbons. This is 2-methylpropane, a constitutional isomer of unbranched butane, not simply another view.
 :::
 
-## 4. Audit an oxygen and a carbon
+## 3. Introduce a double bond
 
-Draw water, hydroxide and hydronium with all oxygen lone pairs. Calculate formal
-charge using six valence electrons for O. Next, inspect a student's neutral
-carbon drawn with one C=O double bond, three C–H single bonds and one C–C
-single bond. Explain the error and give one valid carbonyl-carbon bonding
-pattern instead.
+Draw CH₃CH=CHCH₂CH₃ with explicit H at both alkene carbons. Compare its formula with the saturated five-carbon chain.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Each end of C=C uses two bond orders in that connection.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-Water has two O bonds/two lone pairs/charge 0. Hydroxide has one bond/three
-lone pairs/charge −1. Hydronium has three bonds/one lone pair/charge +1.
-The proposed carbon has a bond-order sum of six and violates ordinary
-second-row-carbon valence. In ethanal, CH₃C(=O)H, the carbonyl carbon has
-one C–C bond, one C–H bond and the C=O double bond, totalling four.
+The structure is C₅H₁₀. Each alkene carbon has one H; the extra bond order replaces one H at each end relative to pentane.
 :::
 
-## 5. R task: what amount did the balance give us?
+## 4. Read a terminal triple bond
+
+Expand CH₃C≡CH and give the H count at all three carbons. Is its middle carbon CH or C?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Single plus triple already totals four bond orders.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The counts are 3,0,1 and the formula is C₃H₄. The middle carbon is C with no H. The terminal alkyne carbon bears one H.
+:::
+
+## 5. Distinguish oxygen neighbours
+
+Draw ethanol CH₃CH₂OH and dimethyl ether CH₃OCH₃ with oxygen lone pairs. State formula and O neighbours for each.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count H after drawing the connectivity.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Both are C₂H₆O. Ethanol O connects to C and H; ether O to two C atoms. Each neutral O has two bonds/two lone pairs, but the molecules are constitutional isomers.
+:::
+
+## 6. Audit an oxygen series
+
+Draw H₂O, OH⁻ and H₃O⁺ with all O lone pairs. Calculate charge using FC=6−nonbonding electrons−half the bonding electrons.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A lone pair contains two electrons.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Water has two bonds/two pairs/FC0; hydroxide one bond/three pairs/FC−1; hydronium three bonds/one pair/FC+1. Show each charge explicitly.
+:::
+
+## 7. Audit nitrogen protonation
+
+Draw CH₃NH₂ and CH₃NH₃⁺ with relevant nitrogen lone pairs. Use five valence electrons for N to explain the charge change.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare three bonds/one pair with four bonds/no pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Methylamine N has FC5−2−3=0. Methylammonium N has FC5−0−4=+1. The original pair forms the new N–H bond.
+:::
+
+## 8. Read carbonyl parentheses
+
+Expand CH₃C(=O)OH. Count atoms and carbonyl-carbon neighbours; distinguish neighbour count from bond-order sum.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The double bond connects the carbon to one O atom twice.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The formula is C₂H₄O₂. Carbonyl C has three atom neighbours: methyl C, carbonyl O and hydroxyl O. The bond-order sum is 1+2+1=4.
+:::
+
+## 9. Classify five local patterns
+
+Draw CH₃CH₂OH, CH₃OCH₃, CH₃CHO, CH₃COCH₃ and CH₃COOCH₃. Identify each functional group and circle all carbonyl carbons.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Rewrite CO as C(=O) where the indicated condensed carbonyl notation requires it.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The groups are alcohol, ether, aldehyde, ketone and ester. The last three contain carbonyls; only the alcohol in this list has an O–H bond.
+:::
+
+## 10. Name two alcohol positions
+
+Draw CH₃CH₂CH₂OH and CH₃CH(OH)CH₃. Name each by a three-carbon parent chain and give the OH locant.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Number to identify the OH-bearing carbon consistently.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+They are propan-1-ol and propan-2-ol. They are constitutional isomers: in the second, OH is attached to the central rather than terminal carbon.
+:::
+
+## 11. Repair a carbon valence error
+
+A neutral proposed carbon has C=O, C–C and three C–H bonds. Count its bond orders and repair it to an aldehyde carbon.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ordinary second-row carbon cannot keep six bond orders.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The proposed sum is 2+1+3=6. In CH₃C(=O)H, the carbonyl carbon instead has C=O, C–C and one C–H, summing to four.
+:::
+
+## 12. Connect geometry with bonding
+
+For CH₄, H₂C=CH₂ and HC≡CH, state local carbon geometry and approximate bond angles. Which drawing needs a depth convention?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use tetrahedral, trigonal planar and linear.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Methane is tetrahedral (~109.5°), ethene carbons trigonal planar (~120°), and ethyne carbons linear(180°). A full methane 3D drawing needs wedge/dash or another depth convention.
+:::
+
+### Optional transfer and challenge
+
+These extend the same concepts without assuming later reaction chemistry.
+
+## 13. Do not create an isomer by reversing text
+
+Compare CH₃CH₂CH₂OH with HOCH₂CH₂CH₃. List neighbours of O and the OH-bearing carbon. Are they distinct?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Trace connectivity rather than left/right order.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+They are the same propan-1-ol. O attaches to H and terminal CH₂; that carbon attaches to O, the next C and two H in either notation.
+:::
+
+## 14. Find two groups in glycine
+
+Expand neutral H₂NCH₂COOH, draw lone pairs and give the molecular formula. Do not assume any biological pathway knowledge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count N–H, C–H and O–H separately.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Glycine contains an amine and carboxylic acid. Its neutral drawn form is C₂H₅NO₂:2 N–H+2 C–H+1 O–H. Other protonation forms will be considered later.
+:::
+
+## 15. Read lactic acid completely
+
+Expand CH₃CH(OH)COOH. Count atoms, classify both oxygen-containing groups and identify the carbon with four different substituents.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The parenthesised OH is a branch on CH.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The formula is C₃H₆O₃, with alcohol and carboxylic acid groups. The middle carbon connects to OH, H, CH₃, COOH: four different groups.
+:::
+
+## 16. Distinguish a diol from an acid
+
+Compare HOCH₂CH₂OH and CH₃COOH. Both contain two O atoms. Explain why counting O alone cannot assign the group.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Draw all C–O bond orders.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The first is a diol with two single-bonded OH groups and no carbonyl. The second is a carboxylic acid with one C=O and one O–H. Connectivity and bond orders distinguish them.
+:::
+
+## 17. Find all H atoms in an ester
+
+Draw CH₃C(=O)OCH₂CH₃. Give its molecular formula and the number of H on the carbonyl carbon.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The carbonyl C already has two single bonds plus its double bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethyl ethanoate is C₄H₈O₂. Its H counts are 3,0,2,3 on the four carbons. The carbonyl carbon has no H.
+:::
+
+## 18. Compare two skeletal naming choices
+
+For CH₃CH₂CH(OH)CH₃, explain why numbering OH at 3 is unnecessary and give the preferred simple alcohol name.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Number the same chain from the opposite end.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Butan-2-ol gives the OH the lower locant. Butan-3-ol describes the same connectivity with an inappropriate numbering direction, not a different isomer.
+:::
+
+## 19. Calculate an amount manually
+
+A teaching sample has mass 0.6906 g and supplied molar mass 138.12 g/mol. Use n=m/M and report mol and mmol.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Divide grams by grams per mole.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+n=0.005000 mol=5.000 mmol. The gram units cancel. This amount is half that represented by 1.3812 g at the same molar mass.
+:::
+
+## 20. Explain a formula-only limitation
+
+Give two distinct connected structures consistent with C₃H₈O, name their groups and state one additional kind of evidence that could distinguish them.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Consider moving OH or replacing an alcohol by an ether.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Examples include propan-1-ol and methoxyethane CH₃OCH₂CH₃, an alcohol and ether. Structural or suitable spectral evidence is needed; a molecular formula alone does not decide.
+:::
+
+## R task: what amount did the balance give us?
 
 **Chemical question:** how many moles are represented by a measured mass?
 Use the supplied relationship `amount_mol = mass_g / molar_mass_g_mol`.
@@ -132,9 +290,7 @@ The unit mmol counts chemical amount, not volume, concentration or number of
 independent experiments.
 :::
 
-## Leave with
 
-Five checked structural drawings, an oxygen-charge audit and a report table
-whose amounts agree with a manual calculation. Complete the
-[self-check](quiz.qmd), then use these representation skills in the
-[properties unit](../properties/exercise.qmd).
+## Review your work
+
+Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.

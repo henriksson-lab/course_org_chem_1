@@ -1,125 +1,261 @@
 ---
-title: "Practice: account for carbonyl addition one step at a time"
+title: "Carbonyl addition:20 problems"
 ---
 
-Allow 90 minutes. Colour or label the oxygen atoms so their identities remain
-visible through each mechanism. Use explicit proton donors and acceptors.
-The point is to understand the recurring pattern, not memorise every carbonyl
-reagent. Review the [alcohol reduction](../alcohols-redox/exercise.qmd) for the
-same addition → proton-transfer pattern with a different nucleophile.
+Use problems 1–12 as the **core route (about 80–100 minutes)**. Problems 13–20 are optional transfer practice (another 45–65 minutes); select them to target mistakes rather than adding every problem to required contact time. Paper/model drawing is central. All inputs and conventions needed are below; no textbook purchase or external problem set is required.
 
-## 1. Partial charge is not formal charge
+## Local refresher and worked starting example
 
-Draw ethanal, CH₃CHO, with its carbonyl oxygen lone pairs. Mark the direction
-of bond polarity and describe the geometry at carbon. Does δ+ at carbon mean
-it is already a carbon atom with formal charge +1? Why can a nucleophile
-attack carbon rather than the electron-rich oxygen in the selected addition?
+The polar C=O bond makes carbon electrophilic. Addition forms a new bond to carbon while the pi pair goes to oxygen, yielding a tetrahedral species. Proton transfers use actual donors/bases. Hydrate=two OH; hemiacetal=OH+OR; acetal=OR+OR at one carbon. Full-headed arrows move pairs, and R/S requires a defined 3D view.
 
-::: {.callout-note collapse="true" title="Worked check"}
-The oxygen attracts electron density, leaving carbon partially electron-poor.
-Carbonyl carbon is approximately trigonal planar, with three bond directions.
-Both atoms have formal charge zero in the ordinary neutral Lewis structure;
-partial charge describes uneven electron density. The nucleophile donates a
-pair to the electron-poor carbon while the C=O π pair moves to oxygen,
-making a chemically valid four-single-bond carbon centre.
-:::
+**Worked starting example.** OH⁻ adds to CH₃CHO with OH pair→C and C=O pair→O, giving CH₃CH(OH)O⁻. Water then donates H to that alkoxide and becomes OH⁻. The hydrate is neutral CH₃CH(OH)₂; net reaction is aldehyde+water⇌hydrate, not spontaneous loss of oxygen or creation of a proton.
 
-## 2. Base-catalysed hydration with an atom label
+Draw structures, identify the relevant atom and explain the reason. A name alone is insufficient where a mechanism or argument is requested.
 
-Label ethanal's oxygen A. Label the oxygen of attacking OH⁻ as B. Draw hydroxide
-addition and then proton transfer from water. In the hydrate, which O came
-from carbonyl and which from hydroxide? Why is hydroxide a catalyst in the
-net transformation even though a hydroxide ion appears in the first step?
+## 1. Separate partial and formal charge
+
+Draw neutral CH₃CHO with oxygen lone pairs, δ labels and formal charges.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-After the first step, A is O⁻ and B is OH. Which species can supply H to A,
-and which species remains after that donor has lost H⁺?
+Unequal electron sharing need not create integer Lewis charges.
 :::
 
-::: {.callout-note collapse="true" title="Worked check"}
-The first product is CH₃CH(OH-B)(O-A⁻). The B lone pair forms C–O-B while
-the C=O-A π pair moves onto A. Water then donates H⁺ to A and becomes OH⁻.
-Both A and B are OH in the hydrate CH₃CH(OH)₂, but their tracked identities
-remain distinct in this drawing. Hydroxide is used and regenerated overall;
-net hydration is ethanal + water ⇌ hydrate. The mechanism does not by itself
-prove that the hydrate dominates the equilibrium mixture.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+O is δ− and carbonyl C δ+, while their ordinary neutral Lewis formal charges are both zero. Partial charge explains polarity; it is not a pre-existing carbocation formula.
 :::
 
-## 3. Acid-catalysed hemiacetal formation
+## 2. Count carbonyl geometry
 
-Start with ethanal and methanol. Label the carbonyl oxygen A and methanol
-oxygen B. Draw three elementary stages: protonation of A using hydronium;
-attack by methanol at carbon with the C=O π pair moving to A; removal of the
-extra proton from B by water. Give formal charges after each stage.
+Draw CH₃COCH₃ and count its carbonyl-carbon neighbours and bond orders. State the approximate geometry before addition.
 
-::: {.callout-note collapse="true" title="Worked check"}
-Protonating A gives CH₃CH=O-AH⁺ plus water. Methanol O-B attacks carbon,
-giving CH₃CH(OH-A)(O-B⁺HCH₃); A now has two single bonds and is neutral,
-while B has three single bonds and charge +1. Water removes the B proton,
-giving CH₃CH(OH-A)(O-BCH₃) and hydronium. The final product is a hemiacetal:
-OH and OCH₃ are on the same carbon. The acid catalyst is regenerated.
+::: {.callout-tip collapse="true" title="Hint"}
+There are three bonded atoms but one double bond.
 :::
 
-## 4. Distinguish the product classes
-
-For each structure, circle the carbon of interest and classify it as an
-aldehyde, hydrate, hemiacetal or acetal:
-
-- CH₃CHO
-- CH₃CH(OH)₂
-- CH₃CH(OH)OCH₃
-- CH₃CH(OCH₃)₂
-
-Which difference would make it incorrect to call a hemiacetal an acetal?
-For the net acid-catalysed equilibrium CH₃CHO + 2 CH₃OH ⇌ CH₃CH(OCH₃)₂ + H₂O,
-predict the direction favoured by adding excess water. Explain the role
-of acid separately from the effect of changing water concentration.
-
-::: {.callout-note collapse="true" title="Worked check"}
-The listed classes are aldehyde, hydrate, hemiacetal and acetal, respectively.
-A hemiacetal has one OH and one OR; an acetal has two OR groups on the same
-carbon. Excess water can favour hydrolysis toward aldehyde and methanol.
-Acid catalyses the interconversion and is regenerated; it does not change
-the equilibrium constant for the same net reaction under the same conditions.
-Converting a hemiacetal to an acetal requires additional activation, loss of
-water, alcohol addition and proton transfer, not a single unexplained swap.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Carbonyl C has three atom neighbours and total bond order four, approximately trigonal planar. Confusing neighbour count with bond-order sum can produce an incorrect valence audit.
 :::
 
-## 5. Build a ring without losing an atom
+## 3. Draw hydroxide addition
 
-Draw the chain HOCH₂CH₂CH₂CH₂CHO (5-hydroxypentanal). Show how its terminal
-alcohol oxygen can attack the aldehyde carbon through the same chemical
-pattern. Draw the neutral cyclic hemiacetal after proton transfers. Count
-the ring atoms and compare molecular formula before and after. Is water
-lost in the net chain → cyclic hemiacetal transformation?
+For CH₃CHO+OH⁻, draw two coupled arrows and the tetrahedral intermediate.
 
-::: {.callout-note collapse="true" title="Worked check"}
-The ring contains the attacking terminal oxygen, four methylene carbons and
-the original aldehyde carbon: six ring atoms. The original carbonyl oxygen
-becomes OH on that carbon. The molecular formula C₅H₁₀O₂ is unchanged; no
-water molecule is lost in net hemiacetal cyclisation. The oxygen that forms
-the ring is the original terminal alcohol oxygen. This is an organic
-structure argument that also helps explain why some sugars can form rings.
+::: {.callout-tip collapse="true" title="Hint"}
+The carbonyl pi pair must move when the new bond forms.
 :::
 
-## 6. Prepare for acyl chemistry
-
-Compare CH₃CHO and CH₃C(=O)OCH₃. Both have an electrophilic carbonyl carbon.
-What group is bonded to that carbon in the ester that could participate in
-an appropriate addition–elimination pathway? Why would treating H⁻ as an
-ordinary leaving group from an aldehyde be a poor explanation of addition?
-
-::: {.callout-note collapse="true" title="Worked check"}
-The ester has OCH₃ attached to the acyl carbon; under appropriate conditions,
-an oxygen-based group can depart after addition and suitable proton transfers.
-The aldehyde has H in that position. Hydride is not a normal leaving group
-in these simple aqueous carbonyl reactions, so aldehyde nucleophilic addition
-normally retains its H/carbon substituents. The next unit explains when and
-how acyl derivatives undergo substitution rather than just addition.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+OH lone pair→C and C=O pair→O give CH₃CH(OH)O⁻. Carbon has four single bonds, and the original carbonyl oxygen bears the negative charge.
 :::
 
-## Leave with
+## 4. Track oxygen labels
 
-Two labelled mechanisms, four product-class assignments and an atom-conserving
-ring drawing. Optional reading: selected Solomons chapter 16 sections; consult
-the [reading guide](../reference/reading.qmd).
+Label carbonyl O as A and incoming hydroxide O as B in the preceding step. Which becomes O⁻ and which is OH?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The incoming hydroxide keeps its H during C–O bond formation.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A becomes O⁻ after receiving the π pair. B is the newly attached OH. Oxygen identities must not be exchanged without extra chemical steps.
+:::
+
+## 5. Complete hydration
+
+Use water to protonate the preceding alkoxide, drawing all products.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water becomes hydroxide when it loses H⁺.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The alkoxide pair takes H from water while the water O–H pair returns to O. Products are CH₃CH(OH)₂ and OH⁻. Hydroxide used in the first step is regenerated overall.
+:::
+
+## 6. Write the net hydrated equation
+
+Combine hydroxide addition and proton transfer, then cancel the regenerated catalyst.
+
+::: {.callout-tip collapse="true" title="Hint"}
+OH⁻ occurs on both sides of the two-step sum.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The net equation is CH₃CHO+H₂O⇌CH₃CH(OH)₂. The alkoxide is an intermediate and hydroxide a catalyst in this model. This does not specify which side dominates equilibrium.
+:::
+
+## 7. Activate with acid
+
+Draw protonation of CH₃CHO oxygen by H₃O⁺ with both arrows and the charge on the product.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The carbonyl oxygen lone pair accepts a proton; hydronium loses it as water forms.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Products are CH₃CH=OH⁺ and H₂O. The protonated oxygen has three bond orders and positive formal charge; carbon becomes more electrophilic. Do not assign an unexplained extra H to carbon.
+:::
+
+## 8. Choose a compatible nucleophile
+
+For excess acidic methanol, should the selected elementary attack use neutral CH₃OH or freely persistent CH₃O⁻? Explain.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Check the strong base against the proton-rich medium.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Neutral methanol is the suitable nucleophile for the selected acid-catalysed route. Methoxide is strongly basic and would be protonated in such a medium, so assuming it freely persists ignores acid–base chemistry.
+:::
+
+## 9. Attack the activated carbonyl
+
+Draw methanol addition to CH₃CH=OH⁺, including movement of the carbonyl pi pair. Count incoming oxygen bonds afterward.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The formerly carbonyl oxygen becomes neutral OH; incoming methanol oxygen gains a bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The intermediate is CH₃CH(OH)(O⁺HCH₃). Incoming oxygen has three single bonds and charge +1; original oxygen now has two single bonds and is neutral. Net charge +1 is retained.
+:::
+
+## 10. Finish the hemiacetal
+
+Use water to deprotonate CH₃CH(OH)(O⁺HCH₃). Identify the group that loses H and all products.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Neutralise the oxygen that has three bonds.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Water accepts H from the incoming methanol-derived oxonium group, giving CH₃CH(OH)OCH₃ and H₃O⁺. The product is a neutral hemiacetal, and acid is regenerated.
+:::
+
+## 11. Classify four products
+
+Classify CH₃CHO, CH₃CH(OH)₂, CH₃CH(OH)OCH₃ and CH₃CH(OCH₃)₂ by local functional pattern.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count OH and OR groups attached to the same carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+They are aldehyde, hydrate, hemiacetal and acetal respectively. One OH plus one OR defines the hemiacetal; two OR groups define the acetal. An ether elsewhere in a molecule is not enough.
+:::
+
+## 12. Reject an unexplained acetal jump
+
+A proposed arrow converts a hemiacetal OH directly into OCH₃ without another species or intermediate. Explain why it is incomplete.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A poor leaving group and a new incoming alcohol both need accounting.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Acetal formation requires additional acid-mediated activation, loss of water, alcohol addition and proton transfers. Merely swapping labels omits bond changes, atom sources and charge bookkeeping.
+:::
+
+::: {.callout-note}
+**Optional transfer starts here.** Choose problems that address your own gaps; the core route remains1–12.
+:::
+
+## 13. Balance acetal formation
+
+Balance CH₃CHO+CH₃OH⇌CH₃CH(OCH₃)₂+H₂O by finding the required methanol coefficient.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The acetal contains two methoxy groups.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Two methanol molecules are required: CH₃CHO+2CH₃OH⇌CH₃CH(OCH₃)₂+H₂O. Carbon, oxygen and hydrogen then balance. Acid catalyses the path and is not consumed in the net equation.
+:::
+
+## 14. Change water composition
+
+For that acid-catalysed equilibrium, predict the direction favoured by excess water and explain the acid role separately.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water is on the product side of acetal formation.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Excess water can favour hydrolysis toward carbonyl plus methanol. Acid accelerates interconversion in both directions without changing K for the same net reaction and conditions. Changing composition and adding catalyst are different operations.
+:::
+
+## 15. Count a cyclic hemiacetal ring
+
+Draw HOCH₂CH₂CH₂CH₂CHO and link its terminal alcohol O to aldehyde carbon through the hemiacetal pattern. Count ring atoms.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The attacking oxygen becomes part of the ring.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The ring contains one oxygen and five carbons, six atoms total. The original carbonyl oxygen becomes OH at the former aldehyde carbon. Leaving the terminal oxygen outside the ring would lose the actual new C–O bond.
+:::
+
+## 16. Audit cyclisation formula
+
+Compare the molecular formula before and after neutral cyclic hemiacetal formation from 5-hydroxypentanal. Is water lost overall?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Addition and proton transfer do not require removal of a whole molecule.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The formula remains C₅H₁₀O₂. No net water is lost in hemiacetal cyclisation. Confusing this with later acetal formation would incorrectly subtract H₂O.
+:::
+
+## 17. Compare carbonyl substituents
+
+Draw CH₃CHO and CH₃C(=O)OCH₃. Which has an oxygen-based substituent at carbonyl C that can participate in a suitable addition–elimination route?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Inspect the group bonded directly to the carbonyl carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The ester has OCH₃; the aldehyde has H. Appropriate acyl substitution can involve departure of an oxygen-based group, whereas treating H⁻ as a normal leaving group is not a sound explanation for ordinary aqueous aldehyde addition.
+:::
+
+## 18. Ask whether a new stereocentre forms
+
+Methanol forms a hemiacetal from ethanal. List the four substituents at the former carbonyl carbon and test for a stereocentre.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The carbonyl carbon becomes tetrahedral.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The groups are CH₃, H, OH and OCH₃, four different groups, so a stereocentre forms. Both faces of a planar aldehyde may react in an achiral environment; an R/S result needs an actual 3D product drawing.
+:::
+
+## 19. Contrast a symmetric ketone
+
+Methanol adds to propanone to give(CH₃)₂C(OH)OCH₃. Does the former carbonyl carbon become a stereocentre?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare the identities of its two carbon groups.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+No. Its groups include two identical CH₃ groups, in addition to OH and OCH₃. Becoming tetrahedral is not alone sufficient for a simple stereocentre.
+:::
+
+## 20. Separate pathway from population
+
+A student draws a valid hydrate mechanism and concludes the sample must be100% hydrate. Explain what evidence is missing.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A route describes how species interconvert; an equilibrium describes their relative amounts.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A plausible mechanism does not supply the equilibrium constant or species concentrations. Structure, solvent, temperature and equilibrium evidence determine the mixture. The hydrate can be accessible without being the dominant form.
+:::
+
+## Check your progress
+
+Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.

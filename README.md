@@ -13,18 +13,28 @@ R Markdown laboratory reports to sustain skills introduced in
 [`introcomputing`](../introcomputing/README.md). The website uses the Quarto
 scaffold from `/home/mahogny/github/course/quantbio-3MB00A`.
 
-The draft includes 15 illustrated lecture decks, worked practice, explained
-self-checks, eight short R tasks, constructed datasets and dictionaries, a
-working Rmd report and a packaged student project. Outcomes, teaching hours
+The draft includes 15 illustrated 45-minute lecture sessions, a 25-day practice
+route with at least 420 non-R chemistry problems, explained self-checks, eight
+short R tasks, 25 interactive chemistry demos with direct sidebar links,
+constructed datasets and dictionaries, a working Rmd report and
+a packaged student project. Every paper problem supplies its inputs, hint and
+worked explanation; the local course can be used without the textbook.
+Slide counts follow teaching needs; approximately 40 seconds per slide is
+pacing guidance rather than a target. Outcomes, teaching hours
 and assessment suggestions remain design choices, not an approved syllabus.
 Actual laboratory protocols and local arrangements must be supplied by the
 department. The provided practical work covers preparation and interpretation.
 
-Run `make render` (or `make`) to package the download and render all 52 student
+Run `make render` (or `make`) to package the download and render all 89 student
 pages into `docs/`; `make preview` opens a local preview. `make check` verifies
 the course structure, figures, links, downloads, complete R exercise examples
 and knitting the extracted student report. `make figures` regenerates all
-original figures and their register. R, Quarto and Python are required; see
+original figures and their register. Optional `make layout` checks every slide
+in Chrome and confirms that browser Back returns from a lecture to the course
+home. `make demo-check` checks all daily demo pages and pure chemical models;
+optional `make demo-browser` exercises controls and resets offline in Chrome
+at desktop/mobile widths. The demos need no build step or external libraries.
+R, Quarto, Python and Node.js (for checks) are required; see
 the instructor guide for package details. No build target stages or commits.
 
 Planning documents and instructor tools are excluded from the rendered site

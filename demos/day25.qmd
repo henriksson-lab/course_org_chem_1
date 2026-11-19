@@ -1,0 +1,67 @@
+---
+title: "Day 25 demo: audit a synthesis claim"
+---
+
+**Question:** which claims about amount, conversion, identity and purity follow
+from the supplied observations—and which remain unsupported?
+
+Allow **10 minutes**: predict for 2, change evidence for 5, then write a
+restrained conclusion for 3. All observations are hypothetical teaching
+scenarios; no actual isolate has been measured by this demo.
+
+```{=html}
+<section class="chem-demo" id="day25" aria-label="Integrated synthesis yield, conversion, provenance and purity claim workbench">
+<p>Enable JavaScript to vary isolated mass and evidence provenance and inspect the supported claims.</p>
+</section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/applications.js"></script>
+```
+
+## Predict
+
+The hypothetical reaction is 1:1 with **10.00 mmol limiting reagent**, one
+product per reaction extent, and product molar mass **180.16 g/mol**. Calculate
+its theoretical product mass. Predict apparent isolated yield for **1.20 g**
+of isolated material. Does that calculation alone provide conversion or purity?
+
+The product is intentionally unnamed. The unassigned pattern comparison is
+schematic; it is neither an aspirin measurement nor the U1 spectrum from the
+other spectral demos.
+
+## Explore
+
+1. Vary isolated mass and keep the starting-reagent amount fixed. Notice which
+   derived quantities change and which stay fixed.
+2. Try the **Unrelated-spectrum trap**. Why can an apparently matching pattern
+   from another teaching sample not identify this isolate?
+3. Link the pattern to this isolate, then introduce an extra unexpected signal
+   group. Audit identity and purity separately.
+4. Compare one versus two detected TLC features.
+5. Supply the optional quantitative same-batch assay: **2.00 mmol starting
+   material remains from 10.00 mmol initially**. Calculate conversion, then try
+   the high-mass contradiction preset.
+
+## Explain and check
+
+Theoretical mass is $0.01000\times180.16=1.8016$ g. For 1.20 g isolated
+material, apparent isolated yield is about **66.6%**, conditional on that mass
+representing product. It does not measure starting-material consumption.
+
+The optional residual assay independently gives conversion
+$100(10.00-2.00)/10.00=80.0\%$. An apparent product-mass yield above this
+same-batch conversion calls assumptions or records into question; retained
+solvent, impurities or incompatible records are possibilities to investigate.
+
+A consistent, explicitly linked structural observation supports an identity
+claim; an unrelated trace does not. Contradictory signals require explanation.
+One TLC feature does not prove purity, and two resolved features support
+multiple detected components under the stated conditions.
+
+## Model limits
+
+The conversion assay is stipulated quantitative and linked to the same batch.
+The qualitative pattern comparison supplies consistency/contradiction only;
+it does not measure purity percentages or generate actual molecular spectra.
+All plausible causes of a discrepancy are hypotheses, not diagnoses. Conclude
+with a supported claim, a limitation and a targeted next observation, as in
+[the integrated workshop](../integration/exercise.qmd).

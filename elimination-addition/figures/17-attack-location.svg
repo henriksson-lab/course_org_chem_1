@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>One reagent can donate to carbon or to a beta hydrogen</title><desc>One reagent can donate to carbon or to a beta hydrogen</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="480" y="90" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">Secondary R—Br + Nu/base</text>
+<line x1="420" y1="130" x2="220" y2="235" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="540" y1="130" x2="740" y2="235" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="205" y="285" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">C attack: substitution</text>
+<text x="750" y="285" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#153747" text-anchor="middle" font-weight="normal">β-H attack: elimination</text>
+<text x="480" y="365" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">Which atom receives the donated pair is the first mechanistic distinction.</text>
+</svg>

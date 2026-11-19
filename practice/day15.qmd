@@ -1,0 +1,170 @@
+---
+title: "Day 15: Week 3 consolidation: redox, stoichiometry and evidence"
+---
+
+This mixed bank is self-contained. Use problems 1–8 as a **core 80–100 minute workshop**, then choose problems 9–12 as **optional transfer (30–45 minutes)**. Draw before reading checks; paired discussion can compare reasoning, but retain your own corrected drawing. No textbook questions or external figures are needed.
+
+## Refresher and worked start
+
+Full-headed arrows move pairs from bonds/lone pairs; ordinary carbon has total bond order four. Alpha is the leaving-group carbon; beta is its neighbour. E2 uses an appropriate anti geometry and three linked pair movements. Selected carbonyl reduction gives alkoxide then alcohol after proton transfer.
+
+For the worked starting example OH⁻+CH₃Br→CH₃OH+Br⁻, draw OH pair→C and C–Br pair→Br. Both sides have net charge −1; the concerted step contains no carbocation. Use the same atom/charge audit in the problems below.
+
+Calculation conventions: n=m/M with g and g/mol gives mol;1000 mmol=1 mol. Compare n/coefficient for a balanced equation. Yield%=100×isolated/theoretical mass. TLC Rf=spot/front distance using the same origin and matched plate conditions. All numerical observations below are constructed teaching data, not real experimental results.
+
+For the local carbon oxidation-state comparison, assign **+1 per C–O bond
+order, −1 per C–H bond and 0 per C–C bond**. Thus the OH-bearing carbon of
+ethanol has +1 − 2 = −1, while the carbonyl carbon of ethanal has +2 − 1 = +1.
+These supplied rules are sufficient for the C/H/O examples below.
+
+## 1. Map two directions
+
+Draw ethanol→ethanal and ethanal→ethanol. Label oxidation and reduction and identify the changing carbon.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare local C–O bond orders and C–H bonds.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Ethanol to ethanal is oxidation: the changing carbon rises from −1 to+1 in the supplied bond-count convention. Returning to ethanol is reduction. The same two-carbon skeleton is retained.
+:::
+
+## 2. Extend a secondary-alcohol map
+
+Draw butan-2-ol and predict its selected carbon-skeleton-retaining oxidation product. Explain why butanal is not the corresponding product.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The OH-bearing carbon remains connected to methyl and ethyl groups.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The product is butan-2-one CH₃COCH₂CH₃. Butanal would place the carbonyl at an end, changing which carbon bears it rather than simply oxidising the original secondary centre.
+:::
+
+## 3. Detect impossible valence
+
+A student oxidises(CH₃)₃COH to (CH₃)₃C=O with all C–C bonds retained. Draw and count the central bond orders.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Three single C–C bonds plus a double C=O are too many.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The proposed carbon has bond-order sum five. A tertiary alcohol lacks the carbinol C–H required for the simple alcohol-to-carbonyl map. Harsh C–C-cleaving oxidation is a different process.
+:::
+
+## 4. Reduce then protonate
+
+Use the selected NaBH₄-type model to reduce propanal, then use water for proton donation. Draw the alkoxide and neutral product.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Hydride delivery makes C–H while pi electrons go to oxygen.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Propanal gives CH₃CH₂CH₂O⁻ first, then propan-1-ol plus OH⁻ after water protonation. H:⁻ is reagent-delivery shorthand, not free hydride persisting in water.
+:::
+
+## 5. Prepare an amount table by hand
+
+For the supplied1:1 aspirin teaching equation, calculate mmol from 1.3812 g salicylic acid at 138.12 g/mol and1.53135 g acetic anhydride at 102.09 g/mol.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use n=m/M; mmol=1000×mol.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The values are 10.00 mmol acid and15.00 mmol anhydride. Acid limits the 1:1 reaction to 10.00 mmol product. The equation is a calculation context rather than a laboratory protocol.
+:::
+
+## 6. Change the limiting reagent
+
+Keep the acid input but use0.51045 g anhydride at 102.09 g/mol. Predict the limit before calculating the maximum product mass at 180.16 g/mol.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The changed anhydride input is 5.00 mmol.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Anhydride now limits product to 5.00 mmol. Theoretical mass=0.00500 mol×180.16 g/mol=0.9008 g. Reusing the original acid-based theoretical mass would overstate the new maximum.
+:::
+
+## 7. Apply a nonunit coefficient
+
+For the hypothetical balanced stoichiometry A+2B→P, amounts are 8 mmol A and12 mmol B. Calculate the maximum P.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Divide each amount by its coefficient.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A permits 8 mmol extent; B permits 6 mmol. B limits the maximum P to 6 mmol. Raw amount alone would miss the stoichiometric demand.
+:::
+
+## 8. Compute and interpret yield
+
+The original aspirin teaching case has theoretical mass1.8016 g and isolated mass1.20 g. Calculate yield and explain why it does not give conversion.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use 100×isolated/theoretical, then think about isolation loss.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Isolated yield is about 66.6%. Product can be lost during separation even if substantial starting material reacted; side reactions and contamination also complicate the relation. Conversion needs evidence about starting-material consumption.
+:::
+
+::: {.callout-note}
+**Optional transfer problems 9–12.** Select for revision; they are not additional required contact hours.
+:::
+
+## 9. Keep every TLC spot
+
+A matched normal-phase teaching plate has solvent front5.0 cm. Starting-material spot travels1.2 cm, reference product3.2 cm, and crude has both spots. Calculate each Rf and interpret the two crude spots.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Rf=spot distance/front distance; do not average two different compounds.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The Rf values are 0.24 and0.64. Crude contains two resolved spots under these conditions, consistent with more than one detectable component. Co-migration supports comparison but does not prove identity; invisible impurities can remain.
+:::
+
+## 10. Interpret a functional-group change
+
+A proposed secondary-alcohol oxidation loses broad alcohol OH absorption and gains strong C=O absorption. What is supported, and what does one visible TLC spot fail to establish?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate functional class from complete identity and purity.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The IR supports formation of a carbonyl-containing material and loss of the alcohol feature. A single TLC spot does not prove pure intended ketone; co-migration or undetected components and other carbonyl structures remain possible.
+:::
+
+## 11. Check primary records
+
+A report has a yield but no sample identifiers, no raw mass record and a spectrum labelled only unknown. Name three specific repairs and why each matters.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A later result needs to be tied to its actual observation.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Restore sample IDs linking isolated material and spectrum; retain dated raw mass/amount records; label the spectrum axes, conditions and sample provenance. These make the chemical claim traceable instead of a disconnected number and picture.
+:::
+
+## 12. Assemble an evidence paragraph
+
+Write four sentences using these teaching observations:1.20 g isolated, theoretical1.8016 g, crude TLC two spots, isolated sample one visible spot under matched conditions, carbonyl IR present. Include a justified limit.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Report observations first, then the conclusion they actually support.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A defensible paragraph reports66.6% apparent isolated mass yield, records that crude had two visible TLC components and isolated material one under the stated conditions, and notes carbonyl evidence. It explicitly avoids equating one spot with purity or carbonyl presence with unique identity; more structure evidence is needed.
+:::
+
+## Revisit the relevant lesson
+
+Use the local [substitution](../substitution/exercise.qmd), [elimination/addition](../elimination-addition/exercise.qmd), [alcohol/redox](../alcohols-redox/exercise.qmd) and [practical evidence](../reference/practical.qmd) explanations when a correction needs more context.

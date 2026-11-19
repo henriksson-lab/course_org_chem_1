@@ -1,0 +1,14 @@
+[
+  {
+    "unit": "structures",
+    "browser_back_returns_home": true
+  },
+  {
+    "unit": "substitution",
+    "browser_back_returns_home": true
+  },
+  {
+    "unit": "spectroscopy",
+    "browser_back_returns_home": true
+  }
+]

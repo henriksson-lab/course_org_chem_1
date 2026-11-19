@@ -1,107 +1,260 @@
 ---
-title: "Integrated chemistry workshop"
+title: "Integrated chemistry: standalone problem bank"
 ---
 
-Allow 90–120 minutes. Work independently, compare explanations in pairs and
-then inspect the checks. Use drawings, words and quantitative evidence together.
+This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
+Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
+Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
+mechanism. Use the hints after a first attempt and the worked checks after revising.
+All required definitions, structures, constants and observations are supplied here
+or in the linked local explanations; no textbook problem set is required.
 
-## Case 1. One molecule, several transformations
+## Working refresher
 
-Lactic acid is CH₃CH(OH)COOH. It is encountered in biological contexts, but this
-case requires only its drawn functional groups.
+Use the same checks on every case: identify functional groups, draw explicit atoms and charges at the changing site, follow electron pairs, and test a proposed structure against observations. In wedge/dash drawings, solid wedge points toward the observer and dashed wedge away. For a tetrahedral centre rank CIP priorities by atomic number, break ties with next attached atoms and treat multiple bonds by duplicated-atom bookkeeping; with priority 4 away, clockwise 1→2→3 is R and anticlockwise S. For the simple C/H/O spectra use DBE=(2C+2−H)/2 and the supplied first-order n +1 rule. Amount=n=m/M; theoretical product comes from balanced limiting extent; apparent yield=100×isolated/theoretical mass. The [local lecture](lec.qmd) provides the chemical drawings used in the workshop.
 
-1. Identify its alcohol type, acid group and stereocentre.
-2. Draw hydroxide deprotonation of its carboxyl group with two arrows.
-3. Draw the product of oxidising the secondary alcohol to a ketone.
-4. Draw the target ester made from its acid group and ethanol.
-5. For each change, state whether it changes bonding at the original
-   stereocentre and whether that centre still qualifies for R/S assignment.
+## 1. Read lactic acid without a pathway
+
+For CH₃CH(OH)COOH, identify both oxygen-containing functional groups, alcohol type and the possible stereocentre. Supply the four groups attached to that centre.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-Draw every relevant oxygen and hydrogen. Ask whether the central carbon has
-four different substituents and remains tetrahedral after the transformation.
+The CH(OH) carbon, rather than the carbonyl carbon, is tetrahedral.
 :::
 
-::: {.callout-note collapse="true" title="Worked comparison"}
-The alcohol is secondary and the CH(OH) carbon is the stereocentre. Hydroxide
-gives CH₃CH(OH)COO⁻ and water without changing the centre's bonds. Oxidation
-gives CH₃C(=O)COOH, pyruvic acid; the former centre is now planar and is not
-R/S. Esterification at the acid gives CH₃CH(OH)COOCH₂CH₃ plus water as a net
-equilibrium transformation; the alcohol-bearing centre remains tetrahedral.
-These drawings specify target changes, not a promise of perfect selectivity
-under all conditions. Ordinary proton transfer at the carboxyl OH alone does
-not invert the stereocentre.
+::: {.callout-note collapse="true" title="Worked explanation"}
+The molecule has a secondary alcohol and carboxylic acid. CH(OH) bears OH,H,CH₃ and COOH, four different groups, so it is a stereocentre. No metabolic knowledge is needed to infer those features.
 :::
 
-## Case 2. Configuration is not a drawing direction
+## 2. Rank the carbon substituents
 
-Draw both configurations of lactic acid with one wedged and one dashed bond.
-Assign priorities OH > COOH > CH₃ > H, explain the COOH/CH₃ tie-break and
-assign R or S for your own drawings. Redraw one molecule after rotating the
-whole drawing; verify that the configuration stays the same. Can you infer
-the sign of optical rotation from that R/S label?
+At the lactic acid centre, compare COOH with CH₃ using supplied CIP multiple-bond bookkeeping: duplicate a doubly bonded atom in the attached-atom comparison. Give the complete priority order.
 
-::: {.callout-note collapse="true" title="Worked reasoning"}
-O outranks C, and H is lowest. For the two carbon substituents compare their
-next attached atoms: the acid carbon is treated as attached to O,O,O in CIP
-multiple-bond bookkeeping, while methyl carbon is attached to H,H,H. Orient
-the lowest-priority group away; 1→2→3 clockwise is R and anticlockwise is S.
-If the lowest-priority group points toward you, reverse the apparent result.
-Rigid rotation preserves configuration. R/S does not determine the sign or
-size of measured optical rotation.
+::: {.callout-tip collapse="true" title="Hint"}
+The directly attached atoms tie at C; compare their next atoms.
 :::
 
-## Case 3. Resolve an unknown with several observations
-
-An unknown has C₄H₈O₂; its complete simulated IR has C=O but no broad O–H.
-Its simulated proton NMR has 1.25 ppm triplet (3H), 2.05 ppm singlet (3H)
-and 4.12 ppm quartet (2H). Compare ethyl ethanoate, butanoic acid and a
-hydroxyketone. For each candidate make at least one testable prediction;
-then explain which candidate best fits the supplied set.
-
-::: {.callout-note collapse="true" title="Worked interpretation"}
-Ethyl ethanoate fits an ester carbonyl, O–CH₂ quartet/CH₃ triplet and acetyl
-CH₃ singlet. Butanoic acid predicts a broad acid O–H feature and lacks O–CH₂;
-a hydroxyketone predicts OH and needs a different proton arrangement. These
-comparisons support the ester candidate among this set. Explicit assignments
-are stronger than stating that the spectrum “looks like an ester”.
+::: {.callout-note collapse="true" title="Worked explanation"}
+COOH carbon compares as O,O,O while methyl compares H,H,H, so COOH outranks CH₃. Complete order is OH>COOH>CH₃>H. Atomic identities, not group size or drawn length, determine priority.
 :::
 
-## Case 4. Critique a tempting success claim
+## 3. Assign a view with lowest priority away
 
-For the aspirin teaching reaction, theoretical mass is 1.8016 g. A student
-reports 1.70 g isolate, a single TLC spot and concludes “pure product, 94%
-yield”. Their IR has an unexpected feature and NMR has an extra major set of
-signals. Which numerical statement follows from the mass? Which chemical
-claim is unsupported? Suggest two possible explanations and a useful next
-check. Do not diagnose a unique impurity from these limited facts.
+In a tetrahedral drawing H(4) points away. OH(1) is at upper left, COOH(2) upper right and CH₃(3) lower left. Determine R/S and explain what reverses if H points toward you instead.
 
-::: {.callout-note collapse="true" title="Worked critique"}
-The apparent mass-based isolated yield is 100 × 1.70/1.8016 ≈ 94.4%, assuming
-the isolated mass is product. Purity is unsupported. Residual solvent or a
-co-migrating organic impurity are possible explanations; incomplete reaction
-or mistaken assignment is also possible. Compare the full NMR integration
-and signals against the expected product and appropriate references, or
-repeat TLC under a suitable different separation condition. The best next
-check depends on which contradictory feature can be tested most directly.
+::: {.callout-tip collapse="true" title="Hint"}
+Read 1→2→3 with the lowest-priority group away.
 :::
 
-## Case 5. A report someone else can inspect
-
-Use your own Rmd project to write a short conclusion for a teaching dataset.
-Include the chemical claim, two observations, the reasoning linking them,
-one limitation and a proposed next observation. Reopen the project in a fresh
-R session and Knit from the saved inputs. Ask a partner to find the raw values,
-the calculation and the evidence supporting each sentence.
-
-::: {.callout-note collapse="true" title="Review checklist"}
-The report should reconstruct its own objects, use relative paths and identify
-the data as simulated when appropriate. The conclusion must distinguish
-isolated yield, identity and purity and avoid treating a candidate's filename
-as evidence. Reproducibility and chemical validity are separate requirements:
-both must be checked. See [practical reporting](../reference/practical.qmd).
+::: {.callout-note collapse="true" title="Worked explanation"}
+The sequence is clockwise in this stated view, so R. If the same apparent sequence is viewed with H toward the observer, invert the result to S or reorient a model. A page rotation alone does not change configuration.
 :::
 
-Optional further reading is selected biological examples from Solomons
-chapters 22–24, through the [reading guide](../reference/reading.qmd). Detailed
-metabolic pathways and advanced synthesis are outside this workshop.
+## 4. Distinguish mirror and rotation
+
+Two lactic-acid drawings have identical connectivity but opposite tetrahedral arrangement at their sole stereocentre. State their relationship and whether R/S predicts the sign of optical rotation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Configuration and a measured optical property are distinct labels.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+They are enantiomers and cannot be superimposed by rigid rotation. R/S does not determine positive or negative optical rotation; that sign must be measured or otherwise supplied.
+:::
+
+## 5. Draw one acid–base mechanism
+
+For lactic acid plus OH⁻, draw removal of the carboxyl OH proton with both curved arrows. Give products and state whether that step inverts the alcohol-bearing centre.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Start an arrow at the base pair and the other at the acid O–H bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃CH(OH)COO⁻ and H₂O form. The proton-transfer step does not break or rearrange the bonds at CH(OH), so it does not itself invert that centre. Other conditions could cause other chemistry, but that is not this drawn event.
+:::
+
+## 6. Check atom conservation quantitatively
+
+For CH₃CH(OH)COOH+OH⁻→CH₃CH(OH)COO⁻+H₂O, count C,H,O and total charge on each side. Explain why dropping the water product would fail the audit.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Lactic acid is C₃H₆O₃ and lactate is C₃H₅O₃⁻.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Each complete side has C₃H₇O₄ and total charge −1. Omitting water loses H₂O from the inventory and hides the proton recipient; electron-flow bookkeeping alone cannot permit atoms to disappear.
+:::
+
+## 7. Use a supplied ionisation model
+
+For a dilute monoprotic acid with pKa 3.86, use fraction_Aminus=1/(1+10^(pKa−pH)). Calculate fractions at pH3.86 and 4.86 and interpret the population.
+
+::: {.callout-tip collapse="true" title="Hint"}
+At one pH unit above pKa the ratio A⁻/HA is 10.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Fractions are 0.5 and 10/11≈0.909. They describe relative populations of acid and conjugate-base species, not molecules each losing half or 90.9% of a proton.
+:::
+
+## 8. Predict oxidation and geometry
+
+Oxidise the secondary alcohol in CH₃CH(OH)COOH to a ketone while retaining the carbon skeleton. Write the product and explain what happens to the original stereocentre.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A secondary alcohol becomes a ketone at its OH-bearing carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The product is CH₃C(=O)COOH, pyruvic acid. The changing carbon becomes trigonal planar, so the original tetrahedral R/S centre no longer exists.
+:::
+
+## 9. Check the oxidation-state change
+
+At the changing carbon of lactic acid assign +1 per C–O bond order,−1 per C–H and 0 per C–C. Compare the ketone product carbonyl.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The alcohol centre has one C–O and one C–H; ketone has C=O and no C–H.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The alcohol centre is +1−1=0; the ketone carbon is +2. The increase by 2 confirms oxidation. This conclusion does not require adding an oxygen atom to the molecular formula.
+:::
+
+## 10. Choose a target ester site
+
+The selected target from lactic acid and ethanol is CH₃CH(OH)COOCH₂CH₃. Identify the functional-group change and state a condition-related limitation of this target drawing.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The drawn secondary OH remains; the carboxylic acid becomes ester.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Acid-group esterification is the intended net change. The drawing does not guarantee selective reaction under arbitrary conditions, since the starting molecule has more than one reactive oxygen function. Actual conditions and competing pathways must be assessed.
+:::
+
+## 11. Track the alcohol oxygen
+
+In standard esterification, ethanol is labelled at oxygen as CH₃CH₂O*H. Write the labelled ethyl-lactate target and identify the two atoms directly bonded to O*.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The incoming alcohol O forms the new bond to acyl carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃CH(OH)C(=O)O*CH₂CH₃. O* is bonded to the acid-derived carbonyl carbon and the ethyl CH₂ carbon. Atom identities follow the pathway rather than being inferred from final drawing positions.
+:::
+
+## 12. Choose addition versus substitution
+
+Compare CH₃CHO and CH₃COOCH₃ reacting with a suitable nucleophile. State the shared first bond changes and the key reason their later pathways can differ.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Both initial attacks move the carbonyl pi pair, but the ester has an oxygen-based substituent at acyl carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Both form C–Nu and move C=O pi electrons to O. The ester can undergo a viable leaving-group step to restore C=O; ordinary aldehydes lack the corresponding group, since H⁻ is not a normal leaving group here.
+:::
+
+## 13. Read amino-acid charges
+
+For H₃N⁺CH(CH₃)COO⁻, identify individual formal charges and net charge. Does net zero make it equivalent to an entirely uncharged hydrocarbon in water?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Sum the charges without deleting their local presence.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+N is +1 and carboxylate −1, net 0. The molecule is zwitterionic and contains strongly polar charged sites, so net neutrality does not make its interactions hydrocarbon-like.
+:::
+
+## 14. Predict high-pH deprotonation
+
+Starting from H₃N⁺CH(CH₃)COO⁻, draw OH⁻ accepting one ammonium proton. Give the product formula, N bond count and net charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The N–H bonding pair returns to N.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+H₂NCH(CH₃)COO⁻ and water form. N has three bonds and a lone pair, neutral; carboxylate remains −1. Net −1 on each complete side is conserved.
+:::
+
+## 15. Assign a complete unknown dataset
+
+U1 has C₄H₈O₂, carbonyl IR without broad OH, proton peaks 1.25 t 3H,2.05 s 3H,4.12 q 2H. Assign CH₃COOCH₂CH₃ and link each observation to a structural part.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Join the ethyl quartet/triplet, then place the acetyl singlet and carbonyl.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+O–CH₂ gives 4.12 q 2H and terminal ethyl CH₃ gives 1.25 t 3H. Acetyl CH₃ gives 2.05 s 3H because adjacent carbonyl C has no H. Ester carbonyl explains IR and lack of acid/alcohol OH; all atoms fit the formula.
+:::
+
+## 16. Test a hydroxyketone alternative
+
+For the same U1 dataset, compare CH₃COCH(OH)CH₃. Explain two predicted differences without using filenames or expected reaction products as evidence.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The proposed O-bearing carbon is CH, not CH₂.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The hydroxyketone predicts an OH-bearing 1H environment and a methyl adjacent to CH, commonly a doublet in the simple model. It also predicts OH functionality. U1 instead has O–CH₂2H quartet and ethyl 3H triplet, favouring the ester among these candidates.
+:::
+
+## 17. Calculate yield while stating its assumption
+
+A1:1 teaching reaction has 0.0100 mol limiting reagent, product M180.16 g/mol and isolate 1.70 g. Calculate theoretical mass and apparent yield, then state why neither number proves purity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Theoretical amount comes from starting reagents; isolated mass enters separately.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Theoretical mass is 1.8016 g and apparent yield 94.4%. The calculation assumes isolated mass is product; impurities, residual solvent or wrong identity can invalidate that interpretation. Purity requires separate evidence.
+:::
+
+## 18. Resolve contradictory observations
+
+A sample gives 94% apparent yield and one TLC spot, but full NMR has an unexpected major signal group. Give a defensible interpretation and two possible explanations without identifying a unique impurity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A single separation feature can hide co-migration, and mass can include other components.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The sample may not be pure despite its plausible mass. Residual solvent or another organic component could contribute; incorrect assignment is also possible. Investigate with complete spectral assignments or a discriminating separation rather than ignoring the contradiction.
+:::
+
+## 19. Critique a reproducible but invalid calculation
+
+An Rmd file always reproduces 100×isolated_mass/starting_reagent_mass and calls the result percent yield. Explain why reproducibility alone does not make this formula chemically correct.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Mass yield must use theoretical product mass from balanced stoichiometry and molar masses.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The denominator is generally wrong because starting and product molar masses and coefficients can differ. Correctly compute theoretical product amount from limiting extent, convert using product molar mass, then compare isolated product mass. Repeating an invalid formula is reproducibly wrong.
+:::
+
+## 20. Write a final evidence-based conclusion
+
+You have a formula-consistent ester candidate, matching simulated IR/NMR, an apparent 66.6% yield from teaching masses and no actual measured isolate spectra. Write a supported claim, limitation and useful next observation for a real sample.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Keep model demonstration and real measurement separate.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The supplied simulated evidence supports the ester candidate and the teaching mass calculation gives 66.6% apparent yield under its assumptions. It does not identify or establish purity of a real isolate. Appropriate measured sample spectra and independent purity assessment would test that real-sample claim.
+:::
+
+## Consolidate your work
+
+Choose one corrected error and explain what changed in your reasoning. Then
+complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
+all practice above is self-contained.

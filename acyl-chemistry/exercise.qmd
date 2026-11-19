@@ -1,96 +1,260 @@
 ---
-title: "Acyl chemistry: follow the intermediate"
+title: "Acyl chemistry: standalone problem bank"
 ---
 
-Allow 75–90 minutes. You need carbonyl addition, acid–base arrows and formal
-charges. Work on paper first; use the figures to check your bond bookkeeping.
+This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
+Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
+Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
+mechanism. Use the hints after a first attempt and the worked checks after revising.
+All required definitions, structures, constants and observations are supplied here
+or in the linked local explanations; no textbook problem set is required.
 
-## 1. Find the acyl carbon
+## Working refresher
 
-Draw CH₃COOH, CH₃COOCH₂CH₃, CH₃CONH₂ and CH₃CH₂OCH₂CH₃. Circle any carbonyl
-carbon. Identify the acid, ester, amide and ether. Explain why an ester oxygen
-is part of a different reactive motif from an ether oxygen.
+An **acyl carbon** is carbonyl carbon in R–C(=O)–Y. An ester has Y=OR′ and an amide has Y=NR′R″. A nucleophile donates a pair to carbonyl carbon while the C=O pi pair moves to O, giving a four-single-bond tetrahedral species. A viable leaving-group step can then restore C=O. Draw proton transfers with explicit donors and acceptors. Formal-charge checks used here: ordinary O with two bonds is neutral, one bond/three pairs is −1, and three bond orders is +1. For compatible pKa estimates, proton-transfer K≈10^(product-acid pKa−reactant-acid pKa). A worked mechanism is shown in [the lecture](lec.qmd); every problem below supplies its own necessary species and constants.
 
-::: {.callout-tip collapse="true" title="Hint"}
-In the condensed formula CH₃COOCH₂CH₃, the second carbon is C(=O), not a carbon
-with two unrelated single-bonded oxygens. Redraw the bonds explicitly.
-:::
+## 1. Identify four oxygen-containing families
 
-::: {.callout-note collapse="true" title="Worked check"}
-The first three structures contain CH₃–C(=O)–Y with Y = OH, OCH₂CH₃ or NH₂.
-They are acid, ester and amide. The ether contains no carbonyl and no acyl
-carbon. The ester can undergo attack at carbonyl carbon followed by leaving-group
-loss; the same carbonyl addition step is unavailable to the ether.
-:::
-
-## 2. Draw hydroxide addition to an ester
-
-Use ethyl ethanoate, CH₃C(=O)OCH₂CH₃. Draw a lone pair from hydroxide oxygen to
-the acyl carbon and move the carbonyl pi pair to oxygen. Draw the resulting
-tetrahedral intermediate with **every relevant hydrogen and charge**. Label
-the original carbonyl oxygen, incoming oxygen and original ester oxygen.
-
-::: {.callout-note collapse="true" title="Worked check"}
-The intermediate is CH₃C(O⁻)(OH)(OCH₂CH₃). The original carbonyl O is O⁻;
-the incoming hydroxide oxygen now has C–O and O–H bonds and is neutral. The
-ethoxy oxygen remains neutral with two bonds. Carbon has four single bonds,
-and the net charge remains −1. An intermediate retaining C=O as well as both
-new and old substituents would give five bonds at carbon and is invalid.
-:::
-
-## 3. Finish the hydrolysis and account for the proton
-
-Collapse that intermediate by reforming C=O and breaking the acyl C–OEt bond.
-Then show the acid–base step between the initially formed carboxylic acid and
-ethoxide. What species predominates in the basic reaction mixture? What does
-acid work-up change?
+Draw CH₃COOH, CH₃COOCH₂CH₃, CH₃CONH₂ and CH₃CH₂OCH₂CH₃ with explicit C=O bonds. Classify each, circle each acyl carbon and explain which one lacks an acyl group.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-An ordinary carboxylic acid is much more acidic than ethanol. Do not stop at
-an acid and a strongly basic alkoxide coexisting as the final pair.
+An acyl group contains a carbonyl carbon attached to the substituent being compared.
 :::
 
-::: {.callout-note collapse="true" title="Worked check"}
-The O⁻ pair forms a C=O pi bond while the C–OEt pair moves onto ethoxy oxygen.
-This gives CH₃COOH and CH₃CH₂O⁻ in the simple stepwise model. Ethoxide removes
-the acid proton to give CH₃COO⁻ and ethanol. Overall, ester plus hydroxide gives
-carboxylate plus alcohol. Acid work-up protonates carboxylate to the neutral
-acid; it does not reverse the atom identities in the product. These are
-mechanistic reasoning drawings, not instructions to conduct a reaction.
+::: {.callout-note collapse="true" title="Worked explanation"}
+The structures are acid, ester, amide and ether. The first three share CH₃C(=O)–Y; the ether has no C=O and therefore no acyl carbon. Oxygen alone does not establish an ester.
 :::
 
-## 4. Compare aldehyde addition with ester substitution
+## 2. Read a condensed formula carefully
 
-Draw hydroxide addition to ethanal as a reversible elementary step. Compare
-its tetrahedral species with the ester intermediate above. Why is expelling
-H⁻ from the ethanal intermediate not a reasonable analogy to loss of ethoxide?
+Expand HCOOCH₃ and CH₃OCH₃. Count the bonds to the carbon next to the first oxygen. Which compound can undergo the elementary carbonyl-addition pattern?
 
-::: {.callout-note collapse="true" title="Worked check"}
-The aldehyde has H where an ester has OR. Hydride would be an extremely poor
-leaving group in this setting. An aldehyde can return to its starting carbonyl
-by reversing addition or proceed through appropriate addition chemistry; it
-does not ordinarily substitute away its carbon-bound H by this analogy.
-Product prediction must consider leaving-group viability, not just valence.
+::: {.callout-tip collapse="true" title="Hint"}
+In HCOOCH₃ the first carbon is H–C(=O)–, not H–C–O–O.
 :::
 
-## 5. Explain an amide using resonance
-
-Draw neutral ethanamide and its charge-separated contributor with a C=N bond.
-Assign O and N charges and count the total charge. Explain why the C–N bond
-rotates less freely than a simple amine C–N bond. Then predict the initial
-outcome of mixing ethanoic acid with methylamine in water.
-
-::: {.callout-note collapse="true" title="Worked check"}
-The second contributor is CH₃C(O⁻)=NH₂⁺. Net charge stays zero, and the actual
-amide has partial C–N double-bond character. Its nitrogen pair is less
-available for ordinary protonation than a simple amine pair. Acid plus
-methylamine initially gives ethanoate and methylammonium; amide formation
-requires appropriate activation or conditions. This is also why peptide
-formation in water needs more than simply bringing amino acids together.
+::: {.callout-note collapse="true" title="Worked explanation"}
+HCOOCH₃ is methyl methanoate, H–C(=O)–O–CH₃, an ester. CH₃OCH₃ is an ether. Only the ester contains the required carbonyl carbon for that addition pattern.
 :::
 
-## Leave with
+## 3. Write the two addition arrows
 
-A complete ester-hydrolysis mechanism, a comparison with carbonyl addition,
-and an explanation of amide properties. Optional reading is selected Solomons
-chapter 17; consult the [reading guide](../reference/reading.qmd).
+For OH⁻ attacking CH₃C(=O)OCH₃, draw the hydroxide lone pair and both curved arrows. Show a valid intermediate with all charges and count carbon bond orders.
+
+::: {.callout-tip collapse="true" title="Hint"}
+As the new C–O bond forms, the C=O pi pair must move.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Draw OH pair→acyl C and C=O π→carbonyl O. The intermediate is CH₃C(O⁻)(OH)(OCH₃), with four single bonds at C and net −1. Incoming O is neutral OH; original carbonyl O is O⁻.
+:::
+
+## 4. Track three oxygen identities
+
+Label ester carbonyl O as A, ester single-bond O as B and incoming hydroxide O as C. Draw the tetrahedral intermediate and identify which oxygen still bears a methyl group.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Carbon–oxygen bonds to substituents do not disappear during the addition step.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The intermediate is CH₃C(O-A⁻)(O-CH₃-B)(OH-C). B remains attached to methyl. A bears the negative charge and C retains its original H. A label follows an atom, not a position on the page.
+:::
+
+## 5. Complete an elimination step
+
+Starting from CH₃C(O⁻)(OH)(OCH₃), draw carbonyl re-formation and methoxide departure. Give the immediate acid and base products and their total charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One pair moves from O⁻ into C–O π; another moves from the C–OCH₃ bond to methoxy O.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The immediate pair is CH₃COOH + CH₃O⁻. Total charge remains −1. Carbonyl is restored, and methyl stays bonded to its departing oxygen; the group is methoxide, not a free methyl carbanion.
+:::
+
+## 6. Add the missing acid–base step
+
+After collapse gives CH₃COOH and CH₃O⁻, use approximate compatible aqueous pKa values 4.8 for CH₃COOH and 15.5 for CH₃OH. Draw proton transfer, state the favoured pair and estimate K = 10^(product-acid pKa − reactant-acid pKa).
+
+::: {.callout-tip collapse="true" title="Hint"}
+The weaker acid has the larger pKa.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Methoxide takes the acid proton to give CH₃COO⁻ + CH₃OH. K≈10^10.7≈5×10¹⁰ toward that pair. Stopping at neutral acid plus alkoxide misses a strongly favoured final proton transfer.
+:::
+
+## 7. Balance net base-promoted hydrolysis
+
+Write the net equation for CH₃COOCH₂CH₃ with OH⁻. Include the protonation state present in a basic mixture and audit atoms and total charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Cancel intermediates, not final stoichiometric reagents.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃COOCH₂CH₃ + OH⁻ → CH₃COO⁻ + CH₃CH₂OH. Both sides have C₄H₉O₃ and net −1. Hydroxide is consumed overall, unlike the regenerated OH⁻ in simple carbonyl hydration.
+:::
+
+## 8. Separate hydrolysis from acid work-up
+
+The basic reaction mixture contains sodium ethanoate. Write its reacting anion with hydronium and give products. Does work-up form a new carbon skeleton?
+
+::: {.callout-tip collapse="true" title="Hint"}
+A spectator sodium ion need not enter the proton-transfer step.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O. The acid carbon skeleton is retained. Work-up changes protonation state; it is not an unexplained deletion of the negative charge.
+:::
+
+## 9. Reject five-bonded carbon
+
+A student draws CH₃C(=O)(OH)OCH₃ as the intermediate after OH⁻ attack. Count bond orders at carbon and repair the structure.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A carbonyl double bond contributes two to the bond-order count.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+That carbon has C–CH₃, C=O, C–OH and C–OCH₃: total five bond orders. Replace C=O with C–O⁻ to give CH₃C(O⁻)(OH)(OCH₃). The paired electron movement both restores carbon valence and locates charge.
+:::
+
+## 10. Compare ester and aldehyde
+
+Compare OH⁻ addition to CH₃CHO and CH₃COOCH₃. Draw both tetrahedral species and explain why an ordinary aldehyde does not normally undergo substitution by expelling H⁻.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare the substituent in the potential leaving-group position.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The species are CH₃CH(OH)O⁻ and CH₃C(OH)(O⁻)(OCH₃). Methoxy can leave through an appropriate pathway; hydride is an extremely poor leaving group in these simple reactions. Similar first addition steps do not force the same later chemistry.
+:::
+
+## 11. Start acid-catalysed esterification
+
+Use ethanoic acid, ethanol and hydronium. Draw carbonyl-oxygen protonation, then neutral ethanol attack with movement of the pi pair. Give the charge on each oxygen of CH₃C(OH)(OH)(OHEt).
+
+::: {.callout-tip collapse="true" title="Hint"}
+The incoming ethanol oxygen gains a third bond; the protonated original carbonyl oxygen loses its pi bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Protonation gives CH₃C(=OH⁺)OH plus water. Ethanol attack gives CH₃C(OH)(OH)(O⁺HEt). Original carbonyl O is now neutral OH, original acid OH is neutral and incoming oxygen is +1. Total charge is +1.
+:::
+
+## 12. Make the incoming oxygen neutral
+
+For CH₃C(OH)(OH)(O⁺HEt), draw water removing the extra incoming-oxygen proton. Count bonds at that O after transfer and identify the catalyst-containing species produced.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The O–H bonding pair stays on the oxygen losing H⁺.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Water pair→incoming-oxygen H; O–H pair→incoming O. Products include CH₃C(OH)(OH)(OEt) and H₃O⁺. Incoming O has two bonds and is neutral. Explicit proton donors/acceptors preserve both atoms and charge.
+:::
+
+## 13. Create and remove a leaving group
+
+From the neutral tetrahedral species, protonate an OH to OH₂⁺, then draw loss of water with carbonyl re-formation. Why is drawing direct OH⁻ loss inappropriate for this representative acidic pathway?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Protonation changes the identity and stability of the departing group.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+An OH₂⁺ substituent can depart as neutral H₂O while the other OH oxygen reforms C=O, initially giving a protonated ester. Deprotonation restores neutral ester and acid catalyst. Direct OH⁻ loss skips the activation central to this acid pathway.
+:::
+
+## 14. Distinguish catalyst from equilibrium change
+
+For CH₃COOH + EtOH ⇌ CH₃COOEt + H₂O, predict the effect of removing water and separately the effect of adding an acid catalyst at fixed temperature.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One action changes composition; the other changes access to the reaction pathway.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Removing water can shift the composition toward ester. A catalyst accelerates the forward and reverse approach without changing K for the same net reaction under fixed conditions. Faster equilibration does not imply a different equilibrium constant.
+:::
+
+## 15. Check an oxygen label in the product
+
+In the standard esterification pathway, use ethanol labelled at oxygen as Et–O*H. Draw the labelled ester and say which bond links the labelled O to the acid-derived fragment.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The alcohol oxygen forms the new bond to acyl carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The ester is CH₃C(=O)O*Et. O* is the single-bond ester oxygen, directly attached to acyl carbon and ethyl. This follows the specified mechanism; do not track atoms solely by whether they are drawn above or beside carbon.
+:::
+
+## 16. Draw amide resonance correctly
+
+Draw neutral CH₃CONH₂ and its C=N charge-separated contributor. Give all O/N charges, total charge and the correct connecting arrow type.
+
+::: {.callout-tip collapse="true" title="Hint"}
+When N donates into C–N, the C=O pi pair moves onto O.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃C(=O)NH₂ ↔ CH₃C(O⁻)=NH₂⁺. Total charge stays zero. Use a resonance double-headed arrow, not equilibrium arrows: these describe one delocalised amide with fixed nuclei.
+:::
+
+## 17. Explain restricted amide rotation
+
+Compare CH₃CH₂NH₂ with CH₃CONH₂. Explain why their C–N bonds differ in rotational freedom and why their N basicities should not be assumed equal.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Connect the real bond to its resonance contributors rather than declaring the C–N bond literally always double.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Amide donation gives partial C–N double-bond character, restricting rotation and delocalising the N pair into C=O. A simple alkylamine lacks that same neighbouring carbonyl conjugation. The different electron availability changes protonation behaviour.
+:::
+
+## 18. Predict acid plus amine
+
+For CH₃COOH + CH₃NH₂ in water, use pKa 4.8 for the acid and 10.6 for methylammonium. Give the initially favoured acid–base products and explain why this is not already amide synthesis.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare the reactant and product acids.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+CH₃COO⁻ + CH₃NH₃⁺ is favoured, with estimated K≈10^5.8. This is proton transfer. Forming CH₃CONHCH₃ would require suitable activation/conditions and a productive acyl-substitution pathway; the salt alone is not an amide.
+:::
+
+## 19. Read two biological linkages
+
+A lipid fragment is R–C(=O)–O–glycerol and a peptide fragment is R–C(=O)–NH–R′. Identify each linkage, locate the electrophilic carbon and explain why their rates of hydrolysis need not match.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The carbonyl carbon is common; the substituent and stabilisation differ.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The first is ester and the second amide. Nucleophilic acyl attack begins at carbonyl carbon. Amide resonance stabilisation, leaving-group behaviour, activation and reaction conditions differ, so a common motif does not imply equal reactivity.
+:::
+
+## 20. Audit an incomplete mechanism
+
+A proposed ester hydrolysis drawing adds OH⁻, loses the ethoxy group, writes neutral acid as final product in base and omits every charge. List three independent repairs and explain one experimental claim this mechanism alone cannot establish.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Check valence, proton transfers and the difference between a model and observations.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Move the C=O pi pair during addition; show O⁻ in the intermediate and ethoxide on collapse; include acid–base transfer giving carboxylate and ethanol in base. The mechanism alone cannot establish isolated yield, purity or the measured rate; those require observations.
+:::
+
+## Consolidate your work
+
+Choose one corrected error and explain what changed in your reasoning. Then
+complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
+all practice above is self-contained.

@@ -24,6 +24,32 @@ a { text-underline-offset: 0.15em; }
 .quarto-title .subtitle { max-width: 45rem; color: #386174; }
 img { max-width: 100%; }
 
+/* Local interactive chemistry workbenches; shared by the 25 daily demos. */
+.chem-demo { margin: 1.4rem 0; padding: 1.1rem; border: 1px solid #b8cfd9; border-radius: .4rem; min-width: 0; }
+.demo-controls { display: flex; flex-wrap: wrap; align-items: end; gap: .9rem 1.2rem; margin-bottom: 1rem; }
+.demo-field { flex: 1 1 220px; min-width: 0; max-width: 100%; }
+.demo-field label { display: block; font-weight: 600; margin-bottom: .35rem; }
+.demo-field output { font-weight: 400; white-space: nowrap; }
+.demo-field input, .demo-field select { width: 100%; min-width: 0; max-width: 100%; font: inherit; }
+.demo-field input[type="number"], .demo-field select { padding: .45rem .55rem; min-height: 2.75rem; border: 1px solid #829ba6; border-radius: .25rem; background: white; color: #153747; }
+.demo-field input[type="range"] { min-height: 2.75rem; accent-color: #176b91; }
+.demo-controls button { font: inherit; color: #153747; background: #eef6f9; border: 1px solid #7297a8; border-radius: .25rem; padding: .5rem .8rem; min-height: 2.75rem; }
+.demo-controls button:hover { background: #dceef5; }
+.demo-controls button:disabled { opacity: .55; }
+.demo-controls :focus-visible { outline: 3px solid #176b91; outline-offset: 3px; }
+.demo-visual { min-width: 0; max-width: 100%; display: flex; flex-wrap: wrap; gap: .8rem; align-items: flex-start; justify-content: center; }
+.demo-visual svg { display: block; flex: 1 1 330px; min-width: 0; width: 100%; height: auto; max-width: 100%; margin: .3rem 0; }
+.demo-visual img { max-width: 100%; height: auto; }
+.demo-result { margin-top: .8rem; padding: .7rem .9rem; background: #edf5f8; font-weight: 600; overflow-wrap: anywhere; }
+.demo-detail { margin-top: .7rem; overflow-wrap: anywhere; }
+.demo-detail table { width: 100%; }
+.sidebar a.sidebar-item-text[href*="demos/day"] { color: #a04d00; font-style: normal; }
+@media (max-width: 480px) {
+  .chem-demo { padding: .65rem; }
+  .demo-field { flex-basis: 100%; }
+  .demo-controls button { flex-grow: 1; }
+}
+
 /* Bold the collapsible section headers in the docked sidebar
    ("Course info", "Before you start", "Day 1 — ...", "Day 2 — ...", etc.)
    so they stand out from the leaf-page entries below them. */
@@ -70,7 +96,7 @@ img { max-width: 100%; }
    We italicise every dayN/ leaf link, then explicitly exclude
    lectures (lec*), quizzes (*quiz*), and the concept summary
    (00-concepts) so only the exercises themselves are italic. */
-.sidebar a.sidebar-item-text[href*="/day"]:not([href*="lec"]):not([href*="quiz"]):not([href*="00-concepts"]) {
+.sidebar a.sidebar-item-text[href*="/day"]:not([href*="lec"]):not([href*="quiz"]):not([href*="00-concepts"]):not([href*="demos/"]) {
   font-style: italic;
 }
 

@@ -1,0 +1,29 @@
+---
+title: "Day 15: Change the limiting reagent and isolated yield"
+---
+
+Use this explorer for about **7–10 minutes**. Make a prediction first, change one input at a time, and record a chemical explanation rather than only a screenshot.
+
+## Explore the chemistry
+
+```{=html}
+<section class="chem-demo" id="day15" aria-label="Change the limiting reagent and isolated yield"></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/reactivity.js"></script>
+```
+
+## Prediction, exploration and explanation
+
+**Predict (1–2 minutes).** The starting masses represent 10.00 mmol salicylic acid and 15.00 mmol acetic anhydride in a 1:1 reaction. Predict the maximum aspirin amount and mass before changing a control.
+
+**Explore (3–4 minutes).** Use the anhydride-limited preset and explain the new limit. Restore the default, then test zero acid, an empty field, a negative input and an isolate mass above the theoretical maximum. Distinguish an invalid input from a valid zero measurement.
+
+**Explain (2 minutes).** Report the default theoretical mass and isolated yield. Why is yield undefined when theoretical product is zero? Why should an apparent yield above 100% trigger a check of composition/inputs instead of being clamped to 100% or celebrated as extra product?
+
+## Supplied model and its limits
+
+Supplied balanced teaching equation: salicylic acid + acetic anhydride → aspirin + ethanoic acid; all coefficients are 1. Molar masses are 138.12 g/mol, 102.09 g/mol and 180.16 g/mol for the two reactants and aspirin respectively. Use `n=m/M`, minimum reactant amount/coefficient, and `yield%=100×isolated/theoretical mass`. The isolate mass can include impurities or solvent; mass yield does not establish purity or conversion. Inputs are constructed teaching quantities, not a protocol.
+
+## Carry the explanation into practice
+
+Return to the local [alcohols redox lesson](../alcohols-redox/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved. The interactive works locally and needs no online account or additional software packages.

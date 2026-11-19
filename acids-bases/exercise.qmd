@@ -1,61 +1,260 @@
 ---
-title: "Acids and bases: from a drawing to an ionisation curve"
+title: "Acid–base reasoning: standalone practice bank"
 ---
 
-Allow about 60 minutes for paper problems and 40 minutes for the R task.
-You need lone pairs, formal charges, `ggplot2`, and a working R Markdown report.
-Use the [restart guide](../intro/r-restart.qmd) if needed.
+Use the [lecture](lec.qmd) and the refresher below; no textbook or external problem sheet is needed. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R. The separate computing task does not count as paper chemistry.
 
-## 1. Follow the electron pair
+### Tools and worked start
 
-Draw ethanoic acid and hydroxide with the relevant lone pairs. Draw two curved
-arrows to produce ethanoate and water. Label both conjugate pairs and check
-the total charge on each side. Then reverse the drawing: which species would
-have to act as the acid and base in the reverse reaction?
+A Brønsted acid donates H⁺ and a base accepts it. Curved arrows start at electron pairs. A conjugate base has one fewer H and charge one lower. Lower compatible pKa means stronger acid. Use K≈10^[pKa(product acid)−pKa(reactant acid)]. For the supplied monoprotic dilute aqueous model, r=[A⁻]/[HA]=10^(pH−pKa) and fraction A⁻=r/(1+r). Worked start: at pH=pKa, r=1 and fraction=0.5. All numerical pKa values below are supplied compatible aqueous teaching values.
+
+Draw first, explain the rule you used, and open the check only after an attempt. Ordinary drawings may use a structure editor or paper.
+
+## 1. Draw both arrows
+
+Draw CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O with relevant lone pairs and both curved arrows.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-Begin one arrow on a hydroxide lone pair and end it at the acidic hydrogen.
-The other arrow starts at the acid's O–H bond.
+One pair goes to H; the original O–H pair stays on acid O.
 :::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-The acid is CH₃COOH and the base is OH⁻. Products are CH₃COO⁻ and H₂O.
-The conjugate pairs are acid/ethanoate and water/hydroxide. Total charge is −1
-on both sides. In the reverse direction water would donate H⁺ to ethanoate.
-This reverse event is possible, but equilibrium strongly favours the forward
-direction under the compatible aqueous pKa approximation.
+Hydroxide pair→acidic H, acid O–H bond→acid O. Net charge is−1 before and after. The proton moves while its original bonding pair stays behind.
 :::
 
-## 2. Explain acidity using structure
+## 2. Name both conjugate pairs
 
-Draw ethoxide and both equivalent ethanoate resonance contributors. Which
-conjugate base delocalises its negative charge over equivalent oxygen atoms?
-Explain why moving a hydrogen atom would no longer be resonance. Use supplied
-approximate aqueous pKa values: ethanol 16 and ethanoic acid 4.8.
+For the preceding proton transfer, identify acid, base, conjugate acid and conjugate base.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Pair species differing by one H⁺.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-Ethanoate delocalises the charge over its two oxygens; its two C–O bonds are
-equivalent in the actual ion. The contributors have the same nuclei in the
-same positions and differ in electron placement. A hydrogen shift changes
-connectivity and describes a chemical transformation. Ethanoic acid is the
-stronger acid; pKa compares equilibria, while conjugate-base stabilisation
-provides the structural explanation.
+CH₃COOH/CH₃COO⁻ and H₂O/OH⁻ are the pairs. Reactants are acid and base; water is the base’s conjugate acid, ethanoate the acid’s conjugate base.
 :::
 
-## 3. Predict a proton transfer
+## 3. Protonate methylamine
 
-For CH₃COOH + CH₃NH₂ ⇌ CH₃COO⁻ + CH₃NH₃⁺ use pKa 4.8 for the reactant acid
-and 10.6 for methylammonium. Predict the favoured side and estimate the
-equilibrium constant as `10^(product_acid_pKa - reactant_acid_pKa)`.
+Draw CH₃NH₂ + H–A → CH₃NH₃⁺ + A⁻ with two arrows and all N lone pairs/charges.
+
+::: {.callout-tip collapse="true" title="Hint"}
+N starts with three bonds and a pair.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-The products contain the weaker acid, with larger pKa. The estimated constant
-is `10^5.8`, about 630,957. This estimate requires compatible solvent and
-standard-state conventions. It predicts a strongly product-favoured equilibrium,
-not an irreversible reaction or an experimental reaction rate.
+N pair→H; H–A bond→A. N ends with four bonds/no lone pair/charge+1. Total charge is conserved because A becomes−1.
 :::
 
-## 4. R task: how much of the acid is ionised?
+## 4. Remove H⁺ from ammonium
+
+Draw NH₄⁺ losing one H⁺ and identify the formula, charge and lone-pair count of the conjugate base.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Keep the N–H bonding pair on N.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The conjugate base is neutral NH₃ with three N–H bonds and one lone pair. Losing H⁺ decreases charge by one without removing the bonding electrons.
+:::
+
+## 5. Compare conjugate-base stabilisation
+
+Draw ethoxide and both equivalent ethanoate contributors. Use the supplied aqueous pKa 16 for ethanol and 4.8 for ethanoic acid to identify the stronger acid.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Explain the base structure before citing the numbers.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethanoate distributes negative charge over two equivalent O atoms; ethoxide lacks that equivalent delocalisation. Ethanoic acid is stronger, consistent with its lower pKa.
+:::
+
+## 6. Reject a false resonance contributor
+
+A proposed contributor moves a hydrogen from one O to another. Explain why this is not merely resonance.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Resonance changes electron placement while preserving nuclei.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Moving H changes a nuclear position and bonding pattern, describing a proton transfer or tautomeric change. It is not another contributor to the same fixed-nucleus species.
+:::
+
+## 7. Estimate forward equilibrium
+
+For CH₃COOH + CH₃NH₂ ⇌ CH₃COO⁻ + CH₃NH₃⁺, use acid pKa 4.8 and product-acid pKa 10.6. Apply K≈10^(product−reactant acid pKa).
+
+::: {.callout-tip collapse="true" title="Hint"}
+Subtract in the stated order.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+K≈10^5.8≈6.3×10⁵. Products contain the weaker acid and are strongly favoured in the compatible aqueous approximation. This does not give a reaction rate.
+:::
+
+## 8. Reverse the equilibrium
+
+Write the reverse of the preceding equation and estimate its K.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A reversed equation has reciprocal K.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+CH₃COO⁻+CH₃NH₃⁺⇌CH₃COOH+CH₃NH₂ has K≈1/(6.3×10⁵)≈1.6×10⁻⁶. Using the same large K for both directions is inconsistent.
+:::
+
+## 9. Control an inductive comparison
+
+Supplied aqueous pKa values are 4.8 for CH₃COOH and 2.9 for ClCH₂COOH. Draw the conjugate bases and explain the trend.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The changed substituent is electron withdrawing.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Cl substitution stabilises the nearby carboxylate through inductive electron withdrawal, making the acid stronger. Compare within compatible conditions; the Cl is not a resonance contributor moving between atoms.
+:::
+
+## 10. Convert ratio into fraction
+
+At pH 3.8 for a monoprotic acid of pKa 4.8, use r=10^(pH−pKa) and fraction=r/(1+r).
+
+::: {.callout-tip collapse="true" title="Hint"}
+The fraction denominator includes both forms.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+r=0.1; fraction=0.1/1.1≈0.0909=9.09%. A ratio of 0.1 does not equal exactly 10% of the total population.
+:::
+
+## 11. Explain the midpoint
+
+At pH=pKa, calculate r and the ionised fraction. Describe definite molecular species rather than half-protonated molecules.
+
+::: {.callout-tip collapse="true" title="Hint"}
+10^0=1.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+r=1 and fraction=0.5. Equal HA and A⁻ concentrations coexist; each species is HA or A⁻, not an individual molecule halfway losing a proton.
+:::
+
+## 12. Go one unit above pKa
+
+For pKa 4.8 at pH 5.8, calculate r and fraction. Check direction against the previous two cases.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The ratio multiplies by ten for each pH unit.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+r=10 and fraction=10/11≈0.9091. The conjugate-base fraction increases as pH increases, consistent with deprotonation being favoured.
+:::
+
+### Optional transfer and challenge
+
+These extend the same concepts without assuming later reaction chemistry.
+
+## 13. Go two units above pKa
+
+For the same acid at pH 6.8, calculate fraction and explain why it is not exactly 100%.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use r=100, then include HA in the denominator.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+fraction=100/101≈0.9901. The model retains a small HA population; a strongly favoured form need not be exclusive.
+:::
+
+## 14. Compare two acids at one pH
+
+At pH 4.8 compare supplied pKa 4.8 and 6.0. Use fraction=1/(1+10^(pKa−pH)).
+
+::: {.callout-tip collapse="true" title="Hint"}
+The weaker acid has the higher pKa.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Fractions are 0.5 and approximately 0.0594. At the same pH the lower-pKa acid is more deprotonated. This comparison uses the stated monoprotic dilute aqueous model.
+:::
+
+## 15. Repair a reversed curve
+
+A student’s fraction_A_minus decreases as pH increases after coding 1/(1+10^(pH−pKa)). Explain the sign error.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Evaluate the code far above pKa.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The exponent is reversed for the A⁻ fraction. Use pKa−pH in this denominator. The student’s expression instead gives the complementary HA fraction under the model.
+:::
+
+## 16. Separate equilibrium from kinetics
+
+A proton-transfer estimate has K=10⁶. Does that number alone give seconds needed to reach equilibrium?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare state preference with pathway barrier.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+No. K describes equilibrium proportions/activities under the model, not the time scale. Reaction kinetics require additional mechanistic and rate information.
+:::
+
+## 17. Use water in both roles
+
+Write one proton-transfer example with water accepting H⁺ and another with water donating H⁺. Identify the resulting conjugates.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use H–A and a sufficiently basic B⁻ as generic partners.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+H–A+H₂O⇌A⁻+H₃O⁺ shows water accepting. B⁻+H₂O⇌BH+OH⁻ shows water donating. Relative extents depend on compatible acid/base strengths.
+:::
+
+## 18. Check total charge in a mechanism
+
+A drawing turns neutral HA and neutral B into A⁻ and neutral BH. Find the missing formal charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The reactant net charge is zero.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+BH must be BH⁺ when B accepts H⁺ in this generic transfer. A⁻ plus BH⁺ preserves net zero. Drawing neutral BH would lose a unit of total charge.
+:::
+
+## 19. Distinguish speciation and titration
+
+A graph plots fraction A⁻ against a supplied pH grid. Explain why its x-axis cannot simply be relabelled mL of added base.
+
+::: {.callout-tip collapse="true" title="Hint"}
+pH is an input here; titrant volume would require a mass-balance model.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+A titration relation must connect added amount, total volume and equilibria to pH. The speciation curve computes fraction at specified pH and does not supply that connection.
+:::
+
+## 20. Set an extraction boundary
+
+At high aqueous pH an acid is mostly A⁻. List missing information needed to predict mass in an organic phase.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Speciation is only one part of a two-phase calculation.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Partition coefficients for relevant species, phase volumes, starting amount and losses are needed. Aqueous fraction alone does not determine organic recovery or isolated yield.
+:::
+
+## R task: how much of the acid is ionised?
 
 **Question:** for a monoprotic acid with supplied pKa 4.8, how does its aqueous
 ionised fraction change between pH 1 and 9? This is a calculated teaching model,
@@ -94,7 +293,7 @@ as aqueous ionisation. The supplied curve is not a titration curve: pH is the
 input, not the calculated consequence of adding a specified titrant volume.
 :::
 
-## Leave with
 
-A checked proton-transfer mechanism, a conjugate-base comparison, and a knitted
-report containing a labelled plot and your own chemical interpretation.
+## Review your work
+
+Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.

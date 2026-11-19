@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>A mass-based yield has a theoretical denominator</title><desc>A mass-based yield has a theoretical denominator</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="480" y="115" font-family="DejaVu Sans, sans-serif" font-size="37" fill="#153747" text-anchor="middle" font-weight="normal">1.20 g / 1.8016 g × 100 = 66.6%</text>
+<text x="480" y="220" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">isolated mass       theoretical pure-product maximum</text>
+<text x="480" y="335" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">A yield calculation does not by itself identify the isolated material.</text>
+</svg>

@@ -1,0 +1,29 @@
+---
+title: "Day 16: Follow labelled oxygens through addition"
+---
+
+Use this explorer for about **7–10 minutes**. Make a prediction first, change one input at a time, and record a chemical explanation rather than only a screenshot.
+
+## Explore the chemistry
+
+```{=html}
+<section class="chem-demo" id="day16" aria-label="Follow labelled oxygens through addition"></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/reactivity.js"></script>
+```
+
+## Prediction, exploration and explanation
+
+**Predict (1 minute).** Label aldehyde oxygen A and incoming nucleophile oxygen B. During initial hydroxide addition, which oxygen becomes negative? During methanol attack on a protonated aldehyde, which oxygen temporarily becomes positive?
+
+**Explore (4–5 minutes).** Compare hydrate and hemiacetal routes. Step forward and backward, select each oxygen, and assign its formal charge plus the proton-transfer role entering that state. Use the check feedback. Pay special attention to oxygen C in water/hydronium and to the fact that addition itself is not a proton-transfer step.
+
+**Explain (2 minutes).** Draw one labelled complete sequence. In base-catalysed hydration, why can the regenerated OH⁻ have oxygen C even though the incoming OH⁻ had oxygen B? In the acid route, which water accepts the final proton, and where is the catalyst at the end?
+
+## Supplied model and its limits
+
+A always denotes the original carbonyl oxygen; B the incoming hydroxide or methanol oxygen; C the hydronium/water proton-transfer partner. The hydrate route has net charge −1 across all explicit species; the acid-catalysed hemiacetal route has net charge +1. Atom labels track identities, while catalyst regeneration means regeneration of a species, not necessarily the same individually labelled oxygen. These simplified paths do not predict equilibrium composition or supply operating instructions.
+
+## Carry the explanation into practice
+
+Return to the local [carbonyl addition lesson](../carbonyl-addition/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved. The interactive works locally and needs no online account or additional software packages.

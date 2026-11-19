@@ -12,11 +12,27 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from zipfile import ZipFile
 import xml.etree.ElementTree as ET
+import yaml
 
 ROOT=Path(__file__).resolve().parents[1]
 units=json.loads((ROOT/'plan/units.json').read_text())
 errors=[]
 inventory=[]
+practice_inventory=[]
+
+def check_paper_set(path, minimum):
+    if not path.exists():
+        errors.append(f'Missing paper practice: {path.relative_to(ROOT)}')
+        return 0
+    body=path.read_text()
+    problems=re.split(r'^##\s+\d+[.)]\s+.+$',body,flags=re.M)[1:]
+    if len(problems)<minimum:
+        errors.append(f'{path.relative_to(ROOT)}: {len(problems)} paper problems, expected at least {minimum}')
+    for number,problem in enumerate(problems,1):
+        problem=re.split(r'^##\s+(?!\d+[.)])',problem,maxsplit=1,flags=re.M)[0]
+        if len(re.findall(r'\bcollapse\s*=\s*(?:"true"|\'true\'|true)',problem))<2:
+            errors.append(f'{path.relative_to(ROOT)} problem {number}: needs separate hint and worked answer')
+    return len(problems)
 
 def visible_source(text):
     text=re.sub(r'^---\n.*?\n---\n','',text,flags=re.S)
@@ -31,13 +47,22 @@ for unit in units:
         if not f.exists(): errors.append(f'Missing {f.relative_to(ROOT)}')
     if not all(f.exists() for f in pages): continue
     lecture=pages[0].read_text()
+    metadata=yaml.safe_load(lecture.split('---',2)[1])
     body=visible_source(lecture)
     sections=re.split(r'^## .+$',body,flags=re.M)[1:]
     # One automatic title slide is present in these Reveal decks.
     total=1+len(sections)
     visual=sum(bool(re.search(r'!\[[^\]]+\]\([^)]+\.svg\)',section)) for section in sections)
-    if total<15: errors.append(f'{slug}: only {total} slides')
+    session_minutes=metadata.get('session-minutes')
+    seconds_per_slide=metadata.get('pacing-seconds-per-slide')
+    if session_minutes!=45 or seconds_per_slide!=40:
+        errors.append(f'{slug}: expected 45-minute session and approximate 40-second cadence metadata')
+    # Cadence is guidance, not a slide quota or a measure of teaching quality.
+    # Actual session budgets also include drawing, discussion and worked tasks.
+    nominal_slide_minutes=round(total*(seconds_per_slide or 40)/60,1)
     if visual<=total/2: errors.append(f'{slug}: visual quota fails ({visual}/{total})')
+    unique_figures=set(re.findall(r'!\[[^\]]+\]\(([^)]+\.svg)\)',body))
+    paper_count=check_paper_set(pages[1],20)
     quiz=pages[2].read_text()
     if len(re.findall(r'^## ',quiz,re.M))<5: errors.append(f'{slug}: fewer than five quiz questions')
     if len(re.findall(r'collapse\s*=\s*["\']true',quiz))<5:
@@ -48,7 +73,18 @@ for unit in units:
             if not alt.strip(): errors.append(f'{f.relative_to(ROOT)}: empty image alt text')
             if '://' not in ref and not (f.parent/ref.split('#')[0]).exists():
                 errors.append(f'{f.relative_to(ROOT)}: missing image {ref}')
-    inventory.append({'unit':slug,'slides':total,'visual_slides':visual,'visual_percent':round(100*visual/total,1)})
+    inventory.append({'unit':slug,'slides':total,'visual_slides':visual,'visual_percent':round(100*visual/total,1),
+                      'unique_figures':len(unique_figures),'planned_session_minutes':session_minutes,
+                      'nominal_slide_minutes':nominal_slide_minutes,'paper_problems':paper_count})
+
+study_days=json.loads((ROOT/'plan/study-days.json').read_text())
+if [d['day'] for d in study_days]!=list(range(1,26)): errors.append('Daily practice route must cover study days 1–25')
+for day in study_days:
+    count=check_paper_set(ROOT/day['href'],day['minimum_paper_problems'])
+    practice_inventory.append({'day':day['day'],'week':day['week'],'kind':day['kind'],
+                               'page':day['href'],'paper_problems':count})
+if yaml.safe_load((ROOT/'_quarto.yml').read_text()).get('history') is not False:
+    errors.append('Shared presentation history must be false so browser Back leaves a lecture')
 
 for f in ROOT.glob('*/figures/*.svg'):
     try:
@@ -96,11 +132,15 @@ if archive.exists():
 else: errors.append('Student ZIP missing')
 
 with (ROOT/'plan/slide-inventory.csv').open('w',newline='') as f:
-    writer=csv.DictWriter(f,fieldnames=['unit','slides','visual_slides','visual_percent'])
+    writer=csv.DictWriter(f,fieldnames=['unit','slides','visual_slides','visual_percent','unique_figures','planned_session_minutes','nominal_slide_minutes','paper_problems'],lineterminator='\n')
     writer.writeheader();writer.writerows(inventory)
+with (ROOT/'plan/practice-inventory.csv').open('w',newline='') as f:
+    writer=csv.DictWriter(f,fieldnames=['day','week','kind','page','paper_problems'],lineterminator='\n')
+    writer.writeheader();writer.writerows(practice_inventory)
 print(f'Units: {len(inventory)}/{len(units)}; slides: {sum(x["slides"] for x in inventory)}; '
       f'visual slides: {sum(x["visual_slides"] for x in inventory)}; built HTML pages: {len(pages)}')
 for row in inventory: print(f'  {row["unit"]}: {row["visual_slides"]}/{row["slides"]} visual slides')
+print(f'Paper chemistry problems across 25 study days: {sum(r["paper_problems"] for r in practice_inventory)}')
 if errors:
     for error in errors: print('ERROR:',error)
     raise SystemExit(1)

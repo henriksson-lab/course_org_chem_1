@@ -1,0 +1,59 @@
+---
+title: "Day 20 demo: audit an amine or amide electron pair"
+---
+
+**Question:** which proposed arrow actually explains amide electron
+availability while conserving atoms, charge and ordinary valence?
+
+Allow **10 minutes**: predict for 2, audit several moves for 5, then draw and
+explain your corrected result for 3.
+
+```{=html}
+<section class="chem-demo" id="day20" aria-label="Amide and amine electron-pair, resonance-contributor and protonation audit">
+<p>Enable JavaScript to choose an electron source and destination and inspect charge feedback.</p>
+</section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/applications.js"></script>
+```
+
+## Predict
+
+Compare ethylamine, CH₃CH₂NH₂, with ethanamide, CH₃C(=O)NH₂. For the amide,
+a nitrogen pair can form C=N only if the C=O pi pair moves to O at the same
+time. Predict the O and N charges and the net charge in that contributor.
+
+A full-headed arrow starts at a lone pair or bond. A positive-charge symbol
+is not a pair source. Ordinary carbon must retain a total bond order of four.
+
+## Explore
+
+1. Select **Nitrogen lone pair → C–N pi bond** for the amide. Omit the coupled
+   carbonyl move, inspect the feedback, and then include it.
+2. Compare the same proposed move for ethylamine. Identify the missing
+   neighbouring structural feature.
+3. Try **Carbonyl pi pair → oxygen**. Distinguish this polar contributor from
+   the coupled N-donation contributor.
+4. Compare **formal amine protonation**. Explain why adding H⁺ changes a
+   molecular species whereas drawing resonance contributors does not.
+
+## Explain and check
+
+The coupled amide contributor has **N⁺ and O⁻**, net zero:
+CH₃C(=O)NH₂ ↔ CH₃C(O⁻)=NH₂⁺. The double-headed resonance link connects
+representations of **one delocalised molecule**, not two species switching at
+equilibrium. Partial C–N double-bond character helps explain restricted
+rotation and altered N-pair availability.
+
+Moving only the carbonyl pi pair gives a minor C⁺/O⁻ polar contributor; it
+preserves net charge but does not alone show N donation. The tool distinguishes
+formally valid accounting from the most useful or most stabilised contributor.
+
+## Model limits
+
+H⁺ abbreviates an actual proton donor; a complete reaction mechanism also
+shows the donor bond breaking. Amide N protonation is possible as a formal
+reaction but is much less favourable than ordinary alkylamine protonation;
+under common strong-acid conditions amide O protonation can be preferred.
+This tool does not compute site populations or energies. Use the local
+[amide](../acyl-chemistry/exercise.qmd) and
+[nitrogen](../amines-aromatics/exercise.qmd) explanations for independent practice.

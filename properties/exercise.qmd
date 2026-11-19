@@ -1,123 +1,260 @@
 ---
-title: "Use structure to explain a property and an IR observation"
+title: "Structure, interactions and IR: standalone practice bank"
 ---
 
-Allow 75–90 minutes. This is chemistry practice rather than a new R lesson.
-Draw each molecule before comparing it. You need the functional groups from
-[structures](../structures/exercise.qmd).
+Use the [lecture](lec.qmd) and the refresher below; no textbook or external problem sheet is needed. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R. The separate computing task does not count as paper chemistry.
 
-## 1. Separate formal charge from partial charge
+### Tools and worked start
 
-Draw ethanol with its oxygen lone pairs. Label the C–O bond's direction of
-polarisation and the partial charges at its ends. Does a partial negative
-oxygen have to carry a formal −1 charge? Compare neutral ethanol with ethoxide,
-CH₃CH₂O⁻, and explain what the superscript minus tells you in the latter case.
+Bond partial charge describes unequal sharing; formal charge is a Lewis integer count. Hydrogen-bond donors here have suitable O–H/N–H bonds; acceptors have suitable available lone pairs. In IR, absorption is a dip on a transmittance plot and an upward feature on absorbance. Supplied approximate teaching ranges: alcohol OH3200–3600 cm⁻¹; acid OH often 2500–3300 cm⁻¹; carbonyl often 1650–1800 cm⁻¹. These ranges are not unique identities. Worked start: ether O can accept from water, but no ether O–H exists to donate.
 
-::: {.callout-tip collapse="true" title="Hint"}
-Bond polarity describes unequal electron sharing. Formal charge is calculated
-from a Lewis electron count and is written as an integer for each contributor.
-:::
+Draw first, explain the rule you used, and open the check only after an attempt. Ordinary drawings may use a structure editor or paper.
 
-::: {.callout-note collapse="true" title="Worked check"}
-The C–O bond is polarised toward O, giving δ− at oxygen and δ+ at the attached
-carbon. Neutral ethanol has two bonds and two lone pairs at O, so its oxygen
-formal charge is zero. Ethoxide has one bond and three lone pairs at O and
-formal charge −1. Partial charge and formal charge describe different aspects
-of the electron distribution; they are not interchangeable labels.
-:::
+## 1. Assign two kinds of charge
 
-## 2. Find hydrogen-bond partners
-
-For ethanol, dimethyl ether, propanone and ethanoic acid, mark suitable donor
-and acceptor sites. Draw one hydrogen-bond contact between ethanol and water,
-and another between dimethyl ether and water. Which molecule must supply the
-hydrogen in the second drawing? Avoid adding a covalent bond when drawing
-the interaction.
-
-::: {.callout-note collapse="true" title="Worked check"}
-Ethanol has an O–H donor and an oxygen acceptor. Dimethyl ether and propanone
-have oxygen acceptors but no O–H/N–H donor. Ethanoic acid has an O–H donor
-and a carbonyl-oxygen acceptor; the protonated acid hydroxyl oxygen is not
-normally treated as a useful hydrogen-bond acceptor in this simple inventory.
-Water can donate H to an ether lone pair. Draw the intermolecular contact
-as a dashed line O–H···O, keeping covalent connectivity unchanged.
-:::
-
-## 3. Compare boiling points without changing too many variables
-
-Ethanol and dimethyl ether have the same formula, C₂H₆O, and the same molar
-mass. Their approximate normal boiling temperatures are 78 °C and −24 °C,
-respectively. Explain why this comparison is useful for discussing hydrogen
-bonding. What would make comparison of ethanol with a much larger hydrocarbon
-less controlled? Does the higher boiling point imply a stronger covalent C–O
-bond?
-
-::: {.callout-note collapse="true" title="Worked check"}
-Similar size and formula reduce the size/polarisability difference. Ethanol
-can donate and accept hydrogen bonds between its molecules; pure dimethyl
-ether lacks an OH donor. A much larger hydrocarbon may have substantial
-dispersion interactions, so molecular size becomes an important extra variable.
-Boiling normally separates intact molecules; the comparison concerns
-intermolecular attractions, not direct evidence about a covalent C–O bond energy.
-:::
-
-## 4. Explain a solubility trend carefully
-
-Compare ethanol with hexan-1-ol, CH₃(CH₂)₅OH. Identify what stays similar and
-what changes. Predict which is more compatible with water and justify the
-prediction using both polar and nonpolar regions. Would your explanation
-establish the exact solubility in g/L at an unspecified temperature?
+Draw ethanol with O lone pairs. Mark C–O partial charges and calculate O formal charge. Explain why the two labels differ.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-Both contain one OH group. Count how much hydrocarbon is attached to it; do
-not treat the group as a switch that makes every possible molecule soluble.
+Unequal sharing differs from a Lewis integer count.
 :::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-Ethanol is more water compatible. Both have one OH group, but hexan-1-ol has
-a larger nonpolar region relative to its hydrogen-bonding head. The comparison
-supports a qualitative trend, not an exact g/L value. Temperature, detailed
-molecular structure and interactions in the separated phases also matter.
+C is δ+ and O δ− in the C–O bond. Ethanol O has formal charge zero with two bonds/two pairs. A partial charge is not a whole added electron.
 :::
 
-## 5. Read a simulated IR spectrum
+## 2. Combine dipoles geometrically
 
-![A labelled simulated transmission trace showing broad OH and strong carbonyl features.](figures/08-ir-trace.svg){fig-alt="A labelled simulated transmission trace showing broad OH and strong carbonyl features."}
+Sketch linear O=C=O and bent H₂O. Indicate bond-dipole directions toward O and predict each molecular sum.
 
-The illustration is a schematic teaching spectrum, not a measured sample.
-First name the axes and explain why absorption goes downward. A supplied
-unknown has a strong absorption near 1715 cm⁻¹ and no broad alcohol OH feature
-between about 3200 and 3600 cm⁻¹. Candidates are ethanol, propanone and dimethyl
-ether. Which candidate best fits this restricted set? What additional evidence
-would you want before declaring the sample pure propanone?
+::: {.callout-tip collapse="true" title="Hint"}
+Equal opposite vectors cancel; angled ones need not.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-The horizontal axis is wavenumber in cm⁻¹, decreasing to the right; the vertical
-axis is transmittance. Absorption removes transmitted light, producing a dip.
-Propanone fits the strong carbonyl and lack of OH; the other candidates lack
-a carbonyl. The conclusion is relative to the candidate list. It does not
-establish purity or rule out all other ketones. NMR, further spectral features
-and suitable purity evidence would strengthen the interpretation.
+CO₂ dipoles cancel by symmetry. Bent water has a nonzero net dipole. Polar bonds alone do not establish a polar molecule.
 :::
 
-## 6. Check a misleading explanation
+## 3. Draw a donor–acceptor contact
 
-A student writes: “The IR spectrum has a peak, so the compound is polar and
-must dissolve in water.” Rewrite the statement as two defensible claims, one
-about what IR probes and one about what solubility depends on.
+Draw ethanol and water and mark one O–H···O hydrogen bond. Distinguish the covalent and intermolecular connections.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The donor supplies the H; the acceptor supplies a lone pair.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-A suitable IR absorption indicates a vibrational transition involving a change
-in dipole moment and may support a functional-group assignment. Solubility
-depends on the balance of solute/solvent and solute/solute interactions, the
-molecular structure, charge and conditions. A peak alone does not establish
-water solubility or a nonzero permanent molecular dipole.
+Either molecule can donate OH to the other O. Covalent O–H stays within a molecule, while the H···O contact is dashed and does not change connectivity.
 :::
 
-## Leave with
+## 4. Let ether accept
 
-Annotated donor/acceptor drawings, a controlled boiling-point explanation and
-a spectral conclusion that names both supporting evidence and its limits.
-Complete the [self-check](quiz.qmd) before the acid–base unit. Optional
-reference: selected Solomons chapter 2 topics, as described in the
-[reading guide](../reference/reading.qmd).
+Draw CH₃OCH₃ with water as a hydrogen-bond partner. Which molecule supplies H? Can pure ether provide an O–H donor?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ether O has two C neighbours and no attached H.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Water donates an O–H hydrogen to ether O. Ether can accept but has no O–H donor; oxygen presence alone does not imply donor ability.
+:::
+
+## 5. Compare amines by their actual bonds
+
+For CH₃NH₂, (CH₃)₂NH and (CH₃)₃N, identify N–H donor bonds and the neutral N acceptor pair.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count N–H before counting carbon substituents.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+All three neutral amines have a lone-pair acceptor. The first two have N–H donor bonds; trimethylamine lacks N–H and cannot donate at N.
+:::
+
+## 6. Test a protonated amine
+
+Draw CH₃NH₃⁺ and compare its N donor/acceptor inventory with CH₃NH₂.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The original lone pair has become a bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Methylammonium has N–H donors but no ordinary N lone-pair acceptor. It is not a neutral amine with the same available pair.
+:::
+
+## 7. Explain a controlled boiling comparison
+
+Ethanol and dimethyl ether share C₂H₆O. Their approximate normal boiling temperatures are 78 ° C and−24 ° C. Explain a structural reason for the difference.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Keep molecular size and pressure comparable.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethanol forms an OH donor/acceptor network; the ether lacks an OH donor. This supports stronger liquid intermolecular attractions in ethanol, not stronger covalent C–O bonds.
+:::
+
+## 8. Separate boiling from decomposition
+
+A student says boiling ethanol breaks C–O bonds. Rewrite their claim to identify which interactions are normally overcome.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ask whether vapour molecules still have the same connectivity.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Boiling separates largely intact ethanol molecules by overcoming intermolecular attractions. C–O cleavage would be a chemical transformation, not ordinary vapour formation.
+:::
+
+## 9. Compare related alcohols in water
+
+Draw methanol and hexan-1-ol CH₃(CH₂)₅OH. Explain which is more water compatible and what a single-OH rule misses.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Balance the polar site against nonpolar size.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Methanol is more water compatible. The longer alcohol has a much larger hydrocarbon region per OH group. The prediction is qualitative and depends on conditions.
+:::
+
+## 10. Read an IR transmission feature
+
+A complete IR transmission trace dips strongly near 1715 cm⁻¹. Name the axes and explain what the dip means.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Less transmission corresponds to more absorption.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The horizontal coordinate is wavenumber; the vertical coordinate is transmittance. The dip supports absorption near 1715 cm⁻¹, often a carbonyl feature, without uniquely identifying a molecule.
+:::
+
+## 11. Change the plotting convention
+
+A second graph shows an upward band at the same wavenumber but labels its y-axis absorbance. Is it contradictory evidence?
+
+::: {.callout-tip collapse="true" title="Hint"}
+The ordinate changes the feature direction.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+No. An absorbance band points upward while transmission decreases for the same absorption. Interpret axes before calling a plot wrong.
+:::
+
+## 12. Choose among three candidates
+
+Unknown has strong C=O near 1715 cm⁻¹ and no broad alcohol OH region in suitable data. Candidates: ethanol, propanone, dimethyl ether. Choose and justify.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Draw the functional groups predicted by each.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Propanone best fits this list: it has C=O and lacks OH. The other candidates lack carbonyl. This restricted comparison does not establish absolute identity or purity.
+:::
+
+### Optional transfer and challenge
+
+These extend the same concepts without assuming later reaction chemistry.
+
+## 13. Reject a unique-carbonyl claim
+
+A student identifies propanone from one C=O band. Draw another three-carbon carbonyl compound and explain the limitation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+An aldehyde can contain the same total carbon count.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Propanal CH₃CH₂CHO also contains C=O. One broad-region observation is shared by many structures; further spectral and other evidence is required.
+:::
+
+## 14. Inspect sample contamination
+
+An intended ether sample has a broad OH feature. Give two explanations consistent with limited evidence without choosing one as certain.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A feature can belong to the target or another component.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The sample could contain an OH-bearing impurity or water; the target assignment could also be wrong. More observations are needed to distinguish these explanations.
+:::
+
+## 15. Distinguish alcohol and acid OH
+
+Draw ethanol and ethanoic acid. Which has a neighbouring carbonyl, and how can the expected broad IR regions differ?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Acid OH is part of C(=O)OH.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethanoic acid has OH adjacent to carbonyl and often an especially broad acid-OH region around 2500–3300 cm⁻¹. Alcohol OH is commonly broad around 3200–3600 cm⁻¹; exact shapes depend on conditions.
+:::
+
+## 16. Check an ester inventory
+
+For CH₃COOCH₃, identify the carbonyl and single-bonded O. Does the molecule have any O–H donor?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Write each oxygen bond explicitly.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+It has two oxygen environments able to accept hydrogen-bond contacts in this simple treatment, but no OH donor. It is an ester, not an alcohol plus an unrelated ether.
+:::
+
+## 17. Interpret ion hydration
+
+Compare CH₃COOH and CH₃COO⁻ in water. Name an interaction made especially important by the latter charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water is polar even though neutral overall.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Carboxylate can engage in ion–dipole hydration. The neutral acid also interacts with water, but formal charge changes the interaction pattern. Exact solubility still needs conditions and additional thermodynamics.
+:::
+
+## 18. Repair an IR-to-solubility shortcut
+
+Rewrite: “It absorbs IR, so it must dissolve in water.” Give separate valid claims about IR and solubility.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A changing vibrational dipole is not an entire solution free energy.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+IR absorption probes suitable vibrational transitions. Water solubility depends on the balance of interactions, size, charge, condensed-phase structure and conditions. A band alone does not establish it.
+:::
+
+## 19. Use two observations together
+
+Unknown is one of propan-1-ol or propanal. Suitable IR has C=O and no broad alcohol OH. Give one prediction for each candidate and a restrained conclusion.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Test both presence and absence.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The alcohol predicts OH and lacks C=O; the aldehyde predicts C=O and lacks alcohol OH. Propanal fits the two observations among this pair; further evidence would address identity beyond this list.
+:::
+
+## 20. Name the missing extraction inputs
+
+A monoprotic acid becomes mostly ionised in water at high pH. Why can that fact alone not predict mass recovered into an organic solvent?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Two phases require a partition model and their quantities.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Aqueous speciation supplies only species ratios. Partition coefficients, phase volumes, starting amount and losses affect recovered mass. More ionisation is not a complete recovery calculation.
+:::
+
+
+## Review your work
+
+Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.

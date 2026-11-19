@@ -1,0 +1,163 @@
+---
+title: "Day 4: Week 1 workshop: read a structure, explain a property"
+---
+
+This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+
+### Refresher and worked starting point
+
+Use these rules: ordinary neutral C has bond-order sum4; neutral O has two bonds/two lone pairs; skeletal vertices/endpoints are carbon. Donors here need O–H/N–H, while acceptors need suitable available pairs. For the supplied monoprotic acid model, r=10^(pH−pKa), fraction=r/(1+r). Worked start: CH₃CH₂OH is C₂H₆O, has an OH donor and O acceptor; at pH=pKa an acid has fraction0.5.
+
+Local lessons: [structures](../structures/lec.qmd), [properties](../properties/lec.qmd), [acids bases](../acids-bases/lec.qmd).
+
+## 1. Recover two chains
+
+Draw unbranched four-carbon and five-carbon saturated skeletal chains. Label all terminal H counts and give formulas.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count vertices, not line segments.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Butane has C₄H₁₀ and pentane C₅H₁₂. Terminal C carries3H; each internal chain C has 2H.
+:::
+
+## 2. Show a genuine constitutional difference
+
+Draw propan-1-ol and methoxyethane CH₃OCH₂CH₃. Verify their shared formula and explain an oxygen-neighbour difference.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One has an O–H bond; the other has two O–C bonds.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Both are C₃H₈O. The alcohol O neighbours C/H; ether O neighbours C/C. Their connectivity differs.
+:::
+
+## 3. Audit all oxygens in an acid
+
+Draw CH₃COOH and CH₃COO⁻. Assign relevant O bonds, lone pairs and net charges using one valid contributor for the anion.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Negative O with one bond has three lone pairs.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Neutral acid has carbonyl O with two lone pairs and OH O with two. One ethanoate contributor has singly bonded O⁻ with three pairs; the other O is double-bonded. Net charges0 and−1.
+:::
+
+## 4. Predict a donor/acceptor contrast
+
+Compare ethanol, dimethyl ether and propanone. Draw each and mark donor/acceptor sites.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A carbonyl oxygen can accept even without OH.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethanol donates/accepts. Ether and propanone accept but lack O–H/N–H donor bonds. Do not invent H atoms on their oxygens.
+:::
+
+## 5. Explain boiling rather than bond breaking
+
+Use approximate normal boiling points ethanol78 ° C and dimethyl ether−24 ° C. Give a controlled interaction comparison and state what ordinary boiling preserves.
+
+::: {.callout-tip collapse="true" title="Hint"}
+They share a molecular formula and similar size.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ethanol can form an OH hydrogen-bond network; ether lacks an OH donor. Ordinary boiling separates largely intact molecules, preserving C–O connectivity.
+:::
+
+## 6. Test two spectral candidates
+
+A suitable complete IR has strong C=O near 1715 cm⁻¹ and no alcohol OH feature. Candidates are propanone and propan-1-ol. Give predictions and conclusion.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare expected bonds before naming the unknown.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Propanone predicts C=O and no OH; alcohol predicts OH and no C=O. The observations support propanone within this pair, not unique identity among all compounds.
+:::
+
+## 7. Draw a proton-transfer pair
+
+Draw CH₃COOH+CH₃NH₂⇌CH₃COO⁻+CH₃NH₃⁺ using two arrows. Check net charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Start at N lone pair and acid O–H bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+N pair→H; O–H pair→O. Reactant charge0 equals product−1+1=0. Both conjugate pairs differ by H⁺.
+:::
+
+## 8. Calculate a midpoint and a nearby fraction
+
+Use pKa 4.8. Obtain A⁻/HA and ionised fraction at pH 4.8 and 5.8.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Convert ratio to fraction with its full denominator.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Ratios1 and 10 give fractions0.5 and 10/11≈0.9091. A ratio of 10 is not a fraction of 10.
+:::
+
+### Optional extension
+
+Use these after the core or during later revision.
+
+## 9. Repair a misleading functional-group label
+
+A student calls CH₃COOCH₃ an ether because it contains C–O–C. Explain what they omitted.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Draw the adjacent C=O explicitly.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The single-bonded O attaches to a carbonyl carbon, forming an ester motif. Local connectivity includes the carbonyl; it is not an ordinary simple ether.
+:::
+
+## 10. Check a substitution effect on acidity
+
+Supplied comparable aqueous pKa values:ethanoic acid4.8, chloroethanoic acid2.9. Explain which acid is stronger using conjugate-base stabilisation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Cl withdraws electron density through sigma bonds.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Chloroethanoic acid is stronger. Inductive withdrawal stabilises its conjugate base. The inference concerns compatible equilibrium data, not reaction rate.
+:::
+
+## 11. Distinguish three charges
+
+Explain formal charge on hydroxide, partial negative charge on ethanol O, and net charge of water.
+
+::: {.callout-tip collapse="true" title="Hint"}
+These labels describe different levels of bookkeeping.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Hydroxide O has formal−1; ethanol O is formally0 but δ− in polar bonds; water has net0. Net neutrality does not prevent polar bonds or a molecular dipole.
+:::
+
+## 12. Use a measured mass without a spreadsheet
+
+Using supplied molar mass138.12 g/mol, calculate amount for 0.27624 g. Give mol/mmol and show unit cancellation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+n=m/M.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+0.002000 mol=2.000 mmol. Dividing g by g/mol cancels grams and leaves moles. This is not a concentration without a solution volume.
+:::
+
+## Close the workshop
+
+Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.

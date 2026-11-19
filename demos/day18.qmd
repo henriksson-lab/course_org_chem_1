@@ -1,0 +1,55 @@
+---
+title: "Day 18 demo: which nitrogen form predominates?"
+---
+
+**Question:** why can the same pH leave one nitrogen base mainly neutral and
+another mainly protonated?
+
+Use this activity for about **8 minutes**: predict for 2 minutes, explore for
+4, then explain your result for 2. No external table or software is needed.
+
+```{=html}
+<section class="chem-demo" id="day18" aria-label="Amine protonation and molecular-species explorer">
+<p>Enable JavaScript to compare the supplied molecular species and aqueous ionisation model.</p>
+</section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/applications.js"></script>
+```
+
+## Predict
+
+The supplied approximate aqueous conjugate-acid pKa values are methylammonium
+**10.6**, anilinium **4.6**, and pyridinium **5.2**. For a base B and its
+conjugate acid BH⁺,
+
+$$f_{BH^+}=\frac{1}{1+10^{pH-pK_a}}.$$
+
+Before moving a control, predict the fraction BH⁺ at pH = pKa and at one pH
+unit below it. Predict which base is most protonated at pH 7.
+
+## Explore
+
+1. Use **At supplied pKa** for each molecule. Explain the common midpoint.
+2. Compare all three molecules at pH 7 while keeping the environmental pH fixed.
+3. For one molecule, move pH two units upward. Follow both the curve and the
+   drawn neutral/protonated molecular forms.
+4. Use **Reset** to reconstruct the original state.
+
+## Explain and check
+
+At pH = pKa, half the population is BH⁺. One unit below gives
+$1/(1+0.1)=10/11$, about **90.9%**. At pH 7, methylamine is much more
+protonated than aniline or pyridine under this model. Higher pH decreases
+BH⁺, because deprotonated B becomes favoured.
+
+A 50% fraction describes two populations of molecular species; it does not
+mean that every nitrogen has half a proton. The ring drawings use implicit
+carbon/hydrogen conventions; the N–H count and charge are shown explicitly.
+
+## Model limits
+
+These are supplied, approximate compatible **aqueous** pKa values in a dilute
+one-site model. Substituents, solvent, temperature and activities can alter
+behaviour. The plot predicts neither extraction recovery nor the rate of a
+nucleophilic reaction. See the local [nitrogen practice](../amines-aromatics/exercise.qmd)
+for lone-pair and charge explanations.

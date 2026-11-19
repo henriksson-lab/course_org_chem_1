@@ -1,101 +1,260 @@
 ---
-title: "Classify stereoisomers and explain an enantiomeric excess"
+title: "Stereochemical reasoning: standalone practice bank"
 ---
 
-Allow 90 minutes for drawing/model problems and 25 minutes for the R task.
-Use models or redraw structures in a standard orientation before assigning a
-relationship. Identify connectivity before deciding about chirality.
+Use the [lecture](lec.qmd) and the refresher below; no textbook or external problem sheet is needed. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R. The separate computing task does not count as paper chemistry.
 
-## 1. Is the difference connectivity or spatial arrangement?
+### Tools and worked start
 
-Classify each pair, giving a structural reason:
+For simple tetrahedral stereocentres first require four different groups. CIP priority uses directly attached atomic number, then the first shell of difference; count duplicate atoms for multiple bonds in this comparison. With group 4 away,1→2→3 clockwise=R and anticlockwise=S; reverse if 4 points toward. Fischer horizontal bonds point toward, vertical away. E/Z requires two different groups at each C=C end; same-side higher priorities=Z, opposite=E. For a two-enantiomer mixture, ee=|R%−S%|. Worked start:70:30 gives 40 % ee, not 70 % ee.
 
-1. Ethanol and dimethyl ether.
-2. Anti and gauche conformations of butane.
-3. The two mirror-related lactic-acid drawings below.
-4. E-but-2-ene and Z-but-2-ene.
+Draw first, explain the rule you used, and open the check only after an attempt. Ordinary drawings may use a structure editor or paper.
 
-![Mirror-related Fischer drawings of lactic acid.](figures/03-enantiomers.svg){fig-alt="Mirror-related Fischer drawings of lactic acid."}
+## 1. Find a candidate centre
 
-::: {.callout-note collapse="true" title="Worked check"}
-Pair 1 contains constitutional isomers because oxygen has different neighbours.
-Pair 2 contains conformers related by single-bond rotation. Pair 3 contains
-enantiomers: same connectivity, mirror-related and nonsuperimposable, with
-opposite configuration at the single stereocentre. Pair 4 contains
-configurational stereoisomers that are not mirror images, so they are
-diastereomers. Ordinary rotation around the intact double bond does not
-interconvert them freely.
-:::
-
-## 2. Find stereocentres without relying on wedges
-
-Compare CH₃CH(OH)COOH with CH₃CH(OH)CH₃. Draw every substituent at the carbon
-bearing OH. Which molecule has a tetrahedral stereocentre there? Does adding
-a wedge to the second drawing change your answer?
+Draw CH₃CH(OH)COOH and list all four substituents at CH(OH). Is it a simple tetrahedral stereocentre?
 
 ::: {.callout-tip collapse="true" title="Hint"}
-List the complete substituent groups, not just the directly attached atom.
-For this first test, ask whether any two groups are identical.
+Compare complete groups, not only their first atoms.
 :::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-Lactic acid has H, OH, CH₃ and COOH at its tetrahedral carbon: four different
-groups, so it is a stereocentre. Propan-2-ol has H, OH, CH₃ and CH₃: two groups
-are identical, so it is not a stereocentre. A wedge changes how a bond is
-represented, not the connectivity or identity of the substituents.
+It has OH, H, CH₃, COOH: four different groups. It is a tetrahedral stereocentre.
 :::
 
-## 3. Assign R/S with an explicit viewing convention
+## 2. Reject a false stereocentre
 
-Use the lactic-acid Fischer projection with COOH top, CH₃ bottom, OH left and
-H right. State the projection's depth convention. Rank the substituents,
-showing how you resolve the tie between the two carbon groups. Trace 1→2→3
-and explain any reversal needed before giving the descriptor. Assign the
-mirror image as a separate check.
+Compare CH₃CH(OH)CH₃ and explain why a wedge on OH cannot make the central carbon stereogenic.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Two methyl groups remain identical regardless of drawing style.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-Horizontal bonds point toward the viewer; vertical bonds point away. OH is
-priority 1 because O outranks C and H. COOH outranks CH₃: for the carbon tie,
-the duplicate-atom convention compares O,O,O with H,H,H. H is priority 4.
-The apparent 1(left)→2(top)→3(bottom) path is clockwise. Because 4 points toward
-the viewer, reverse the simple clockwise assignment: this drawing is **S**.
-Its mirror has **R** configuration. Neither descriptor specifies the sign of
-measured optical rotation.
+The central carbon has two identical CH₃ groups, so it is not a simple stereocentre. Wedges describe geometry but do not change group identity.
 :::
 
-## 4. Assign E/Z, or explain why it does not apply
+## 3. Rank the first attachment atoms
 
-Draw but-2-ene twice, with methyl groups first on the same side and then on
-opposite sides of the double bond. Rank substituents separately at each alkene
-carbon and assign E/Z. Then test CH₂=CHCH₃ and (CH₃)₂C=CHCH₃. Which can have
-an E/Z descriptor at the indicated double bond?
+For a centre attached directly to Br, Cl, OH, H, give CIP priority. Do not use total group size.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Atomic number decides the first shell.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-For but-2-ene, CH₃ outranks H at both carbons. Methyls on the same side give
-Z and on opposite sides E. Propene has two H atoms at the terminal carbon,
-so E/Z does not apply. In (CH₃)₂C=CHCH₃, one alkene carbon bears two identical
-methyl groups, so E/Z also does not apply. Looking for two different groups
-at each end is a prerequisite, not an optional naming detail.
+Br>Cl>O(in OH)>H. This compares directly attached atoms, not the number of atoms in each substituent.
 :::
 
-## 5. Test an overall symmetry claim
+## 4. Resolve the carbon tie in lactic acid
 
-Draw tartaric acid as a Fischer projection with COOH top and bottom and OH
-on the right at both central carbons (H on the left). Identify its two
-stereocentres and the relationship between its upper and lower halves.
-Explain why “it has two stereocentres, therefore it must be chiral” fails.
-What would you need to check before calling another R,S compound meso?
+Rank OH, COOH, CH₃, H. Explain the duplicate-atom convention for C=O in this comparison.
+
+::: {.callout-tip collapse="true" title="Hint"}
+OH attaches through O; COOH and CH₃ both attach through C.
+:::
 
 ::: {.callout-note collapse="true" title="Worked check"}
-This is meso-tartaric acid, with opposite configurations at the two centres
-and an internal symmetry relationship between equivalent halves. It is
-achiral despite stereocentres. The descriptors alone do not establish meso:
-the whole molecule and the equivalence of its substituents must permit the
-appropriate symmetry/superimposability. A generic molecule labelled R,S
-need not have the same molecular symmetry as tartaric acid.
+OH>COOH>CH₃>H. For the carbon tie, COOH compares as O, O, O and methyl as H, H, H. The duplicate entry is bookkeeping, not an extra real O atom.
 :::
 
-## 6. R task: distinguish percentage from enantiomeric excess
+## 5. Read a Fischer depth convention
+
+Draw a cross with COOH top, CH₃ bottom, OH left, H right. Which bonds point toward and away from you?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Fischer is a convention, not an ordinary planar cross.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Horizontal OH/H bonds point toward; vertical COOH/CH₃ bonds point away. The central crossing is the stereocentre carbon.
+:::
+
+## 6. Assign the left-OH Fischer
+
+Use the preceding projection and priorities OH1, COOH2, CH₃3, H4. Trace 1→2→3 and assign R/S with justification.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The lowest-priority group is horizontal and therefore forward.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The trace appears clockwise, but H4 points toward you, so reverse the apparent result. This configuration is S.
+:::
+
+## 7. Assign the mirror Fischer
+
+Keep COOH top and CH₃ bottom, but put H left and OH right. Assign R/S and its relation to the preceding structure.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One interchange at a single stereocentre inverts configuration.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The new projection is R. It is the nonsuperimposable mirror/enantiomer of the S-lactic-acid drawing, with unchanged connectivity.
+:::
+
+## 8. Rotate a Fischer by 180°
+
+Rotate the entire S projection in the plane by 180°. State each new label position and whether configuration changes.
+
+::: {.callout-tip collapse="true" title="Hint"}
+All four labels rotate together.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+CH₃ becomes top, COOH bottom, H left, OH right. The configuration stays S. A complete valid 180° Fischer rotation preserves configuration.
+:::
+
+## 9. Test a 90° Fischer rotation
+
+Explain why simply rotating a Fischer cross 90° is unsafe as an identity operation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+It changes which group positions are interpreted as horizontal versus vertical.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The implied toward/away pattern changes under the convention, so a 90° Fischer rotation changes the represented configuration. Redraw using a valid 3D transformation instead.
+:::
+
+## 10. Assign Z-but-2-ene
+
+Draw CH₃CH=CHCH₃ with both methyl groups on the same side. Rank the groups at each end and assign E/Z.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Methyl carbon outranks H at each alkene carbon.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The higher-priority groups are together, giving Z-but-2-ene. Rank each end independently rather than treating left-to-right page direction as a descriptor.
+:::
+
+## 11. Assign E-but-2-ene
+
+Draw but-2-ene with methyls on opposite sides. Explain why ordinary single-bond rotation is not the relevant interconversion.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The arrangement is around a C=C bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Opposite high-priority methyl groups give E. Interconversion requires changing the double-bond arrangement; it is not a freely rotating anti/gauche relationship.
+:::
+
+## 12. Check whether E/Z is defined
+
+For CH₂=CHCH₃ and (CH₃)₂C=CHCH₃, test the two-different-substituents requirement at both ends.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One identical pair at either end is enough to fail.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Neither qualifies. Propene has H/H at one end; the second molecule has CH₃/CH₃ at one end. No E/Z descriptor applies to those double bonds.
+:::
+
+### Optional transfer and challenge
+
+These extend the same concepts without assuming later reaction chemistry.
+
+## 13. Classify a four-pair set
+
+Classify ethanol/ether, anti/gauche butane, R/S-lactic acid, and E/Z-but-2-ene by their structural relationship.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Ask connectivity, rotation, mirror relation in that order.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Respectively: constitutional isomers; conformers; enantiomers; diastereomers. E/Z pairs are stereoisomers that are not mirror-related.
+:::
+
+## 14. Use a two-centre framework carefully
+
+Use CH₃CH(Br)CH(Cl)CH₃ (2-bromo-3-chlorobutane), numbered from the Br end. Compare the supplied configurations (2R,3R)/(2S,3S) and (2R,3R)/(2R,3S). Classify their relationships; no new R/S assignment from a drawing is required.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Mirror inversion reverses every centre.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+RR/SS are enantiomers; RR/RS are diastereomers. The symmetry assumption prevents a hidden meso equivalence from invalidating the simple classification.
+:::
+
+## 15. Examine meso-tartaric acid
+
+Draw a Fischer with COOH top/bottom and OH right/H left at both central carbons. Explain why two stereocentres do not force chirality.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Inspect the equivalence of its upper and lower halves.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The whole structure has an internal symmetry relationship and is meso-tartaric acid, achiral despite stereocentres. Overall superimposability matters, not centre count alone.
+:::
+
+## 16. Reject an R, S shortcut
+
+A student calls every molecule with one R and one S centre meso. Give the missing structural condition.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Descriptors do not establish equivalence of the two ends.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The complete molecule must have appropriate symmetry/superimposability with its mirror. An unsymmetrical R, S molecule can be chiral.
+:::
+
+## 17. Calculate 70:30 excess
+
+A pure two-enantiomer composition is 70 % R and 30 % S. Compute ee and explain why it is not 70%.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Subtract the two populations.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+ee=|70−30|=40% in favour of R. Major-enantiomer percentage and excess are different quantities; the excess is the imbalance after pairing equal R/S amounts.
+:::
+
+## 18. Recover composition from excess
+
+Assume only R/S components. A sample has 80 % ee in favour of R. Solve for the two percentages.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use R+S=100 and R−S=80.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+R=90% and S=10%. Adding equations gives 2R=180. Calling this 80 % R would give the wrong excess.
+:::
+
+## 19. Separate configuration and rotation
+
+Does an R label establish positive optical rotation or a stronger receptor effect? State what each additional claim requires.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Configuration is assigned; rotation/effect is measured.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+No universal mapping connects R/S to(+)/(−) or biological magnitude. Optical rotation needs specified measurements; receptor effects require appropriate experimental evidence in a chiral environment.
+:::
+
+## 20. Distinguish ee from total purity
+
+R:S is 95:5 among the measured enantiomeric components. Compute ee and explain whether solvent contamination is excluded.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The measured ratio may describe only a subset of all material.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The enantiomeric excess is 90 % R. The ratio does not exclude solvent or other molecular impurities; enantiomeric composition and total chemical purity are separate questions.
+:::
+
+## R task: distinguish percentage from enantiomeric excess
 
 **Question:** how unbalanced is each supplied two-enantiomer mixture?
 The simulated table `data/enantiomers.csv` contains sample identifiers and
@@ -136,9 +295,7 @@ only a calculation on supplied data. R/S alone does not give optical-rotation
 sign or a biological effect.
 :::
 
-## Leave with
 
-A classification of spatial relationships, one fully justified R/S assignment,
-valid E/Z tests and a reproducible ee table. Complete the [self-check](quiz.qmd).
-Optional reference: selected Solomons chapter 5 sections, using the
-[reading guide](../reference/reading.qmd).
+## Review your work
+
+Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.

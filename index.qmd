@@ -77,6 +77,8 @@ model, and present TLC and spectral evidence.
 - [Restart R and Knit your first report](intro/r-restart.qmd).
 - [Find data dictionaries and exercise files](reference/data.qmd).
 - [Use the chemistry reference toolkit](reference/toolkit.qmd).
+- [Find paper chemistry problems for every study day](practice/index.qmd).
+- [Explore the interactive demo for each study day](demos/index.qmd).
 
 ## How to use a unit
 

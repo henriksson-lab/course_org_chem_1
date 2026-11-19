@@ -4,14 +4,35 @@ Working design, 18 November 2026. **Target: the new 5KE231, 7.5 credits**, for
 the Life Science programme's 2027 intake. This is not an approved syllabus.
 Evidence, textbook links and uncertainties are recorded in [sources](plan/sources.md).
 
-**Implementation status, 19 November 2026:** the first teaching draft now
-contains all 15 units, 45 unit pages plus seven course/reference pages,
-150 original SVG diagrams, R plots, practice and explained self-checks,
-constructed teaching data and a working student Rmd project. The pedagogical
-proposal below remains the basis for review. Department-approved laboratory
-protocols, final syllabus alignment and student pacing pilots remain open.
+**Revised teaching draft, 19 November 2026:** all 15 units now support useful
+45-minute sessions and a textbook-independent practice route across 25 study
+days. Around 40 seconds per slide is pacing guidance, not a slide quota.
+Lecture counts follow the chemistry, worked examples and discussion needs.
+Each lecture unit supplies at least 20 paper problems and each consolidation
+day at least 12, with hints and explained solutions. R remains a small supporting
+component. Department-approved laboratory protocols, final syllabus alignment
+and student pacing pilots remain open.
+
+The revised build contains 89 student pages, 420 numbered paper problems and
+90 formative self-check questions. Lecture counts vary from 40 to 59 slides;
+each has a concrete 45-minute budget and meaningful visuals on more than half
+its slides. Current counts and checks are recorded in the `plan/` inventories.
+
+The daily route also has 25 short interactive explorations with direct links
+in the left menu. Their predictions, controls and explanations target the
+day's chemistry. Use them within existing worked-example time or independent
+practice. Demos state their assumptions and use local scripts and SVG without
+student accounts or external services. The extraction exploration explicitly
+supplies the partition assumptions missing from an ionisation curve; it is a
+bounded extension rather than a new required equilibrium-solver topic.
 
 ## Purpose and boundaries
+
+The local teaching materials must be sufficient without the textbook: supply
+definitions, drawings, worked examples, all problem inputs, targeted hints and
+reasoned solutions. Each of the 25 study days has a substantial non-R problem
+set. Textbooks and external readings are optional sources of another explanation,
+not required sources of missing exercises, diagrams or constants.
 
 Students should learn to read organic structures, reason about electron flow,
 predict a small set of important transformations, and interpret experimental
@@ -83,13 +104,15 @@ the whole family examinable. Detailed metabolism belongs in Biochemistry.
 ## Five-week teaching route
 
 Assume five full-time weeks for planning. These are study blocks, not a confirmed
-timetable. Each week has three short lecture decks, two tutorial/practical blocks
+timetable. Each week has three 45-minute lecture sessions, two tutorial/practical blocks
 and protected independent work. Revisit representations, charge and electron flow
 throughout. Introduce IR early, then reuse it when reactions change functional groups.
 
-Each deck initially targets **16 slides**, including opening and recap slides,
-with **at least 10 substantive visual slides**. Adjust slide count to teaching
-pace while retaining the per-deck visual threshold described below.
+Each lecture aims for **45 minutes**, with roughly **40 seconds per slide** as
+a planning guide. Select slide count for the actual explanation, examples and
+student work: do not add slides to satisfy a numerical target. Include drawing,
+prediction and discussion pauses in the 45-minute budget. Retain meaningful
+supporting visuals on more than half of every deck.
 
 | Week | Unit / proposed directory | Chemistry question and activity | Planned supporting visuals |
 | --- | --- | --- | --- |
@@ -187,8 +210,8 @@ product molar mass 180.16 g/mol. Theoretical product mass is 1.8016 g; an isolat
 ## Workload and checks of learning
 
 Illustrative planning envelope: **200 hours**, to be reconciled with the local
-credit-hour convention and actual timetable. Allocate 15 hours to lectures,
-20 to tutorials, 8 to explicit R/Rmd work, 12 to laboratory attendance, 20 to
+credit-hour convention and actual timetable. Allocate 11.25 hours to lectures
+(15 × 45 minutes), 23.75 to tutorials, 8 to explicit R/Rmd work, 12 to laboratory attendance, 20 to
 lab preparation/journalling, 85 to reading and independent chemistry problems,
 and 40 to integration/revision/assessment. Hours are non-overlapping: do not
 charge the R task again inside tutorial or report time.
@@ -207,9 +230,7 @@ major determinant. Formal examination modes and weightings await the syllabus.
 
 ## Visual standard: more than half of every deck
 
-The working target is **10 visual slides per 16-slide deck**, or about **150
-of 240 slides (62.5%)** across 15 decks. The acceptance floor is **strictly
-more than 50% in each deck**, counting all visible slides, including opening
+The acceptance floor is **strictly more than 50% in each deck**, counting all visible slides, including opening
 and recap slides. Speaker notes are excluded. A whole-course average must not
 conceal a text-heavy deck.
 
@@ -219,9 +240,8 @@ students must inspect to answer the chemical question. A decorative molecule,
 logo or background photograph does not qualify. A small formula in a paragraph
 does not qualify; an annotated reaction scheme or molecular representation can.
 
-For an initial 16-slide deck, plan roughly six slides with structures,
-mechanisms or spatial models, two with plots/spectra, and two with practical
-images or other concept visuals. Adapt that mix to the topic; stereochemistry
+Choose a useful mix of structures, mechanisms, spatial models, plots, spectra
+and experimental evidence. Adapt that mix to the topic; stereochemistry
 will need more models, while spectroscopy will need more spectral evidence.
 Use progressive states to teach electron flow, not to inflate the visual count.
 
@@ -250,8 +270,8 @@ also stages files; replace that behaviour with a render-only default. Leave
 unneeded demos, advanced course content and dependencies out of the scaffold.
 
 **2. Pilot a complete unit.** Build `acids-bases/lec.qmd`, `quiz.qmd`,
-`exercise.qmd`, its ionisation dataset/code and report section, plus at least
-ten reviewed visual slides in the proposed 16-slide deck. This tests the blend
+`exercise.qmd`, its ionisation dataset/code and report section, with meaningful
+visuals on more than half of its slides and a 45-minute teaching budget. This tests the blend
 of chemistry, R, visuals and navigation. Check a second demanding example from
 stereochemistry before scaling the visual approach.
 

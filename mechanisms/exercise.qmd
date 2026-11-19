@@ -1,113 +1,261 @@
 ---
-title: "Practice: make every arrow account for a pair"
+title: "Electron flow: drawing, checking and explaining"
 ---
 
-Allow 75–90 minutes. Draw on paper or use a structure editor; chemical drawing
-is the main work in this unit. Bring the [acid–base reasoning](../acids-bases/exercise.qmd)
-and [reference toolkit](../reference/toolkit.qmd) into each explanation.
+Use problems 1–12 as the **core route (about 80–100 minutes)**. Problems 13–20 are optional transfer practice (another 45–65 minutes); select them to target mistakes rather than adding every problem to required contact time. Paper/model drawing is central. All inputs and conventions needed are below; no textbook purchase or external problem set is required.
 
-## First: read the proposed step
+## Local refresher and worked starting example
 
-A mechanism is a sequence of chemically plausible elementary steps. A complete
-step specifies the reacting species, electron-pair movements and products.
-Full-headed curved arrows represent two electrons. Their tails start on a
-bond or lone pair; their heads identify a new bond or the atom receiving a pair.
-The arrows do not show a proton's flight or the direction in which a whole
-molecule moves. Lone pairs need not all be drawn in every shorthand structure,
-but draw the reacting pairs while learning.
+Full-headed curved arrows move electron pairs. Start each tail on a lone pair or bond; end at an atom or new-bond location. Ordinary carbon has total bond order four. A transition state is a free-energy maximum and an intermediate a minimum. All drawings must conserve atoms and net charge.
 
-## 1. Proton transfer with an explicit donor
+**Worked starting example.** For OH⁻+CH₃Br, move an oxygen lone pair to methyl C and the C–Br pair to Br in one step. Products CH₃OH+Br⁻ have the same atoms and net charge −1. This is our worked SN2 electron-accounting pattern.
 
-Draw CH₃OH + OH⁻ ⇌ CH₃O⁻ + H₂O. Add the lone pairs needed for the forward
-proton-transfer step. Label the donor of the proton, the acceptor of the proton
-and the electron pair forming the new bond. Audit atoms and net charge.
-This question asks for the electron-flow bookkeeping, not for a claim that
-the equilibrium lies overwhelmingly to the right.
+Draw structures, identify the relevant atom and explain the reason. A name alone is insufficient where a mechanism or argument is requested.
+
+## 1. Follow a proton transfer
+
+Draw CH₃OH + OH⁻ ⇌ CH₃O⁻ + H₂O, including both curved arrows and every reacting oxygen lone pair. Audit all atoms and net charge.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-The oxygen of hydroxide needs a new O–H bond. Where will that bonding pair
-come from? What happens to the methanol O–H pair when the proton leaves?
+Begin at a hydroxide lone pair; also move the methanol O–H bond pair.
 :::
 
-::: {.callout-note collapse="true" title="Worked check"}
-One arrow begins at a hydroxide oxygen lone pair and ends at the methanol
-hydroxyl H. The second begins at the methanol O–H bond and ends on the methanol
-oxygen. Methanol donates H⁺ and hydroxide accepts it. The products have one
-carbon, five hydrogen atoms and two oxygen atoms in total, just as the
-reactants do. Net charge is −1 on each side. The relative acid pKa values,
-solvent and concentrations are needed to discuss the equilibrium mixture.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The hydroxide pair forms its new O–H bond while the methanol O–H pair returns to methanol oxygen. Both sides contain C₁H₅O₂ and total charge −1. This draws a possible proton transfer; its equilibrium position needs compatible acid-strength data.
 :::
 
-## 2. Repair a five-bonded carbon
+## 2. Repair a proton arrow
 
-A student adds OH⁻ to CH₃CHO by drawing a new C–O bond but retaining C=O,
-C–CH₃ and C–H. Draw the proposed central carbon and count its bond orders.
-Repair the elementary step with a second arrow. Give the charge and lone-pair
-count on the original carbonyl oxygen after addition. Then protonate that
-oxygen using water and draw the conjugate base produced from water.
+A student draws an arrow from the H of H₃O⁺ to the oxygen of NH₃. Identify two errors and replace the step with a valid ammonia protonation drawing.
 
-::: {.callout-note collapse="true" title="Worked check"}
-The incorrect carbon has total bond order five: C=O plus three single bonds.
-Move the C=O π pair to its oxygen while the new C–O bond forms. The product
-is CH₃CH(OH)O⁻, with the original carbonyl oxygen singly bonded, bearing three
-lone pairs and charge −1. Its lone pair can take H from water while the
-water O–H pair returns to water oxygen. Products of that transfer are
-CH₃CH(OH)₂ and OH⁻. Carbon remains tetravalent, and net charge remains −1.
+::: {.callout-tip collapse="true" title="Hint"}
+Which atom does ammonia contain, and which species supplies the electron pair?
 :::
 
-## 3. A concerted substitution is not two successive reactions
-
-For OH⁻ + CH₃Br → CH₃OH + Br⁻, draw the two arrows in the same step. Explain
-why drawing CH₃⁺ as an intermediate would propose a different mechanism.
-Classify OH⁻ as a nucleophile in this particular event. Is that label evidence
-that OH⁻ could never act as a base in another event?
-
-::: {.callout-note collapse="true" title="Worked check"}
-The hydroxide lone pair points to methyl carbon; the C–Br pair points to Br.
-Both occur in the concerted SN2 step. Drawing CH₃⁺ would replace that model
-with prior ionisation and a distinct intermediate, an unsuitable proposal for
-this methyl substitution. OH⁻ is a nucleophile because it forms a bond to
-carbon here. It can accept H⁺ elsewhere and then acts as a base. Identify
-the attacked atom instead of labelling an entire reagent permanently.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Ammonia contains nitrogen, not oxygen. The pair starts on nitrogen and points to a hydronium H; the donor O–H pair returns to O. Products are NH₄⁺ and H₂O, preserving charge +1. Arrows follow pairs, not the proton path.
 :::
 
-## 4. Read the free-energy profile
+## 3. Construct a methyl substitution
 
-![A two-step schematic free-energy profile with an intermediate between two maxima.](figures/08-intermediate-energy.svg){fig-alt="A two-step schematic free-energy profile with an intermediate between two maxima."}
+Draw OH⁻ + CH₃Br → CH₃OH + Br⁻ as one elementary SN2 step. Explain why two arrows do not imply two steps.
 
-Redraw the profile and mark the reactants, both transition states, intermediate
-and products. Starting at the intermediate, show the forward and reverse
-activation barriers. Why is the height of the second maximum measured from
-the intermediate when discussing the second elementary step? Why is the
-horizontal axis not time?
-
-::: {.callout-note collapse="true" title="Worked check"}
-Maxima are transition states; the intervening minimum is an intermediate.
-Each elementary step's barrier is measured from its starting minimum, not
-automatically from the original reactants. The reaction coordinate describes
-progress through changing geometry and bonding. It is not a clock; a distance
-along it cannot be converted into a lifetime without additional information.
+::: {.callout-tip collapse="true" title="Hint"}
+Pair donation to carbon and departure of Br occur together.
 :::
 
-## 5. What can a catalyst change?
-
-Sketch reactants at one free energy and products at a lower free energy. Draw
-two paths joining the same endpoints with different barriers. Explain what
-is different about the catalysed path and what remains the same about the
-overall equilibrium. State where the catalyst must appear in an overall
-balanced description.
-
-::: {.callout-note collapse="true" title="Worked check"}
-A catalyst provides another pathway with lower kinetically relevant barriers.
-It can accelerate approach to equilibrium in both directions. It does not
-change the free energies of the same initial and final states or their
-equilibrium constant. The catalyst participates in steps but is regenerated
-overall; it is not consumed stoichiometrically in the net transformation.
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The hydroxide lone pair forms C–O and the C–Br pair goes to Br in the same concerted event. There is one barrier and no intervening carbocation. Both sides have net charge −1.
 :::
 
-## Leave with
+## 4. Draw the reverse bond changes
 
-Three audited mechanisms, one annotated energy diagram and a two-sentence
-explanation distinguishing an intermediate from a transition state. Optional
-reading: selected Solomons chapter 3 and early chapter 6 sections; see the
-[reading guide](../reference/reading.qmd).
+As a formal electron-accounting exercise, draw Br⁻ attacking the methyl carbon of CH₃OH with OH⁻ departing. Explain why balanced arrows do not establish that this reverse event is experimentally favourable.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Keep the bond-pair directions valid, then evaluate the leaving group.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A Br lone pair points to methyl C and the C–O bond pair points to O, producing CH₃Br and OH⁻. Atoms and charge balance, but hydroxide is a poor leaving group. Electron accounting is necessary; energies and conditions still determine plausibility.
+:::
+
+## 5. Locate the electrophile
+
+Draw CH₃CHO with oxygen lone pairs and partial charges. Mark the usual attacked atom in hydroxide addition and distinguish partial from formal charge.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Unequal sharing in C=O leaves one atom relatively electron-poor.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+O is δ− and carbonyl C is δ+. Hydroxide attacks C while the π pair moves to O. The neutral starting Lewis structure has formal charge zero at both atoms; δ+ is not a carbocation formula.
+:::
+
+## 6. Repair five bond orders
+
+A proposed product of OH⁻ addition to CH₃CHO retains C=O and adds C–OH while keeping C–H and C–CH₃. Count carbon bond order, then repair the step.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The carbonyl π pair cannot remain a bond if an extra sigma bond forms.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The proposed carbon has bond-order sum five. Moving the C=O π pair to O gives CH₃CH(OH)O⁻, a four-single-bond carbon and net charge −1. Show both arrows in the addition step.
+:::
+
+## 7. Track hydride-equivalent addition
+
+Represent a hydride equivalent from NaBH₄ as H:⁻ for a simplified step. Add it to CH₃COCH₃; draw both arrows and the immediate product, not the worked-up alcohol.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The incoming H makes C–H; the original carbonyl oxygen receives the π pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The product is (CH₃)₂CHO⁻. H-delivery forms C–H while C=O becomes C–O⁻. H:⁻ is a shorthand for delivery from the reagent,  not free hydride present in water; protonation is a later step.
+:::
+
+## 8. Supply a missing proton donor
+
+A drawing changes (CH₃)₂CHO⁻ directly to (CH₃)₂CHOH without another species. Complete it using water, including all products and arrows.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Water must become its conjugate base after losing H⁺.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Alkoxide O donates a pair to water H; the water O–H pair returns to water O. Products are propan-2-ol and OH⁻. Net charge remains −1, and no H appears without a source.
+:::
+
+## 9. A neutral nucleophile gains charge
+
+Draw NH₃ + CH₃Br → CH₃NH₃⁺ + Br⁻ as an SN2 electron-flow step. Count nitrogen bonds and lone pairs before and after.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Neutral ammonia has three bonds and one pair available for the new bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The N pair forms N–C as the C–Br pair moves to Br. Nitrogen now has four bonds, no lone pair and formal charge +1. Total charge is zero on both sides; neutral methylamine would require a later deprotonation.
+:::
+
+## 10. Base or nucleophile in this event?
+
+Compare OH⁻ attacking CH₃Br at carbon with OH⁻ removing H⁺ from H₃O⁺. Draw each step and name the role in each.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Classify the particular attacked atom rather than permanently labelling OH⁻.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Attack at methyl C forms methanol and bromide: OH⁻ acts as nucleophile. Attack at H of hydronium produces two waters: OH⁻ acts as base. Both use pair donation, but they ask different chemical questions.
+:::
+
+## 11. Heterolysis as bookkeeping
+
+Draw formal C–Br heterolysis for CH₃Br and assign both product charges. Then explain why that picture alone is not a suitable SN1 proposal for methyl bromide.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Give the entire bond pair to Br, then consider the methyl cation.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Formal products are CH₃⁺ and Br⁻. This conserves net charge zero, but the methyl carbocation is extremely poorly stabilised. A charge-balanced drawing does not establish a readily accessible intermediate; methyl SN2 avoids it.
+:::
+
+## 12. Count steps in a profile
+
+Sketch a reaction profile containing two maxima separated by one minimum. Label every maximum and the intervening minimum. How many elementary steps are depicted?
+
+::: {.callout-tip collapse="true" title="Hint"}
+A step goes from one minimum to the next through a maximum.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Two transition states separate reactants, an intermediate and products, so two elementary steps are shown. The number of curved arrows within either step can be greater than one.
+:::
+
+::: {.callout-note}
+**Optional transfer starts here.** Choose problems that address your own gaps; the core route remains1–12.
+:::
+
+## 13. Choose the higher barrier
+
+Two alternative paths start from the same reactants and have activation free energies 15 and 25 kJ/mol at the same temperature. Which path is kinetically favoured, all else comparable? Is either final product proportion specified?
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare barriers for rate; distinguish endpoint energies for equilibrium.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The 15 kJ/mol path has the lower activation barrier and is faster under the stated comparison. The barrier values alone do not specify the relative equilibrium amounts of final products, which require their thermodynamic relationship.
+:::
+
+## 14. Calculate a reverse barrier
+
+A one-step schematic has reactants at 0, transition state at +45 and products at −20 kJ/mol. Give forward barrier, reverse barrier and overall ΔG.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Measure each barrier upward from its own starting minimum.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Forward ΔG‡ is 45 kJ/mol; reverse is 45−(−20)=65 kJ/mol; overall ΔG is −20 kJ/mol. A reaction can be thermodynamically favourable yet have a substantial forward barrier.
+:::
+
+## 15. Add a catalytic path
+
+On the preceding profile, add a catalytic path with its highest relevant barrier at +25 kJ/mol while retaining the same endpoints. Explain what changes and what does not.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A different path need not alter reactant or product state energies.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The catalysed path offers a lower barrier and can speed reaction. The endpoint ΔG remains −20 kJ/mol, so catalysis alone does not change the equilibrium constant for the same net reaction and conditions. A real catalytic path may have several steps.
+:::
+
+## 16. Separate equilibrium from time
+
+A sample has not reached equilibrium after ten minutes, but its eventual equilibrium composition is known. Can that composition alone tell you the half-time? Explain using a profile.
+
+::: {.callout-tip collapse="true" title="Hint"}
+An endpoint energy difference does not specify the height of the route between endpoints.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+No. Different barriers can connect the same reactant/product free energies. Equilibrium information constrains relative state stabilities; rates need kinetic information such as the relevant activation barriers and rate laws.
+:::
+
+## 17. Audit a missing charge
+
+A student writes OH⁻ + CH₃CHO → CH₃CH(OH)O with all atoms shown but no product charge. Repair the oxygen electron count and explain why assigning a +1 carbon would not solve it.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The original carbonyl oxygen now has only one bond.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+The original carbonyl oxygen is O⁻ with three lone pairs, giving CH₃CH(OH)O⁻. Carbon has four single bonds and formal charge zero. Placing +1 on carbon would not follow from the electron movement or preserve net charge −1.
+:::
+
+## 18. Resonance or reaction?
+
+Draw the two equivalent ethanoate contributors, keeping all nuclei fixed. Contrast their relation with CH₃COOH → CH₃COO⁻ + H⁺.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One comparison moves electrons only; the other removes a nucleus from the species.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Ethanoate contributors differ in which C–O is drawn double and which O carries formal negative charge; they describe one delocalised ion. Acid dissociation changes which atoms belong to the acid species. Use a resonance double-headed arrow for contributors and an equilibrium arrow for dissociation.
+:::
+
+## 19. Preserve atom identity
+
+Label methanol oxygen A and hydroxide oxygen B in methanol deprotonation. Which oxygen belongs to methoxide and which to the newly formed water?
+
+::: {.callout-tip collapse="true" title="Hint"}
+A proton transfers; an oxygen atom does not move from one molecule to the other.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+A remains the oxygen of CH₃O⁻; B becomes the oxygen of H₂O. Assigning A to water would imply additional bond changes not present in a simple proton transfer.
+:::
+
+## 20. Build a two-step explanation
+
+Using only CH₃CHO, OH⁻ and H₂O, draw base-catalysed formation of CH₃CH(OH)₂. Cross out the catalyst from the net equation and name the intermediate.
+
+::: {.callout-tip collapse="true" title="Hint"}
+First add hydroxide, then use water to protonate the alkoxide.
+:::
+
+::: {.callout-note collapse="true" title="Worked answer and reasoning"}
+Addition gives CH₃CH(OH)O⁻; water then protonates that alkoxide and regenerates OH⁻. The net equation is CH₃CHO + H₂O ⇌ CH₃CH(OH)₂. The alkoxide is an intermediate, while hydroxide is regenerated overall.
+:::
+
+## Check your progress
+
+Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.

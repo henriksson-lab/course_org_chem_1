@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Stoichiometric coefficients change the limiting comparison</title><desc>Stoichiometric coefficients change the limiting comparison</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="480" y="75" font-family="DejaVu Sans, sans-serif" font-size="31" fill="#153747" text-anchor="middle" font-weight="normal">Illustrative reaction: 2 A + B → P</text>
+<text x="250" y="155" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#153747" text-anchor="middle" font-weight="normal">10 mmol / 2</text>
+<line x1="250" y1="185" x2="250" y2="230" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="250" y="280" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">5 mmol extent</text>
+<text x="710" y="155" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#153747" text-anchor="middle" font-weight="normal">8 mmol / 1</text>
+<line x1="710" y1="185" x2="710" y2="230" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="710" y="280" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">8 mmol extent</text>
+<text x="480" y="360" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">A limits this example; maximum P = 5 mmol (coefficient 1).</text>
+</svg>

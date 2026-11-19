@@ -1,0 +1,163 @@
+---
+title: "Day 9: Week 2 model workshop: views, rotations and configurations"
+---
+
+This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+
+### Refresher and worked starting point
+
+No later reactions are needed. Newman:front dot, rear circle. Butane anti180°, gauche±60°; staggered sets offset60°. Ring flip swaps axial/equatorial and preserves up/down. CIP compares attached atomic numbers, then first difference. For lactic acid OH>COOH>CH₃>H. Fischer horizontal=toward, vertical=away. Worked start:group4 away with clockwise1→2→3 gives R; invert if4 points toward.
+
+Local lessons: [conformations](../conformations/lec.qmd), [stereochemistry](../stereochemistry/lec.qmd).
+
+## 1. Specify an eye position
+
+Draw butane, number C1–C4, and look C3→C2. List front/rear methyl labels.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Front is nearest your eye in the stated direction.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+C3 is front, with C4 methyl; C2 is rear, with C1 methyl. Each also bears two H. Reversing the view swaps front/rear but does not alter connectivity.
+:::
+
+## 2. Build staggered anti
+
+Along C2→C3, place front CH₃ at 12 and rear CH₃ at 6. Complete the four H positions.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Separate each carbon’s set by 120°.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Front H at 4/8 and rear H at 2/10 make a staggered projection. The methyl dihedral is 180°, so it is anti.
+:::
+
+## 3. Generate both gauche arrangements
+
+Hold front methyl at 12. Draw rear methyl at 2 and 10, completing both projections.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The methyl groups are ±60° apart.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Both are gauche and staggered. They preserve the butane framework and are equivalent in energy for ordinary butane in an achiral environment.
+:::
+
+## 4. Repair a false isomer claim
+
+A student calls anti and gauche constitutional isomers. Name the unchanged atom relationships.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Connectivity tests constitutional difference.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Every carbon keeps the same neighbouring atoms. Bond rotation changes conformation, not constitution. The student confused spatial view with bonded framework.
+:::
+
+## 5. Follow an up group
+
+Carry axial-up methyl through a cyclohexane chair flip. Mark its side and local position afterward.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use two separate labels.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+It becomes equatorial-up. Changing it to equatorial-down would alter the up/down configuration, not simply flip a chair.
+:::
+
+## 6. Check cis/trans persistence
+
+Two ring substituents start up/up. A third example has up/down. State each relation before/after a flip.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Same side is cis; opposite sides trans.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Up/up is cis and stays cis. Up/down is trans and stays trans. Axial/equatorial labels may exchange in both.
+:::
+
+## 7. Find a tetrahedral centre
+
+Compare CH₃CH(OH)CH₃ and CH₃CH(OH)COOH. List groups and identify which qualifies.
+
+::: {.callout-tip collapse="true" title="Hint"}
+One repeated group prevents this simple stereocentre.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Propan-2-ol has two methyl groups and does not qualify. Lactic acid has OH, H, CH₃, COOH and qualifies.
+:::
+
+## 8. Assign a complete Fischer
+
+Draw COOH top, CH₃ bottom, OH left, H right. Assign S/R with priorities and the viewing correction.
+
+::: {.callout-tip collapse="true" title="Hint"}
+H is horizontal and forward.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+PriorityOH1, COOH2, CH₃3, H4. The trace is clockwise but4 toward requires inversion, so S.
+:::
+
+### Optional extension
+
+Use these after the core or during later revision.
+
+## 9. Mirror without changing connectivity
+
+Mirror the previous Fischer. Assign its descriptor independently and classify the pair.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Swap left/right groups while keeping the vertical labels.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The mirror has OH right, H left and is R. The pair is enantiomeric, with matching connectivity and opposite one-centre configuration.
+:::
+
+## 10. Classify an alkene pair
+
+Draw same-side and opposite-side methyl groups around but-2-ene C=C. Assign E/Z and isomer relationship.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Methyl outranks H at both ends.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Same-side is Z, opposite E. These are diastereomers, not conformers related by ordinary free single-bond rotation.
+:::
+
+## 11. Test a nonexample
+
+Can CH₂=C(CH₃)₂ have E/Z? Give the failed requirement at each end.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Inspect duplicated substituents rather than geometry alone.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+No. One end has H/H and the other CH₃/CH₃. Each alkene carbon must have two different substituents.
+:::
+
+## 12. Separate centre count from chirality
+
+Draw meso-tartaric-acid Fischer with COOH top/bottom, OH right at both centres. Explain its symmetry in words.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Inspect equivalent upper/lower halves.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The complete structure has an internal symmetry relationship and is achiral despite two stereocentres. Counting centres alone does not establish chirality.
+:::
+
+## Close the workshop
+
+Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.

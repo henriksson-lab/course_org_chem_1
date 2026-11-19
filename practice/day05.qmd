@@ -1,0 +1,163 @@
+---
+title: "Day 5: Week 1 consolidation: a defensible molecular explanation"
+---
+
+This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+
+### Refresher and worked starting point
+
+All inputs are supplied. Neutral valences:C4, N 3 with one lone pair, O 2 with two pairs. IR teaching ranges:OH often broad3200–3600 cm⁻¹; carbonyl often1650–1800 cm⁻¹. Lower compatible pKa means stronger acid. K≈10^[product-acid pKa−reactant-acid pKa]. Worked start:an acid with pKa 4 is stronger than one with pKa 7 by a10³ratio in Ka.
+
+Local lessons: [structures](../structures/lec.qmd), [properties](../properties/lec.qmd), [acids bases](../acids-bases/lec.qmd).
+
+## 1. Build a formula from explicit groups
+
+Expand CH₃CH(OH)COOH and give its formula. Name its alcohol and acid patterns.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Count H on both OH groups.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+C₃H₆O₃. It contains a secondary alcohol and carboxylic acid. The middle CH has one H and four different substituents.
+:::
+
+## 2. Find an oxygen-placement isomer
+
+Draw an alcohol and an ether satisfying C₄H₁₀O. State which has an O–H donor.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Unbranched butanol and diethyl ether are possible choices.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Butan-1-ol CH₃CH₂CH₂CH₂OH and diethyl ether CH₃CH₂OCH₂CH₃ both fit. Only the alcohol has OH; both have oxygen acceptor sites.
+:::
+
+## 3. Test a valence correction
+
+A student draws neutral O with three single bonds and no charge. Supply the expected lone-pair count and formal charge for ordinary three-bonded O.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use6 valence electrons and one remaining lone pair.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+With three bonds and one pair, O has FC6−2−3=+1. Add the+charge rather than claiming ordinary neutral oxygen has that pattern.
+:::
+
+## 4. Give a solubility prediction with limits
+
+Compare propan-1-ol and octan-1-ol CH₃(CH₂)₇OH in water. State a trend and why no exact g/L value follows.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The OH count is unchanged but hydrocarbon size changes.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Propan-1-ol is more water compatible. The larger nonpolar region of octanol weighs against water compatibility; temperature and phase interactions are needed for exact solubility.
+:::
+
+## 5. Sketch two IR predictions
+
+For propanone and propan-2-ol, sketch schematic transmission traces showing the key distinguishing feature. Label axes and simulated status.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Dip direction follows lower transmittance.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The ketone has C=O without OH; the alcohol has broad OH without C=O. Use wavenumber in cm⁻¹, decreasing conventionally to the right, and transmittance vertically. These are predicted schematic traces.
+:::
+
+## 6. Protonate and conserve atoms
+
+Draw CH₃CH₂NH₂+H–A⇌CH₃CH₂NH₃⁺+A⁻ with arrows and nitrogen charges.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The donor H becomes part of the ammonium product.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+N pair→H and H–A pair→A. Nitrogen goes from three bonds/neutral to four bonds/+1, with A⁻ balancing total charge.
+:::
+
+## 7. Predict equilibrium direction
+
+Use supplied pKa 5 for HA and 9 for BH⁺. For HA+B⇌A⁻+BH⁺, calculate K and state the weaker acid.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Product-acid minus reactant-acid pKa.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+K≈10⁴. BH⁺ is the weaker acid with larger pKa; products are favoured under the compatible-data approximation.
+:::
+
+## 8. Interpret an acid fraction in words
+
+A supplied model gives0.80A⁻ and 0.20HA fractions. Give the ratio and explain what an individual molecule is.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Divide the two fractions; do not describe fractional proton charges.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+A⁻/HA=4. Individual species are HA or A⁻;80 % describes the population, not each molecule80 % deprotonated.
+:::
+
+### Optional extension
+
+Use these after the core or during later revision.
+
+## 9. Construct a reversible comparison
+
+Reverse the equilibrium with K=10⁴from problem7. Give the reverse K and explain why it changes.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Reverse exchanges numerator and denominator activities.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Kreverse=10⁻⁴. A reaction and its reverse cannot both have the same strongly product-favoured constant under the same conventions.
+:::
+
+## 10. Separate resonance from a reaction
+
+Draw two ethanoate contributors and a separate ethanoic-acid proton-loss equation. Label their different arrows.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Use one double-headed resonance arrow versus equilibrium notation.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Contributors share nuclei/connectivity and describe one ion. Proton loss changes species by H⁺ transfer. Do not use a chemical-equilibrium interpretation for the resonance contributors.
+:::
+
+## 11. Critique a filename-based identity claim
+
+An IR file is named alcohol.csv but has a strong carbonyl and no suitable OH feature. Give a cautious explanation and next check.
+
+::: {.callout-tip collapse="true" title="Hint"}
+A supplied label is not experimental proof.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+The label, target or sample may be wrong, or data may be incomplete. Compare full spectra and independent evidence before calling it an alcohol. The filename alone cannot override observations.
+:::
+
+## 12. Write a bounded conclusion
+
+For a candidate ketone with suitable IR carbonyl evidence, write a claim, an observation, a chemical reason and one limitation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Name what the observation actually tests.
+:::
+
+::: {.callout-note collapse="true" title="Worked check"}
+Example:“The sample is consistent with a carbonyl candidate because it absorbs strongly in the supplied C=O region. Several carbonyl structures remain possible; further evidence is needed for unique identity or purity.”
+:::
+
+## Close the workshop
+
+Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.

@@ -6,6 +6,7 @@ project:
   - course.qmd
   - intro/*.qmd
   - reference/*.qmd
+  - practice/*.qmd
   - structures/*.qmd
   - properties/*.qmd
   - acids-bases/*.qmd
@@ -21,12 +22,14 @@ project:
   - spectroscopy/*.qmd
   - synthesis-evidence/*.qmd
   - integration/*.qmd
+  - demos/*.qmd
   resources:
   - assets/
   - data/
   - downloads/
   - templates/report.Rmd
   - organic-chemistry.Rproj
+  - interactives/
 website:
   title: Organic Chemistry 1
   description: Structure, reactivity and evidence — with R as an everyday laboratory
@@ -49,6 +52,10 @@ website:
       contents:
       - text: Learning route
         href: course.qmd
+      - text: Daily chemistry practice
+        href: practice/index.qmd
+      - text: Interactive demos
+        href: demos/index.qmd
       - text: R and R Markdown
         href: intro/r-restart.qmd
       - text: Reference toolkit
@@ -69,6 +76,8 @@ website:
           href: structures/exercise.qmd
         - text: Self-check
           href: structures/quiz.qmd
+        - text: 'Demo: Molecules and hidden hydrogens'
+          href: demos/day01.qmd
       - section: 2. Properties and IR
         contents:
         - text: Lecture slides
@@ -77,6 +86,8 @@ website:
           href: properties/exercise.qmd
         - text: Self-check
           href: properties/quiz.qmd
+        - text: 'Demo: Interactions and properties'
+          href: demos/day02.qmd
       - section: 3. Acids, bases and ionisation
         contents:
         - text: Lecture slides
@@ -85,6 +96,16 @@ website:
           href: acids-bases/exercise.qmd
         - text: Self-check
           href: acids-bases/quiz.qmd
+        - text: 'Demo: Aqueous ionisation'
+          href: demos/day03.qmd
+      - text: 'Day 4: Mixed practice'
+        href: practice/day04.qmd
+      - text: 'Demo: Functional-group inspector'
+        href: demos/day04.qmd
+      - text: 'Day 5: Transfer practice'
+        href: practice/day05.qmd
+      - text: 'Demo: Ionisation and extraction'
+        href: demos/day05.qmd
     - section: Week 2
       contents:
       - section: 4. Conformations
@@ -95,6 +116,8 @@ website:
           href: conformations/exercise.qmd
         - text: Self-check
           href: conformations/quiz.qmd
+        - text: 'Demo: Rotate a Newman projection'
+          href: demos/day06.qmd
       - section: 5. Stereochemistry
         contents:
         - text: Lecture slides
@@ -103,6 +126,8 @@ website:
           href: stereochemistry/exercise.qmd
         - text: Self-check
           href: stereochemistry/quiz.qmd
+        - text: 'Demo: Fischer configurations'
+          href: demos/day07.qmd
       - section: 6. Electron flow and mechanisms
         contents:
         - text: Lecture slides
@@ -111,6 +136,16 @@ website:
           href: mechanisms/exercise.qmd
         - text: Self-check
           href: mechanisms/quiz.qmd
+        - text: 'Demo: Repair electron flow'
+          href: demos/day08.qmd
+      - text: 'Day 9: Mixed practice'
+        href: practice/day09.qmd
+      - text: 'Demo: Conformer populations'
+        href: demos/day09.qmd
+      - text: 'Day 10: Transfer practice'
+        href: practice/day10.qmd
+      - text: 'Demo: Enantiomer mixtures'
+        href: demos/day10.qmd
     - section: Week 3
       contents:
       - section: 7. Substitution
@@ -121,6 +156,8 @@ website:
           href: substitution/exercise.qmd
         - text: Self-check
           href: substitution/quiz.qmd
+        - text: 'Demo: Reaction rate models'
+          href: demos/day11.qmd
       - section: 8. Elimination and addition
         contents:
         - text: Lecture slides
@@ -129,6 +166,8 @@ website:
           href: elimination-addition/exercise.qmd
         - text: Self-check
           href: elimination-addition/quiz.qmd
+        - text: 'Demo: E2 geometry'
+          href: demos/day12.qmd
       - section: 9. Alcohols and redox
         contents:
         - text: Lecture slides
@@ -137,6 +176,16 @@ website:
           href: alcohols-redox/exercise.qmd
         - text: Self-check
           href: alcohols-redox/quiz.qmd
+        - text: 'Demo: Alcohol oxidation states'
+          href: demos/day13.qmd
+      - text: 'Day 14: Mixed practice'
+        href: practice/day14.qmd
+      - text: 'Demo: SN1 steps and charge'
+        href: demos/day14.qmd
+      - text: 'Day 15: Transfer practice'
+        href: practice/day15.qmd
+      - text: 'Demo: Limiting reagent and yield'
+        href: demos/day15.qmd
     - section: Week 4
       contents:
       - section: 10. Carbonyl addition
@@ -147,6 +196,8 @@ website:
           href: carbonyl-addition/exercise.qmd
         - text: Self-check
           href: carbonyl-addition/quiz.qmd
+        - text: 'Demo: Carbonyl addition'
+          href: demos/day16.qmd
       - section: 11. Acyl chemistry
         contents:
         - text: Lecture slides
@@ -155,6 +206,8 @@ website:
           href: acyl-chemistry/exercise.qmd
         - text: Self-check
           href: acyl-chemistry/quiz.qmd
+        - text: 'Demo: Acyl substitution'
+          href: demos/day17.qmd
       - section: 12. Amines and aromatics
         contents:
         - text: Lecture slides
@@ -163,6 +216,16 @@ website:
           href: amines-aromatics/exercise.qmd
         - text: Self-check
           href: amines-aromatics/quiz.qmd
+        - text: 'Demo: Amine protonation'
+          href: demos/day18.qmd
+      - text: 'Day 19: Mixed practice'
+        href: practice/day19.qmd
+      - text: 'Demo: Proton-transfer equilibria'
+        href: demos/day19.qmd
+      - text: 'Day 20: Transfer practice'
+        href: practice/day20.qmd
+      - text: 'Demo: Amide electron availability'
+        href: demos/day20.qmd
     - section: Week 5
       contents:
       - section: 13. Structure from spectra
@@ -173,6 +236,8 @@ website:
           href: spectroscopy/exercise.qmd
         - text: Self-check
           href: spectroscopy/quiz.qmd
+        - text: 'Demo: Spectral candidate lab'
+          href: demos/day21.qmd
       - section: 14. Synthesis and evidence
         contents:
         - text: Lecture slides
@@ -181,6 +246,8 @@ website:
           href: synthesis-evidence/exercise.qmd
         - text: Self-check
           href: synthesis-evidence/quiz.qmd
+        - text: 'Demo: TLC measurements'
+          href: demos/day22.qmd
       - section: 15. Putting the chemistry together
         contents:
         - text: Lecture slides
@@ -189,6 +256,16 @@ website:
           href: integration/exercise.qmd
         - text: Self-check
           href: integration/quiz.qmd
+        - text: 'Demo: Build a short synthesis'
+          href: demos/day23.qmd
+      - text: 'Day 24: Mixed practice'
+        href: practice/day24.qmd
+      - text: 'Demo: How strong is a spectral clue?'
+        href: demos/day24.qmd
+      - text: 'Day 25: Transfer practice'
+        href: practice/day25.qmd
+      - text: 'Demo: Claims and chemical evidence'
+        href: demos/day25.qmd
   page-footer:
     left: Organic Chemistry 1 · 7.5 credits · Teaching draft
     right: Structures · Mechanisms · Evidence
@@ -206,3 +283,5 @@ execute:
 controls: true
 controls-layout: edges
 controls-back-arrows: visible
+# Slide navigation must not fill browser history.
+history: false

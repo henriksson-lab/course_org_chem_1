@@ -1,88 +1,259 @@
 ---
-title: "Synthesis evidence: calculate, compare, explain"
+title: "Synthesis and evidence: standalone problem bank"
 ---
 
-Allow 75 minutes for the chemistry questions, plus about 50 minutes for your
-Rmd results section. This uses **simulated teaching data**, not an approved
-experimental procedure. See [practical work and reporting](../reference/practical.qmd)
-for the record and report workflow.
+This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
+Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
+Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
+mechanism. Use the hints after a first attempt and the worked checks after revising.
+All required definitions, structures, constants and observations are supplied here
+or in the linked local explanations; no textbook problem set is required.
 
-## 1. A short route, with a reason for each step
+## Working refresher
 
-Propose a route from ethanol to ethyl ethanoate using ethanoic acid as an
-intermediate. State the functional-group change at each step and where an
-additional ethanol portion is required. Why would a procedure designed to
-isolate ethanal not automatically be suitable for the acid target?
+Keep these calculations distinct: amount n=m/M; reaction extent available from a reagent is n divided by its balanced coefficient; maximum product amount is limiting extent times the product coefficient.1 mol=1000 mmol. Theoretical product mass is product amount×product molar mass. Apparent isolated yield=100×isolated mass/theoretical product mass, interpreted as product yield only if the weighed mass is product. Yield does not measure purity or conversion. For TLC, Rf=spot-centre distance/front distance, both from the same origin; the ratio is dimensionless and depends on conditions. All masses/plates here are teaching data rather than a protocol. [The lecture](lec.qmd) and [practical report guide](../reference/practical.qmd) supply worked examples.
 
-::: {.callout-note collapse="true" title="Worked route"}
-Oxidise an ethanol portion to ethanoic acid under appropriate oxidation
-conditions, then combine the acid with a separate ethanol portion in an
-acid-catalysed esterification equilibrium. The first transformation is alcohol
-oxidation; the second is acyl substitution. Conditions that stop at or isolate
-ethanal serve a different target from conditions permitting further oxidation
-to the acid. Reagent identity and work-up would need an approved protocol
-before carrying this out experimentally.
-:::
+## 1. Plan a two-step functional-group route
 
-## 2. A balanced aspirin amount table
-
-The teaching reaction is salicylic acid + acetic anhydride → aspirin +
-ethanoic acid, with 1:1:1:1 stoichiometry. Supplied masses and molar masses:
-
-| Reagent | Mass / g | Molar mass / (g mol⁻¹) |
-| --- | --- | --- |
-| Salicylic acid | 1.3812 | 138.12 |
-| Acetic anhydride | 1.53135 | 102.09 |
-
-Calculate amount as mass/molar mass. Compare amount divided by stoichiometric
-coefficient to identify the limiting reagent. Aspirin molar mass is 180.16
-g/mol. Predict the theoretical product mass before using the isolated mass.
+Starting with ethanol, propose a route through ethanoic acid to ethyl ethanoate. Identify the separate ethanol portion needed in the second step and name each transformation.
 
 ::: {.callout-tip collapse="true" title="Hint"}
-Dividing g by g/mol gives mol. One mmol is 0.001 mol. A larger mass does not
-necessarily indicate an excess reagent; use the balanced reaction.
+The acid-derived and alcohol-derived fragments need not come from the same reacting molecule.
 :::
 
-::: {.callout-note collapse="true" title="Worked calculation"}
-Salicylic acid: 0.01000 mol = 10.00 mmol. Acetic anhydride: 0.01500 mol =
-15.00 mmol. With coefficients of one, salicylic acid limits product to
-0.01000 mol. The theoretical mass is 0.01000 × 180.16 = 1.8016 g. This is a
-stoichiometric upper bound under the assumed desired reaction, not evidence
-that all of the starting material actually reacted.
+::: {.callout-note collapse="true" title="Worked explanation"}
+Oxidise one ethanol portion to ethanoic acid, then use a separate ethanol portion in esterification. The first change is oxidation and the second acyl substitution. Conditions and work-up require suitable choices; this is a planning example, not a protocol.
 :::
 
-## 3. Isolated yield is not purity
+## 2. Choose an oxidation endpoint
 
-The isolated material weighs 1.20 g. Calculate apparent isolated yield as
-`100 * isolated_mass_g / theoretical_mass_g`. Name two ways this mass could
-overstate the true mass of product. Would a yield below 100% establish purity?
+Ethanol can give ethanal and then ethanoic acid under appropriate oxidation conditions. Explain why a target labelled ethanal needs more information than an unspecified [O] arrow.
 
-::: {.callout-note collapse="true" title="Worked check"}
-Yield is about 66.6%. Residual solvent, water, starting material or other
-impurities could add to the measured mass. A value below 100% does not prove
-purity: impure material can still weigh less than the theoretical product.
-Conversion measures starting-material consumption; selectivity measures how
-much of reacted material follows the desired route. Neither is established
-solely by this isolated mass.
+::: {.callout-tip collapse="true" title="Hint"}
+Further oxidation is a possible competing transformation.
 :::
 
-## 4. A TLC observation with limits
-
-The solvent front travels 5.0 cm. Starting-material reference and product
-reference travel 1.2 and 3.2 cm respectively. The crude sample has two spots
-at those same distances under the same conditions. Calculate both Rf values
-and give a restrained interpretation. Explain why one spot from the isolate
-would still not uniquely identify it or prove purity.
-
-::: {.callout-note collapse="true" title="Worked check"}
-Rf values are 0.24 and 0.64. The crude contains at least two detected
-components under these conditions, with spots consistent with the references.
-Different compounds can co-migrate, and some components can be invisible to
-the detection method. Compare spectra and use other suitable evidence rather
-than treating Rf as a unique identity code.
+::: {.callout-note collapse="true" title="Worked explanation"}
+Conditions must favour forming and isolating the aldehyde rather than proceeding to acid. A target name does not guarantee selectivity or purity, and product evidence is still needed after the reaction.
 :::
 
-## 5. Rmd task: results that update when a mass changes
+## 3. Convert mass with visible units
+
+A teaching amount table gives 1.3812 g salicylic acid and M=138.12 g/mol. Calculate mol and mmol, showing unit cancellation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Divide mass by molar mass;1 mol=1000 mmol.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+1.3812 g/(138.12 g/mol)=0.01000 mol=10.00 mmol. Grams cancel. Converting mmol into mol requires dividing by 1000, which matters before multiplying by a molar mass in g/mol.
+:::
+
+## 4. Compare a second reagent
+
+For 1.53135 g acetic anhydride at 102.09 g/mol, calculate amount. In a 1:1 reaction with 10.00 mmol acid, identify the limiting reagent and justify without comparing masses.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The balanced reaction has coefficients one for both starting reagents.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Anhydride amount is 0.01500 mol=15.00 mmol. Acid has the smaller n/coefficient,10/1 versus 15/1, and limits theoretical product. A larger mass alone would not establish excess.
+:::
+
+## 5. Handle coefficients explicitly
+
+For the illustrative equation 2A+B→P, starting amounts are 10 mmol A and 8 mmol B. Find limiting reagent and maximum P amount; explain why simply taking min(10,8) is wrong.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Compare n divided by reactant coefficient.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A supplies 10/2=5 mmol reaction extent while B supplies 8/1=8 mmol. A limits and at most 5 mmol P forms. Taking the minimum raw amount ignores that two A units are required per product.
+:::
+
+## 6. Include a product coefficient
+
+For 2A+B→2P with 10 mmol A and 8 mmol B, find maximum P amount. Compare with the previous equation 2A+B→P using the same inputs.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The limiting extent is multiplied by the product coefficient.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A still limits extent to 5 mmol. With product coefficient 2, maximum P=10 mmol; with coefficient 1 it is 5 mmol. Extent and product amount are not universally the same number.
+:::
+
+## 7. Change the limiting reagent
+
+In the 1:1 aspirin teaching reaction, acid stays 10.00 mmol but anhydride mass is 0.51045 g at 102.09 g/mol. Identify the new limiter and predict product mol and mass with M=180.16 g/mol.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Recompute the changed amount before reusing the original limiter label.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Anhydride is 0.00500 mol=5.00 mmol and now limits. Theoretical aspirin is 0.00500 mol, giving 0.9008 g. The original 10 mmol acid is now in excess for the desired reaction.
+:::
+
+## 8. Calculate theoretical mass
+
+A1:1 teaching reaction has 10.0 mmol limiting reagent and product M=180.16 g/mol. Calculate the theoretical mass and state what assumptions the upper bound contains.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Convert 10.0 mmol to 0.0100 mol before multiplying.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Theoretical mass is 1.8016 g before final rounding. It assumes the balanced desired transformation and complete use of limiting reagent toward that product; it does not establish actual conversion, recovery or purity.
+:::
+
+## 9. Calculate apparent isolated yield
+
+For theoretical mass 1.8016 g and isolated material 1.20 g, calculate 100×isolated/theoretical. State the chemical assumption behind calling it product yield.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The numerator must represent product mass for the interpretation to hold.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The apparent isolated yield is 66.6%. Interpreting this as product yield assumes the weighed material is product with appropriate identity/purity; solvent or impurities can inflate its mass.
+:::
+
+## 10. Predict a changed numerator
+
+Theoretical mass remains 1.8016 g. Compare isolated masses 1.10 g and 1.20 g. Calculate both apparent yields and say which upstream quantities should remain unchanged.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Only isolated mass changes in the numerator.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The yields are 61.1% and 66.6%. Starting-reagent amounts, limiting extent and theoretical mass should stay fixed. A report that changes those without changing the inputs has a dependency error.
+:::
+
+## 11. Critique a yield above 100 percent
+
+Theoretical mass is 1.8016 g but a sample weighs 1.95 g. Calculate the apparent yield and name two plausible classes of explanation without diagnosing a unique cause.
+
+::: {.callout-tip collapse="true" title="Hint"}
+An apparent yield can expose a questionable mass or model assumption.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The value is about 108.2%. Residual solvent/water or other impurities can add mass; a weighing, input or stoichiometry error is another possibility. It is not evidence of creating extra product atoms beyond the balanced maximum.
+:::
+
+## 12. Separate yield and purity
+
+One isolate has low apparent yield but the supplied spectra are consistent with the target; another has high apparent yield and major extra NMR signals. Explain why yield cannot rank their purity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Yield measures recovered amount relative to a theoretical amount, not composition.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+A small recovered amount can be relatively pure, while a large mass can include impurities. Purity needs composition evidence; yield and identity/purity are different claims. The facts do not give exact purities of either sample.
+:::
+
+## 13. Compute two Rf values
+
+A TLC origin is 0 cm, solvent front 5.0 cm, starting-material spot 1.2 cm and product-reference spot 3.2 cm. Calculate both Rf values and give units.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Rf=distance from origin to spot centre divided by distance from origin to solvent front.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+The values are 0.24 and 0.64, dimensionless. Both distances must use the same baseline and units; the numbers are conditional on stationary phase, eluent and other conditions.
+:::
+
+## 14. Read a crude TLC lane
+
+Under the same conditions, a crude lane has spots at 1.2 cm and 3.2 cm with front 5.0 cm; reference lanes match those positions. Write a restrained interpretation and one limitation.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Matching retention supports comparison but is not a unique molecular fingerprint.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+At least two detected components are present, with retention consistent with the references. Co-migration or invisible components remain possible; spot matching alone does not uniquely establish identity or quantitative conversion.
+:::
+
+## 15. Recognise missing information
+
+A TLC image records a spot 3.0 cm above baseline but no solvent-front position. Can Rf be calculated? What observation is missing, and why should a typical front distance not be invented?
+
+::: {.callout-tip collapse="true" title="Hint"}
+A ratio needs both numerator and denominator.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Rf cannot be determined reliably. The actual front travel from the same baseline is missing. A presumed usual distance would substitute an invented observation and could give a false retention value.
+:::
+
+## 16. Test the single-spot purity claim
+
+A and B each run at Rf 0.64 in one eluent, and their mixture shows one spot. Explain how this can happen and propose a useful follow-up kind of evidence.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The separation method may fail to resolve different compounds.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Co-migration can give one retention feature for a mixture. A suitable changed separation condition or independent spectral assessment can test composition. One spot is not a guarantee of purity, and detection can miss some components.
+:::
+
+## 17. Track the aspirin functional-group change
+
+Salicylic acid has adjacent aromatic COOH and OH groups. In the teaching aspirin target, the phenolic oxygen becomes O–C(=O)CH₃ while COOH remains. State which group changes and why acid O–H evidence may persist.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Not every oxygen-containing group is consumed by phenolic acetylation.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Phenolic OH is converted to an acetate ester. The carboxylic acid remains, so acid-region features can persist in the target. Acid O–H alone does not uniquely establish unreacted salicylic acid.
+:::
+
+## 18. Interpret an extra NMR signal
+
+An isolate has a plausible mass-based yield and one TLC spot but an extra major NMR signal group. Give two possibilities and a targeted next check without naming a definite impurity.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The identity/purity assumption should be tested against independent evidence.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Residual solvent or another component, including starting material, could contribute; assignment error is also possible. Compare full integrations/assignments and suitable references or use a discriminating separation. Do not discard contradictory spectra because yield looks plausible.
+:::
+
+## 19. Audit a report dependency
+
+A student changes isolated mass from 1.20 g to 1.10 g and the report also changes theoretical product mol from 0.0100 to 0.0090. Starting-reagent masses were unchanged. Identify the error and the correct dependency.
+
+::: {.callout-tip collapse="true" title="Hint"}
+The theoretical maximum comes from starting materials, not from recovered mass.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Theoretical mol must remain 0.0100 under the unchanged reaction inputs. Isolated mass only changes the apparent yield numerator. Reconstruct calculations from saved raw inputs and keep the independent measurements separate.
+:::
+
+## 20. Write a supported conclusion
+
+Supplied teaching evidence gives theoretical mass 1.8016 g, isolate 1.20 g, crude TLC two spots and a product-like simulated IR comparison. Write a conclusion separating amount, reaction evidence and remaining identity/purity limits.
+
+::: {.callout-tip collapse="true" title="Hint"}
+Avoid allowing one observation to answer every question.
+:::
+
+::: {.callout-note collapse="true" title="Worked explanation"}
+Apparent isolated yield is 66.6% under the product-mass assumption. Crude TLC shows at least two detected components, and the labelled teaching IR illustrates consistent functional groups. These observations do not uniquely prove a real isolate’s identity or purity, especially when the trace is simulated.
+:::
+
+## R task:  results that update when a mass changes
 
 In the student project, save a results section containing the amount table,
 limiting-reagent reasoning, theoretical mass and isolated yield. Reuse code

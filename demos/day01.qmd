@@ -1,0 +1,33 @@
+---
+title: 'Day 1: Molecular representations and hidden hydrogen'
+---
+
+A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
+
+## Predict first
+
+Before revealing H counts, predict the complete formula of propanone. How does its C=O bond change the H count compared with propane?
+
+```{=html}
+<section class="chem-demo" id="day01">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked worked practice below remain available.</noscript></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/foundations.js"></script>
+```
+
+## Explore
+
+1. Select ethanol and trace the skeletal endpoints and vertices. Switch to labelled atoms without revealing carbon H counts; explain what changed in the representation and what stayed identical.
+
+2. Reveal H counts and check each carbon against a bond-order sum of four. Switch to propanone and explain why its central carbon has no H.
+
+3. Compare ethanol and dimethyl ether in condensed and skeletal modes. Both share a formula, but list the neighbours of oxygen in each. Reset and reconstruct the starting molecule without the reveal.
+
+## Take-away
+
+Choose one molecule and justify every hidden carbon-bound H using the actual bonds. What information does its molecular formula leave undecided?
+
+## Model and limits
+
+These are neutral, ordinary-valence C/H/O examples. Carbon uses four bond orders and oxygen two. O-bound H is drawn explicitly; the reveal concerns implicit carbon-bound H. No charges, radicals or unusual valences are inferred.
+
+Continue with the [standalone worked practice](../structures/exercise.qmd).

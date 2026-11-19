@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Conjugates differ by one H plus</title><desc>Conjugates differ by one H plus</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<text x="245" y="175" font-family="DejaVu Sans, sans-serif" font-size="33" fill="#153747" text-anchor="middle" font-weight="normal">CH₃COOH ⇌ CH₃COO⁻ + H⁺</text>
+<text x="715" y="175" font-family="DejaVu Sans, sans-serif" font-size="33" fill="#153747" text-anchor="middle" font-weight="normal">NH₄⁺ ⇌ NH₃ + H⁺</text>
+<text x="245" y="270" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">acid → conjugate base</text>
+<text x="715" y="270" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">charge decreases by one</text>
+</svg>

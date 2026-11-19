@@ -3,6 +3,28 @@ title: "A small chemistry toolkit"
 ---
 
 Use these prompts while drawing. Return to the unit for the worked explanation.
+The toolkit and local worked examples supply the conventions needed for the
+problem sets; you do not need to retrieve an external textbook table.
+
+## Audit a charge before drawing a mechanism
+
+Formal charge = valence electrons of the neutral atom − nonbonding electrons
+− the number of bond orders attached to that atom. A double bond contributes
+two bond orders. This is electron bookkeeping, not a measurement of partial
+charge in a polar bond.
+
+| Atom | Neutral-atom valence electrons | Common closed-shell patterns in this course |
+| --- | --- | --- |
+| C | 4 | Four bond orders, no lone pair: neutral; three bonds/no lone pair: +1; three bonds/one lone pair: −1 |
+| N | 5 | Three single bonds and one lone pair: neutral; four single bonds and no lone pair: +1 |
+| O | 6 | Two bond orders/two lone pairs: neutral; one single bond/three lone pairs: −1; three bond orders/one lone pair: +1 |
+| Cl or Br | 7 | One single bond/three lone pairs: neutral; unbonded ion with four lone pairs: −1 |
+
+**Worked check:** hydroxide oxygen has six nonbonding electrons and one bond
+order, so its formal charge is 6 − 6 − 1 = −1. If its lone pair forms a bond
+to H⁺, the oxygen then has two bonds and four nonbonding electrons: 6 − 4 − 2
+= 0. The species is water. A curved arrow shows the movement of the pair;
+the proton does not carry that pair into the reaction.
 
 ## Read a structure
 
@@ -24,6 +46,11 @@ before comparing two drawings. A changed viewing angle does not create a new mol
 
 R symbols mean carbon-containing groups and do not necessarily mean the same
 group when marked with different primes. They are not the stereochemical R descriptor.
+
+Common shorthand in the worked problems: **Me** = CH₃ (methyl), **Et** =
+CH₂CH₃ (ethyl), **Ph** = C₆H₅ (phenyl, a benzene ring attached through one
+carbon), **Nu** = a nucleophile and **LG** = a leaving group. A shorthand label
+stands for the stated atoms; count them when checking a formula or a reaction.
 
 ## Draw an electron-pair mechanism
 
@@ -49,6 +76,31 @@ species. A curved arrow shows electron movement. These symbols have different jo
 | Acyl substitution | Addition then loss reforms C=O | Leaving group and reaction conditions |
 | Alcohol redox | The carbon's bonds to H/O change | Oxidation level, reagent selectivity and conditions |
 
+## Read a stereochemical drawing
+
+A normal line lies in the drawing plane; a solid wedge points toward you;
+a hashed wedge points away. Rotating the whole molecule in space preserves
+configuration. Exchanging two groups at a stereocentre reverses it.
+
+For a simple R/S assignment, rank the directly attached atoms by atomic number:
+Br (35) > Cl (17) > O (8) > N (7) > C (6) > H (1). Break a tie by comparing
+the next attached atoms in descending order until the first difference. For
+this comparison count a multiple bond using duplicate atoms. Point priority
+4 away: 1→2→3 clockwise is R, counterclockwise is S. If 4 points toward you,
+invert that apparent result.
+
+**Worked check:** for CH₃CH(OH)COOH, priority is OH > COOH > CH₃ > H. Oxygen
+wins at the first atom; the carboxyl carbon's next-atom list O,O,O beats the
+methyl carbon's H,H,H. In a Fischer projection with COOH at the top, CH₃ at
+the bottom, OH left and H right, the apparent 1→2→3 path is clockwise, but H
+points toward you under the Fischer convention. The configuration is S.
+Horizontal Fischer bonds point toward you and vertical bonds away.
+
+For E/Z, rank the two substituents on each alkene carbon separately. Higher
+priority groups on the same side give Z; opposite sides give E. Each alkene
+carbon must have two different substituents for E/Z to apply. An R/S label
+does not specify the sign of measured optical rotation.
+
 ## Calculate with units
 
 | Quantity | Relationship | Units/check |
@@ -70,3 +122,32 @@ IR supports functional-group assignments. NMR reports chemical environments,
 integrations and coupling patterns. TLC compares behaviour under specified
 conditions. None is a universal identity or purity certificate on its own.
 Use several observations and explain the alternatives they rule out.
+
+## Decode the supplied spectra
+
+In an IR transmittance plot, absorptions point downward. Wavenumber is normally
+shown decreasing from left to right. The local teaching examples use a broad
+alcohol O–H feature around 3350 cm⁻¹ and strong carbonyl features around
+1710–1740 cm⁻¹. Carboxylic-acid O–H is much broader, extending across roughly
+2500–3300 cm⁻¹. These are approximate clues; the full structure and measurement
+conditions affect band positions. The problem states its actual observations.
+
+In the simple proton NMR examples, chemical shift is in ppm, integration is
+relative proton count, and multiplicity reports resolved coupling. For a
+first-order signal coupled to *n equivalent neighbouring protons*, the simple
+pattern has *n + 1* lines. Do not apply that rule blindly to exchangeable O–H
+signals or complex nonequivalent neighbours. Peak height is not integration.
+
+**Worked check:** a 3H triplet at 1.25 ppm and a 2H quartet at 4.12 ppm support
+an ethyl group with the CH₂ near oxygen. An additional 3H singlet at 2.05 ppm
+is consistent with CH₃–C(=O)–. Together with formula C₄H₈O₂ and ester-like IR,
+the supplied teaching unknown is consistent with CH₃COOCH₂CH₃. The singlet
+methyl has no neighbouring carbon-bound proton across the carbonyl. This
+interpretation combines several observations rather than treating one shift
+as unique proof.
+
+When given a molecular formula containing ordinary C, H, N, O and halogens,
+the degree of unsaturation is $(2C+2+N-H-X)/2$, where X is the total number
+of halogen atoms. Oxygen does not change this count. For C₄H₈O₂ it is one:
+one ring or one double bond would account for it. The formula alone does not
+choose between those possibilities or establish connectivity.

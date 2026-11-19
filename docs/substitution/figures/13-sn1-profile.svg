@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>SN1 ionisation, capture and deprotonation are separate stages</title><desc>SN1 ionisation, capture and deprotonation are separate stages</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="100" y1="315" x2="870" y2="315" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="100" y1="315" x2="100" y2="55" stroke="#153747" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 120 270 C 190 270 210 75 300 75 C 350 75 350 195 410 195 C 450 195 460 145 500 145 C 540 145 550 225 600 225 C 640 225 650 190 690 190 C 760 190 760 285 840 285" stroke="#176b91" stroke-width="4" fill="none"/>
+<text x="380" y="245" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">cation</text>
+<text x="605" y="275" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="normal">oxonium</text>
+<text x="480" y="365" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">Qualitative profile: distinct minima are intermediates, not transition states.</text>
+</svg>

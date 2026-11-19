@@ -18,6 +18,42 @@ electron-flow practice central; reduce reagent variants before reducing that
 practice. Guide the optional conformer free-energy model if its mathematics
 distracts from the chemistry.
 
+## Session pacing and daily paper practice
+
+Each of the 25 study days also has a short interactive exploration, linked
+directly from the left sidebar. Use its 5–10 minute prediction/change/explanation
+task within an existing worked-example or drawing block, or as optional
+independent exploration. It does not add another compulsory block to each
+45-minute lecture. The daily paper problems and R report remain important.
+
+All workbenches are local classic JavaScript and SVG, with no installation,
+account, CDN or data submission. `demos/index.qmd` lists their purposes;
+`plan/demos.json` maps pages, runtimes and days. `make demo-check` checks the
+local runtimes, sidebar destinations and pure chemical/numerical anchors.
+Optional `make demo-browser` opens every demo in Chrome with external requests
+blocked, changes real controls, checks reset and invalid inputs, and inspects
+wide/narrow layouts. Its results are in `plan/demo-browser-check.json`.
+
+Each lecture targets 45 minutes, including its brief prediction, drawing and
+discussion tasks. Around 40 seconds per slide is a useful planning estimate,
+not a slide quota. Retain a slide only if it contributes an explanation, a
+worked operation, a comparison or a meaningful check. Natural slide counts
+vary by topic. Use speaker notes to plan the longer worked steps and pauses.
+
+The 25-day route is in `practice/index.qmd`. Each lecture unit has at least
+20 non-R problems, and ten consolidation days have at least 12 each: a bank
+of at least 420 paper problems, separate from quizzes and R activities.
+Core/transfer/challenge labels keep daily required time realistic while
+providing substantial independent practice and revision. Every problem should
+have all needed inputs, a targeted hint and a reasoned worked solution.
+Students should be able to use this route without the textbook.
+
+Browser Back should leave a presentation in one action. Shared `history: false`
+restores the source scaffold's behaviour; slide navigation may update the
+current URL but must not push additional browser history entries. The optional
+browser check reproduces entry from the homepage, several slide changes and
+one Back action.
+
 ## Solutions and teaching support
 
 Each unit's practice and self-check pages contain collapsible worked checks.
@@ -58,7 +94,8 @@ The slide inventory is saved in `plan/slide-inventory.csv`.
 
 Optional `make layout` uses installed Chrome and Python's `websocket-client`
 to open only the local rendered decks, load every figure, and check all slide
-bounds. It writes `plan/layout-check.json` and representative screenshots under
+bounds and browser Back behaviour. It writes `plan/layout-check.json`,
+`plan/navigation-check.json` and representative screenshots under
 `/tmp/`. This check needs the local browser to be runnable; in a restricted
 executor it may need native execution approval. It is separate from `make check`.
 
