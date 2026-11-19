@@ -1,6 +1,5 @@
 ---
 title: "Organic Chemistry 1"
-subtitle: "Read the structure. Follow the electrons. Test the explanation."
 title-block-banner: false
 toc: false
 ---
