@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img"><title>Axial and equatorial positions in a chair</title><desc>Chair cyclohexane with six axial bonds alternating up and down in blue and six equatorial bonds around the rim in green</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="440" rx="12" fill="#f7fafc"/>
+<line x1="488.5" y1="238.1" x2="426.1" y2="216.2" stroke="#153747" stroke-width="3.5"/>
+<line x1="426.1" y1="216.2" x2="267.6" y2="275.5" stroke="#153747" stroke-width="3.5"/>
+<line x1="267.6" y1="275.5" x2="171.5" y2="191.9" stroke="#153747" stroke-width="3.5"/>
+<line x1="171.5" y1="191.9" x2="233.9" y2="213.8" stroke="#153747" stroke-width="3.5"/>
+<line x1="233.9" y1="213.8" x2="392.4" y2="154.5" stroke="#153747" stroke-width="3.5"/>
+<line x1="392.4" y1="154.5" x2="488.5" y2="238.1" stroke="#153747" stroke-width="3.5"/>
+<line x1="488.5" y1="238.1" x2="488.6" y2="339.9" stroke="#176b91" stroke-width="3"/>
+<line x1="488.5" y1="238.1" x2="586.3" y2="201.4" stroke="#23765d" stroke-width="3"/>
+<line x1="426.1" y1="216.2" x2="426.2" y2="114.4" stroke="#176b91" stroke-width="3"/>
+<line x1="426.1" y1="216.2" x2="485.4" y2="268.0" stroke="#23765d" stroke-width="3"/>
+<line x1="267.6" y1="275.5" x2="267.6" y2="377.4" stroke="#176b91" stroke-width="3"/>
+<line x1="267.6" y1="275.5" x2="229.1" y2="261.9" stroke="#23765d" stroke-width="3"/>
+<line x1="171.5" y1="191.9" x2="171.4" y2="90.1" stroke="#176b91" stroke-width="3"/>
+<line x1="171.5" y1="191.9" x2="73.7" y2="228.6" stroke="#23765d" stroke-width="3"/>
+<line x1="233.9" y1="213.8" x2="233.8" y2="315.6" stroke="#176b91" stroke-width="3"/>
+<line x1="233.9" y1="213.8" x2="174.6" y2="162.0" stroke="#23765d" stroke-width="3"/>
+<line x1="392.4" y1="154.5" x2="392.4" y2="52.6" stroke="#176b91" stroke-width="3"/>
+<line x1="392.4" y1="154.5" x2="430.9" y2="168.1" stroke="#23765d" stroke-width="3"/>
+<line x1="171.5" y1="191.9" x2="171.4" y2="90.1" stroke="#176b91" stroke-width="3"/>
+<text x="171.4" y="70.3" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="normal">up</text>
+<line x1="488.5" y1="238.1" x2="488.6" y2="339.9" stroke="#176b91" stroke-width="3"/>
+<text x="488.6" y="379.1" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="normal">down</text>
+<text x="740" y="120" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#176b91" text-anchor="middle" font-weight="bold">axial</text>
+<text x="740" y="158" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">vertical, alternating up/down</text>
+<text x="740" y="248" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#23765d" text-anchor="middle" font-weight="bold">equatorial</text>
+<text x="740" y="286" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="middle" font-weight="normal">around the rim, tilted slightly</text>
+<text x="740" y="316" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="middle" font-weight="normal">opposite to that carbon’s axial</text>
+<text x="740" y="360" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="normal">every carbon: one of each</text>
+</svg>

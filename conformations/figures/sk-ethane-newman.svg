@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Staggered and eclipsed ethane</title><desc>Newman projections of staggered (60 degree offset) and eclipsed (0 degree offset) ethane</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<circle cx="250" cy="185" r="46" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="289.83716857408416" y1="162.0" x2="346.99484522385717" y2="129.0" stroke="#153747" stroke-width="3"/>
+<text x="367.7794549146837" y="125.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="250.0" y1="231.0" x2="250.0" y2="297.0" stroke="#153747" stroke-width="3"/>
+<text x="250.0" y="329.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="210.16283142591584" y1="162.0" x2="153.0051547761429" y2="129.0" stroke="#153747" stroke-width="3"/>
+<text x="132.22054508531636" y="125.39999999999998" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="250" y1="185" x2="250.0" y2="95.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="250.0" y="81.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="250" y1="185" x2="327.9422863405995" y2="230.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="346.99484522385717" y="249.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="250" y1="185" x2="172.05771365940052" y2="230.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="153.00515477614286" y="249.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="250" cy="185" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<circle cx="710" cy="185" r="46" stroke="#153747" fill="white" stroke-width="3"/>
+<line x1="721.1284071975847" y1="140.36639659130415" x2="737.0952523071628" y2="76.3268786570884" stroke="#153747" stroke-width="3"/>
+<text x="742.9013778015548" y="61.43978122646447" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="743.089630815578" y1="216.95428504111388" x2="790.5660576379289" y2="262.8017374914077" stroke="#153747" stroke-width="3"/>
+<text x="807.8302128460566" y="287.8735383824236" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="665.7819619868374" y1="197.67931836758197" x2="602.3386900549083" y2="215.8713838515039" stroke="#153747" stroke-width="3"/>
+<text x="579.2684093523886" y="230.8866803911119" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<line x1="710" y1="185" x2="710.0" y2="95.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="710.0" y="85.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="710" y1="185" x2="787.9422863405995" y2="230.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="803.5307436087194" y="247.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<line x1="710" y1="185" x2="632.0577136594005" y2="230.0" stroke="#176b91" stroke-width="3.5"/>
+<text x="616.4692563912806" y="247.4" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#176b91" text-anchor="middle" font-weight="bold">H</text>
+<circle cx="710" cy="185" r="5" stroke="#153747" fill="#153747" stroke-width="3"/>
+<text x="250" y="355" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">staggered · rear bonds 60° off</text>
+<text x="710" y="355" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">eclipsed · rear bonds lined up</text>
+<text x="710" y="388" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#6b7f8a" text-anchor="middle" font-weight="normal">(drawn slightly offset so you can see them)</text>
+</svg>
