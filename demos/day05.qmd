@@ -1,33 +1,11 @@
 ---
 title: 'Day 5: Extraction extension: supply the missing partition information'
+toc: false
+search: false
 ---
 
-A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
-
-## Predict first
-
-If only neutral HA enters the organic phase, will raising aqueous pH increase or decrease the total solute recovered there? What extra information beyond pH and pKa must the model use?
+[Open the Day 5 demo in Exercises](../practice/day05.qmd#explore).
 
 ```{=html}
-<section class="chem-demo" id="day05">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked worked practice below remain available.</noscript></section>
-<script src="../interactives/core.js"></script>
-<script src="../interactives/foundations.js"></script>
+<script>window.location.replace("../practice/day05.html#explore");</script>
 ```
-
-## Explore
-
-1. Keep P = 10 and equal 50 mL phases. Compare the mostly neutral and mostly ionised acid presets. Explain why aqueous deprotonation changes the effective distribution ratio D.
-
-2. Hold the aqueous pH fixed. Double the organic-phase volume, then double the aqueous-phase volume instead. Predict the direction of organic recovery before each change.
-
-3. Change P while holding pH and volumes fixed. State which property P represents and why changing P is not the same operation as changing acid strength. Reset and compare all three total-solute fractions.
-
-## Take-away
-
-Explain why an aqueous ionisation curve alone cannot predict extraction. Which additional assumptions would fail if ion pairing carried A⁻ into the organic phase?
-
-## Model and limits
-
-Teaching extension: only neutral HA partitions, with P = [HA]organic/[HA]aqueous; A⁻ stays in water. Aqueous pH is externally fixed, equilibrium is reached, volumes remain constant and phases are immiscible. D = P/(1 + 10^(pH − pKa)); organic fraction = D Vorg/(Vaq + D Vorg). Both volumes use the same units. The equal-height layer drawing is schematic; layer order does not predict solvent density. This is not an experimental extraction protocol.
-
-Continue with the [standalone worked practice](../practice/day05.qmd).

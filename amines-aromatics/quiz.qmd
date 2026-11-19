@@ -53,5 +53,5 @@ Identify the neighbouring structural feature that changes its electron availabil
 Peptide nitrogen is directly attached to a carbonyl as part of an amide. Its pair delocalises into C=O, unlike the pair in a simple alkylamine.
 :::
 
-Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+Return to the [exercises](exercise.qmd) for any reasoning you
 could not reconstruct. Explain one corrected mistake in your own words.

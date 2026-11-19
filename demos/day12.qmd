@@ -1,29 +1,11 @@
 ---
-title: "Day 12: Rotate a Newman view into anti alignment"
+title: 'Day 12: Rotate a Newman view into anti alignment'
+toc: false
+search: false
 ---
 
-Use this explorer for about **7–10 minutes**. Make a prediction first, change one input at a time, and record a chemical explanation rather than only a screenshot.
-
-## Explore the chemistry
+[Open the Day 12 demo in Exercises](../elimination-addition/exercise.qmd#explore).
 
 ```{=html}
-<section class="chem-demo" id="day12" aria-label="Rotate a Newman view into anti alignment"></section>
-<script src="../interactives/core.js"></script>
-<script src="../interactives/reactivity.js"></script>
+<script>window.location.replace("../elimination-addition/exercise.html#explore");</script>
 ```
-
-## Prediction, exploration and explanation
-
-**Predict (1 minute).** Keep front H1 at twelve o’clock. At which rear-Br angle will H1–Cβ–Cα–Br be 180°? Repeat mentally for H2 at four o’clock.
-
-**Explore (3–4 minutes).** Choose a reacting front hydrogen and rotate the rear carbon. Find anti alignment without the preset, then use “Align selected H anti” to check. Change the selected H without changing rotation. Does the same conformation remain eligible for that different H?
-
-**Explain (2–3 minutes).** Draw one aligned Newman view on paper, then the three E2 electron-pair arrows and possible ethene product. Explain what stays unchanged during rotation and why alignment alone does not establish reaction speed or the dominant pathway.
-
-## Supplied model and its limits
-
-The explicit substrate is bromoethane, CH₃CH₂Br. View from its beta CH₃ (front) to alpha CH₂Br (rear). Front hydrogens stay fixed at 0°, 120° and 240°; rear Br and its two H atoms rotate together. A **±10° teaching window** labels near 180° as near anti; it is not a kinetic threshold or reaction probability. This is a geometry model only: suitable nucleophiles can make primary bromoethane favour substitution instead of elimination.
-
-## Carry the explanation into practice
-
-Return to the local [elimination addition lesson](../elimination-addition/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved. The interactive works locally and needs no online account or additional software packages.

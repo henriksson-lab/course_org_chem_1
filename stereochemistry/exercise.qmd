@@ -1,8 +1,8 @@
 ---
-title: "Stereochemical reasoning: standalone practice bank"
+title: "Day 7: Exercises — Stereochemistry"
 ---
 
-Use the [lecture](lec.qmd) and the refresher below; no textbook or external problem sheet is needed. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R. The separate computing task does not count as paper chemistry.
+Draw and compare stereoisomers, assign R/S and E/Z, and explain each priority decision. Review the [lecture](lec.qmd) when you need a drawing convention. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R.
 
 ### Tools and worked start
 
@@ -299,3 +299,7 @@ sign or a biological effect.
 ## Review your work
 
 Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.
+
+## Explore {#explore}
+
+{{< include ../demos/_day07.qmd >}}

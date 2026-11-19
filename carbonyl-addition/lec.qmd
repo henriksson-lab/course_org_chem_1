@@ -408,11 +408,11 @@ Reserve 2 minutes for a complete individual drawing, then compare one mechanism 
 :::
 
 ::: notes
-Session budget45 minutes:roughly27–29 minutes of concise explanations/visual inspection, about 11–13 minutes of individual drawing and predictions distributed through the sequence, and4–6 minutes of discussion/closing checks. Adjust to observed errors; the 40 second metadata is a planning guide, not a quota. Required paper practice and optional transfer are available in the exercise bank.
+Session budget45 minutes:roughly27–29 minutes of concise explanations/visual inspection, about 11–13 minutes of individual drawing and predictions distributed through the sequence, and4–6 minutes of discussion/closing checks. Adjust to observed errors; the 40 second metadata is a planning guide, not a quota. Required paper practice and optional transfer are available in the exercises.
 :::
 
 ## Use the same reasoning in practice
 
-Complete the [practice and worked examples](exercise.qmd), then the [self-check](quiz.qmd).
+Complete the [exercises](exercise.qmd), then the [self-check](quiz.qmd).
 
 Optional textbook support: selected Solomons chapter 16 sections. The [reading guide](../reference/reading.qmd) explains the provisional book mapping.

@@ -389,7 +389,7 @@ For a balanced 1:1 synthesis with 10 and 15 mmol reagents, predict the limiting 
 
 ## Use the same reasoning in practice
 
-Complete the [practice and worked examples](exercise.qmd), then the [self-check](quiz.qmd).
+Complete the [exercises](exercise.qmd), then the [self-check](quiz.qmd).
 
 Optional textbook support: selected Solomons chapter 11–12 sections. The [reading guide](../reference/reading.qmd) explains the provisional book mapping.
 

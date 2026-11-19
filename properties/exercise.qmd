@@ -1,8 +1,10 @@
 ---
-title: "Structure, interactions and IR: standalone practice bank"
+title: "Day 2: Exercises — Properties and IR"
 ---
 
-Use the [lecture](lec.qmd) and the refresher below; no textbook or external problem sheet is needed. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R. The separate computing task does not count as paper chemistry.
+Use bond polarity, intermolecular interactions and IR observations to explain the structures below. Use the [lecture](lec.qmd) and the refresher below when needed.
+
+**Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when the session also includes R.
 
 ### Tools and worked start
 
@@ -258,3 +260,7 @@ Aqueous speciation supplies only species ratios. Partition coefficients, phase v
 ## Review your work
 
 Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.
+
+## Explore {#explore}
+
+{{< include ../demos/_day02.qmd >}}

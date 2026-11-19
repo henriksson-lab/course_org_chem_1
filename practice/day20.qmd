@@ -1,12 +1,12 @@
 ---
-title: "Day 20: Nitrogen, aromaticity and amino-acid charge"
+title: "Day 20: Exercises — Nitrogen, aromaticity and charge"
 ---
 
-A **150-minute consolidation block**, containing 12 non-R problems. No book is
-needed. Suggested timing:10 minutes retrieval;48 minutes for problems 1–6;
-48 minutes for 7–10;34 minutes for 11–12;10 minutes review. The slower drawing
-and comparison intervals are included in that total. Continue unfinished work
-as independent practice rather than rushing a mechanism.
+Use nitrogen lone pairs, aromaticity and proton transfers to explain basicity
+and amino-acid charge. Allow **150 minutes**: 10 minutes to recall the key ideas,
+48 minutes for problems **1–6**, 48 minutes for **7–10**, 34 minutes for **11–12**,
+and 10 minutes to review. These timings include drawing and comparison;
+continue unfinished problems later rather than rushing a mechanism.
 
 Local explanations: [Amines and aromatics](../amines-aromatics/exercise.qmd) and [acyl chemistry](../acyl-chemistry/exercise.qmd).
 
@@ -20,8 +20,6 @@ K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and
 Apparent isolated yield=100×isolated/theoretical product mass. TLC uses
 Rf=spot/front distances from the same origin. For simple first-order NMR,
 n adjacent equivalent H give n +1 lines while integration counts H area.
-Every additional structure, constant and observation needed is supplied in
-the individual problem; no unseen textbook table is assumed.
 
 ## 1. Count N substituents
 
@@ -172,3 +170,7 @@ Compatible pKa values compare proton-transfer basicity. Substrate structure, ste
 Choose two corrected errors: one in a drawing/calculation and one in an
 interpretation. Explain why the corrected answer follows from the supplied
 inputs. Keep the first attempt so you can see the change in your reasoning.
+
+## Explore {#explore}
+
+{{< include ../demos/_day20.qmd >}}

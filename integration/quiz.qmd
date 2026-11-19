@@ -53,5 +53,5 @@ Give the ingredients of an evidence-based conclusion and a reproducible report.
 State a chemical claim, observations, a reason connecting them, a limitation and a next test. Save raw inputs and code so a fresh R session can recreate tables and plots; separately check chemical validity.
 :::
 
-Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+Return to the [exercises](exercise.qmd) for any reasoning you
 could not reconstruct. Explain one corrected mistake in your own words.

@@ -1,13 +1,12 @@
 ---
-title: "Amines and aromaticity: standalone problem bank"
+title: "Day 18: Exercises — Amines and aromaticity"
 ---
 
-This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
-Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
-Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
-mechanism. Use the hints after a first attempt and the worked checks after revising.
-All required definitions, structures, constants and observations are supplied here
-or in the linked local explanations; no textbook problem set is required.
+Use nitrogen lone pairs, conjugate-acid strengths and aromatic electron counts
+to explain the structures and reactions. Work through **1–10** for core work,
+**11–16** for transfer and **17–20** for deeper checks. Allow roughly **2–3 hours**
+across the unit. Attempt each problem before using its hint, then compare your
+revised reasoning with the worked explanation.
 
 ## Working refresher
 
@@ -258,3 +257,7 @@ The left H₂N site is not directly attached to C=O; the right NH is the amide N
 Choose one corrected error and explain what changed in your reasoning. Then
 complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
 all practice above is self-contained.
+
+## Explore {#explore}
+
+{{< include ../demos/_day18.qmd >}}

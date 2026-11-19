@@ -1,59 +1,11 @@
 ---
-title: "Day 23 demo: build and audit a short synthetic route"
+title: 'Day 23 demo: build and audit a short synthetic route'
+toc: false
+search: false
 ---
 
-**Question:** can you reach a target while justifying each functional-group
-change and accounting for the extra reacting molecules?
-
-Allow **10 minutes**: plan for 2, build and revise for 5, then explain one
-accepted and one rejected step for 3. This is a reasoning tool, not a
-laboratory protocol.
+[Open the Day 23 demo in Exercises](../integration/exercise.qmd#explore).
 
 ```{=html}
-<section class="chem-demo" id="day23" aria-label="Short functional-group route builder with undo and explicit reaction accounting">
-<p>Enable JavaScript to select a target, propose transformations and inspect accepted bond changes.</p>
-</section>
-<script src="../interactives/core.js"></script>
-<script src="../interactives/applications.js"></script>
+<script>window.location.replace("../integration/exercise.html#explore");</script>
 ```
-
-## Predict
-
-Starting with ethanol, propose a route to ethyl ethanoate through ethanoic
-acid. The acid-derived and alcohol-derived fragments cannot both arise from
-one two-carbon molecule without another carbon source. Identify the needed
-**separate ethanol portion** before building the route.
-
-## Explore
-
-1. Select a transformation and press **Apply**. A rejected step leaves the
-   current structure unchanged and explains the mismatch.
-2. Reach the acid, then esterify using a separate ethanol portion. Inspect the
-   explicit ethanol reactant and water product.
-3. Undo a step and try oxidation via the aldehyde instead.
-4. Hydrolyse the ester in base. Why does the current structure become
-   carboxylate rather than neutral acid? Apply acid work-up separately.
-5. Reset and try the shorter acid target.
-
-## Worked route and accounting
-
-One accepted route is ethanol → ethanoic acid → ethyl ethanoate. Esterification
-uses the balanced net comparison
-
-$$\mathrm{CH_3COOH+CH_3CH_2OH\rightleftharpoons CH_3COOCH_2CH_3+H_2O}.$$
-
-It therefore supplies the added two-carbon fragment explicitly. A longer
-route can go through ethanal before further oxidation. Base-promoted ester
-hydrolysis gives ethanoate and ethanol; a later hydronium transfer gives the
-neutral acid and water.
-
-## Model limits
-
-Only the listed small toolkit is implemented. An unsupported choice means
-that it is not justified by this supplied toolkit, not that chemistry can
-never achieve any related change. **[O]** is a net oxidation equivalent,
-not an identified reagent. **H:⁻** represents hydride-equivalent delivery from
-a suitable reagent, not free hydride persisting in water; proton donation is
-explicitly included afterward. Actual selectivity, conversion, equilibrium
-and isolated yield need suitable conditions and observations. Review
-[local synthesis reasoning](../synthesis-evidence/exercise.qmd).

@@ -21,14 +21,14 @@ distracts from the chemistry.
 ## Session pacing and daily paper practice
 
 Each of the 25 study days also has a short interactive exploration, linked
-directly from the left sidebar. Use its 5–10 minute prediction/change/explanation
+directly from its day in the left sidebar to the Exercises `#explore` section. Use its 5–10 minute prediction/change/explanation
 task within an existing worked-example or drawing block, or as optional
 independent exploration. It does not add another compulsory block to each
 45-minute lecture. The daily paper problems and R report remain important.
 
 All workbenches are local classic JavaScript and SVG, with no installation,
 account, CDN or data submission. `demos/index.qmd` lists their purposes;
-`plan/demos.json` maps pages, runtimes and days. `make demo-check` checks the
+`plan/demos.json` maps exercise anchors, shared partials, compatibility URLs, runtimes and days. `make demo-check` checks the
 local runtimes, sidebar destinations and pure chemical/numerical anchors.
 Optional `make demo-browser` opens every demo in Chrome with external requests
 blocked, changes real controls, checks reset and invalid inputs, and inspects

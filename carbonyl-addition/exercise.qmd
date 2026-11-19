@@ -1,8 +1,8 @@
 ---
-title: "Carbonyl addition:20 problems"
+title: "Day 16: Exercises — Carbonyl addition"
 ---
 
-Use problems 1–12 as the **core route (about 80–100 minutes)**. Problems 13–20 are optional transfer practice (another 45–65 minutes); select them to target mistakes rather than adding every problem to required contact time. Paper/model drawing is central. All inputs and conventions needed are below; no textbook purchase or external problem set is required.
+Draw carbonyl-addition mechanisms, track oxygen atoms and check each proton transfer. Use **problems 1–12** for core work (about **80–100 minutes**); choose from **13–20** for optional transfer work (another **45–65 minutes**), focusing on the steps you need to practise.
 
 ## Local refresher and worked starting example
 
@@ -259,3 +259,7 @@ A plausible mechanism does not supply the equilibrium constant or species concen
 ## Check your progress
 
 Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.
+
+## Explore {#explore}
+
+{{< include ../demos/_day16.qmd >}}

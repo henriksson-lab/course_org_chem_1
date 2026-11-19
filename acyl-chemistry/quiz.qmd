@@ -53,5 +53,5 @@ Why is a tetrahedral aldehyde intermediate not normally converted to an acyl-sub
 That would require loss of hydride, a very poor leaving group in this setting. Aldehydes normally undergo carbonyl addition rather than this acyl-substitution analogy.
 :::
 
-Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+Return to the [exercises](exercise.qmd) for any reasoning you
 could not reconstruct. Explain one corrected mistake in your own words.

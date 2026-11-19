@@ -1,0 +1,56 @@
+section: Week 1
+contents:
+- section: 'Day 1: Reading organic structures'
+  contents:
+  - text: Lecture
+    href: structures/lec.qmd
+  - text: Exercises
+    href: structures/exercise.qmd
+  - text: Self-check
+    href: structures/quiz.qmd
+  - text: 'Demo: Molecules and hidden hydrogens'
+    href: structures/exercise.qmd#explore
+- section: 'Day 2: Properties and IR'
+  contents:
+  - text: Lecture
+    href: properties/lec.qmd
+  - text: Exercises
+    href: properties/exercise.qmd
+  - text: Self-check
+    href: properties/quiz.qmd
+  - text: 'Demo: Interactions and properties'
+    href: properties/exercise.qmd#explore
+- section: 'Day 3: Acids, bases and ionisation'
+  contents:
+  - text: Lecture
+    href: acids-bases/lec.qmd
+  - text: Exercises
+    href: acids-bases/exercise.qmd
+  - text: Self-check
+    href: acids-bases/quiz.qmd
+  - text: 'Demo: Aqueous ionisation'
+    href: acids-bases/exercise.qmd#explore
+- section: 'Day 4: Structure and property review'
+  contents:
+  - text: 'Lecture review: Structures'
+    href: structures/lec.qmd
+  - text: 'Lecture review: Properties and IR'
+    href: properties/lec.qmd
+  - text: 'Lecture review: Acids and bases'
+    href: acids-bases/lec.qmd
+  - text: Exercises
+    href: practice/day04.qmd
+  - text: 'Demo: Functional-group inspector'
+    href: practice/day04.qmd#explore
+- section: 'Day 5: Connecting structure, properties and acidity'
+  contents:
+  - text: 'Lecture review: Structures'
+    href: structures/lec.qmd
+  - text: 'Lecture review: Properties and IR'
+    href: properties/lec.qmd
+  - text: 'Lecture review: Acids and bases'
+    href: acids-bases/lec.qmd
+  - text: Exercises
+    href: practice/day05.qmd
+  - text: 'Demo: Ionisation and extraction'
+    href: practice/day05.qmd#explore

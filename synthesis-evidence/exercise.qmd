@@ -1,13 +1,14 @@
 ---
-title: "Synthesis and evidence: standalone problem bank"
+title: "Day 22: Exercises — Synthesis and evidence"
 ---
 
-This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
-Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
-Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
-mechanism. Use the hints after a first attempt and the worked checks after revising.
-All required definitions, structures, constants and observations are supplied here
-or in the linked local explanations; no textbook problem set is required.
+Plan short transformations, calculate the possible product amount and decide what the observations support.
+
+**Core exercises 1–10:** begin here. **Transfer 11–16:** apply the same ideas to
+new cases. **Further checks 17–20:** use these to investigate mistakes and revise.
+Allow roughly **2–3 hours** across the unit, with more time for complete mechanism
+drawings. Attempt each problem before opening its hint, then compare your reasoning
+with the worked explanation.
 
 ## Working refresher
 
@@ -293,3 +294,7 @@ alone cannot supply either.
 Finish with two sentences stating what the observations support and what
 remains uncertain. Optional reading: selected Solomons chapters 8, 12 and 17;
 see the [reading guide](../reference/reading.qmd).
+
+## Explore {#explore}
+
+{{< include ../demos/_day22.qmd >}}

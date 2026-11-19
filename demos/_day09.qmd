@@ -1,0 +1,29 @@
+A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
+
+### Predict first
+
+With G(B) − G(A) = 3500 J/mol at 298.15 K, which state should be more populated? Would adding the same free-energy constant to both states change the fractions?
+
+```{=html}
+<section class="chem-demo" id="day09">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked exercises below remain available.</noscript></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/foundations.js"></script>
+```
+
+### Explore
+
+1. Inspect the starting prediction and verify that fractions A and B sum to one. Compare the relative B/A weight with B’s normalised population fraction.
+
+2. Set equal-state free energies, then make B lower in free energy by moving ΔG below zero. Explain the reversal without assigning a new molecular identity to A or B.
+
+3. Hold the energy gap fixed and vary temperature. Then change only the common reference offset. Explain why the raw state weights can change while normalised fractions do not.
+
+### Take-away
+
+Separate three quantities: relative free-energy difference, normalised equilibrium population and interconversion barrier. Which one is missing for a rate prediction?
+
+### Model and limits
+
+This is a supplied two-effective-state equilibrium model; the state free energies already include degeneracy. Use consistent J/mol, R = 8.314462618 J/(mol K) and kelvin. A and B are abstract conformer states, not an asserted complete inventory of butane conformers. No activation barrier or rate constant is supplied.
+
+Continue with the [exercises](../practice/day09.qmd).

@@ -413,6 +413,6 @@ Session budget45 minutes:roughly27–29 minutes of concise explanations/visual i
 
 ## Use the same reasoning in practice
 
-Complete the [practice and worked examples](exercise.qmd), then the [self-check](quiz.qmd).
+Complete the [exercises](exercise.qmd), then the [self-check](quiz.qmd).
 
 Optional textbook support: selected Solomons chapter 7–8 sections. The [reading guide](../reference/reading.qmd) explains the provisional book mapping.

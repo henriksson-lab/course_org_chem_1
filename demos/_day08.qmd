@@ -1,0 +1,29 @@
+A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
+
+### Predict first
+
+Before choosing arrows, identify the electron source and the electron-poor destination in a supplied proton transfer. Can a full-headed electron-pair arrow begin at an isolated H⁺?
+
+```{=html}
+<section class="chem-demo" id="day08">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked exercises below remain available.</noscript></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/foundations.js"></script>
+```
+
+### Explore
+
+1. Repair the hydroxide/ethanoic-acid step. Choose both pair movements, set the total product charge and check. Follow the original acid O–H pair rather than treating an arrow as the proton’s path.
+
+2. Select carbonyl addition. Compare moving the π pair to O with keeping C=O unchanged as OH⁻ makes a new bond. Check the carbon bond-order count.
+
+3. Select amine protonation. Count N bonds before and after, then explain where hydronium’s original O–H pair goes. Use the valid-step preset only after making your own attempt.
+
+### Take-away
+
+For one step, state both pair origins, both destinations and the total charge check. Which proposed intermediate would violate ordinary carbon valence?
+
+### Model and limits
+
+Full-headed curved arrows represent electron pairs. Deliberately invalid proposals are included for repair and labelled as such; they are not proposed stable products. The carbonyl case isolates its initial elementary addition only, without claiming a final isolated hydrate yield. A valid ordinary tetrahedral carbon has four bond orders.
+
+Continue with the [exercises](../mechanisms/exercise.qmd).

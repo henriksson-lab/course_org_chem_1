@@ -92,11 +92,9 @@ img { max-width: 100%; }
   color: #7a3d00;
 }
 
-/* Exercise / warm-up sidebar entries — italic.
-   We italicise every dayN/ leaf link, then explicitly exclude
-   lectures (lec*), quizzes (*quiz*), and the concept summary
-   (00-concepts) so only the exercises themselves are italic. */
-.sidebar a.sidebar-item-text[href*="/day"]:not([href*="lec"]):not([href*="quiz"]):not([href*="00-concepts"]):not([href*="demos/"]) {
+/* Exercises are italic; direct demo anchors keep their orange styling. */
+.sidebar a.sidebar-item-text[href*="exercise"]:not([href*="#explore"]),
+.sidebar a.sidebar-item-text[href*="/day"]:not([href*="lec"]):not([href*="quiz"]):not([href*="00-concepts"]):not([href*="demos/"]):not([href*="#explore"]) {
   font-style: italic;
 }
 

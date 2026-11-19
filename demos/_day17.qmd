@@ -1,0 +1,25 @@
+Choose electron-pair steps for ester hydrolysis and follow the acid–base trap. Allow **7–10 minutes**: predict first, change one input at a time and explain the result.
+
+### Explore the chemistry
+
+```{=html}
+<section class="chem-demo" id="day17" aria-label="Collapse an acyl intermediate or fall into a proton-transfer trap"></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/reactivity.js"></script>
+```
+
+### Prediction, exploration and explanation
+
+**Predict (1 minute).** For methyl ethanoate plus hydroxide in the supplied basic model, predict the first electron-pair operation. Which group at acyl carbon could leave after a tetrahedral intermediate forms?
+
+**Explore (4–5 minutes).** Try addition, then inspect the tetrahedral intermediate. Test both plausible collapse directions: forward methoxide departure and reversal with hydroxide departure. Follow the forward route, then choose what happens to the transient acid–methoxide pair. Test a hydride or methyl leaving-group proposal and read why it fails.
+
+**Explain (2 minutes).** Draw the accepted addition, collapse and acid–base steps. Use the supplied pKa values to explain why stopping with neutral acid plus methoxide misses the base-condition product. What additional operation would be needed to obtain neutral acid after the basic reaction?
+
+### Supplied model and its limits
+
+The selected model is basic hydrolysis of CH₃C(=O)OCH₃. Addition makes a tetrahedral O⁻ intermediate; collapse can expel methoxide or reverse by expelling hydroxide. Forward collapse gives a transient acid–methoxide pair. Compatible illustrative pKa values are 4.8 for ethanoic acid and 15.5 for methanol, so the proton-transfer equilibrium constant is approximately `10^(15.5−4.8)≈5×10¹⁰` toward carboxylate + methanol. Acid work-up is outside the interactive sequence. No rates, real operating protocol or universal leaving-group ranking is inferred.
+
+### Carry the explanation into practice
+
+Return to the local [exercises](../acyl-chemistry/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved.

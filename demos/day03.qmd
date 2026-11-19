@@ -1,33 +1,11 @@
 ---
 title: 'Day 3: Aqueous acid ionisation: ratio versus fraction'
+toc: false
+search: false
 ---
 
-A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
-
-## Predict first
-
-For pKa 4.8, predict the ionised fraction at pH 4.8 and at pH 5.8. Which value is a ratio and which is a fraction?
+[Open the Day 3 demo in Exercises](../acids-bases/exercise.qmd#explore).
 
 ```{=html}
-<section class="chem-demo" id="day03">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked worked practice below remain available.</noscript></section>
-<script src="../interactives/core.js"></script>
-<script src="../interactives/foundations.js"></script>
+<script>window.location.replace("../acids-bases/exercise.html#explore");</script>
 ```
-
-## Explore
-
-1. Set pH equal to pKa and explain the midpoint in terms of definite HA and A⁻ molecular species.
-
-2. Move pH one unit below and one above pKa. Compare the concentration ratio with the fraction, using fraction = ratio/(1 + ratio).
-
-3. Hold pH fixed and raise pKa. Predict the direction of the change, then inspect the curve and marker. Reset before describing the three-point comparison in your notes.
-
-## Take-away
-
-Explain why a ratio of 10 gives a fraction of 10/11 rather than 10. What structural or physical information does this curve not supply?
-
-## Model and limits
-
-This is a calculated monoprotic-acid model in the dilute aqueous approximation. The supplied pKa and imposed aqueous pH determine [A⁻]/[HA]. The graph is a speciation curve, not a titration curve or an organic-solvent recovery calculation.
-
-Continue with the [standalone worked practice](../acids-bases/exercise.qmd).

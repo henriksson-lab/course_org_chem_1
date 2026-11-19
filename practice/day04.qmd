@@ -1,8 +1,10 @@
 ---
-title: "Day 4: Week 1 workshop: read a structure, explain a property"
+title: "Day 4: Exercises — Structure and property review"
 ---
 
-This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+Read each structure, explain its properties and check the acid–base predictions.
+
+**Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Try each problem before opening its hint, then use the worked answer to check your reasoning.
 
 ### Refresher and worked starting point
 
@@ -158,6 +160,10 @@ n=m/M.
 0.002000 mol=2.000 mmol. Dividing g by g/mol cancels grams and leaves moles. This is not a concentration without a solution volume.
 :::
 
-## Close the workshop
+## Review your solutions
 
 Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.
+
+## Explore {#explore}
+
+{{< include ../demos/_day04.qmd >}}

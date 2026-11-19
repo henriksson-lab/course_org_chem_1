@@ -1,0 +1,52 @@
+section: Week 4
+contents:
+- section: 'Day 16: Carbonyl addition'
+  contents:
+  - text: Lecture
+    href: carbonyl-addition/lec.qmd
+  - text: Exercises
+    href: carbonyl-addition/exercise.qmd
+  - text: Self-check
+    href: carbonyl-addition/quiz.qmd
+  - text: 'Demo: Carbonyl addition'
+    href: carbonyl-addition/exercise.qmd#explore
+- section: 'Day 17: Acyl chemistry'
+  contents:
+  - text: Lecture
+    href: acyl-chemistry/lec.qmd
+  - text: Exercises
+    href: acyl-chemistry/exercise.qmd
+  - text: Self-check
+    href: acyl-chemistry/quiz.qmd
+  - text: 'Demo: Acyl substitution'
+    href: acyl-chemistry/exercise.qmd#explore
+- section: 'Day 18: Amines and aromatics'
+  contents:
+  - text: Lecture
+    href: amines-aromatics/lec.qmd
+  - text: Exercises
+    href: amines-aromatics/exercise.qmd
+  - text: Self-check
+    href: amines-aromatics/quiz.qmd
+  - text: 'Demo: Amine protonation'
+    href: amines-aromatics/exercise.qmd#explore
+- section: 'Day 19: Carbonyl and acyl review'
+  contents:
+  - text: 'Lecture review: Carbonyl addition'
+    href: carbonyl-addition/lec.qmd
+  - text: 'Lecture review: Acyl chemistry'
+    href: acyl-chemistry/lec.qmd
+  - text: Exercises
+    href: practice/day19.qmd
+  - text: 'Demo: Proton-transfer equilibria'
+    href: practice/day19.qmd#explore
+- section: 'Day 20: Nitrogen, resonance and charge'
+  contents:
+  - text: 'Lecture review: Amines and aromatics'
+    href: amines-aromatics/lec.qmd
+  - text: 'Lecture review: Acyl chemistry'
+    href: acyl-chemistry/lec.qmd
+  - text: Exercises
+    href: practice/day20.qmd
+  - text: 'Demo: Amide electron availability'
+    href: practice/day20.qmd#explore

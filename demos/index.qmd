@@ -8,35 +8,35 @@ reason for the change. Most demos fit a 5–10 minute classroom or independent
 activity. They support the existing 45-minute sessions and practice route.
 
 Every demo has a direct link in the left sidebar under its corresponding
-unit or mixed-practice day. No account, R session or external service is needed.
+day. The demo is embedded in that day’s Exercises page. No account, R session or external service is needed.
 
 | Day | Interactive exploration | Question to investigate |
 | --- | --- | --- |
-| 1 | [Molecules and hidden hydrogens](day01.qmd) | Inspect atom counts and connectivity |
-| 2 | [Interactions and properties](day02.qmd) | Compare donors, acceptors and molecular properties |
-| 3 | [Aqueous ionisation](day03.qmd) | Change pH and pKa and inspect the population |
-| 4 | [Functional-group inspector](day04.qmd) | Find groups in molecules with more than one feature |
-| 5 | [Ionisation and extraction](day05.qmd) | Supply the additional partition information explicitly |
-| 6 | [Rotate a Newman projection](day06.qmd) | Relate a changing dihedral to a conformational view |
-| 7 | [Fischer configurations](day07.qmd) | Compare mirror images, swaps and valid rotations |
-| 8 | [Repair electron flow](day08.qmd) | Choose electron sources and destinations |
-| 9 | [Conformer populations](day09.qmd) | Explore supplied relative free energies and temperature |
-| 10 | [Enantiomer mixtures](day10.qmd) | Distinguish major fraction from enantiomeric excess |
-| 11 | [Reaction rate models](day11.qmd) | Compare assumed SN1 and SN2 concentration dependence |
-| 12 | [E2 geometry](day12.qmd) | Find the anti-periplanar arrangement |
-| 13 | [Alcohol oxidation states](day13.qmd) | Track local C–O and C–H bond changes |
-| 14 | [SN1 steps and charge](day14.qmd) | Inspect ionisation, capture and proton transfer |
-| 15 | [Limiting reagent and yield](day15.qmd) | Change amounts and separate mass yield from purity |
-| 16 | [Carbonyl addition](day16.qmd) | Follow oxygen identities and proton transfers |
-| 17 | [Acyl substitution](day17.qmd) | Link addition, collapse and acid–base trapping |
-| 18 | [Amine protonation](day18.qmd) | Compare supplied conjugate-acid pKas at a chosen pH |
-| 19 | [Proton-transfer equilibria](day19.qmd) | Compare acid/base pairs without claiming reaction speed |
-| 20 | [Amide electron availability](day20.qmd) | Inspect resonance and a nitrogen lone pair |
-| 21 | [Spectral candidate lab](day21.qmd) | Combine supplied formula, IR and NMR observations |
-| 22 | [TLC measurements](day22.qmd) | Measure distances and compare retention factors |
-| 23 | [Build a short synthesis](day23.qmd) | Choose transformations and inspect their consequences |
-| 24 | [How strong is a spectral clue?](day24.qmd) | Change the available evidence and test a claim |
-| 25 | [Claims and chemical evidence](day25.qmd) | Separate identity, purity, conversion and isolated yield |
+| 1 | [Molecules and hidden hydrogens](../structures/exercise.qmd#explore) | Inspect atom counts and connectivity |
+| 2 | [Interactions and properties](../properties/exercise.qmd#explore) | Compare donors, acceptors and molecular properties |
+| 3 | [Aqueous ionisation](../acids-bases/exercise.qmd#explore) | Change pH and pKa and inspect the population |
+| 4 | [Functional-group inspector](../practice/day04.qmd#explore) | Find groups in molecules with more than one feature |
+| 5 | [Ionisation and extraction](../practice/day05.qmd#explore) | Supply the additional partition information explicitly |
+| 6 | [Rotate a Newman projection](../conformations/exercise.qmd#explore) | Relate a changing dihedral to a conformational view |
+| 7 | [Fischer configurations](../stereochemistry/exercise.qmd#explore) | Compare mirror images, swaps and valid rotations |
+| 8 | [Repair electron flow](../mechanisms/exercise.qmd#explore) | Choose electron sources and destinations |
+| 9 | [Conformer populations](../practice/day09.qmd#explore) | Explore supplied relative free energies and temperature |
+| 10 | [Enantiomer mixtures](../practice/day10.qmd#explore) | Distinguish major fraction from enantiomeric excess |
+| 11 | [Reaction rate models](../substitution/exercise.qmd#explore) | Compare assumed SN1 and SN2 concentration dependence |
+| 12 | [E2 geometry](../elimination-addition/exercise.qmd#explore) | Find the anti-periplanar arrangement |
+| 13 | [Alcohol oxidation states](../alcohols-redox/exercise.qmd#explore) | Track local C–O and C–H bond changes |
+| 14 | [SN1 steps and charge](../practice/day14.qmd#explore) | Inspect ionisation, capture and proton transfer |
+| 15 | [Limiting reagent and yield](../practice/day15.qmd#explore) | Change amounts and separate mass yield from purity |
+| 16 | [Carbonyl addition](../carbonyl-addition/exercise.qmd#explore) | Follow oxygen identities and proton transfers |
+| 17 | [Acyl substitution](../acyl-chemistry/exercise.qmd#explore) | Link addition, collapse and acid–base trapping |
+| 18 | [Amine protonation](../amines-aromatics/exercise.qmd#explore) | Compare supplied conjugate-acid pKas at a chosen pH |
+| 19 | [Proton-transfer equilibria](../practice/day19.qmd#explore) | Compare acid/base pairs without claiming reaction speed |
+| 20 | [Amide electron availability](../practice/day20.qmd#explore) | Inspect resonance and a nitrogen lone pair |
+| 21 | [Spectral candidate lab](../spectroscopy/exercise.qmd#explore) | Combine supplied formula, IR and NMR observations |
+| 22 | [TLC measurements](../synthesis-evidence/exercise.qmd#explore) | Measure distances and compare retention factors |
+| 23 | [Build a short synthesis](../integration/exercise.qmd#explore) | Choose transformations and inspect their consequences |
+| 24 | [How strong is a spectral clue?](../practice/day24.qmd#explore) | Change the available evidence and test a claim |
+| 25 | [Claims and chemical evidence](../practice/day25.qmd#explore) | Separate identity, purity, conversion and isolated yield |
 
 ## Use a model with its assumptions
 

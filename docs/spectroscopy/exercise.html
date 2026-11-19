@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Spectroscopy: standalone problem bank – Organic Chemistry 1</title>
+<title>Day 21: Exercises — Structure from spectra – Organic Chemistry 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,6 +103,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -147,7 +176,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 5</li><li class="breadcrumb-item"><a href="../spectroscopy/lec.html">13. Structure from spectra</a></li><li class="breadcrumb-item"><a href="../spectroscopy/exercise.html">Practice and worked examples</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 5</li><li class="breadcrumb-item"><a href="../spectroscopy/lec.html">Day 21: Structure from spectra</a></li><li class="breadcrumb-item"><a href="../spectroscopy/exercise.html">Exercises</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -191,7 +220,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practice/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Daily chemistry practice</span></a>
+ <span class="menu-text">Daily exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -244,7 +273,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
- <span class="menu-text">1. Reading organic structures</span></a>
+ <span class="menu-text">Day 1: Reading organic structures</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -253,13 +282,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../structures/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../structures/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -270,7 +299,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day01.html" class="sidebar-item-text sidebar-link">
+  <a href="../structures/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Molecules and hidden hydrogens</span></a>
   </div>
 </li>
@@ -279,7 +308,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
- <span class="menu-text">2. Properties and IR</span></a>
+ <span class="menu-text">Day 2: Properties and IR</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -288,13 +317,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../properties/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../properties/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -305,7 +334,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day02.html" class="sidebar-item-text sidebar-link">
+  <a href="../properties/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Interactions and properties</span></a>
   </div>
 </li>
@@ -314,7 +343,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
- <span class="menu-text">3. Acids, bases and ionisation</span></a>
+ <span class="menu-text">Day 3: Acids, bases and ionisation</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -323,13 +352,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../acids-bases/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../acids-bases/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -340,51 +369,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day03.html" class="sidebar-item-text sidebar-link">
+  <a href="../acids-bases/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Aqueous ionisation</span></a>
   </div>
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 4: Structure and property review</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../structures/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Structures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../properties/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Properties and IR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../acids-bases/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Acids and bases</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practice/day04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 4: Mixed practice</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day04.html" class="sidebar-item-text sidebar-link">
+  <a href="../practice/day04.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Functional-group inspector</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../practice/day05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 5: Transfer practice</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../demos/day05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Demo: Ionisation and extraction</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">Week 2</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
- <span class="menu-text">4. Conformations</span></a>
+ <span class="menu-text">Day 5: Connecting structure, properties and acidity</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -392,14 +427,66 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../structures/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Structures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../properties/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Properties and IR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../acids-bases/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Acids and bases</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exercises</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day05.html#explore" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demo: Ionisation and extraction</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">Week 2</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 6: Conformations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../conformations/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../conformations/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -410,7 +497,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day06.html" class="sidebar-item-text sidebar-link">
+  <a href="../conformations/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Rotate a Newman projection</span></a>
   </div>
 </li>
@@ -418,23 +505,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
- <span class="menu-text">5. Stereochemistry</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 7: Stereochemistry</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../stereochemistry/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../stereochemistry/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -445,7 +532,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day07.html" class="sidebar-item-text sidebar-link">
+  <a href="../stereochemistry/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Fischer configurations</span></a>
   </div>
 </li>
@@ -453,23 +540,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
- <span class="menu-text">6. Electron flow and mechanisms</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 8: Electron flow and mechanisms</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../mechanisms/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../mechanisms/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -480,66 +567,112 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day08.html" class="sidebar-item-text sidebar-link">
+  <a href="../mechanisms/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Repair electron flow</span></a>
   </div>
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 9: Models, rotations and configurations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practice/day09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 9: Mixed practice</span></a>
+  <a href="../conformations/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Conformations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day09.html" class="sidebar-item-text sidebar-link">
+  <a href="../stereochemistry/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Stereochemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exercises</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day09.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Conformer populations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 10: Stereochemistry and mixtures</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../conformations/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Conformations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../stereochemistry/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Stereochemistry</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practice/day10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 10: Transfer practice</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day10.html" class="sidebar-item-text sidebar-link">
+  <a href="../practice/day10.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Enantiomer mixtures</span></a>
   </div>
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
  <span class="menu-text">Week 3</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
- <span class="menu-text">7. Substitution</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 11: Substitution</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../substitution/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../substitution/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -550,7 +683,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day11.html" class="sidebar-item-text sidebar-link">
+  <a href="../substitution/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Reaction rate models</span></a>
   </div>
 </li>
@@ -558,23 +691,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
- <span class="menu-text">8. Elimination and addition</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 12: Elimination and addition</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../elimination-addition/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../elimination-addition/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -585,7 +718,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day12.html" class="sidebar-item-text sidebar-link">
+  <a href="../elimination-addition/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: E2 geometry</span></a>
   </div>
 </li>
@@ -593,23 +726,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
- <span class="menu-text">9. Alcohols and redox</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 13: Alcohols and redox</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../alcohols-redox/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../alcohols-redox/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -620,66 +753,106 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day13.html" class="sidebar-item-text sidebar-link">
+  <a href="../alcohols-redox/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Alcohol oxidation states</span></a>
   </div>
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 14: Reaction-mechanism review</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practice/day14.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 14: Mixed practice</span></a>
+  <a href="../substitution/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Substitution</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day14.html" class="sidebar-item-text sidebar-link">
+  <a href="../elimination-addition/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Elimination and addition</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exercises</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day14.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: SN1 steps and charge</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 15: Redox, amounts and evidence</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../alcohols-redox/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Alcohols and redox</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practice/day15.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 15: Transfer practice</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day15.html" class="sidebar-item-text sidebar-link">
+  <a href="../practice/day15.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Limiting reagent and yield</span></a>
   </div>
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true">
  <span class="menu-text">Week 4</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false">
- <span class="menu-text">10. Carbonyl addition</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 16: Carbonyl addition</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../carbonyl-addition/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../carbonyl-addition/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -690,7 +863,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day16.html" class="sidebar-item-text sidebar-link">
+  <a href="../carbonyl-addition/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Carbonyl addition</span></a>
   </div>
 </li>
@@ -698,23 +871,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false">
- <span class="menu-text">11. Acyl chemistry</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 17: Acyl chemistry</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../acyl-chemistry/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../acyl-chemistry/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -725,7 +898,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day17.html" class="sidebar-item-text sidebar-link">
+  <a href="../acyl-chemistry/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Acyl substitution</span></a>
   </div>
 </li>
@@ -733,23 +906,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false">
- <span class="menu-text">12. Amines and aromatics</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 18: Amines and aromatics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amines-aromatics/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amines-aromatics/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -760,66 +933,112 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day18.html" class="sidebar-item-text sidebar-link">
+  <a href="../amines-aromatics/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Amine protonation</span></a>
   </div>
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 19: Carbonyl and acyl review</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practice/day19.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 19: Mixed practice</span></a>
+  <a href="../carbonyl-addition/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Carbonyl addition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day19.html" class="sidebar-item-text sidebar-link">
+  <a href="../acyl-chemistry/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Acyl chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day19.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exercises</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day19.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Proton-transfer equilibria</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 20: Nitrogen, resonance and charge</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amines-aromatics/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Amines and aromatics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../acyl-chemistry/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Acyl chemistry</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practice/day20.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 20: Transfer practice</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day20.html" class="sidebar-item-text sidebar-link">
+  <a href="../practice/day20.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Amide electron availability</span></a>
   </div>
 </li>
       </ul>
   </li>
+      </ul>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" role="navigation" aria-expanded="true">
  <span class="menu-text">Week 5</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
- <span class="menu-text">13. Structure from spectra</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" role="navigation" aria-expanded="true">
+ <span class="menu-text">Day 21: Structure from spectra</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../spectroscopy/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../spectroscopy/exercise.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -830,7 +1049,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day21.html" class="sidebar-item-text sidebar-link">
+  <a href="../spectroscopy/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Spectral candidate lab</span></a>
   </div>
 </li>
@@ -838,23 +1057,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="false">
- <span class="menu-text">14. Synthesis and evidence</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 22: Synthesis and evidence</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../synthesis-evidence/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../synthesis-evidence/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -865,7 +1084,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day22.html" class="sidebar-item-text sidebar-link">
+  <a href="../synthesis-evidence/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: TLC measurements</span></a>
   </div>
 </li>
@@ -873,23 +1092,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false">
- <span class="menu-text">15. Putting the chemistry together</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 23: Integrated chemistry</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../integration/lec.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lecture slides</span></a>
+ <span class="menu-text">Lecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../integration/exercise.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practice and worked examples</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -900,36 +1119,88 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day23.html" class="sidebar-item-text sidebar-link">
+  <a href="../integration/exercise.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Build a short synthesis</span></a>
   </div>
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 24: Spectral evidence and synthesis calculations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../practice/day24.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 24: Mixed practice</span></a>
+  <a href="../spectroscopy/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Spectroscopy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day24.html" class="sidebar-item-text sidebar-link">
+  <a href="../synthesis-evidence/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Synthesis and evidence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day24.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Exercises</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../practice/day24.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: How strong is a spectral clue?</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-31" role="navigation" aria-expanded="false">
+ <span class="menu-text">Day 25: Final synthesis and interpretation</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-31" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-31" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../integration/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Integrated chemistry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../spectroscopy/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Spectroscopy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../synthesis-evidence/lec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture review: Synthesis and evidence</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../practice/day25.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 25: Transfer practice</span></a>
+ <span class="menu-text">Exercises</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../demos/day25.html" class="sidebar-item-text sidebar-link">
+  <a href="../practice/day25.html#explore" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demo: Claims and chemical evidence</span></a>
   </div>
 </li>
+      </ul>
+  </li>
       </ul>
   </li>
     </ul>
@@ -965,15 +1236,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#plan-an-independent-next-check" id="toc-plan-an-independent-next-check" class="nav-link" data-scroll-target="#plan-an-independent-next-check">20. Plan an independent next check</a></li>
   <li><a href="#r-task-present-an-ir-comparison" id="toc-r-task-present-an-ir-comparison" class="nav-link" data-scroll-target="#r-task-present-an-ir-comparison">R task: present an IR comparison</a></li>
   <li><a href="#leave-with" id="toc-leave-with" class="nav-link" data-scroll-target="#leave-with">Leave with</a></li>
+  <li><a href="#explore" id="toc-explore" class="nav-link" data-scroll-target="#explore">Explore</a>
+  <ul class="collapse">
+  <li><a href="#predict" id="toc-predict" class="nav-link" data-scroll-target="#predict">Predict</a></li>
+  <li><a href="#explore-1" id="toc-explore-1" class="nav-link" data-scroll-target="#explore-1">Explore</a></li>
+  <li><a href="#supplied-data-and-worked-check" id="toc-supplied-data-and-worked-check" class="nav-link" data-scroll-target="#supplied-data-and-worked-check">Supplied data and worked check</a></li>
+  <li><a href="#model-limits" id="toc-model-limits" class="nav-link" data-scroll-target="#model-limits">Model limits</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 5</li><li class="breadcrumb-item"><a href="../spectroscopy/lec.html">13. Structure from spectra</a></li><li class="breadcrumb-item"><a href="../spectroscopy/exercise.html">Practice and worked examples</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 5</li><li class="breadcrumb-item"><a href="../spectroscopy/lec.html">Day 21: Structure from spectra</a></li><li class="breadcrumb-item"><a href="../spectroscopy/exercise.html">Exercises</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Spectroscopy: standalone problem bank</h1>
+<h1 class="title">Day 21: Exercises — Structure from spectra</h1>
 </div>
 
 
@@ -990,10 +1268,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This bank supplies <strong>20 non-R chemistry problems</strong>, with hints and worked explanations. Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks. Allow roughly 2–3 hours across the unit, taking longer where you draw a complete mechanism. Use the hints after a first attempt and the worked checks after revising. All required definitions, structures, constants and observations are supplied here or in the linked local explanations; no textbook problem set is required.</p>
+<p>Use molecular formulas, IR observations and NMR patterns to test proposed structures.</p>
+<p><strong>Core exercises 1–10:</strong> begin here. <strong>Transfer 11–16:</strong> apply the same ideas to new cases. <strong>Further checks 17–20:</strong> use these to investigate mistakes and revise. Allow roughly <strong>2–3 hours</strong> across the unit, with more time for complete mechanism drawings. Attempt each problem before opening its hint, then compare your reasoning with the worked explanation.</p>
 <section id="working-refresher" class="level2">
 <h2 class="anchored" data-anchor-id="working-refresher">Working refresher</h2>
-<p>All numerical spectra in this bank are <strong>simulated teaching examples</strong>. For ordinary closed-shell C/H/O formulas use DBE=(2C+2−H)/2; O is omitted from this simple count. IR transmittance dips indicate absorption: broad alcohol O–H is often near 3200–3600 cm⁻¹, acid O–H can extend broadly around 2500–3300 cm⁻¹ and carbonyls occupy roughly 1650–1800 cm⁻¹ depending on structure. In our simple first-order proton NMR model, n equivalent adjacent H give n +1 lines; integral gives relative total H area. A singlet/triplet/quartet has 1/3/4 lines. These shortcuts do not describe all real coupling or exchange. Chemical shifts are in ppm; supplied values are illustrative. Candidate tests and drawings are available in <a href="../spectroscopy/lec.html">the lecture</a>.</p>
+<p>All numerical spectra below are <strong>simulated teaching examples</strong>. For ordinary closed-shell C/H/O formulas use DBE=(2C+2−H)/2; O is omitted from this simple count. IR transmittance dips indicate absorption: broad alcohol O–H is often near 3200–3600 cm⁻¹, acid O–H can extend broadly around 2500–3300 cm⁻¹ and carbonyls occupy roughly 1650–1800 cm⁻¹ depending on structure. In our simple first-order proton NMR model, n equivalent adjacent H give n +1 lines; integral gives relative total H area. A singlet/triplet/quartet has 1/3/4 lines. These shortcuts do not describe all real coupling or exchange. Chemical shifts are in ppm; supplied values are illustrative. Candidate tests and drawings are available in <a href="../spectroscopy/lec.html">the lecture</a>.</p>
 </section>
 <section id="calculate-one-formula-constraint" class="level2">
 <h2 class="anchored" data-anchor-id="calculate-one-formula-constraint">1. Calculate one formula constraint</h2>
@@ -1752,8 +2031,41 @@ Interpretation check
 <section id="leave-with" class="level2">
 <h2 class="anchored" data-anchor-id="leave-with">Leave with</h2>
 <p>A fully annotated structure, a rejected alternative, and a knitted Rmd section with a labelled IR comparison. Read selected Solomons chapters 2 and 9 through the <a href="../reference/reading.html">reading guide</a>.</p>
+</section>
+<section id="explore" class="level2">
+<h2 class="anchored" data-anchor-id="explore">Explore</h2>
+<p><strong>Question:</strong> what changes when a candidate must explain a complete set of observations rather than only its molecular formula?</p>
+<p>Allow <strong>10 minutes</strong>: predict for 2, inspect competing candidates for 5, then write an assignment and limitation for 3. All traces are fixed <strong>simulated teaching data</strong>, not measured sample spectra.</p>
+<section class="chem-demo" id="day21" aria-label="Simulated IR and proton-NMR candidate-testing laboratory">
+<p>Enable JavaScript to compare a drawn candidate against supplied formula, IR and NMR clues.</p>
+</section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/applications.js"></script>
+<section id="predict" class="level3">
+<h3 class="anchored" data-anchor-id="predict">Predict</h3>
+<p>Unknown U1 is <strong>C₄H₈O₂</strong>. Could both an ester and a carboxylic acid fit the formula? Which observation would make a stronger comparison than the formula alone?</p>
+<p>For simple first-order proton NMR here, <span class="math inline">\(n\)</span> equivalent neighbouring H give <span class="math inline">\(n+1\)</span> lines. Integration counts relative H area; a quartet’s four lines do not mean four H. In an IR transmittance trace, absorption appears as a dip.</p>
+</section>
+<section id="explore-1" class="level3">
+<h3 class="anchored" data-anchor-id="explore-1">Explore</h3>
+<ol type="1">
+<li>Compare ethyl ethanoate and butanoic acid using <strong>Formula only</strong>.</li>
+<li>Add the complete IR and identify which functional-group prediction changes.</li>
+<li>Use all clues. Assign the 2H quartet, 3H triplet and remaining 3H singlet in U1 rather than merely selecting the green outcome.</li>
+<li>Try <strong>Second unknown</strong> and test ethanol against dimethyl ether. Then reset.</li>
+</ol>
+</section>
+<section id="supplied-data-and-worked-check" class="level3">
+<h3 class="anchored" data-anchor-id="supplied-data-and-worked-check">Supplied data and worked check</h3>
+<p>U1 has carbonyl absorption without a broad O–H feature and proton signals <strong>1.25 ppm triplet, 3H; 2.05 ppm singlet, 3H; 4.12 ppm quartet, 2H</strong>. Ethyl ethanoate, CH₃COOCH₂CH₃, accounts for an ethyl pair and an acetyl methyl singlet. Butanoic acid predicts acid O–H and lacks the O–CH₂/acetyl pattern.</p>
+<p>U2 is <strong>C₂H₆O</strong>, with broad O–H, no carbonyl, and <strong>1.18 ppm triplet, 3H; 3.65 ppm quartet, 2H; an exchangeable broad OH signal, 1H</strong> in this illustrative model. Ethanol fits; dimethyl ether has the same formula but no OH and would not give that proton pattern.</p>
+</section>
+<section id="model-limits" class="level3">
+<h3 class="anchored" data-anchor-id="model-limits">Model limits</h3>
+<p>Peak positions, shapes and exchange depend on conditions. The listed patterns are introductory first-order examples, not a general spectral solver. Green means the candidate fits the <strong>selected supplied evidence</strong>, not that every possible alternative is excluded or the sample is pure. A filename is not identity evidence. See the local <a href="../spectroscopy/exercise.html">spectroscopy exercises</a>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

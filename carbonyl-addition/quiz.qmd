@@ -52,4 +52,4 @@ For aldehyde + two alcohols ⇌ acetal + water under acid catalysis, predict the
 Excess water can favour hydrolysis toward aldehyde and alcohol. Acid catalyses the pathway in both directions and does not itself change the equilibrium constant.
 :::
 
-If an answer was unexpected, return to the [worked practice](exercise.qmd), repair your own drawing and explain the change in a sentence.
+If an answer was unexpected, return to the [exercises](exercise.qmd), repair your own drawing and explain the change in a sentence.

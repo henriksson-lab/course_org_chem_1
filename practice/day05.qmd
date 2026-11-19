@@ -1,8 +1,10 @@
 ---
-title: "Day 5: Week 1 consolidation: a defensible molecular explanation"
+title: "Day 5: Exercises — Connecting structure, properties and acidity"
 ---
 
-This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+Connect molecular representations, properties and acid–base behaviour in your answers.
+
+**Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Try each problem before opening its hint, then use the worked answer to check your reasoning.
 
 ### Refresher and worked starting point
 
@@ -158,6 +160,10 @@ Name what the observation actually tests.
 Example:“The sample is consistent with a carbonyl candidate because it absorbs strongly in the supplied C=O region. Several carbonyl structures remain possible; further evidence is needed for unique identity or purity.”
 :::
 
-## Close the workshop
+## Review your solutions
 
 Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.
+
+## Explore {#explore}
+
+{{< include ../demos/_day05.qmd >}}

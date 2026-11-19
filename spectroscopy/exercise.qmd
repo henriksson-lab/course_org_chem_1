@@ -1,17 +1,18 @@
 ---
-title: "Spectroscopy: standalone problem bank"
+title: "Day 21: Exercises — Structure from spectra"
 ---
 
-This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
-Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
-Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
-mechanism. Use the hints after a first attempt and the worked checks after revising.
-All required definitions, structures, constants and observations are supplied here
-or in the linked local explanations; no textbook problem set is required.
+Use molecular formulas, IR observations and NMR patterns to test proposed structures.
+
+**Core exercises 1–10:** begin here. **Transfer 11–16:** apply the same ideas to
+new cases. **Further checks 17–20:** use these to investigate mistakes and revise.
+Allow roughly **2–3 hours** across the unit, with more time for complete mechanism
+drawings. Attempt each problem before opening its hint, then compare your reasoning
+with the worked explanation.
 
 ## Working refresher
 
-All numerical spectra in this bank are **simulated teaching examples**. For ordinary closed-shell C/H/O formulas use DBE=(2C+2−H)/2; O is omitted from this simple count. IR transmittance dips indicate absorption: broad alcohol O–H is often near 3200–3600 cm⁻¹, acid O–H can extend broadly around 2500–3300 cm⁻¹ and carbonyls occupy roughly 1650–1800 cm⁻¹ depending on structure. In our simple first-order proton NMR model, n equivalent adjacent H give n +1 lines; integral gives relative total H area. A singlet/triplet/quartet has 1/3/4 lines. These shortcuts do not describe all real coupling or exchange. Chemical shifts are in ppm; supplied values are illustrative. Candidate tests and drawings are available in [the lecture](lec.qmd).
+All numerical spectra below are **simulated teaching examples**. For ordinary closed-shell C/H/O formulas use DBE=(2C+2−H)/2; O is omitted from this simple count. IR transmittance dips indicate absorption: broad alcohol O–H is often near 3200–3600 cm⁻¹, acid O–H can extend broadly around 2500–3300 cm⁻¹ and carbonyls occupy roughly 1650–1800 cm⁻¹ depending on structure. In our simple first-order proton NMR model, n equivalent adjacent H give n +1 lines; integral gives relative total H area. A singlet/triplet/quartet has 1/3/4 lines. These shortcuts do not describe all real coupling or exchange. Chemical shifts are in ppm; supplied values are illustrative. Candidate tests and drawings are available in [the lecture](lec.qmd).
 
 ## 1. Calculate one formula constraint
 
@@ -295,3 +296,7 @@ carbonyl position is not a unique molecular fingerprint.
 A fully annotated structure, a rejected alternative, and a knitted Rmd section
 with a labelled IR comparison. Read selected Solomons chapters 2 and 9 through
 the [reading guide](../reference/reading.qmd).
+
+## Explore {#explore}
+
+{{< include ../demos/_day21.qmd >}}

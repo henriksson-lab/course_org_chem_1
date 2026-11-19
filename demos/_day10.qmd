@@ -1,0 +1,25 @@
+Use this explorer for about **7–10 minutes**. Make a prediction first, change one input at a time, and record a chemical explanation rather than only a screenshot.
+
+### Explore the chemistry
+
+```{=html}
+<section class="chem-demo" id="day10" aria-label="Enantiomer composition and excess"></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/reactivity.js"></script>
+```
+
+### Prediction, exploration and explanation
+
+**Predict (1 minute).** A mixture contains 70% R and 30% S among its measured enantiomeric components. Is its ee 70%, 40% or 30%? State which quantity each percentage describes.
+
+**Explore (3–4 minutes).** Move the R slider toward 50%, then beyond it. Use the racemate and 95:5 presets. Find a composition giving 80% ee in favour of R, and another giving the same ee in favour of S. Record both full compositions.
+
+**Explain (2 minutes).** Why is the major-enantiomer percentage `(100+ee)/2` for a two-enantiomer mixture? Why does reversing the major enantiomer leave the magnitude of ee unchanged? Can any setting establish the sign of optical rotation?
+
+### Supplied model and its limits
+
+The only counted components are R and S; their percentages total 100. `ee=|R%−S%|` gives the magnitude, and the major label gives its direction. Chemical impurities are outside this composition calculation. R/S describes configuration and does **not** predict (+)/(−) rotation or biological potency.
+
+### Carry the explanation into practice
+
+Return to the local [stereochemistry lesson](../stereochemistry/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved. The interactive works locally and needs no online account or additional software packages.

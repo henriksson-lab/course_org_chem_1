@@ -1,5 +1,5 @@
 ---
-title: "Chemistry practice for every study day"
+title: "Daily exercises"
 ---
 
 You can work through this course without using a textbook. Start with the
@@ -24,31 +24,31 @@ or charge checks.
 
 | Study day | Focus and problem set | Paper problems available | Interactive |
 | --- | --- | --- | --- |
-| 1 (week 1) | [Reading organic structures](../structures/exercise.qmd) | 20+ | [Demo 1](../demos/day01.qmd) |
-| 2 (week 1) | [Properties and IR](../properties/exercise.qmd) | 20+ | [Demo 2](../demos/day02.qmd) |
-| 3 (week 1) | [Acids, bases and ionisation](../acids-bases/exercise.qmd) | 20+ | [Demo 3](../demos/day03.qmd) |
-| 4 (week 1) | [Mixed chemistry practice](../practice/day04.qmd) | 12+ | [Demo 4](../demos/day04.qmd) |
-| 5 (week 1) | [Independent transfer and explanation](../practice/day05.qmd) | 12+ | [Demo 5](../demos/day05.qmd) |
-| 6 (week 2) | [Conformations](../conformations/exercise.qmd) | 20+ | [Demo 6](../demos/day06.qmd) |
-| 7 (week 2) | [Stereochemistry](../stereochemistry/exercise.qmd) | 20+ | [Demo 7](../demos/day07.qmd) |
-| 8 (week 2) | [Electron flow and mechanisms](../mechanisms/exercise.qmd) | 20+ | [Demo 8](../demos/day08.qmd) |
-| 9 (week 2) | [Mixed chemistry practice](../practice/day09.qmd) | 12+ | [Demo 9](../demos/day09.qmd) |
-| 10 (week 2) | [Independent transfer and explanation](../practice/day10.qmd) | 12+ | [Demo 10](../demos/day10.qmd) |
-| 11 (week 3) | [Substitution](../substitution/exercise.qmd) | 20+ | [Demo 11](../demos/day11.qmd) |
-| 12 (week 3) | [Elimination and addition](../elimination-addition/exercise.qmd) | 20+ | [Demo 12](../demos/day12.qmd) |
-| 13 (week 3) | [Alcohols and redox](../alcohols-redox/exercise.qmd) | 20+ | [Demo 13](../demos/day13.qmd) |
-| 14 (week 3) | [Mixed chemistry practice](../practice/day14.qmd) | 12+ | [Demo 14](../demos/day14.qmd) |
-| 15 (week 3) | [Independent transfer and explanation](../practice/day15.qmd) | 12+ | [Demo 15](../demos/day15.qmd) |
-| 16 (week 4) | [Carbonyl addition](../carbonyl-addition/exercise.qmd) | 20+ | [Demo 16](../demos/day16.qmd) |
-| 17 (week 4) | [Acyl chemistry](../acyl-chemistry/exercise.qmd) | 20+ | [Demo 17](../demos/day17.qmd) |
-| 18 (week 4) | [Amines and aromatics](../amines-aromatics/exercise.qmd) | 20+ | [Demo 18](../demos/day18.qmd) |
-| 19 (week 4) | [Mixed chemistry practice](../practice/day19.qmd) | 12+ | [Demo 19](../demos/day19.qmd) |
-| 20 (week 4) | [Independent transfer and explanation](../practice/day20.qmd) | 12+ | [Demo 20](../demos/day20.qmd) |
-| 21 (week 5) | [Structure from spectra](../spectroscopy/exercise.qmd) | 20+ | [Demo 21](../demos/day21.qmd) |
-| 22 (week 5) | [Synthesis and evidence](../synthesis-evidence/exercise.qmd) | 20+ | [Demo 22](../demos/day22.qmd) |
-| 23 (week 5) | [Putting the chemistry together](../integration/exercise.qmd) | 20+ | [Demo 23](../demos/day23.qmd) |
-| 24 (week 5) | [Mixed chemistry practice](../practice/day24.qmd) | 12+ | [Demo 24](../demos/day24.qmd) |
-| 25 (week 5) | [Independent transfer and explanation](../practice/day25.qmd) | 12+ | [Demo 25](../demos/day25.qmd) |
+| 1 (week 1) | [Reading organic structures](../structures/exercise.qmd) | 20+ | [Demo 1](../structures/exercise.qmd#explore) |
+| 2 (week 1) | [Properties and IR](../properties/exercise.qmd) | 20+ | [Demo 2](../properties/exercise.qmd#explore) |
+| 3 (week 1) | [Acids, bases and ionisation](../acids-bases/exercise.qmd) | 20+ | [Demo 3](../acids-bases/exercise.qmd#explore) |
+| 4 (week 1) | [Structure and property review](../practice/day04.qmd) | 12+ | [Demo 4](../practice/day04.qmd#explore) |
+| 5 (week 1) | [Connecting structure, properties and acidity](../practice/day05.qmd) | 12+ | [Demo 5](../practice/day05.qmd#explore) |
+| 6 (week 2) | [Conformations](../conformations/exercise.qmd) | 20+ | [Demo 6](../conformations/exercise.qmd#explore) |
+| 7 (week 2) | [Stereochemistry](../stereochemistry/exercise.qmd) | 20+ | [Demo 7](../stereochemistry/exercise.qmd#explore) |
+| 8 (week 2) | [Electron flow and mechanisms](../mechanisms/exercise.qmd) | 20+ | [Demo 8](../mechanisms/exercise.qmd#explore) |
+| 9 (week 2) | [Models, rotations and configurations](../practice/day09.qmd) | 12+ | [Demo 9](../practice/day09.qmd#explore) |
+| 10 (week 2) | [Stereochemistry and mixtures](../practice/day10.qmd) | 12+ | [Demo 10](../practice/day10.qmd#explore) |
+| 11 (week 3) | [Substitution](../substitution/exercise.qmd) | 20+ | [Demo 11](../substitution/exercise.qmd#explore) |
+| 12 (week 3) | [Elimination and addition](../elimination-addition/exercise.qmd) | 20+ | [Demo 12](../elimination-addition/exercise.qmd#explore) |
+| 13 (week 3) | [Alcohols and redox](../alcohols-redox/exercise.qmd) | 20+ | [Demo 13](../alcohols-redox/exercise.qmd#explore) |
+| 14 (week 3) | [Reaction-mechanism review](../practice/day14.qmd) | 12+ | [Demo 14](../practice/day14.qmd#explore) |
+| 15 (week 3) | [Redox, amounts and evidence](../practice/day15.qmd) | 12+ | [Demo 15](../practice/day15.qmd#explore) |
+| 16 (week 4) | [Carbonyl addition](../carbonyl-addition/exercise.qmd) | 20+ | [Demo 16](../carbonyl-addition/exercise.qmd#explore) |
+| 17 (week 4) | [Acyl chemistry](../acyl-chemistry/exercise.qmd) | 20+ | [Demo 17](../acyl-chemistry/exercise.qmd#explore) |
+| 18 (week 4) | [Amines and aromatics](../amines-aromatics/exercise.qmd) | 20+ | [Demo 18](../amines-aromatics/exercise.qmd#explore) |
+| 19 (week 4) | [Carbonyl and acyl review](../practice/day19.qmd) | 12+ | [Demo 19](../practice/day19.qmd#explore) |
+| 20 (week 4) | [Nitrogen, resonance and charge](../practice/day20.qmd) | 12+ | [Demo 20](../practice/day20.qmd#explore) |
+| 21 (week 5) | [Structure from spectra](../spectroscopy/exercise.qmd) | 20+ | [Demo 21](../spectroscopy/exercise.qmd#explore) |
+| 22 (week 5) | [Synthesis and evidence](../synthesis-evidence/exercise.qmd) | 20+ | [Demo 22](../synthesis-evidence/exercise.qmd#explore) |
+| 23 (week 5) | [Integrated chemistry](../integration/exercise.qmd) | 20+ | [Demo 23](../integration/exercise.qmd#explore) |
+| 24 (week 5) | [Spectral evidence and synthesis calculations](../practice/day24.qmd) | 12+ | [Demo 24](../practice/day24.qmd#explore) |
+| 25 (week 5) | [Final synthesis and interpretation](../practice/day25.qmd) | 12+ | [Demo 25](../practice/day25.qmd#explore) |
 
 ## How to use the worked solutions
 

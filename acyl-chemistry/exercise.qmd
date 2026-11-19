@@ -1,13 +1,12 @@
 ---
-title: "Acyl chemistry: standalone problem bank"
+title: "Day 17: Exercises — Acyl chemistry"
 ---
 
-This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
-Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
-Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
-mechanism. Use the hints after a first attempt and the worked checks after revising.
-All required definitions, structures, constants and observations are supplied here
-or in the linked local explanations; no textbook problem set is required.
+Compare acids, esters and amides by drawing their addition and leaving-group steps.
+Work through **1–10** for core work, **11–16** for transfer and **17–20** for deeper checks.
+Allow roughly **2–3 hours** across the unit, taking longer for complete mechanisms.
+Attempt each problem before using its hint, then compare your revised drawing
+with the worked explanation.
 
 ## Working refresher
 
@@ -258,3 +257,7 @@ Move the C=O pi pair during addition; show O⁻ in the intermediate and ethoxide
 Choose one corrected error and explain what changed in your reasoning. Then
 complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
 all practice above is self-contained.
+
+## Explore {#explore}
+
+{{< include ../demos/_day17.qmd >}}

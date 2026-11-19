@@ -1,8 +1,10 @@
 ---
-title: "Day 15: Week 3 consolidation: redox, stoichiometry and evidence"
+title: "Day 15: Exercises — Redox, amounts and evidence"
 ---
 
-This mixed bank is self-contained. Use problems 1–8 as a **core 80–100 minute workshop**, then choose problems 9–12 as **optional transfer (30–45 minutes)**. Draw before reading checks; paired discussion can compare reasoning, but retain your own corrected drawing. No textbook questions or external figures are needed.
+Connect alcohol and carbonyl transformations to reagent amounts, isolated yield and experimental evidence. Revisit the [alcohols and redox lecture](../alcohols-redox/lec.qmd), then explore the [limiting-reagent and yield demo](../demos/day15.qmd).
+
+**Core 1–8:** about 80–100 minutes. **Transfer 9–12:** an optional 30–45 minutes. Draw before opening a check; compare reasoning with a partner and keep your own corrected drawing.
 
 ## Refresher and worked start
 
@@ -168,3 +170,7 @@ A defensible paragraph reports66.6% apparent isolated mass yield, records that c
 ## Revisit the relevant lesson
 
 Use the local [substitution](../substitution/exercise.qmd), [elimination/addition](../elimination-addition/exercise.qmd), [alcohol/redox](../alcohols-redox/exercise.qmd) and [practical evidence](../reference/practical.qmd) explanations when a correction needs more context.
+
+## Explore {#explore}
+
+{{< include ../demos/_day15.qmd >}}

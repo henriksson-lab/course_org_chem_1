@@ -393,7 +393,7 @@ Which feature would change if a catalyst offers a faster path? Which endpoint en
 
 ## Use the same reasoning in practice
 
-Complete the [practice and worked examples](exercise.qmd), then the [self-check](quiz.qmd).
+Complete the [exercises](exercise.qmd), then the [self-check](quiz.qmd).
 
 Optional textbook support: selected Solomons chapter 3 and 6 sections. The [reading guide](../reference/reading.qmd) explains the provisional book mapping.
 

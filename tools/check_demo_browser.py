@@ -35,7 +35,7 @@ with Browser() as browser:
     for demo in manifest:
         browser.viewport(1440,1000)
         start_errors=len(browser.exceptions)
-        url=(ROOT/'docs'/Path(demo['href']).with_suffix('.html')).as_uri()
+        url=(ROOT/'docs'/Path(demo['exercise_href']).with_suffix('.html')).as_uri()+'#explore'
         ready='document.getElementById('+json.dumps(demo['root_id'])+')?.dataset.ready === "true"'
         browser.navigate(url,ready)
         before=browser.evaluate(snapshot)
@@ -120,7 +120,25 @@ with Browser() as browser:
     browser.navigate((ROOT/'docs/index.html').as_uri())
     menu=browser.evaluate('Array.from(document.querySelectorAll("#quarto-sidebar a[href]"),e=>e.getAttribute("href"))')
     for demo in manifest:
-        if not any(h.endswith(f'demos/day{demo["day"]:02d}.html') for h in menu):failures.append(f'Day {demo["day"]}: missing rendered sidebar link')
+        expected=demo['exercise_href'].replace('.qmd','.html')+'#explore'
+        if not any(h.endswith(expected) for h in menu):failures.append(f'Day {demo["day"]}: missing rendered exercise/demo sidebar link')
+
+    # Preserve already-published demo links while making Exercises canonical.
+    for day in [1,15,25]:
+        demo=manifest[day-1]
+        alias=(ROOT/'docs'/Path(demo['href']).with_suffix('.html')).as_uri()
+        expected=(ROOT/'docs'/Path(demo['exercise_href']).with_suffix('.html')).as_uri()
+        browser.call('Page.navigate',{'url':alias},session=True)
+        for _ in range(100):
+            try:
+                current=browser.evaluate('location.href') or ''
+            except RuntimeError as error:
+                if not any(s in str(error) for s in ['context','Context']):raise
+                time.sleep(.05)
+                continue
+            if current==expected+'#explore':break
+            time.sleep(.05)
+        else:failures.append(f'Day {day}: old demo URL did not redirect to Exercises#explore')
 
 (ROOT/'plan/demo-browser-check.json').write_text(json.dumps({'results':results,'failures':failures},indent=2)+'\n')
 if failures:

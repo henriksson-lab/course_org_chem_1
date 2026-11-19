@@ -1,8 +1,10 @@
 ---
-title: "Acid–base reasoning: standalone practice bank"
+title: "Day 3: Exercises — Acids, bases and ionisation"
 ---
 
-Use the [lecture](lec.qmd) and the refresher below; no textbook or external problem sheet is needed. **Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when a practical session also includes R. The separate computing task does not count as paper chemistry.
+Draw the proton transfers, compare conjugate bases and test the supplied pKa relationships. Use the [lecture](lec.qmd) and the refresher below when needed.
+
+**Core 1–12:** about 60–80 minutes with drawings and checks. **Transfer 13–20:** an optional 35–50 minutes for consolidation or later revision. Choose a smaller core subset when the session also includes R.
 
 ### Tools and worked start
 
@@ -297,3 +299,7 @@ input, not the calculated consequence of adding a specified titrant volume.
 ## Review your work
 
 Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.
+
+## Explore {#explore}
+
+{{< include ../demos/_day03.qmd >}}

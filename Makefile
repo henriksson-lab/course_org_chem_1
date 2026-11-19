@@ -28,6 +28,7 @@ preview:
 
 check:
 	python3 tools/check_course.py
+	python3 tools/check_navigation.py
 	python3 tools/check_demos.py
 	node tools/check_demo_models.js
 	python3 tools/check_exercise_code.py

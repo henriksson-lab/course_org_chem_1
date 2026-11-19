@@ -511,7 +511,7 @@ Suggested 40 seconds; adjust to the explanation and class response. Worked answe
 
 ## Continue with independent practice
 
-Use the [standalone practice and worked checks](exercise.qmd), then the [self-check](quiz.qmd).
+Use the [exercises](exercise.qmd), then the [self-check](quiz.qmd).
 
 All required inputs and explanations are provided locally. The [reading guide](../reference/reading.qmd) offers optional textbook support.
 

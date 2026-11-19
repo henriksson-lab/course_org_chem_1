@@ -80,9 +80,12 @@ model, and present TLC and spectral evidence.
 - [Find paper chemistry problems for every study day](practice/index.qmd).
 - [Explore the interactive demo for each study day](demos/index.qmd).
 
-## How to use a unit
+## How to use a day
 
-Study the slides, pause to draw and predict, then solve the practice questions
+Choose a week and day in the left menu. Its lecture, Exercises, self-check
+and demo are grouped together. Review days link back to the relevant lectures.
+
+Study the slides, pause to draw and predict, then solve the exercises
 before opening their hints and worked checks. Finish with the self-check.
 Return to earlier representations and electron-flow rules whenever a reaction
 seems like an isolated fact to memorise.

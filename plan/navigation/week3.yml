@@ -1,0 +1,50 @@
+section: Week 3
+contents:
+- section: 'Day 11: Substitution'
+  contents:
+  - text: Lecture
+    href: substitution/lec.qmd
+  - text: Exercises
+    href: substitution/exercise.qmd
+  - text: Self-check
+    href: substitution/quiz.qmd
+  - text: 'Demo: Reaction rate models'
+    href: substitution/exercise.qmd#explore
+- section: 'Day 12: Elimination and addition'
+  contents:
+  - text: Lecture
+    href: elimination-addition/lec.qmd
+  - text: Exercises
+    href: elimination-addition/exercise.qmd
+  - text: Self-check
+    href: elimination-addition/quiz.qmd
+  - text: 'Demo: E2 geometry'
+    href: elimination-addition/exercise.qmd#explore
+- section: 'Day 13: Alcohols and redox'
+  contents:
+  - text: Lecture
+    href: alcohols-redox/lec.qmd
+  - text: Exercises
+    href: alcohols-redox/exercise.qmd
+  - text: Self-check
+    href: alcohols-redox/quiz.qmd
+  - text: 'Demo: Alcohol oxidation states'
+    href: alcohols-redox/exercise.qmd#explore
+- section: 'Day 14: Reaction-mechanism review'
+  contents:
+  - text: 'Lecture review: Substitution'
+    href: substitution/lec.qmd
+  - text: 'Lecture review: Elimination and addition'
+    href: elimination-addition/lec.qmd
+  - text: Exercises
+    href: practice/day14.qmd
+  - text: 'Demo: SN1 steps and charge'
+    href: practice/day14.qmd#explore
+- section: 'Day 15: Redox, amounts and evidence'
+  contents:
+  - text: 'Lecture review: Alcohols and redox'
+    href: alcohols-redox/lec.qmd
+  - text: Exercises
+    href: practice/day15.qmd
+  - text: 'Demo: Limiting reagent and yield'
+    href: practice/day15.qmd#explore

@@ -1,8 +1,8 @@
 ---
-title: "Electron flow: drawing, checking and explaining"
+title: "Day 8: Exercises — Electron flow and mechanisms"
 ---
 
-Use problems 1–12 as the **core route (about 80–100 minutes)**. Problems 13–20 are optional transfer practice (another 45–65 minutes); select them to target mistakes rather than adding every problem to required contact time. Paper/model drawing is central. All inputs and conventions needed are below; no textbook purchase or external problem set is required.
+Draw electron-pair movements and audit atoms, bond orders and formal charges at every step. **Core 1–12:** about 80–100 minutes. **Transfer 13–20:** an optional 45–65 minutes; choose problems that target your mistakes.
 
 ## Local refresher and worked starting example
 
@@ -259,3 +259,7 @@ Addition gives CH₃CH(OH)O⁻; water then protonates that alkoxide and regenera
 ## Check your progress
 
 Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.
+
+## Explore {#explore}
+
+{{< include ../demos/_day08.qmd >}}

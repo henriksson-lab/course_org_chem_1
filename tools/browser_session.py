@@ -55,7 +55,7 @@ class Browser:
         return result.get('result',{}).get('value')
     def navigate(self,url,ready='document.readyState === "complete"'):
         self.call('Page.navigate',{'url':url},session=True)
-        expression='location.href.split("#")[0] === '+json.dumps(url)+' && ('+ready+')'
+        expression='location.href.split("#")[0] === '+json.dumps(url.split('#')[0])+' && ('+ready+')'
         for _ in range(150):
             try:
                 if self.evaluate(expression):return

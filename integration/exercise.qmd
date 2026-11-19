@@ -1,17 +1,18 @@
 ---
-title: "Integrated chemistry: standalone problem bank"
+title: "Day 23: Exercises — Integrated chemistry"
 ---
 
-This bank supplies **20 non-R chemistry problems**, with hints and worked explanations.
-Work through 1–10 for core practice,11–16 for transfer and 17–20 for deeper checks.
-Allow roughly 2–3 hours across the unit, taking longer where you draw a complete
-mechanism. Use the hints after a first attempt and the worked checks after revising.
-All required definitions, structures, constants and observations are supplied here
-or in the linked local explanations; no textbook problem set is required.
+Connect structure, stereochemistry, reaction mechanisms and experimental evidence in each case.
+
+**Core exercises 1–10:** begin here. **Transfer 11–16:** apply the same ideas to
+new cases. **Further checks 17–20:** use these to investigate mistakes and revise.
+Allow roughly **2–3 hours** across the unit, with more time for complete mechanism
+drawings. Attempt each problem before opening its hint, then compare your reasoning
+with the worked explanation.
 
 ## Working refresher
 
-Use the same checks on every case: identify functional groups, draw explicit atoms and charges at the changing site, follow electron pairs, and test a proposed structure against observations. In wedge/dash drawings, solid wedge points toward the observer and dashed wedge away. For a tetrahedral centre rank CIP priorities by atomic number, break ties with next attached atoms and treat multiple bonds by duplicated-atom bookkeeping; with priority 4 away, clockwise 1→2→3 is R and anticlockwise S. For the simple C/H/O spectra use DBE=(2C+2−H)/2 and the supplied first-order n +1 rule. Amount=n=m/M; theoretical product comes from balanced limiting extent; apparent yield=100×isolated/theoretical mass. The [local lecture](lec.qmd) provides the chemical drawings used in the workshop.
+Use the same checks on every case: identify functional groups, draw explicit atoms and charges at the changing site, follow electron pairs, and test a proposed structure against observations. In wedge/dash drawings, solid wedge points toward the observer and dashed wedge away. For a tetrahedral centre rank CIP priorities by atomic number, break ties with next attached atoms and treat multiple bonds by duplicated-atom bookkeeping; with priority 4 away, clockwise 1→2→3 is R and anticlockwise S. For the simple C/H/O spectra use DBE=(2C+2−H)/2 and the supplied first-order n +1 rule. Amount=n=m/M; theoretical product comes from balanced limiting extent; apparent yield=100×isolated/theoretical mass. The [local lecture](lec.qmd) provides the chemical drawings used in these exercises.
 
 ## 1. Read lactic acid without a pathway
 
@@ -258,3 +259,7 @@ The supplied simulated evidence supports the ester candidate and the teaching ma
 Choose one corrected error and explain what changed in your reasoning. Then
 complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
 all practice above is self-contained.
+
+## Explore {#explore}
+
+{{< include ../demos/_day23.qmd >}}

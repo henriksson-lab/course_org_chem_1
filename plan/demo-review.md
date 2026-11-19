@@ -1,8 +1,9 @@
 # Daily interactive explorations: implementation and checks
 
-25 daily demo pages are linked directly from the left sidebar, next to the
-corresponding lecture or mixed-practice day. The catalogue is `demos/index.qmd`;
-`demos.json` maps the days to their pages, titles and runtime groups.
+25 daily demos are embedded in Exercises and linked directly from the left
+sidebar under the corresponding Week and Day, alongside the lecture. The catalogue is `demos/index.qmd`;
+`demos.json` maps the days to exercise anchors, shared partials, compatibility
+URLs, titles and runtime groups. The old demo URLs redirect to Exercises.
 
 ## Teaching purpose
 

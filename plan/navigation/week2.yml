@@ -1,0 +1,52 @@
+section: Week 2
+contents:
+- section: 'Day 6: Conformations'
+  contents:
+  - text: Lecture
+    href: conformations/lec.qmd
+  - text: Exercises
+    href: conformations/exercise.qmd
+  - text: Self-check
+    href: conformations/quiz.qmd
+  - text: 'Demo: Rotate a Newman projection'
+    href: conformations/exercise.qmd#explore
+- section: 'Day 7: Stereochemistry'
+  contents:
+  - text: Lecture
+    href: stereochemistry/lec.qmd
+  - text: Exercises
+    href: stereochemistry/exercise.qmd
+  - text: Self-check
+    href: stereochemistry/quiz.qmd
+  - text: 'Demo: Fischer configurations'
+    href: stereochemistry/exercise.qmd#explore
+- section: 'Day 8: Electron flow and mechanisms'
+  contents:
+  - text: Lecture
+    href: mechanisms/lec.qmd
+  - text: Exercises
+    href: mechanisms/exercise.qmd
+  - text: Self-check
+    href: mechanisms/quiz.qmd
+  - text: 'Demo: Repair electron flow'
+    href: mechanisms/exercise.qmd#explore
+- section: 'Day 9: Models, rotations and configurations'
+  contents:
+  - text: 'Lecture review: Conformations'
+    href: conformations/lec.qmd
+  - text: 'Lecture review: Stereochemistry'
+    href: stereochemistry/lec.qmd
+  - text: Exercises
+    href: practice/day09.qmd
+  - text: 'Demo: Conformer populations'
+    href: practice/day09.qmd#explore
+- section: 'Day 10: Stereochemistry and mixtures'
+  contents:
+  - text: 'Lecture review: Conformations'
+    href: conformations/lec.qmd
+  - text: 'Lecture review: Stereochemistry'
+    href: stereochemistry/lec.qmd
+  - text: Exercises
+    href: practice/day10.qmd
+  - text: 'Demo: Enantiomer mixtures'
+    href: practice/day10.qmd#explore

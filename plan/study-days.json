@@ -30,7 +30,7 @@
     "day": 4,
     "week": 1,
     "kind": "consolidation",
-    "title": "Mixed chemistry practice",
+    "title": "Structure and property review",
     "href": "practice/day04.qmd",
     "minimum_paper_problems": 12
   },
@@ -38,7 +38,7 @@
     "day": 5,
     "week": 1,
     "kind": "consolidation",
-    "title": "Independent transfer and explanation",
+    "title": "Connecting structure, properties and acidity",
     "href": "practice/day05.qmd",
     "minimum_paper_problems": 12
   },
@@ -73,7 +73,7 @@
     "day": 9,
     "week": 2,
     "kind": "consolidation",
-    "title": "Mixed chemistry practice",
+    "title": "Models, rotations and configurations",
     "href": "practice/day09.qmd",
     "minimum_paper_problems": 12
   },
@@ -81,7 +81,7 @@
     "day": 10,
     "week": 2,
     "kind": "consolidation",
-    "title": "Independent transfer and explanation",
+    "title": "Stereochemistry and mixtures",
     "href": "practice/day10.qmd",
     "minimum_paper_problems": 12
   },
@@ -116,7 +116,7 @@
     "day": 14,
     "week": 3,
     "kind": "consolidation",
-    "title": "Mixed chemistry practice",
+    "title": "Reaction-mechanism review",
     "href": "practice/day14.qmd",
     "minimum_paper_problems": 12
   },
@@ -124,7 +124,7 @@
     "day": 15,
     "week": 3,
     "kind": "consolidation",
-    "title": "Independent transfer and explanation",
+    "title": "Redox, amounts and evidence",
     "href": "practice/day15.qmd",
     "minimum_paper_problems": 12
   },
@@ -159,7 +159,7 @@
     "day": 19,
     "week": 4,
     "kind": "consolidation",
-    "title": "Mixed chemistry practice",
+    "title": "Carbonyl and acyl review",
     "href": "practice/day19.qmd",
     "minimum_paper_problems": 12
   },
@@ -167,7 +167,7 @@
     "day": 20,
     "week": 4,
     "kind": "consolidation",
-    "title": "Independent transfer and explanation",
+    "title": "Nitrogen, resonance and charge",
     "href": "practice/day20.qmd",
     "minimum_paper_problems": 12
   },
@@ -194,7 +194,7 @@
     "week": 5,
     "kind": "unit",
     "unit": "integration",
-    "title": "Putting the chemistry together",
+    "title": "Integrated chemistry",
     "href": "integration/exercise.qmd",
     "minimum_paper_problems": 20
   },
@@ -202,7 +202,7 @@
     "day": 24,
     "week": 5,
     "kind": "consolidation",
-    "title": "Mixed chemistry practice",
+    "title": "Spectral evidence and synthesis calculations",
     "href": "practice/day24.qmd",
     "minimum_paper_problems": 12
   },
@@ -210,7 +210,7 @@
     "day": 25,
     "week": 5,
     "kind": "consolidation",
-    "title": "Independent transfer and explanation",
+    "title": "Final synthesis and interpretation",
     "href": "practice/day25.qmd",
     "minimum_paper_problems": 12
   }

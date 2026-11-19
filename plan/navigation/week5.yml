@@ -1,0 +1,54 @@
+section: Week 5
+contents:
+- section: 'Day 21: Structure from spectra'
+  contents:
+  - text: Lecture
+    href: spectroscopy/lec.qmd
+  - text: Exercises
+    href: spectroscopy/exercise.qmd
+  - text: Self-check
+    href: spectroscopy/quiz.qmd
+  - text: 'Demo: Spectral candidate lab'
+    href: spectroscopy/exercise.qmd#explore
+- section: 'Day 22: Synthesis and evidence'
+  contents:
+  - text: Lecture
+    href: synthesis-evidence/lec.qmd
+  - text: Exercises
+    href: synthesis-evidence/exercise.qmd
+  - text: Self-check
+    href: synthesis-evidence/quiz.qmd
+  - text: 'Demo: TLC measurements'
+    href: synthesis-evidence/exercise.qmd#explore
+- section: 'Day 23: Integrated chemistry'
+  contents:
+  - text: Lecture
+    href: integration/lec.qmd
+  - text: Exercises
+    href: integration/exercise.qmd
+  - text: Self-check
+    href: integration/quiz.qmd
+  - text: 'Demo: Build a short synthesis'
+    href: integration/exercise.qmd#explore
+- section: 'Day 24: Spectral evidence and synthesis calculations'
+  contents:
+  - text: 'Lecture review: Spectroscopy'
+    href: spectroscopy/lec.qmd
+  - text: 'Lecture review: Synthesis and evidence'
+    href: synthesis-evidence/lec.qmd
+  - text: Exercises
+    href: practice/day24.qmd
+  - text: 'Demo: How strong is a spectral clue?'
+    href: practice/day24.qmd#explore
+- section: 'Day 25: Final synthesis and interpretation'
+  contents:
+  - text: 'Lecture review: Integrated chemistry'
+    href: integration/lec.qmd
+  - text: 'Lecture review: Spectroscopy'
+    href: spectroscopy/lec.qmd
+  - text: 'Lecture review: Synthesis and evidence'
+    href: synthesis-evidence/lec.qmd
+  - text: Exercises
+    href: practice/day25.qmd
+  - text: 'Demo: Claims and chemical evidence'
+    href: practice/day25.qmd#explore

@@ -1,12 +1,13 @@
 ---
-title: "Day 24: Structure evidence and synthesis calculations"
+title: "Day 24: Exercises — Spectral evidence and synthesis calculations"
 ---
 
-A **150-minute consolidation block**, containing 12 non-R problems. No book is
-needed. Suggested timing:10 minutes retrieval;48 minutes for problems 1–6;
-48 minutes for 7–10;34 minutes for 11–12;10 minutes review. The slower drawing
-and comparison intervals are included in that total. Continue unfinished work
-as independent practice rather than rushing a mechanism.
+Compare the spectral evidence, test a proposed structure and check the associated synthesis calculations.
+
+Allow **150 minutes**: 10 minutes for retrieval, 48 for exercises 1–6, 48 for
+7–10, 34 for 11–12 and 10 to review your solutions. Drawing and comparison
+are included in that time. Finish remaining problems independently rather than
+rushing a mechanism.
 
 Local explanations: [Spectroscopy](../spectroscopy/exercise.qmd) and [synthesis evidence](../synthesis-evidence/exercise.qmd).
 
@@ -172,3 +173,7 @@ No. The V model supports a candidate assignment for its supplied data, and the a
 Choose two corrected errors: one in a drawing/calculation and one in an
 interpretation. Explain why the corrected answer follows from the supplied
 inputs. Keep the first attempt so you can see the change in your reasoning.
+
+## Explore {#explore}
+
+{{< include ../demos/_day24.qmd >}}

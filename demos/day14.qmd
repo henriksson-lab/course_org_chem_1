@@ -1,29 +1,11 @@
 ---
-title: "Day 14: Choose the next SN1 pair movement"
+title: 'Day 14: Choose the next SN1 pair movement'
+toc: false
+search: false
 ---
 
-Use this explorer for about **7–10 minutes**. Make a prediction first, change one input at a time, and record a chemical explanation rather than only a screenshot.
-
-## Explore the chemistry
+[Open the Day 14 demo in Exercises](../practice/day14.qmd#explore).
 
 ```{=html}
-<section class="chem-demo" id="day14" aria-label="Choose the next SN1 pair movement"></section>
-<script src="../interactives/core.js"></script>
-<script src="../interactives/reactivity.js"></script>
+<script>window.location.replace("../practice/day14.html#explore");</script>
 ```
-
-## Prediction, exploration and explanation
-
-**Predict (1 minute).** Draw the first electron-pair operation for a tertiary bromide in the selected aqueous SN1 route. Which ion receives the old C–Br pair?
-
-**Explore (3–5 minutes).** Choose an operation, try it and read the feedback. Work from tertiary bromide through carbocation and oxonium to neutral alcohol. Deliberately try the neutral-alcohol shortcut or deletion of an H. Find the precise atom/charge problem. Watch bromide and both explicit waters through the sequence.
-
-**Explain (2 minutes).** Write the complete net equation including water, hydronium and bromide. Explain why the positive charge moves from carbon to oxygen before the final proton transfer, and why an explicit proton acceptor is essential.
-
-## Supplied model and its limits
-
-The substrate is (CH₃)₃CBr, and the selected branch is ionisation→water capture→water deprotonation. Start with **two waters**: one becomes the alcohol oxygen and the other receives the extra proton. Br⁻ remains after ionisation. Total charge of all displayed species is zero. E1 can compete in real conditions, but its proportion is not calculated here. The choices test a stated mechanistic model, not a universal reaction selector.
-
-## Carry the explanation into practice
-
-Return to the local [substitution lesson](../substitution/exercise.qmd). Keep your prediction, a corrected drawing or calculation, and two sentences stating what the model supports and what it leaves unresolved. The interactive works locally and needs no online account or additional software packages.

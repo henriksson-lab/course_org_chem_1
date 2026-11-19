@@ -53,5 +53,5 @@ You change isolated mass from 1.20 to 1.10 g. Predict the effect and the approxi
 The yield decreases to about 61.1%. Tables and inline computed values should update from saved inputs; manually copied numbers may not.
 :::
 
-Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+Return to the [exercises](exercise.qmd) for any reasoning you
 could not reconstruct. Explain one corrected mistake in your own words.

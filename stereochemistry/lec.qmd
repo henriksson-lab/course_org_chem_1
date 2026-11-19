@@ -435,13 +435,13 @@ Take a 30-second sketch or explanation, then ask for one observation and the rea
 
 ## Your next independent work
 
-Use the [standalone practice and worked checks](exercise.qmd), then the [self-check](quiz.qmd). Required core problems and optional transfer work are labelled separately.
+Use the [exercises](exercise.qmd), then the [self-check](quiz.qmd). Required core problems and optional transfer work are labelled separately.
 
 ## One-sentence exit explanation
 
 Write one chemical claim, the feature that supports it and one limit of the inference.
 
-The [reading guide](../reference/reading.qmd) provides optional textbook support; no textbook is needed to attempt the local practice.
+The [reading guide](../reference/reading.qmd) offers supplementary explanations.
 
 ::: notes
 Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.

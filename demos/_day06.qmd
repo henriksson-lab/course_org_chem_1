@@ -1,0 +1,29 @@
+A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
+
+### Predict first
+
+Along C2 → C3, predict the terminal methyl-group dihedral for anti and gauche butane. Are both staggered?
+
+```{=html}
+<section class="chem-demo" id="day06">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked exercises below remain available.</noscript></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/foundations.js"></script>
+```
+
+### Explore
+
+1. Use the anti preset and identify the front dot, rear circle and both CH₃ groups. Trace the connected C1–C2–C3–C4 framework.
+
+2. Move to gauche and then to the second gauche arrangement near 300°. Follow only the rear substituent set and explain which connectivity stays fixed.
+
+3. Inspect the eclipsed preset and sweep through a full turn. Match the diagram to the marker on the qualitative energy profile; distinguish methyl/methyl eclipsing from methyl/H eclipsing.
+
+### Take-away
+
+Explain why a different Newman projection can still be the same molecule. Why must this qualitative energy plot not be used directly to calculate an equilibrium population?
+
+### Model and limits
+
+The projection has a fixed C2 → C3 viewing direction. Blue bonds begin on the front carbon; dark bonds on the rear carbon. The curve is a smooth illustrative interpolation through canonical butane arrangements in arbitrary units, not measured free energies or a model of rotation rate.
+
+Continue with the [exercises](../conformations/exercise.qmd).

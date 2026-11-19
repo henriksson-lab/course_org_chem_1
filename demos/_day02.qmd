@@ -1,0 +1,29 @@
+A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
+
+### Predict first
+
+Will ethanol and dimethyl ether have the same donor/acceptor inventory because they share C₂H₆O? Predict before looking at the highlights.
+
+```{=html}
+<section class="chem-demo" id="day02">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked exercises below remain available.</noscript></section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/foundations.js"></script>
+```
+
+### Explore
+
+1. Compare ethanol and ether with highlights hidden. Identify O–H bonds and available oxygen lone-pair sites, then reveal donors and acceptors separately.
+
+2. Compare propanone with ethanol. Explain why carbonyl oxygen can accept even though propanone has no O–H donor.
+
+3. Compare ethanoic acid with ether. Locate the complete carboxylic-acid pattern rather than counting O atoms alone. Return to the supplied alcohol/ether boiling values and explain what that comparison controls.
+
+### Take-away
+
+Give a structural explanation for the supplied alcohol/ether boiling contrast. Why would site count alone fail as a universal boiling-point calculator?
+
+### Model and limits
+
+Green circles mark donor sites; dashed blue squares mark acceptor sites. Site count differs from the number of donor H atoms. The protonated carboxylic-acid OH is not counted as a useful acceptor. Approximate normal boiling values are supplied teaching examples at comparable pressure, not predictions from a site-count formula.
+
+Continue with the [exercises](../properties/exercise.qmd).

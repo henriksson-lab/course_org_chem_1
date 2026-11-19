@@ -53,5 +53,5 @@ State two observations in U1 supporting ethyl ethanoate over butanoic acid.
 No evident broad acid O–H in a suitable complete IR trace, and a 2H O–CH₂ quartet with matching terminal CH₃ triplet. The acetyl CH₃ singlet supplies additional support.
 :::
 
-Return to the [practice and worked examples](exercise.qmd) for any reasoning you
+Return to the [exercises](exercise.qmd) for any reasoning you
 could not reconstruct. Explain one corrected mistake in your own words.

@@ -52,4 +52,4 @@ A catalyst lowers a kinetically relevant barrier. Does that change the equilibri
 No. It changes the pathway and can speed approach to equilibrium in both directions. The same reactant/product endpoint free-energy difference determines the same equilibrium constant.
 :::
 
-If an answer was unexpected, return to the [worked practice](exercise.qmd), repair your own drawing and explain the change in a sentence.
+If an answer was unexpected, return to the [exercises](exercise.qmd), repair your own drawing and explain the change in a sentence.

@@ -417,7 +417,7 @@ Take a 30-second sketch or explanation, then ask for one observation and the rea
 
 ## Your next independent work
 
-Use the [standalone practice and worked checks](exercise.qmd), then the [self-check](quiz.qmd). Required core problems and optional transfer work are labelled separately.
+Use the [exercises](exercise.qmd), then the [self-check](quiz.qmd). Required core problems and optional transfer work are labelled separately.
 
 ## One-sentence exit explanation
 

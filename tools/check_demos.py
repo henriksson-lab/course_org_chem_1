@@ -4,6 +4,7 @@ import re
 import subprocess
 from pathlib import Path
 import yaml
+from source_includes import expand_includes
 
 ROOT=Path(__file__).resolve().parents[1]
 manifest=json.loads((ROOT/'plan/demos.json').read_text())
@@ -22,15 +23,18 @@ if [d['day'] for d in manifest]!=list(range(1,26)):
 for demo in manifest:
     source=ROOT/demo['href']
     if not source.exists(): errors.append('Missing '+demo['href']);continue
-    body=source.read_text()
+    body=expand_includes(ROOT/demo['exercise_href'])
     if not re.search(r'id=["\']'+demo['root_id']+r'["\']',body):
         errors.append(demo['href']+': missing matching mount root')
     if '../interactives/core.js' not in body or '../'+demo['module'] not in body:
         errors.append(demo['href']+': missing local runtime scripts')
-    if demo['href'] not in sidebar: errors.append(demo['href']+': missing direct sidebar link')
-    target=ROOT/'docs'/Path(demo['href']).with_suffix('.html')
+    if demo['menu_href'] not in sidebar: errors.append(demo['menu_href']+': missing direct sidebar link')
+    if '{#explore}' not in (ROOT/demo['exercise_href']).read_text():
+        errors.append(demo['exercise_href']+': missing Explore anchor')
+    target=ROOT/'docs'/Path(demo['exercise_href']).with_suffix('.html')
     if not target.exists(): errors.append('Missing built '+str(target.relative_to(ROOT)))
     if not (ROOT/'docs'/demo['module']).exists(): errors.append('Missing deployed runtime '+demo['module'])
+    if 'window.location.replace' not in source.read_text(): errors.append(demo['href']+': old demo URL must redirect to its exercise')
 for script in (ROOT/'interactives').glob('*.js'):
     result=subprocess.run(['node','--check',str(script)],capture_output=True,text=True)
     if result.returncode: errors.append(result.stderr)

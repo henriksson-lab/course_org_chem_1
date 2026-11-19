@@ -1,8 +1,8 @@
 ---
-title: "Day 9: Week 2 model workshop: views, rotations and configurations"
+title: "Day 9: Exercises — Models, rotations and configurations"
 ---
 
-This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+Compare Newman and Fischer drawings, follow a chair flip, and distinguish conformation from configuration. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
 
 ### Refresher and worked starting point
 
@@ -158,6 +158,10 @@ Inspect equivalent upper/lower halves.
 The complete structure has an internal symmetry relationship and is achiral despite two stereocentres. Counting centres alone does not establish chirality.
 :::
 
-## Close the workshop
+## Review your solutions
 
 Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.
+
+## Explore {#explore}
+
+{{< include ../demos/_day09.qmd >}}

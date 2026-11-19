@@ -1,33 +1,11 @@
 ---
 title: 'Day 7: Fischer operations: interchange, mirror and page rotation'
+toc: false
+search: false
 ---
 
-A **5–10 minute exploration**, using a prediction before each control change. The diagram and result update locally; no network service is used.
-
-## Predict first
-
-For COOH top, CH₃ bottom, OH left and H right, predict R/S. Will one interchange, a 180° Fischer rotation and a 90° Fischer layout rotation all have the same effect?
+[Open the Day 7 demo in Exercises](../stereochemistry/exercise.qmd#explore).
 
 ```{=html}
-<section class="chem-demo" id="day07">Loading interactive…<noscript>This interactive needs JavaScript. The exploration instructions and linked worked practice below remain available.</noscript></section>
-<script src="../interactives/core.js"></script>
-<script src="../interactives/foundations.js"></script>
+<script>window.location.replace("../stereochemistry/exercise.html#explore");</script>
 ```
-
-## Explore
-
-1. Assign the initial configuration yourself using OH > COOH > CH₃ > H. State whether H points toward or away before interpreting the clockwise/counterclockwise trace.
-
-2. Interchange one selected pair and reassign. Interchange a second pair and explain why two interchanges can restore the original configuration. Compare with the left/right mirror operation.
-
-3. Reset before testing 180° and 90° page-layout rotations separately. Explain why a 90° Fischer layout operation is not equivalent to rigidly turning the actual molecule in three dimensions.
-
-## Take-away
-
-Write a valid rule for assigning configuration from a Fischer projection, including the lowest-priority-group correction. Why does this tool predict no optical-rotation sign?
-
-## Model and limits
-
-Each horizontal Fischer bond points toward the viewer and each vertical bond away. All operations rearrange the same four lactic-acid groups in that convention. A 180° in-plane Fischer rotation preserves configuration; a 90° layout rotation changes the implied configuration. R/S describes geometry, not measured (+)/(−) optical rotation.
-
-Continue with the [standalone worked practice](../stereochemistry/exercise.qmd).

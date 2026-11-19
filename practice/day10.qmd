@@ -1,8 +1,8 @@
 ---
-title: "Day 10: Week 2 consolidation: explain an unfamiliar spatial case"
+title: "Day 10: Exercises — Stereochemistry and mixtures"
 ---
 
-This is a standalone paper/model workshop. No textbook is needed. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
+Use molecular drawings and supplied observations to justify a stereochemical conclusion. **Core 1–8:** about 75–95 minutes including comparison and correction. **Extension 9–12:** about 30–45 minutes for optional independent work. Revisit the hints after an attempt; each worked check explains the rule, not just the label.
 
 ### Refresher and worked starting point
 
@@ -158,6 +158,10 @@ Separate the two kinds of composition.
 The measured enantiomeric components have80 % ee in favour of R. That result does not establish total chemical purity because the solvent is outside the R/S ratio.
 :::
 
-## Close the workshop
+## Review your solutions
 
 Choose one corrected drawing and one corrected explanation. State the observation or rule that made you change your answer. Save these beside your course notes; extra R tasks belong to their separate unit practice pages.
+
+## Explore {#explore}
+
+{{< include ../demos/_day10.qmd >}}

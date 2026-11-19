@@ -1,0 +1,52 @@
+**Question:** what changes when a candidate must explain a complete set of
+observations rather than only its molecular formula?
+
+Allow **10 minutes**: predict for 2, inspect competing candidates for 5, then
+write an assignment and limitation for 3. All traces are fixed **simulated
+teaching data**, not measured sample spectra.
+
+```{=html}
+<section class="chem-demo" id="day21" aria-label="Simulated IR and proton-NMR candidate-testing laboratory">
+<p>Enable JavaScript to compare a drawn candidate against supplied formula, IR and NMR clues.</p>
+</section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/applications.js"></script>
+```
+
+### Predict
+
+Unknown U1 is **C₄H₈O₂**. Could both an ester and a carboxylic acid fit the
+formula? Which observation would make a stronger comparison than the formula
+alone?
+
+For simple first-order proton NMR here, $n$ equivalent neighbouring H give
+$n+1$ lines. Integration counts relative H area; a quartet's four lines do
+not mean four H. In an IR transmittance trace, absorption appears as a dip.
+
+### Explore
+
+1. Compare ethyl ethanoate and butanoic acid using **Formula only**.
+2. Add the complete IR and identify which functional-group prediction changes.
+3. Use all clues. Assign the 2H quartet, 3H triplet and remaining 3H singlet
+   in U1 rather than merely selecting the green outcome.
+4. Try **Second unknown** and test ethanol against dimethyl ether. Then reset.
+
+### Supplied data and worked check
+
+U1 has carbonyl absorption without a broad O–H feature and proton signals
+**1.25 ppm triplet, 3H; 2.05 ppm singlet, 3H; 4.12 ppm quartet, 2H**. Ethyl
+ethanoate, CH₃COOCH₂CH₃, accounts for an ethyl pair and an acetyl methyl
+singlet. Butanoic acid predicts acid O–H and lacks the O–CH₂/acetyl pattern.
+
+U2 is **C₂H₆O**, with broad O–H, no carbonyl, and **1.18 ppm triplet, 3H;
+3.65 ppm quartet, 2H; an exchangeable broad OH signal, 1H** in this illustrative
+model. Ethanol fits; dimethyl ether has the same formula but no OH and would
+not give that proton pattern.
+
+### Model limits
+
+Peak positions, shapes and exchange depend on conditions. The listed patterns
+are introductory first-order examples, not a general spectral solver. Green
+means the candidate fits the **selected supplied evidence**, not that every
+possible alternative is excluded or the sample is pure. A filename is not
+identity evidence. See the local [spectroscopy exercises](../spectroscopy/exercise.qmd).

@@ -1,0 +1,54 @@
+**Question:** is an unmeasured spectral region the same as an observed absence,
+and can partial peak information justify a complete assignment?
+
+Allow **9 minutes**: predict for 2, mask and restore evidence for 4, then audit
+two contrasting claims for 3. The molecule does not change when observations
+are hidden; all data are fixed simulated U1 teaching observations.
+
+```{=html}
+<section class="chem-demo" id="day24" aria-label="Spectral evidence coverage and strength-of-claim challenge">
+<p>Enable JavaScript to change available evidence and inspect which claims remain justified.</p>
+</section>
+<script src="../interactives/core.js"></script>
+<script src="../interactives/applications.js"></script>
+```
+
+### Predict
+
+The supplied formula is **C₄H₈O₂**. If an IR measurement covers only the
+carbonyl window, can you claim that a broad O–H feature was absent? If NMR
+supplies only relative integrated areas 3:3:2, can you place an O–CH₂ group
+without shifts or splitting?
+
+In the simple NMR model, integration gives H-area ratios while chemical shifts
+and multiplicities provide different clues. Missing observations are not
+negative observations.
+
+### Explore
+
+1. Begin with the missing-region preset and audit **The O–H absence is observed**.
+2. Restore full IR coverage. Identify what new observation now supports or
+   challenges the acid candidate.
+3. Change NMR from relative areas only to splitting only, then to full evidence.
+   Compare **Integrals account for eight H** with **O–CH₂–CH₃ is assigned**.
+4. Try the purity and unique-structure claims, even with complete evidence.
+
+### Explain and check
+
+A carbonyl-only window cannot establish O–H absence; the grey area explicitly
+marks **unmeasured data**. Reliable relative areas can normalise to 3:3:2 and
+account for eight H using the formula, but they do not by themselves locate
+those H in the molecule. A 2H quartet near 4.12 ppm with the corresponding
+3H triplet provides additional support for O–CH₂–CH₃ in the stated candidate
+comparison.
+
+Complete U1 observations favour ethyl ethanoate over the supplied acid and
+hydroxyketone alternatives. They do not establish purity or exclude every
+conceivable molecular structure.
+
+### Model limits
+
+The coverage choices stipulate which observations are available and whether
+O–H detection is adequate. They do not simulate instrumental noise or compute
+quantitative confidence probabilities. Use the [local spectroscopy explanations](../spectroscopy/exercise.qmd)
+to connect each observation to a structural prediction.
