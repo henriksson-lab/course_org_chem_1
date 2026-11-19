@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img"><title>Elimination makes a C=C bond; addition consumes it</title><desc>Bromoethane loses HBr to give ethene; ethene adds HBr to give bromoethane</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="360" rx="12" fill="#f7fafc"/>
+<svg x="63.5" y="70.0" width="253.0" height="160.0" viewBox="0 0 253.0 160.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 119.7,32.4 L 142.2,71.4 L 44.8,127.6 L 22.3,88.6 Z' style='fill:#CFE3EC;fill-rule:evenodd;fill-opacity:1;stroke:#CFE3EC;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<ellipse cx='33.5' cy='108.1' rx='26.2' ry='26.2' class='atom-0'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='130.9' cy='51.9' rx='26.2' ry='26.2' class='atom-1'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 33.5,108.1 L 130.9,51.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 130.9,51.9 L 174.4,77.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 174.4,77.0 L 217.9,102.1' style='fill:none;fill-rule:evenodd;stroke:#7A3B2E;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 126.1,54.7 L 130.9,51.9 L 133.1,53.1' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 231.3 107.6
+Q 233.2 108.2, 234.1 109.3
+Q 235.1 110.5, 235.1 112.2
+Q 235.1 114.9, 233.3 116.5
+Q 231.6 118.0, 228.3 118.0
+L 221.6 118.0
+L 221.6 98.2
+L 227.5 98.2
+Q 230.9 98.2, 232.6 99.6
+Q 234.3 101.0, 234.3 103.5
+Q 234.3 106.5, 231.3 107.6
+M 224.3 100.5
+L 224.3 106.7
+L 227.5 106.7
+Q 229.4 106.7, 230.5 105.9
+Q 231.5 105.1, 231.5 103.5
+Q 231.5 100.5, 227.5 100.5
+L 224.3 100.5
+M 228.3 115.8
+Q 230.2 115.8, 231.3 114.9
+Q 232.3 113.9, 232.3 112.2
+Q 232.3 110.6, 231.2 109.7
+Q 230.0 108.9, 227.9 108.9
+L 224.3 108.9
+L 224.3 115.8
+L 228.3 115.8
+' fill='#7A3B2E'/>
+<path class='atom-2' d='M 239.6 103.6
+L 239.9 105.6
+Q 241.4 103.4, 243.9 103.4
+Q 244.7 103.4, 245.7 103.7
+L 245.3 106.0
+Q 244.1 105.7, 243.4 105.7
+Q 242.3 105.7, 241.5 106.2
+Q 240.7 106.7, 240.1 107.8
+L 240.1 118.0
+L 237.5 118.0
+L 237.5 103.6
+L 239.6 103.6
+' fill='#7A3B2E'/>
+</svg>
+<svg x="591.0" y="88.5" width="198.0" height="123.0" viewBox="0 0 198.0 123.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 42.8,39.0 L 155.2,39.0 L 155.2,84.0 L 42.8,84.0 Z' style='fill:#CFE3EC;fill-rule:evenodd;fill-opacity:1;stroke:#CFE3EC;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<ellipse cx='42.8' cy='61.5' rx='26.2' ry='26.2' class='atom-0'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='155.2' cy='61.5' rx='26.2' ry='26.2' class='atom-1'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 42.8,53.1 L 155.2,53.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 42.8,69.9 L 155.2,69.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+</svg>
+<text x="850" y="162" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#153747" text-anchor="middle" font-weight="normal">+  HBr</text>
+<line x1="370" y1="125" x2="560" y2="125" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="560" y1="185" x2="370" y2="185" stroke="#23765d" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="465" y="108" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="bold">elimination</text>
+<text x="465" y="222" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#23765d" text-anchor="middle" font-weight="bold">addition</text>
+<text x="190" y="285" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">bromoethane, C₂H₅Br</text>
+<text x="760" y="285" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">ethene + HBr</text>
+<text x="480" y="335" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">Elimination removes H and Br from neighbouring carbons and makes a π bond.</text>
+</svg>

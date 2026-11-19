@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>2-Bromobutane can give three alkenes</title><desc>Loss of H from C1 gives but-1-ene; loss of H from C3 gives E- or Z-but-2-ene</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<svg x="1.0" y="91.0" width="248.0" height="188.0" viewBox="0 0 248.0 188.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 21.9,150.4 L 93.4,109.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 93.4,109.1 L 93.4,73.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 93.4,73.5 L 93.4,37.8' style='fill:none;fill-rule:evenodd;stroke:#7A3B2E;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 93.4,109.1 L 164.8,150.4' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 164.8,150.4 L 236.3,109.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 161.3,148.3 L 164.8,150.4 L 168.4,148.3' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 95.9 26.2
+Q 97.5 26.7, 98.3 27.7
+Q 99.2 28.6, 99.2 30.1
+Q 99.2 32.5, 97.6 33.8
+Q 96.2 35.1, 93.3 35.1
+L 87.6 35.1
+L 87.6 18.1
+L 92.6 18.1
+Q 95.5 18.1, 97.0 19.3
+Q 98.5 20.5, 98.5 22.6
+Q 98.5 25.2, 95.9 26.2
+M 89.9 20.1
+L 89.9 25.4
+L 92.6 25.4
+Q 94.3 25.4, 95.2 24.7
+Q 96.1 24.0, 96.1 22.6
+Q 96.1 20.1, 92.6 20.1
+L 89.9 20.1
+M 93.3 33.2
+Q 95.0 33.2, 95.9 32.4
+Q 96.8 31.6, 96.8 30.1
+Q 96.8 28.7, 95.8 28.0
+Q 94.8 27.3, 93.0 27.3
+L 89.9 27.3
+L 89.9 33.2
+L 93.3 33.2
+' fill='#7A3B2E'/>
+<path class='atom-2' d='M 103.0 22.8
+L 103.3 24.5
+Q 104.6 22.6, 106.7 22.6
+Q 107.4 22.6, 108.3 22.8
+L 107.9 24.8
+Q 106.9 24.6, 106.3 24.6
+Q 105.3 24.6, 104.6 25.0
+Q 104.0 25.4, 103.4 26.3
+L 103.4 35.1
+L 101.2 35.1
+L 101.2 22.8
+L 103.0 22.8
+' fill='#7A3B2E'/>
+<path class='note' d='M 12.3 142.8
+L 14.8 142.8
+L 14.8 134.5
+L 12.1 135.3
+L 11.7 134.4
+L 15.1 132.9
+L 16.2 133.1
+L 16.2 142.8
+L 18.4 142.8
+L 18.4 144.0
+L 12.3 144.0
+L 12.3 142.8
+' fill='#176b91'/>
+<path class='note' d='M 166.4 163.9
+Q 167.5 164.2, 168.0 164.9
+Q 168.5 165.6, 168.5 166.7
+Q 168.5 167.6, 168.1 168.4
+Q 167.6 169.1, 166.7 169.5
+Q 165.9 169.9, 164.8 169.9
+Q 163.6 169.9, 162.7 169.5
+Q 161.8 169.0, 161.1 168.2
+L 162.0 167.3
+Q 162.7 168.0, 163.3 168.3
+Q 163.8 168.6, 164.8 168.6
+Q 165.8 168.6, 166.4 168.1
+Q 167.0 167.5, 167.0 166.7
+Q 167.0 165.5, 166.3 165.0
+Q 165.7 164.5, 164.4 164.5
+L 163.6 164.5
+L 163.6 163.4
+L 164.3 163.4
+Q 165.5 163.4, 166.1 162.9
+Q 166.7 162.3, 166.7 161.4
+Q 166.7 160.6, 166.2 160.2
+Q 165.7 159.8, 164.8 159.8
+Q 163.9 159.8, 163.3 160.1
+Q 162.7 160.4, 162.3 161.3
+L 161.2 160.7
+Q 161.6 159.8, 162.5 159.2
+Q 163.5 158.5, 164.8 158.5
+Q 166.4 158.5, 167.4 159.3
+Q 168.3 160.1, 168.3 161.4
+Q 168.3 162.3, 167.8 162.9
+Q 167.3 163.5, 166.4 163.9
+' fill='#176b91'/>
+</svg>
+<line x1="225" y1="185" x2="305" y2="185" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="265.0" y="171" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">EtO⁻</text>
+<text x="265.0" y="215" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">− HBr</text>
+<svg x="312.5" y="110.0" width="235.0" height="130.0" viewBox="0 0 235.0 130.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 86.3,33.3 L 101.3,59.2 L 36.3,96.7 L 21.3,70.8 Z' style='fill:#CFE3EC;fill-rule:evenodd;fill-opacity:1;stroke:#CFE3EC;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<ellipse cx='28.8' cy='83.8' rx='17.5' ry='17.5' class='atom-0'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='93.8' cy='46.2' rx='17.5' ry='17.5' class='atom-1'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 28.8,83.8 L 93.8,46.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 34.4,93.5 L 93.8,59.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 93.8,46.2 L 158.7,83.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 158.7,83.8 L 223.7,46.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 90.5,48.1 L 93.8,46.2 L 97.0,48.1' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 155.5,81.9 L 158.7,83.8 L 162.0,81.9' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+</svg>
+<text x="430" y="270" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="bold">but-1-ene</text>
+<text x="430" y="302" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">H lost from C1</text>
+<text x="430" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#af3b45" text-anchor="middle" font-weight="normal">minor</text>
+<svg x="532.5" y="79.0" width="205.0" height="192.0" viewBox="0 0 205.0 192.0" overflow="visible">
+<path class='bond-1 atom-1 atom-2' d='M 65.0,81.0 L 140.0,81.0 L 140.0,111.0 L 65.0,111.0 Z' style='fill:#CFE3EC;fill-rule:evenodd;fill-opacity:1;stroke:#CFE3EC;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<ellipse cx='65.0' cy='96.0' rx='17.5' ry='17.5' class='atom-1'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='140.0' cy='96.0' rx='17.5' ry='17.5' class='atom-2'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 27.5,161.0 L 65.0,96.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 65.0,96.0 L 140.0,96.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 71.5,107.3 L 140.0,107.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 140.0,96.0 L 177.5,31.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 63.1,99.2 L 65.0,96.0 L 68.7,96.0' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 136.2,96.0 L 140.0,96.0 L 141.9,92.8' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+</svg>
+<text x="635" y="270" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="bold">(E)-but-2-ene</text>
+<text x="635" y="302" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">H lost from C3</text>
+<text x="635" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#af3b45" text-anchor="middle" font-weight="normal">major</text>
+<svg x="737.5" y="101.0" width="205.0" height="148.0" viewBox="0 0 205.0 148.0" overflow="visible">
+<path class='bond-1 atom-1 atom-2' d='M 65.0,35.3 L 140.0,35.3 L 140.0,65.3 L 65.0,65.3 Z' style='fill:#CFE3EC;fill-rule:evenodd;fill-opacity:1;stroke:#CFE3EC;stroke-width:0.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<ellipse cx='65.0' cy='50.3' rx='17.5' ry='17.5' class='atom-1'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='140.0' cy='50.3' rx='17.5' ry='17.5' class='atom-2'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 27.5,115.2 L 65.0,50.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 65.0,50.3 L 140.0,50.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 71.5,61.5 L 133.5,61.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 140.0,50.3 L 177.5,115.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 63.1,53.5 L 65.0,50.3 L 68.7,50.3' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path d='M 136.2,50.3 L 140.0,50.3 L 141.9,53.5' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+</svg>
+<text x="840" y="270" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="bold">(Z)-but-2-ene</text>
+<text x="840" y="302" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">H lost from C3</text>
+<text x="840" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#af3b45" text-anchor="middle" font-weight="normal">less</text>
+<text x="480" y="382" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#153747" text-anchor="middle" font-weight="normal">A small base favours the more substituted alkene; a bulky base (t-BuO⁻) gives more but-1-ene.</text>
+</svg>
