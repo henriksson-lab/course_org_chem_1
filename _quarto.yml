@@ -39,22 +39,16 @@ website:
     left:
     - href: index.qmd
       text: Home
-    - href: course.qmd
-      text: Course route
-    - href: reference/data.qmd
-      text: Downloads
   sidebar:
     style: docked
     search: true
     contents:
-    - text: Start here
+    - text: Home
       href: index.qmd
-    - section: Course essentials
+    - section: Course info
       contents:
       - text: Learning route
         href: course.qmd
-      - text: Daily exercises
-        href: practice/index.qmd
       - text: Interactive demos
         href: demos/index.qmd
       - text: R and R Markdown
@@ -65,7 +59,7 @@ website:
         href: reference/practical.qmd
       - text: Data and downloads
         href: reference/data.qmd
-      - text: Reading and image credits
+      - text: Reading
         href: reference/reading.qmd
     - section: Week 1
       contents:
@@ -101,24 +95,12 @@ website:
           href: acids-bases/exercise.qmd#explore
       - section: 'Day 4: Structure and property review'
         contents:
-        - text: 'Lecture review: Structures'
-          href: structures/lec.qmd
-        - text: 'Lecture review: Properties and IR'
-          href: properties/lec.qmd
-        - text: 'Lecture review: Acids and bases'
-          href: acids-bases/lec.qmd
         - text: Exercises
           href: practice/day04.qmd
         - text: 'Demo: Functional-group inspector'
           href: practice/day04.qmd#explore
       - section: 'Day 5: Connecting structure, properties and acidity'
         contents:
-        - text: 'Lecture review: Structures'
-          href: structures/lec.qmd
-        - text: 'Lecture review: Properties and IR'
-          href: properties/lec.qmd
-        - text: 'Lecture review: Acids and bases'
-          href: acids-bases/lec.qmd
         - text: Exercises
           href: practice/day05.qmd
         - text: 'Demo: Ionisation and extraction'
@@ -157,20 +139,12 @@ website:
           href: mechanisms/exercise.qmd#explore
       - section: 'Day 9: Models, rotations and configurations'
         contents:
-        - text: 'Lecture review: Conformations'
-          href: conformations/lec.qmd
-        - text: 'Lecture review: Stereochemistry'
-          href: stereochemistry/lec.qmd
         - text: Exercises
           href: practice/day09.qmd
         - text: 'Demo: Conformer populations'
           href: practice/day09.qmd#explore
       - section: 'Day 10: Stereochemistry and mixtures'
         contents:
-        - text: 'Lecture review: Conformations'
-          href: conformations/lec.qmd
-        - text: 'Lecture review: Stereochemistry'
-          href: stereochemistry/lec.qmd
         - text: Exercises
           href: practice/day10.qmd
         - text: 'Demo: Enantiomer mixtures'
@@ -209,18 +183,12 @@ website:
           href: alcohols-redox/exercise.qmd#explore
       - section: 'Day 14: Reaction-mechanism review'
         contents:
-        - text: 'Lecture review: Substitution'
-          href: substitution/lec.qmd
-        - text: 'Lecture review: Elimination and addition'
-          href: elimination-addition/lec.qmd
         - text: Exercises
           href: practice/day14.qmd
         - text: 'Demo: SN1 steps and charge'
           href: practice/day14.qmd#explore
       - section: 'Day 15: Redox, amounts and evidence'
         contents:
-        - text: 'Lecture review: Alcohols and redox'
-          href: alcohols-redox/lec.qmd
         - text: Exercises
           href: practice/day15.qmd
         - text: 'Demo: Limiting reagent and yield'
@@ -259,20 +227,12 @@ website:
           href: amines-aromatics/exercise.qmd#explore
       - section: 'Day 19: Carbonyl and acyl review'
         contents:
-        - text: 'Lecture review: Carbonyl addition'
-          href: carbonyl-addition/lec.qmd
-        - text: 'Lecture review: Acyl chemistry'
-          href: acyl-chemistry/lec.qmd
         - text: Exercises
           href: practice/day19.qmd
         - text: 'Demo: Proton-transfer equilibria'
           href: practice/day19.qmd#explore
       - section: 'Day 20: Nitrogen, resonance and charge'
         contents:
-        - text: 'Lecture review: Amines and aromatics'
-          href: amines-aromatics/lec.qmd
-        - text: 'Lecture review: Acyl chemistry'
-          href: acyl-chemistry/lec.qmd
         - text: Exercises
           href: practice/day20.qmd
         - text: 'Demo: Amide electron availability'
@@ -311,29 +271,18 @@ website:
           href: integration/exercise.qmd#explore
       - section: 'Day 24: Spectral evidence and synthesis calculations'
         contents:
-        - text: 'Lecture review: Spectroscopy'
-          href: spectroscopy/lec.qmd
-        - text: 'Lecture review: Synthesis and evidence'
-          href: synthesis-evidence/lec.qmd
         - text: Exercises
           href: practice/day24.qmd
         - text: 'Demo: How strong is a spectral clue?'
           href: practice/day24.qmd#explore
       - section: 'Day 25: Final synthesis and interpretation'
         contents:
-        - text: 'Lecture review: Integrated chemistry'
-          href: integration/lec.qmd
-        - text: 'Lecture review: Spectroscopy'
-          href: spectroscopy/lec.qmd
-        - text: 'Lecture review: Synthesis and evidence'
-          href: synthesis-evidence/lec.qmd
         - text: Exercises
           href: practice/day25.qmd
         - text: 'Demo: Claims and chemical evidence'
           href: practice/day25.qmd#explore
   page-footer:
-    left: Organic Chemistry 1 · 7.5 credits · Teaching draft
-    right: Structures · Mechanisms · Evidence
+    left: Organic Chemistry 1 · 5KE231 · Umeå University
 format:
   html:
     theme: cosmo

@@ -3,8 +3,7 @@ title: "A small chemistry toolkit"
 ---
 
 Use these prompts while drawing. Return to the unit for the worked explanation.
-The toolkit and local worked examples supply the conventions needed for the
-problem sets; you do not need to retrieve an external textbook table.
+
 
 ## Audit a charge before drawing a mechanism
 

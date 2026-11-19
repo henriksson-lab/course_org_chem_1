@@ -5,87 +5,25 @@ title-block-banner: false
 toc: false
 ---
 
-Organic chemistry connects the shapes of molecules to what they do. In this
-course you will draw structures, explain reactions, and use experimental
-evidence to decide whether a chemical explanation holds up.
+A five-week course (**5KE231**, 7.5 credits, Umeå University) on how the
+structure of a molecule decides what it does: drawing structures, following
+electrons through reactions, and using spectra and lab data as evidence.
+R is used beside the lab notebook for calculations, plots and reports.
 
-This five-week teaching route is designed for the new **7.5-credit Organic
-Chemistry 1 (5KE231)** in the Life Science programme. Use your course's official
-instructions for dates, laboratory arrangements and assessment requirements.
+## Before you start
 
-::: {.course-start}
-**Start with a molecule and a question.**
+- [Set up R and knit your first report](intro/r-restart.qmd), then [download the student project](downloads/organic-chemistry-student.zip).
 
-Open [Reading organic structures](structures/lec.qmd), then work through its
-[practice](structures/exercise.qmd) and [self-check](structures/quiz.qmd).
-Keep paper or a structure-drawing tool beside you.
-:::
+## Topics
 
-## Your route through the chemistry
+Work through the sidebar from top to bottom. Topic days have a lecture,
+exercises, a self-check and an interactive demo; review days have mixed
+problems and a demo.
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-6 .course-card}
-### Week 1 · Read and explain
+- **Week 1: Structures, properties, acids and bases.** Read a skeletal structure, explain boiling points and solubility, and predict where a proton goes.
+- **Week 2: Shape and electron flow.** Conformations, stereochemistry and the curved-arrow language of mechanisms.
+- **Week 3: Reactions at saturated carbon.** Substitution, elimination, addition, and alcohol oxidation and reduction.
+- **Week 4: Carbonyls and nitrogen.** Addition to C=O, esters and amides, and amines and aromatic rings.
+- **Week 5: Evidence.** IR and NMR, synthesis and yield, and a final case that brings it all together.
 
-[Structures](structures/exercise.qmd), [properties and IR](properties/exercise.qmd),
-and [acids and bases](acids-bases/exercise.qmd).
-
-Read the atoms and bonds, explain a physical property, and predict where a proton moves.
-:::
-::: {.g-col-12 .g-col-md-6 .course-card}
-### Week 2 · Think in three dimensions
-
-[Conformations](conformations/exercise.qmd), [stereochemistry](stereochemistry/exercise.qmd),
-and [electron flow](mechanisms/exercise.qmd).
-
-Distinguish a rotated view from a different stereoisomer and draw a defensible mechanism.
-:::
-::: {.g-col-12 .g-col-md-6 .course-card}
-### Week 3 · Predict a transformation
-
-[Substitution](substitution/exercise.qmd), [elimination and addition](elimination-addition/exercise.qmd),
-and [alcohols and redox](alcohols-redox/exercise.qmd).
-
-Use a small reaction toolkit and explain competing pathways.
-:::
-::: {.g-col-12 .g-col-md-6 .course-card}
-### Week 4 · Understand carbonyl chemistry
-
-[Carbonyl addition](carbonyl-addition/exercise.qmd), [acyl chemistry](acyl-chemistry/exercise.qmd),
-and [amines and aromatics](amines-aromatics/exercise.qmd).
-
-Follow the shared mechanistic patterns that will reappear in biochemistry.
-:::
-::: {.g-col-12 .course-card}
-### Week 5 · Decide from evidence
-
-[Spectroscopy](spectroscopy/exercise.qmd), [synthesis and evidence](synthesis-evidence/exercise.qmd),
-and [integration](integration/exercise.qmd).
-
-Combine structures, reactions, spectra and calculations into a justified conclusion.
-:::
-:::
-
-## R belongs beside the laboratory notebook
-
-Use R for calculations, tables and plots, and R Markdown to keep methods,
-results and interpretation together. The chemistry still needs your drawing
-and explanation. You will calculate amounts and yield, plot an ionisation
-model, and present TLC and spectral evidence.
-
-- [Download the student project](downloads/organic-chemistry-student.zip).
-- [Restart R and Knit your first report](intro/r-restart.qmd).
-- [Find data dictionaries and exercise files](reference/data.qmd).
-- [Use the chemistry reference toolkit](reference/toolkit.qmd).
-- [Find paper chemistry problems for every study day](practice/index.qmd).
-- [Explore the interactive demo for each study day](demos/index.qmd).
-
-## How to use a day
-
-Choose a week and day in the left menu. Its lecture, Exercises, self-check
-and demo are grouped together. Review days link back to the relevant lectures.
-
-Study the slides, pause to draw and predict, then solve the exercises
-before opening their hints and worked checks. Finish with the self-check.
-Return to earlier representations and electron-flow rules whenever a reaction
-seems like an isolated fact to memorise.
+**See Canvas for dates, lab arrangements and assessment.**

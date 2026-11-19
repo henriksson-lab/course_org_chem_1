@@ -40,7 +40,7 @@ not a slide quota. Retain a slide only if it contributes an explanation, a
 worked operation, a comparison or a meaningful check. Natural slide counts
 vary by topic. Use speaker notes to plan the longer worked steps and pauses.
 
-The 25-day route is in `practice/index.qmd`. Each lecture unit has at least
+The 25-day route is in the sidebar (`_quarto.yml`); review days are `practice/dayNN.qmd`. Each lecture unit has at least
 20 non-R problems, and ten consolidation days have at least 12 each: a bank
 of at least 420 paper problems, separate from quizzes and R activities.
 Core/transfer/challenge labels keep daily required time realistic while

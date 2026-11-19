@@ -54,3 +54,15 @@ Review days link to existing lectures. Demo links open the exercise’s `#explor
 section, following the quantbio scaffold; old demo URLs redirect there.
 See [scaffold comparison](plan/scaffold-review.md) for the source conventions
 and the deliberate chemistry adaptations.
+
+## Figures and data
+
+The course's structure drawings, reaction diagrams, spatial illustrations and
+schematic plots are original vector artwork made for these lessons. None of
+the textbook illustrations has been copied into this site. Simulated spectra
+and calculated curves are labelled in their lessons; they are not measurements.
+
+The [visual asset register](assets/credits.csv) records each illustration's
+source and use. Reuse terms for original course material have not yet been
+specified by the course owner. External readings retain their own licences.
+

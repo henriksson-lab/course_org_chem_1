@@ -21,8 +21,7 @@ K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and
 Apparent isolated yield=100×isolated/theoretical product mass. TLC uses
 Rf=spot/front distances from the same origin. For simple first-order NMR,
 n adjacent equivalent H give n +1 lines while integration counts H area.
-Every additional structure, constant and observation needed is supplied in
-the individual problem; no unseen textbook table is assumed.
+Any further structure, constant or observation you need is given in the problem.
 
 ## 1. Read a new secondary alcohol
 

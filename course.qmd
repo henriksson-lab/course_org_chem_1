@@ -2,10 +2,6 @@
 title: "Learning route and outcomes"
 ---
 
-This is a complete first teaching draft for a new 7.5-credit Organic Chemistry 1.
-The sequence below organises five weeks of study; your course's official
-timetable and assessment instructions take precedence.
-
 ## What you should learn
 
 1. Read molecular representations and identify functional groups and charges.
@@ -17,62 +13,29 @@ timetable and assessment instructions take precedence.
 7. Use simple IR and one-dimensional NMR evidence to distinguish structures.
 8. Record, calculate and communicate laboratory results in a reproducible report.
 
-These are the teaching outcomes used to organise these materials. The formal
-course syllabus specifies the approved outcomes and examination rules.
+The course syllabus on Canvas gives the formal outcomes and examination rules.
 
-## Weekly rhythm
+## Week by week
 
-| Week | Units | Main work to keep |
+| Week | Topics | What you'll produce |
 | --- | --- | --- |
-| 1 | Structures; properties/IR; acids and bases | Annotated structures, a property explanation, proton-transfer mechanism and ionisation plot |
-| 2 | Conformations; stereochemistry; mechanisms | Newman/chair drawings, stereochemical comparisons, electron-flow diagrams and short conformer/ee calculations |
-| 3 | Substitution; elimination/addition; alcohols/redox | Explained reaction predictions, competing pathways and checked reactant amounts |
-| 4 | Carbonyl addition; acyl chemistry; amines/aromatics | Stepwise mechanisms, ester/amide comparisons and a TLC evidence table |
-| 5 | Spectroscopy; synthesis/evidence; integration | Structure puzzles, a short synthetic route and a report linking claims to evidence |
+| 1 | Structures; properties and IR; acids and bases | Annotated structures, a property explanation, a proton-transfer mechanism and an ionisation plot |
+| 2 | Conformations; stereochemistry; mechanisms | Newman and chair drawings, stereochemical comparisons and electron-flow diagrams |
+| 3 | Substitution; elimination and addition; alcohols and redox | Reaction predictions, competing pathways and checked reactant amounts |
+| 4 | Carbonyl addition; acyl chemistry; amines and aromatics | Stepwise mechanisms, ester/amide comparisons and a TLC evidence table |
+| 5 | Spectroscopy; synthesis and evidence; integration | Structure puzzles, a short synthetic route and a report linking claims to evidence |
 
-Each lecture is planned for **45 minutes**, including drawing, prediction and
-checking pauses. Slide counts vary with the chemistry. Some steps are quick;
-worked mechanisms and spatial reasoning deserve longer. Use the pauses to
-construct an answer, rather than watching the finished drawing appear.
+## How to study a day
 
-Each study day has an [interactive chemistry exploration](demos/index.qmd),
-linked directly in the left menu. Predict a change, try the controls and explain
-the result. Use these short activities within a worked-example block or as
-independent practice; they do not add an extra lesson to the timetable.
+Watch the lecture and pause to draw and predict when a "Try it" box appears.
+Then do the exercises before opening the hints and worked answers, try the
+interactive demo, and finish with the self-check. When you get something
+wrong, redraw it correctly and say what changed. Recognising an answer is a
+start; being able to construct it yourself is the goal.
 
-Plan substantial time for drawing and independent problem solving. Three
-lecture units per week leave room for tutorials, practical work and revision.
-The eight R activities occupy about five hours plus time to assemble reports
-and recover from mistakes; they form a small part of the overall chemistry work.
-
-## A textbook-independent practice route
-
-Use the [25-day chemistry practice route](practice/index.qmd). Each lecture
-unit supplies at least 20 non-R paper problems, with separate hints and worked
-explanations; each of the ten consolidation days has at least 12 mixed problems.
-That is at least **420 paper chemistry problems**, with additional self-checks
-and the short R tasks. Core, transfer and challenge routes let you practise
-at a realistic pace and return for revision.
-
-The local explanations, worked examples, definitions and supplied data are
-sufficient for these exercises. You do not need the textbook to look up an
-unseen structure, figure, constant or question. The reading guide offers
-optional supplementary explanations.
-
-## Check your understanding
-
-Before consulting an answer, record your prediction and reason. If you make a
-mistake, draw the corrected structure or mechanism and explain what changed.
-Being able to recognise an answer is a useful start; being able to construct
-and defend it is the goal.
-
-The self-checks and worked practice are formative. They do not establish
-examination weightings, compulsory attendance rules or grade boundaries.
+The [reading guide](reference/reading.qmd) lists the matching book chapters.
 
 ## What comes next?
 
-This course provides a foundation for biochemistry even if you do not take
-more organic chemistry. Organic Chemistry II appears as a recommended
-7.5-credit chemistry elective in the locally researched 2027 programme plan.
-It is a possible route to deeper synthesis and reactivity; its detailed
-syllabus and final course code remain to be confirmed.
+The course is a foundation for biochemistry. Organic Chemistry II is a
+possible follow-on elective for deeper synthesis and reactivity.

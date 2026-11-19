@@ -255,8 +255,7 @@ Move the C=O pi pair during addition; show O⁻ in the intermediate and ethoxide
 ## Consolidate your work
 
 Choose one corrected error and explain what changed in your reasoning. Then
-complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
-all practice above is self-contained.
+complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) lists the matching book chapters.
 
 ## Explore {#explore}
 

@@ -298,7 +298,7 @@ input, not the calculated consequence of adding a specified titrant volume.
 
 ## Review your work
 
-Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) offers optional background, not required problem inputs.
+Choose one corrected mistake and explain the chemical rule that repairs it. Continue with the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) lists the matching book chapters.
 
 ## Explore {#explore}
 

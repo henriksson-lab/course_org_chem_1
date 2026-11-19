@@ -292,7 +292,7 @@ alone cannot supply either.
 :::
 
 Finish with two sentences stating what the observations support and what
-remains uncertain. Optional reading: selected Solomons chapters 8, 12 and 17;
+remains uncertain. Reading: Solomons chapters 8, 12 and 17;
 see the [reading guide](../reference/reading.qmd).
 
 ## Explore {#explore}

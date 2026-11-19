@@ -25,8 +25,8 @@ for number,week in enumerate(weeks,1):
             errors.append(f'Day {n}: exercise link must be labelled Exercises')
         if not any(x.get('href')==day['href']+'#explore' and x.get('text','').startswith('Demo:') for x in leaves):
             errors.append(f'Day {n}: missing embedded demo link')
-        if not any(x.get('href','').endswith('/lec.qmd') for x in leaves):
-            errors.append(f'Day {n}: missing lecture/review link')
+        if day['kind']=='unit' and not any(x.get('href')==day['unit']+'/lec.qmd' for x in leaves):
+            errors.append(f'Day {n}: missing lecture link')
         if day['kind']=='unit' and not any(x.get('href')==day['unit']+'/quiz.qmd' for x in leaves):
             errors.append(f'Day {n}: missing self-check')
         for leaf in leaves:

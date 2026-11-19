@@ -264,7 +264,7 @@ Water acting as base removes β-H, giving 2-methylpropene and hydronium through 
 
 ## Check your progress
 
-Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) is optional support; all required exercise information is supplied here.
+Choose one corrected drawing and explain what changed in its atoms, charge, geometry or evidence. Then complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) lists the matching book chapters.
 
 ## Explore {#explore}
 

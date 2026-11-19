@@ -1,14 +1,10 @@
 ---
-title: "Interactive chemistry: one exploration for each study day"
+title: "Interactive demos"
 ---
 
-Use these short explorations alongside the drawings and paper problems.
-Predict what will happen before changing a control; then explain the chemical
-reason for the change. Most demos fit a 5–10 minute classroom or independent
-activity. They support the existing 45-minute sessions and practice route.
-
-Every demo has a direct link in the left sidebar under its corresponding
-day. The demo is embedded in that day’s Exercises page. No account, R session or external service is needed.
+One short interactive demo per day, embedded in that day's Exercises page.
+Predict what will happen before you move a control, then explain why it
+happened.
 
 | Day | Interactive exploration | Question to investigate |
 | --- | --- | --- |
@@ -37,16 +33,3 @@ day. The demo is embedded in that day’s Exercises page. No account, R session 
 | 23 | [Build a short synthesis](../integration/exercise.qmd#explore) | Choose transformations and inspect their consequences |
 | 24 | [How strong is a spectral clue?](../practice/day24.qmd#explore) | Change the available evidence and test a claim |
 | 25 | [Claims and chemical evidence](../practice/day25.qmd#explore) | Separate identity, purity, conversion and isolated yield |
-
-## Use a model with its assumptions
-
-The diagrams, curves and supplied observations are teaching models. A slider
-does not establish a measured reaction rate, experimental spectrum or isolated
-product identity. Each page states the model assumptions and links back to its
-local chemistry explanation and paper practice. For example, the extraction
-explorer supplies partition assumptions that an aqueous ionisation curve alone
-does not contain.
-
-The demos keep their state in your current browser page and do not submit
-answers or record students. Use reset/preset controls to compare situations,
-and return to the paper question to construct your own drawing or explanation.

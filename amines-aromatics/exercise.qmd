@@ -255,8 +255,7 @@ The left H₂N site is not directly attached to C=O; the right NH is the amide N
 ## Consolidate your work
 
 Choose one corrected error and explain what changed in your reasoning. Then
-complete the [self-check](quiz.qmd). [Reading](../reference/reading.qmd) is optional;
-all practice above is self-contained.
+complete the [self-check](quiz.qmd). The [reading guide](../reference/reading.qmd) lists the matching book chapters.
 
 ## Explore {#explore}
 

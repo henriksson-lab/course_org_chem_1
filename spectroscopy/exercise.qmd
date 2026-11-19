@@ -294,7 +294,7 @@ carbonyl position is not a unique molecular fingerprint.
 ## Leave with
 
 A fully annotated structure, a rejected alternative, and a knitted Rmd section
-with a labelled IR comparison. Read selected Solomons chapters 2 and 9 through
+with a labelled IR comparison. Reading: Solomons chapters 2 and 9; see
 the [reading guide](../reference/reading.qmd).
 
 ## Explore {#explore}
