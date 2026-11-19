@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Schematic proton NMR of an isolated aspirin sample with one extra signal</title><desc>Stick spectrum from 12 to 0 ppm: broad 1H acid signal near 11, four 1H aromatic signals between 7.1 and 8.1, a 3H singlet at 2.3, and an extra red singlet near 2.1</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<line x1="60" y1="300" x2="900" y2="300" stroke="#153747" stroke-width="2"/>
+<line x1="60.0" y1="300" x2="60.0" y2="308" stroke="#153747" stroke-width="2"/>
+<text x="60.0" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">12</text>
+<line x1="200.0" y1="300" x2="200.0" y2="308" stroke="#153747" stroke-width="2"/>
+<text x="200.0" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">10</text>
+<line x1="340.0" y1="300" x2="340.0" y2="308" stroke="#153747" stroke-width="2"/>
+<text x="340.0" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">8</text>
+<line x1="480.0" y1="300" x2="480.0" y2="308" stroke="#153747" stroke-width="2"/>
+<text x="480.0" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">6</text>
+<line x1="620.0" y1="300" x2="620.0" y2="308" stroke="#153747" stroke-width="2"/>
+<text x="620.0" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">4</text>
+<line x1="760.0" y1="300" x2="760.0" y2="308" stroke="#153747" stroke-width="2"/>
+<text x="760.0" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">2</text>
+<line x1="900.0" y1="300" x2="900.0" y2="308" stroke="#153747" stroke-width="2"/>
+<text x="900.0" y="332" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="normal">0</text>
+<text x="480.0" y="366" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#153747" text-anchor="middle" font-weight="normal">chemical shift δ / ppm</text>
+<path d="M 88.0 300 Q 130.0 223.0 172.0 300" stroke="#176b91" stroke-width="3" fill="none"/>
+<text x="130.0" y="231.0" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">1H, broad</text>
+<text x="130.0" y="205.0" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="bold">COOH</text>
+<line x1="331.6000000000001" y1="300" x2="331.6000000000001" y2="245" stroke="#176b91" stroke-width="3"/>
+<line x1="366.59999999999997" y1="300" x2="366.59999999999997" y2="245" stroke="#176b91" stroke-width="3"/>
+<line x1="386.20000000000005" y1="300" x2="386.20000000000005" y2="245" stroke="#176b91" stroke-width="3"/>
+<line x1="400.20000000000005" y1="300" x2="400.20000000000005" y2="245" stroke="#176b91" stroke-width="3"/>
+<text x="368.0" y="231" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="normal">4 × 1H</text>
+<text x="368.0" y="205" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="middle" font-weight="bold">aromatic</text>
+<line x1="736.9" y1="300" x2="736.9" y2="135" stroke="#176b91" stroke-width="3"/>
+<text x="746.9" y="145" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="start" font-weight="normal">3H, s</text>
+<text x="746.9" y="171" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#153747" text-anchor="start" font-weight="bold">acetyl CH₃</text>
+<line x1="756.5" y1="300" x2="756.5" y2="212.0" stroke="#af3b45" stroke-width="3"/>
+<text x="766.5" y="242.0" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#af3b45" text-anchor="start" font-weight="bold">extra: ?</text>
+<text x="480" y="385" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#8aa0ab" text-anchor="middle" font-weight="normal">schematic, not a measured spectrum</text>
+</svg>
