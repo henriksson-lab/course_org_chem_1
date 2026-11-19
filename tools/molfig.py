@@ -76,6 +76,7 @@ def molecule_svg(smiles, numbers=None, highlight_atoms=(), highlight_bonds=None,
     drawer.DrawMolecule(mol, highlightAtoms=highlight_atoms, highlightBonds=list(highlight_bonds),
                         highlightAtomColors={i: colour for i in highlight_atoms},
                         highlightBondColors={i: colour for i in highlight_bonds})
+    coords = {i: (drawer.GetDrawCoords(i).x, drawer.GetDrawCoords(i).y) for i in range(mol.GetNumAtoms())}
     drawer.FinishDrawing()
     svg = drawer.GetDrawingText()
     # Atom notes (locants) in course blue; RDKit ignores the annotation colour option.
@@ -85,14 +86,49 @@ def molecule_svg(smiles, numbers=None, highlight_atoms=(), highlight_bonds=None,
         col = ELEMENT_COLOURS.get(mol.GetAtomWithIdx(i).GetAtomicNum(), INK)
         svg = re.sub(r"(<path class='atom-%d' d='[^']*' fill=')#[0-9A-Fa-f]{6}" % i, r"\g<1>" + col, svg)
     body = svg[svg.index('<!-- END OF HEADER -->') + len('<!-- END OF HEADER -->'):svg.rindex('</svg>')]
+    molecule_svg.last_coords = coords
     return body, w, h
 
 def place(fig, smiles, x, y, **kwargs):
-    """Embed a molecule into a chemfig.Figure centred on (x, y). Returns (w, h)."""
+    """Embed a molecule into a chemfig.Figure centred on (x, y).
+
+    Returns a dict {atom_index: (x, y)} of atom positions in figure coordinates,
+    for attaching arrows, lone pairs or labels. Atom indices follow SMILES order
+    (see atom_indices); with explicit_h=True the added H atoms come last.
+    """
     body, w, h = molecule_svg(smiles, **kwargs)
-    fig.parts.append(f'<svg x="{x - w/2:.1f}" y="{y - h/2:.1f}" width="{w:.1f}" height="{h:.1f}" '
+    x0, y0 = x - w/2, y - h/2
+    fig.parts.append(f'<svg x="{x0:.1f}" y="{y0:.1f}" width="{w:.1f}" height="{h:.1f}" '
                      f'viewBox="0 0 {w:.1f} {h:.1f}" overflow="visible">{body}</svg>')
-    return w, h
+    return {i: (x0 + cx, y0 + cy) for i, (cx, cy) in molecule_svg.last_coords.items()}
+
+def curved_arrow(fig, start, end, bend=0.35, color=RED, width=2.5, shorten=14):
+    """Electron-pushing arrow from start to end (figure coordinates).
+
+    bend > 0 curves to the left of the start→end direction, < 0 to the right.
+    shorten pulls both ends back so the arrow does not cover atom labels.
+    """
+    import math
+    (x1, y1), (x2, y2) = start, end
+    d = math.hypot(x2 - x1, y2 - y1) or 1
+    ux, uy = (x2 - x1)/d, (y2 - y1)/d
+    x1, y1, x2, y2 = x1 + ux*shorten, y1 + uy*shorten, x2 - ux*shorten, y2 - uy*shorten
+    mx, my = (x1 + x2)/2, (y1 + y2)/2
+    cx, cy = mx + uy*bend*d, my - ux*bend*d
+    mid = 'head' + color.lstrip('#')
+    if not any(f'id="{mid}"' in p for p in fig.parts):
+        fig.parts.insert(1, f'<defs><marker id="{mid}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" '
+                            f'markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="{color}"/></marker></defs>')
+    fig.parts.append(f'<path d="M {x1:.1f} {y1:.1f} Q {cx:.1f} {cy:.1f} {x2:.1f} {y2:.1f}" stroke="{color}" '
+                     f'stroke-width="{width}" fill="none" marker-end="url(#{mid})"/>')
+
+def lone_pair(fig, at, angle_deg, distance=24, color=BLUE):
+    """Two dots at `distance` px from an atom position, in direction angle_deg (0 = right, 90 = up)."""
+    import math
+    a = math.radians(angle_deg)
+    px, py = at[0] + distance*math.cos(a), at[1] - distance*math.sin(a)
+    for side in (-1, 1):
+        fig.circle(px + side*5*math.sin(a), py + side*5*math.cos(a), 3, color=color, fill=color, width=1)
 
 def atom_indices(smiles):
     """Helper for authors: list atom index, symbol and neighbours of a SMILES."""
