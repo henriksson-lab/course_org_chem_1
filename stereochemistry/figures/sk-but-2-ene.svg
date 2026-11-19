@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>(Z)- and (E)-but-2-ene</title><desc>Z-but-2-ene has both methyl groups on the same side; E-but-2-ene has them on opposite sides</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<svg x="103.5" y="15.0" width="293.0" height="270.0" viewBox="0 0 293.0 270.0" overflow="visible">
+<ellipse cx='27.7' cy='229.0' rx='27.7' ry='27.7' class='atom-0'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='265.3' cy='229.0' rx='27.7' ry='27.7' class='atom-5'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 27.7,229.0 L 87.1,126.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 87.1,126.1 L 35.7,37.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 87.1,126.1 L 205.9,126.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 97.4,143.9 L 195.6,143.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 205.9,126.1 L 257.3,37.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-3 atom-5' d='M 205.9,126.1 L 265.3,229.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-2' d='M 20.0 13.3
+L 22.6 13.3
+L 22.6 21.7
+L 32.8 21.7
+L 32.8 13.3
+L 35.5 13.3
+L 35.5 33.1
+L 32.8 33.1
+L 32.8 24.0
+L 22.6 24.0
+L 22.6 33.1
+L 20.0 33.1
+L 20.0 13.3
+' fill='#153747'/>
+<path class='atom-4' d='M 257.5 13.3
+L 260.2 13.3
+L 260.2 21.7
+L 270.4 21.7
+L 270.4 13.3
+L 273.0 13.3
+L 273.0 33.1
+L 270.4 33.1
+L 270.4 24.0
+L 260.2 24.0
+L 260.2 33.1
+L 257.5 33.1
+L 257.5 13.3
+' fill='#153747'/>
+</svg>
+<svg x="563.5" y="15.0" width="293.0" height="270.0" viewBox="0 0 293.0 270.0" overflow="visible">
+<ellipse cx='27.7' cy='237.9' rx='27.7' ry='27.7' class='atom-0'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='265.3' cy='32.1' rx='27.7' ry='27.7' class='atom-5'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 27.7,237.9 L 87.1,135.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 87.1,135.0 L 35.7,46.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 87.1,135.0 L 205.9,135.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 97.4,152.8 L 195.6,152.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-3 atom-4' d='M 205.9,135.0 L 257.3,224.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-3 atom-5' d='M 205.9,135.0 L 265.3,32.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-2' d='M 20.0 22.2
+L 22.6 22.2
+L 22.6 30.6
+L 32.8 30.6
+L 32.8 22.2
+L 35.5 22.2
+L 35.5 42.0
+L 32.8 42.0
+L 32.8 32.9
+L 22.6 32.9
+L 22.6 42.0
+L 20.0 42.0
+L 20.0 22.2
+' fill='#153747'/>
+<path class='atom-4' d='M 257.5 228.0
+L 260.2 228.0
+L 260.2 236.4
+L 270.4 236.4
+L 270.4 228.0
+L 273.0 228.0
+L 273.0 247.8
+L 270.4 247.8
+L 270.4 238.6
+L 260.2 238.6
+L 260.2 247.8
+L 257.5 247.8
+L 257.5 228.0
+' fill='#153747'/>
+</svg>
+<text x="250" y="300" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">(Z)-but-2-ene</text>
+<text x="250" y="338" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">CH₃ &gt; H at each end · same side</text>
+<text x="710" y="300" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">(E)-but-2-ene</text>
+<text x="710" y="338" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#176b91" text-anchor="middle" font-weight="normal">CH₃ &gt; H at each end · opposite sides</text>
+<text x="480" y="382" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#5b6f7a" text-anchor="middle" font-weight="normal">Z = zusammen (together)  ·  E = entgegen (opposite)</text>
+</svg>

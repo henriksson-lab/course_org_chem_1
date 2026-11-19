@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>Assigning R/S on a Fischer projection</title><desc>Fischer projection of lactic acid with OH 1 on the left, COOH 2 at the top, CH3 3 at the bottom and H 4 on the right; the trace looks clockwise but H is horizontal, so the centre is S</desc>
+<defs><marker id="arcaf3b45" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#af3b45"/></marker></defs>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<line x1="164" y1="190" x2="336" y2="190" stroke="#153747" stroke-width="3"/>
+<line x1="250" y1="104" x2="250" y2="276" stroke="#153747" stroke-width="3"/>
+<text x="250" y="90" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="250" y="310" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="middle" font-weight="normal">CH₃</text>
+<text x="152" y="199" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="end" font-weight="normal">OH</text>
+<text x="348" y="199" font-family="DejaVu Sans, sans-serif" font-size="27" fill="#153747" text-anchor="start" font-weight="normal">H</text>
+<circle cx="174" cy="164" r="14" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="174" y="171" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="308" cy="82" r="14" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="308" y="89" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="302" cy="301" r="14" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="302" y="308" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="326" cy="164" r="14" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="326" y="171" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">4</text>
+<path d="M 204.0 190.0 A 46 46 0 0 1 250.0 144.0 A 46 46 0 0 1 250.0 236.0" stroke="#af3b45" stroke-width="3" fill="none" marker-end="url(#arcaf3b45)"/>
+<text x="560" y="135" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">1 → 2 → 3 looks clockwise</text>
+<text x="560" y="193" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">but H (4) is horizontal,</text>
+<text x="560" y="251" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">so it points toward you</text>
+<text x="560" y="309" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#176b91" text-anchor="start" font-weight="bold">reverse:  S</text>
+<text x="560" y="375" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#5b6f7a" text-anchor="start" font-weight="normal">this is L-lactic acid, the muscle form</text>
+</svg>

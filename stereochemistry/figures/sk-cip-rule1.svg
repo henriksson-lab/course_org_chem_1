@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img"><title>Priority starts with atomic number of the attached atom</title><desc>Bromochloromethanol ranked Br &gt; Cl &gt; O &gt; H; 1-bromopropan-2-ol ranked OH &gt; CH2Br &gt; CH3 &gt; H</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="440" rx="12" fill="#f7fafc"/>
+<svg x="122.5" y="47.5" width="255.0" height="255.0" viewBox="0 0 255.0 255.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 51.3,127.9 L 94.6,127.9' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 94.6,127.9 L 138.0,127.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 138.0,127.9 L 222.7,120.4 L 222.7,135.3 Z' style='fill:#153747;fill-rule:evenodd;fill-opacity:1;stroke:#153747;stroke-width:0.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='bond-2 atom-1 atom-3' d='M 138.0,127.9 L 138.0,170.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 138.0,170.8 L 138.0,213.7' style='fill:none;fill-rule:evenodd;stroke:#7A3B2E;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 138.0,127.9 L 138.0,85.4' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 138.0,85.4 L 138.0,43.0' style='fill:none;fill-rule:evenodd;stroke:#23765D;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 10.3 118.1
+L 13.0 118.1
+L 13.0 126.5
+L 23.1 126.5
+L 23.1 118.1
+L 25.8 118.1
+L 25.8 137.9
+L 23.1 137.9
+L 23.1 128.7
+L 13.0 128.7
+L 13.0 137.9
+L 10.3 137.9
+L 10.3 118.1
+' fill='#AF3B45'/>
+<path class='atom-0' d='M 29.9 127.9
+Q 29.9 123.2, 32.2 120.5
+Q 34.6 117.8, 39.0 117.8
+Q 43.4 117.8, 45.7 120.5
+Q 48.1 123.2, 48.1 127.9
+Q 48.1 132.7, 45.7 135.5
+Q 43.3 138.2, 39.0 138.2
+Q 34.6 138.2, 32.2 135.5
+Q 29.9 132.8, 29.9 127.9
+M 39.0 135.9
+Q 42.0 135.9, 43.6 133.9
+Q 45.3 131.9, 45.3 127.9
+Q 45.3 124.0, 43.6 122.1
+Q 42.0 120.1, 39.0 120.1
+Q 35.9 120.1, 34.3 122.0
+Q 32.7 124.0, 32.7 127.9
+Q 32.7 131.9, 34.3 133.9
+Q 35.9 135.9, 39.0 135.9
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 229.2 117.9
+L 231.9 117.9
+L 231.9 126.4
+L 242.0 126.4
+L 242.0 117.9
+L 244.7 117.9
+L 244.7 137.8
+L 242.0 137.8
+L 242.0 128.6
+L 231.9 128.6
+L 231.9 137.8
+L 229.2 137.8
+L 229.2 117.9
+' fill='#153747'/>
+<path class='atom-3' d='M 140.9 226.4
+Q 142.8 226.9, 143.7 228.1
+Q 144.7 229.2, 144.7 230.9
+Q 144.7 233.7, 142.9 235.2
+Q 141.2 236.8, 137.9 236.8
+L 131.2 236.8
+L 131.2 216.9
+L 137.1 216.9
+Q 140.5 216.9, 142.2 218.3
+Q 143.9 219.7, 143.9 222.2
+Q 143.9 225.2, 140.9 226.4
+M 133.9 219.2
+L 133.9 225.4
+L 137.1 225.4
+Q 139.0 225.4, 140.0 224.6
+Q 141.1 223.8, 141.1 222.2
+Q 141.1 219.2, 137.1 219.2
+L 133.9 219.2
+M 137.9 234.5
+Q 139.8 234.5, 140.9 233.6
+Q 141.9 232.7, 141.9 230.9
+Q 141.9 229.3, 140.7 228.5
+Q 139.6 227.6, 137.5 227.6
+L 133.9 227.6
+L 133.9 234.5
+L 137.9 234.5
+' fill='#7A3B2E'/>
+<path class='atom-3' d='M 149.2 222.4
+L 149.5 224.4
+Q 151.0 222.1, 153.5 222.1
+Q 154.3 222.1, 155.3 222.4
+L 154.9 224.8
+Q 153.7 224.5, 153.0 224.5
+Q 151.9 224.5, 151.1 225.0
+Q 150.3 225.4, 149.7 226.5
+L 149.7 236.8
+L 147.1 236.8
+L 147.1 222.4
+L 149.2 222.4
+' fill='#7A3B2E'/>
+<path class='atom-4' d='M 130.3 29.5
+Q 130.3 24.6, 132.6 22.0
+Q 134.9 19.4, 139.3 19.4
+Q 143.4 19.4, 145.6 22.3
+L 143.8 23.8
+Q 142.2 21.7, 139.3 21.7
+Q 136.3 21.7, 134.7 23.7
+Q 133.2 25.7, 133.2 29.5
+Q 133.2 33.5, 134.8 35.5
+Q 136.4 37.5, 139.6 37.5
+Q 141.8 37.5, 144.4 36.2
+L 145.2 38.3
+Q 144.1 39.0, 142.6 39.3
+Q 141.0 39.7, 139.2 39.7
+Q 134.9 39.7, 132.6 37.1
+Q 130.3 34.5, 130.3 29.5
+' fill='#23765D'/>
+<path class='atom-4' d='M 147.6 18.2
+L 150.2 18.2
+L 150.2 39.5
+L 147.6 39.5
+L 147.6 18.2
+' fill='#23765D'/>
+</svg>
+<circle cx="260.4608" cy="308.35699999999997" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="260.4608" y="315.35699999999997" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="260.4608" cy="42.357" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="260.4608" y="49.357" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="101.4608" cy="175.35699999999994" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="101.4608" y="182.35699999999994" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="401.4608" cy="175.357" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="401.4608" y="182.357" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">4</text>
+<text x="250" y="385" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">Br &gt; Cl &gt; O &gt; H</text>
+<text x="250" y="420" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">Z = 35 &gt; 17 &gt; 8 &gt; 1</text>
+<svg x="547.5" y="58.0" width="305.0" height="244.0" viewBox="0 0 305.0 244.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 70.8,35.9 L 117.6,117.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 117.6,117.0 L 161.2,178.6 L 149.1,185.6 Z' style='fill:#153747;fill-rule:evenodd;fill-opacity:1;stroke:#153747;stroke-width:0.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='bond-2 atom-1 atom-3' d='M 117.6,117.0 L 83.1,136.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 83.1,136.9 L 48.7,156.8' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-3 atom-1 atom-4' d='M 117.6,117.0 L 198.7,70.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 198.7,70.2 L 234.4,90.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-4 atom-4 atom-5' d='M 234.4,90.8 L 270.0,111.4' style='fill:none;fill-rule:evenodd;stroke:#7A3B2E;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 194.7,72.5 L 198.7,70.2 L 200.5,71.2' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 156.7 188.3
+L 159.4 188.3
+L 159.4 196.7
+L 169.5 196.7
+L 169.5 188.3
+L 172.2 188.3
+L 172.2 208.1
+L 169.5 208.1
+L 169.5 198.9
+L 159.4 198.9
+L 159.4 208.1
+L 156.7 208.1
+L 156.7 188.3
+' fill='#153747'/>
+<path class='atom-3' d='M 7.8 154.1
+L 10.5 154.1
+L 10.5 162.5
+L 20.6 162.5
+L 20.6 154.1
+L 23.3 154.1
+L 23.3 173.9
+L 20.6 173.9
+L 20.6 164.8
+L 10.5 164.8
+L 10.5 173.9
+L 7.8 173.9
+L 7.8 154.1
+' fill='#AF3B45'/>
+<path class='atom-3' d='M 27.4 163.9
+Q 27.4 159.2, 29.7 156.5
+Q 32.1 153.9, 36.5 153.9
+Q 40.9 153.9, 43.2 156.5
+Q 45.6 159.2, 45.6 163.9
+Q 45.6 168.8, 43.2 171.5
+Q 40.8 174.2, 36.5 174.2
+Q 32.1 174.2, 29.7 171.5
+Q 27.4 168.8, 27.4 163.9
+M 36.5 172.0
+Q 39.5 172.0, 41.1 170.0
+Q 42.8 167.9, 42.8 163.9
+Q 42.8 160.0, 41.1 158.1
+Q 39.5 156.1, 36.5 156.1
+Q 33.4 156.1, 31.8 158.1
+Q 30.2 160.0, 30.2 163.9
+Q 30.2 167.9, 31.8 170.0
+Q 33.4 172.0, 36.5 172.0
+' fill='#AF3B45'/>
+<path class='atom-5' d='M 282.7 116.5
+Q 284.6 117.1, 285.6 118.2
+Q 286.6 119.4, 286.6 121.1
+Q 286.6 123.8, 284.8 125.4
+Q 283.1 127.0, 279.8 127.0
+L 273.1 127.0
+L 273.1 107.1
+L 279.0 107.1
+Q 282.4 107.1, 284.1 108.5
+Q 285.8 109.9, 285.8 112.4
+Q 285.8 115.4, 282.7 116.5
+M 275.8 109.4
+L 275.8 115.6
+L 279.0 115.6
+Q 280.9 115.6, 281.9 114.8
+Q 283.0 114.0, 283.0 112.4
+Q 283.0 109.4, 279.0 109.4
+L 275.8 109.4
+M 279.8 124.7
+Q 281.7 124.7, 282.7 123.8
+Q 283.8 122.9, 283.8 121.1
+Q 283.8 119.5, 282.6 118.7
+Q 281.5 117.8, 279.4 117.8
+L 275.8 117.8
+L 275.8 124.7
+L 279.8 124.7
+' fill='#7A3B2E'/>
+<path class='atom-5' d='M 291.1 112.6
+L 291.4 114.6
+Q 292.9 112.3, 295.4 112.3
+Q 296.1 112.3, 297.2 112.6
+L 296.8 114.9
+Q 295.6 114.7, 294.9 114.7
+Q 293.7 114.7, 293.0 115.1
+Q 292.2 115.6, 291.6 116.7
+L 291.6 127.0
+L 289.0 127.0
+L 289.0 112.6
+L 291.1 112.6
+' fill='#7A3B2E'/>
+</svg>
+<circle cx="532.0033687595653" cy="251.88239006784994" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="532.0033687595653" y="258.88239006784994" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="782.5909026300692" cy="107.20560993215008" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="782.5909026300692" y="114.20560993215008" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="597.2529742610274" cy="57.544461698808014" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="597.2529742610274" y="64.54446169880802" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="732.9297543967272" cy="292.543538301192" r="16" stroke="#176b91" fill="white" stroke-width="2.5"/>
+<text x="732.9297543967272" y="299.543538301192" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">4</text>
+<text x="700" y="385" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">OH &gt; CH₂Br &gt; CH₃ &gt; H</text>
+<text x="700" y="420" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">CH₂Br is attached through C, so O wins</text>
+</svg>
