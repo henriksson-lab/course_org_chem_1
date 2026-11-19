@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>Partial charge and formal charge are different ideas</title><desc>Ethanol oxygen: delta minus, formal charge 0; ethoxide oxygen: formal charge minus one</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<svg x="76.5" y="63.0" width="347.0" height="174.0" viewBox="0 0 347.0 174.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 3.1,93.3 L 119.2,43.9' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 119.2,43.9 L 163.0,76.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 163.0,76.8 L 206.8,109.8' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 233.3,114.1 L 278.8,94.8' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-2 atom-3' d='M 278.8,94.8 L 324.2,75.4' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 113.4,46.4 L 119.2,43.9 L 121.4,45.6' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 210.9 119.8
+Q 210.9 115.1, 213.3 112.4
+Q 215.6 109.7, 220.0 109.7
+Q 224.4 109.7, 226.8 112.4
+Q 229.1 115.1, 229.1 119.8
+Q 229.1 124.6, 226.8 127.4
+Q 224.4 130.1, 220.0 130.1
+Q 215.7 130.1, 213.3 127.4
+Q 210.9 124.7, 210.9 119.8
+M 220.0 127.8
+Q 223.1 127.8, 224.7 125.8
+Q 226.3 123.8, 226.3 119.8
+Q 226.3 115.9, 224.7 114.0
+Q 223.1 112.0, 220.0 112.0
+Q 217.0 112.0, 215.4 113.9
+Q 213.7 115.9, 213.7 119.8
+Q 213.7 123.8, 215.4 125.8
+Q 217.0 127.8, 220.0 127.8
+' fill='#AF3B45'/>
+<path class='atom-3' d='M 328.4 60.4
+L 331.1 60.4
+L 331.1 68.9
+L 341.2 68.9
+L 341.2 60.4
+L 343.9 60.4
+L 343.9 80.3
+L 341.2 80.3
+L 341.2 71.1
+L 331.1 71.1
+L 331.1 80.3
+L 328.4 80.3
+L 328.4 60.4
+' fill='#153747'/>
+</svg>
+<circle cx="280.9511084031343" cy="204.1568478410267" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="274.1246103408723" cy="196.84939108741307" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="314.90821177784125" cy="201.82010110455076" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="306.5263627637225" cy="207.27396277354427" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="256.5372469313988" y="226.75422450233876" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#176b91" text-anchor="middle" font-weight="normal">δ−</text>
+<svg x="565.0" y="67.5" width="270.0" height="165.0" viewBox="0 0 270.0 165.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 15.2,109.2 L 125.6,45.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 125.6,45.5 L 174.2,73.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 174.2,73.5 L 222.8,101.5' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 120.1,48.6 L 125.6,45.5 L 128.1,46.9' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 227.0 109.3
+Q 227.0 104.5, 229.3 101.8
+Q 231.7 99.2, 236.1 99.2
+Q 240.5 99.2, 242.8 101.8
+Q 245.2 104.5, 245.2 109.3
+Q 245.2 114.1, 242.8 116.8
+Q 240.4 119.5, 236.1 119.5
+Q 231.7 119.5, 229.3 116.8
+Q 227.0 114.1, 227.0 109.3
+M 236.1 117.3
+Q 239.1 117.3, 240.7 115.3
+Q 242.4 113.2, 242.4 109.3
+Q 242.4 105.4, 240.7 103.4
+Q 239.1 101.4, 236.1 101.4
+Q 233.0 101.4, 231.4 103.4
+Q 229.8 105.3, 229.8 109.3
+Q 229.8 113.3, 231.4 115.3
+Q 233.0 117.3, 236.1 117.3
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 248.0 102.4
+L 254.8 102.4
+L 254.8 103.9
+L 248.0 103.9
+L 248.0 102.4
+' fill='#AF3B45'/>
+</svg>
+<circle cx="791.3953860014382" cy="203.45771130596427" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="782.7351319635937" cy="198.45771130596427" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="827.8139702884803" cy="186.37887298107782" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="822.8139702884803" cy="195.0391270189222" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="810.7351319635937" cy="149.9602886940357" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="819.3953860014382" cy="154.9602886940357" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<text x="250" y="285" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">ethanol</text>
+<text x="250" y="322" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">O: 2 bonds, 2 lone pairs</text>
+<text x="250" y="356" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">formal charge 6 − 4 − 2 = 0</text>
+<text x="700" y="285" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">ethoxide</text>
+<text x="700" y="322" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">O: 1 bond, 3 lone pairs</text>
+<text x="700" y="356" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">formal charge 6 − 6 − 1 = −1</text>
+</svg>
