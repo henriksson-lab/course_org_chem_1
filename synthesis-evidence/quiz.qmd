@@ -39,7 +39,7 @@ Rf = 0.64, dimensionless. Both distances must be measured from the same origin; 
 
 ## 5. Does one spot establish purity?
 
-Give two reasons a mixture might show only one TLC spot.
+Give two reasons a mixture might show only one TLC (thin-layer chromatography) spot.
 
 ::: {.callout-note collapse="true" title="Check your answer"}
 Distinct compounds can co-migrate, and a component may not be detected by the chosen visualisation. One spot under one condition does not uniquely identify or prove purity.

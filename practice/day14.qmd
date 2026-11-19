@@ -165,7 +165,7 @@ Methyl supports the concerted SN2 example and has no beta carbon for ordinary el
 
 ## Revisit the relevant lesson
 
-Use the local [substitution](../substitution/exercise.qmd), [elimination/addition](../elimination-addition/exercise.qmd), [alcohol/redox](../alcohols-redox/exercise.qmd) and [practical evidence](../reference/practical.qmd) explanations when a correction needs more context.
+Use the [substitution](../substitution/exercise.qmd), [elimination/addition](../elimination-addition/exercise.qmd) and [alcohol/redox](../alcohols-redox/exercise.qmd) explanations when a correction needs more context.
 
 ## Explore {#explore}
 

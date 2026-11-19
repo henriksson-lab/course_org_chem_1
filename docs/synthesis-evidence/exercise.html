@@ -229,12 +229,6 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../reference/practical.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Practical work and report</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../reference/data.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data and downloads</span></a>
   </div>
@@ -1125,7 +1119,7 @@ window.Quarto = {
 <p><strong>Core exercises 1–10:</strong> begin here. <strong>Transfer 11–16:</strong> apply the same ideas to new cases. <strong>Further checks 17–20:</strong> use these to investigate mistakes and revise. Allow roughly <strong>2–3 hours</strong> across the unit, with more time for complete mechanism drawings. Attempt each problem before opening its hint, then compare your reasoning with the worked explanation.</p>
 <section id="working-refresher" class="level2">
 <h2 class="anchored" data-anchor-id="working-refresher">Working refresher</h2>
-<p>Keep these calculations distinct: amount n=m/M; reaction extent available from a reagent is n divided by its balanced coefficient; maximum product amount is limiting extent times the product coefficient.1 mol=1000 mmol. Theoretical product mass is product amount×product molar mass. Apparent isolated yield=100×isolated mass/theoretical product mass, interpreted as product yield only if the weighed mass is product. Yield does not measure purity or conversion. For TLC, Rf=spot-centre distance/front distance, both from the same origin; the ratio is dimensionless and depends on conditions. All masses/plates here are teaching data rather than a protocol. <a href="../synthesis-evidence/lec.html">The lecture</a> and <a href="../reference/practical.html">practical report guide</a> supply worked examples.</p>
+<p>Keep these calculations distinct: amount n=m/M; reaction extent available from a reagent is n divided by its balanced coefficient; maximum product amount is limiting extent times the product coefficient.1 mol=1000 mmol. Theoretical product mass is product amount×product molar mass. Apparent isolated yield=100×isolated mass/theoretical product mass, interpreted as product yield only if the weighed mass is product. Yield does not measure purity or conversion. For TLC (thin-layer chromatography), Rf=spot-centre distance/front distance, both from the same origin; the ratio is dimensionless and depends on conditions. The <a href="../synthesis-evidence/lec.html">lecture</a> has worked examples.</p>
 </section>
 <section id="plan-a-two-step-functional-group-route" class="level2">
 <h2 class="anchored" data-anchor-id="plan-a-two-step-functional-group-route">1. Plan a two-step functional-group route</h2>
@@ -1849,7 +1843,7 @@ Worked explanation
 </section>
 <section id="r-task-results-that-update-when-a-mass-changes" class="level2">
 <h2 class="anchored" data-anchor-id="r-task-results-that-update-when-a-mass-changes">R task: results that update when a mass changes</h2>
-<p>In the student project, save a results section containing the amount table, limiting-reagent reasoning, theoretical mass and isolated yield. Reuse code from the <a href="../reference/practical.html">report guide</a> or adapt this transparent calculation:</p>
+<p>In the student project, save a results section containing the amount table, limiting-reagent reasoning, theoretical mass and isolated yield. Start from this calculation:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>amounts <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data/amounts.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>) <span class="sc">|&gt;</span></span>
@@ -1884,7 +1878,7 @@ Reproducibility check
 <h2 class="anchored" data-anchor-id="explore">Explore</h2>
 <p><strong>Question:</strong> what does an Rf calculation tell you, and what information is lost if the solvent front was not recorded?</p>
 <p>Allow <strong>7 minutes</strong>: predict for 2, adjust the plate for 3, then explain the limits for 2. Distances are supplied hypothetical teaching measurements.</p>
-<section class="chem-demo" id="day22" aria-label="TLC spot and solvent-front geometry with Rf and co-migration controls">
+<section class="chem-demo" id="day22" aria-label="TLC (thin-layer chromatography) spot and solvent-front geometry with Rf and co-migration controls">
 <p>Enable JavaScript to vary distances from the origin and inspect the TLC ratio.</p>
 </section>
 <script src="../interactives/core.js"></script>
@@ -1909,7 +1903,7 @@ Reproducibility check
 </section>
 <section id="model-limits" class="level3">
 <h3 class="anchored" data-anchor-id="model-limits">Model limits</h3>
-<p>Rf depends on stationary phase, eluent and other conditions, so matching retention is not a unique identity code. Detection can also miss components. Use matched conditions and appropriate independent structural/composition evidence. The geometric model does not simulate molecular adsorption or provide operating instructions. See the <a href="../reference/practical.html">local practical evidence guide</a>.</p>
+<p>Rf depends on stationary phase, eluent and other conditions, so matching retention is not a unique identity code. Detection can also miss components. Use matched conditions and appropriate independent structural/composition evidence. The geometric model does not simulate molecular adsorption or provide operating instructions.</p>
 
 
 </section>

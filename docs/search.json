@@ -342,7 +342,7 @@
     "href": "integration/exercise.html#resolve-contradictory-observations",
     "title": "Day 23: Exercises — Integrated chemistry",
     "section": "18. Resolve contradictory observations",
-    "text": "18. Resolve contradictory observations\nA sample gives 94% apparent yield and one TLC spot, but full NMR has an unexpected major signal group. Give a defensible interpretation and two possible explanations without identifying a unique impurity.\n\n\n\n\n\n\nHint\n\n\n\n\n\nA single separation feature can hide co-migration, and mass can include other components.\n\n\n\n\n\n\n\n\n\nWorked explanation\n\n\n\n\n\nThe sample may not be pure despite its plausible mass. Residual solvent or another organic component could contribute; incorrect assignment is also possible. Investigate with complete spectral assignments or a discriminating separation rather than ignoring the contradiction.",
+    "text": "18. Resolve contradictory observations\nA sample gives 94% apparent yield and one TLC (thin-layer chromatography) spot, but full NMR has an unexpected major signal group. Give a defensible interpretation and two possible explanations without identifying a unique impurity.\n\n\n\n\n\n\nHint\n\n\n\n\n\nA single separation feature can hide co-migration, and mass can include other components.\n\n\n\n\n\n\n\n\n\nWorked explanation\n\n\n\n\n\nThe sample may not be pure despite its plausible mass. Residual solvent or another organic component could contribute; incorrect assignment is also possible. Investigate with complete spectral assignments or a discriminating separation rather than ignoring the contradiction.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -407,7 +407,7 @@
     "href": "synthesis-evidence/lec.html#about-this-lecture",
     "title": "Synthesis, yield and experimental evidence",
     "section": "About this lecture",
-    "text": "About this lecture\nAcetylsalicylic acid was first made in 1853, as a crude product that nobody could sell. In 1897 chemists at Bayer made it clean and reproducibly, and two years later it went on sale as aspirin. Same reaction; the difference was evidence of identity and purity.\nIn the practical you’ll make aspirin yourself. Today we learn to answer three separate questions about the white solid on your filter paper:\n\nPlanning: a route is a sequence of functional-group changes\nAmounts: moles, the limiting reagent, and coefficients\nYield: the theoretical maximum versus what you weighed\nTLC: what Rf measures, and what one spot can’t prove\nSpectra: IR and NMR as checks on identity and purity\n\nYesterday you read structures from spectra; today those spectra become evidence about a reaction you ran.\n\nOpen with the aspirin story. Charles Gerhardt made acetylsalicylic acid in 1853 but his material was impure and he didn’t pursue it; Felix Hoffmann’s 1897 preparation at Bayer was clean enough to become a medicine, sold as Aspirin from 1899. The chemistry hadn’t really changed; what changed was being able to make a pure product reliably and show that it was pure. That’s exactly the gap students meet in the lab: a mass on a balance isn’t the same as a pure compound. Name the three questions explicitly and keep coming back to them: how much (yield), is it the right molecule (identity), and is anything else in there (purity). Most marks lost on practical reports come from letting one of those answers stand in for another.",
+    "text": "About this lecture\nAcetylsalicylic acid was first made in 1853, as a crude product that nobody could sell. In 1897 chemists at Bayer made it clean and reproducibly, and two years later it went on sale as aspirin. Same reaction; the difference was evidence of identity and purity.\nIn the practical you’ll make aspirin yourself. Today we learn to answer three separate questions about the white solid on your filter paper:\n\nPlanning: a route is a sequence of functional-group changes\nAmounts: moles, the limiting reagent, and coefficients\nYield: the theoretical maximum versus what you weighed\nTLC (thin-layer chromatography): what Rf measures, and what one spot can’t prove\nSpectra: IR and NMR as checks on identity and purity\n\nYesterday you read structures from spectra; today those spectra become evidence about a reaction you ran.\n\nOpen with the aspirin story. Charles Gerhardt made acetylsalicylic acid in 1853 but his material was impure and he didn’t pursue it; Felix Hoffmann’s 1897 preparation at Bayer was clean enough to become a medicine, sold as Aspirin from 1899. The chemistry hadn’t really changed; what changed was being able to make a pure product reliably and show that it was pure. That’s exactly the gap students meet in the lab: a mass on a balance isn’t the same as a pure compound. Name the three questions explicitly and keep coming back to them: how much (yield), is it the right molecule (identity), and is anything else in there (purity). Most marks lost on practical reports come from letting one of those answers stand in for another.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -2344,7 +2344,7 @@
     "href": "alcohols-redox/exercise.html#assemble-an-evidence-statement",
     "title": "Day 13: Exercises — Alcohols and redox",
     "section": "20. Assemble an evidence statement",
-    "text": "20. Assemble an evidence statement\nA proposed propan-2-ol→propanone experiment gives an IR carbonyl band, one visible TLC spot and an isolated mass. Write two supported conclusions and two unresolved questions.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSeparate functional-group evidence, chromatographic observation and chemical identity.\n\n\n\n\n\n\n\n\n\nWorked answer and reasoning\n\n\n\n\n\nThe IR supports a carbonyl-containing sample; the TLC records one spot under its stated conditions. Neither alone proves pure propanone. Identity needs additional structural evidence, and purity/conversion require suitable separate checks; the isolated mass alone is not enough.",
+    "text": "20. Assemble an evidence statement\nA proposed propan-2-ol→propanone experiment gives an IR carbonyl band, one visible TLC (thin-layer chromatography) spot and an isolated mass. Write two supported conclusions and two unresolved questions.\n\n\n\n\n\n\nHint\n\n\n\n\n\nSeparate functional-group evidence, chromatographic observation and chemical identity.\n\n\n\n\n\n\n\n\n\nWorked answer and reasoning\n\n\n\n\n\nThe IR supports a carbonyl-containing sample; the TLC records one spot under its stated conditions. Neither alone proves pure propanone. Identity needs additional structural evidence, and purity/conversion require suitable separate checks; the isolated mass alone is not enough.",
     "crumbs": [
       "Home",
       "Week 3",
@@ -5035,7 +5035,7 @@
     "href": "practice/day24.html#working-definitions",
     "title": "Day 24: Exercises — Spectral evidence and synthesis calculations",
     "section": "Working definitions",
-    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area. Any further structure, constant or observation you need is given in the problem.",
+    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC (thin-layer chromatography) uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area. Any further structure, constant or observation you need is given in the problem.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -5243,7 +5243,7 @@
     "href": "practice/day19.html#working-definitions",
     "title": "Day 19: Exercises — Carbonyl and acyl chemistry",
     "section": "Working definitions",
-    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area.",
+    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC (thin-layer chromatography) uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area.",
     "crumbs": [
       "Home",
       "Week 4",
@@ -5620,7 +5620,7 @@
     "href": "practice/day14.html#revisit-the-relevant-lesson",
     "title": "Day 14: Exercises — Reaction-mechanism review",
     "section": "Revisit the relevant lesson",
-    "text": "Revisit the relevant lesson\nUse the local substitution, elimination/addition, alcohol/redox and practical evidence explanations when a correction needs more context.",
+    "text": "Revisit the relevant lesson\nUse the substitution, elimination/addition and alcohol/redox explanations when a correction needs more context.",
     "crumbs": [
       "Home",
       "Week 3",
@@ -6068,132 +6068,6 @@
     ]
   },
   {
-    "objectID": "reference/data.html",
-    "href": "reference/data.html",
-    "title": "Data and downloads",
-    "section": "",
-    "text": "Download the complete student project. Extract it, open organic-chemistry.Rproj, and Knit report.Rmd. The archive includes all CSVs, their dictionary, and the starter report.",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Data and downloads"
-    ]
-  },
-  {
-    "objectID": "reference/data.html#individual-files",
-    "href": "reference/data.html#individual-files",
-    "title": "Data and downloads",
-    "section": "Individual files",
-    "text": "Individual files\n\n\n\nData\nUsed for\n\n\n\n\nReactant amounts and isolation\nAmounts, limiting reagent, theoretical mass and isolated yield\n\n\nConformer free energies\nA guided two-state population model\n\n\nEnantiomer mixtures\nComposition and enantiomeric excess\n\n\nTLC distances\nRf and preservation of sample/spot identities\n\n\nApproximate pKa values\nAqueous teaching models\n\n\nSimulated IR traces\nFunctional-group comparison and plotting\n\n\nSimulated proton NMR peak list\nStructure puzzles; the assignment column contains checks, so hide it before solving\n\n\nData dictionary\nEvery column’s meaning, units and provenance\n\n\nStarter report\nIndividual copy; keep it beside data/ in your project\n\n\n\nAll supplied data are constructed teaching examples. The IR traces are schematic Gaussian bands, and the NMR table contains illustrative first-order patterns. They are not measured reference spectra or data from a performed student experiment. Preserve that description in your captions and reports.\n\n\n\nR plot of two synthetic IR traces showing the functional-group contrast between ethanol and ethyl ethanoate.",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Data and downloads"
-    ]
-  },
-  {
-    "objectID": "reference/data.html#keep-the-raw-inputs",
-    "href": "reference/data.html#keep-the-raw-inputs",
-    "title": "Data and downloads",
-    "section": "Keep the raw inputs",
-    "text": "Keep the raw inputs\nDo not edit the original CSVs to make your result look better. Import them, record transformations in the Rmd, and save derived outputs separately. Keep labels and units. Missing or unexpected values are a reason to inspect the input, not to delete rows without explanation.",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Data and downloads"
-    ]
-  },
-  {
-    "objectID": "course.html",
-    "href": "course.html",
-    "title": "Learning route and outcomes",
-    "section": "",
-    "text": "Read molecular representations and identify functional groups and charges.\nExplain properties and reactivity using polarity, resonance and acid–base reasoning.\nDistinguish conformations and configurations and interpret simple stereochemistry.\nDraw valid elementary mechanisms that conserve atoms and charge.\nPredict selected substitution, elimination, addition, redox and carbonyl reactions.\nPropose a short synthesis and justify conditions and experimental checks.\nUse simple IR and one-dimensional NMR evidence to distinguish structures.\nRecord, calculate and communicate laboratory results in a reproducible report.\n\nThe course syllabus on Canvas gives the formal outcomes and examination rules.",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Learning route"
-    ]
-  },
-  {
-    "objectID": "course.html#what-you-should-learn",
-    "href": "course.html#what-you-should-learn",
-    "title": "Learning route and outcomes",
-    "section": "",
-    "text": "Read molecular representations and identify functional groups and charges.\nExplain properties and reactivity using polarity, resonance and acid–base reasoning.\nDistinguish conformations and configurations and interpret simple stereochemistry.\nDraw valid elementary mechanisms that conserve atoms and charge.\nPredict selected substitution, elimination, addition, redox and carbonyl reactions.\nPropose a short synthesis and justify conditions and experimental checks.\nUse simple IR and one-dimensional NMR evidence to distinguish structures.\nRecord, calculate and communicate laboratory results in a reproducible report.\n\nThe course syllabus on Canvas gives the formal outcomes and examination rules.",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Learning route"
-    ]
-  },
-  {
-    "objectID": "course.html#week-by-week",
-    "href": "course.html#week-by-week",
-    "title": "Learning route and outcomes",
-    "section": "Week by week",
-    "text": "Week by week\n\n\n\n\n\n\n\n\nWeek\nTopics\nWhat you’ll produce\n\n\n\n\n1\nStructures; properties and IR; acids and bases\nAnnotated structures, a property explanation, a proton-transfer mechanism and an ionisation plot\n\n\n2\nConformations; stereochemistry; mechanisms\nNewman and chair drawings, stereochemical comparisons and electron-flow diagrams\n\n\n3\nSubstitution; elimination and addition; alcohols and redox\nReaction predictions, competing pathways and checked reactant amounts\n\n\n4\nCarbonyl addition; acyl chemistry; amines and aromatics\nStepwise mechanisms, ester/amide comparisons and a TLC evidence table\n\n\n5\nSpectroscopy; synthesis and evidence; integration\nStructure puzzles, a short synthetic route and a report linking claims to evidence",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Learning route"
-    ]
-  },
-  {
-    "objectID": "course.html#how-to-study-a-day",
-    "href": "course.html#how-to-study-a-day",
-    "title": "Learning route and outcomes",
-    "section": "How to study a day",
-    "text": "How to study a day\nWatch the lecture and pause to draw and predict when a “Try it” box appears. Then do the exercises before opening the hints and worked answers, try the interactive demo, and finish with the self-check. When you get something wrong, redraw it correctly and say what changed. Recognising an answer is a start; being able to construct it yourself is the goal.\nThe reading guide lists the matching book chapters.",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Learning route"
-    ]
-  },
-  {
-    "objectID": "course.html#what-comes-next",
-    "href": "course.html#what-comes-next",
-    "title": "Learning route and outcomes",
-    "section": "What comes next?",
-    "text": "What comes next?\nThe course is a foundation for biochemistry. Organic Chemistry II is a possible follow-on elective for deeper synthesis and reactivity.",
-    "crumbs": [
-      "Home",
-      "Course info",
-      "Learning route"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Organic Chemistry 1",
-    "section": "",
-    "text": "A five-week course (5KE231, 7.5 credits, Umeå University) on how the structure of a molecule decides what it does: drawing structures, following electrons through reactions, and using spectra and lab data as evidence. R is used beside the lab notebook for calculations, plots and reports.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#before-you-start",
-    "href": "index.html#before-you-start",
-    "title": "Organic Chemistry 1",
-    "section": "Before you start",
-    "text": "Before you start\n\nSet up R and knit your first report, then download the student project.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#topics",
-    "href": "index.html#topics",
-    "title": "Organic Chemistry 1",
-    "section": "Topics",
-    "text": "Topics\nWork through the sidebar from top to bottom. Topic days have a lecture, exercises, a self-check and an interactive demo; review days have mixed problems and a demo.\n\nWeek 1: Structures, properties, acids and bases. Read a skeletal structure, explain boiling points and solubility, and predict where a proton goes.\nWeek 2: Shape and electron flow. Conformations, stereochemistry and the curved-arrow language of mechanisms.\nWeek 3: Reactions at saturated carbon. Substitution, elimination, addition, and alcohol oxidation and reduction.\nWeek 4: Carbonyls and nitrogen. Addition to C=O, esters and amides, and amines and aromatic rings.\nWeek 5: Evidence. IR and NMR, synthesis and yield, and a final case that brings it all together.\n\nSee Canvas for dates, lab arrangements and assessment.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
     "objectID": "intro/r-restart.html",
     "href": "intro/r-restart.html",
     "title": "R and R Markdown: restart the familiar workflow",
@@ -6278,75 +6152,129 @@
     ]
   },
   {
-    "objectID": "reference/practical.html",
-    "href": "reference/practical.html",
-    "title": "Practical work: prepare, record, evaluate",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Organic Chemistry 1",
     "section": "",
-    "text": "These materials support preparation and interpretation. Perform laboratory work only with your department’s approved protocol, supervision and local safety instructions. Your instructor will supply the actual experimental arrangements. The provided CSVs are constructed teaching data.",
+    "text": "A five-week course (5KE231, 7.5 credits, Umeå University) on how the structure of a molecule decides what it does: drawing structures, following electrons through reactions, and using spectra and lab data as evidence. R is used beside the lab notebook for calculations, plots and reports.",
     "crumbs": [
-      "Home",
-      "Course info",
-      "Practical work and report"
+      "Home"
     ]
   },
   {
-    "objectID": "reference/practical.html#keep-primary-records",
-    "href": "reference/practical.html#keep-primary-records",
-    "title": "Practical work: prepare, record, evaluate",
-    "section": "Keep primary records",
-    "text": "Keep primary records\nRecord date, sample identifiers, reagent amounts, relevant conditions, observations and deviations in your laboratory journal as the work happens. Retain instrument files and photographs with their sample labels. An Rmd report draws on those records; it does not replace the original observations.",
+    "objectID": "index.html#before-you-start",
+    "href": "index.html#before-you-start",
+    "title": "Organic Chemistry 1",
+    "section": "Before you start",
+    "text": "Before you start\n\nSet up R and knit your first report, then download the student project.",
     "crumbs": [
-      "Home",
-      "Course info",
-      "Practical work and report"
+      "Home"
     ]
   },
   {
-    "objectID": "reference/practical.html#before-a-reaction-calculate-the-amount-table",
-    "href": "reference/practical.html#before-a-reaction-calculate-the-amount-table",
-    "title": "Practical work: prepare, record, evaluate",
-    "section": "Before a reaction: calculate the amount table",
-    "text": "Before a reaction: calculate the amount table\nFor the teaching equation salicylic acid + acetic anhydride → aspirin + ethanoic acid, all coefficients are one. With 1.3812 g salicylic acid (138.12 g/mol) and 1.53135 g acetic anhydride (102.09 g/mol), the amounts are 10.0 and 15.0 mmol. The acid limits the theoretical aspirin amount to 10.0 mmol. The reaction scheme is a calculation context, not an operating protocol.\nlibrary(readr)\nlibrary(dplyr)\namounts &lt;- read_csv(\"data/amounts.csv\", show_col_types = FALSE) |&gt;\n  mutate(amount_mol = mass_g / molar_mass_g_mol,\n         extent_mol = amount_mol / stoich)\nlimiting_extent_mol &lt;- min(amounts$extent_mol)\namounts\nCompare amount divided by coefficient rather than mass alone. In a different balanced reaction, a coefficient of two would change that comparison.",
+    "objectID": "index.html#topics",
+    "href": "index.html#topics",
+    "title": "Organic Chemistry 1",
+    "section": "Topics",
+    "text": "Topics\nWork through the sidebar from top to bottom. Topic days have a lecture, exercises, a self-check and an interactive demo; review days have mixed problems and a demo.\n\nWeek 1: Structures, properties, acids and bases. Read a skeletal structure, explain boiling points and solubility, and predict where a proton goes.\nWeek 2: Shape and electron flow. Conformations, stereochemistry and the curved-arrow language of mechanisms.\nWeek 3: Reactions at saturated carbon. Substitution, elimination, addition, and alcohol oxidation and reduction.\nWeek 4: Carbonyls and nitrogen. Addition to C=O, esters and amides, and amines and aromatic rings.\nWeek 5: Evidence. IR and NMR, synthesis and yield, and a final case that brings it all together.\n\nSee Canvas for dates, lab arrangements and assessment.",
     "crumbs": [
-      "Home",
-      "Course info",
-      "Practical work and report"
+      "Home"
     ]
   },
   {
-    "objectID": "reference/practical.html#tlc-retain-every-spot",
-    "href": "reference/practical.html#tlc-retain-every-spot",
-    "title": "Practical work: prepare, record, evaluate",
-    "section": "TLC: retain every spot",
-    "text": "TLC: retain every spot\nFor the supplied normal-phase teaching plate, the solvent front travels 5.0 cm from the origin. A starting-material spot travels 1.2 cm and a product spot 3.2 cm. Their Rf values are 0.24 and 0.64. The crude lane contains both spots.\ntlc &lt;- read_csv(\"data/tlc.csv\", show_col_types = FALSE) |&gt;\n  mutate(Rf = spot_distance_cm / front_distance_cm)\ntlc\nExplain why the crude has two rows. Do not average two different spots into one fictitious compound. Compare Rf only under matched conditions. Co-migration does not prove identity, and a single visible spot does not prove purity.",
+    "objectID": "course.html",
+    "href": "course.html",
+    "title": "Learning route and outcomes",
+    "section": "",
+    "text": "Read molecular representations and identify functional groups and charges.\nExplain properties and reactivity using polarity, resonance and acid–base reasoning.\nDistinguish conformations and configurations and interpret simple stereochemistry.\nDraw valid elementary mechanisms that conserve atoms and charge.\nPredict selected substitution, elimination, addition, redox and carbonyl reactions.\nPropose a short synthesis and justify conditions and experimental checks.\nUse simple IR and one-dimensional NMR evidence to distinguish structures.\nRecord, calculate and communicate laboratory results in a reproducible report.\n\nThe course syllabus on Canvas gives the formal outcomes and examination rules.",
     "crumbs": [
       "Home",
       "Course info",
-      "Practical work and report"
+      "Learning route"
     ]
   },
   {
-    "objectID": "reference/practical.html#after-isolation-distinguish-the-claims",
-    "href": "reference/practical.html#after-isolation-distinguish-the-claims",
-    "title": "Practical work: prepare, record, evaluate",
-    "section": "After isolation: distinguish the claims",
-    "text": "After isolation: distinguish the claims\nWith product molar mass 180.16 g/mol, theoretical mass is 1.8016 g. An isolated mass of 1.20 g corresponds to 66.6% isolated yield.\ntheoretical_mass_g &lt;- limiting_extent_mol * 180.16\nisolated_mass_g &lt;- 1.20\nisolated_yield_percent &lt;- 100 * isolated_mass_g / theoretical_mass_g\nYield is not conversion. Loss during work-up can lower isolated yield even after substantial reaction. Residual solvent or impurities can inflate mass. Assess identity and purity using appropriate evidence and uncertainty.",
+    "objectID": "course.html#what-you-should-learn",
+    "href": "course.html#what-you-should-learn",
+    "title": "Learning route and outcomes",
+    "section": "",
+    "text": "Read molecular representations and identify functional groups and charges.\nExplain properties and reactivity using polarity, resonance and acid–base reasoning.\nDistinguish conformations and configurations and interpret simple stereochemistry.\nDraw valid elementary mechanisms that conserve atoms and charge.\nPredict selected substitution, elimination, addition, redox and carbonyl reactions.\nPropose a short synthesis and justify conditions and experimental checks.\nUse simple IR and one-dimensional NMR evidence to distinguish structures.\nRecord, calculate and communicate laboratory results in a reproducible report.\n\nThe course syllabus on Canvas gives the formal outcomes and examination rules.",
     "crumbs": [
       "Home",
       "Course info",
-      "Practical work and report"
+      "Learning route"
     ]
   },
   {
-    "objectID": "reference/practical.html#a-compact-report-structure",
-    "href": "reference/practical.html#a-compact-report-structure",
-    "title": "Practical work: prepare, record, evaluate",
-    "section": "A compact report structure",
-    "text": "A compact report structure\nUse the starter Rmd, preferably through the complete project download.\n\nState the chemical question and include a checked reaction drawing.\nIdentify the protocol and primary records; distinguish performed work from teaching data.\nShow the amount table with units and limiting-reagent reasoning.\nPresent observations, spectra and TLC with sample labels and captions.\nCalculate yield from saved data and connect conclusions to evidence.\nDiscuss limitations and alternative explanations.\nRestart R and Knit from the saved project before submitting source, data and output as instructed.\n\nThe example IR traces in the starter compare ethanol and ethyl ethanoate. They are not measurements of the aspirin isolation. Keep that distinction in your report rather than combining unrelated samples into one claim.",
+    "objectID": "course.html#week-by-week",
+    "href": "course.html#week-by-week",
+    "title": "Learning route and outcomes",
+    "section": "Week by week",
+    "text": "Week by week\n\n\n\n\n\n\n\n\nWeek\nTopics\nWhat you’ll produce\n\n\n\n\n1\nStructures; properties and IR; acids and bases\nAnnotated structures, a property explanation, a proton-transfer mechanism and an ionisation plot\n\n\n2\nConformations; stereochemistry; mechanisms\nNewman and chair drawings, stereochemical comparisons and electron-flow diagrams\n\n\n3\nSubstitution; elimination and addition; alcohols and redox\nReaction predictions, competing pathways and checked reactant amounts\n\n\n4\nCarbonyl addition; acyl chemistry; amines and aromatics\nStepwise mechanisms, ester/amide comparisons and a TLC (thin-layer chromatography) evidence table\n\n\n5\nSpectroscopy; synthesis and evidence; integration\nStructure puzzles, a short synthetic route and a report linking claims to evidence",
     "crumbs": [
       "Home",
       "Course info",
-      "Practical work and report"
+      "Learning route"
+    ]
+  },
+  {
+    "objectID": "course.html#how-to-study-a-day",
+    "href": "course.html#how-to-study-a-day",
+    "title": "Learning route and outcomes",
+    "section": "How to study a day",
+    "text": "How to study a day\nWatch the lecture and pause to draw and predict when a “Try it” box appears. Then do the exercises before opening the hints and worked answers, try the interactive demo, and finish with the self-check. When you get something wrong, redraw it correctly and say what changed. Recognising an answer is a start; being able to construct it yourself is the goal.\nThe reading guide lists the matching book chapters.",
+    "crumbs": [
+      "Home",
+      "Course info",
+      "Learning route"
+    ]
+  },
+  {
+    "objectID": "course.html#what-comes-next",
+    "href": "course.html#what-comes-next",
+    "title": "Learning route and outcomes",
+    "section": "What comes next?",
+    "text": "What comes next?\nThe course is a foundation for biochemistry. Organic Chemistry II is a possible follow-on elective for deeper synthesis and reactivity.",
+    "crumbs": [
+      "Home",
+      "Course info",
+      "Learning route"
+    ]
+  },
+  {
+    "objectID": "reference/data.html",
+    "href": "reference/data.html",
+    "title": "Data and downloads",
+    "section": "",
+    "text": "Download the complete student project. Extract it, open organic-chemistry.Rproj, and Knit report.Rmd. The archive includes all CSVs, their dictionary, and the starter report.",
+    "crumbs": [
+      "Home",
+      "Course info",
+      "Data and downloads"
+    ]
+  },
+  {
+    "objectID": "reference/data.html#individual-files",
+    "href": "reference/data.html#individual-files",
+    "title": "Data and downloads",
+    "section": "Individual files",
+    "text": "Individual files\n\n\n\nData\nUsed for\n\n\n\n\nReactant amounts and isolation\nAmounts, limiting reagent, theoretical mass and isolated yield\n\n\nConformer free energies\nA guided two-state population model\n\n\nEnantiomer mixtures\nComposition and enantiomeric excess\n\n\nTLC (thin-layer chromatography) distances\nRf and preservation of sample/spot identities\n\n\nApproximate pKa values\nAqueous teaching models\n\n\nSimulated IR traces\nFunctional-group comparison and plotting\n\n\nSimulated proton NMR peak list\nStructure puzzles; the assignment column contains checks, so hide it before solving\n\n\nData dictionary\nEvery column’s meaning, units and provenance\n\n\nStarter report\nIndividual copy; keep it beside data/ in your project\n\n\n\nAll supplied data are constructed teaching examples. The IR traces are schematic Gaussian bands, and the NMR table contains illustrative first-order patterns. They are not measured reference spectra or data from a performed student experiment. Preserve that description in your captions and reports.\n\n\n\nR plot of two synthetic IR traces showing the functional-group contrast between ethanol and ethyl ethanoate.",
+    "crumbs": [
+      "Home",
+      "Course info",
+      "Data and downloads"
+    ]
+  },
+  {
+    "objectID": "reference/data.html#keep-the-raw-inputs",
+    "href": "reference/data.html#keep-the-raw-inputs",
+    "title": "Data and downloads",
+    "section": "Keep the raw inputs",
+    "text": "Keep the raw inputs\nDo not edit the original CSVs to make your result look better. Import them, record transformations in the Rmd, and save derived outputs separately. Keep labels and units. Missing or unexpected values are a reason to inspect the input, not to delete rows without explanation.",
+    "crumbs": [
+      "Home",
+      "Course info",
+      "Data and downloads"
     ]
   },
   {
@@ -6426,7 +6354,7 @@
     "href": "reference/toolkit.html#calculate-with-units",
     "title": "A small chemistry toolkit",
     "section": "Calculate with units",
-    "text": "Calculate with units\n\n\n\n\n\n\n\n\nQuantity\nRelationship\nUnits/check\n\n\n\n\nChemical amount\n\\(n=m/M\\)\ng ÷ (g/mol) = mol\n\n\nReaction extent capacity\n\\(n_i/\\nu_i\\)\nCompare balanced-equation coefficients; smallest reactant value limits\n\n\nTheoretical product amount\n\\(n_P=\\nu_P\\min(n_i/\\nu_i)\\)\nmol\n\n\nTheoretical product mass\n\\(m_P=n_PM_P\\)\nmol × g/mol = g\n\n\nIsolated yield\n\\(100m_{isolated}/m_{theoretical}\\)\nPercent; mass ratio does not establish purity\n\n\nTLC retention factor\n\\(R_f=d_{spot}/d_{front}\\)\nDimensionless, from the same origin\n\n\nEnantiomeric excess\n\\(ee=|\\%R-\\%S|\\)\nPercentage points expressed as % ee; specify major enantiomer\n\n\n\nFor a mixture containing only two enantiomers, 70% R and 30% S is 40% ee in favour of R. The major-enantiomer percentage is 70%, not 40%.",
+    "text": "Calculate with units\n\n\n\n\n\n\n\n\nQuantity\nRelationship\nUnits/check\n\n\n\n\nChemical amount\n\\(n=m/M\\)\ng ÷ (g/mol) = mol\n\n\nReaction extent capacity\n\\(n_i/\\nu_i\\)\nCompare balanced-equation coefficients; smallest reactant value limits\n\n\nTheoretical product amount\n\\(n_P=\\nu_P\\min(n_i/\\nu_i)\\)\nmol\n\n\nTheoretical product mass\n\\(m_P=n_PM_P\\)\nmol × g/mol = g\n\n\nIsolated yield\n\\(100m_{isolated}/m_{theoretical}\\)\nPercent; mass ratio does not establish purity\n\n\nTLC (thin-layer chromatography) retention factor\n\\(R_f=d_{spot}/d_{front}\\)\nDimensionless, from the same origin\n\n\nEnantiomeric excess\n\\(ee=|\\%R-\\%S|\\)\nPercentage points expressed as % ee; specify major enantiomer\n\n\n\nFor a mixture containing only two enantiomers, 70% R and 30% S is 40% ee in favour of R. The major-enantiomer percentage is 70%, not 40%.",
     "crumbs": [
       "Home",
       "Course info",
@@ -6878,7 +6806,7 @@
     "href": "practice/day15.html#refresher-and-worked-start",
     "title": "Day 15: Exercises — Redox, amounts and evidence",
     "section": "Refresher and worked start",
-    "text": "Refresher and worked start\nFull-headed arrows move pairs from bonds/lone pairs; ordinary carbon has total bond order four. Alpha is the leaving-group carbon; beta is its neighbour. E2 uses an appropriate anti geometry and three linked pair movements. Selected carbonyl reduction gives alkoxide then alcohol after proton transfer.\nFor the worked starting example OH⁻+CH₃Br→CH₃OH+Br⁻, draw OH pair→C and C–Br pair→Br. Both sides have net charge −1; the concerted step contains no carbocation. Use the same atom/charge audit in the problems below.\nCalculation conventions: n=m/M with g and g/mol gives mol;1000 mmol=1 mol. Compare n/coefficient for a balanced equation. Yield%=100×isolated/theoretical mass. TLC Rf=spot/front distance using the same origin and matched plate conditions. All numerical observations below are constructed teaching data, not real experimental results.\nFor the local carbon oxidation-state comparison, assign +1 per C–O bond order, −1 per C–H bond and 0 per C–C bond. Thus the OH-bearing carbon of ethanol has +1 − 2 = −1, while the carbonyl carbon of ethanal has +2 − 1 = +1. These supplied rules are sufficient for the C/H/O examples below.",
+    "text": "Refresher and worked start\nFull-headed arrows move pairs from bonds/lone pairs; ordinary carbon has total bond order four. Alpha is the leaving-group carbon; beta is its neighbour. E2 uses an appropriate anti geometry and three linked pair movements. Selected carbonyl reduction gives alkoxide then alcohol after proton transfer.\nFor the worked starting example OH⁻+CH₃Br→CH₃OH+Br⁻, draw OH pair→C and C–Br pair→Br. Both sides have net charge −1; the concerted step contains no carbocation. Use the same atom/charge audit in the problems below.\nCalculation conventions: n=m/M with g and g/mol gives mol;1000 mmol=1 mol. Compare n/coefficient for a balanced equation. Yield%=100×isolated/theoretical mass. TLC (thin-layer chromatography) Rf=spot/front distance using the same origin and matched plate conditions. All numerical observations below are constructed teaching data, not real experimental results.\nFor the local carbon oxidation-state comparison, assign +1 per C–O bond order, −1 per C–H bond and 0 per C–C bond. Thus the OH-bearing carbon of ethanol has +1 − 2 = −1, while the carbonyl carbon of ethanal has +2 − 1 = +1. These supplied rules are sufficient for the C/H/O examples below.",
     "crumbs": [
       "Home",
       "Week 3",
@@ -7047,7 +6975,7 @@
     "href": "practice/day15.html#revisit-the-relevant-lesson",
     "title": "Day 15: Exercises — Redox, amounts and evidence",
     "section": "Revisit the relevant lesson",
-    "text": "Revisit the relevant lesson\nUse the local substitution, elimination/addition, alcohol/redox and practical evidence explanations when a correction needs more context.",
+    "text": "Revisit the relevant lesson\nUse the substitution, elimination/addition and alcohol/redox explanations when a correction needs more context.",
     "crumbs": [
       "Home",
       "Week 3",
@@ -7086,7 +7014,7 @@
     "href": "practice/day20.html#working-definitions",
     "title": "Day 20: Exercises — Nitrogen, aromaticity and charge",
     "section": "Working definitions",
-    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area.",
+    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC (thin-layer chromatography) uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area.",
     "crumbs": [
       "Home",
       "Week 4",
@@ -7281,7 +7209,7 @@
     "href": "practice/day25.html",
     "title": "Day 25: Exercises — Final synthesis and interpretation",
     "section": "",
-    "text": "Combine reaction amounts, stereochemical drawings and spectral observations into justified chemical conclusions.\nAllow 150 minutes: 10 minutes for retrieval, 48 for exercises 1–6, 48 for 7–10, 34 for 11–12 and 10 to review your solutions. Drawing and comparison are included in that time. Finish remaining problems independently rather than rushing a mechanism.\nLocal explanations: Integrated chemistry, spectroscopy and practical reporting.",
+    "text": "Combine reaction amounts, stereochemical drawings and spectral observations into justified chemical conclusions.\nAllow 150 minutes: 10 minutes for retrieval, 48 for exercises 1–6, 48 for 7–10, 34 for 11–12 and 10 to review your solutions. Drawing and comparison are included in that time. Finish remaining problems independently rather than rushing a mechanism.\nSee also: integrated chemistry and spectroscopy.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -7294,7 +7222,7 @@
     "href": "practice/day25.html#working-definitions",
     "title": "Day 25: Exercises — Final synthesis and interpretation",
     "section": "Working definitions",
-    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area. Any further structure, constant or observation you need is given in the problem.",
+    "text": "Working definitions\nUse full-headed arrows for electron pairs: start at a lone pair or bond and end at its acceptor. Keep ordinary carbon to four bond orders and conserve atoms and net charge. For compatible proton-transfer data, K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product. Apparent isolated yield=100×isolated/theoretical product mass. TLC (thin-layer chromatography) uses Rf=spot/front distances from the same origin. For simple first-order NMR, n adjacent equivalent H give n +1 lines while integration counts H area. Any further structure, constant or observation you need is given in the problem.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -7476,7 +7404,7 @@
     "href": "practice/day25.html#explore",
     "title": "Day 25: Exercises — Final synthesis and interpretation",
     "section": "Explore",
-    "text": "Explore\nQuestion: which claims about amount, conversion, identity and purity follow from the supplied observations—and which remain unsupported?\nAllow 10 minutes: predict for 2, change evidence for 5, then write a restrained conclusion for 3. All observations are hypothetical teaching scenarios; no actual isolate has been measured by this demo.\n\nEnable JavaScript to vary isolated mass and evidence provenance and inspect the supported claims.\n\n\n\n\nPredict\nThe hypothetical reaction is 1:1 with 10.00 mmol limiting reagent, one product per reaction extent, and product molar mass 180.16 g/mol. Calculate its theoretical product mass. Predict apparent isolated yield for 1.20 g of isolated material. Does that calculation alone provide conversion or purity?\nThe product is intentionally unnamed. The unassigned pattern comparison is schematic; it is neither an aspirin measurement nor the U1 spectrum from the other spectral demos.\n\n\nExplore\n\nVary isolated mass and keep the starting-reagent amount fixed. Notice which derived quantities change and which stay fixed.\nTry the Unrelated-spectrum trap. Why can an apparently matching pattern from another teaching sample not identify this isolate?\nLink the pattern to this isolate, then introduce an extra unexpected signal group. Audit identity and purity separately.\nCompare one versus two detected TLC features.\nSupply the optional quantitative same-batch assay: 2.00 mmol starting material remains from 10.00 mmol initially. Calculate conversion, then try the high-mass contradiction preset.\n\n\n\nExplain and check\nTheoretical mass is \\(0.01000\\times180.16=1.8016\\) g. For 1.20 g isolated material, apparent isolated yield is about 66.6%, conditional on that mass representing product. It does not measure starting-material consumption.\nThe optional residual assay independently gives conversion \\(100(10.00-2.00)/10.00=80.0\\%\\). An apparent product-mass yield above this same-batch conversion calls assumptions or records into question; retained solvent, impurities or incompatible records are possibilities to investigate.\nA consistent, explicitly linked structural observation supports an identity claim; an unrelated trace does not. Contradictory signals require explanation. One TLC feature does not prove purity, and two resolved features support multiple detected components under the stated conditions.\n\n\nModel limits\nThe conversion assay is stipulated quantitative and linked to the same batch. The qualitative pattern comparison supplies consistency/contradiction only; it does not measure purity percentages or generate actual molecular spectra. All plausible causes of a discrepancy are hypotheses, not diagnoses. Conclude with a supported claim, a limitation and a targeted next observation, as in integration exercises.",
+    "text": "Explore\nQuestion: which claims about amount, conversion, identity and purity follow from the supplied observations—and which remain unsupported?\nAllow 10 minutes: predict for 2, change evidence for 5, then write a restrained conclusion for 3. All observations are hypothetical teaching scenarios; no actual isolate has been measured by this demo.\n\nEnable JavaScript to vary isolated mass and evidence provenance and inspect the supported claims.\n\n\n\n\nPredict\nThe hypothetical reaction is 1:1 with 10.00 mmol limiting reagent, one product per reaction extent, and product molar mass 180.16 g/mol. Calculate its theoretical product mass. Predict apparent isolated yield for 1.20 g of isolated material. Does that calculation alone provide conversion or purity?\nThe product is intentionally unnamed. The unassigned pattern comparison is schematic; it is neither an aspirin measurement nor the U1 spectrum from the other spectral demos.\n\n\nExplore\n\nVary isolated mass and keep the starting-reagent amount fixed. Notice which derived quantities change and which stay fixed.\nTry the Unrelated-spectrum trap. Why can an apparently matching pattern from another teaching sample not identify this isolate?\nLink the pattern to this isolate, then introduce an extra unexpected signal group. Audit identity and purity separately.\nCompare one versus two detected TLC (thin-layer chromatography) features.\nSupply the optional quantitative same-batch assay: 2.00 mmol starting material remains from 10.00 mmol initially. Calculate conversion, then try the high-mass contradiction preset.\n\n\n\nExplain and check\nTheoretical mass is \\(0.01000\\times180.16=1.8016\\) g. For 1.20 g isolated material, apparent isolated yield is about 66.6%, conditional on that mass representing product. It does not measure starting-material consumption.\nThe optional residual assay independently gives conversion \\(100(10.00-2.00)/10.00=80.0\\%\\). An apparent product-mass yield above this same-batch conversion calls assumptions or records into question; retained solvent, impurities or incompatible records are possibilities to investigate.\nA consistent, explicitly linked structural observation supports an identity claim; an unrelated trace does not. Contradictory signals require explanation. One TLC feature does not prove purity, and two resolved features support multiple detected components under the stated conditions.\n\n\nModel limits\nThe conversion assay is stipulated quantitative and linked to the same batch. The qualitative pattern comparison supplies consistency/contradiction only; it does not measure purity percentages or generate actual molecular spectra. All plausible causes of a discrepancy are hypotheses, not diagnoses. Conclude with a supported claim, a limitation and a targeted next observation, as in integration exercises.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -10323,7 +10251,7 @@
     "href": "alcohols-redox/lec.html#conversion-yield-and-purity-answer-different-questions",
     "title": "Alcohols and organic redox",
     "section": "Conversion, yield and purity answer different questions",
-    "text": "Conversion, yield and purity answer different questions\n\n\n\n\n\n\n\n\nquantity\nquestion it answers\nmeasured by\n\n\n\n\nconversion\nhow much starting material reacted?\nstarting material left (e.g. TLC, NMR)\n\n\nisolated yield\nhow much product did I recover?\nproduct mass ÷ theoretical mass\n\n\npurity\nhow much of my solid is the product?\nmelting point, NMR, chromatography\n\n\n\n\nTry it: all the starting material is gone, but the isolated yield is only 40%. Give two reasons.\n\nSide reactions made other products, and losses during work-up, filtering or recrystallisation. Full conversion doesn’t mean full yield.\n\n\n\nThese three numbers are often confused in lab reports. One spot on a TLC plate under one set of conditions is consistent with a pure sample but doesn’t prove it; one IR band doesn’t identify a compound; one mass doesn’t establish purity. A good evidence statement separates what’s supported from what’s still open: “IR shows a carbonyl; TLC shows one spot; identity needs NMR; purity needs a melting point.” That sentence structure is exactly what exercise 20 asks for, and it comes back in the synthesis-evidence day in Week 5.",
+    "text": "Conversion, yield and purity answer different questions\n\n\n\n\n\n\n\n\nquantity\nquestion it answers\nmeasured by\n\n\n\n\nconversion\nhow much starting material reacted?\nstarting material left (e.g. TLC (thin-layer chromatography), NMR)\n\n\nisolated yield\nhow much product did I recover?\nproduct mass ÷ theoretical mass\n\n\npurity\nhow much of my solid is the product?\nmelting point, NMR, chromatography\n\n\n\n\nTry it: all the starting material is gone, but the isolated yield is only 40%. Give two reasons.\n\nSide reactions made other products, and losses during work-up, filtering or recrystallisation. Full conversion doesn’t mean full yield.\n\n\n\nThese three numbers are often confused in lab reports. One spot on a TLC plate under one set of conditions is consistent with a pure sample but doesn’t prove it; one IR band doesn’t identify a compound; one mass doesn’t establish purity. A good evidence statement separates what’s supported from what’s still open: “IR shows a carbonyl; TLC shows one spot; identity needs NMR; purity needs a melting point.” That sentence structure is exactly what exercise 20 asks for, and it comes back in the synthesis-evidence day in Week 5.",
     "crumbs": [
       "Home",
       "Week 3",
@@ -11701,7 +11629,7 @@
     "href": "synthesis-evidence/exercise.html#working-refresher",
     "title": "Day 22: Exercises — Synthesis and evidence",
     "section": "Working refresher",
-    "text": "Working refresher\nKeep these calculations distinct: amount n=m/M; reaction extent available from a reagent is n divided by its balanced coefficient; maximum product amount is limiting extent times the product coefficient.1 mol=1000 mmol. Theoretical product mass is product amount×product molar mass. Apparent isolated yield=100×isolated mass/theoretical product mass, interpreted as product yield only if the weighed mass is product. Yield does not measure purity or conversion. For TLC, Rf=spot-centre distance/front distance, both from the same origin; the ratio is dimensionless and depends on conditions. All masses/plates here are teaching data rather than a protocol. The lecture and practical report guide supply worked examples.",
+    "text": "Working refresher\nKeep these calculations distinct: amount n=m/M; reaction extent available from a reagent is n divided by its balanced coefficient; maximum product amount is limiting extent times the product coefficient.1 mol=1000 mmol. Theoretical product mass is product amount×product molar mass. Apparent isolated yield=100×isolated mass/theoretical product mass, interpreted as product yield only if the weighed mass is product. Yield does not measure purity or conversion. For TLC (thin-layer chromatography), Rf=spot-centre distance/front distance, both from the same origin; the ratio is dimensionless and depends on conditions. The lecture has worked examples.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -11974,7 +11902,7 @@
     "href": "synthesis-evidence/exercise.html#r-task-results-that-update-when-a-mass-changes",
     "title": "Day 22: Exercises — Synthesis and evidence",
     "section": "R task: results that update when a mass changes",
-    "text": "R task: results that update when a mass changes\nIn the student project, save a results section containing the amount table, limiting-reagent reasoning, theoretical mass and isolated yield. Reuse code from the report guide or adapt this transparent calculation:\nlibrary(readr)\nlibrary(dplyr)\namounts &lt;- read_csv(\"data/amounts.csv\", show_col_types = FALSE) |&gt;\n  mutate(amount_mol = mass_g / molar_mass_g_mol,\n         extent_mol = amount_mol / stoich)\ntheoretical_product_mol &lt;- min(amounts$extent_mol)\ntheoretical_mass_g &lt;- theoretical_product_mol * 180.16\nisolated_mass_g &lt;- 1.20\nisolated_yield_percent &lt;- 100 * isolated_mass_g / theoretical_mass_g\nknitr::kable(amounts)\nisolated_yield_percent\nThe amounts.csv table contains the two starting reagents. If adding product or solvent rows later, select the relevant starting reagents before min(). Inspect the table and check the units. Write the numerical yield using inline R in the report, not by typing a second independent copy of the number. Add your TLC table and an interpretation distinguishing evidence for reaction, identity and purity. Change the isolated mass to 1.10 g, predict the direction of change, and Knit again before restoring the original teaching value.\n\n\n\n\n\n\nReproducibility check\n\n\n\n\n\nAt 1.10 g the apparent isolated yield becomes about 61.1%. Every dependent result should change when knitted. If a copied number remains 66.6%, it is no longer linked to the saved calculation. Correctness also requires the right stoichiometry and trustworthy primary observations; automatic updating alone cannot supply either.\n\n\n\nFinish with two sentences stating what the observations support and what remains uncertain. Reading: Solomons chapters 8, 12 and 17; see the reading guide.",
+    "text": "R task: results that update when a mass changes\nIn the student project, save a results section containing the amount table, limiting-reagent reasoning, theoretical mass and isolated yield. Start from this calculation:\nlibrary(readr)\nlibrary(dplyr)\namounts &lt;- read_csv(\"data/amounts.csv\", show_col_types = FALSE) |&gt;\n  mutate(amount_mol = mass_g / molar_mass_g_mol,\n         extent_mol = amount_mol / stoich)\ntheoretical_product_mol &lt;- min(amounts$extent_mol)\ntheoretical_mass_g &lt;- theoretical_product_mol * 180.16\nisolated_mass_g &lt;- 1.20\nisolated_yield_percent &lt;- 100 * isolated_mass_g / theoretical_mass_g\nknitr::kable(amounts)\nisolated_yield_percent\nThe amounts.csv table contains the two starting reagents. If adding product or solvent rows later, select the relevant starting reagents before min(). Inspect the table and check the units. Write the numerical yield using inline R in the report, not by typing a second independent copy of the number. Add your TLC table and an interpretation distinguishing evidence for reaction, identity and purity. Change the isolated mass to 1.10 g, predict the direction of change, and Knit again before restoring the original teaching value.\n\n\n\n\n\n\nReproducibility check\n\n\n\n\n\nAt 1.10 g the apparent isolated yield becomes about 61.1%. Every dependent result should change when knitted. If a copied number remains 66.6%, it is no longer linked to the saved calculation. Correctness also requires the right stoichiometry and trustworthy primary observations; automatic updating alone cannot supply either.\n\n\n\nFinish with two sentences stating what the observations support and what remains uncertain. Reading: Solomons chapters 8, 12 and 17; see the reading guide.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -11987,7 +11915,7 @@
     "href": "synthesis-evidence/exercise.html#explore",
     "title": "Day 22: Exercises — Synthesis and evidence",
     "section": "Explore",
-    "text": "Explore\nQuestion: what does an Rf calculation tell you, and what information is lost if the solvent front was not recorded?\nAllow 7 minutes: predict for 2, adjust the plate for 3, then explain the limits for 2. Distances are supplied hypothetical teaching measurements.\n\nEnable JavaScript to vary distances from the origin and inspect the TLC ratio.\n\n\n\n\nPredict\nRf is spot-centre distance divided by solvent-front distance, both measured from the same origin. Predict the value for 3.20 cm and 5.0 cm. Predict the value for a spot halfway to the front and state its units.\n\n\nExplore\n\nChange front and spot distances. Follow the geometrical plate as well as the reported ratio. The spot control stays between origin and front.\nUse Spot halfway to front at more than one front distance.\nSelect Front unrecorded. Explain why spot height alone is insufficient.\nCompare one known component with two components with the same retention. Can the visible plate distinguish those scenarios?\n\n\n\nExplain and check\n\\(Rf=3.20/5.0=0.64\\). A halfway spot gives 0.5, independent of the numerical front distance. The ratio is dimensionless. Without an actual recorded front, the denominator is unknown and the tool correctly declines to invent an Rf.\nTwo components can co-migrate and produce the same visible feature. The composition selector supplies a counterexample; the plate alone did not measure that component count. One spot therefore does not prove purity.\n\n\nModel limits\nRf depends on stationary phase, eluent and other conditions, so matching retention is not a unique identity code. Detection can also miss components. Use matched conditions and appropriate independent structural/composition evidence. The geometric model does not simulate molecular adsorption or provide operating instructions. See the local practical evidence guide.",
+    "text": "Explore\nQuestion: what does an Rf calculation tell you, and what information is lost if the solvent front was not recorded?\nAllow 7 minutes: predict for 2, adjust the plate for 3, then explain the limits for 2. Distances are supplied hypothetical teaching measurements.\n\nEnable JavaScript to vary distances from the origin and inspect the TLC ratio.\n\n\n\n\nPredict\nRf is spot-centre distance divided by solvent-front distance, both measured from the same origin. Predict the value for 3.20 cm and 5.0 cm. Predict the value for a spot halfway to the front and state its units.\n\n\nExplore\n\nChange front and spot distances. Follow the geometrical plate as well as the reported ratio. The spot control stays between origin and front.\nUse Spot halfway to front at more than one front distance.\nSelect Front unrecorded. Explain why spot height alone is insufficient.\nCompare one known component with two components with the same retention. Can the visible plate distinguish those scenarios?\n\n\n\nExplain and check\n\\(Rf=3.20/5.0=0.64\\). A halfway spot gives 0.5, independent of the numerical front distance. The ratio is dimensionless. Without an actual recorded front, the denominator is unknown and the tool correctly declines to invent an Rf.\nTwo components can co-migrate and produce the same visible feature. The composition selector supplies a counterexample; the plate alone did not measure that component count. One spot therefore does not prove purity.\n\n\nModel limits\nRf depends on stationary phase, eluent and other conditions, so matching retention is not a unique identity code. Detection can also miss components. Use matched conditions and appropriate independent structural/composition evidence. The geometric model does not simulate molecular adsorption or provide operating instructions.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -12065,7 +11993,7 @@
     "href": "synthesis-evidence/quiz.html#does-one-spot-establish-purity",
     "title": "Self-check: synthesis and evidence",
     "section": "5. Does one spot establish purity?",
-    "text": "5. Does one spot establish purity?\nGive two reasons a mixture might show only one TLC spot.\n\n\n\n\n\n\nCheck your answer\n\n\n\n\n\nDistinct compounds can co-migrate, and a component may not be detected by the chosen visualisation. One spot under one condition does not uniquely identify or prove purity.",
+    "text": "5. Does one spot establish purity?\nGive two reasons a mixture might show only one TLC (thin-layer chromatography) spot.\n\n\n\n\n\n\nCheck your answer\n\n\n\n\n\nDistinct compounds can co-migrate, and a component may not be detected by the chosen visualisation. One spot under one condition does not uniquely identify or prove purity.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -12299,7 +12227,7 @@
     "href": "integration/lec.html#a-high-yield-doesnt-prove-identity",
     "title": "Putting the chemistry together",
     "section": "A high yield doesn’t prove identity",
-    "text": "A high yield doesn’t prove identity\n\nIsolated mass against theoretical mass beside an NMR spectrum with an unexpected peak0.0100 mol × 180.16 g/mol = 1.8016 g theoretical; 1.70 g isolated is 94.4 %, if the solid is pure product. Unexpected NMR peaks challenge that “if”.\n\nTry it: give two reasons the isolated mass could be too high.\n\nAnswer. Residual solvent or water, and unreacted starting material or a side product. One TLC spot can hide a co-running impurity.\n\n\n\n180.16 g/mol is aspirin, made from the 0.0100 mol of salicylic acid we weighed on Day 1, so this closes a loop. The yield calculation is only as good as its assumption that the mass is all product. Neither observation should be ignored: the plausible mass and the strange NMR together say “investigate”. Also mention exercise 19: dividing isolated mass by the starting-material mass (1.70 / 1.3812) gives 123 %, a reproducible number that is still chemically wrong because molar masses differ. Running the same wrong formula in R every time doesn’t make it right.",
+    "text": "A high yield doesn’t prove identity\n\nIsolated mass against theoretical mass beside an NMR spectrum with an unexpected peak0.0100 mol × 180.16 g/mol = 1.8016 g theoretical; 1.70 g isolated is 94.4 %, if the solid is pure product. Unexpected NMR peaks challenge that “if”.\n\nTry it: give two reasons the isolated mass could be too high.\n\nAnswer. Residual solvent or water, and unreacted starting material or a side product. One TLC (thin-layer chromatography) spot can hide a co-running impurity.\n\n\n\n180.16 g/mol is aspirin, made from the 0.0100 mol of salicylic acid we weighed on Day 1, so this closes a loop. The yield calculation is only as good as its assumption that the mass is all product. Neither observation should be ignored: the plausible mass and the strange NMR together say “investigate”. Also mention exercise 19: dividing isolated mass by the starting-material mass (1.70 / 1.3812) gives 123 %, a reproducible number that is still chemically wrong because molar masses differ. Running the same wrong formula in R every time doesn’t make it right.",
     "crumbs": [
       "Home",
       "Week 5",
@@ -12364,7 +12292,7 @@
     "href": "demos/index.html",
     "title": "Interactive demos",
     "section": "",
-    "text": "One short interactive demo per day, embedded in that day’s Exercises page. Predict what will happen before you move a control, then explain why it happened.\n\n\n\nDay\nInteractive exploration\nQuestion to investigate\n\n\n\n\n1\nMolecules and hidden hydrogens\nInspect atom counts and connectivity\n\n\n2\nInteractions and properties\nCompare donors, acceptors and molecular properties\n\n\n3\nAqueous ionisation\nChange pH and pKa and inspect the population\n\n\n4\nFunctional-group inspector\nFind groups in molecules with more than one feature\n\n\n5\nIonisation and extraction\nSupply the additional partition information explicitly\n\n\n6\nRotate a Newman projection\nRelate a changing dihedral to a conformational view\n\n\n7\nFischer configurations\nCompare mirror images, swaps and valid rotations\n\n\n8\nRepair electron flow\nChoose electron sources and destinations\n\n\n9\nConformer populations\nExplore supplied relative free energies and temperature\n\n\n10\nEnantiomer mixtures\nDistinguish major fraction from enantiomeric excess\n\n\n11\nReaction rate models\nCompare assumed SN1 and SN2 concentration dependence\n\n\n12\nE2 geometry\nFind the anti-periplanar arrangement\n\n\n13\nAlcohol oxidation states\nTrack local C–O and C–H bond changes\n\n\n14\nSN1 steps and charge\nInspect ionisation, capture and proton transfer\n\n\n15\nLimiting reagent and yield\nChange amounts and separate mass yield from purity\n\n\n16\nCarbonyl addition\nFollow oxygen identities and proton transfers\n\n\n17\nAcyl substitution\nLink addition, collapse and acid–base trapping\n\n\n18\nAmine protonation\nCompare supplied conjugate-acid pKas at a chosen pH\n\n\n19\nProton-transfer equilibria\nCompare acid/base pairs without claiming reaction speed\n\n\n20\nAmide electron availability\nInspect resonance and a nitrogen lone pair\n\n\n21\nSpectral candidate lab\nCombine supplied formula, IR and NMR observations\n\n\n22\nTLC measurements\nMeasure distances and compare retention factors\n\n\n23\nBuild a short synthesis\nChoose transformations and inspect their consequences\n\n\n24\nHow strong is a spectral clue?\nChange the available evidence and test a claim\n\n\n25\nClaims and chemical evidence\nSeparate identity, purity, conversion and isolated yield",
+    "text": "One short interactive demo per day, embedded in that day’s Exercises page. Predict what will happen before you move a control, then explain why it happened.\n\n\n\nDay\nInteractive exploration\nQuestion to investigate\n\n\n\n\n1\nMolecules and hidden hydrogens\nInspect atom counts and connectivity\n\n\n2\nInteractions and properties\nCompare donors, acceptors and molecular properties\n\n\n3\nAqueous ionisation\nChange pH and pKa and inspect the population\n\n\n4\nFunctional-group inspector\nFind groups in molecules with more than one feature\n\n\n5\nIonisation and extraction\nSupply the additional partition information explicitly\n\n\n6\nRotate a Newman projection\nRelate a changing dihedral to a conformational view\n\n\n7\nFischer configurations\nCompare mirror images, swaps and valid rotations\n\n\n8\nRepair electron flow\nChoose electron sources and destinations\n\n\n9\nConformer populations\nExplore supplied relative free energies and temperature\n\n\n10\nEnantiomer mixtures\nDistinguish major fraction from enantiomeric excess\n\n\n11\nReaction rate models\nCompare assumed SN1 and SN2 concentration dependence\n\n\n12\nE2 geometry\nFind the anti-periplanar arrangement\n\n\n13\nAlcohol oxidation states\nTrack local C–O and C–H bond changes\n\n\n14\nSN1 steps and charge\nInspect ionisation, capture and proton transfer\n\n\n15\nLimiting reagent and yield\nChange amounts and separate mass yield from purity\n\n\n16\nCarbonyl addition\nFollow oxygen identities and proton transfers\n\n\n17\nAcyl substitution\nLink addition, collapse and acid–base trapping\n\n\n18\nAmine protonation\nCompare supplied conjugate-acid pKas at a chosen pH\n\n\n19\nProton-transfer equilibria\nCompare acid/base pairs without claiming reaction speed\n\n\n20\nAmide electron availability\nInspect resonance and a nitrogen lone pair\n\n\n21\nSpectral candidate lab\nCombine supplied formula, IR and NMR observations\n\n\n22\nTLC (thin-layer chromatography) measurements\nMeasure distances and compare retention factors\n\n\n23\nBuild a short synthesis\nChoose transformations and inspect their consequences\n\n\n24\nHow strong is a spectral clue?\nChange the available evidence and test a claim\n\n\n25\nClaims and chemical evidence\nSeparate identity, purity, conversion and isolated yield",
     "crumbs": [
       "Home",
       "Course info",

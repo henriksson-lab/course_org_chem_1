@@ -323,7 +323,7 @@ Real problem-solving means generating an alternative and testing it, not just co
 **Try it:** give two reasons the isolated mass could be too high.
 
 ::: {.fragment}
-**Answer.** Residual solvent or water, and unreacted starting material or a side product. One TLC spot can hide a co-running impurity.
+**Answer.** Residual solvent or water, and unreacted starting material or a side product. One TLC (thin-layer chromatography) spot can hide a co-running impurity.
 :::
 :::
 

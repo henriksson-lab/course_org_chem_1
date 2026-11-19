@@ -248,7 +248,7 @@ Use the selected reduction followed by proton donation to give CH₃CH₂OH. Oxi
 
 ## 20. Assemble an evidence statement
 
-A proposed propan-2-ol→propanone experiment gives an IR carbonyl band, one visible TLC spot and an isolated mass. Write two supported conclusions and two unresolved questions.
+A proposed propan-2-ol→propanone experiment gives an IR carbonyl band, one visible TLC (thin-layer chromatography) spot and an isolated mass. Write two supported conclusions and two unresolved questions.
 
 ::: {.callout-tip collapse="true" title="Hint"}
 Separate functional-group evidence, chromatographic observation and chemical identity.

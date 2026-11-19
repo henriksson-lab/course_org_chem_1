@@ -29,7 +29,7 @@ happened.
 | 19 | [Proton-transfer equilibria](../practice/day19.qmd#explore) | Compare acid/base pairs without claiming reaction speed |
 | 20 | [Amide electron availability](../practice/day20.qmd#explore) | Inspect resonance and a nitrogen lone pair |
 | 21 | [Spectral candidate lab](../spectroscopy/exercise.qmd#explore) | Combine supplied formula, IR and NMR observations |
-| 22 | [TLC measurements](../synthesis-evidence/exercise.qmd#explore) | Measure distances and compare retention factors |
+| 22 | [TLC (thin-layer chromatography) measurements](../synthesis-evidence/exercise.qmd#explore) | Measure distances and compare retention factors |
 | 23 | [Build a short synthesis](../integration/exercise.qmd#explore) | Choose transformations and inspect their consequences |
 | 24 | [How strong is a spectral clue?](../practice/day24.qmd#explore) | Change the available evidence and test a claim |
 | 25 | [Claims and chemical evidence](../practice/day25.qmd#explore) | Separate identity, purity, conversion and isolated yield |

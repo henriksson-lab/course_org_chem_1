@@ -9,7 +9,7 @@ Allow **150 minutes**: 10 minutes for retrieval, 48 for exercises 1–6, 48 for
 are included in that time. Finish remaining problems independently rather than
 rushing a mechanism.
 
-Local explanations: [Integrated chemistry](../integration/exercise.qmd), [spectroscopy](../spectroscopy/exercise.qmd) and [practical reporting](../reference/practical.qmd).
+See also: [integrated chemistry](../integration/exercise.qmd) and [spectroscopy](../spectroscopy/exercise.qmd).
 
 ## Working definitions
 
@@ -18,7 +18,7 @@ end at its acceptor. Keep ordinary carbon to four bond orders and conserve
 atoms and net charge. For compatible proton-transfer data,
 K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and
 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product.
-Apparent isolated yield=100×isolated/theoretical product mass. TLC uses
+Apparent isolated yield=100×isolated/theoretical product mass. TLC (thin-layer chromatography) uses
 Rf=spot/front distances from the same origin. For simple first-order NMR,
 n adjacent equivalent H give n +1 lines while integration counts H area.
 Any further structure, constant or observation you need is given in the problem.

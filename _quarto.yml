@@ -55,8 +55,6 @@ website:
         href: intro/r-restart.qmd
       - text: Reference toolkit
         href: reference/toolkit.qmd
-      - text: Practical work and report
-        href: reference/practical.qmd
       - text: Data and downloads
         href: reference/data.qmd
       - text: Reading

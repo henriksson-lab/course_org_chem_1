@@ -257,7 +257,7 @@ Insist on unit conversion: 10.00 mmol is 0.01000 mol, and multiplying 10 by 180.
 
 | quantity | question it answers | measured by |
 |---|---|---|
-| **conversion** | how much starting material reacted? | starting material left (e.g. TLC, NMR) |
+| **conversion** | how much starting material reacted? | starting material left (e.g. TLC (thin-layer chromatography), NMR) |
 | **isolated yield** | how much product did I recover? | product mass ÷ theoretical mass |
 | **purity** | how much of my solid is the product? | melting point, NMR, chromatography |
 

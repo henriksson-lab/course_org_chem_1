@@ -12,7 +12,7 @@ with the worked explanation.
 
 ## Working refresher
 
-Keep these calculations distinct: amount n=m/M; reaction extent available from a reagent is n divided by its balanced coefficient; maximum product amount is limiting extent times the product coefficient.1 mol=1000 mmol. Theoretical product mass is product amount×product molar mass. Apparent isolated yield=100×isolated mass/theoretical product mass, interpreted as product yield only if the weighed mass is product. Yield does not measure purity or conversion. For TLC, Rf=spot-centre distance/front distance, both from the same origin; the ratio is dimensionless and depends on conditions. All masses/plates here are teaching data rather than a protocol. [The lecture](lec.qmd) and [practical report guide](../reference/practical.qmd) supply worked examples.
+Keep these calculations distinct: amount n=m/M; reaction extent available from a reagent is n divided by its balanced coefficient; maximum product amount is limiting extent times the product coefficient.1 mol=1000 mmol. Theoretical product mass is product amount×product molar mass. Apparent isolated yield=100×isolated mass/theoretical product mass, interpreted as product yield only if the weighed mass is product. Yield does not measure purity or conversion. For TLC (thin-layer chromatography), Rf=spot-centre distance/front distance, both from the same origin; the ratio is dimensionless and depends on conditions. The [lecture](lec.qmd) has worked examples.
 
 ## 1. Plan a two-step functional-group route
 
@@ -257,9 +257,8 @@ Apparent isolated yield is 66.6% under the product-mass assumption. Crude TLC sh
 ## R task:  results that update when a mass changes
 
 In the student project, save a results section containing the amount table,
-limiting-reagent reasoning, theoretical mass and isolated yield. Reuse code
-from the [report guide](../reference/practical.qmd) or adapt this transparent
-calculation:
+limiting-reagent reasoning, theoretical mass and isolated yield. Start from
+this calculation:
 
 ```r
 library(readr)

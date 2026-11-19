@@ -12,7 +12,7 @@ Full-headed arrows move pairs from bonds/lone pairs; ordinary carbon has total b
 
 For the worked starting example OH⁻+CH₃Br→CH₃OH+Br⁻, draw OH pair→C and C–Br pair→Br. Both sides have net charge −1; the concerted step contains no carbocation. Use the same atom/charge audit in the problems below.
 
-Calculation conventions: n=m/M with g and g/mol gives mol;1000 mmol=1 mol. Compare n/coefficient for a balanced equation. Yield%=100×isolated/theoretical mass. TLC Rf=spot/front distance using the same origin and matched plate conditions. All numerical observations below are constructed teaching data, not real experimental results.
+Calculation conventions: n=m/M with g and g/mol gives mol;1000 mmol=1 mol. Compare n/coefficient for a balanced equation. Yield%=100×isolated/theoretical mass. TLC (thin-layer chromatography) Rf=spot/front distance using the same origin and matched plate conditions. All numerical observations below are constructed teaching data, not real experimental results.
 
 For the local carbon oxidation-state comparison, assign **+1 per C–O bond
 order, −1 per C–H bond and 0 per C–C bond**. Thus the OH-bearing carbon of
@@ -169,7 +169,7 @@ A defensible paragraph reports66.6% apparent isolated mass yield, records that c
 
 ## Revisit the relevant lesson
 
-Use the local [substitution](../substitution/exercise.qmd), [elimination/addition](../elimination-addition/exercise.qmd), [alcohol/redox](../alcohols-redox/exercise.qmd) and [practical evidence](../reference/practical.qmd) explanations when a correction needs more context.
+Use the [substitution](../substitution/exercise.qmd), [elimination/addition](../elimination-addition/exercise.qmd) and [alcohol/redox](../alcohols-redox/exercise.qmd) explanations when a correction needs more context.
 
 ## Explore {#explore}
 

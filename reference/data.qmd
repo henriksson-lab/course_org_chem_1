@@ -13,7 +13,7 @@ The archive includes all CSVs, their dictionary, and the starter report.
 | [Reactant amounts](../data/amounts.csv) and [isolation](../data/isolation.csv) | Amounts, limiting reagent, theoretical mass and isolated yield |
 | [Conformer free energies](../data/conformers.csv) | A guided two-state population model |
 | [Enantiomer mixtures](../data/enantiomers.csv) | Composition and enantiomeric excess |
-| [TLC distances](../data/tlc.csv) | Rf and preservation of sample/spot identities |
+| [TLC (thin-layer chromatography) distances](../data/tlc.csv) | Rf and preservation of sample/spot identities |
 | [Approximate pKa values](../data/pka.csv) | Aqueous teaching models |
 | [Simulated IR traces](../data/ir.csv) | Functional-group comparison and plotting |
 | [Simulated proton NMR peak list](../data/nmr_peaks.csv) | Structure puzzles; the assignment column contains checks, so hide it before solving |

@@ -26,7 +26,7 @@ In the practical you'll make aspirin yourself. Today we learn to answer three se
 - **Planning:** a route is a sequence of functional-group changes
 - **Amounts:** moles, the limiting reagent, and coefficients
 - **Yield:** the theoretical maximum versus what you weighed
-- **TLC:** what Rf measures, and what one spot can't prove
+- **TLC (thin-layer chromatography):** what Rf measures, and what one spot can't prove
 - **Spectra:** IR and NMR as checks on identity and purity
 
 Yesterday you read structures from spectra; today those spectra become evidence about a reaction you ran.

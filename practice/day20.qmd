@@ -17,7 +17,7 @@ end at its acceptor. Keep ordinary carbon to four bond orders and conserve
 atoms and net charge. For compatible proton-transfer data,
 K≈10^(product-acid pKa−reactant-acid pKa). For amounts use n=m/M and
 1 mol=1000 mmol; compare n/coefficient before predicting theoretical product.
-Apparent isolated yield=100×isolated/theoretical product mass. TLC uses
+Apparent isolated yield=100×isolated/theoretical product mass. TLC (thin-layer chromatography) uses
 Rf=spot/front distances from the same origin. For simple first-order NMR,
 n adjacent equivalent H give n +1 lines while integration counts H area.
 

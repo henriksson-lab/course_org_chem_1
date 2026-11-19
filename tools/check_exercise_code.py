@@ -10,7 +10,7 @@ from pathlib import Path
 from zipfile import ZipFile
 
 ROOT=Path(__file__).resolve().parents[1]
-pages=sorted(ROOT.glob('*/exercise.qmd'))+[ROOT/'reference/practical.qmd']
+pages=sorted(ROOT.glob('*/exercise.qmd'))
 count=0
 with tempfile.TemporaryDirectory(prefix='orgchem-r-exercises-') as td:
     project=Path(td)

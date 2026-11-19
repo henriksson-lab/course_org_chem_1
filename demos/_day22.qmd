@@ -5,7 +5,7 @@ Allow **7 minutes**: predict for 2, adjust the plate for 3, then explain the
 limits for 2. Distances are supplied hypothetical teaching measurements.
 
 ```{=html}
-<section class="chem-demo" id="day22" aria-label="TLC spot and solvent-front geometry with Rf and co-migration controls">
+<section class="chem-demo" id="day22" aria-label="TLC (thin-layer chromatography) spot and solvent-front geometry with Rf and co-migration controls">
 <p>Enable JavaScript to vary distances from the origin and inspect the TLC ratio.</p>
 </section>
 <script src="../interactives/core.js"></script>
@@ -43,4 +43,4 @@ Rf depends on stationary phase, eluent and other conditions, so matching
 retention is not a unique identity code. Detection can also miss components.
 Use matched conditions and appropriate independent structural/composition
 evidence. The geometric model does not simulate molecular adsorption or
-provide operating instructions. See the [local practical evidence guide](../reference/practical.qmd).
+provide operating instructions.

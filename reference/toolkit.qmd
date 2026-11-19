@@ -109,7 +109,7 @@ does not specify the sign of measured optical rotation.
 | Theoretical product amount | $n_P=\nu_P\min(n_i/\nu_i)$ | mol |
 | Theoretical product mass | $m_P=n_PM_P$ | mol × g/mol = g |
 | Isolated yield | $100m_{isolated}/m_{theoretical}$ | Percent; mass ratio does not establish purity |
-| TLC retention factor | $R_f=d_{spot}/d_{front}$ | Dimensionless, from the same origin |
+| TLC (thin-layer chromatography) retention factor | $R_f=d_{spot}/d_{front}$ | Dimensionless, from the same origin |
 | Enantiomeric excess | $ee=|\%R-\%S|$ | Percentage points expressed as % ee; specify major enantiomer |
 
 For a mixture containing only two enantiomers, 70% R and 30% S is 40% ee in

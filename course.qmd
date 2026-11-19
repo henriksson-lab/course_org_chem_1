@@ -22,7 +22,7 @@ The course syllabus on Canvas gives the formal outcomes and examination rules.
 | 1 | Structures; properties and IR; acids and bases | Annotated structures, a property explanation, a proton-transfer mechanism and an ionisation plot |
 | 2 | Conformations; stereochemistry; mechanisms | Newman and chair drawings, stereochemical comparisons and electron-flow diagrams |
 | 3 | Substitution; elimination and addition; alcohols and redox | Reaction predictions, competing pathways and checked reactant amounts |
-| 4 | Carbonyl addition; acyl chemistry; amines and aromatics | Stepwise mechanisms, ester/amide comparisons and a TLC evidence table |
+| 4 | Carbonyl addition; acyl chemistry; amines and aromatics | Stepwise mechanisms, ester/amide comparisons and a TLC (thin-layer chromatography) evidence table |
 | 5 | Spectroscopy; synthesis and evidence; integration | Structure puzzles, a short synthetic route and a report linking claims to evidence |
 
 ## How to study a day

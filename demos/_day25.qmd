@@ -32,7 +32,7 @@ other spectral demos.
    from another teaching sample not identify this isolate?
 3. Link the pattern to this isolate, then introduce an extra unexpected signal
    group. Audit identity and purity separately.
-4. Compare one versus two detected TLC features.
+4. Compare one versus two detected TLC (thin-layer chromatography) features.
 5. Supply the optional quantitative same-batch assay: **2.00 mmol starting
    material remains from 10.00 mmol initially**. Calculate conversion, then try
    the high-mass contradiction preset.

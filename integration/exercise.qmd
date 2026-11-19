@@ -220,7 +220,7 @@ Theoretical mass is 1.8016 g and apparent yield 94.4%. The calculation assumes i
 
 ## 18. Resolve contradictory observations
 
-A sample gives 94% apparent yield and one TLC spot, but full NMR has an unexpected major signal group. Give a defensible interpretation and two possible explanations without identifying a unique impurity.
+A sample gives 94% apparent yield and one TLC (thin-layer chromatography) spot, but full NMR has an unexpected major signal group. Give a defensible interpretation and two possible explanations without identifying a unique impurity.
 
 ::: {.callout-tip collapse="true" title="Hint"}
 A single separation feature can hide co-migration, and mass can include other components.
