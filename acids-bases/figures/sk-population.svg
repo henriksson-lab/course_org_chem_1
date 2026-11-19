@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>Illustrative populations one unit below, at and one unit above pKa</title><desc>Illustrative populations one unit below, at and one unit above pKa</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<rect x="20" y="60" width="280" height="210" rx="8" fill="#eef4f7" stroke="none"/>
+<text x="160" y="40" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">pH = pKa − 1</text>
+<circle cx="64" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="64" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="128" cy="100" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="128" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="192" cy="100" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="192" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="256" cy="100" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="256" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="64" cy="158" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="64" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="128" cy="158" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="128" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="192" cy="158" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="192" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="256" cy="158" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="256" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="64" cy="216" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="64" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="128" cy="216" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="128" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="192" cy="216" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="192" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<text x="160" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">A⁻ : HA = 1 : 10</text>
+<text x="160" y="345" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#af3b45" text-anchor="middle" font-weight="bold">1/11 ≈ 9.1 % A⁻</text>
+<rect x="340" y="60" width="280" height="210" rx="8" fill="#eef4f7" stroke="none"/>
+<text x="480" y="40" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">pH = pKa</text>
+<circle cx="384" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="384" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="448" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="448" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="512" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="512" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="576" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="576" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="384" cy="158" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="384" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="448" cy="158" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="448" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="512" cy="158" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="512" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="576" cy="158" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="576" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="384" cy="216" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="384" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="448" cy="216" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="448" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<text x="480" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">A⁻ : HA = 1 : 1</text>
+<text x="480" y="345" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#af3b45" text-anchor="middle" font-weight="bold">5/10 = 50 % A⁻</text>
+<rect x="660" y="60" width="280" height="210" rx="8" fill="#eef4f7" stroke="none"/>
+<text x="800" y="40" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#153747" text-anchor="middle" font-weight="bold">pH = pKa + 1</text>
+<circle cx="704" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="704" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="768" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="768" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="832" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="832" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="896" cy="100" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="896" y="107" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="704" cy="158" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="704" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="768" cy="158" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="768" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="832" cy="158" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="832" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="896" cy="158" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="896" y="165" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="704" cy="216" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="704" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="768" cy="216" r="24" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="768" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<circle cx="832" cy="216" r="24" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="832" y="223" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<text x="800" y="310" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="normal">A⁻ : HA = 10 : 1</text>
+<text x="800" y="345" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#af3b45" text-anchor="middle" font-weight="bold">10/11 ≈ 90.9 % A⁻</text>
+<text x="480" y="400" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#5b6b75" text-anchor="middle" font-weight="normal">each particle is either HA or A⁻; the fraction describes the population</text>
+</svg>

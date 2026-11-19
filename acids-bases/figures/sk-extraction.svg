@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>Aqueous ionisation and partition in a two-phase extraction</title><desc>Aqueous ionisation and partition in a two-phase extraction</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<rect x="100" y="40" width="520" height="140" rx="8" fill="#f3ead6" stroke="none"/>
+<rect x="100" y="190" width="520" height="170" rx="8" fill="#e4f0f4" stroke="none"/>
+<text x="120" y="72" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="start" font-weight="bold">organic layer</text>
+<text x="120" y="222" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="start" font-weight="bold">water at a set pH</text>
+<circle cx="400" cy="115" r="26" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="400" y="122" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<circle cx="400" cy="300" r="26" stroke="#176b91" fill="#e4f0f4" stroke-width="3"/>
+<text x="400" y="307" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="bold">HA</text>
+<line x1="440" y1="294" x2="520" y2="294" stroke="#176b91" stroke-width="3"/>
+<path d="M 520 294 L 506 284" stroke="#176b91" stroke-width="3" fill="none"/>
+<line x1="440" y1="306" x2="520" y2="306" stroke="#176b91" stroke-width="3"/>
+<path d="M 440 306 L 454 316" stroke="#176b91" stroke-width="3" fill="none"/>
+<circle cx="560" cy="300" r="26" stroke="#23765d" fill="#dcefe6" stroke-width="3"/>
+<text x="560" y="307" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#23765d" text-anchor="middle" font-weight="bold">A⁻</text>
+<line x1="385" y1="268" x2="385" y2="148" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="415" y1="148" x2="415" y2="268" stroke="#176b91" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="650" y="105" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="start" font-weight="bold">HA between layers:</text>
+<text x="650" y="135" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="start" font-weight="normal">needs partition coefficient</text>
+<text x="650" y="163" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#af3b45" text-anchor="start" font-weight="normal">and phase volumes</text>
+<text x="650" y="285" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="start" font-weight="bold">HA ⇌ A⁻ in water:</text>
+<text x="650" y="315" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="start" font-weight="normal">pKa and pH (today)</text>
+<text x="480" y="400" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#5b6b75" text-anchor="middle" font-weight="normal">A⁻ stays in the water; the ionisation curve alone cannot predict recovery</text>
+</svg>

@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img"><title>Water accepts a proton from HCl and donates one to ammonia</title><desc>Water accepts a proton from HCl and donates one to ammonia</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="360" rx="12" fill="#f7fafc"/>
+<text x="70" y="115" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">HCl</text>
+<text x="140" y="115" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">+</text>
+<svg x="124.0" y="32.0" width="202.0" height="146.0" viewBox="0 0 202.0 146.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 150.7,61.3 L 131.5,72.4' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 131.5,72.4 L 112.4,83.5' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 89.6,83.5 L 70.5,72.4' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 70.5,72.4 L 51.3,61.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 153.0 45.6
+L 155.7 45.6
+L 155.7 54.1
+L 165.8 54.1
+L 165.8 45.6
+L 168.5 45.6
+L 168.5 65.5
+L 165.8 65.5
+L 165.8 56.3
+L 155.7 56.3
+L 155.7 65.5
+L 153.0 65.5
+L 153.0 45.6
+' fill='#153747'/>
+<path class='atom-1' d='M 91.9 90.1
+Q 91.9 85.3, 94.3 82.7
+Q 96.6 80.0, 101.0 80.0
+Q 105.4 80.0, 107.7 82.7
+Q 110.1 85.3, 110.1 90.1
+Q 110.1 94.9, 107.7 97.7
+Q 105.3 100.4, 101.0 100.4
+Q 96.6 100.4, 94.3 97.7
+Q 91.9 94.9, 91.9 90.1
+M 101.0 98.1
+Q 104.0 98.1, 105.6 96.1
+Q 107.3 94.1, 107.3 90.1
+Q 107.3 86.2, 105.6 84.2
+Q 104.0 82.3, 101.0 82.3
+Q 98.0 82.3, 96.3 84.2
+Q 94.7 86.2, 94.7 90.1
+Q 94.7 94.1, 96.3 96.1
+Q 98.0 98.1, 101.0 98.1
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 33.5 45.6
+L 36.2 45.6
+L 36.2 54.1
+L 46.3 54.1
+L 46.3 45.6
+L 49.0 45.6
+L 49.0 65.5
+L 46.3 65.5
+L 46.3 56.3
+L 36.2 56.3
+L 36.2 65.5
+L 33.5 65.5
+L 33.5 45.6
+' fill='#153747'/>
+</svg>
+<line x1="310" y1="99" x2="390" y2="99" stroke="#176b91" stroke-width="3"/>
+<path d="M 390 99 L 376 89" stroke="#176b91" stroke-width="3" fill="none"/>
+<line x1="310" y1="111" x2="390" y2="111" stroke="#176b91" stroke-width="3"/>
+<path d="M 310 111 L 324 121" stroke="#176b91" stroke-width="3" fill="none"/>
+<svg x="379.0" y="22.0" width="202.0" height="146.0" viewBox="0 0 202.0 146.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 150.7,50.3 L 136.6,58.5' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 136.6,58.5 L 122.6,66.6' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 89.6,72.5 L 70.5,61.4' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 70.5,61.4 L 51.3,50.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 153.0 34.6
+L 155.7 34.6
+L 155.7 43.1
+L 165.8 43.1
+L 165.8 34.6
+L 168.5 34.6
+L 168.5 54.5
+L 165.8 54.5
+L 165.8 45.3
+L 155.7 45.3
+L 155.7 54.5
+L 153.0 54.5
+L 153.0 34.6
+' fill='#153747'/>
+<path class='atom-1' d='M 91.9 79.1
+Q 91.9 74.4, 94.3 71.7
+Q 96.6 69.0, 101.0 69.0
+Q 105.4 69.0, 107.7 71.7
+Q 110.1 74.4, 110.1 79.1
+Q 110.1 83.9, 107.7 86.7
+Q 105.3 89.4, 101.0 89.4
+Q 96.6 89.4, 94.3 86.7
+Q 91.9 84.0, 91.9 79.1
+M 101.0 87.1
+Q 104.0 87.1, 105.6 85.1
+Q 107.3 83.1, 107.3 79.1
+Q 107.3 75.2, 105.6 73.3
+Q 104.0 71.3, 101.0 71.3
+Q 98.0 71.3, 96.3 73.2
+Q 94.7 75.2, 94.7 79.1
+Q 94.7 83.1, 96.3 85.1
+Q 98.0 87.1, 101.0 87.1
+' fill='#AF3B45'/>
+<path class='atom-1' d='M 113.1 72.6
+L 116.6 72.6
+L 116.6 68.9
+L 118.1 68.9
+L 118.1 72.6
+L 121.7 72.6
+L 121.7 73.9
+L 118.1 73.9
+L 118.1 77.6
+L 116.6 77.6
+L 116.6 73.9
+L 113.1 73.9
+L 113.1 72.6
+' fill='#AF3B45'/>
+<path class='atom-1' d='M 93.2 91.5
+L 95.9 91.5
+L 95.9 100.0
+L 106.1 100.0
+L 106.1 91.5
+L 108.8 91.5
+L 108.8 111.4
+L 106.1 111.4
+L 106.1 102.2
+L 95.9 102.2
+L 95.9 111.4
+L 93.2 111.4
+L 93.2 91.5
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 33.5 34.6
+L 36.2 34.6
+L 36.2 43.1
+L 46.3 43.1
+L 46.3 34.6
+L 49.0 34.6
+L 49.0 54.5
+L 46.3 54.5
+L 46.3 45.3
+L 36.2 45.3
+L 36.2 54.5
+L 33.5 54.5
+L 33.5 34.6
+' fill='#153747'/>
+</svg>
+<text x="575" y="115" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">+</text>
+<text x="635" y="115" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">Cl⁻</text>
+<text x="840" y="113" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#176b91" text-anchor="middle" font-weight="bold">water = base</text>
+<text x="70" y="265" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">NH₃</text>
+<text x="140" y="265" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">+</text>
+<svg x="124.0" y="182.0" width="202.0" height="146.0" viewBox="0 0 202.0 146.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 150.7,61.3 L 131.5,72.4' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 131.5,72.4 L 112.4,83.5' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 89.6,83.5 L 70.5,72.4' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 70.5,72.4 L 51.3,61.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 153.0 45.6
+L 155.7 45.6
+L 155.7 54.1
+L 165.8 54.1
+L 165.8 45.6
+L 168.5 45.6
+L 168.5 65.5
+L 165.8 65.5
+L 165.8 56.3
+L 155.7 56.3
+L 155.7 65.5
+L 153.0 65.5
+L 153.0 45.6
+' fill='#153747'/>
+<path class='atom-1' d='M 91.9 90.1
+Q 91.9 85.3, 94.3 82.7
+Q 96.6 80.0, 101.0 80.0
+Q 105.4 80.0, 107.7 82.7
+Q 110.1 85.3, 110.1 90.1
+Q 110.1 94.9, 107.7 97.7
+Q 105.3 100.4, 101.0 100.4
+Q 96.6 100.4, 94.3 97.7
+Q 91.9 94.9, 91.9 90.1
+M 101.0 98.1
+Q 104.0 98.1, 105.6 96.1
+Q 107.3 94.1, 107.3 90.1
+Q 107.3 86.2, 105.6 84.2
+Q 104.0 82.3, 101.0 82.3
+Q 98.0 82.3, 96.3 84.2
+Q 94.7 86.2, 94.7 90.1
+Q 94.7 94.1, 96.3 96.1
+Q 98.0 98.1, 101.0 98.1
+' fill='#AF3B45'/>
+<path class='atom-2' d='M 33.5 45.6
+L 36.2 45.6
+L 36.2 54.1
+L 46.3 54.1
+L 46.3 45.6
+L 49.0 45.6
+L 49.0 65.5
+L 46.3 65.5
+L 46.3 56.3
+L 36.2 56.3
+L 36.2 65.5
+L 33.5 65.5
+L 33.5 45.6
+' fill='#153747'/>
+</svg>
+<line x1="310" y1="249" x2="390" y2="249" stroke="#176b91" stroke-width="3"/>
+<path d="M 390 249 L 376 239" stroke="#176b91" stroke-width="3" fill="none"/>
+<line x1="310" y1="261" x2="390" y2="261" stroke="#176b91" stroke-width="3"/>
+<path d="M 310 261 L 324 271" stroke="#176b91" stroke-width="3" fill="none"/>
+<text x="450" y="265" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">NH₄⁺</text>
+<text x="525" y="265" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#153747" text-anchor="middle" font-weight="normal">+</text>
+<svg x="515.5" y="193.5" width="169.0" height="123.0" viewBox="0 0 169.0 123.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 109.6,61.3 L 85.8,61.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 85.8,61.3 L 62.0,61.3' style='fill:none;fill-rule:evenodd;stroke:#AF3B45;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-0' d='M 111.9 51.4
+L 114.6 51.4
+L 114.6 59.9
+L 124.7 59.9
+L 124.7 51.4
+L 127.4 51.4
+L 127.4 71.3
+L 124.7 71.3
+L 124.7 62.1
+L 114.6 62.1
+L 114.6 71.3
+L 111.9 71.3
+L 111.9 51.4
+' fill='#153747'/>
+<path class='atom-1' d='M 41.6 61.4
+Q 41.6 56.6, 43.9 54.0
+Q 46.3 51.3, 50.7 51.3
+Q 55.1 51.3, 57.4 54.0
+Q 59.8 56.6, 59.8 61.4
+Q 59.8 66.2, 57.4 69.0
+Q 55.0 71.7, 50.7 71.7
+Q 46.3 71.7, 43.9 69.0
+Q 41.6 66.2, 41.6 61.4
+M 50.7 69.4
+Q 53.7 69.4, 55.3 67.4
+Q 57.0 65.4, 57.0 61.4
+Q 57.0 57.5, 55.3 55.6
+Q 53.7 53.6, 50.7 53.6
+Q 47.6 53.6, 46.0 55.5
+Q 44.4 57.5, 44.4 61.4
+Q 44.4 65.4, 46.0 67.4
+Q 47.6 69.4, 50.7 69.4
+' fill='#AF3B45'/>
+<path class='atom-1' d='M 62.6 54.6
+L 69.4 54.6
+L 69.4 56.0
+L 62.6 56.0
+L 62.6 54.6
+' fill='#AF3B45'/>
+</svg>
+<text x="840" y="263" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#23765d" text-anchor="middle" font-weight="bold">water = acid</text>
+<text x="480" y="340" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#5b6b75" text-anchor="middle" font-weight="normal">H₃O⁺/H₂O and H₂O/OH⁻ are both conjugate pairs</text>
+</svg>

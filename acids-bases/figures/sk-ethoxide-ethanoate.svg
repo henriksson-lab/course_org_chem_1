@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img"><title>The negative charge in ethoxide and ethanoate</title><desc>The negative charge in ethoxide and ethanoate</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="400" rx="12" fill="#f7fafc"/>
+<svg x="53.0" y="82.5" width="234.0" height="155.0" viewBox="0 0 234.0 155.0" overflow="visible">
+<ellipse cx='191.3' cy='90.4' rx='22.4' ry='22.4' class='atom-2'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 20.3,90.2 L 103.4,42.2' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 103.4,42.2 L 174.3,83.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 99.2,44.6 L 103.4,42.2 L 106.9,44.3' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 177.4 90.3
+Q 177.4 85.5, 179.8 82.9
+Q 182.1 80.2, 186.5 80.2
+Q 190.9 80.2, 193.3 82.9
+Q 195.6 85.5, 195.6 90.3
+Q 195.6 95.1, 193.3 97.8
+Q 190.9 100.6, 186.5 100.6
+Q 182.2 100.6, 179.8 97.8
+Q 177.4 95.1, 177.4 90.3
+M 186.5 98.3
+Q 189.6 98.3, 191.2 96.3
+Q 192.8 94.3, 192.8 90.3
+Q 192.8 86.4, 191.2 84.4
+Q 189.6 82.4, 186.5 82.4
+Q 183.5 82.4, 181.9 84.4
+Q 180.2 86.4, 180.2 90.3
+Q 180.2 94.3, 181.9 96.3
+Q 183.5 98.3, 186.5 98.3
+' fill='#af3b45'/>
+<path class='atom-2' d='M 198.5 83.4
+L 205.2 83.4
+L 205.2 84.9
+L 198.5 84.9
+L 198.5 83.4
+' fill='#af3b45'/>
+</svg>
+<text x="170" y="280" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">ethoxide</text>
+<text x="170" y="318" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">charge on one O</text>
+<text x="170" y="360" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#5b6b75" text-anchor="middle" font-weight="normal">ethanol pKa ≈ 16</text>
+<svg x="383.0" y="50.5" width="234.0" height="219.0" viewBox="0 0 234.0 219.0" overflow="visible">
+<ellipse cx='103.4' cy='37.5' rx='22.4' ry='22.4' class='atom-2'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='191.3' cy='181.5' rx='22.4' ry='22.4' class='atom-3'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 20.3,181.3 L 103.4,133.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 110.6,137.5 L 110.6,50.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 96.2,137.5 L 96.2,50.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 103.4,133.3 L 174.3,174.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 99.2,135.7 L 103.4,133.3 L 106.9,135.4' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 94.3 37.4
+Q 94.3 32.6, 96.7 30.0
+Q 99.0 27.3, 103.4 27.3
+Q 107.8 27.3, 110.1 30.0
+Q 112.5 32.6, 112.5 37.4
+Q 112.5 42.2, 110.1 45.0
+Q 107.7 47.7, 103.4 47.7
+Q 99.0 47.7, 96.7 45.0
+Q 94.3 42.2, 94.3 37.4
+M 103.4 45.4
+Q 106.4 45.4, 108.0 43.4
+Q 109.7 41.4, 109.7 37.4
+Q 109.7 33.5, 108.0 31.5
+Q 106.4 29.6, 103.4 29.6
+Q 100.4 29.6, 98.7 31.5
+Q 97.1 33.5, 97.1 37.4
+Q 97.1 41.4, 98.7 43.4
+Q 100.4 45.4, 103.4 45.4
+' fill='#af3b45'/>
+<path class='atom-3' d='M 177.4 181.4
+Q 177.4 176.6, 179.8 174.0
+Q 182.1 171.3, 186.5 171.3
+Q 190.9 171.3, 193.3 174.0
+Q 195.6 176.6, 195.6 181.4
+Q 195.6 186.2, 193.3 189.0
+Q 190.9 191.7, 186.5 191.7
+Q 182.2 191.7, 179.8 189.0
+Q 177.4 186.2, 177.4 181.4
+M 186.5 189.4
+Q 189.6 189.4, 191.2 187.4
+Q 192.8 185.4, 192.8 181.4
+Q 192.8 177.5, 191.2 175.6
+Q 189.6 173.6, 186.5 173.6
+Q 183.5 173.6, 181.9 175.5
+Q 180.2 177.5, 180.2 181.4
+Q 180.2 185.4, 181.9 187.4
+Q 183.5 189.4, 186.5 189.4
+' fill='#af3b45'/>
+<path class='atom-3' d='M 198.5 174.6
+L 205.2 174.6
+L 205.2 176.0
+L 198.5 176.0
+L 198.5 174.6
+' fill='#af3b45'/>
+</svg>
+<text x="625" y="175" font-family="DejaVu Sans, sans-serif" font-size="40" fill="#176b91" text-anchor="middle" font-weight="normal">↔</text>
+<svg x="643.0" y="50.5" width="234.0" height="219.0" viewBox="0 0 234.0 219.0" overflow="visible">
+<ellipse cx='191.3' cy='181.5' rx='22.4' ry='22.4' class='atom-2'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<ellipse cx='103.4' cy='37.5' rx='22.4' ry='22.4' class='atom-3'  style='fill:#CFE3EC;fill-rule:evenodd;stroke:#CFE3EC;stroke-width:1.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-0 atom-0 atom-1' d='M 20.3,181.3 L 103.4,133.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 103.4,133.3 L 174.3,174.3' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 110.6,137.5 L 110.6,50.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 96.2,137.5 L 96.2,50.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path d='M 99.2,135.7 L 103.4,133.3 L 106.9,135.4' style='fill:none;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;' />
+<path class='atom-2' d='M 177.4 181.4
+Q 177.4 176.6, 179.8 174.0
+Q 182.1 171.3, 186.5 171.3
+Q 190.9 171.3, 193.3 174.0
+Q 195.6 176.6, 195.6 181.4
+Q 195.6 186.2, 193.3 189.0
+Q 190.9 191.7, 186.5 191.7
+Q 182.2 191.7, 179.8 189.0
+Q 177.4 186.2, 177.4 181.4
+M 186.5 189.4
+Q 189.6 189.4, 191.2 187.4
+Q 192.8 185.4, 192.8 181.4
+Q 192.8 177.5, 191.2 175.6
+Q 189.6 173.6, 186.5 173.6
+Q 183.5 173.6, 181.9 175.5
+Q 180.2 177.5, 180.2 181.4
+Q 180.2 185.4, 181.9 187.4
+Q 183.5 189.4, 186.5 189.4
+' fill='#af3b45'/>
+<path class='atom-2' d='M 198.5 174.6
+L 205.2 174.6
+L 205.2 176.0
+L 198.5 176.0
+L 198.5 174.6
+' fill='#af3b45'/>
+<path class='atom-3' d='M 94.3 37.4
+Q 94.3 32.6, 96.7 30.0
+Q 99.0 27.3, 103.4 27.3
+Q 107.8 27.3, 110.1 30.0
+Q 112.5 32.6, 112.5 37.4
+Q 112.5 42.2, 110.1 45.0
+Q 107.7 47.7, 103.4 47.7
+Q 99.0 47.7, 96.7 45.0
+Q 94.3 42.2, 94.3 37.4
+M 103.4 45.4
+Q 106.4 45.4, 108.0 43.4
+Q 109.7 41.4, 109.7 37.4
+Q 109.7 33.5, 108.0 31.5
+Q 106.4 29.6, 103.4 29.6
+Q 100.4 29.6, 98.7 31.5
+Q 97.1 33.5, 97.1 37.4
+Q 97.1 41.4, 98.7 43.4
+Q 100.4 45.4, 103.4 45.4
+' fill='#af3b45'/>
+</svg>
+<text x="630" y="280" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="bold">ethanoate</text>
+<text x="630" y="318" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#176b91" text-anchor="middle" font-weight="normal">charge shared by two equivalent O</text>
+<text x="630" y="360" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#5b6b75" text-anchor="middle" font-weight="normal">ethanoic acid pKa ≈ 4.8</text>
+<line x1="320" y1="40" x2="320" y2="360" stroke="#c9d6dd" stroke-width="2"/>
+</svg>
