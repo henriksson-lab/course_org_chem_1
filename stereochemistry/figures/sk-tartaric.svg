@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img"><title>Tartaric acid: two chiral forms and one meso form</title><desc>Fischer projections of (R,R)-, (S,S)- and meso-tartaric acid; the meso form has a mirror plane between its two halves</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="440" rx="12" fill="#f7fafc"/>
+<line x1="170" y1="75" x2="170" y2="295" stroke="#153747" stroke-width="3"/>
+<line x1="108" y1="135" x2="232" y2="135" stroke="#153747" stroke-width="3"/>
+<line x1="108" y1="235" x2="232" y2="235" stroke="#153747" stroke-width="3"/>
+<text x="170" y="61" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="170" y="327" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="98" y="144" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="end" font-weight="normal">H</text>
+<text x="242" y="144" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">OH</text>
+<text x="98" y="244" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="end" font-weight="normal">OH</text>
+<text x="242" y="244" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">H</text>
+<text x="170" y="375" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">(2R,3R)</text>
+<text x="170" y="410" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#5b6f7a" text-anchor="middle" font-weight="normal">chiral, from grapes</text>
+<line x1="480" y1="75" x2="480" y2="295" stroke="#153747" stroke-width="3"/>
+<line x1="418" y1="135" x2="542" y2="135" stroke="#153747" stroke-width="3"/>
+<line x1="418" y1="235" x2="542" y2="235" stroke="#153747" stroke-width="3"/>
+<text x="480" y="61" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="480" y="327" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="408" y="144" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="end" font-weight="normal">OH</text>
+<text x="552" y="144" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">H</text>
+<text x="408" y="244" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="end" font-weight="normal">H</text>
+<text x="552" y="244" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">OH</text>
+<text x="480" y="375" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">(2S,3S)</text>
+<text x="480" y="410" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#5b6f7a" text-anchor="middle" font-weight="normal">its enantiomer</text>
+<line x1="790" y1="75" x2="790" y2="295" stroke="#153747" stroke-width="3"/>
+<line x1="728" y1="135" x2="852" y2="135" stroke="#153747" stroke-width="3"/>
+<line x1="728" y1="235" x2="852" y2="235" stroke="#153747" stroke-width="3"/>
+<text x="790" y="61" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="790" y="327" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="middle" font-weight="normal">COOH</text>
+<text x="718" y="144" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="end" font-weight="normal">H</text>
+<text x="862" y="144" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">OH</text>
+<text x="718" y="244" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="end" font-weight="normal">H</text>
+<text x="862" y="244" font-family="DejaVu Sans, sans-serif" font-size="25" fill="#153747" text-anchor="start" font-weight="normal">OH</text>
+<line x1="665" y1="185" x2="915" y2="185" stroke="#176b91" stroke-width="2.5" stroke-dasharray="9 7"/>
+<text x="790" y="375" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#153747" text-anchor="middle" font-weight="bold">meso (2R,3S)</text>
+<text x="790" y="410" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#23765d" text-anchor="middle" font-weight="normal">mirror plane → achiral</text>
+</svg>
