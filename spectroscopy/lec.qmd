@@ -1,8 +1,7 @@
 ---
 title: Structure from spectra
-subtitle: Week 5 · 45-minute teaching session
-session-minutes: 45
-pacing-seconds-per-slide: 40
+subtitle: Week 5 · Day 21 — one formula, one answer
+author: Organic Chemistry 1
 format:
   revealjs:
     theme:
@@ -12,539 +11,324 @@ format:
     width: 1280
     height: 720
     transition: none
+    history: false
     incremental: false
     menu: true
     html-math-method: katex
 ---
 
-## A chemical route through this session
+## About this lecture
 
-Treat a structure as a hypothesis. Use a formula, functional-group evidence and simple one-dimensional NMR to test candidates; all supplied spectra today are simulated.
+Two unlabelled bottles both contain **C₄H₈O₂**. One smells of pear drops and nail-polish remover. The other smells of rancid butter. You could sniff them, but a chemist would rather **ask the molecules directly**, with light and with magnets. The same physics, used on the water in your body, is an MRI scan.
+
+Today we work one unknown, U1, from formula to structure:
+
+- **Formula:** count rings and π bonds before guessing anything
+- **IR:** which functional groups are there, and which aren't
+- **¹H NMR:** shift, integral and splitting, one clue each
+- **¹³C NMR:** how many kinds of carbon
+- **Testing candidates:** a structure is a hypothesis that must explain every signal
+
+Last time (Day 18) we read amines and aromatic rings by structure; today the structure is what we're looking for.
 
 ::: notes
-45-minute budget: retrieval 3 min; formula constraints 5 min; IR comparisons 8 min; worked proton-NMR assignment with paired checks 13 min; carbon-NMR check 6 min; candidate elimination and explanation 8 min; exit check 2 min. Total 45 min, including interpretation and discussion.
-
-Suggested 30 seconds; adjust to the explanation and class response. Plan 45 minutes including short drawing and discussion intervals. Routine visual frames take roughly 40 seconds; worked checks need longer and some resolutions can be quicker. Treat timings as guidance, with room for questions.
+Open with the two bottles: ethyl ethanoate (ethyl acetate) is the solvent in nail-polish remover and gives pear-drop and fruity notes in wine; butanoic acid is the smell of rancid butter and, unfortunately, of vomit. Same molecular formula. Ask the room: "How would you tell them apart without smelling?" Collect answers, then say that this is exactly today's problem. Mention MRI: the scanner detects the hydrogen nuclei in water and fat, the same nuclei we'll read in a 1H NMR spectrum. Make clear that all spectra today are simulated teaching spectra with literature-typical values; the reasoning is the real thing. Tomorrow (Day 22) uses this evidence habit for synthesis.
 :::
 
-## Retrieve the starting idea
+## Start with the formula
 
-For C₄H₈O₂, can two different connectivities share the same molecular formula?
+![Four C4H8O2 candidates](figures/sk-candidates.svg){width=88% fig-alt="Ethyl ethanoate, butanoic acid, 3-hydroxybutan-2-one and 1,4-dioxane, all C4H8O2, each with its one degree of unsaturation shaded"}
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Give students a short individual attempt. Worked answer: Yes. The formula constrains atoms and unsaturation, but spectra test arrangement and environments.
+**DBE = (2C + 2 − H)/2** counts **rings + π bonds**. O doesn't enter it. One DBE can be a C=O, a C=C or a ring.
+
+::: {.try}
+**Try it:** what is the DBE of C₄H₈O₂, and does that prove there's a C=O?
+
+::: {.fragment}
+**(8 + 2 − 8)/2 = 1.** No: 1,4-dioxane uses its one DBE as a ring. The formula narrows the field but doesn't pick the structure.
+:::
 :::
 
-## Start with a constraint, not a guess
-
-![A formula constrains but does not specify connectivity](figures/01-formula-candidates.svg){width=85% fig-alt="A formula constrains but does not specify connectivity"}
-
-What does C₄H₈O₂ leave undecided?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Several connectivities fit the formula. Ethyl ethanoate and butanoic acid both account for one degree of unsaturation.
+This is the degree-of-unsaturation idea from Day 1, where every double bond or ring cost two hydrogens. A saturated acyclic C4 compound would have 2×4+2 = 10 H; we have 8, so one pair is missing. Walk across the four candidates: three spend the DBE on C=O, dioxane on a ring. Stress that oxygen is invisible to this formula because a divalent atom slots into a chain without changing the H count. A common slip is including O in the count. Another is assuming C4H8O2 "must be" an ester because that's what the textbook example was. These four candidates will follow us through the lecture.
 :::
 
-## Resolve: start with a constraint, not a guess
+## Three instruments, three questions
 
-![A formula constrains but does not specify connectivity](figures/01-formula-candidates.svg){width=85% fig-alt="A formula constrains but does not specify connectivity"}
+| method | what it detects | what it tells you |
+|---|---|---|
+| **formula** | composition | DBE: rings + π bonds |
+| **IR** | bond vibrations | which **functional groups** are present (C=O, O–H) |
+| **¹H NMR** | each kind of H | **shift**: neighbourhood · **integral**: how many H · **splitting**: H next door |
+| **¹³C NMR** | each kind of C | how many **carbon types**; C=O vs C–O vs alkyl |
 
-Several connectivities fit the formula. Ethyl ethanoate and butanoic acid both account for one degree of unsaturation.
+Each method tests a **different prediction**, which is why they're stronger together than any one alone.
 
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: One degree of unsaturation. Oxygen does not enter this simple C/H/O expression.
+This is the map for the rest of the lecture. IR was introduced on Day 2 with boiling points and hydrogen bonding; here we use it as evidence. The key word is "independent": the formula comes from mass and composition, IR from bond vibrations, NMR from nuclear spins in a magnetic field. If three independent methods agree on one structure, that's far more convincing than any single peak. Don't spend long here; the point is to give students a mental table they'll fill in during the next slides.
 :::
 
-## Apply: start with a constraint, not a guess
+## Reading an IR trace
 
-Calculate (2×4 + 2 − 8)/2.
+![Simulated ester IR spectrum](figures/02-ester-ir.svg){width=78% fig-alt="Simulated transmittance IR trace with a strong sharp dip near 1740 per cm and no broad O-H band"}
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: One degree of unsaturation. Oxygen does not enter this simple C/H/O expression.
+- The y-axis is **transmittance**: a **dip** means light was absorbed.
+- Wavenumber runs **high to low**, left to right, by convention.
+- Strong, sharp dip near **1740 cm⁻¹**: C=O. Nothing broad at 2500–3600: **no O–H**.
+
+::: {.try}
+**Try it:** on an **absorbance** plot, would the C=O band point up or down?
+
+::: {.fragment}
+**Up.** Absorbance is large where transmittance is small, so always read the y-axis label first.
+:::
 :::
 
-## Interpret one degree of unsaturation
-
-![One degree of unsaturation can be a ring or a double bond](figures/11-unsaturation-options.svg){width=85% fig-alt="One degree of unsaturation can be a ring or a double bond"}
-
-Could one degree correspond to a saturated ring instead of C=O?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Yes. A ring or one double bond can account for one degree. Spectra must locate the structural feature.
+Many students have only seen absorbance spectra from UV-vis in general chemistry, where peaks go up. IR is traditionally plotted as transmittance, so everything is upside down. Read the axes aloud: "per cent of light getting through" on the y-axis, wavenumber decreasing to the right. The two zones to look at first are 1650 to 1800 for C=O and 2500 to 3600 for O–H and N–H. The region below 1500 is the fingerprint region; we won't assign it, but the 1240 band here is typical of the ester C–O.
 :::
 
-## Apply: interpret one degree of unsaturation
+## Each functional group has its own band
 
-Can the formula alone establish that the compound is an ester?
+![IR traces of an ester, an acid and an alcohol](figures/sk-ir-groups.svg){width=86% fig-alt="Three simulated IR traces next to their structures: ethyl ethanoate with C=O and no O-H; butanoic acid with a very broad O-H from 2500 to 3300 plus C=O; ethanol with a broad O-H near 3350 and no C=O"}
+
+- **C=O:** 1650–1800 cm⁻¹, strong and sharp
+- **Alcohol O–H:** 3200–3600 cm⁻¹, broad. **Acid O–H:** 2500–3300 cm⁻¹, **very** broad, running into the C–H bands
 
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It constrains possibilities but does not specify functional-group connectivity.
+Hydrogen bonding is why O–H bands are broad: each molecule has a slightly different H-bonding partner, so the vibration is smeared over a range. In carboxylic acids the dimers hold very tight hydrogen bonds, so the band is enormous and overlaps the C–H stretches near 3000. Point at the acid trace and let students see how much of the spectrum it eats. Then the alcohol: broad O–H, no C=O. If you had to choose between ethanol and ethanal from IR alone, the alcohol trace picks ethanol, but it says nothing about how many carbons there are.
 :::
 
-## Read the infrared axes
+## Absence counts, if you looked
 
-![Unknown U1: simulated infrared evidence](figures/12-unknown-ir.svg){width=85% fig-alt="Unknown U1: simulated infrared evidence"}
+![Unknown U1: simulated infrared trace](figures/12-unknown-ir.svg){width=72% fig-alt="Simulated IR of unknown U1: a strong band near 1740 per cm, a band near 1240 and no broad O-H band"}
 
-On this simulated transmittance trace, what does a downward band represent?
+U1 has a strong **C=O** and **no broad O–H** anywhere from 2500 to 3600 cm⁻¹.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A decrease in transmitted light at that wavenumber indicates absorption. The axis decreases left to right by convention.
+::: {.try}
+**Try it:** which C₄H₈O₂ candidates does this challenge, and what would weaken that argument?
+
+::: {.fragment}
+**Butanoic acid** (needs a huge acid O–H) and **3-hydroxybutan-2-one** (needs an O–H). **Dioxane** has no C=O. The argument only holds if that region was measured and the signal wasn't too weak.
+:::
 :::
 
-## Resolve: read the infrared axes
-
-![Unknown U1: simulated infrared evidence](figures/12-unknown-ir.svg){width=85% fig-alt="Unknown U1: simulated infrared evidence"}
-
-A decrease in transmitted light at that wavenumber indicates absorption. The axis decreases left to right by convention.
-
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. Larger absorbance is generally plotted upward; always inspect the ordinate label.
+This is the first real elimination. Students are comfortable with "a peak is there, so the group is there"; using absence is less natural. Absence is good evidence only when the method could have seen the feature: the region must be on the plot, the sample concentrated enough, and nothing else covering it. A C=O band near 1740 fits an ester, but plenty of other carbonyl compounds absorb nearby, so IR alone never names a molecule. Ask: "Is U1 definitely ethyl ethanoate now?" No: methyl propanoate, CH3CH2COOCH3, is another C4H8O2 ester with the same IR story. That's why we need NMR.
 :::
 
-## Apply: read the infrared axes
+## ¹H NMR: one signal per kind of hydrogen
 
-Would an absorbance spectrum use the same direction for stronger absorption?
+![Proton NMR of U1 mapped onto ethyl ethanoate](figures/sk-u1-proton.svg){width=82% fig-alt="Schematic proton NMR of U1 with a quartet at 4.12 ppm for 2H, a singlet at 2.05 ppm for 3H and a triplet at 1.25 ppm for 3H; under each, ethyl ethanoate with that set of hydrogens shaded in the same colour"}
+
+Each signal carries three clues: **where** it is (shift), **how big** it is (integral), and **how many lines** (splitting).
 
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Larger absorbance is generally plotted upward; always inspect the ordinate label.
+This is the whole of U1's proton spectrum, and the rest of the lecture unpacks it. Point at each coloured set of hydrogens: red O–CH2, green acetyl CH3, blue ethyl CH3. Don't explain the shifts or splittings yet; just establish that each colour is one environment and gives one signal. Emphasise the vocabulary: chemical shift δ in ppm, integral, multiplicity (s, d, t, q). Students will see the same three-signal pattern on the next six slides, each time from a different angle.
 :::
 
-## Identify a diagnostic region
+## Equivalent H share a signal
 
-![Simulated ester IR spectrum](figures/02-ester-ir.svg){width=85% fig-alt="Simulated ester IR spectrum"}
+![Counting proton environments](figures/sk-environments.svg){width=80% fig-alt="Ethyl ethanoate with three proton environments a, b and c; butanoic acid with four, a to d; 1,4-dioxane with one environment for all eight H"}
 
-What feature is consistent with a carbonyl, and what feature is absent?
+H atoms are **equivalent** when symmetry or free rotation makes them indistinguishable. The three H of a CH₃ are always equivalent.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A strong carbonyl-region band is present; no broad O–H feature is shown in this teaching trace.
+::: {.try}
+**Try it:** how many ¹H signals does butanoic acid give, and what are their integrals?
+
+::: {.fragment}
+**Four:** CH₃ (3H), CH₂ (2H), CH₂ next to C=O (2H) and O–H (1H). That's 3 + 2 + 2 + 1 = 8 H.
+:::
 :::
 
-## Apply: identify a diagnostic region
-
-Does an exact band near 1740 cm⁻¹ uniquely identify ethyl ethanoate?
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Many related carbonyl compounds absorb in nearby regions; use other observations.
+Fast rotation about C–C single bonds (Week 2, conformations) is why the three methyl hydrogens look identical on the NMR timescale. Dioxane is a nice extreme: eight hydrogens, one signal, because every CH2 is related to every other by symmetry. Have students label the butanoic acid environments themselves before revealing. The usual mistake is to treat the two CH2 groups as one environment; they're different because one sits next to C=O and the other next to CH3.
 :::
 
-## Make the acid candidate predict something
+## Chemical shift: what's next door
 
-![Simulated carboxylic acid IR spectrum](figures/03-acid-ir.svg){width=85% fig-alt="Simulated carboxylic acid IR spectrum"}
+![Typical proton shift ranges](figures/sk-shift-scale.svg){width=86% fig-alt="Shift scale from 12 to 0 ppm with bands for alkyl C-H 0.9 to 1.7, H-C-C=O 2.0 to 2.6, H-C-O 3.3 to 4.3, alkene, aromatic, aldehyde and carboxylic acid; U1's three signals marked at 4.12, 2.05 and 1.25"}
 
-Which broad region would a carboxylic acid often add?
+Electronegative neighbours pull electron density away from H, which moves its signal **downfield** (to the left). U1's three signals land in three zones: **H–C–O** at 4.12, **H–C–C=O** at 2.05 and plain **alkyl** at 1.25.
 
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A broad acid O–H envelope can extend across roughly 2500–3300 cm⁻¹ along with carbonyl absorption.
+The physical picture: electrons around a proton shield it from the magnet. Pull electron density away, with oxygen or a carbonyl, and the proton feels a stronger field and resonates further left. That's all the theory students need. Have them memorise four anchors rather than the whole chart: about 1 ppm for alkyl, about 2 for next to C=O, about 3.5 to 4 for on a carbon bearing O, and above 10 for COOH. Ask the room which ethyl ethanoate CH2 or CH3 should be furthest left, before pointing at the red line: the O–CH2, because it sits on the carbon bonded to oxygen.
 :::
 
-## Resolve: make the acid candidate predict something
+## Integrals count hydrogens
 
-![Simulated carboxylic acid IR spectrum](figures/03-acid-ir.svg){width=85% fig-alt="Simulated carboxylic acid IR spectrum"}
+![Integral curve over the U1 spectrum](figures/sk-integrals.svg){width=80% fig-alt="Schematic U1 spectrum with an integral curve whose steps are 4, 6 and 6 units, reducing to 2 to 3 to 3 and totalling 8 H"}
 
-A broad acid O–H envelope can extend across roughly 2500–3300 cm⁻¹ along with carbonyl absorption.
+The **area** under a signal, not its tallest line, is proportional to the number of H. The integrals give a **ratio**; the formula fixes the total.
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: If the region was unmeasured, the signal too weak or obscured, or experimental conditions differ from the assumed comparison.
+::: {.try}
+**Try it:** the integrator reports 6, 6 and 4. Turn that into H counts for C₄H₈O₂. Is the singlet taller than the triplet because it has more H?
+
+::: {.fragment}
+**Divide by 2: 3 : 3 : 2 = 8 H.** No: both have 3H. The singlet's area sits in one line, while the triplet's is spread over three.
+:::
 :::
 
-## Apply: make the acid candidate predict something
-
-When would absence of a band be weak evidence?
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: If the region was unmeasured, the signal too weak or obscured, or experimental conditions differ from the assumed comparison.
+The integration trace is the staircase drawn over the spectrum; each step's height is the signal's area. Instruments report arbitrary units, so students must reduce to the smallest whole-number ratio and check against the formula. Point out the trap in the figure: the green singlet towers over the blue triplet even though both are 3H. Line heights are never H counts. If the ratio doesn't add up to the formula's H, either an integral is wrong or the candidate is.
 :::
 
-## Compare an alcohol candidate
+## Splitting: count the neighbours' H
 
-![Simulated alcohol IR spectrum](figures/04-alcohol-ir.svg){width=85% fig-alt="Simulated alcohol IR spectrum"}
+![An ethyl group gives a linked quartet and triplet](figures/06-ethyl-coupling.svg){width=72% fig-alt="An ethyl group: the CH3 sees two neighbouring H and gives a triplet integrating to 3H; the CH2 sees three neighbouring H and gives a quartet integrating to 2H"}
 
-What differentiates this alcohol trace from a simple ester trace?
+**n equivalent H on the neighbouring carbon(s) → n + 1 lines.** A **2H quartet** and a **3H triplet** together are the signature of **CH₃–CH₂–**.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The simulated alcohol has broad O–H but lacks a carbonyl band. A candidate should account for both presence and absence.
+::: {.try}
+**Try it:** a CH₃ sits next to a CH carrying one H. What pattern does the CH₃ give?
+
+::: {.fragment}
+**A 3H doublet.** One neighbouring H gives 1 + 1 = 2 lines; the integral is still 3H.
+:::
 :::
 
-## Apply: compare an alcohol candidate
-
-Could one O–H dip alone locate the whole carbon skeleton?
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It suggests a functional group, while connectivity still requires further evidence.
+This is the simple first-order model: equivalent neighbours on adjacent carbons, equal coupling, no long-range coupling. Real spectra can be messier, but this rule explains every signal today. Stress the cross-over: the CH2 is a quartet because of the CH3's three H, and the CH3 is a triplet because of the CH2's two H. Each signal reports the neighbours, not itself. That's why the integral and the line count answer different questions. The quartet's four lines don't mean four H. Spotting the quartet-triplet pair is the single most useful pattern in introductory NMR.
 :::
 
-## Read a complete proton dataset
+## A singlet means nobody's next door
 
-![Simulated proton NMR: unknown U1](figures/05-proton-nmr.svg){width=85% fig-alt="Simulated proton NMR: unknown U1"}
+![Singlet versus doublet methyl](figures/sk-singlet-doublet.svg){width=78% fig-alt="Left: the acetyl CH3 of ethyl ethanoate next to a carbonyl carbon with no H gives a 3H singlet. Right: the CH3 of 3-hydroxybutan-2-one next to a CH with one H gives a 3H doublet"}
 
-How many hydrogens do the supplied integrals sum to?
+The acetyl CH₃ of an ester sits on the **C=O carbon, which has no H**. So it's a **3H singlet near 2 ppm**. A CH₃ on a CH would be a doublet.
 
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: 3 + 3 + 2 = 8 H, agreeing with the supplied molecular formula. Heights are not the integrals.
+This is where the carbonyl earns its keep in NMR: it acts as a barrier with no hydrogens, so groups on either side of it don't split each other. The O–CH2 hydrogens are four bonds away from the acetyl CH3, too far to couple in our model. The doublet panel is a deliberate setup for later: 3-hydroxybutan-2-one has a CH3 on a CH, so it must show a 3H doublet. Keep that prediction in mind when we test that candidate.
 :::
 
-## Resolve: read a complete proton dataset
+## ¹³C NMR: one line per kind of carbon
 
-![Simulated proton NMR: unknown U1](figures/05-proton-nmr.svg){width=85% fig-alt="Simulated proton NMR: unknown U1"}
+![Carbon-13 NMR of U1 assigned to ethyl ethanoate](figures/sk-carbon.svg){width=80% fig-alt="Schematic carbon-13 spectrum with lines at 171, 60, 21 and 14 ppm; ethyl ethanoate drawn with each carbon labelled by its shift"}
 
-3 + 3 + 2 = 8 H, agreeing with the supplied molecular formula. Heights are not the integrals.
+U1 shows **four** carbon signals: C=O at 171, O–CH₂ at 60, and two CH₃ at 21 and 14. Routine ¹³C spectra show **no splitting**, and line heights are **not** carbon counts.
 
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Integral counts relative H area; multiplicity describes the line pattern caused by coupling in the stated simple model.
+The carbon scale is about 20 times wider than the proton one: 0 to 220 ppm. The same logic applies: carbons on oxygen land around 50 to 80, carbonyl carbons above 160, plain alkyl carbons below 40. Routine carbon spectra are decoupled from hydrogen, so every signal is a single line, and intensities depend on relaxation, so you can't integrate them. The carbonyl line is short here, which is typical for a carbon with no attached H. What 13C does give cleanly is the number of carbon environments: four for U1, matching four distinct carbons in ethyl ethanoate.
 :::
 
-## Apply: read a complete proton dataset
+## Symmetry hides carbons
 
-Which two values distinguish integral from multiplicity?
+![Symmetry merges carbon signals](figures/sk-symmetry.svg){width=80% fig-alt="1,4-dioxane has 4 carbons and 1 signal; pentan-3-one has 5 carbons and 3 signals; isopropyl ethanoate has 5 carbons and 4 signals; equivalent carbons share a letter"}
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Integral counts relative H area; multiplicity describes the line pattern caused by coupling in the stated simple model.
+Equivalent carbons share one signal, so **signals ≤ carbons**. Fewer signals than carbons points to symmetry.
+
+::: {.try}
+**Try it:** 3-methylpentane, CH₃CH₂CH(CH₃)CH₂CH₃, has six carbons. How many ¹³C signals?
+
+::: {.fragment}
+**Four:** the two end CH₃, the two CH₂, the CH, and the branch CH₃. A mirror plane through the CH makes the two ethyl arms identical.
+:::
 :::
 
-## Inspect the 2H quartet alone
-
-![Inspect one proton environment in simulated U1](figures/13-single-nmr-environment.svg){width=85% fig-alt="Inspect one proton environment in simulated U1"}
-
-Under the simple n + 1 model, how many equivalent adjacent H give four lines?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Three adjacent equivalent H give a quartet. The supplied integral says this environment contains two H.
+This guards against a common wrong rejection: "the formula has six carbons but the spectrum shows four, so it's impossible." It's possible whenever there's symmetry. Run through the three examples by finding the mirror plane in each. For U1, four signals and four carbons means no symmetry to worry about, which also argues against dioxane (one signal) once more. Symmetry and equivalence come back in Week 2 language: equivalent atoms are related by a symmetry operation of the molecule.
 :::
 
-## Resolve: inspect the 2H quartet alone
+## Putting U1 together
 
-![Inspect one proton environment in simulated U1](figures/13-single-nmr-environment.svg){width=85% fig-alt="Inspect one proton environment in simulated U1"}
+![Every observation assigned to ethyl ethanoate](figures/sk-assignment.svg){width=86% fig-alt="Ethyl ethanoate with callouts: acetyl CH3 at 2.05 s 3H and 21 ppm; C=O at IR 1740 and 171 ppm; O-CH2 at 4.12 q 2H and 60 ppm; ethyl CH3 at 1.25 t 3H and 14 ppm; no broad O-H in IR"}
 
-Three adjacent equivalent H give a quartet. The supplied integral says this environment contains two H.
+Formula and IR give **one C=O, no O–H**. The q/t pair gives **CH₃CH₂–**, and its 4.12 shift puts it **on O**. The 2.05 singlet is **CH₃ on C=O**. Join them: **CH₃C(=O)OCH₂CH₃**, with nothing left over.
 
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: CH₂ next to CH₃, such as O–CH₂–CH₃; the shift supports the oxygen-bound placement.
+This is the deliverable students should be able to produce: every observation assigned to an atom or group, with nothing left over. Build it in order: formula and IR say "one C=O, no OH"; the quartet-triplet pair says "ethyl"; its shift at 4.12 says "on oxygen"; the singlet at 2.05 says "methyl on C=O". Join the fragments: CH3–C(=O)–O–CH2–CH3. Then check it the other way round: does the structure predict anything we didn't see? It doesn't. That two-way check is what separates an assignment from a guess. Methyl propanoate would put a CH3 singlet near 3.7 (on O) and a CH2 quartet near 2.3 (on C=O), the opposite placement, so the shifts reject it.
 :::
 
-## Apply: inspect the 2H quartet alone
+## Test the rival: butanoic acid
 
-Propose a two-carbon fragment consistent with 2H quartet.
+![U1 against the butanoic acid prediction](figures/sk-acid-test.svg){width=82% fig-alt="Observed U1 spectrum above the predicted spectrum of butanoic acid: a broad 1H at 11.5, a triplet 2H at 2.35, a six-line 2H at 1.68 and a triplet 3H at 0.98"}
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: CH₂ next to CH₃, such as O–CH₂–CH₃; the shift supports the oxygen-bound placement.
+A candidate earns its place by **predicting** a spectrum. Butanoic acid predicts four signals; U1 has three.
+
+::: {.try}
+**Try it:** give two observations that reject butanoic acid. Why doesn't U1's CH₃ triplet help?
+
+::: {.fragment}
+No **broad O–H** (IR or ~11.5 ppm), and **no O–CH₂ quartet** or 3H singlet. Both structures end in **CH₃–CH₂–**, so a CH₃ triplet fits both.
+:::
 :::
 
-## Inspect the 3H triplet alone
-
-![Inspect one proton environment in simulated U1](figures/14-single-nmr-environment.svg){width=85% fig-alt="Inspect one proton environment in simulated U1"}
-
-How many neighbouring H explain the three-line pattern?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Two adjacent equivalent H give a triplet; integral 3H suggests a methyl beside CH₂.
+Turn the candidate into a prediction first, then compare, rather than staring at U1 and hoping. Butanoic acid: CH3 triplet near 1, the middle CH2 as a six-line multiplet because it has five neighbouring H, the CH2 next to C=O as a triplet near 2.3, and the acid H as a broad singlet above 10. The good rejection uses observations the two candidates disagree about. The triplet is a nice trap: it's real evidence for an ethyl end, but both candidates have one. Note that the name on a sample bottle is never evidence; the spectra are.
 :::
 
-## Resolve: inspect the 3H triplet alone
+## Test the rival: 3-hydroxybutan-2-one
 
-![Inspect one proton environment in simulated U1](figures/14-single-nmr-environment.svg){width=85% fig-alt="Inspect one proton environment in simulated U1"}
+![U1 against the 3-hydroxybutan-2-one prediction](figures/sk-acetoin-test.svg){width=82% fig-alt="Observed U1 spectrum above the predicted spectrum of 3-hydroxybutan-2-one: a quartet 1H at 4.25, a broad OH near 3.6, a singlet 3H at 2.20 and a doublet 3H at 1.40"}
 
-Two adjacent equivalent H give a triplet; integral 3H suggests a methyl beside CH₂.
+This candidate also has a quartet near 4.2 and a singlet near 2. Read the **integrals** and the **methyl pattern**.
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. The partner shift and other observations place the oxygen; multiplicity alone does not.
+::: {.try}
+**Try it:** which two features of this prediction contradict U1?
+
+::: {.fragment}
+Its quartet is **1H** (a CH on oxygen), not 2H, and its CH₃ is a **doublet**, not a triplet. It also has an O–H that IR didn't see.
+:::
 :::
 
-## Apply: inspect the 3H triplet alone
-
-Does a triplet by itself prove that the adjacent CH₂ is attached to O?
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. The partner shift and other observations place the oxygen; multiplicity alone does not.
+This is the best example of why one clue isn't enough. Looking only at shifts and "is there a quartet?", this hydroxyketone looks tempting. The integral says the quartet is 1H, so the carbon on oxygen is a CH, not a CH2. The methyl doublet follows from the previous slide: one neighbouring H gives two lines. Its OH adds an IR band U1 doesn't have. 3-Hydroxybutan-2-one, also called acetoin, is a real molecule: it's part of the buttery aroma of butter and some wines, made by yeast and bacteria, which is a nice link back to the smells we started with.
 :::
 
-## Join the two observations
+## Making a claim you can defend
 
-![An ethyl group gives a linked quartet and triplet](figures/06-ethyl-coupling.svg){width=85% fig-alt="An ethyl group gives a linked quartet and triplet"}
+| evidence | ethyl ethanoate | butanoic acid | 3-hydroxybutan-2-one | 1,4-dioxane |
+|---|---|---|---|---|
+| C₄H₈O₂ | ✓ | ✓ | ✓ | ✓ |
+| IR: C=O, no O–H | ✓ | ✗ | ✗ | ✗ |
+| ¹H: q 2H · s 3H · t 3H | ✓ | ✗ | ✗ | ✗ |
+| ¹³C: four signals | ✓ | ✓ | ✓ | ✗ |
 
-Why is the quartet/triplet pair more useful than either alone?
+"**U1 is best explained by ethyl ethanoate among the candidates tested**: it accounts for every observation and each rival fails at least one independent test."
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A 2H quartet and 3H triplet jointly fit a CH₂–CH₃ fragment. O attachment is supported by the downfield CH₂ shift.
+::: {.try}
+**Try it:** why not just write "U1 is ethyl ethanoate, proven"?
+
+::: {.fragment}
+**We tested a finite list**, and these spectra are simulated. A real identification also depends on data quality, sample purity and a reference spectrum.
+:::
 :::
 
-## Resolve: join the two observations
-
-![An ethyl group gives a linked quartet and triplet](figures/06-ethyl-coupling.svg){width=85% fig-alt="An ethyl group gives a linked quartet and triplet"}
-
-A 2H quartet and 3H triplet jointly fit a CH₂–CH₃ fragment. O attachment is supported by the downfield CH₂ shift.
-
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. Chemically equivalent H do not split each other in this simple treatment.
+The table is the honest summary: every candidate fits the formula, so the formula alone was never going to decide. Point out that 13C alone doesn't separate the first three either; it's the combination that does. The wording of the conclusion matters and is what we ask for in exercises: say what was compared, what fits, and what remains open. In the R part of today's exercise, students plot the simulated ester and acid IR traces from data/ir.csv; the caption must say they're simulated, which is the same honesty applied to a figure. Tomorrow we use exactly this kind of evidence to decide whether a synthesis worked.
 :::
 
-## Apply: join the two observations
+## Mistakes we see every year
 
-Would equivalent H within the same CH₃ split one another?
+| mistake | fix |
+|---|---|
+| including O in the DBE formula | DBE = (2C + 2 − H)/2; O drops out |
+| "dip = less absorption" on an IR trace | in **transmittance**, a dip **is** absorption |
+| "a quartet means 4 H" | lines count the **neighbours' H**; the integral counts the H |
+| comparing tallest lines as H counts | compare **areas** (integrals) |
+| "6 carbons but 4 signals, so impossible" | symmetry makes carbons **equivalent** |
+| naming a molecule from one IR band | C=O fits many molecules; add NMR and the formula |
+| rejecting with a feature both candidates share | use an observation the candidates **disagree** about |
 
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Chemically equivalent H do not split each other in this simple treatment.
+Read each mistake aloud and ask for the fix before revealing the column. The quartet one is the most persistent, and the last one is the subtlest: using the ethyl triplet to reject butanoic acid feels right but isn't, because the acid has an ethyl end too. Each row maps to a specific exercise, so students who still make a mistake know where to practise.
 :::
 
-## Account for the remaining singlet
+## Summary
 
-![Inspect one proton environment in simulated U1](figures/15-single-nmr-environment.svg){width=85% fig-alt="Inspect one proton environment in simulated U1"}
+| concept | key fact |
+|---|---|
+| DBE | (2C + 2 − H)/2 = rings + π bonds |
+| IR | C=O 1650–1800 sharp; O–H broad; acid O–H very broad |
+| ¹H shift | further left near O or C=O |
+| ¹H integral | area ∝ number of H; formula fixes the total |
+| ¹H splitting | n neighbouring H → n + 1 lines |
+| ¹³C | one line per carbon environment; heights don't count |
+| symmetry | equivalent atoms share a signal |
+| a structure | is a hypothesis: predict, compare, reject rivals |
 
-Where could three H have no adjacent carbon-bound H in an ester?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An acetyl methyl, CH₃–C(=O)–, has no H on the adjacent carbonyl carbon and can give a 3H singlet near 2 ppm.
-:::
-
-## Resolve: account for the remaining singlet
-
-![Inspect one proton environment in simulated U1](figures/15-single-nmr-environment.svg){width=85% fig-alt="Inspect one proton environment in simulated U1"}
-
-An acetyl methyl, CH₃–C(=O)–, has no H on the adjacent carbonyl carbon and can give a 3H singlet near 2 ppm.
-
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: They are not vicinal neighbours of that methyl; small long-range couplings are omitted from this introductory model.
-:::
-
-## Apply: account for the remaining singlet
-
-Why not split this methyl by the distant O–CH₂ hydrogens?
+**Next:** using spectra as evidence in synthesis (Day 22). **Practice:** [exercises](exercise.qmd) · [self-check](quiz.qmd)
 
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: They are not vicinal neighbours of that methyl; small long-range couplings are omitted from this introductory model.
-:::
-
-## Map the singlet onto the structure
-
-![A carbonyl interrupts simple vicinal proton coupling](figures/07-acetyl-singlet.svg){width=85% fig-alt="A carbonyl interrupts simple vicinal proton coupling"}
-
-Which carbon separates acetyl CH₃ from the ester oxygen?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The carbonyl carbon has zero attached H. That local bond arrangement explains the simple singlet expectation.
-:::
-
-## Apply: map the singlet onto the structure
-
-What would an acetyl methyl adjacent to CH instead predict?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: An ordinary CH₃–CH fragment would have vicinal coupling to one H and commonly a doublet in the simple model; that is a different connectivity.
-:::
-
-## Check all hydrogens quantitatively
-
-![Integrals count relative numbers of hydrogens](figures/16-integral-bars.svg){width=85% fig-alt="Integrals count relative numbers of hydrogens"}
-
-Why can the quartet have four lines while representing only 2H?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Coupling divides one environment into lines. Integration adds their total area; line count and H count answer different questions.
-:::
-
-## Resolve: check all hydrogens quantitatively
-
-![Integrals count relative numbers of hydrogens](figures/16-integral-bars.svg){width=85% fig-alt="Integrals count relative numbers of hydrogens"}
-
-Coupling divides one environment into lines. Integration adds their total area; line count and H count answer different questions.
-
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Divide by two to obtain 3:3:2, then match the eight total H in the supplied formula.
-:::
-
-## Apply: check all hydrogens quantitatively
-
-If all integrals were reported as 6:6:4, what ratio would you use?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Divide by two to obtain 3:3:2, then match the eight total H in the supplied formula.
-:::
-
-## Add an independent carbon check
-
-![Simulated carbon NMR: unknown U1](figures/08-carbon-nmr.svg){width=85% fig-alt="Simulated carbon NMR: unknown U1"}
-
-How many distinct carbon environments appear in this simulated decoupled spectrum?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Four signals appear near 14, 21, 60 and 171 ppm, consistent with four distinct carbon environments.
-:::
-
-## Resolve: add an independent carbon check
-
-![Simulated carbon NMR: unknown U1](figures/08-carbon-nmr.svg){width=85% fig-alt="Simulated carbon NMR: unknown U1"}
-
-Four signals appear near 14, 21, 60 and 171 ppm, consistent with four distinct carbon environments.
-
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. Symmetry can make different carbons equivalent; signal counts constrain environments rather than directly counting every atom.
-:::
-
-## Apply: add an independent carbon check
-
-Do four peaks always imply exactly four total carbons?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Symmetry can make different carbons equivalent; signal counts constrain environments rather than directly counting every atom.
-:::
-
-## Assign the four carbon values
-
-![Four carbon environments test the proposed connectivity](figures/17-carbon-environments.svg){width=85% fig-alt="Four carbon environments test the proposed connectivity"}
-
-Which environment fits the far-downfield signal near 171 ppm?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The ester carbonyl. O–CH₂ fits near 60; the two methyl environments fit near 14 and 21 in this example.
-:::
-
-## Resolve: assign the four carbon values
-
-![Four carbon environments test the proposed connectivity](figures/17-carbon-environments.svg){width=85% fig-alt="Four carbon environments test the proposed connectivity"}
-
-The ester carbonyl. O–CH₂ fits near 60; the two methyl environments fit near 14 and 21 in this example.
-
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Routine decoupled-carbon intensities depend on relaxation and measurement effects; they are not normally quantitative atom integrals.
-:::
-
-## Apply: assign the four carbon values
-
-Why should ¹³C line height not be used as a precise carbon count?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Routine decoupled-carbon intensities depend on relaxation and measurement effects; they are not normally quantitative atom integrals.
-:::
-
-## Require a complete assignment
-
-![Attach each spectral clue to the proposed structure](figures/09-assignment-map.svg){width=85% fig-alt="Attach each spectral clue to the proposed structure"}
-
-Can the ester candidate explain every supplied proton and carbon group?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: CH₃COOCH₂CH₃ accounts for acetyl singlet, ethyl quartet/triplet, ester carbonyl and all four carbon environments.
-:::
-
-## Apply: require a complete assignment
-
-What evidence would remain unexplained if you only recognised an ethyl group?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The remaining acetyl methyl, carbonyl connectivity and full formula must still be accounted for.
-:::
-
-## Test butanoic acid against U1
-
-![Butanoic acid predicts a different proton map](figures/18-acid-predictions.svg){width=85% fig-alt="Butanoic acid predicts a different proton map"}
-
-Name two conflicts with the acid candidate rather than only favouring the ester.
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The acid predicts O–H and lacks O–CH₂. It also lacks an isolated acetyl methyl singlet.
-:::
-
-## Resolve: test butanoic acid against U1
-
-![Butanoic acid predicts a different proton map](figures/18-acid-predictions.svg){width=85% fig-alt="Butanoic acid predicts a different proton map"}
-
-The acid predicts O–H and lacks O–CH₂. It also lacks an isolated acetyl methyl singlet.
-
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. Butanoic acid can have a terminal methyl triplet too; independent distinguishing observations are needed.
-:::
-
-## Apply: test butanoic acid against U1
-
-Could the terminal CH₃ triplet alone reject butanoic acid?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Butanoic acid can have a terminal methyl triplet too; independent distinguishing observations are needed.
-:::
-
-## Test another formula-compatible alternative
-
-![A hydroxyketone is another formula-compatible candidate](figures/19-hydroxyketone.svg){width=85% fig-alt="A hydroxyketone is another formula-compatible candidate"}
-
-Does a hydroxyketone automatically fit because it has carbonyl and two O atoms?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: No. This candidate has an OH-bearing CH, not the supplied 2H O–CH₂ quartet, and predicts different methyl coupling.
-:::
-
-## Apply: test another formula-compatible alternative
-
-What would the CH₃ beside its CH commonly show?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: A doublet from one vicinal H in the simple first-order model, not U1’s ethyl triplet.
-:::
-
-## Use contradictions carefully
-
-![Predictions can reject a plausible-looking candidate](figures/10-candidate-test.svg){width=85% fig-alt="Predictions can reject a plausible-looking candidate"}
-
-Why do several independent disagreements strengthen candidate rejection?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A candidate may explain one familiar feature by coincidence. Conflicts across IR and NMR jointly test different structural predictions.
-:::
-
-## Apply: use contradictions carefully
-
-Can a sample filename replace the assignment?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It is a human label that can be mistaken; use the observations and supplied formula.
-:::
-
-## Write a restrained identity claim
-
-![One candidate must account for every supplied observation](figures/20-combined-assignment.svg){width=85% fig-alt="One candidate must account for every supplied observation"}
-
-How strongly should the conclusion be worded for this candidate set?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ethyl ethanoate best fits the supplied simulated observations among the tested candidates. The assignment should list the supporting observations.
-:::
-
-## Apply: write a restrained identity claim
-
-State a limitation without discarding the useful conclusion.
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The dataset is simulated and a finite candidate comparison does not exclude every imaginable alternative; real identification also depends on data quality and context.
-:::
-
-## Integrate one short case
-
-U1 has C₄H₈O₂, carbonyl IR without broad O–H, 3H singlet, 2H quartet and 3H triplet. Assign ethyl ethanoate and reject butanoic acid with two observations.
-
-::: notes
-Suggested 120 seconds; adjust to the explanation and class response. Give time to formulate the claim and compare a partner explanation. Worked answer: Ethyl ethanoate accounts for acetyl CH₃ and O–CH₂–CH₃. Butanoic acid predicts acid O–H and lacks the O–CH₂ quartet/acetyl singlet arrangement.
-:::
-
-## Compare the worked reasoning
-
-Ethyl ethanoate accounts for acetyl CH₃ and O–CH₂–CH₃. Butanoic acid predicts acid O–H and lacks the O–CH₂ quartet/acetyl singlet arrangement.
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Ask students to identify the exact step or observation their own reasoning omitted. This is a correction interval within the session, not a new topic.
-:::
-
-## Exit explanation
-
-What distinguishes a convincing assignment from a familiar-looking pattern?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Worked answer: Every supplied observation is linked to a structural prediction and a plausible alternative is explicitly tested. Ask for a causal explanation, not a single vocabulary label.
-:::
-
-## Continue with independent practice
-
-Use the [exercises](exercise.qmd), then the [self-check](quiz.qmd).
-
-All required inputs and explanations are provided locally. The [reading guide](../reference/reading.qmd) offers optional textbook support.
-
-::: notes
-Suggested 20 seconds; adjust to the explanation and class response. Preview the local exercise route. No book purchase or external problem set is needed to complete it. Leave time to note one corrected misconception.
+Recite the workflow once: formula and DBE, IR for groups, 1H for fragments (shift, integral, splitting), 13C for the carbon count, then build a candidate and test it against its rivals. Close the loop with the opening: the pear-drop bottle is ethyl ethanoate and the rancid-butter bottle is butanoic acid, and the spectra tell them apart on at least three independent counts. The exercises walk through U1 again step by step; the core problems 1 to 10 are required.
 :::
