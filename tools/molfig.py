@@ -23,15 +23,22 @@ HIGHLIGHT = '#cfe3ec'
 ELEMENT_COLOURS = {6: INK, 1: INK, 8: RED, 7: BLUE, 16: '#8a6d00', 17: GREEN, 35: '#7a3b2e'}
 
 def molecule_svg(smiles, numbers=None, highlight_atoms=(), highlight_bonds=None,
-                 bond_px=60, font_px=28, rotate=0, flip=False, explicit_h=False):
+                 bond_px=60, font_px=28, rotate=0, flip=False, explicit_h=False, keep_h=False):
     """Draw one molecule.
 
     numbers: {atom_index: label} drawn next to atoms (e.g. chain locants).
     highlight_atoms: atom indices to shade; bonds between two highlighted atoms
     are shaded too unless highlight_bonds is given explicitly.
     rotate: degrees, to orient the drawing; flip mirrors left-right.
+    keep_h: keep hydrogens written explicitly in the SMILES, e.g. '[H]O[H]' or a
+    transferring proton; explicit_h adds every hydrogen instead.
+    bond_px is RDKit's pixels per angstrom, so drawn bonds are about 1.5 x bond_px.
     """
-    mol = Chem.MolFromSmiles(smiles)
+    if keep_h:
+        params = Chem.SmilesParserParams(); params.removeHs = False
+        mol = Chem.MolFromSmiles(smiles, params)
+    else:
+        mol = Chem.MolFromSmiles(smiles)
     if mol is None:
         raise ValueError(f'Invalid SMILES: {smiles}')
     if explicit_h:

@@ -267,7 +267,7 @@ Students expect "acid + amine → amide + water" because that's the net equation
 ![Acetylcholine and a dipeptide](figures/sk-bio-links.svg){width=80% fig-alt="Acetylcholine with its ester group shaded and the dipeptide glycylalanine with its amide (peptide) link shaded"}
 
 - **Esters are built to be cut:** acetylcholinesterase splits >10⁴ per second. Fats are glycerol esters.
-- **Amides are built to last:** a peptide bond survives years in water without a protease.
+- **Amides are built to last:** a peptide bond survives for centuries in neutral water without a protease.
 - The **ribosome** makes amides from **esters** (aminoacyl-tRNA): downhill.
 
 ::: notes
