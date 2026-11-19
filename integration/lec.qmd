@@ -1,8 +1,7 @@
 ---
 title: Putting the chemistry together
-subtitle: Week 5 · 45-minute teaching session
-session-minutes: 45
-pacing-seconds-per-slide: 40
+subtitle: Week 5 · Day 23 — one small molecule, every tool in the course
+author: Organic Chemistry 1
 format:
   revealjs:
     theme:
@@ -12,529 +11,402 @@ format:
     width: 1280
     height: 720
     transition: none
+    history: false
     incremental: false
     menu: true
     html-math-method: katex
 ---
 
-## A chemical route through this session
+## About this lecture
 
-Transfer familiar reasoning to lactic acid, an amino acid and an unknown spectrum. No metabolic pathway knowledge is needed; read the local atoms and bonds.
+After a hard sprint your blood lactate can jump from about 1 to over 10 mmol/L. People call it "lactic acid", but at blood pH almost none of it is the acid. The same three-carbon molecule makes yoghurt sour and is polymerised into compostable PLA cups. **One small molecule, and every week of this course has something to say about it.**
+
+Today we read one molecule with every tool:
+
+- **Structure and stereo:** groups, CIP priorities, R/S, enantiomers
+- **Acids and charge:** proton transfer, atom audits, pKa and ionised fraction
+- **Reactions:** oxidation, esterification, addition versus substitution
+- **Evidence:** spectra, alternatives, yield and honest conclusions
+
+Yesterday was about yield and evidence; today we use it alongside everything else.
 
 ::: notes
-45-minute budget: retrieval 3 min; lactic-acid stereochemistry and charge 10 min; redox/ester mechanisms with drawing checks 10 min; amino-acid charge transfer 5 min; integrated spectral assignment 8 min; experimental-claim critique 7 min; exit check 2 min. Total 45 min, including drawing and discussion.
-
-Suggested 30 seconds; adjust to the explanation and class response. Plan 45 minutes including short drawing and discussion intervals. Routine visual frames take roughly 40 seconds; worked checks need longer and some resolutions can be quicker. Treat timings as guidance, with room for questions.
+Open with the sprint. Ask who has heard that "lactic acid" makes your legs burn, then promise that by slide eight we'll show with one pKa that the blood is full of lactate, not lactic acid. Mention the yoghurt and the PLA cup to show this isn't just a biochemistry molecule; the PLA link comes back on the esterification slide. Make clear that no metabolic pathways are needed: everything today is read from the atoms and bonds, using tools from Weeks 1 to 5. This is also a good model of how exam questions combine topics: one molecule, several questions in a row.
 :::
 
-## Retrieve the starting idea
+## Read the molecule locally first
 
-List the checks you can make on any proposed elementary step.
+![Lactic acid with its stereocentre and functional groups](figures/sk-lactic-features.svg){width=80% fig-alt="Skeletal structure of lactic acid with the stereocentre shaded and starred, labelled secondary alcohol, carboxylic acid and stereocentre bearing OH, COOH, CH3 and H"}
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Give students a short individual attempt. Worked answer: Track electron pairs, count bond orders and hydrogens, conserve atoms and net charge, and inspect the plausible source and acceptor.
+Before thinking about reactions, name what's there: a **secondary alcohol**, a **carboxylic acid**, and one **stereocentre** carrying OH, COOH, CH₃ and H.
+
+::: {.try}
+**Try it:** why is the alcohol *secondary*?
+
+::: {.fragment}
+**Answer.** The OH-bearing carbon has two carbon neighbours (CH₃ and COOH) and one H.
+:::
 :::
 
-## Read an unfamiliar-looking molecule locally
-
-![Lactic acid combines several familiar chemical features](figures/01-lactic-features.svg){width=85% fig-alt="Lactic acid combines several familiar chemical features"}
-
-Which functional groups can you recognise without knowing a metabolic pathway?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Lactic acid has a secondary alcohol and carboxylic acid; its alcohol-bearing carbon has four different substituents.
+This is the first move on any unfamiliar molecule, and it's the habit from Day 1: look at the neighbours of each heteroatom. Point at the two OH groups and ask which one is an acid. Only the OH on the carbonyl carbon is a carboxylic acid; the other is an alcohol. Students sometimes call the C=O carbon the stereocentre; it's trigonal planar with three neighbours, so it can't be. The stereocentre is the CH(OH) carbon with four different groups. Formula C3H6O3, molar mass 90.08 g/mol: worth checking the H count, since the central carbon has only one H.
 :::
 
-## Apply: read an unfamiliar-looking molecule locally
+## Rank the branches at the stereocentre
 
-Why is the alcohol secondary?
+![CIP priorities at the lactic acid stereocentre](figures/sk-lactic-cip.svg){width=82% fig-alt="(S)-lactic acid with priorities 1 OH, 2 COOH, 3 CH3, 4 H; COOH carbon compares as O,O,O and CH3 as H,H,H"}
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The OH-bearing carbon is attached to two other carbons and one H.
+O beats C beats H. The two carbons tie, so compare the **next atoms**: the C=O counts its O twice, so COOH is **(O, O, O)** against CH₃'s **(H, H, H)**.
+
+::: {.try}
+**Try it:** give the full priority order at this centre.
+
+::: {.fragment}
+**Answer.** OH > COOH > CH₃ > H: oxygen first, then the two ranked carbons, then H.
+:::
 :::
 
-## Rank the carbon branches
-
-![Rank the two carbon branches at lactic acid stereocentre](figures/11-priority-branches.svg){width=85% fig-alt="Rank the two carbon branches at lactic acid stereocentre"}
-
-Why does COOH outrank CH₃ in CIP comparison?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: After the first carbon tie, compare attached atoms: O,O,O outranks H,H,H using multiple-bond bookkeeping.
+This is the Week 2 CIP procedure applied to a real case. Stress the duplication rule: a double bond to O counts as two O substituents for comparison, which together with the OH gives O,O,O. The mistake to probe is ranking by group size or by "how big it looks" on the page. COOH wins because of what its first carbon is attached to, not because it's drawn bigger. Ask a student to justify why the comparison stops at the first point of difference.
 :::
 
-## Resolve: rank the carbon branches
+## Assign R or S with H pointing away
 
-![Rank the two carbon branches at lactic acid stereocentre](figures/11-priority-branches.svg){width=85% fig-alt="Rank the two carbon branches at lactic acid stereocentre"}
+![Tracing 1 to 2 to 3 with H away and with H toward you](figures/sk-lactic-rs.svg){width=74% fig-alt="Left: (S)-lactic acid with H hashed away and an anticlockwise arrow from priority 1 to 3, giving S. Right: (R)-lactic acid in the same orientation with H on a wedge; the path looks anticlockwise, so the answer is reversed to R"}
 
-After the first carbon tie, compare attached atoms: O,O,O outranks H,H,H using multiple-bond bookkeeping.
+With H (4) hashed away, trace **1 → 2 → 3**: clockwise is **R**, anticlockwise is **S**. On the left OH → COOH → CH₃ runs anticlockwise: **(S)-lactic acid**, the one your muscles make. With H on a wedge, **reverse** what you see.
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: OH > COOH > CH₃ > H: O first, then the two ranked carbon branches, then H.
+::: {.try}
+**Try it:** in another drawing, H points *toward* you and 1 → 2 → 3 looks clockwise. What is the configuration?
+
+::: {.fragment}
+**Answer.** S. With H toward you, reverse the apparent result (or rotate a model until H points away).
+:::
 :::
 
-## Apply: rank the carbon branches
-
-Give the complete priority order at lactic acid’s centre.
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: OH > COOH > CH₃ > H: O first, then the two ranked carbon branches, then H.
+Trace the path with your finger on the screen: left (OH), right (COOH), up (CH3). That sweep goes anticlockwise, and since H is on the hashed bond, the answer stands: S. Then do exercise 3's version orally: OH upper left, COOH upper right, CH3 lower left, H away gives clockwise, so R. The most common exam error is forgetting to reverse when H is on a wedge. Remind them that turning the page or rotating the drawing never changes the answer; only swapping two groups does.
 :::
 
-## Orient the lowest priority away
+## Mirror images, not rotations
 
-![A low-priority H directed away makes the viewing rule usable](figures/12-stereo-view.svg){width=85% fig-alt="A low-priority H directed away makes the viewing rule usable"}
+![(S)- and (R)-lactic acid drawn as mirror images](figures/sk-lactic-enantiomers.svg){width=78% fig-alt="(S)-lactic acid and (R)-lactic acid as mirror images across a dashed line; S is made by muscle and rotates light plus, R by some bacteria and rotates light minus"}
 
-With H dashed away, which path gives R or S?
+Same connectivity, opposite arrangement: **enantiomers**. No rotation turns one into the other. R/S is a naming rule; the **sign of optical rotation** has to be measured.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Read 1→2→3: clockwise is R, anticlockwise is S. In this supplied view it is clockwise, so R.
+::: {.try}
+**Try it:** does rotating the whole drawing 180° on the page give the other enantiomer?
+
+::: {.fragment}
+**Answer.** No. A rigid rotation keeps the configuration. Only swapping two groups at the centre (or reflecting) does.
+:::
 :::
 
-## Resolve: orient the lowest priority away
-
-![A low-priority H directed away makes the viewing rule usable](figures/12-stereo-view.svg){width=85% fig-alt="A low-priority H directed away makes the viewing rule usable"}
-
-Read 1→2→3: clockwise is R, anticlockwise is S. In this supplied view it is clockwise, so R.
-
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Reverse the apparent clockwise/anticlockwise assignment, or reorient a model until the lowest priority points away.
+(S)-lactic acid happens to be dextrorotatory, (+), but there is no rule linking S to plus. In fact its salts, the lactates, rotate the other way, which is a nice demonstration that the sign is a measured property. Biology cares about the difference: lactate dehydrogenase in muscle handles the S form, and some bacteria make the R form, which is why D-lactate is a clinical marker of certain gut infections. Connect back to Week 2: enantiomers share boiling point, IR and NMR in ordinary solvents, so these tools can't tell them apart.
 :::
 
-## Apply: orient the lowest priority away
+## The simplest reaction: a proton transfer
 
-If H instead points toward you, how is the apparent result corrected?
+![Hydroxide removes the carboxyl proton of lactic acid](figures/sk-deprotonation.svg){width=82% fig-alt="Curved arrows: hydroxide lone pair to the carboxyl H, O-H bond pair onto oxygen, giving lactate and water"}
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Reverse the apparent clockwise/anticlockwise assignment, or reorient a model until the lowest priority points away.
+One arrow from the **base's lone pair to H**, one from the **O–H bond onto O**. The carboxyl O–H is the acidic one; the alcohol O–H is far less acidic.
+
+::: {.try}
+**Try it:** does this step invert the stereocentre?
+
+::: {.fragment}
+**Answer.** No. Only the carboxyl O–H bond changes. No bond to the stereocentre is made or broken.
+:::
 :::
 
-## Compare configurations without changing connectivity
-
-![Keep connectivity fixed when identifying stereoisomers](figures/02-lactic-mirrors.svg){width=85% fig-alt="Keep connectivity fixed when identifying stereoisomers"}
-
-Can the mirror-related pair be superimposed by rigid rotation?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: No. They are enantiomeric configurations with identical connectivity and opposite tetrahedral arrangement.
+Two arrows, both starting from electrons: this is the Day 8 rule. Ask students where each arrow starts and refuse an arrow that starts at the H. The carboxylic acid is the acidic site because its conjugate base is resonance-stabilised over two oxygens, which is the Day 3 argument; the alcohol has a pKa around 16, so hydroxide in water doesn't remove it meaningfully. The stereocentre question is there because students sometimes assume any reaction "scrambles" stereo. A step can only change a configuration if it changes bonds at that carbon.
 :::
 
-## Apply: compare configurations without changing connectivity
+## Audit every atom and the charge
 
-Does changing the drawing orientation alone create the other enantiomer?
+| | lactic acid + OH⁻ | | lactate + H₂O |
+|---|---|---|---|
+| species | C₃H₆O₃ + HO⁻ | → | C₃H₅O₃⁻ + H₂O |
+| C, H, O total | **C₃H₇O₄** | | **C₃H₇O₄** |
+| net charge | **−1** | | **−1** |
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. Rigid rotation preserves configuration; changing wedge/dash geometry at the centre can alter it.
+The H isn't lost; it moves to hydroxide. The bonding pair of the old O–H stays on oxygen, which is why that O now carries the −1.
+
+::: {.try}
+**Try it:** what goes wrong if you write the products as just lactate?
+
+::: {.fragment}
+**Answer.** You lose H₂O from the inventory: two H, one O. The equation no longer balances, and the proton's new home is hidden.
+:::
 :::
 
-## Predict the simplest acid–base change
-
-![Acid–base change preserves the carbon skeleton](figures/03-lactic-ionisation.svg){width=85% fig-alt="Acid–base change preserves the carbon skeleton"}
-
-Which H is removed in the stated hydroxide deprotonation?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The carboxyl proton moves to hydroxide, giving lactate and water. The alcohol-bearing centre is not inverted by that step.
+This is the valence audit from Day 1 applied to a whole equation. Have students count with you: left side 3 C, 6 + 1 = 7 H, 3 + 1 = 4 O; right side 3 C, 5 + 2 = 7 H, 3 + 1 = 4 O. Charge −1 on both sides. The point is that arrows track electrons, but they don't give permission to delete atoms. The audit is the fastest way to catch a dropped product in an exam answer.
 :::
 
-## Resolve: predict the simplest acid–base change
+## At blood pH it's lactate, not lactic acid
 
-![Acid–base change preserves the carbon skeleton](figures/03-lactic-ionisation.svg){width=85% fig-alt="Acid–base change preserves the carbon skeleton"}
+![Fraction of lactate against pH for pKa 3.86](figures/13-lactate-curve.svg){width=62% fig-alt="Sigmoid curve of fraction lactate against pH from 0 to 8, crossing one half at pH 3.86"}
 
-The carboxyl proton moves to hydroxide, giving lactate and water. The alcohol-bearing centre is not inverted by that step.
+$$f_{\text{A}^-} = \frac{1}{1 + 10^{\,\text{p}K_a - \text{pH}}} \qquad \text{p}K_a = 3.86$$
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: CH₃CH(OH)COO⁻, charge −1, plus neutral water.
+::: {.try}
+**Try it:** what fraction is lactate at pH 4.86? And at blood pH 7.4?
+
+::: {.fragment}
+**Answer.** At 4.86 the ratio A⁻/HA is 10, so 10/11 ≈ 0.91. At 7.4 it's about 3500 : 1, so over 99.9 % lactate.
+:::
 :::
 
-## Apply: predict the simplest acid–base change
-
-Write the product formula and net charge.
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: CH₃CH(OH)COO⁻, charge −1, plus neutral water.
+This answers the opening hook. At pH equal to pKa the fraction is exactly one half; every pH unit above multiplies the A-minus to HA ratio by ten. At 7.4 that's 10 to the 3.54, about 3500. So "lactic acid in the blood" is really lactate, and the acidification during exercise is a more complicated story than the name suggests. Probe the population meaning: 0.91 means 91 % of molecules are ionised at any moment, not that each molecule has lost 91 % of a proton. Week 1 Day 3 introduced this curve; the dilute monoprotic model is what we assume.
 :::
 
-## Audit atoms and net charge
+## Oxidation turns the stereocentre into a ketone
 
-![Audit a proton-transfer reaction atom by atom](figures/14-lactate-audit.svg){width=85% fig-alt="Audit a proton-transfer reaction atom by atom"}
+![Lactic acid oxidised to pyruvic acid](figures/sk-pyruvate.svg){width=80% fig-alt="Lactic acid oxidised to pyruvic acid, losing two H; C2 goes from tetrahedral stereocentre to trigonal planar ketone"}
 
-What inventory should agree before and after the proton transfer?
+The secondary alcohol becomes a **ketone**: **pyruvic acid**, CH₃C(=O)COOH. In your cells lactate dehydrogenase does this with NAD⁺.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Both sides have C₃H₇O₄ and total charge −1. The H changes location; it is not deleted.
+::: {.try}
+**Try it:** does pyruvic acid still have an R/S centre?
+
+::: {.fragment}
+**Answer.** No. C2 is now trigonal planar with three groups, so there's no stereocentre left to label.
+:::
 :::
 
-## Resolve: audit atoms and net charge
-
-![Audit a proton-transfer reaction atom by atom](figures/14-lactate-audit.svg){width=85% fig-alt="Audit a proton-transfer reaction atom by atom"}
-
-Both sides have C₃H₇O₄ and total charge −1. The H changes location; it is not deleted.
-
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: It stays on the carboxyl oxygen when the H leaves as H⁺ transfer to the base.
+Week 3 redox: a secondary alcohol oxidises to a ketone and stops there, because there's no H left on the carbonyl carbon to remove. The formula changes from C3H6O3 to C3H4O3, a loss of two H, which is the classic signature of oxidation. Muscles run this reaction in both directions: pyruvate is reduced to lactate when oxygen is short, and lactate is oxidised back in the heart and liver. Emphasise geometry: the stereochemical information is destroyed, and reducing pyruvate back could in principle give either enantiomer. The enzyme is what makes it give only S.
 :::
 
-## Apply: audit atoms and net charge
+## Count the oxidation state at the changing carbon
 
-Where does the original acid O–H bonding pair go?
+| bond at C2 | contributes | lactic acid C2 | pyruvic acid C2 |
+|---|---|---|---|
+| C–O (per bond order) | +1 | C–OH: **+1** | C=O: **+2** |
+| C–H | −1 | **−1** | none: **0** |
+| C–C | 0 | 0 | 0 |
+| **total** | | **0** | **+2** |
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It stays on the carboxyl oxygen when the H leaves as H⁺ transfer to the base.
+The carbon goes from 0 to +2: an **oxidation**, even though no O atom was added.
+
+::: {.try}
+**Try it:** why does a C–C bond count zero?
+
+::: {.fragment}
+**Answer.** The two atoms have the same electronegativity, so neither one is assigned the bonding electrons.
+:::
 :::
 
-## Transfer the aqueous ionisation model
-
-![A supplied lactic-acid model predicts its ionised fraction](figures/13-lactate-curve.svg){width=85% fig-alt="A supplied lactic-acid model predicts its ionised fraction"}
-
-At pH equal to supplied pKa 3.86, what fraction is lactate?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: For a dilute monoprotic model, 1/(1+10^(pKa−pH)) = 0.5 at equal pH and pKa.
+This is the bookkeeping from Day 13. The bond to O counts per bond order, so a C=O counts plus two. The take-home message is that oxidation is about electrons at the carbon, not about counting oxygen atoms in the formula; lactic and pyruvic acid have the same three oxygens. Ask the room what happens to the carboxyl carbon (nothing: plus three in both). The counting rule only works for the carbon that changes, which is why we focus on C2.
 :::
 
-## Resolve: transfer the aqueous ionisation model
+## Esterification: track the alcohol oxygen
 
-![A supplied lactic-acid model predicts its ionised fraction](figures/13-lactate-curve.svg){width=85% fig-alt="A supplied lactic-acid model predicts its ionised fraction"}
+![Lactic acid and ethanol give ethyl lactate, with the ethanol oxygen labelled O-star](figures/sk-ester-label.svg){width=84% fig-alt="Lactic acid plus ethanol with H+ and heat gives ethyl lactate plus water; the labelled ethanol oxygen O* ends up between the acyl carbon and the ethyl group"}
 
-For a dilute monoprotic model, 1/(1+10^(pKa−pH)) = 0.5 at equal pH and pKa.
+Fischer esterification is an **acyl substitution**: ethanol's O* attacks the carbonyl carbon, and the acid's OH leaves as water. Ethyl lactate is a biodegradable solvent.
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: 10/(1+10) ≈ 0.909, or 90.9%, not 100% and not each molecule partly deprotonated.
+::: {.try}
+**Try it:** which two atoms is O* bonded to in the product?
+
+::: {.fragment}
+**Answer.** The acid-derived carbonyl carbon and the ethyl CH₂. The water's O comes from the acid.
+:::
 :::
 
-## Apply: transfer the aqueous ionisation model
-
-At pH 4.86, calculate the approximate fraction.
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: 10/(1+10) ≈ 0.909, or 90.9%, not 100% and not each molecule partly deprotonated.
+Isotope labelling with oxygen-18 is the classic experiment that proved this: the label from the alcohol ends up in the ester, not in the water. That only makes sense if the alcohol is the nucleophile attacking the acyl carbon (Week 4). The bonds at the stereocentre aren't touched, so (S)-lactic acid gives (S)-ethyl lactate. Now the limitation: lactic acid has its own OH, so one molecule's OH can esterify another's COOH. That's exactly how lactide and PLA plastic are made. A target drawing doesn't guarantee selectivity; the conditions do.
 :::
 
-## Predict a functional-group transformation
+## Addition or substitution? Look for a leaving group
 
-![Oxidation changes the alcohol carbon into a carbonyl carbon](figures/04-lactic-redox.svg){width=85% fig-alt="Oxidation changes the alcohol carbon into a carbonyl carbon"}
+![Aldehyde plus cyanide stays tetrahedral; ester plus hydroxide expels methoxide and reforms C=O](figures/sk-add-vs-sub.svg){width=80% fig-alt="Top row: ethanal adds cyanide to give an alkoxide then a cyanohydrin. Bottom row: methyl acetate adds hydroxide to give a tetrahedral intermediate that loses methoxide to reform C=O"}
 
-What product results from oxidising the secondary alcohol to a ketone?
+Both start the same way: **Nu adds, the C=O π pair moves onto O**. An ester carries an OR that can leave, so C=O comes back. An aldehyde has only H or C there.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: CH₃C(=O)COOH, pyruvic acid. The former alcohol carbon is now trigonal planar.
+::: {.try}
+**Try it:** what's the first elementary step both pathways share?
+
+::: {.fragment}
+**Answer.** Nucleophilic attack at the carbonyl carbon, giving a tetrahedral alkoxide.
+:::
 :::
 
-## Resolve: predict a functional-group transformation
-
-![Oxidation changes the alcohol carbon into a carbonyl carbon](figures/04-lactic-redox.svg){width=85% fig-alt="Oxidation changes the alcohol carbon into a carbonyl carbon"}
-
-CH₃C(=O)COOH, pyruvic acid. The former alcohol carbon is now trigonal planar.
-
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. It is not a tetrahedral carbon with four different substituents, so that centre no longer qualifies for R/S.
+This is the Day 16 versus Day 17 decision in one picture. The question students should ask is: after the tetrahedral intermediate forms, is there a group that can leave and take a bonding pair with it? Methoxide can; hydride and methyl can't, so aldehydes and ketones stop at addition. In base, the acetic acid at the end is immediately deprotonated to acetate, which is why ester hydrolysis in base (saponification) goes to completion. Probe the valence: keeping C=O and adding Nu at the same time would give a five-bonded carbon.
 :::
 
-## Apply: predict a functional-group transformation
+## Amino acids carry two charges at pH 7
 
-Does the ketone carbon retain the original R/S stereocentre?
+![L-alanine as a zwitterion with ammonium and carboxylate shaded](figures/sk-alanine.svg){width=78% fig-alt="L-alanine zwitterion: N with four bonds is +1, O with one bond and three lone pairs is -1, net charge 0"}
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It is not a tetrahedral carbon with four different substituents, so that centre no longer qualifies for R/S.
+Read the charges from the **normal-state table** (Day 1). The net charge is zero, but the molecule still has a + and a − end.
+
+::: {.try}
+**Try it:** net zero, so does alanine behave like a hydrocarbon in water?
+
+::: {.fragment}
+**Answer.** No. Both charged sites interact strongly with water, which is why amino acids are high-melting and water-soluble.
+:::
 :::
 
-## Check oxidation without counting oxygen atoms only
-
-![The alcohol carbon oxidation state changes from zero to plus two](figures/15-lactate-redox-count.svg){width=85% fig-alt="The alcohol carbon oxidation state changes from zero to plus two"}
-
-How does the changing carbon’s oxidation state change?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Lactic centre: +1 for C–O and −1 for C–H gives 0. Ketone carbon: C=O gives +2.
+Alanine is lactic acid's nitrogen cousin: swap the OH for NH3+. Ask the room to point at the exact charged atoms, not just "the molecule is charged". At pH 7 the carboxylic acid (pKa about 2) has lost its proton and the amine (conjugate acid pKa about 10) has gained one, so both ends are charged. L-alanine is S, just like L-lactic acid, which is a nice coincidence of the CIP rules here (it isn't true for every L amino acid; cysteine is R).
 :::
 
-## Resolve: check oxidation without counting oxygen atoms only
+## Change the pH, keep the skeleton
 
-![The alcohol carbon oxidation state changes from zero to plus two](figures/15-lactate-redox-count.svg){width=85% fig-alt="The alcohol carbon oxidation state changes from zero to plus two"}
+![At high pH the ammonium group of alanine loses a proton to hydroxide](figures/sk-alanine-ph.svg){width=80% fig-alt="Alanine zwitterion with explicit N-H bonds reacts with hydroxide to give the anion with a neutral NH2 group; net charge goes from 0 to -1"}
 
-Lactic centre: +1 for C–O and −1 for C–H gives 0. Ketone carbon: C=O gives +2.
+Hydroxide removes an **N–H proton**. The bonding pair goes back to N, which ends with three bonds and a lone pair. No C–C bond is touched.
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: The bonded atoms are the same element, so the bonding electrons are divided equally in oxidation-state assignment.
+::: {.try}
+**Try it:** is the N in a peptide bond (an amide) basic like this ammonium N?
+
+::: {.fragment}
+**Answer.** No. The amide N's lone pair is delocalised into the C=O, so it's barely basic (Week 4).
+:::
 :::
 
-## Apply: check oxidation without counting oxygen atoms only
-
-Why does each C–C bond contribute zero in this count?
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: The bonded atoms are the same element, so the bonding electrons are divided equally in oxidation-state assignment.
+Same move as the lactic acid deprotonation, at a different site. Check the charge audit: zwitterion plus hydroxide has net −1, anion plus water has net −1. Product formula H2NCH(CH3)COO−, C3H6NO2−. The peptide question links to Day 18: an amide N is planar and its lone pair is part of the amide resonance, which is why proteins don't pick up a proton on every backbone nitrogen.
 :::
 
-## Choose the target site before a mechanism
+## Identify an unknown: make the evidence agree
 
-![Esterification replaces the acidic OH as a net transformation](figures/05-lactic-ester.svg){width=85% fig-alt="Esterification replaces the acidic OH as a net transformation"}
+![Ethyl acetate with protons a, b and c matched to its NMR spectrum](figures/sk-u1-ester.svg){width=84% fig-alt="Ethyl acetate with acetyl CH3 a, OCH2 b and ethyl CH3 c, and a stick spectrum: 4.12 quartet 2H, 2.05 singlet 3H, 1.25 triplet 3H"}
 
-Which group changes in the selected ethyl-lactate target?
+**U1:** C₄H₈O₂, IR C=O but no broad O–H, ¹H NMR 4.12 q 2H, 2.05 s 3H, 1.25 t 3H. The quartet and triplet are an **ethyl on O**; the singlet is a **CH₃ next to C=O**.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: The carboxylic acid becomes COOEt; the secondary alcohol remains in the drawn target.
+::: {.try}
+**Try it:** what does the molecular formula add to this argument?
+
+::: {.fragment}
+**Answer.** DBE = 1, so one C=O and no ring. It also sets the atom budget: every C, H and O must be placed.
+:::
 :::
 
-## Apply: choose the target site before a mechanism
-
-Does this target drawing guarantee no competing reactions under all conditions?
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It specifies the desired transformation; conditions and selectivity must be assessed for the actual experiment.
+This is the Week 5 spectroscopy workflow from Day 21. Build the structure piece by piece: the quartet (2H) and triplet (3H) couple to each other, so they're an ethyl group, and the 4.12 shift puts the CH2 on oxygen. The singlet at 2.05 has no neighbouring H, consistent with sitting next to the carbonyl. The IR rules out acids and alcohols. The formula is the referee: C4H8O2 with one degree of unsaturation is accounted for by the ester C=O. Ethyl acetate is also nail-polish remover, which helps it stick.
 :::
 
-## Track an atom through a mechanism
+## Test the alternative before you claim
 
-![The alcohol oxygen becomes the ester single-bond oxygen](figures/16-ester-oxygen-tracking.svg){width=85% fig-alt="The alcohol oxygen becomes the ester single-bond oxygen"}
+![Ethyl acetate and 3-hydroxybutan-2-one with their predicted NMR and IR features](figures/sk-alternative.svg){width=80% fig-alt="Ethyl acetate predicts an OCH2 2H quartet, a CH3 triplet and no OH, all matching; 3-hydroxybutan-2-one predicts an OCH 1H quartet, a CH3 doublet and a broad OH, all disagreeing"}
 
-Where does the labelled alcohol oxygen appear in standard esterification?
+**3-hydroxybutan-2-one** is also C₄H₈O₂ with a C=O. A good claim says why it *doesn't* fit: wrong integrals, wrong splitting and an O–H that isn't there.
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: It becomes the ester single-bond oxygen linking acyl carbon to ethyl. The mechanism, not a filename, tracks the atom.
+::: {.try}
+**Try it:** would a matching C=O band rescue the hydroxyketone?
+
+::: {.fragment}
+**Answer.** No. One shared feature can't outweigh three predictions that disagree with the data.
+:::
 :::
 
-## Resolve: track an atom through a mechanism
-
-![The alcohol oxygen becomes the ester single-bond oxygen](figures/16-ester-oxygen-tracking.svg){width=85% fig-alt="The alcohol oxygen becomes the ester single-bond oxygen"}
-
-It becomes the ester single-bond oxygen linking acyl carbon to ethyl. The mechanism, not a filename, tracks the atom.
-
 ::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Not in this selected net transformation; the CH(OH) centre retains its tetrahedral arrangement if no separate racemising process occurs.
+Real problem-solving means generating an alternative and testing it, not just confirming the first idea. The hydroxyketone's CH3 next to CH would be a doublet; its O-bearing carbon is a CH, so 1H, not 2H; and it has an OH that the IR would show. Say it plainly: we don't use the name of the bottle or the expected product as evidence. Ask students to name one more C4H8O2 candidate (methyl propanoate, for instance) and say which signal would rule it out.
 :::
 
-## Apply: track an atom through a mechanism
+## A high yield doesn't prove identity
 
-Does esterification at the acid site require breaking a bond at the original stereocentre?
+![Isolated mass against theoretical mass beside an NMR spectrum with an unexpected peak](figures/09-yield-identity.svg){width=66% fig-alt="Bar chart: theoretical 1.8016 g and isolated 1.70 g, 94.4 percent; NMR stick spectrum with one unexpected extra signal"}
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Not in this selected net transformation; the CH(OH) centre retains its tetrahedral arrangement if no separate racemising process occurs.
+0.0100 mol × 180.16 g/mol = **1.8016 g** theoretical; 1.70 g isolated is **94.4 %**, *if* the solid is pure product. Unexpected NMR peaks challenge that "if".
+
+::: {.try}
+**Try it:** give two reasons the isolated mass could be too high.
+
+::: {.fragment}
+**Answer.** Residual solvent or water, and unreacted starting material or a side product. One TLC spot can hide a co-running impurity.
+:::
 :::
 
-## Choose addition or acyl substitution
-
-![Choose a mechanism from the site and the structural change](figures/06-mechanism-choice.svg){width=85% fig-alt="Choose a mechanism from the site and the structural change"}
-
-Which substrate feature allows the carbonyl to reform by leaving-group loss?
-
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An acyl derivative has a potentially viable leaving group. An ordinary aldehyde/ketone lacks that group at the corresponding position.
+180.16 g/mol is aspirin, made from the 0.0100 mol of salicylic acid we weighed on Day 1, so this closes a loop. The yield calculation is only as good as its assumption that the mass is all product. Neither observation should be ignored: the plausible mass and the strange NMR together say "investigate". Also mention exercise 19: dividing isolated mass by the starting-material mass (1.70 / 1.3812) gives 123 %, a reproducible number that is still chemically wrong because molar masses differ. Running the same wrong formula in R every time doesn't make it right.
 :::
 
-## Resolve: choose addition or acyl substitution
+## Writing a conclusion someone can check
 
-![Choose a mechanism from the site and the structural change](figures/06-mechanism-choice.svg){width=85% fig-alt="Choose a mechanism from the site and the structural change"}
+| part | for the U1 ester |
+|---|---|
+| **claim** | U1 is ethyl acetate |
+| **evidence** | C₄H₈O₂; C=O, no O–H; q 2H, s 3H, t 3H |
+| **reason** | O–CH₂CH₃ explains q/t; CH₃–C=O explains the singlet |
+| **alternative ruled out** | hydroxyketone predicts a doublet and an O–H |
+| **limitation** | simulated data, not a measured real sample |
+| **next test** | measured spectra and a purity check on the isolate |
 
-An acyl derivative has a potentially viable leaving group. An ordinary aldehyde/ketone lacks that group at the corresponding position.
+::: {.try}
+**Try it:** why is "it's the ester because we made the ester" not evidence?
 
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: A nucleophile donates to carbonyl carbon as the C=O pi pair moves to oxygen, giving a tetrahedral species.
+::: {.fragment}
+**Answer.** It's circular: it assumes the reaction worked, which is exactly what the evidence must test.
+:::
 :::
 
-## Apply: choose addition or acyl substitution
-
-Name the first shared elementary event in both pathways.
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: A nucleophile donates to carbonyl carbon as the C=O pi pair moves to oxygen, giving a tetrahedral species.
+This is the Day 22 structure, now with all the chemistry filled in. Each row should be checkable by someone else. The reason row is the one students skip; insist that each observation is linked to a specific atom group. For R-based reports, the reproducibility part is that raw data and code are saved so a fresh session recreates the tables, but reproducible doesn't mean chemically correct; both checks are needed.
 :::
 
-## Read a biological-looking charge pattern
+## A first-move routine for any new problem
 
-![The same molecule can carry acid and basic sites](figures/07-amino-acid.svg){width=85% fig-alt="The same molecule can carry acid and basic sites"}
+| step | ask yourself | came from |
+|---|---|---|
+| 1 | which groups, charges and stereocentres are there? | Weeks 1–2 |
+| 2 | where are the acidic H, the lone pairs, the δ+ carbons? | Days 3, 8 |
+| 3 | which bonds change? draw the arrows from electrons | Weeks 3–4 |
+| 4 | do atoms, charge and valence balance? | Day 1 |
+| 5 | what would the alternative predict, and does the data agree? | Days 21–22 |
 
-Which formal charges are present in the supplied alanine form?
+::: {.try}
+**Try it:** you're handed a molecule you've never seen. What do you do first?
 
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ammonium N is +1 and carboxylate is −1. The centre and methyl remain part of the same carbon skeleton.
+::: {.fragment}
+**Answer.** Read it locally: name the functional groups and look at the atoms around each one, before thinking about any reaction.
+:::
 :::
 
-## Apply: read a biological-looking charge pattern
-
-Can net-neutral alanine still strongly interact with water?
-
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Yes. Its zwitterionic charged sites remain; net charge zero does not eliminate local electrostatic interactions.
+This is the exit question from the old session, turned into a routine. The exam is built exactly like today: a molecule you may not have met, and a sequence of questions that each use one tool. Students who panic at an unfamiliar name should fall back to step 1; the name never matters, the atoms do. Encourage them to write this routine at the top of their exam paper.
 :::
 
-## Compute net charge explicitly
+## Mistakes we see every year
 
-![Alanine net charge is the sum of its formal charges](figures/17-alanine-charge-audit.svg){width=85% fig-alt="Alanine net charge is the sum of its formal charges"}
-
-What is the sum of the two formal charges?
+| mistake | fix |
+|---|---|
+| ranking COOH over CH₃ "because it's bigger" | compare the **next atoms**: (O,O,O) vs (H,H,H) |
+| forgetting to reverse when H is on a wedge | H toward you: **flip** the answer |
+| thinking R means (+) | the sign of rotation is **measured** |
+| dropping water from a proton transfer | audit **atoms and charge** on both sides |
+| keeping an R/S label on a ketone carbon | trigonal planar: **no stereocentre** |
+| "net zero, so no charges" for alanine | net zero, **two charged sites** |
+| a high yield taken as proof of purity | yield **assumes** identity; test it |
 
 ::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: +1 + (−1) = 0. “Zwitterion” describes those opposing charges within one molecule.
+Read each mistake aloud and ask the room why it's wrong before revealing the fix. Every row matches an exercise from today's set, so a student who recognises their own mistake knows which problem to redo. These are also the errors that cost the most marks on past exams.
 :::
 
-## Apply: compute net charge explicitly
+## Summary
 
-Does the amide N of a peptide automatically behave like this free ammonium site?
+| concept | key fact |
+|---|---|
+| read locally | groups, charges and stereocentres first |
+| CIP | OH > COOH > CH₃ > H; H away, clockwise = R |
+| enantiomers | mirror images; sign of rotation is measured |
+| proton transfer | two arrows; stereocentre untouched; audit atoms |
+| ionised fraction | 1/(1 + 10^(pKa − pH)); lactate at pH 7.4 |
+| oxidation | lactic → pyruvic acid; C2 goes 0 → +2 |
+| addition vs substitution | a leaving group lets C=O come back |
+| evidence | claim, evidence, reason, alternative, limitation |
 
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. A peptide N is an amide with different lone-pair delocalisation; local structure must be checked.
-:::
-
-## Change protonation without changing skeleton
-
-![A pH change can alter charge without changing connectivity](figures/18-alanine-high-ph.svg){width=85% fig-alt="A pH change can alter charge without changing connectivity"}
-
-At sufficiently high pH, which drawn site loses H⁺?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ammonium becomes NH₂ while COO⁻ remains; the dominant form has net −1.
-:::
-
-## Apply: change protonation without changing skeleton
-
-Does this protonation-state change alone break a C–C bond?
+**Next:** revision on Days 24–25 ([spectra and calculations](../practice/day24.qmd), [final synthesis](../practice/day25.qmd)), then the exam. **Practice:** [exercises](exercise.qmd) · [self-check](quiz.qmd)
 
 ::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. It changes an N–H bond and charge, preserving the displayed carbon connectivity.
-:::
-
-## Combine independent observations
-
-![Require agreement between different measurements](figures/08-evidence-combination.svg){width=85% fig-alt="Require agreement between different measurements"}
-
-Which candidate fits the supplied carbonyl and ethyl/acetyl proton pattern?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Ethyl ethanoate fits C₄H₈O₂, an ester carbonyl, 3H singlet and 2H quartet/3H triplet.
-:::
-
-## Apply: combine independent observations
-
-What is the role of the molecular formula in that argument?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: It constrains total atoms and unsaturation so that a candidate matching one spectral fragment must also explain the whole composition.
-:::
-
-## Ask an alternative to make a prediction
-
-![A second candidate predicts a different methyl splitting](figures/19-alternative-test.svg){width=85% fig-alt="A second candidate predicts a different methyl splitting"}
-
-What simple coupling feature challenges the hydroxyketone alternative?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Its CH₃ beside CH predicts a doublet in the simple model, and its OH-bearing CH represents 1H rather than an O–CH₂ 2H quartet.
-:::
-
-## Resolve: ask an alternative to make a prediction
-
-![A second candidate predicts a different methyl splitting](figures/19-alternative-test.svg){width=85% fig-alt="A second candidate predicts a different methyl splitting"}
-
-Its CH₃ beside CH predicts a doublet in the simple model, and its OH-bearing CH represents 1H rather than an O–CH₂ 2H quartet.
-
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: No. A candidate must account for the full evidence rather than one familiar region.
-:::
-
-## Apply: ask an alternative to make a prediction
-
-Would a single matching carbonyl band rescue all those disagreements?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: No. A candidate must account for the full evidence rather than one familiar region.
-:::
-
-## Resolve conflicting experimental claims
-
-![High isolated yield cannot rescue contradictory identity evidence](figures/09-yield-identity.svg){width=85% fig-alt="High isolated yield cannot rescue contradictory identity evidence"}
-
-What can 1.70 g against 1.8016 g theoretical establish by itself?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: An apparent mass-based yield of about 94.4%, assuming product mass. Contradictory NMR tests that identity/purity assumption.
-:::
-
-## Resolve: resolve conflicting experimental claims
-
-![High isolated yield cannot rescue contradictory identity evidence](figures/09-yield-identity.svg){width=85% fig-alt="High isolated yield cannot rescue contradictory identity evidence"}
-
-An apparent mass-based yield of about 94.4%, assuming product mass. Contradictory NMR tests that identity/purity assumption.
-
-::: notes
-Suggested 30 seconds; adjust to the explanation and class response. Use a second inspection focus: justify the result by the atom, charge, ratio or observation involved. Next application answer: Residual solvent or another impurity, including starting material, may add to mass. The observations do not identify a unique cause.
-:::
-
-## Apply: resolve conflicting experimental claims
-
-Give two possible contributors to an unexpectedly high mass.
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Residual solvent or another impurity, including starting material, may add to mass. The observations do not identify a unique cause.
-:::
-
-## Write the causal link
-
-![A scientific explanation links claim, observation and chemical reason](figures/10-claim-evidence.svg){width=85% fig-alt="A scientific explanation links claim, observation and chemical reason"}
-
-How does the ester claim connect to actual measured kinds of observations?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: A carbonyl plus O–CH₂ environment and absent broad acid O–H agree with the ester candidate among those tested.
-:::
-
-## Apply: write the causal link
-
-What statement would be circular rather than evidential?
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: “The sample is ester because the file is called ester” uses a label as proof rather than testing structural predictions.
-:::
-
-## Bring quantitative and structural evidence together
-
-![Build a defensible conclusion from separate evidence streams](figures/20-conclusion-streams.svg){width=85% fig-alt="Build a defensible conclusion from separate evidence streams"}
-
-Which evidence streams must agree before a strong synthesis claim?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Ask students to inspect the indicated molecular feature rather than read the answer caption. Worked answer: Structure predictions, spectra and properly calculated masses should agree. A reproducible calculation alone cannot override contradictory chemistry.
-:::
-
-## Apply: bring quantitative and structural evidence together
-
-Name one useful follow-up when purity is uncertain.
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Allow a brief paper or pair check within this slide. Worked answer: Use a suitable independent spectral or separation check, chosen to test a specific remaining alternative; do not merely repeat the yield calculation.
-:::
-
-## Integrate one short case
-
-An isolate has high apparent yield and one TLC spot but unexpected major NMR signals. Write a defensible claim and one targeted next check.
-
-::: notes
-Suggested 120 seconds; adjust to the explanation and class response. Give time to formulate the claim and compare a partner explanation. Worked answer: The apparent yield is calculated under a product-mass assumption that the NMR calls into question. Compare full assigned NMR or use a suitable second separation to test a specific impurity alternative.
-:::
-
-## Compare the worked reasoning
-
-The apparent yield is calculated under a product-mass assumption that the NMR calls into question. Compare full assigned NMR or use a suitable second separation to test a specific impurity alternative.
-
-::: notes
-Suggested 60 seconds; adjust to the explanation and class response. Ask students to identify the exact step or observation their own reasoning omitted. This is a correction interval within the session, not a new topic.
-:::
-
-## Exit explanation
-
-What should an unfamiliar molecule prompt you to do first?
-
-::: notes
-Suggested 40 seconds; adjust to the explanation and class response. Worked answer: Read its functional groups, charges and geometry; use the same local electron and evidence rules before invoking a remembered reaction name. Ask for a causal explanation, not a single vocabulary label.
-:::
-
-## Continue with independent practice
-
-Use the [exercises](exercise.qmd), then the [self-check](quiz.qmd).
-
-All required inputs and explanations are provided locally. The [reading guide](../reference/reading.qmd) offers optional textbook support.
-
-::: notes
-Suggested 20 seconds; adjust to the explanation and class response. Preview the local exercise route. No book purchase or external problem set is needed to complete it. Leave time to note one corrected misconception.
+Close the loop: lactic acid in the blood is lactate, its configuration is S, oxidising it gives pyruvate, esterifying it gives a solvent or a plastic, and we know what a sample is only when the evidence agrees. That's five weeks in one molecule. There's no new lecture after this one. Days 24 and 25 are mixed revision sets in exactly this style, and the exam will ask the same kinds of linked questions. Point to the exercises: 1 to 10 are core, 11 to 16 transfer and 17 to 20 are about evidence.
 :::
