@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img"><title>Attack at carbon or at a beta hydrogen</title><desc>Hydroxide attacking the alpha carbon of 2-bromopropane from the back gives substitution; removing the beta H gives elimination</desc>
+<defs><marker id="headaf3b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#af3b45"/></marker></defs>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#176b91"/></marker></defs>
+<rect width="960" height="420" rx="12" fill="#f7fafc"/>
+<svg x="128.4" y="58.0" width="228.0" height="244.0" viewBox="0 0 228.0 244.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 184.1,26.1 L 131.6,117.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 131.6,117.0 L 154.0,155.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 154.0,155.8 L 176.3,194.6' style='fill:none;fill-rule:evenodd;stroke:#7A3B2E;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 131.6,117.0 L 26.6,117.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-2' d='M 187.0 207.5
+Q 188.9 208.0, 189.8 209.2
+Q 190.8 210.3, 190.8 212.0
+Q 190.8 214.8, 189.0 216.3
+Q 187.3 217.9, 184.0 217.9
+L 177.3 217.9
+L 177.3 198.1
+L 183.2 198.1
+Q 186.6 198.1, 188.3 199.4
+Q 190.0 200.8, 190.0 203.3
+Q 190.0 206.3, 187.0 207.5
+M 180.0 200.3
+L 180.0 206.5
+L 183.2 206.5
+Q 185.1 206.5, 186.2 205.7
+Q 187.2 204.9, 187.2 203.3
+Q 187.2 200.3, 183.2 200.3
+L 180.0 200.3
+M 184.0 215.6
+Q 185.9 215.6, 187.0 214.7
+Q 188.0 213.8, 188.0 212.0
+Q 188.0 210.4, 186.9 209.6
+Q 185.7 208.8, 183.6 208.8
+L 180.0 208.8
+L 180.0 215.6
+L 184.0 215.6
+' fill='#7A3B2E'/>
+<path class='atom-2' d='M 195.3 203.5
+L 195.6 205.5
+Q 197.1 203.2, 199.6 203.2
+Q 200.4 203.2, 201.4 203.5
+L 201.0 205.9
+Q 199.8 205.6, 199.1 205.6
+Q 198.0 205.6, 197.2 206.1
+Q 196.4 206.5, 195.8 207.6
+L 195.8 217.9
+L 193.2 217.9
+L 193.2 203.5
+L 195.3 203.5
+' fill='#7A3B2E'/>
+</svg>
+<svg x="133.6" y="9.7" width="123.0" height="123.0" viewBox="0 0 123.0 123.0" overflow="visible">
+<path class='atom-0' d='M 37.9 51.5
+L 40.6 51.5
+L 40.6 60.0
+L 50.7 60.0
+L 50.7 51.5
+L 53.4 51.5
+L 53.4 71.4
+L 50.7 71.4
+L 50.7 62.2
+L 40.6 62.2
+L 40.6 71.4
+L 37.9 71.4
+L 37.9 51.5
+' fill='#AF3B45'/>
+<path class='atom-0' d='M 57.3 61.4
+Q 57.3 56.6, 59.6 54.0
+Q 62.0 51.3, 66.4 51.3
+Q 70.8 51.3, 73.1 54.0
+Q 75.5 56.6, 75.5 61.4
+Q 75.5 66.2, 73.1 69.0
+Q 70.7 71.7, 66.4 71.7
+Q 62.0 71.7, 59.6 69.0
+Q 57.3 66.2, 57.3 61.4
+M 66.4 69.4
+Q 69.4 69.4, 71.0 67.4
+Q 72.7 65.4, 72.7 61.4
+Q 72.7 57.5, 71.0 55.6
+Q 69.4 53.6, 66.4 53.6
+Q 63.3 53.6, 61.7 55.5
+Q 60.1 57.5, 60.1 61.4
+Q 60.1 65.4, 61.7 67.4
+Q 63.3 69.4, 66.4 69.4
+' fill='#AF3B45'/>
+<path class='atom-0' d='M 78.3 54.6
+L 85.1 54.6
+L 85.1 56.0
+L 78.3 56.0
+L 78.3 54.6
+' fill='#AF3B45'/>
+</svg>
+<circle cx="217.33012701892218" cy="91.09361204426277" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="208.66987298107782" cy="96.09361204426277" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<path d="M 220.0 105.7 Q 257.0 124.8 255.0 166.3" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<path d="M 288.7 222.1 Q 295.7 267.3 340.0 256.2" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<text x="240" y="350" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="bold">pair goes to the α carbon</text>
+<text x="240" y="383" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="normal">substitution (SN2) → propan-2-ol</text>
+<svg x="673.4" y="73.0" width="228.0" height="244.0" viewBox="0 0 228.0 244.0" overflow="visible">
+<path class='bond-0 atom-0 atom-1' d='M 26.6,117.0 L 131.6,117.0' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 131.6,117.0 L 154.0,155.8' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-1 atom-1 atom-2' d='M 154.0,155.8 L 176.3,194.6' style='fill:none;fill-rule:evenodd;stroke:#7A3B2E;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='bond-2 atom-1 atom-3' d='M 131.6,117.0 L 184.1,26.1' style='fill:none;fill-rule:evenodd;stroke:#153747;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-2' d='M 187.0 207.5
+Q 188.9 208.0, 189.8 209.2
+Q 190.8 210.3, 190.8 212.0
+Q 190.8 214.8, 189.0 216.3
+Q 187.3 217.9, 184.0 217.9
+L 177.3 217.9
+L 177.3 198.1
+L 183.2 198.1
+Q 186.6 198.1, 188.3 199.4
+Q 190.0 200.8, 190.0 203.3
+Q 190.0 206.3, 187.0 207.5
+M 180.0 200.3
+L 180.0 206.5
+L 183.2 206.5
+Q 185.1 206.5, 186.2 205.7
+Q 187.2 204.9, 187.2 203.3
+Q 187.2 200.3, 183.2 200.3
+L 180.0 200.3
+M 184.0 215.6
+Q 185.9 215.6, 187.0 214.7
+Q 188.0 213.8, 188.0 212.0
+Q 188.0 210.4, 186.9 209.6
+Q 185.7 208.8, 183.6 208.8
+L 180.0 208.8
+L 180.0 215.6
+L 184.0 215.6
+' fill='#7A3B2E'/>
+<path class='atom-2' d='M 195.3 203.5
+L 195.6 205.5
+Q 197.1 203.2, 199.6 203.2
+Q 200.4 203.2, 201.4 203.5
+L 201.0 205.9
+Q 199.8 205.6, 199.1 205.6
+Q 198.0 205.6, 197.2 206.1
+Q 196.4 206.5, 195.8 207.6
+L 195.8 217.9
+L 193.2 217.9
+L 193.2 203.5
+L 195.3 203.5
+' fill='#7A3B2E'/>
+</svg>
+<line x1="700.0" y1="190.0" x2="674.8" y2="146.3523196492643" stroke="#153747" stroke-width="2.5"/>
+<text x="665.0" y="139.37822173508928" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#153747" text-anchor="middle" font-weight="normal">H</text>
+<svg x="468.6" y="73.0" width="123.0" height="123.0" viewBox="0 0 123.0 123.0" overflow="visible">
+<path class='atom-0' d='M 37.9 51.5
+L 40.6 51.5
+L 40.6 60.0
+L 50.7 60.0
+L 50.7 51.5
+L 53.4 51.5
+L 53.4 71.4
+L 50.7 71.4
+L 50.7 62.2
+L 40.6 62.2
+L 40.6 71.4
+L 37.9 71.4
+L 37.9 51.5
+' fill='#AF3B45'/>
+<path class='atom-0' d='M 57.3 61.4
+Q 57.3 56.6, 59.6 54.0
+Q 62.0 51.3, 66.4 51.3
+Q 70.8 51.3, 73.1 54.0
+Q 75.5 56.6, 75.5 61.4
+Q 75.5 66.2, 73.1 69.0
+Q 70.7 71.7, 66.4 71.7
+Q 62.0 71.7, 59.6 69.0
+Q 57.3 66.2, 57.3 61.4
+M 66.4 69.4
+Q 69.4 69.4, 71.0 67.4
+Q 72.7 65.4, 72.7 61.4
+Q 72.7 57.5, 71.0 55.6
+Q 69.4 53.6, 66.4 53.6
+Q 63.3 53.6, 61.7 55.5
+Q 60.1 57.5, 60.1 61.4
+Q 60.1 65.4, 61.7 67.4
+Q 63.3 69.4, 66.4 69.4
+' fill='#AF3B45'/>
+<path class='atom-0' d='M 78.3 54.6
+L 85.1 54.6
+L 85.1 56.0
+L 78.3 56.0
+L 78.3 54.6
+' fill='#AF3B45'/>
+</svg>
+<circle cx="558.8199762580032" cy="122.8192974309784" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<circle cx="561.4081667090284" cy="132.47855569386908" r="3" stroke="#176b91" fill="#176b91" stroke-width="1"/>
+<path d="M 577.0 132.8 Q 613.6 96.3 653.0 129.8" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<path d="M 684.3 160.5 Q 738.7 125.8 750.7 189.2" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<path d="M 833.7 237.1 Q 840.7 282.3 885.0 271.2" stroke="#af3b45" stroke-width="2.5" fill="none" marker-end="url(#headaf3b45)"/>
+<text x="720" y="350" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#153747" text-anchor="middle" font-weight="bold">pair goes to a β hydrogen</text>
+<text x="720" y="383" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#176b91" text-anchor="middle" font-weight="normal">elimination (E2) → propene</text>
+<line x1="480" y1="30" x2="480" y2="395" stroke="#c9d8df" stroke-width="2"/>
+</svg>
