@@ -1,8 +1,7 @@
 ---
 title: Acids, bases and ionisation
-subtitle: Week 1 · Follow the proton and the electron pair
-session-minutes: 45
-pacing-seconds-per-slide: 40
+subtitle: Week 1 · Day 3 — follow the proton and the electron pair
+author: Organic Chemistry 1
 format:
   revealjs:
     theme:
@@ -12,427 +11,309 @@ format:
     width: 1280
     height: 720
     transition: none
+    history: false
     incremental: false
     menu: true
     html-math-method: katex
 ---
 
-## What should you be able to explain?
+## About this lecture
 
-Draw proton transfers; identify conjugates; compare acid strength and interpret an aqueous speciation model.
+You swallow an aspirin tablet. In your stomach (pH ≈ 2) about **97 %** of it is the neutral acid. A few minutes later, in your blood (pH 7.4), more than **99.9 %** of it is the negatively charged ion. **Same molecule, different form**, and only the pH changed.
+
+Today we learn to predict that kind of switch:
+
+- **Proton transfer:** curved arrows, and what happens to charges
+- **Conjugate pairs:** acid and base differ by exactly one H⁺
+- **Acid strength:** pKa, and why the conjugate base decides it
+- **Equilibrium:** which side of an acid–base reaction wins
+- **Ionisation:** how much is HA and how much is A⁻ at a given pH
+
+Yesterday we used structure to predict boiling points; today the same reading skills predict acidity.
 
 ::: notes
-45-minute budget: two-arrow proton transfer6 min including a60-second drawing; conjugate/charge audits4 min; resonance and stabilisation7 min; pKa interpretation5 min; equilibrium direction5 min with a60-second calculation; curve and midpoint6 min; ratio-to-fraction checks7 min including two60-second attempts; model/extraction boundary3 min; exit2 min. Total45 min including the pauses.
-
-Use the slide pace flexibly: concrete worked operations deserve more time than brief resolved checks. The intended outcome is an explainable chemical argument,not a slide count.
+Open with the aspirin tablet, and keep the numbers on the board; we come back to them at the end and actually calculate them. Aspirin's carboxylic acid has a pKa of about 3.5. The point of the hook: whether a drug carries a charge depends on the pH it's sitting in, and that changes how it crosses membranes, dissolves and gets excreted. Ask the room which form they'd guess crosses a fatty cell membrane more easily, charged or neutral. Most will say neutral, which is right, and it sets up the extraction slide at the end. Remind them that Day 1's formal-charge rules are exactly what we need today: every acid–base step changes one atom's charge.
 :::
 
-## Bring these tools into the room
+## An acid gives H⁺; a base gives an electron pair
 
-Locate lone pairs and calculate formal charge. A curved arrow starts at an electron pair, not at an isolated proton.
+![Ethanoic acid transfers a proton to hydroxide, shown with two curved arrows](figures/sk-proton-transfer.svg){width=82% fig-alt="Ethanoic acid plus hydroxide gives ethanoate plus water; one red curved arrow runs from a hydroxide lone pair to the acidic H, a second from the O–H bond onto the acid oxygen"}
 
-::: notes
-Use a quick spoken diagnostic; do not spend an additional unscheduled revision block. Revisit a missing convention at its worked example.
+A **Brønsted acid** donates H⁺; a **base** accepts it using a lone pair. Two arrows: the base's **lone pair → H**, and the **O–H bonding pair → O**.
+
+::: {.try}
+**Try it:** can a curved arrow start at the H⁺ and point to the base?
+
+::: {.fragment}
+**No.** Curved arrows show where *electrons* go, and a bare proton has none. Start at a lone pair or a bond; H can only be where an arrow ends.
+:::
 :::
 
-## Find the electron source before the proton moves
-
-![Find the electron source before the proton moves](figures/01-proton-transfer.svg){width=82% fig-alt="Find the electron source before the proton moves"}
-
-Point to a hydroxide lone pair, the acidic H and the O–H bonding pair.
-
 ::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+Draw this one slowly on the board alongside the slide. The hydroxide oxygen has three lone pairs; one of them reaches for the acidic hydrogen. At the same time the O–H bond of the acid breaks, and both electrons of that bond stay on the acid oxygen. That's why ethanoate ends up with a negative charge: the oxygen keeps an extra lone pair. Students often draw a single arrow from H to OH⁻, which is backwards. The arrow notation tracks electrons, and this is the same notation we'll use for every mechanism from Week 2 onward, so it's worth getting right on the simplest possible reaction.
 :::
 
-## Protonate a nitrogen using two arrows
+## A nitrogen base: methylamine
 
-![Protonate a nitrogen using two arrows](figures/13-pace.svg){width=82% fig-alt="Protonate a nitrogen using two arrows"}
+![Methylamine's lone pair takes a proton from a generic acid H–A](figures/sk-amine-protonation.svg){width=80% fig-alt="Methylamine lone pair arrow to H of H–A, H–A bond arrow to A; products methylammonium with N plus one and A minus"}
 
-N pair goes to H; H–A bond pair goes to A. The products are ammonium and A⁻.
+Same two arrows. N goes from **3 bonds + 1 lone pair** (neutral) to **4 bonds, no lone pair** (+1). A keeps the bonding pair and becomes A⁻.
 
-## Follow both pairs in the oxygen example
-
-![Follow both pairs in the oxygen example](figures/01-proton-transfer.svg){width=82% fig-alt="Follow both pairs in the oxygen example"}
-
-The base makes a new bond to H while the acid oxygen keeps its original bonding pair.
-
-## Let water play either role
-
-![Let water play either role](figures/14-pace.svg){width=82% fig-alt="Let water play either role"}
-
-Water is the conjugate base of hydronium and the acid corresponding to hydroxide.
-
-## Predict: can the arrow start at H⁺?
-
-An electron-pair-flow arrow shows where an electron pair comes from. Does an isolated proton supply that pair?
+**Total charge is conserved**: 0 on the left, (+1) + (−1) = 0 on the right.
 
 ::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+This is the nitrogen version of the previous slide. Use H–A as a placeholder for any acid, which is how the exercises write it. Ask: where did nitrogen's lone pair go? It became the new N–H bond, so N now has four bonds and, by Day 1's table, a +1 charge. Make students check total charge every time: if both products come out neutral, they've lost a charge somewhere. Amines as bases come back in a big way in Week 4 (amines and aromatics), and the ammonium ion is how most amine drugs are sold, as hydrochloride salts.
 :::
 
-## Resolve: begin at the electron source
+## Conjugate pairs differ by one H⁺
 
-Begin at a lone pair or bond. H⁺ can be the destination but is not a source of an electron pair.
+![Four acids above their conjugate bases](figures/sk-conjugate-pairs.svg){width=78% fig-alt="Ethanoic acid to ethanoate, ethanol to ethoxide, methylammonium to methylamine and ammonium to ammonia, each by loss of H plus"}
 
-::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+Removing H⁺ takes away **one H** and lowers the charge by **one**. The bonding pair stays behind as a new lone pair.
+
+::: {.try}
+**Try it:** what is the conjugate base of CH₃NH₃⁺?
+
+::: {.fragment}
+**CH₃NH₂ (methylamine), neutral.** N goes from four bonds to three bonds plus a lone pair, and +1 drops to 0.
+:::
 :::
 
-## Compare each acid with its conjugate base
-
-![Compare each acid with its conjugate base](figures/02-conjugate-pairs.svg){width=82% fig-alt="Compare each acid with its conjugate base"}
-
-What single particle differs, and by how much does formal charge change?
-
 ::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+One rule covers neutral and charged acids alike. Ethanoic acid (neutral) gives ethanoate (−1); methylammonium (+1) gives methylamine (0). A conjugate base is not necessarily negative, which surprises people. Point out the shaded atom in each pair: that's where the lone pair appears. Common slip: students remove a hydrogen atom (H·) rather than a proton (H⁺) and end up with a neutral radical. The charge bookkeeping catches it.
 :::
 
-## Use one rule for neutral and charged acids
+## Water can be either
 
-![Use one rule for neutral and charged acids](figures/11-pace.svg){width=82% fig-alt="Use one rule for neutral and charged acids"}
+![Water accepting a proton from HCl and donating one to ammonia](figures/sk-water-both.svg){width=82% fig-alt="HCl plus water gives hydronium plus chloride; ammonia plus water gives ammonium plus hydroxide"}
 
-Ethanoic acid gives ethanoate; ammonium gives ammonia. Each loses H⁺.
+With a stronger acid, water is the **base** (→ H₃O⁺). With a stronger base, water is the **acid** (→ OH⁻). Being an acid or base is a *role*, not a fixed label.
 
-## Apply the rule to an alcohol
+::: {.try}
+**Try it:** a student draws neutral HA + neutral B → A⁻ + BH. What's wrong?
 
-![Apply the rule to an alcohol](figures/12-pace.svg){width=82% fig-alt="Apply the rule to an alcohol"}
-
-Ethanol gives ethoxide on deprotonation. Its oxygen changes from two bonds to one and gains a lone pair.
-
-## Predict: remove H⁺ from CH₃NH₃⁺
-
-Write the neutral/charged formula and count N bonds before naming the result.
-
-::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+::: {.fragment}
+**BH must be BH⁺.** Charge is 0 on the left, so A⁻ needs a +1 partner. A neutral BH would make a unit of charge disappear.
+:::
 :::
 
-## Resolve: methylamine is neutral
-
-CH₃NH₂ has three N bonds and one lone pair. The initial +1 charge becomes zero.
-
 ::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+Water's double role is why aqueous acid–base chemistry works at all: hydronium and hydroxide are the conjugates of water. Write the two pairs on the board: H₃O⁺/H₂O and H₂O/OH⁻. Water appears in both, once as the base and once as the acid. The try-it is a charge check written in generic letters; this is exactly the kind of error that shows up in exam mechanisms. Mention that HCl transfers its proton to water essentially completely, while ammonia in water is only slightly protonated, which is our cue for needing numbers: pKa.
 :::
 
-## Explain why the two C–O bonds are equivalent
+## pKa: a logarithmic scale of acid strength
 
-![Explain why the two C–O bonds are equivalent](figures/03-resonance.svg){width=82% fig-alt="Explain why the two C–O bonds are equivalent"}
+![pKa scale with five acids drawn at their positions](figures/sk-pka-scale.svg){width=80% fig-alt="A pKa axis from 0 to 16 with chloroethanoic acid 2.9, ethanoic acid 4.8, ammonium 9.2, methylammonium 10.6 and ethanol 16"}
 
-Which electrons differ between the two ethanoate contributors, and which nuclei stay fixed?
+$$\text{p}K_\text{a} = -\log_{10} K_\text{a}$$
+
+**Lower pKa = stronger acid.** One pKa unit is a factor of **10** in Ka, so ethanoic acid (4.8) is about 10¹¹ times more acidic than ethanol (16).
 
 ::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+Make sure everyone reads the scale in the right direction: small pKa, strong acid. Because it's a log scale, the gap between 4.8 and 16 is not "a bit more than three times"; it's eleven powers of ten. All the values here are approximate aqueous values and that's the only kind we'll compare; pKa values in DMSO or the gas phase are different and not interchangeable. Note that charged acids (ammonium, methylammonium) sit on the same scale as neutral ones. The pKa of methylammonium (10.6) is how we describe the basicity of methylamine. Ask: why is ethanoic acid so much more acidic than ethanol, when both lose H from an O–H? That's the next slide.
 :::
 
-## Distinguish contributor arrows from equilibrium arrows
+## Acid strength lives in the conjugate base
 
-![Distinguish contributor arrows from equilibrium arrows](figures/15-pace.svg){width=82% fig-alt="Distinguish contributor arrows from equilibrium arrows"}
+![Ethoxide with charge on one oxygen, ethanoate with charge shared by two](figures/sk-ethoxide-ethanoate.svg){width=80% fig-alt="Ethoxide with its single charged oxygen shaded; two equivalent drawings of ethanoate with both oxygens shaded"}
 
-Resonance describes one delocalised species. Proton transfer changes which molecular species are present.
-
-## Compare ethoxide with ethanoate
-
-![Compare ethoxide with ethanoate](figures/16-pace.svg){width=82% fig-alt="Compare ethoxide with ethanoate"}
-
-Equivalent delocalisation over two oxygens stabilises ethanoate relative to a localised alkoxide description.
-
-## Predict: can a hydrogen shift be resonance?
-
-If a proposed second drawing moves H from one atom to another, is only electron placement changing?
+Both acids lose H⁺ from O–H. The difference is what's left: in ethoxide the charge sits on **one** O, in ethanoate it's **spread over two equivalent O**. A more stable conjugate base means a stronger acid.
 
 ::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+This is the central idea of the lecture: to compare two acids, compare their conjugate bases. A base that holds its negative charge comfortably has little drive to take the proton back, so the acid gives it up more readily. Ethanoate spreads its charge over two oxygens, ethoxide can't. Students often try to explain acidity by looking at the acid itself ("the O–H bond is weaker"), which is a dead end here. Train them to draw the conjugate base first and ask where the charge goes. The two drawings of ethanoate need explaining, and that's the next slide.
 :::
 
-## Resolve: moving a nucleus changes the species
+## Resonance: one ion, two drawings
 
-A proton shift is a chemical transformation. Resonance contributors preserve nuclear positions and connectivity.
+![Two resonance contributors of ethanoate related by curved arrows](figures/sk-resonance.svg){width=74% fig-alt="Ethanoate contributor with a lone pair arrow forming C=O and the C=O pi bond moving onto the other oxygen, a double-headed arrow, and the second contributor"}
 
-::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+The **↔** means "two drawings of the same thing", not an equilibrium (⇌). The real ion is a blend: each O carries about −½ and the two C–O bonds are identical.
+
+::: {.try}
+**Try it:** a classmate proposes a "second contributor" in which the H moves from one oxygen to the other. Is that resonance?
+
+::: {.fragment}
+**No.** Moving an H moves a nucleus, which makes a different species (a proton transfer). Resonance contributors differ only in where the electrons are drawn.
+:::
 :::
 
-## Read the acid scale in the right direction
-
-![Read the acid scale in the right direction](figures/04-pka-scale.svg){width=82% fig-alt="Read the acid scale in the right direction"}
-
-Lower pKa corresponds to greater acid dissociation under comparable conditions.
-
 ::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+Two classic misconceptions here. First, that ethanoate flips back and forth between the two forms. It doesn't: there's one ion, and neither drawing is the whole truth, a bit like describing a rhinoceros as part dragon, part unicorn. The evidence is that both C–O bonds have the same length, about 126 pm, between a normal C=O and C–O. Second, the equilibrium arrow and the resonance arrow get mixed up. Equilibrium (⇌) connects different species; resonance (↔) connects drawings of one species. Resonance comes back constantly: in amides in Week 4 and in aromatic rings in Week 4 too.
 :::
 
-## Choose the two relevant acid pKa values
+## Induction: electronegative neighbours help
 
-![Choose the two relevant acid pKa values](figures/17-pace.svg){width=82% fig-alt="Choose the two relevant acid pKa values"}
+![Ethanoic, chloroethanoic and trichloroethanoic acid with their pKa values](figures/sk-induction.svg){width=80% fig-alt="Ethanoic acid pKa 4.8, chloroethanoic acid pKa 2.9 and trichloroethanoic acid pKa 0.7 with chlorine atoms shaded"}
 
-For HA + B ⇌ A⁻ + BH⁺, compare HA with BH⁺, rather than comparing unrelated acidic sites.
-
-## A logarithmic change represents a ratio
-
-![A logarithmic change represents a ratio](figures/04-pka-scale.svg){width=82% fig-alt="A logarithmic change represents a ratio"}
-
-A decrease of one pKa unit corresponds to a tenfold increase in Ka, with compatible conventions.
-
-## Estimate the product-favoured equilibrium
-
-![Estimate the product-favoured equilibrium](figures/18-pace.svg){width=82% fig-alt="Estimate the product-favoured equilibrium"}
-
-10^(10.6 − 4.8) is about 6.3 × 10⁵. The product acid is much weaker.
-
-## Predict: use the sign of the difference
-
-If the product acid instead has lower pKa than HA, is the forward equilibrium strongly favoured?
+Cl pulls electron density through the **σ bonds**, which stabilises the carboxylate. More Cl, stronger acid. The effect fades quickly with distance.
 
 ::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+Induction is a second, separate way to stabilise a conjugate base. Keep it distinct from resonance: chlorine does not get a share of the negative charge in any contributor; it just pulls on the bonding electrons along the chain. That's why the effect drops off with distance: 3-chloropropanoic acid (pKa about 4.0) is only slightly stronger than propanoic acid (4.9), while 2-chloropropanoic is about 2.8. Quick check to ask aloud: which is the stronger acid, ClCH₂COOH or CH₃COOH, and why? Insist on a reason, not just the number. Then insist on fair comparisons: same functional group, same solvent, one change at a time. Comparing a carboxylic acid with an alcohol and calling it "induction" mixes up two effects.
 :::
 
-## Resolve: the exponent becomes negative
+## Which way does an acid–base equilibrium lie?
 
-K becomes less than one. Equilibrium favours the side containing the weaker acid/base pair, all else comparable.
+![Ethanoic acid and methylamine reacting with pKa values under each acid](figures/sk-equilibrium.svg){width=82% fig-alt="Ethanoic acid pKa 4.8 plus methylamine in equilibrium with ethanoate plus methylammonium pKa 10.6; K about 6.3 times ten to the fifth"}
+
+Find **the acid on each side** and compare their pKa values. Equilibrium favours the side with the **weaker acid** (higher pKa):
+
+$$K \approx 10^{\,\text{p}K_\text{a}(\text{product acid}) - \text{p}K_\text{a}(\text{reactant acid})}$$
 
 ::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+Walk through it: on the left the acid is ethanoic acid, 4.8. On the right the acid is methylammonium, 10.6. The proton prefers to sit on the weaker acid's base, i.e. methylamine holds it more tightly than ethanoate does. Subtract in the right order: product acid minus reactant acid gives +5.8, so K is about 6.3 × 10⁵ and the products win heavily. The most common mistake is comparing the wrong two numbers, for example the pKa of ethanoic acid with the pKa of methylamine's N–H (which is about 40 and irrelevant here). Always compare HA on the left with BH⁺ on the right.
 :::
 
-## Reverse the constant when reversing the equation
+## Reversing the equation, and what K doesn't tell you
 
-![Reverse the constant when reversing the equation](figures/19-pace.svg){width=82% fig-alt="Reverse the constant when reversing the equation"}
+| direction | equation | K |
+|---|---|---|
+| forward | CH₃COOH + CH₃NH₂ ⇌ CH₃COO⁻ + CH₃NH₃⁺ | 10^5.8^ ≈ 6.3 × 10⁵ |
+| reverse | CH₃COO⁻ + CH₃NH₃⁺ ⇌ CH₃COOH + CH₃NH₂ | 10^−5.8^ ≈ 1.6 × 10⁻⁶ |
 
-The reverse reaction uses the reciprocal equilibrium constant, not the same large number.
+The reverse constant is the **reciprocal**. And K says **where** the equilibrium lies, never **how fast** it gets there.
 
-## Do not infer reaction speed from K
+::: {.try}
+**Try it:** a proton transfer has K = 10⁶. How many seconds does it take to reach equilibrium?
 
-![Do not infer reaction speed from K](figures/05-equilibrium.svg){width=82% fig-alt="Do not infer reaction speed from K"}
-
-An equilibrium ratio compares states. It does not specify how fast the reaction reaches equilibrium.
-
-## Compare a controlled substituent change
-
-![Compare a controlled substituent change](figures/20-pace.svg){width=82% fig-alt="Compare a controlled substituent change"}
-
-A nearby electron-withdrawing Cl group lowers this related carboxylic-acid pKa by stabilising its conjugate base.
-
-## Plot a defined acid rather than an unspecified curve
-
-![Plot a defined acid rather than an unspecified curve](figures/21-pace.svg){width=82% fig-alt="Plot a defined acid rather than an unspecified curve"}
-
-At supplied pKa 4.8, the predicted A⁻ fraction rises continuously as aqueous pH increases.
-
-## Keep induction distinct from resonance
-
-![Keep induction distinct from resonance](figures/06-induction.svg){width=82% fig-alt="Keep induction distinct from resonance"}
-
-Inductive effects act through sigma bonds; ethanoate resonance redistributes electrons within its conjugated group.
-
-## Change the acid while keeping the pH range
-
-![Change the acid while keeping the pH range](figures/22-pace.svg){width=82% fig-alt="Change the acid while keeping the pH range"}
-
-Raising pKa to 6.0 shifts the same-shaped ideal speciation curve toward higher pH.
-
-## Predict: at pH 4.8, which acid is more ionised?
-
-Compare supplied pKa values 4.8 and 6.0 before calculating.
-
-::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+::: {.fragment}
+**K can't tell you.** It compares the two states; speed depends on the pathway and its barrier. (Proton transfers between O and N happen to be very fast, but that's extra information.)
+:::
 :::
 
-## Resolve: the lower-pKa acid is more ionised
-
-The pKa 4.8 acid is 50% A⁻. The pKa 6.0 acid is only about 5.9% A⁻ at the same pH.
-
 ::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+Two short points that show up in the exercises. The reverse reaction uses 1/K, not the same big number; writing the same K for both directions would mean both sides are favoured, which is impossible. And K is a thermodynamic statement. Students conflate "favourable" with "fast" all the time, and it will matter a lot in Week 3 when we compare substitution and elimination, where a reaction can be favourable and still slow. Note for the curious: favourable O–H and N–H proton transfers really are near diffusion-limited, which is why we can treat acid–base steps as instant in mechanisms.
 :::
 
-## Read a curve as a population statement
+## From pKa and pH to a ratio
 
-![Read a curve as a population statement](figures/07-ionisation-curve.svg){width=82% fig-alt="Read a curve as a population statement"}
+$$r = \frac{[\text{A}^-]}{[\text{HA}]} = 10^{\,\text{pH} - \text{p}K_\text{a}} \qquad \text{fraction A}^- = \frac{r}{1 + r}$$
 
-The ordinate is [A⁻]/([HA]+[A⁻]), not the number of protons on an individual molecule.
+| pH − pKa | −2 | −1 | 0 | +1 | +2 |
+|---|---|---|---|---|---|
+| ratio A⁻ : HA | 0.01 | 0.1 | 1 | 10 | 100 |
+| fraction A⁻ | 0.99 % | 9.1 % | 50 % | 90.9 % | 99.0 % |
 
-::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+::: {.try}
+**Try it:** pKa 4.8, pH 3.8. Is the acid 10 % ionised?
+
+::: {.fragment}
+**No, about 9.1 %.** r = 0.1, and the fraction is 0.1/(1 + 0.1) = 0.091. A ratio and a fraction have different denominators.
+:::
 :::
 
-## Start below the midpoint
-
-![Start below the midpoint](figures/23-pace.svg){width=82% fig-alt="Start below the midpoint"}
-
-At pH 3.8 and pKa 4.8, A⁻/HA = 0.1. Convert that ratio into a fraction.
-
-## Check the two limiting directions
-
-![Check the two limiting directions](figures/07-ionisation-curve.svg){width=82% fig-alt="Check the two limiting directions"}
-
-Low pH favours HA; high pH favours A⁻ in this monoprotic dilute aqueous model.
-
-## Evaluate the midpoint exactly
-
-![Evaluate the midpoint exactly](figures/24-pace.svg){width=82% fig-alt="Evaluate the midpoint exactly"}
-
-At pH = pKa the ratio is one, so fraction A⁻ = 1/(1+1) = 0.5.
-
-## Predict: ratio 0.1 means 10% ionised?
-
-Convert A⁻/HA to A⁻/(A⁻+HA). Are the denominators identical?
-
 ::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+This is the Henderson–Hasselbalch relation rearranged, for a single acid in dilute water. Emphasise the two different quantities. The ratio compares A⁻ to HA and can be any positive number. The fraction compares A⁻ to the total and must lie between 0 and 1. If an R calculation gives a "fraction" of 10, the student has calculated the ratio. Learn the middle three columns by heart: one unit below pKa, about 9 %; at pKa, 50 %; one unit above, about 91 %. Two units either side, you're at 99 % one way or the other, but never exactly 100 %.
 :::
 
-## Resolve: about 9.1%, not exactly 10%
+## A fraction describes a population
 
-Use 0.1/(1+0.1) = 0.0909. Ratio and fraction are different quantities.
+![Illustrative particles of HA and A⁻ at three pH values](figures/sk-population.svg){width=82% fig-alt="Three boxes of particles: one A minus and ten HA, five of each, and ten A minus with one HA, with their ratios and fractions"}
+
+At pH = pKa, half the molecules are HA and half are A⁻. **No molecule is "half deprotonated"**: each one is either HA or A⁻ at any instant.
 
 ::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+The pictures are illustrative, not ten real molecules, but they make the ratio-to-fraction step concrete. In the left box, one A⁻ to ten HA is a ratio of 0.1, and one out of eleven is 9.1 %. Students who say "at the midpoint each molecule has lost half a proton" are mixing up a population average with a single molecule. Protons hop on and off constantly, so a given molecule spends part of its time in each form, but at any moment it is one or the other.
 :::
 
-## Interpret 50/50 without half-molecules
+## The ionisation curve
 
-![Interpret 50/50 without half-molecules](figures/08-half-ionised.svg){width=82% fig-alt="Interpret 50/50 without half-molecules"}
+![Fraction A⁻ against pH for acids of pKa 4.8 and 6.0](figures/sk-curve.svg){width=74% fig-alt="Two S-shaped curves rising from 0 to 1, crossing 0.5 at pH 4.8 and at pH 6.0; at pH 4.8 the pKa 6.0 acid is 5.9 percent ionised"}
 
-At the midpoint, equal concentrations of the two molecular species coexist.
+The fraction A⁻ rises with pH and crosses **0.5 exactly at pH = pKa**. A higher pKa shifts the whole curve to the right.
 
-::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+::: {.try}
+**Try it:** at pH 4.8, how much of each acid is ionised?
+
+::: {.fragment}
+**pKa 4.8: 50 %. pKa 6.0: about 5.9 %**, from 1/(1 + 10^1.2^). At the same pH, the lower-pKa acid is more ionised.
+:::
 :::
 
-## Read a low-ionisation particle sketch
-
-![Read a low-ionisation particle sketch](figures/27-pace.svg){width=82% fig-alt="Read a low-ionisation particle sketch"}
-
-One A⁻ among ten illustrative particles corresponds to about 10%, not an atom carrying one-tenth of a charge.
-
-## Read an equal-species sketch
-
-![Read an equal-species sketch](figures/28-pace.svg){width=82% fig-alt="Read an equal-species sketch"}
-
-Five HA and five A⁻ represent equal populations. The sketch is illustrative, not a measurement of ten actual molecules.
-
-## Predict: are all molecules halfway deprotonated?
-
-Describe what a 50% fraction means in terms of definite molecular species.
-
 ::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+This is the plot students build in today's R task: `1 / (1 + 10^(4.8 - pH))` over a pH grid. If their curve goes *down* with pH, the exponent sign is flipped and they've plotted the HA fraction instead. The curve is the same shape for every monoprotic acid; only the midpoint moves. Make sure nobody calls this a titration curve. Here pH is the input we choose; in a titration, pH is the result of adding a measured volume of base, which needs a different model.
 :::
 
-## Resolve: two types coexist
+## Back to aspirin
 
-A particular species is HA or A⁻. The fraction describes how much of the population belongs to each form.
+![Aspirin as the neutral acid in the stomach and as the carboxylate in blood](figures/sk-aspirin.svg){width=72% fig-alt="Aspirin with COOH shaded at stomach pH about 2, mostly neutral; aspirin with COO minus shaded at blood pH 7.4, almost entirely ionised"}
+
+| | pH − pKa | ratio A⁻ : HA | fraction A⁻ |
+|---|---|---|---|
+| stomach, pH 2 | 2 − 3.5 = −1.5 | 0.032 | ≈ 3 % |
+| blood, pH 7.4 | 7.4 − 3.5 = +3.9 | ≈ 8000 | > 99.9 % |
 
 ::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+Now we can do the opening calculation properly. Aspirin's carboxylic acid has pKa about 3.5. In the stomach, pH minus pKa is −1.5, so the ratio is 10^−1.5 ≈ 0.032 and only about 3 % is ionised. In blood, the ratio is 10^3.9 ≈ 8000, so essentially all of it is the carboxylate. The neutral form crosses membranes more easily, which is part of why aspirin can irritate the stomach lining. Honest caveat: most aspirin is actually absorbed in the small intestine, despite being ionised there, because the surface area is enormous. pKa reasoning tells you which form dominates, not the whole pharmacology.
 :::
 
-## Convert the tenfold ratio explicitly
+## Two groups, two pKa values: glycine
 
-![Convert the tenfold ratio explicitly](figures/09-ratios.svg){width=82% fig-alt="Convert the tenfold ratio explicitly"}
+![Glycine drawn neutral and as the zwitterion that exists at pH 7.4](figures/sk-glycine.svg){width=78% fig-alt="Neutral glycine with NH2 and COOH converting at pH 7.4 to the zwitterion with NH3 plus and COO minus"}
 
-At pKa + 1, A⁻/HA = 10. The fraction is 10/11.
+Treat each group separately. COOH (pKa 2.3) at pH 7.4 is far above its pKa, so it's **COO⁻**. NH₃⁺ (pKa 9.6) is below its pKa, so it **stays NH₃⁺**.
 
-::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+::: {.try}
+**Try it:** at pH 7.4, about what fraction of glycine's amino groups are NH₂ rather than NH₃⁺?
+
+::: {.fragment}
+**About 0.6 %.** pH − pKa = 7.4 − 9.6 = −2.2, so the ratio NH₂ : NH₃⁺ is 10^−2.2^ ≈ 0.006.
+:::
 :::
 
-## Read the near-upper part of the curve
-
-![Read the near-upper part of the curve](figures/25-pace.svg){width=82% fig-alt="Read the near-upper part of the curve"}
-
-At pH 5.8, pKa 4.8, the ionised fraction is about 0.9091.
-
-## Check two units above pKa
-
-![Check two units above pKa](figures/26-pace.svg){width=82% fig-alt="Check two units above pKa"}
-
-At pH 6.8 the ratio is 100 and the fraction is 100/101, about 0.9901.
-
-## Predict: may a valid fraction exceed one?
-
-An R calculation returns 10. What quantity may the student have calculated instead?
-
 ::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+This links back to Day 1's zwitterion try-it: we can now explain *why* amino acids exist as H₃N⁺–CH–COO⁻ in cells. For each ionisable group, compare pH with that group's pKa. The neutral "textbook" form with NH₂ and COOH is almost absent in water at any pH, which surprises students. Remind them that the pKa of the ammonium group (9.6) describes the conjugate acid, so the amine is the base here. Proteins carry these charged groups on their side chains as well, which is why protein charge depends on pH.
 :::
 
-## Resolve: likely the ratio, not the fraction
+## Where this model stops
 
-A⁻/HA may exceed one. A⁻/(HA+A⁻) must stay between zero and one.
+![Two-layer extraction showing aqueous ionisation and partition between layers](figures/sk-extraction.svg){width=78% fig-alt="Organic layer above water; HA moves between the layers, while HA and A minus interconvert in the water; labels say pKa and pH describe the aqueous step, partition coefficient and phase volumes the transfer"}
 
-::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
+Our equation describes **one acid in dilute water at a chosen pH**. It doesn't give the pH during a titration, and it doesn't tell you how much ends up in an organic layer.
+
+::: {.try}
+**Try it:** at high pH an acid is mostly A⁻. What else would you need to predict how much you recover from an organic extract?
+
+::: {.fragment}
+**Partition coefficients and the phase volumes**, plus the starting amount and any losses. Aqueous ionisation is only one piece.
+:::
 :::
 
-## Separate aqueous chemistry from phase transfer
-
-![Separate aqueous chemistry from phase transfer](figures/10-model-boundary.svg){width=82% fig-alt="Separate aqueous chemistry from phase transfer"}
-
-Which part of the diagram is described by the supplied acid–base equation?
-
 ::: notes
-Begin this chemical argument with the displayed structure. Ask for a concrete atom, bond, label or observation rather than the topic name. Keep the first prediction brief.
+This is the lab connection. In a work-up you shake an organic solvent with aqueous acid or base, and the charged form stays in the water. So raising the pH pulls a carboxylic acid out of the organic layer, and lowering it pushes it back. That's the principle, but the numbers need more: how strongly the neutral HA prefers the organic phase (the partition coefficient), how much of each solvent you use, and how much you started with. Being clear about what a model can and can't predict is part of doing chemistry with R: the curve you plot today is a model consequence of an assumed pKa, not measured data.
 :::
 
-## Read a mostly ionised population
+## Mistakes we see every year
 
-![Read a mostly ionised population](figures/29-pace.svg){width=82% fig-alt="Read a mostly ionised population"}
-
-Nine A⁻ among ten illustrative species means predominantly the conjugate base, without implying complete ionisation.
-
-## List the extra extraction inputs
-
-![List the extra extraction inputs](figures/10-model-boundary.svg){width=82% fig-alt="List the extra extraction inputs"}
-
-Partition behaviour and the two phase volumes affect recovery beyond aqueous species ratios.
-
-## Do not mislabel the horizontal axis
-
-![Do not mislabel the horizontal axis](figures/30-pace.svg){width=82% fig-alt="Do not mislabel the horizontal axis"}
-
-This speciation plot takes pH as input. A titration curve instead needs a model connecting titrant addition to pH.
-
-## Predict: what did changing pKa in R test?
-
-Was it an experimental measurement, a proof of solvent recovery, or a sensitivity check of the supplied model?
+| mistake | fix |
+|---|---|
+| curved arrow starting at H⁺ | start at a **lone pair or a bond** |
+| conjugate base with the same charge as the acid | removing H⁺ lowers the charge **by one** |
+| "lower pKa = weaker acid" | lower pKa = **stronger** acid |
+| comparing pKa values of unrelated sites | compare **HA on the left** with **BH⁺ on the right** |
+| resonance forms "switching back and forth" | one ion; **↔** is not **⇌** |
+| ratio 0.1 read as 10 % ionised | fraction = r/(1 + r) = **9.1 %** |
+| "half the molecule is deprotonated" | half the **molecules** are A⁻ |
+| a large K means a fast reaction | K gives **position**, not rate |
 
 ::: notes
-Give 15–20 seconds for an individual prediction or a small drawing. Ask one student to state the rule they used; resolve on the next slide within this same timed block.
+Read each mistake aloud and ask the room why it's wrong before revealing the fix. Every row maps to an exercise: arrows to 1 and 3, charges to 4 and 18, pKa direction and comparison to 5, 7 and 9, resonance to 6, ratio and fraction to 10 to 14, populations to 11, and K versus rate to 16.
 :::
 
-## Resolve: a model comparison
+## Summary
 
-The plot visualises consequences of an assumed pKa and dilute aqueous relationship. It is neither new measured data nor an extraction calculation.
+| concept | key fact |
+|---|---|
+| proton transfer | two arrows: lone pair → H, bond pair → atom |
+| conjugate pair | differ by one H⁺; charge changes by one |
+| pKa | lower = stronger; 1 unit = factor of 10 |
+| acid strength | judged by conjugate-base stability |
+| stabilisation | resonance (↔) and induction (σ bonds) |
+| equilibrium | weaker acid side wins; K ≈ 10^ΔpKa^ |
+| ratio and fraction | r = 10^pH\ −\ pKa^, fraction = r/(1 + r) |
+| midpoint | pH = pKa gives 50 % A⁻ |
 
-::: notes
-Use the explicit answer to diagnose the named misconception. Move on once students can state the rule; the practice page provides further worked attempts.
-:::
-
-## Combine the tools in one explanation
-
-Use CH₃COOH + CH₃NH₂ as the common example linking electron flow, conjugates, pKa and population.
-
-::: notes
-Take a 30-second sketch or explanation, then ask for one observation and the reason linking it to the conclusion. This is included in the 45-minute session.
-:::
-
-## Your next independent work
-
-Use the [exercises](exercise.qmd), then the [self-check](quiz.qmd). Required core problems and optional transfer work are labelled separately.
-
-## One-sentence exit explanation
-
-Write one chemical claim, the feature that supports it and one limit of the inference.
-
-The [reading guide](../reference/reading.qmd) provides optional textbook support; no textbook is needed to attempt the local practice.
+**Next:** conformations, how molecules twist about single bonds (Day 6). **Practice:** [exercises](exercise.qmd) · [self-check](quiz.qmd)
 
 ::: notes
-Collect one sentence or hear one example. Stop at 45 minutes; do not append another tutorial to the lecture.
+Recite the procedure once: draw the conjugate base, find where the charge goes, compare pKa values on the same scale, and use pH minus pKa to get the ratio. Days 4 and 5 are consolidation days, and Day 5 puts structure, properties and acidity together, so today's material comes straight back. Today's R task plots the ionisation curve; encourage students to predict the fractions at pH 3.8, 4.8 and 5.8 before running the code. After the consolidation days we start Week 2 with conformations, where the question shifts from which atoms are bonded to how the molecule is shaped in 3D.
 :::
